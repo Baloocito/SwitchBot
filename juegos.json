@@ -1,0 +1,28 @@
+{
+  "ajustes": {
+    "pais_eshop": "US",
+    "baja_minima_pct": 10
+  },
+  "digitales": [
+    {
+      "nombre": "Nombre del juego digital",
+      "url": "PEGA_AQUI el link del juego en nintendo.com/us/store/products/...",
+      "nsuid": "",
+      "precio_objetivo_usd": 40
+    },
+    {
+      "nombre": "Otro juego (sin objetivo: avisa con cualquier oferta)",
+      "url": "PEGA_AQUI el link del juego en nintendo.com/us/store/products/..."
+    }
+  ],
+  "fisicos": [
+    {
+      "nombre": "Nombre del juego fisico",
+      "precio_objetivo_clp": 45000,
+      "urls": [
+        "PEGA_AQUI el link del producto en una tienda chilena",
+        "PEGA_AQUI el link del mismo juego en otra tienda"
+      ]
+    }
+  ]
+}
