@@ -11,17 +11,35 @@ y te manda por Telegram un resumen agrupado por juego con las ofertas nuevas.
 | `juegos.json` | raíz |
 | `alertas.yml` | `.github/workflows/alertas.yml` |
 | `state.json` | raíz (lo crea y actualiza el bot solo) |
+| `history.json` | raíz (historial de precios; lo crea el bot solo) |
 
-## Cuándo avisa
+## Comandos de Telegram
 
-Te avisa de un juego cuando se cumple cualquiera de estas condiciones:
+`/precios`, `/ofertas`, `/agregar`, `/objetivo`, `/config` y más. Se instalan aparte en Cloudflare
+(gratis): ver `COMANDOS.md`. El archivo `worker.js` no hace falta subirlo al repo, se pega en Cloudflare.
 
-- **Descuento:** la tienda o la eShop lo muestra con 25 % o más de rebaja sobre su precio normal (`descuento_minimo_pct`).
-- **Baja:** el precio bajó 10 % o más desde la revisión anterior (`baja_minima_pct`).
-- **Objetivo:** llegó a tu precio objetivo, si le pusiste uno (`objetivo_clp` / `objetivo_usd`).
+## Cómo decide si algo es oferta
 
-No repite alertas: vuelve a avisar solo si el precio baja aún más, o si la oferta terminó y después vuelve.
-La primera revisión te manda todas las ofertas que ya estaban activas.
+El bot junta los avisos del mismo juego aunque cada tienda lo escriba distinto
+("Metroid Prime 4 Beyond NSW", "Juego Metroid Prime 4: Beyond Nintendo Switch"…), separando
+Switch de Switch 2 y las ediciones especiales. Usa el catálogo de la eShop como nombre oficial.
+
+Para cada juego guarda el precio más bajo de cada día en `history.json`, y mide el descuento
+contra un **precio de referencia real**, no contra el "antes" que publica la tienda:
+
+1. **Su precio típico** (mediana de los últimos 90 días), cuando ya hay 7 días o más de datos.
+2. Si no, **las otras tiendas** (mediana de lo que cobran las demás).
+3. Solo si no hay con qué comparar, lo que dice la tienda (y la alerta lo indica).
+
+Te avisa cuando:
+
+- 🏆 **Mínimo histórico:** es el precio más bajo que ha visto (desde 7 días de datos).
+- **Descuento real** de 25 % o más contra la referencia (`descuento_minimo_pct`, `/descuento`).
+- 📉 **Baja** de 10 % o más desde la revisión anterior (`baja_minima_pct`, `/baja`).
+- 🎯 **Objetivo:** llegó a tu precio objetivo.
+
+En la eShop el precio normal es confiable, así que el descuento se mide contra ese precio.
+No repite alertas: vuelve a avisar solo si el precio baja más, o si la oferta terminó y después vuelve.
 
 ## Agregar juegos
 

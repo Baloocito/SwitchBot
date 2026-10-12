@@ -31,6 +31,7 @@ import requests
 BASE = Path(__file__).resolve().parent
 CONFIG_FILE = BASE / "juegos.json"
 STATE_FILE = BASE / "state.json"
+HIST_FILE = BASE / "history.json"
 
 PRICE_API = "https://api.ec.nintendo.com/v1/price"
 ALGOLIA_URL = "https://U3B6GR4UA3-dsn.algolia.net/1/indexes/store_game_en_us"
@@ -64,7 +65,9 @@ EXCLUIR_SIEMPRE = {
     "cargador", "dock", "grip", "volante", "teclado", "mouse", "bolso",
     "cartas", "carta", "tcg", "booster", "sobre", "sobres", "mazo", "album",
     "lego", "juguete", "plush", "pin", "pins", "gorro", "chaqueta", "lampara",
-    "cojin", "manta", "billetera", "stickers", "sticker",
+    "cojin", "manta", "billetera", "stickers", "sticker", "auriculares", "audifonos",
+    "almacenamiento", "volantes", "compatibles", "compatible", "accesorio", "accesorios",
+    "premgear", "kit", "estuches", "fundas", "protectores", "lapiz",
 }
 
 VOLCAR = None               # carpeta donde el diagnostico guarda las paginas
@@ -111,7 +114,7 @@ def usd(n):
 
 def norm(texto):
     """minusculas, sin tildes ni simbolos: 'Pokémon™ Legends: Z-A' -> 'pokemon legends z a'"""
-    t = re.sub(r"[™®©]", " ", str(texto))
+    t = re.sub(r"[’'´`]", "", re.sub(r"[™®©]", " ", str(texto)))
     t = unicodedata.normalize("NFKD", t)
     t = "".join(c for c in t if not unicodedata.combining(c)).lower()
     return " ".join(re.sub(r"[^a-z0-9]+", " ", t).split())
@@ -190,6 +193,7 @@ def buscar_eshop(termino):
             "titulo": re.sub(r"[™®©]", "", h.get("title", nsuid)).strip(),
             "nsuid": nsuid,
             "url": urljoin(NINTENDO_WEB, url) if url else "",
+            "plataforma": "Switch 2" if h.get("platformCode") == "NINTENDO_SWITCH_2" else "Switch",
         })
     return out
 
@@ -538,41 +542,209 @@ def precio_de_pagina(url):
 
 # -------------------------------------------------------------- reglas
 
-def evaluar(state_items, clave, precio, normal, objetivo, ajustes, info=None):
-    """Decide si hay que avisar. Devuelve el motivo o None."""
-    s = state_items.setdefault(clave, {})
-    s.update(info or {})
-    s["normal"] = normal if normal and normal > precio else None
-    anterior = s.get("ultimo")
+# ---------------------------------------------------------------- productos
+#
+# Un "producto" junta todos los avisos del mismo juego (misma plataforma y
+# edicion) aunque cada tienda lo escriba distinto. El nombre oficial se toma
+# del catalogo de la eShop cuando hay coincidencia.
+
+STOP = {"the", "of", "and", "de", "la", "el", "los", "las", "y", "del", "for", "para",
+        "a", "an", "en", "to", "with", "con", "por"}
+RUIDO = {"juego", "videojuego", "videojuegos", "nintendo", "switch", "nsw", "fisico",
+         "physical", "game", "games", "card", "version", "americano", "americana", "nuevo",
+         "sellado", "original", "sniper", "snipercl", "cl", "megagames", "standard",
+         "estandar", "digital", "rpg", "latam", "ntsc", "us", "usa", "edition"}
+SINONIMOS = {"ed": "edition", "edicion": "edition"}
+VARIANTES = {"collector", "coleccionista", "coleccion", "limited", "limitada", "steelbook",
+             "japan", "japon", "japones", "import", "importado", "asia", "asiatica", "europe",
+             "europa", "eur", "pal", "bundle", "signature", "premium"}
+PLAT2_RE = re.compile(r"\b(nintendo switch 2 edition|switch 2 edition|switch 2|switch2|ns2|nsw2|sw2)\b")
+SUFIJO_S2_RE = re.compile(r"\s*[–—-]\s*Nintendo Switch 2 Edition\s*|\s+Nintendo Switch 2 Edition\s*", re.I)
+
+
+def plataforma_de(titulo):
+    t = norm(re.sub(r"[’'´`]", "", titulo))
+    return "Switch 2" if PLAT2_RE.search(t) else "Switch"
+
+
+def tokens_de(titulo):
+    t = norm(re.sub(r"[’'´`]", "", titulo))
+    t = PLAT2_RE.sub(" ", t)
+    out = []
+    for w in t.split():
+        w = SINONIMOS.get(w, w)
+        if len(w) > 3 and w.endswith("s") and not w.endswith("ss"):
+            w = w[:-1]
+        if w not in STOP and w not in RUIDO:
+            out.append(w)
+    return out
+
+
+def _con_pegados(toks):
+    """tokens + pares pegados ('dream land' -> 'dreamland')."""
+    s = set(toks)
+    s.update(a + b for a, b in zip(toks, toks[1:]))
+    return s
+
+
+def emparejar(titulo, plataforma, candidatos):
+    """Busca el juego de la eShop que corresponde a un titulo de tienda.
+    candidatos: [{nombre, toks, plataforma, nsuid}] del mismo juego/saga."""
+    st_toks = tokens_de(titulo)
+    st = _con_pegados(st_toks)
+    mejor, mejor_score = None, None
+    for c in candidatos:
+        ct = c["toks"]
+        if not ct:
+            continue
+        cubiertos = {w for w in ct if w in st}
+        for a, b in zip(ct, ct[1:]):
+            if a + b in st:
+                cubiertos.update((a, b))
+        cov = len(cubiertos) / len(set(ct))
+        if cov < 0.7 or len(cubiertos) < min(2, len(set(ct))):
+            continue
+        extra = len({w for w in st_toks if w not in ct and w not in VARIANTES
+                     and not any(w == a + b for a, b in zip(ct, ct[1:]))})
+        if cov < 1 and extra:
+            continue      # le faltan palabras Y tiene otras distintas: es otro juego
+        score = (cov, c["plataforma"] == plataforma, -extra, -len(ct))
+        if mejor_score is None or score > mejor_score:
+            mejor, mejor_score = c, score
+    return mejor
+
+
+def candidatos_eshop(state):
+    """Catalogo eShop conocido, agrupado por juego (saga)."""
+    por_juego = {}
+    for nsuid, it in state.get("eshop", {}).items():
+        if not it.get("titulo") or not it.get("juego"):
+            continue
+        nombre = SUFIJO_S2_RE.sub(" ", it["titulo"]).strip(" -–—")
+        nombre = re.sub(r"\s{2,}", " ", nombre)
+        plat = it.get("plataforma") or plataforma_de(it["titulo"])
+        por_juego.setdefault(it["juego"], []).append({
+            "nombre": nombre, "toks": tokens_de(nombre), "plataforma": plat, "nsuid": nsuid,
+        })
+    return por_juego
+
+
+LIMPIAR_RE = re.compile(
+    r"\b(video)?juegos?\b|\bnintendo\s+switch\s*2\b|\bnintendo\s+switch\b|\bswitch\s*2\b|"
+    r"\bswitch\b|\bnsw2?\b|\bns2\b|\bsw2\b|\(\s*\)|\bf[ií]sico\b|\bphysical( game card)?\b|"
+    r"\bpara\b(?=\s*$)|\bfor\b(?=\s*$)", re.I)
+
+
+def limpiar_titulo(titulo):
+    """'Videojuego Nintendo Switch 2 Hyrule Warriors - Switch' -> 'Hyrule Warriors'"""
+    t = titulo
+    for _ in range(3):
+        t = LIMPIAR_RE.sub(" ", t)
+        t = re.sub(r"\(\s*\)", " ", t)
+        t = re.sub(r"\s*[-–—|]\s*(?=[-–—|]|$)", " ", t)    # guiones que quedaron colgando
+        t = re.sub(r"\s+(for|para)\s*(?=[-–—|]|$)", " ", t, flags=re.I)
+        t = re.sub(r"\s{2,}", " ", t).strip(" -–—|,:")
+    return t or titulo.strip()
+
+
+def clave_producto(listado, candidatos):
+    """-> (clave, nombre, plataforma, variante, nsuid_o_None)"""
+    plat = plataforma_de(listado["titulo"])
+    c = emparejar(listado["titulo"], plat, candidatos)
+    toks = set(tokens_de(listado["titulo"]))
+    if c:
+        mismos = [x for x in candidatos if x["nombre"] == c["nombre"]]
+        if any(x["plataforma"] == plat for x in mismos):
+            c = next(x for x in mismos if x["plataforma"] == plat)
+        elif plat == "Switch":
+            plat = c["plataforma"]          # la tienda no lo dice; el juego solo existe en S2
+        variante = sorted((toks & VARIANTES) - set(c["toks"]))
+        nombre, base, nsuid = c["nombre"], norm(c["nombre"]), c["nsuid"]
+    else:
+        variante = []
+        nombre = limpiar_titulo(listado["titulo"])
+        base, nsuid = " ".join(tokens_de(listado["titulo"])), None
+    clave = f"{base}|{plat}" + (f"|{'-'.join(variante)}" if variante else "")
+    return clave, nombre, plat, variante, nsuid
+
+
+# ---------------------------------------------------------------- historial
+
+DIAS_HISTORIAL = 400
+DIAS_TIPICO = 90
+MIN_DIAS = 7          # dias de datos antes de confiar en "tipico" y "minimo historico"
+
+
+def hoy_chile():
+    try:
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("America/Santiago")).strftime("%Y-%m-%d")
+    except Exception:
+        return time.strftime("%Y-%m-%d", time.gmtime(time.time() - 3 * 3600))
+
+
+def _mediana(xs):
+    xs = sorted(xs)
+    n = len(xs)
+    if not n:
+        return None
+    return xs[n // 2] if n % 2 else (xs[n // 2 - 1] + xs[n // 2]) / 2
+
+
+def registrar(serie, hoy, precio, tienda=None):
+    """Guarda el minimo del dia y recorta lo antiguo."""
+    previo = serie.get(hoy)
+    valor_prev = previo[0] if isinstance(previo, list) else previo
+    if valor_prev is None or precio < valor_prev:
+        serie[hoy] = [precio, tienda] if tienda is not None else precio
+    if len(serie) > DIAS_HISTORIAL:
+        for d in sorted(serie)[: len(serie) - DIAS_HISTORIAL]:
+            del serie[d]
+
+
+def estadisticas(serie, hoy):
+    """Usa solo dias anteriores a hoy."""
+    prev = {d: (v[0] if isinstance(v, list) else v) for d, v in serie.items() if d < hoy}
+    if not prev:
+        return {"dias": 0}
+    d_min = min(prev, key=lambda d: prev[d])
+    tienda_min = serie[d_min][1] if isinstance(serie[d_min], list) else None
+    recientes = [v for d, v in sorted(prev.items())[-DIAS_TIPICO:]]
+    return {
+        "dias": len(prev),
+        "min": prev[d_min], "min_fecha": d_min, "min_tienda": tienda_min,
+        "max": max(prev.values()),
+        "tipico": _mediana(recientes) if len(prev) >= MIN_DIAS else None,
+    }
+
+
+# ---------------------------------------------------------------- reglas
+
+def decidir(s, precio, motivos):
+    """Anti-repeticion: avisa si hay motivo y el precio es menor que el ultimo avisado."""
     avisado = s.get("avisado")
-    desc_min = ajustes.get("descuento_minimo_pct", 25)
-    baja_min = ajustes.get("baja_minima_pct", 10)
-
-    motivo = None
-    if objetivo is not None and precio <= objetivo:
-        motivo = "objetivo"
-    elif normal and normal > precio and 100 * (1 - precio / normal) >= desc_min:
-        motivo = "descuento"
-    elif anterior and 100 * (1 - precio / anterior) >= baja_min:
-        motivo = "baja"
-
-    avisar = bool(motivo) and (avisado is None or precio < avisado)
+    avisar = bool(motivos) and (avisado is None or precio < avisado)
     if avisar:
         PENDIENTES.append((s, avisado))
         s["avisado"] = precio
-    elif not motivo and (avisado is None or precio > avisado):
-        s["avisado"] = None          # termino la oferta: se rearma la alerta
-    s["ultimo"] = precio
-    s["visto"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
-    return motivo if avisar else None, anterior
+    elif not motivos and (avisado is None or precio > avisado):
+        s["avisado"] = None
+    return avisar
+
+
+def ahora_iso():
+    return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
 
 # ---------------------------------------------------------------- revisar
 
-def revisar_eshop(cfg, state, alertas):
+def revisar_eshop(cfg, state, hist, alertas):
     aj = cfg.get("ajustes", {})
     pais = aj.get("pais_eshop", "US")
-    encontrados = {}  # nsuid -> (juego, titulo, url)
+    desc_min = aj.get("descuento_minimo_pct", 25)
+    hoy = hoy_chile()
+    encontrados = {}  # nsuid -> (juego, hit)
     for juego in cfg.get("juegos", []):
         if juego.get("eshop") is False:
             continue
@@ -584,7 +756,7 @@ def revisar_eshop(cfg, state, alertas):
                 continue
             for h in hits:
                 if coincide(h["titulo"], juego, exigir_plataforma=False):
-                    encontrados.setdefault(h["nsuid"], (juego, h["titulo"], h["url"]))
+                    encontrados.setdefault(h["nsuid"], (juego, h))
             time.sleep(0.3)
     log(f"  eShop: {len(encontrados)} juegos encontrados")
     if not encontrados:
@@ -595,35 +767,57 @@ def revisar_eshop(cfg, state, alertas):
         log(f"  eShop: fallo la consulta de precios: {e}")
         return
     items = state.setdefault("eshop", {})
-    for nsuid, (juego, titulo, url) in sorted(encontrados.items(), key=lambda x: x[1][1]):
+    hist_e = hist.setdefault("eshop", {})
+    for nsuid, (juego, h) in sorted(encontrados.items(), key=lambda x: x[1][1]["titulo"]):
         p = precios.get(nsuid)
         if not p:
             continue
         actual = p["oferta"] if p["oferta"] is not None else p["regular"]
-        motivo, _ = evaluar(items, nsuid, actual, p["regular"],
-                            juego.get("objetivo_usd"), aj,
-                            {"titulo": titulo, "url": url, "juego": juego["nombre"],
-                             "origen": "eShop " + pais, "moneda": "USD", "fin": p["fin"]})
-        log(f"    {titulo}: {usd(actual)}" + (f" (normal {usd(p['regular'])})"
-                                               if p["oferta"] is not None else ""))
-        if motivo:
-            linea = f'<a href="{esc_attr(url)}">{esc(titulo)}</a>\n   💸 {usd(actual)}'
+        serie = hist_e.setdefault(nsuid, {})
+        est = estadisticas(serie, hoy)
+        registrar(serie, hoy, actual)
+
+        s = items.setdefault(nsuid, {})
+        anterior = s.get("ultimo")
+        s.update({"titulo": h["titulo"], "url": h["url"], "juego": juego["nombre"],
+                  "plataforma": h.get("plataforma") or plataforma_de(h["titulo"]),
+                  "origen": "eShop " + pais, "moneda": "USD", "fin": p["fin"],
+                  "normal": p["regular"] if p["oferta"] is not None else None,
+                  "regular": p["regular"], "ultimo": actual, "visto": ahora_iso(),
+                  "min_hist": est.get("min"), "min_fecha": est.get("min_fecha"),
+                  "dias": est["dias"]})
+
+        pct = 100 * (1 - actual / p["regular"]) if p["regular"] else 0
+        objetivo = juego.get("objetivo_usd")
+        motivos = []
+        if objetivo is not None and actual <= objetivo:
+            motivos.append("objetivo")
+        if est["dias"] >= MIN_DIAS and est.get("min") and actual < est["min"] * 0.99:
+            motivos.append("minimo")
+        if pct >= desc_min:
+            motivos.append("descuento")
+        if anterior and 100 * (1 - actual / anterior) >= aj.get("baja_minima_pct", 10):
+            motivos.append("baja")
+        log(f"    {h['titulo']}: {usd(actual)}" + (f" (normal {usd(p['regular'])})"
+                                                   if p["oferta"] is not None else ""))
+        if decidir(s, actual, motivos):
+            linea = f'<a href="{esc_attr(h["url"])}">{esc(h["titulo"])}</a>\n   💸 {usd(actual)}'
             if p["oferta"] is not None:
-                pct = round(100 * (1 - actual / p["regular"]))
-                linea += f"  <s>{usd(p['regular'])}</s>  −{pct}%"
+                linea += f"  <s>{usd(p['regular'])}</s>  −{round(pct)}%"
             if p["fin"]:
                 linea += f"  ⏳ hasta {esc(p['fin'][:10])}"
-            if motivo == "objetivo":
+            if "minimo" in motivos:
+                linea += "\n   🏆 mínimo histórico"
+            if "objetivo" in motivos:
                 linea += "  🎯"
             alertas.setdefault(("🎮", juego["nombre"], "eShop " + pais), []).append(linea)
 
 
-def revisar_tiendas(cfg, state, alertas):
-    aj = cfg.get("ajustes", {})
-    items = state.setdefault("tiendas", {})
+def leer_tiendas(cfg, state, alertas):
+    """Busca en cada tienda. Devuelve [(juego, tienda, listado)]."""
     fallos = state.setdefault("fallos", {})
     juegos = cfg.get("juegos", [])
-
+    listados = []
     for tienda in cfg.get("tiendas", []):
         if tienda.get("activa") is False:
             continue
@@ -660,17 +854,8 @@ def revisar_tiendas(cfg, state, alertas):
                 )
             continue
         fallos.pop(nombre_t, None)
-        log(f"  {nombre_t} [{cache.get('metodo')}]: {len(hallados)} productos que calzan")
-
-        for url, (juego, p) in sorted(hallados.items(), key=lambda x: x[1][1]["titulo"]):
-            motivo, anterior = evaluar(items, f"{nombre_t}|{url}", p["precio"], p.get("normal"),
-                                       juego.get("objetivo_clp"), aj,
-                                       {"titulo": p["titulo"], "url": url, "juego": juego["nombre"],
-                                        "origen": nombre_t, "moneda": "CLP"})
-            if motivo:
-                alertas.setdefault(("📦", juego["nombre"], "tiendas"), []).append(
-                    _linea_fisico(p["titulo"], url, nombre_t, p["precio"], p.get("normal"),
-                                  anterior, motivo))
+        log(f"  {nombre_t} [{cache.get('metodo')}]: {len(hallados)} avisos que calzan")
+        listados += [(j, nombre_t, p) for j, p in hallados.values()]
 
     # links puestos a mano (para tiendas que no se dejan buscar)
     for juego in juegos:
@@ -683,25 +868,112 @@ def revisar_tiendas(cfg, state, alertas):
                 log(f"  link manual sin precio: {url}")
                 continue
             dom = re.sub(r"^https?://(www\.)?", "", url).split("/")[0]
-            motivo, anterior = evaluar(items, f"link|{url}", info["precio"], info["normal"],
-                                       juego.get("objetivo_clp"), aj,
-                                       {"titulo": juego["nombre"], "url": url,
-                                        "juego": juego["nombre"], "origen": dom, "moneda": "CLP"})
-            if motivo:
-                alertas.setdefault(("📦", juego["nombre"], "tiendas"), []).append(
-                    _linea_fisico(juego["nombre"], url, dom, info["precio"], info["normal"],
-                                  anterior, motivo))
+            listados.append((juego, dom, {"titulo": juego["nombre"], "url": url,
+                                          "precio": info["precio"], "normal": info["normal"]}))
+    return listados
 
 
-def _linea_fisico(titulo, url, tienda, precio, normal, anterior, motivo):
-    linea = f'<a href="{esc_attr(url)}">{esc(titulo)}</a> · {esc(tienda)}\n   💸 {clp(precio)}'
-    if normal and normal > precio:
-        linea += f"  <s>{clp(normal)}</s>  −{round(100 * (1 - precio / normal))}%"
-    elif anterior and anterior > precio:
-        linea += f"  📉 antes {clp(anterior)}"
-    if motivo == "objetivo":
-        linea += "  🎯"
-    return linea
+def revisar_productos(cfg, state, hist, listados, alertas):
+    aj = cfg.get("ajustes", {})
+    desc_min = aj.get("descuento_minimo_pct", 25)
+    baja_min = aj.get("baja_minima_pct", 10)
+    hoy = hoy_chile()
+    cands = candidatos_eshop(state)
+    eshop = state.get("eshop", {})
+    hist_p = hist.setdefault("productos", {})
+    productos = state.setdefault("productos", {})
+
+    grupos = {}
+    for juego, tienda, l in listados:
+        clave, nombre, plat, variante, nsuid = clave_producto(l, cands.get(juego["nombre"], []))
+        g = grupos.setdefault(clave, {"juego": juego, "nombre": nombre, "plataforma": plat,
+                                      "variante": variante, "nsuid": nsuid, "avisos": []})
+        g["avisos"].append({"tienda": tienda, "precio": l["precio"], "url": l["url"],
+                            "titulo": l["titulo"], "normal": l.get("normal")})
+    log(f"  {len(listados)} avisos agrupados en {len(grupos)} productos")
+
+    for clave, g in sorted(grupos.items(), key=lambda x: (x[1]["juego"]["nombre"], x[1]["nombre"])):
+        juego = g["juego"]
+        # el mejor precio de cada tienda
+        por_tienda = {}
+        for a in g["avisos"]:
+            if a["tienda"] not in por_tienda or a["precio"] < por_tienda[a["tienda"]]["precio"]:
+                por_tienda[a["tienda"]] = a
+        avisos = sorted(por_tienda.values(), key=lambda a: a["precio"])
+        mejor = avisos[0]
+        precio = mejor["precio"]
+
+        h = hist_p.setdefault(clave, {})
+        h.update({"nombre": g["nombre"], "plataforma": g["plataforma"], "juego": juego["nombre"]})
+        serie = h.setdefault("f", {})
+        est = estadisticas(serie, hoy)
+        registrar(serie, hoy, precio, mejor["tienda"])
+
+        # precio de referencia: tipico propio > otras tiendas > lo que dice la tienda
+        otras = [a["precio"] for a in avisos[1:]]
+        if est.get("tipico"):
+            ref, ref_tipo = est["tipico"], "tipico"
+        elif len(otras) >= 2:
+            ref, ref_tipo = _mediana(otras), "mercado"
+        elif mejor.get("normal") and mejor["normal"] > precio:
+            ref, ref_tipo = mejor["normal"], "tienda"
+        elif otras:
+            ref, ref_tipo = otras[0], "mercado"
+        else:
+            ref, ref_tipo = None, None
+        pct = 100 * (1 - precio / ref) if ref else 0
+
+        s = productos.setdefault(clave, {})
+        anterior = s.get("ultimo")
+        e = eshop.get(g["nsuid"]) if g["nsuid"] else None
+        s.update({
+            "nombre": g["nombre"], "plataforma": g["plataforma"], "variante": g["variante"],
+            "juego": juego["nombre"], "precio": precio, "tienda": mejor["tienda"],
+            "url": mejor["url"], "ref": ref, "ref_tipo": ref_tipo, "pct": round(pct, 1),
+            "min_hist": est.get("min"), "min_fecha": est.get("min_fecha"),
+            "min_tienda": est.get("min_tienda"), "tipico": est.get("tipico"), "dias": est["dias"],
+            "avisos": [{k: a[k] for k in ("tienda", "precio", "url", "titulo")} for a in avisos],
+            "nsuid": g["nsuid"], "ultimo": precio, "visto": ahora_iso(),
+        })
+
+        motivos = []
+        objetivo = juego.get("objetivo_clp")
+        if objetivo is not None and precio <= objetivo:
+            motivos.append("objetivo")
+        if est["dias"] >= MIN_DIAS and est.get("min") and precio < est["min"] * 0.99:
+            motivos.append("minimo")
+        if ref and pct >= desc_min:
+            motivos.append("descuento")
+        if anterior and 100 * (1 - precio / anterior) >= baja_min:
+            motivos.append("baja")
+
+        if decidir(s, precio, motivos):
+            alertas.setdefault(("📦", juego["nombre"], "tiendas"), []).append(
+                linea_producto(s, motivos, anterior, e))
+
+
+def linea_producto(s, motivos, anterior, e):
+    nombre = s["nombre"] + (f" ({' '.join(s['variante'])})" if s.get("variante") else "")
+    l = (f'<a href="{esc_attr(s["url"])}">{esc(nombre)}</a> · {esc(s["plataforma"])}\n'
+         f'   💸 {clp(s["precio"])} en {esc(s["tienda"])}')
+    if "minimo" in motivos:
+        l += "  🏆 mínimo histórico"
+    if "objetivo" in motivos:
+        l += "  🎯"
+    detalles = []
+    if s.get("ref") and s["pct"] >= 1:
+        txt = {"tipico": "su precio típico", "mercado": "otras tiendas",
+               "tienda": "lo que dice la tienda"}[s["ref_tipo"]]
+        detalles.append(f"−{round(s['pct'])}% vs {txt} ({clp(s['ref'])})")
+    elif "baja" in motivos and anterior:
+        detalles.append(f"📉 bajó desde {clp(anterior)}")
+    if len(s["avisos"]) > 1:
+        detalles.append(f"{len(s['avisos'])} tiendas")
+    if e and e.get("ultimo"):
+        detalles.append(f"🎮 {usd(e['ultimo'])}")
+    if detalles:
+        l += "\n   📊 " + " · ".join(detalles)
+    return l
 
 
 # ------------------------------------------------------------------ telegram
@@ -808,13 +1080,18 @@ def main():
         return
 
     state = load_json(STATE_FILE, {})
-    primera_vez = "eshop" not in state and "tiendas" not in state
+    primera_vez = "productos" not in state
     alertas = {}
 
+    hist = load_json(HIST_FILE, {})
     log("Revisando eShop...")
-    revisar_eshop(cfg, state, alertas)
+    revisar_eshop(cfg, state, hist, alertas)
     log("Revisando tiendas...")
-    revisar_tiendas(cfg, state, alertas)
+    listados = leer_tiendas(cfg, state, alertas)
+    revisar_productos(cfg, state, hist, listados, alertas)
+    state.pop("tiendas", None)          # formato anterior (por aviso), ya no se usa
+    for viejo in ("digitales", "fisicos", "nsuids"):
+        state.pop(viejo, None)
     state["ultima_revision"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
     mensajes = armar_mensajes(alertas)
@@ -829,6 +1106,7 @@ def main():
             s["avisado"] = previo
         log("Telegram fallo: estas ofertas se volveran a intentar en la proxima revision.")
     save_json(STATE_FILE, state)
+    save_json(HIST_FILE, hist)
     log(f"Listo: {enviados}/{len(mensajes)} mensajes enviados.")
 
 
