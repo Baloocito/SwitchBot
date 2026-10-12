@@ -67,6 +67,9 @@ EXCLUIR_SIEMPRE = {
     "cojin", "manta", "billetera", "stickers", "sticker",
 }
 
+VOLCAR = None               # carpeta donde el diagnostico guarda las paginas
+PENDIENTES = []             # alertas de esta corrida (para deshacer si Telegram falla)
+
 PRECIO_MIN_CLP = 1000
 PRECIO_MAX_CLP = 3_000_000
 
@@ -464,6 +467,10 @@ def leer_html(base, termino, cache, plantilla=None):
         except requests.RequestException:
             continue
         cache.setdefault("diag", []).append(f"{url} -> HTTP {r.status_code}, {len(r.text)} bytes")
+        if VOLCAR:
+            VOLCAR.mkdir(exist_ok=True)
+            nombre = re.sub(r"[^a-z0-9]+", "_", re.sub(r"^https?://(www\.)?", "", url.lower()))[:80] + f"_{r.status_code}.html"
+            (VOLCAR / nombre).write_text(r.text, encoding="utf-8", errors="replace")
         if r.status_code != 200:
             continue
         prods = parse_magento(r.text, r.url) or parse_embebido(r.text, r.url)
@@ -531,9 +538,11 @@ def precio_de_pagina(url):
 
 # -------------------------------------------------------------- reglas
 
-def evaluar(state_items, clave, precio, normal, objetivo, ajustes):
+def evaluar(state_items, clave, precio, normal, objetivo, ajustes, info=None):
     """Decide si hay que avisar. Devuelve el motivo o None."""
     s = state_items.setdefault(clave, {})
+    s.update(info or {})
+    s["normal"] = normal if normal and normal > precio else None
     anterior = s.get("ultimo")
     avisado = s.get("avisado")
     desc_min = ajustes.get("descuento_minimo_pct", 25)
@@ -549,11 +558,12 @@ def evaluar(state_items, clave, precio, normal, objetivo, ajustes):
 
     avisar = bool(motivo) and (avisado is None or precio < avisado)
     if avisar:
+        PENDIENTES.append((s, avisado))
         s["avisado"] = precio
     elif not motivo and (avisado is None or precio > avisado):
         s["avisado"] = None          # termino la oferta: se rearma la alerta
     s["ultimo"] = precio
-    s["visto"] = time.strftime("%Y-%m-%d")
+    s["visto"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     return motivo if avisar else None, anterior
 
 
@@ -591,7 +601,9 @@ def revisar_eshop(cfg, state, alertas):
             continue
         actual = p["oferta"] if p["oferta"] is not None else p["regular"]
         motivo, _ = evaluar(items, nsuid, actual, p["regular"],
-                            juego.get("objetivo_usd"), aj)
+                            juego.get("objetivo_usd"), aj,
+                            {"titulo": titulo, "url": url, "juego": juego["nombre"],
+                             "origen": "eShop " + pais, "moneda": "USD", "fin": p["fin"]})
         log(f"    {titulo}: {usd(actual)}" + (f" (normal {usd(p['regular'])})"
                                                if p["oferta"] is not None else ""))
         if motivo:
@@ -652,7 +664,9 @@ def revisar_tiendas(cfg, state, alertas):
 
         for url, (juego, p) in sorted(hallados.items(), key=lambda x: x[1][1]["titulo"]):
             motivo, anterior = evaluar(items, f"{nombre_t}|{url}", p["precio"], p.get("normal"),
-                                       juego.get("objetivo_clp"), aj)
+                                       juego.get("objetivo_clp"), aj,
+                                       {"titulo": p["titulo"], "url": url, "juego": juego["nombre"],
+                                        "origen": nombre_t, "moneda": "CLP"})
             if motivo:
                 alertas.setdefault(("📦", juego["nombre"], "tiendas"), []).append(
                     _linea_fisico(p["titulo"], url, nombre_t, p["precio"], p.get("normal"),
@@ -670,7 +684,9 @@ def revisar_tiendas(cfg, state, alertas):
                 continue
             dom = re.sub(r"^https?://(www\.)?", "", url).split("/")[0]
             motivo, anterior = evaluar(items, f"link|{url}", info["precio"], info["normal"],
-                                       juego.get("objetivo_clp"), aj)
+                                       juego.get("objetivo_clp"), aj,
+                                       {"titulo": juego["nombre"], "url": url,
+                                        "juego": juego["nombre"], "origen": dom, "moneda": "CLP"})
             if motivo:
                 alertas.setdefault(("📦", juego["nombre"], "tiendas"), []).append(
                     _linea_fisico(juego["nombre"], url, dom, info["precio"], info["normal"],
@@ -786,6 +802,8 @@ def main():
         sys.exit(1)
 
     if "--diagnostico" in sys.argv:
+        global VOLCAR
+        VOLCAR = BASE / "diagnostico"
         diagnostico(cfg)
         return
 
@@ -797,6 +815,7 @@ def main():
     revisar_eshop(cfg, state, alertas)
     log("Revisando tiendas...")
     revisar_tiendas(cfg, state, alertas)
+    state["ultima_revision"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
     mensajes = armar_mensajes(alertas)
     if mensajes and primera_vez:
@@ -804,6 +823,11 @@ def main():
                            "Estas son las ofertas que ya estaban activas. "
                            "Desde ahora solo te aviso de las nuevas.")
     enviados = sum(1 for m in mensajes if send_telegram(m))
+    if enviados < len(mensajes):
+        # no llegaron: se deshacen las marcas para que se vuelvan a avisar la proxima vez
+        for s, previo in PENDIENTES:
+            s["avisado"] = previo
+        log("Telegram fallo: estas ofertas se volveran a intentar en la proxima revision.")
     save_json(STATE_FILE, state)
     log(f"Listo: {enviados}/{len(mensajes)} mensajes enviados.")
 
