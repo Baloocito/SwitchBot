@@ -52,5 +52,11 @@ jobs:
           git config user.name "bot-ofertas"
           git config user.email "bot-ofertas@users.noreply.github.com"
           [ -f state.json ] && git add state.json
-          git diff --cached --quiet || git commit -m "Actualiza precios"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Actualiza precios"
+          # si el repo cambió mientras corría el bot, trae esos cambios y reintenta
+          for i in 1 2 3; do
+            git pull --rebase -X theirs && git push && exit 0
+            sleep 5
+          done
+          exit 1
