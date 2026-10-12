@@ -15,30 +15,85 @@
       "url": "https://www.lider.cl",
       "busqueda": "https://www.lider.cl/search?q={q}"
     },
-    { "nombre": "Weplay", "url": "https://www.weplay.cl" },
-    { "nombre": "PC Factory", "url": "https://www.pcfactory.cl" },
-    { "nombre": "SP Digital", "url": "https://www.spdigital.cl" },
-    { "nombre": "Bestmart", "url": "https://bestmart.cl" },
-    { "nombre": "8 Bits", "url": "https://www.8bits.cl" }
+    {
+      "nombre": "Weplay",
+      "url": "https://www.weplay.cl"
+    },
+    {
+      "nombre": "PC Factory",
+      "url": "https://www.pcfactory.cl"
+    },
+    {
+      "nombre": "SP Digital",
+      "url": "https://www.spdigital.cl"
+    },
+    {
+      "nombre": "Bestmart",
+      "url": "https://bestmart.cl"
+    },
+    {
+      "nombre": "8 Bits",
+      "url": "https://www.8bits.cl"
+    }
   ],
   "juegos": [
-    { "nombre": "Metroid", "buscar": "metroid" },
-    { "nombre": "Pokémon", "buscar": "pokemon" },
-    { "nombre": "Zelda", "buscar": "zelda" },
-    { "nombre": "Hyrule Warriors", "buscar": "hyrule warriors" },
-    { "nombre": "Elden Ring", "buscar": "elden ring" },
-    { "nombre": "Kingdom Hearts", "buscar": "kingdom hearts" },
-    { "nombre": "Star Fox", "buscar": "star fox" },
+    {
+      "nombre": "Metroid",
+      "buscar": "metroid"
+    },
+    {
+      "nombre": "Pokémon",
+      "buscar": "pokemon"
+    },
+    {
+      "nombre": "Zelda",
+      "buscar": "zelda"
+    },
+    {
+      "nombre": "Hyrule Warriors",
+      "buscar": "hyrule warriors"
+    },
+    {
+      "nombre": "Elden Ring",
+      "buscar": "elden ring"
+    },
+    {
+      "nombre": "Kingdom Hearts",
+      "buscar": "kingdom hearts"
+    },
+    {
+      "nombre": "Star Fox",
+      "buscar": "star fox"
+    },
     {
       "nombre": "Final Fantasy VII Rebirth",
-      "buscar": ["final fantasy vii rebirth", "final fantasy 7 rebirth"]
+      "buscar": [
+        "final fantasy vii rebirth",
+        "final fantasy 7 rebirth"
+      ]
     },
-    { "nombre": "Mario Kart World", "buscar": "mario kart world" },
+    {
+      "nombre": "Mario Kart World",
+      "buscar": "mario kart world"
+    },
     {
       "nombre": "Resident Evil Requiem",
-      "buscar": ["resident evil requiem", "resident evil 9"]
+      "buscar": [
+        "resident evil requiem",
+        "resident evil 9"
+      ]
     },
-    { "nombre": "Pragmata", "buscar": "pragmata" },
-    { "nombre": "Digimon Story Time Stranger", "buscar": "digimon story time stranger" }
+    {
+      "nombre": "Pragmata",
+      "buscar": "pragmata"
+    },
+    {
+      "nombre": "Digimon Story Time Stranger",
+      "buscar": "digimon story time stranger"
+    },
+    {
+      "nombre": "Kirby",
+      "buscar": "kirby"
+    }
   ]
 }
