@@ -39,6 +39,15 @@ jobs:
         if: ${{ inputs.modo == 'diagnostico' }}
         run: python bot.py --diagnostico "${{ inputs.termino }}"
 
+      - name: Guardar páginas del diagnóstico
+        if: ${{ inputs.modo == 'diagnostico' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: paginas-tiendas
+          path: diagnostico/
+          if-no-files-found: ignore
+          retention-days: 7
+
       - name: Revisar precios
         if: ${{ inputs.modo != 'diagnostico' }}
         env:
