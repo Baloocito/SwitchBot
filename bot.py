@@ -962,9 +962,9 @@ def linea_producto(s, motivos, anterior, e):
         l += "  🎯"
     detalles = []
     if s.get("ref") and s["pct"] >= 1:
-        txt = {"tipico": "su precio típico", "mercado": "otras tiendas",
-               "tienda": "lo que dice la tienda"}[s["ref_tipo"]]
-        detalles.append(f"−{round(s['pct'])}% vs {txt} ({clp(s['ref'])})")
+        txt = {"tipico": "vs su precio típico", "mercado": "vs otras tiendas",
+               "tienda": "según la tienda"}[s["ref_tipo"]]
+        detalles.append(f"−{round(s['pct'])}% {txt} ({clp(s['ref'])})")
     elif "baja" in motivos and anterior:
         detalles.append(f"📉 bajó desde {clp(anterior)}")
     if len(s["avisos"]) > 1:
