@@ -1,12 +1,12 @@
 {
   "fallos": {
     "PC Factory": 12,
-    "Paris": 6,
+    "Paris": 7,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 266,
-  "revision": "2026-10-14T17:14:42Z",
+  "fisicos": 269,
+  "revision": "2026-10-14T21:45:34Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -153,7 +153,7 @@
     },
     {
       "juego": "Castlevania",
-      "linea": "🟠 <b>Castlevania</b> — 📦 7 desde $49.990 · 🎮 5 desde US$6.94",
+      "linea": "🟠 <b>Castlevania</b> — 📦 8 desde $49.990 · 🎮 5 desde US$6.94",
       "nombres": [
         "arcade archives vs castlevania",
         "castlevania advance collection",
@@ -202,7 +202,7 @@
     },
     {
       "juego": "Contra",
-      "linea": "⚪ <b>Contra</b> — 📦 2 desde $37.720 · 🎮 5 desde US$6.94",
+      "linea": "🟠 <b>Contra</b> — 📦 2 desde $37.720 · 🎮 5 desde US$6.94",
       "nombres": [
         "arcade archives contra",
         "arcade archives super contra",
@@ -210,7 +210,7 @@
         "contra operation galuga",
         "contra rogue corps"
       ],
-      "orden": 4,
+      "orden": 3,
       "slug": "contra"
     },
     {
@@ -588,7 +588,7 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "⚪ <b>Kingdom Hearts</b> — 🎮 8 desde US$37.29",
+      "linea": "🟠 <b>Kingdom Hearts</b> — 📦 1 desde $39.720 · 🎮 8 desde US$37.29",
       "nombres": [
         "kingdom hearts hd 1 5 2 5 remix",
         "kingdom hearts hd 1 5 2 5 remix cloud version",
@@ -598,7 +598,7 @@
         "kingdom hearts iii re mind dlc cloud version",
         "kingdom hearts melody of memory"
       ],
-      "orden": 4,
+      "orden": 3,
       "slug": "kingdom-hearts"
     },
     {
@@ -1171,12 +1171,12 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "⚪ <b>Split Fiction / It Takes Two</b> — 📦 2 desde $64.990 · 🎮 1 desde US$45.70",
+      "linea": "🟠 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $64.990 · 🎮 1 desde US$45.70",
       "nombres": [
         "electronic arts it takes two",
         "split fiction"
       ],
-      "orden": 4,
+      "orden": 3,
       "slug": "split-fiction-it-takes-two"
     },
     {
@@ -1294,7 +1294,7 @@
         "nintendo switch sports resort",
         "sports camp a 35 game adventure",
         "sports motion controls",
-        "sports party sniper game"
+        "sports party"
       ],
       "orden": 2,
       "slug": "switch-sports"
@@ -1362,12 +1362,12 @@
     },
     {
       "juego": "Tomodachi Life",
-      "linea": "🟡 <b>Tomodachi Life</b> — 📦 2 desde $64.990 · 🎮 1 desde US$59.76\n   🟡 Tomodachi Life: Living the Dream −23%",
+      "linea": "🟢 <b>Tomodachi Life</b> — 📦 2 desde $64.990 · 🎮 1 desde US$59.76\n   🟢 Tomodachi Life: Living the Dream −30%",
       "nombres": [
         "tomodachi life",
         "tomodachi life living the dream"
       ],
-      "orden": 2,
+      "orden": 1,
       "slug": "tomodachi-life"
     },
     {
@@ -1484,5 +1484,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 953
+  "total": 955
 }

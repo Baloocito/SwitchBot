@@ -3907,13 +3907,24 @@
         ]
       },
       "juego": "Castlevania",
-      "nombre": "Castlevania Dominus Dawn Of Sorrow",
+      "nombre": "Castlevania Dominus: Dawn Of Sorrow",
       "plataforma": "Switch"
     },
     "castlevania dominus collection|Switch": {
       "f": {
         "2026-10-14": [
           79990.0,
+          "Falabella"
+        ]
+      },
+      "juego": "Castlevania",
+      "nombre": "Castlevania Dominus Collection",
+      "plataforma": "Switch"
+    },
+    "castlevania dominus collection|Switch|import": {
+      "f": {
+        "2026-10-14": [
+          69990.0,
           "Falabella"
         ]
       },
@@ -5242,6 +5253,17 @@
       },
       "juego": "Switch Sports",
       "nombre": "Just For Games Instant Sports Summer",
+      "plataforma": "Switch"
+    },
+    "kingdom hearts melody of memory|Switch": {
+      "f": {
+        "2026-10-14": [
+          39720.0,
+          "Falabella"
+        ]
+      },
+      "juego": "Kingdom Hearts",
+      "nombre": "KINGDOM HEARTS Melody of Memory",
       "plataforma": "Switch"
     },
     "kirby air riders|Switch 2": {
@@ -7253,7 +7275,7 @@
         ]
       },
       "juego": "Switch Sports",
-      "nombre": "Sports Party - Sniper Game",
+      "nombre": "Sports Party",
       "plataforma": "Switch"
     },
     "spyro reignited trilogy|Switch": {
