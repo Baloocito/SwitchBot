@@ -9,6 +9,13 @@
     },
     {
       "nivel": "regular",
+      "nombre": "Hitman: Blood Money — Reprisal",
+      "pct": 7.2,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Hitman: Blood Money — Reprisal (limited)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$94.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $7.354 frente al «antes» que marca la tienda ($102.344)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $94.990 (14 oct, Lider) · máximo $94.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$21.51 ≈ $20.996 en 🇨🇱 Chile\n   ➜ El digital es $73.994 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-limited-run-hitman-blood-money-nintendo-switch-/00081014857643\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "nivel": "regular",
       "nombre": "Game Solutions 2 Go Hitman World of Assassination",
       "pct": 7.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Game Solutions 2 Go Hitman World of Assassination</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$75.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $5.709 frente al «antes» que marca la tienda ($81.699)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $75.990 (14 oct, Lider) · máximo $75.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/game-solutions-2-go-hitman-world-of-assassination-switch/00088409522332\">Ir a comprar en Lider</a>",
@@ -22,11 +29,11 @@
       "tipo": "fisico"
     },
     {
-      "con_fisico": false,
+      "con_fisico": true,
       "nivel": "normal",
       "nombre": "Hitman: Blood Money — Reprisal",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Hitman: Blood Money — Reprisal</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$21.51</b> ≈ $20.996 en 🇨🇱 Chile\n   Precio en la tienda: $20.999 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/hitman-blood-money-reprisal-switch/\">US$21.51</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/hitman-blood-money-reprisal-switch/\">US$23.25</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/hitman-blood-money-reprisal-switch/\">US$24.60</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/hitman-blood-money-reprisal-switch/\">US$26.09</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/hitman-blood-money-reprisal-switch/\">US$28.25</a>\n   El más caro: 🇧🇷 US$30.71\n📈 Mínimo US$21.51 (14 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/hitman-blood-money-reprisal-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Hitman: Blood Money — Reprisal</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$21.51</b> ≈ $20.996 en 🇨🇱 Chile\n   Precio en la tienda: $20.999 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/hitman-blood-money-reprisal-switch/\">US$21.51</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/hitman-blood-money-reprisal-switch/\">US$23.25</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/hitman-blood-money-reprisal-switch/\">US$24.60</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/hitman-blood-money-reprisal-switch/\">US$26.09</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/hitman-blood-money-reprisal-switch/\">US$28.25</a>\n   El más caro: 🇧🇷 US$30.71\n📦 Físico: $94.990 en Lider → el digital te ahorra $73.994\n📈 Mínimo US$21.51 (14 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/hitman-blood-money-reprisal-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -47,5 +54,5 @@
     }
   ],
   "juego": "Hitman",
-  "revision": "2026-10-14T05:07:40Z"
+  "revision": "2026-10-14T11:53:38Z"
 }

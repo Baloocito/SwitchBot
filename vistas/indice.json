@@ -1,12 +1,12 @@
 {
   "fallos": {
     "PC Factory": 12,
-    "Paris": 4,
+    "Paris": 5,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 259,
-  "revision": "2026-10-14T05:07:40Z",
+  "fisicos": 271,
+  "revision": "2026-10-14T11:53:38Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -42,7 +42,7 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟡 <b>Assassin's Creed</b> — 📦 5 desde $29.990 · 🎮 4 desde US$25.72\n   🟡 Assassin’s Creed: The Rebel Collection −22%",
+      "linea": "🟡 <b>Assassin's Creed</b> — 📦 5 desde $29.990 · 🎮 4 desde US$25.72\n   🟡 Assassin’s Creed: The Rebel Collection −20%",
       "nombres": [
         "assassins creed iii remastered",
         "assassins creed shadows",
@@ -120,7 +120,7 @@
     },
     {
       "juego": "Borderlands",
-      "linea": "🟡 <b>Borderlands</b> — 📦 4 desde $24.990 · 🎮 5 desde US$21.09\n   🟡 Borderlands 3 Ultimate Edition −22%",
+      "linea": "🟡 <b>Borderlands</b> — 📦 4 desde $24.990 · 🎮 5 desde US$21.09\n   🟡 Borderlands 3 Ultimate Edition −20%",
       "nombres": [
         "borderlands 3 ultimate edition",
         "borderlands game of the year edition",
@@ -134,7 +134,7 @@
     },
     {
       "juego": "Bravely Default",
-      "linea": "🟡 <b>Bravely Default</b> — 📦 2 desde $31.990 · 🎮 2 desde US$37.61\n   🟡 BRAVELY DEFAULT II −55%",
+      "linea": "🟡 <b>Bravely Default</b> — 📦 2 desde $31.990 · 🎮 2 desde US$37.61\n   🟡 BRAVELY DEFAULT II −54%",
       "nombres": [
         "bravely default flying fairy hd remaster",
         "bravely default ii"
@@ -202,7 +202,7 @@
     },
     {
       "juego": "Contra",
-      "linea": "⚪ <b>Contra</b> — 📦 1 desde $37.720 · 🎮 5 desde US$6.94",
+      "linea": "⚪ <b>Contra</b> — 📦 2 desde $37.720 · 🎮 5 desde US$6.94",
       "nombres": [
         "arcade archives contra",
         "arcade archives super contra",
@@ -295,11 +295,11 @@
     },
     {
       "juego": "Digimon Story Time Stranger",
-      "linea": "🟡 <b>Digimon Story Time Stranger</b> — 📦 2 desde $79.990 · 🎮 2 desde US$46.61\n   🟡 Digimon Story Time Stranger −17%",
+      "linea": "🟠 <b>Digimon Story Time Stranger</b> — 📦 2 desde $79.990 · 🎮 2 desde US$46.61",
       "nombres": [
         "digimon story time stranger"
       ],
-      "orden": 2,
+      "orden": 3,
       "slug": "digimon-story-time-stranger"
     },
     {
@@ -506,7 +506,7 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟠 <b>Hitman</b> — 📦 3 desde $75.990 · 🎮 3 desde US$21.51",
+      "linea": "🟠 <b>Hitman</b> — 📦 4 desde $75.990 · 🎮 3 desde US$21.51",
       "nombres": [
         "game solutions 2 go hitman world of assassination",
         "hitman absolution",
@@ -541,11 +541,10 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟡 <b>Hyrule Warriors</b> — 📦 5 desde $74.990 · 🎮 4 desde US$59.76\n   🟡 Hyrule Warriors: Age of Calamity −29%",
+      "linea": "🟡 <b>Hyrule Warriors</b> — 📦 4 desde $74.990 · 🎮 4 desde US$59.76\n   🟡 Hyrule Warriors: Age of Calamity −29%",
       "nombres": [
         "hyrule warriors age of calamity",
         "hyrule warriors age of calamity definitive edition",
-        "hyrule warriors age of encarcelation",
         "hyrule warriors age of imprisonment",
         "hyrule warriors definitive edition"
       ],
@@ -591,7 +590,7 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "🟠 <b>Kingdom Hearts</b> — 📦 1 desde $99.990 · 🎮 8 desde US$37.29",
+      "linea": "⚪ <b>Kingdom Hearts</b> — 🎮 8 desde US$37.29",
       "nombres": [
         "kingdom hearts hd 1 5 2 5 remix",
         "kingdom hearts hd 1 5 2 5 remix cloud version",
@@ -599,15 +598,14 @@
         "kingdom hearts hd 2 8 final chapter prologue cloud version",
         "kingdom hearts iii re mind dlc",
         "kingdom hearts iii re mind dlc cloud version",
-        "kingdom hearts melody of memory",
-        "square enix kingdom hearts"
+        "kingdom hearts melody of memory"
       ],
-      "orden": 3,
+      "orden": 4,
       "slug": "kingdom-hearts"
     },
     {
       "juego": "Kirby",
-      "linea": "🟠 <b>Kirby</b> — 📦 6 desde $54.990 · 🎮 5 desde US$19.99",
+      "linea": "🟠 <b>Kirby</b> — 📦 5 desde $54.990 · 🎮 5 desde US$19.99",
       "nombres": [
         "kirby air riders",
         "kirby and the forgotten land",
@@ -615,7 +613,6 @@
         "kirby and the forgotten land star crossed world",
         "kirby fighters 2",
         "kirby star allies",
-        "kirby y la tierra olvidada star crossed world",
         "kirbys return to dream land deluxe"
       ],
       "orden": 3,
@@ -646,7 +643,7 @@
     },
     {
       "juego": "Like a Dragon / Yakuza",
-      "linea": "🟡 <b>Like a Dragon / Yakuza</b> — 📦 6 desde $44.990 · 🎮 7 desde US$2.56\n   🟡 Yakuza Kiwami 3 &amp; Dark Ties −17%",
+      "linea": "🟡 <b>Like a Dragon / Yakuza</b> — 📦 6 desde $44.990 · 🎮 7 desde US$2.56\n   🟡 Yakuza Kiwami 3 &amp; Dark Ties −16%",
       "nombres": [
         "tokyo yakuza idols save the heart of a rebel boy",
         "tokyo yakuza idols save the heart of a rebel girl",
@@ -689,13 +686,14 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 29 desde $9.990 · 🎮 26 desde US$5.89\n   🟢 Super Mario RPG −83%",
+      "linea": "🟢 <b>Mario</b> — 📦 30 desde $29.990 · 🎮 26 desde US$5.89\n   🟢 Mario Kart 8 Deluxe −47%",
       "nombres": [
         "arcade archives mario bros",
         "arcade archives vs super mario bros",
         "controlador inalambrico turtle beach rematch mario kart",
         "mario golf super rush",
         "mario kart 8 deluxe",
+        "mario kart live home circuit mario set",
         "mario luigi brothership",
         "mario party superstars",
         "mario rabbids kingdom battle",
@@ -729,7 +727,7 @@
     },
     {
       "juego": "Mario Kart World",
-      "linea": "🟡 <b>Mario Kart World</b> — 📦 1 desde $79.990 · 🎮 1 desde US$77.34\n   🟡 Mario Kart World −42%",
+      "linea": "🟡 <b>Mario Kart World</b> — 📦 1 desde $79.990 · 🎮 1 desde US$77.34\n   🟡 Mario Kart World −41%",
       "nombres": [
         "mario kart world"
       ],
@@ -738,7 +736,7 @@
     },
     {
       "juego": "Mario + Rabbids",
-      "linea": "🟡 <b>Mario + Rabbids</b> — 📦 1 desde $44.990 · 🎮 1 desde US$31.76\n   🟡 Rabbids: Party of Legends −25%",
+      "linea": "🟡 <b>Mario + Rabbids</b> — 📦 1 desde $44.990 · 🎮 1 desde US$31.76\n   🟡 Rabbids: Party of Legends −24%",
       "nombres": [
         "rabbids party of legends"
       ],
@@ -878,7 +876,7 @@
     },
     {
       "juego": "Octopath Traveler",
-      "linea": "🟡 <b>Octopath Traveler</b> — 📦 4 desde $49.990 · 🎮 6 desde US$47.11\n   🟡 OCTOPATH TRAVELER 0 −28%",
+      "linea": "🟡 <b>Octopath Traveler</b> — 📦 4 desde $49.990 · 🎮 6 desde US$47.11\n   🟡 OCTOPATH TRAVELER 0 −27%",
       "nombres": [
         "octopath traveler",
         "octopath traveler 0",
@@ -1286,20 +1284,31 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟡 <b>Switch Sports</b> — 📦 1 desde $34.720 · 🎮 2 desde US$38.67\n   🟡 Nintendo Switch Sports −45%",
+      "linea": "🟡 <b>Switch Sports</b> — 📦 11 desde $34.720 · 🎮 2 desde US$38.67\n   🟡 Instant Sports Tennis - Sniper −30%",
       "nombres": [
+        "funbox media junior league sports 3 en 1",
+        "game merge games instant sports all stars",
+        "instant sports de invierno",
+        "instant sports de just for games",
+        "instant sports tennis sniper",
+        "instant sports winter games sniper",
+        "just for games instant sports summer",
+        "looney tunes wacky world of sports",
         "nintendo switch sports",
-        "nintendo switch sports resort"
+        "nintendo switch sports resort",
+        "sports camp a 35 game adventure",
+        "sports party sniper game"
       ],
       "orden": 2,
       "slug": "switch-sports"
     },
     {
       "juego": "Tales of",
-      "linea": "🟡 <b>Tales of</b> — 📦 10 desde $49.990 · 🎮 32 desde US$2.73\n   🟡 Tales of Shinobi Fantasy Magic Anime World Fight RPG Simulator −39%",
+      "linea": "🟡 <b>Tales of</b> — 📦 11 desde $49.990 · 🎮 32 desde US$4.48\n   🟡 Tales of Symphonia Remastered −33%",
       "nombres": [
         "airheart tales of broken wings",
         "bandai namco tales of graces of remastered",
+        "bandai namco tales of xillia",
         "fhtagn tales of the creeping madness",
         "forgotten tales day of the dead",
         "iam8bit tales of the shire",
@@ -1357,7 +1366,7 @@
     },
     {
       "juego": "Tomodachi Life",
-      "linea": "🟡 <b>Tomodachi Life</b> — 📦 2 desde $64.990 · 🎮 1 desde US$59.76\n   🟡 Tomodachi Life: Living the Dream −24%",
+      "linea": "🟡 <b>Tomodachi Life</b> — 📦 2 desde $64.990 · 🎮 1 desde US$59.76\n   🟡 Tomodachi Life: Living the Dream −23%",
       "nombres": [
         "tomodachi life",
         "tomodachi life living the dream"
@@ -1479,5 +1488,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 956
+  "total": 967
 }
