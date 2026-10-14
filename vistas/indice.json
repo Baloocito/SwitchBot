@@ -1,6 +1,6 @@
 {
   "fisicos": 258,
-  "revision": "2026-10-14T04:49:17Z",
+  "revision": "2026-10-14T04:57:06Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -307,7 +307,7 @@
     },
     {
       "juego": "Donkey Kong",
-      "linea": "🟡 <b>Donkey Kong</b> — 📦 4 desde $54.990 · 🎮 6 desde US$5.89\n   🟡 Donkey Kong Bananza −23%",
+      "linea": "🟡 <b>Donkey Kong</b> — 📦 4 desde $54.990 · 🎮 6 desde US$5.89\n   🟡 Donkey Kong Bananza −21%",
       "nombres": [
         "arcade archives donkey kong",
         "arcade archives donkey kong 3",
@@ -424,7 +424,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟡 <b>Final Fantasy</b> — 📦 11 desde $39.990 · 🎮 24 desde US$9.84\n   🟡 FINAL FANTASY VI −47%",
+      "linea": "🟡 <b>Final Fantasy</b> — 📦 10 desde $39.990 · 🎮 24 desde US$9.84\n   🟡 FINAL FANTASY VI −47%",
       "nombres": [
         "collection of saga final fantasy legend",
         "crisis core final fantasy vii reunion",
@@ -1215,12 +1215,12 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟠 <b>Stardew Valley</b> — 📦 1 desde $64.990 · 🎮 2 desde US$4.98",
+      "linea": "⚪ <b>Stardew Valley</b> — 🎮 2 desde US$4.98",
       "nombres": [
         "stardew valley",
         "stardew valley nintendo switch 2 edition"
       ],
-      "orden": 3,
+      "orden": 4,
       "slug": "stardew-valley"
     },
     {
@@ -1290,9 +1290,10 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟡 <b>Tales of</b> — 📦 9 desde $49.990 · 🎮 32 desde US$2.73\n   🟡 Tales of Shinobi Fantasy Magic Anime World Fight RPG Simulator −39%",
+      "linea": "🟡 <b>Tales of</b> — 📦 10 desde $49.990 · 🎮 32 desde US$2.73\n   🟡 Tales of Shinobi Fantasy Magic Anime World Fight RPG Simulator −39%",
       "nombres": [
         "airheart tales of broken wings",
+        "bandai namco tales of graces of remastered",
         "fhtagn tales of the creeping madness",
         "forgotten tales day of the dead",
         "iam8bit tales of the shire",
@@ -1472,5 +1473,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 955
+  "total": 954
 }
