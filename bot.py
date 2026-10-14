@@ -64,7 +64,7 @@ EXCLUIR_SIEMPRE = {
     "soporte", "consola", "audifono", "audifonos", "tarjeta", "gift",
     "cargador", "dock", "grip", "volante", "teclado", "mouse", "bolso",
     "cartas", "carta", "tcg", "booster", "sobre", "sobres", "mazo", "album",
-    "lego", "juguete", "plush", "pin", "pins", "gorro", "chaqueta", "lampara",
+    "juguete", "plush", "pin", "pins", "gorro", "chaqueta", "lampara",
     "cojin", "manta", "billetera", "stickers", "sticker", "auriculares", "audifonos",
     "almacenamiento", "volantes", "compatibles", "compatible", "accesorio", "accesorios",
     "premgear", "kit", "estuches", "fundas", "protectores", "lapiz",
@@ -712,7 +712,9 @@ SINONIMOS = {"ed": "edition", "edicion": "edition", "encarcelation": "imprisonme
              "encarcelamiento": "imprisonment"}
 VARIANTES = {"collector", "coleccionista", "coleccion", "limited", "limitada", "steelbook",
              "japan", "japon", "japones", "import", "importado", "asia", "asiatica", "europe",
-             "europa", "eur", "pal", "bundle", "signature", "premium"}
+             "europa", "eur", "pal", "bundle", "signature", "premium", "usado"}
+USADO_RE = re.compile(r"\b(usad[oa]s?|seminuev[oa]|reacondicionad[oa]|refurbished|open.?box|"
+                      r"caja abierta|segunda mano|pre.?owned)\b", re.I)
 PLAT2_RE = re.compile(r"\b(nintendo switch 2 edition|switch 2 edition|switch 2|switch2|ns2|nsw2|sw2)\b")
 SUFIJO_S2_RE = re.compile(r"\s*[–—-]\s*Nintendo Switch 2 Edition\s*|\s+Nintendo Switch 2 Edition\s*", re.I)
 
@@ -846,6 +848,8 @@ def clave_producto(listado, candidatos):
     plat = plataforma_de(listado["titulo"])
     c = emparejar(listado["titulo"], plat, candidatos)
     toks = set(tokens_de(listado["titulo"]))
+    if USADO_RE.search(listado["titulo"]) or USADO_RE.search(listado.get("url", "").replace("-", " ")):
+        toks.add("usado")
     if c:
         mismos = [x for x in candidatos if x["nombre"] == c["nombre"]]
         if any(x["plataforma"] == plat for x in mismos):
@@ -855,8 +859,8 @@ def clave_producto(listado, candidatos):
         variante = sorted((toks & VARIANTES) - set(c["toks"]))
         nombre, base, nsuid = c["nombre"], norm(c["nombre"]), c["nsuid"]
     else:
-        variante = []
-        nombre = limpiar_titulo(listado["titulo"])
+        variante = ["usado"] if "usado" in toks else []
+        nombre = limpiar_titulo(USADO_RE.sub(" ", listado["titulo"]))
         base, nsuid = " ".join(tokens_de(listado["titulo"])), None
     clave = f"{base}|{plat}" + (f"|{'-'.join(variante)}" if variante else "")
     return clave, nombre, plat, variante, nsuid
@@ -915,9 +919,13 @@ def estadisticas(serie, hoy):
 
 # ---------------------------------------------------------------- reglas
 
-def decidir(s, precio, motivos):
-    """Anti-repeticion: avisa si hay motivo y el precio es menor que el ultimo avisado."""
+def decidir(s, precio, motivos, nuevo=False):
+    """Anti-repeticion: avisa si hay motivo y el precio es menor que el ultimo avisado.
+    Un producto visto por primera vez se registra en silencio (se ve con /ofertas)."""
     avisado = s.get("avisado")
+    if nuevo:
+        s["avisado"] = precio if motivos else None
+        return False
     avisar = bool(motivos) and (avisado is None or precio < avisado)
     if avisar:
         PENDIENTES.append((s, avisado))
@@ -950,7 +958,10 @@ def revisar_eshop(cfg, state, hist, alertas):
                 continue
             for h in hits:
                 if coincide(h["titulo"], juego, exigir_plataforma=False):
-                    encontrados.setdefault(h["nsuid"], (juego, h))
+                    prev = encontrados.get(h["nsuid"])
+                    esp = max(len(palabras(x)) for x in terminos(juego))
+                    if not prev or esp > max(len(palabras(x)) for x in terminos(prev[0])):
+                        encontrados[h["nsuid"]] = (juego, h)
             time.sleep(0.3)
     log(f"  eShop: {len(encontrados)} juegos encontrados")
     if not encontrados:
@@ -977,6 +988,9 @@ def revisar_eshop(cfg, state, hist, alertas):
         mejor = regs[mejor_pais]
         actual = mejor["actual_usd"]
         regular = base["regular_usd"]
+        # oferta real = rebaja dentro de ese mismo pais (no la diferencia entre paises)
+        pct_oferta = 100 * (1 - actual / mejor["regular_usd"]) if mejor["oferta"] else 0
+        ahorro_region = 100 * (1 - actual / base["actual_usd"]) if base["actual_usd"] else 0
         p = {"oferta": base["actual_usd"] if base["oferta"] else None, "regular": regular,
              "fin": mejor["fin"] or base["fin"]}
         serie = hist_e.setdefault(nsuid, {})
@@ -988,7 +1002,8 @@ def revisar_eshop(cfg, state, hist, alertas):
         s.update({"titulo": h["titulo"], "url": h["url"], "juego": juego["nombre"],
                   "plataforma": h.get("plataforma") or plataforma_de(h["titulo"]),
                   "origen": "eShop " + mejor_pais, "moneda": "USD", "fin": p["fin"],
-                  "normal": regular if actual < regular - 0.005 else None,
+                  "normal": mejor["regular_usd"] if mejor["oferta"] else None,
+                  "ahorro_region": round(ahorro_region, 1),
                   "regular": regular, "ultimo": actual, "visto": ahora_iso(),
                   "pais": mejor_pais, "local": mejor["local"], "moneda_local": mejor["moneda"],
                   "precio_us": base["actual_usd"],
@@ -997,7 +1012,7 @@ def revisar_eshop(cfg, state, hist, alertas):
                   "min_hist": est.get("min"), "min_fecha": est.get("min_fecha"),
                   "dias": est["dias"]})
 
-        pct = 100 * (1 - actual / regular) if regular else 0
+        pct = pct_oferta
         objetivo = juego.get("objetivo_usd")
         motivos = []
         if objetivo is not None and actual <= objetivo:
@@ -1010,63 +1025,90 @@ def revisar_eshop(cfg, state, hist, alertas):
             motivos.append("baja")
         log(f"    {h['titulo']}: {usd(actual)} {mejor_pais}" +
             (f" (normal {usd(regular)})" if actual < regular - 0.005 else ""))
-        if decidir(s, actual, motivos):
+        if decidir(s, actual, motivos, nuevo=anterior is None):
             linea = f'<a href="{esc_attr(h["url"])}">{esc(h["titulo"])}</a>\n   💸 {usd(actual)}'
             if clp_x_usd:
                 linea += f" (≈{clp(actual * clp_x_usd)})"
             if pct >= 1:
-                linea += f"  <s>{usd(regular)}</s>  −{round(pct)}%"
+                linea += f"  <s>{usd(mejor['regular_usd'])}</s>  −{round(pct)}% oferta"
             linea += f"\n   {NOMBRE_PAIS.get(mejor_pais, mejor_pais)}"
-            if mejor_pais != pais and base:
-                linea += f" · en {pais}: {usd(base['actual_usd'])}"
+            if mejor_pais != pais and ahorro_region >= 1:
+                linea += f" · {round(ahorro_region)}% menos que {pais} ({usd(base['actual_usd'])})"
             if p["fin"]:
                 linea += f"  ⏳ hasta {esc(p['fin'][:10])}"
             if "minimo" in motivos:
                 linea += "\n   🏆 mínimo histórico"
             if "objetivo" in motivos:
                 linea += "  🎯"
-            alertas.setdefault(("🎮", juego["nombre"], "eShop"), []).append(linea)
+            agregar_alerta(alertas, "digital", juego["nombre"], linea,
+                           puntaje(pct, motivos))
+
+
+def _leer_una_tienda(tienda, juegos, state):
+    cache = {}
+    hallados = {}  # url -> (juego, producto)
+    respondio = False
+    vistos_terminos = set()
+    for juego in juegos:
+        if juego.get("fisico") is False:
+            continue
+        for t in terminos(juego):
+            nt = norm(t)
+            if nt in vistos_terminos:
+                continue
+            vistos_terminos.add(nt)
+            prods = buscar_en_tienda(tienda, t, state, cache)
+            if prods is None:
+                continue
+            respondio = True
+            for p in prods:
+                if precio_valido(p.get("precio")) and coincide(p["titulo"], juego, True):
+                    hallados.setdefault(p["url"], (juego, p))
+            if cache.get("metodo") != "shopify":
+                time.sleep(PAUSA)
+        if not respondio and cache.get("diag") and len(cache["diag"]) > 12:
+            break  # la tienda no responde: no seguir insistiendo esta corrida
+    # un mismo producto puede calzar con varias busquedas (ej. "mario" y "mario kart"):
+    # se asigna al juego cuya busqueda es mas especifica
+    for url, (j, p) in list(hallados.items()):
+        mejor = max((jj for jj in juegos if jj.get("fisico") is not False
+                     and coincide(p["titulo"], jj, True)),
+                    key=lambda jj: max(len(palabras(t)) for t in terminos(jj)), default=j)
+        hallados[url] = (mejor, p)
+    return respondio, hallados, cache
+
+
+def _leer_seguro(tienda, juegos, state):
+    """Si una tienda revienta, se cuenta como fallo y las demas siguen."""
+    try:
+        return _leer_una_tienda(tienda, juegos, state)
+    except Exception as e:  # noqa: BLE001
+        return False, {}, {"diag": [f"error inesperado: {type(e).__name__}: {str(e)[:150]}"]}
 
 
 def leer_tiendas(cfg, state, alertas):
-    """Busca en cada tienda. Devuelve [(juego, tienda, listado)]."""
+    """Busca en todas las tiendas a la vez. Devuelve [(juego, tienda, listado)]."""
+    from concurrent.futures import ThreadPoolExecutor
     fallos = state.setdefault("fallos", {})
     juegos = cfg.get("juegos", [])
     listados = []
-    for tienda in cfg.get("tiendas", []):
-        if tienda.get("activa") is False:
-            continue
+    tiendas = [t for t in cfg.get("tiendas", []) if t.get("activa") is not False]
+    t0 = time.time()
+    with ThreadPoolExecutor(max_workers=max(1, len(tiendas))) as ex:
+        resultados = list(ex.map(lambda t: (t, *_leer_seguro(t, juegos, state)), tiendas))
+    log(f"  tiendas leidas en {time.time() - t0:.0f} s")
+    for tienda, respondio, hallados, cache in resultados:
         nombre_t = tienda["nombre"]
-        cache = {}
-        hallados = {}  # url -> (juego, producto)
-        respondio = False
-        for juego in juegos:
-            if juego.get("fisico") is False:
-                continue
-            for t in terminos(juego):
-                prods = buscar_en_tienda(tienda, t, state, cache)
-                if prods is None:
-                    continue
-                respondio = True
-                for p in prods:
-                    if precio_valido(p.get("precio")) and coincide(p["titulo"], juego, True):
-                        hallados.setdefault(p["url"], (juego, p))
-                if cache.get("metodo") != "shopify":
-                    time.sleep(PAUSA)
-            if not respondio and cache.get("diag") and len(cache["diag"]) > 12:
-                break  # la tienda no responde: no seguir insistiendo esta corrida
-
         if not respondio:
             fallos[nombre_t] = fallos.get(nombre_t, 0) + 1
             log(f"  {nombre_t}: sin respuesta util (fallo {fallos[nombre_t]} seguido)")
             for d in cache.get("diag", [])[-4:]:
                 log(f"      {d}")
             if fallos[nombre_t] == FALLOS_PARA_AVISAR:
-                alertas.setdefault(("⚠️", "Avisos", ""), []).append(
-                    f"Llevo {FALLOS_PARA_AVISAR} revisiones sin poder leer "
-                    f"<b>{esc(nombre_t)}</b>. Puede que bloquee al bot o que haya "
-                    f"cambiado su página. Corre el diagnóstico y pásame el resultado."
-                )
+                agregar_alerta(alertas, "aviso", "", (
+                    f"No he podido leer <b>{esc(nombre_t)}</b> en las últimas "
+                    f"{FALLOS_PARA_AVISAR} revisiones. Puede que bloquee al bot o que haya "
+                    f"cambiado su página."), 0)
             continue
         fallos.pop(nombre_t, None)
         log(f"  {nombre_t} [{cache.get('metodo')}]: {len(hallados)} avisos que calzan")
@@ -1172,9 +1214,10 @@ def revisar_productos(cfg, state, hist, listados, alertas):
         if anterior and 100 * (1 - precio / anterior) >= baja_min:
             motivos.append("baja")
 
-        if decidir(s, precio, motivos):
-            alertas.setdefault(("📦", juego["nombre"], "tiendas"), []).append(
-                linea_producto(s, motivos, anterior, e))
+        if decidir(s, precio, motivos, nuevo=anterior is None):
+            agregar_alerta(alertas, "fisico", juego["nombre"],
+                           linea_producto(s, motivos, anterior, e),
+                           puntaje(s.get("pct") or 0, motivos))
 
 
 def linea_producto(s, motivos, anterior, e):
@@ -1234,25 +1277,100 @@ def send_telegram(text):
         return False
 
 
-def armar_mensajes(alertas):
-    """Agrupa por juego y corta en mensajes que caben en Telegram."""
+MAX_ALERTAS = 30          # mas que esto va resumido a /ofertas
+LINEA = "━━━━━━━━━━━━━━"
+
+
+def puntaje(pct, motivos):
+    return (pct or 0) + (100 if "minimo" in motivos else 0) + (80 if "objetivo" in motivos else 0)
+
+
+def agregar_alerta(alertas, tipo, juego, linea, score):
+    alertas.append({"tipo": tipo, "juego": juego, "linea": linea, "score": score})
+
+
+def fecha_hora_chile():
+    try:
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        d = datetime.now(ZoneInfo("America/Santiago"))
+    except Exception:
+        from datetime import datetime, timedelta
+        d = datetime.utcnow() - timedelta(hours=3)
+    meses = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
+    return f"{d.day} {meses[d.month - 1]} · {d:%H:%M}"
+
+
+def _con_juego(a):
+    return f"<i>{esc(a['juego'])}</i> · {a['linea']}" if a["juego"] else a["linea"]
+
+
+def armar_mensajes(alertas, titulo="🔔 <b>ALERTA DE OFERTAS</b>"):
+    """Un solo informe ordenado por importancia, con encabezado y pie."""
+    ofertas = [a for a in alertas if a["tipo"] != "aviso"]
+    avisos = [a for a in alertas if a["tipo"] == "aviso"]
+    if not ofertas and not avisos:
+        return []
+    ofertas.sort(key=lambda a: -a["score"])
+    mostradas, resto = ofertas[:MAX_ALERTAS], ofertas[MAX_ALERTAS:]
+    urgentes = [a for a in mostradas if a["score"] >= 40]   # −40% real, 🏆 o 🎯
+    normales = [a for a in mostradas if a not in urgentes]
+
+    partes = []
+    resumen = f"{len(ofertas)} oferta{'s' if len(ofertas) != 1 else ''} nueva{'s' if len(ofertas) != 1 else ''}"
+    if urgentes:
+        resumen += f" · {len(urgentes)} 🔥"
+    cab = [titulo, f"<i>{fecha_hora_chile()} · {resumen}</i>" if ofertas else f"<i>{fecha_hora_chile()}</i>", LINEA]
+
     bloques = []
-    for (icono, juego, origen), lineas in sorted(alertas.items(),
-                                                 key=lambda x: (x[0][0] == "⚠️", x[0][1], x[0][0])):
-        cab = f"{icono} <b>{esc(juego)}</b>" + (f" — {esc(origen)}" if origen else "")
-        bloques.append([cab] + lineas)
-    mensajes, actual = [], ""
-    for b in bloques:
-        for i, linea in enumerate(b):
-            sep = "" if not actual else ("\n\n" if i == 0 else "\n")
-            if actual and len(actual) + len(sep) + len(linea) > TELEGRAM_MAX:
-                mensajes.append(actual)
-                actual = (b[0] + " (sigue)\n" + linea) if i else linea
-            else:
-                actual += sep + linea
+    if urgentes:
+        bloques.append(["🔥 <b>NO TE LAS PIERDAS</b>"] + [_con_juego(a) for a in urgentes])
+    fis = [a for a in normales if a["tipo"] == "fisico"]
+    dig = [a for a in normales if a["tipo"] == "digital"]
+    if fis:
+        bloques.append(["📦 <b>FÍSICO</b>"] + [_con_juego(a) for a in fis])
+    if dig:
+        bloques.append(["🎮 <b>DIGITAL · eShop</b>"] + [_con_juego(a) for a in dig])
+    if avisos:
+        bloques.append(["⚠️ <b>AVISOS DEL BOT</b>"] + [a["linea"] for a in avisos])
+    pie = [LINEA]
+    if resto:
+        pie.append(f"➕ {len(resto)} ofertas más de menor descuento → /ofertas")
+    pie.append("🏆 mínimo histórico · 🎯 tu objetivo · 🏪 vendedor externo")
+    pie.append("/ofertas · /precios · /ayuda")
+
+    lineas = cab[:]
+    for k, bl in enumerate(bloques):
+        lineas += ([""] if k else []) + bl
+    lineas += [""] + pie
+    return trocear(lineas, cab[0])
+
+
+def trocear(lineas, titulo):
+    """Corta en mensajes de Telegram sin partir un producto; numera las partes."""
+    msgs, actual, largo = [], [], 0
+    for ln in lineas:
+        if actual and largo + len(ln) + 1 > TELEGRAM_MAX:
+            corte = len(actual)
+            if ln.startswith(" "):
+                for k in range(len(actual) - 1, 0, -1):
+                    if not actual[k].startswith(" "):
+                        corte = k
+                        break
+            while corte > 1 and (not actual[corte - 1].strip() or actual[corte - 1].startswith(("🔥 <b>", "📦 <b>", "🎮 <b>", "⚠️ <b>"))):
+                corte -= 1
+            msgs.append("\n".join(actual[:corte]).strip())
+            actual = actual[corte:]
+            largo = sum(len(x) + 1 for x in actual)
+        actual.append(ln)
+        largo += len(ln) + 1
     if actual:
-        mensajes.append(actual)
-    return mensajes
+        msgs.append("\n".join(actual).strip())
+    if len(msgs) > 1:
+        n = len(msgs)
+        msgs = [m if i == 0 else f"{titulo} <i>({i + 1}/{n})</i>\n\n{m}" for i, m in enumerate(msgs)]
+        msgs[0] = msgs[0].replace(titulo, f"{titulo} <i>(1/{n})</i>", 1)
+    return msgs
 
 
 # ------------------------------------------------------------- diagnostico
@@ -1296,7 +1414,7 @@ def diagnostico(cfg):
 
 def main():
     if "--test" in sys.argv:
-        ok = send_telegram("👑 SwitchBot está conectado y funcionando.")
+        ok = send_telegram("✅ <b>PRUEBA DE CONEXIÓN</b>\nSwitchBot está conectado y funcionando.")
         sys.exit(0 if ok else 1)
 
     cfg = load_json(CONFIG_FILE, None)
@@ -1311,8 +1429,7 @@ def main():
         return
 
     state = load_json(STATE_FILE, {})
-    primera_vez = "productos" not in state
-    alertas = {}
+    alertas = []
 
     hist = load_json(HIST_FILE, {})
     log("Revisando eShop...")
@@ -1325,11 +1442,24 @@ def main():
         state.pop(viejo, None)
     state["ultima_revision"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
+    # juegos que aparecen por primera vez: registrados en silencio
+    nuevos_p = [s for s in state.get("productos", {}).values() if s.get("visto_desde") is None]
+    nuevos_e = [s for s in state.get("eshop", {}).values() if s.get("visto_desde") is None]
+    for s in nuevos_p + nuevos_e:
+        s["visto_desde"] = hoy_chile()
     mensajes = armar_mensajes(alertas)
-    if mensajes and primera_vez:
-        mensajes.insert(0, "👑 <b>Primera revisión de SwitchBot</b>\n"
-                           "Estas son las ofertas que ya estaban activas. "
-                           "Desde ahora solo te aviso de las nuevas.")
+    if len(nuevos_p) + len(nuevos_e) >= 5:
+        con_oferta = sum(1 for s in nuevos_p if (s.get("pct") or 0) >= 15) + \
+            sum(1 for s in nuevos_e if s.get("normal"))
+        mensajes.insert(0, "\n".join([
+            "🆕 <b>BASE DE DATOS AMPLIADA</b>",
+            f"<i>{fecha_hora_chile()}</i>", LINEA,
+            f"📦 {len(nuevos_p)} productos físicos nuevos",
+            f"🎮 {len(nuevos_e)} juegos de la eShop nuevos",
+            f"🔥 {con_oferta} ya están con descuento",
+            "", "Los registré en silencio para no llenarte de alertas.",
+            "Desde ahora te aviso solo cuando bajen de precio.",
+            LINEA, "Ver las ofertas de hoy: /ofertas"]))
     enviados = sum(1 for m in mensajes if send_telegram(m))
     if enviados < len(mensajes):
         # no llegaron: se deshacen las marcas para que se vuelvan a avisar la proxima vez

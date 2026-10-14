@@ -17,11 +17,13 @@
     },
     {
       "nombre": "PC Factory",
-      "url": "https://www.pcfactory.cl"
+      "url": "https://www.pcfactory.cl",
+      "activa": false
     },
     {
       "nombre": "SP Digital",
-      "url": "https://www.spdigital.cl"
+      "url": "https://www.spdigital.cl",
+      "activa": false
     },
     {
       "nombre": "Bestmart",
@@ -102,6 +104,471 @@
     {
       "nombre": "lollipop",
       "buscar": "lollipop"
+    },
+    {
+      "nombre": "Mario",
+      "buscar": [
+        "super mario",
+        "mario"
+      ]
+    },
+    {
+      "nombre": "Mario Kart",
+      "buscar": "mario kart"
+    },
+    {
+      "nombre": "Mario Party",
+      "buscar": "mario party"
+    },
+    {
+      "nombre": "Paper Mario",
+      "buscar": "paper mario"
+    },
+    {
+      "nombre": "Mario + Rabbids",
+      "buscar": "rabbids"
+    },
+    {
+      "nombre": "Mario deportes",
+      "buscar": [
+        "mario tennis",
+        "mario golf",
+        "mario strikers"
+      ]
+    },
+    {
+      "nombre": "Luigi's Mansion",
+      "buscar": "luigi"
+    },
+    {
+      "nombre": "Princess Peach",
+      "buscar": "princess peach"
+    },
+    {
+      "nombre": "Yoshi",
+      "buscar": "yoshi"
+    },
+    {
+      "nombre": "Wario",
+      "buscar": "wario"
+    },
+    {
+      "nombre": "Donkey Kong",
+      "buscar": "donkey kong"
+    },
+    {
+      "nombre": "Captain Toad",
+      "buscar": "captain toad"
+    },
+    {
+      "nombre": "Super Smash Bros",
+      "buscar": "smash bros"
+    },
+    {
+      "nombre": "Splatoon",
+      "buscar": "splatoon"
+    },
+    {
+      "nombre": "Animal Crossing",
+      "buscar": "animal crossing"
+    },
+    {
+      "nombre": "Pikmin",
+      "buscar": "pikmin"
+    },
+    {
+      "nombre": "Xenoblade",
+      "buscar": "xenoblade"
+    },
+    {
+      "nombre": "Fire Emblem",
+      "buscar": "fire emblem"
+    },
+    {
+      "nombre": "Bayonetta",
+      "buscar": "bayonetta"
+    },
+    {
+      "nombre": "Astral Chain",
+      "buscar": "astral chain"
+    },
+    {
+      "nombre": "Advance Wars",
+      "buscar": "advance wars"
+    },
+    {
+      "nombre": "F-Zero",
+      "buscar": [
+        "f zero",
+        "f-zero"
+      ]
+    },
+    {
+      "nombre": "Kid Icarus",
+      "buscar": "kid icarus"
+    },
+    {
+      "nombre": "Ring Fit",
+      "buscar": "ring fit"
+    },
+    {
+      "nombre": "Switch Sports",
+      "buscar": "switch sports"
+    },
+    {
+      "nombre": "Professor Layton",
+      "buscar": "layton"
+    },
+    {
+      "nombre": "Tomodachi Life",
+      "buscar": "tomodachi"
+    },
+    {
+      "nombre": "Game Builder / Labo",
+      "buscar": [
+        "game builder garage"
+      ]
+    },
+    {
+      "nombre": "Drag x Drive",
+      "buscar": "drag x drive"
+    },
+    {
+      "nombre": "Pokémon Mystery Dungeon / Snap",
+      "buscar": [
+        "pokemon snap",
+        "mystery dungeon"
+      ]
+    },
+    {
+      "nombre": "Emio / Famicom Detective",
+      "buscar": [
+        "famicom detective",
+        "emio"
+      ]
+    },
+    {
+      "nombre": "Final Fantasy",
+      "buscar": "final fantasy"
+    },
+    {
+      "nombre": "Dragon Quest",
+      "buscar": "dragon quest"
+    },
+    {
+      "nombre": "Octopath Traveler",
+      "buscar": "octopath"
+    },
+    {
+      "nombre": "Bravely Default",
+      "buscar": "bravely"
+    },
+    {
+      "nombre": "Triangle Strategy",
+      "buscar": "triangle strategy"
+    },
+    {
+      "nombre": "Live A Live",
+      "buscar": "live a live"
+    },
+    {
+      "nombre": "NieR",
+      "buscar": "nier"
+    },
+    {
+      "nombre": "Chrono / Mana",
+      "buscar": [
+        "chrono cross",
+        "trials of mana",
+        "visions of mana",
+        "legend of mana",
+        "mana collection"
+      ]
+    },
+    {
+      "nombre": "Persona",
+      "buscar": "persona"
+    },
+    {
+      "nombre": "Shin Megami Tensei",
+      "buscar": [
+        "shin megami tensei",
+        "smt"
+      ]
+    },
+    {
+      "nombre": "Metaphor ReFantazio",
+      "buscar": "metaphor"
+    },
+    {
+      "nombre": "Tales of",
+      "buscar": "tales of"
+    },
+    {
+      "nombre": "Ys",
+      "buscar": [
+        "ys viii",
+        "ys ix",
+        "ys x",
+        "ys memoire"
+      ]
+    },
+    {
+      "nombre": "Trails / Kiseki",
+      "buscar": [
+        "trails",
+        "kuro no kiseki"
+      ]
+    },
+    {
+      "nombre": "Atelier",
+      "buscar": "atelier"
+    },
+    {
+      "nombre": "Rune Factory",
+      "buscar": "rune factory"
+    },
+    {
+      "nombre": "Story of Seasons",
+      "buscar": [
+        "story of seasons",
+        "harvest moon"
+      ]
+    },
+    {
+      "nombre": "Unicorn Overlord",
+      "buscar": "unicorn overlord"
+    },
+    {
+      "nombre": "Monster Hunter",
+      "buscar": "monster hunter"
+    },
+    {
+      "nombre": "Dragon Ball",
+      "buscar": "dragon ball"
+    },
+    {
+      "nombre": "Naruto",
+      "buscar": "naruto"
+    },
+    {
+      "nombre": "One Piece",
+      "buscar": "one piece"
+    },
+    {
+      "nombre": "Danganronpa",
+      "buscar": "danganronpa"
+    },
+    {
+      "nombre": "Ace Attorney",
+      "buscar": "ace attorney"
+    },
+    {
+      "nombre": "Like a Dragon / Yakuza",
+      "buscar": [
+        "like a dragon",
+        "yakuza"
+      ]
+    },
+    {
+      "nombre": "Xenoblade X",
+      "buscar": "xenoblade chronicles x"
+    },
+    {
+      "nombre": "Resident Evil",
+      "buscar": "resident evil"
+    },
+    {
+      "nombre": "Mega Man",
+      "buscar": [
+        "mega man",
+        "megaman"
+      ]
+    },
+    {
+      "nombre": "Street Fighter",
+      "buscar": "street fighter"
+    },
+    {
+      "nombre": "Sonic",
+      "buscar": "sonic"
+    },
+    {
+      "nombre": "Metal Gear",
+      "buscar": "metal gear"
+    },
+    {
+      "nombre": "Castlevania",
+      "buscar": "castlevania"
+    },
+    {
+      "nombre": "Contra",
+      "buscar": "contra"
+    },
+    {
+      "nombre": "Katamari",
+      "buscar": "katamari"
+    },
+    {
+      "nombre": "Tekken",
+      "buscar": "tekken"
+    },
+    {
+      "nombre": "Mortal Kombat",
+      "buscar": "mortal kombat"
+    },
+    {
+      "nombre": "Hogwarts Legacy",
+      "buscar": "hogwarts"
+    },
+    {
+      "nombre": "Cyberpunk 2077",
+      "buscar": "cyberpunk"
+    },
+    {
+      "nombre": "The Witcher",
+      "buscar": "witcher"
+    },
+    {
+      "nombre": "Assassin's Creed",
+      "buscar": "assassins creed"
+    },
+    {
+      "nombre": "Star Wars",
+      "buscar": "star wars"
+    },
+    {
+      "nombre": "Marvel",
+      "buscar": "marvel"
+    },
+    {
+      "nombre": "Batman",
+      "buscar": "batman"
+    },
+    {
+      "nombre": "LEGO",
+      "buscar": "lego"
+    },
+    {
+      "nombre": "Crash / Spyro",
+      "buscar": [
+        "crash bandicoot",
+        "spyro"
+      ]
+    },
+    {
+      "nombre": "Rayman",
+      "buscar": "rayman"
+    },
+    {
+      "nombre": "Just Dance",
+      "buscar": "just dance"
+    },
+    {
+      "nombre": "Doom",
+      "buscar": "doom"
+    },
+    {
+      "nombre": "Borderlands",
+      "buscar": "borderlands"
+    },
+    {
+      "nombre": "Split Fiction / It Takes Two",
+      "buscar": [
+        "split fiction",
+        "it takes two"
+      ]
+    },
+    {
+      "nombre": "EA Sports FC",
+      "buscar": [
+        "ea sports fc",
+        "fifa"
+      ]
+    },
+    {
+      "nombre": "NBA 2K",
+      "buscar": "nba 2k"
+    },
+    {
+      "nombre": "Minecraft",
+      "buscar": "minecraft"
+    },
+    {
+      "nombre": "Hitman",
+      "buscar": "hitman"
+    },
+    {
+      "nombre": "Civilization",
+      "buscar": "civilization"
+    },
+    {
+      "nombre": "Indiana Jones",
+      "buscar": "indiana jones"
+    },
+    {
+      "nombre": "Diablo",
+      "buscar": "diablo"
+    },
+    {
+      "nombre": "Overcooked",
+      "buscar": "overcooked"
+    },
+    {
+      "nombre": "Hollow Knight",
+      "buscar": "hollow knight"
+    },
+    {
+      "nombre": "Hades",
+      "buscar": "hades"
+    },
+    {
+      "nombre": "Cuphead",
+      "buscar": "cuphead"
+    },
+    {
+      "nombre": "Ori",
+      "buscar": "ori and the"
+    },
+    {
+      "nombre": "Stardew Valley",
+      "buscar": "stardew"
+    },
+    {
+      "nombre": "Celeste",
+      "buscar": "celeste"
+    },
+    {
+      "nombre": "Dead Cells",
+      "buscar": "dead cells"
+    },
+    {
+      "nombre": "Shantae",
+      "buscar": "shantae"
+    },
+    {
+      "nombre": "Shovel Knight",
+      "buscar": "shovel knight"
+    },
+    {
+      "nombre": "Dave the Diver",
+      "buscar": "dave the diver"
+    },
+    {
+      "nombre": "Sea of Stars",
+      "buscar": "sea of stars"
+    },
+    {
+      "nombre": "Okami",
+      "buscar": "okami"
+    },
+    {
+      "nombre": "Disco Elysium",
+      "buscar": "disco elysium"
+    },
+    {
+      "nombre": "Silksong",
+      "buscar": "silksong"
     }
   ]
 }
