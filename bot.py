@@ -894,11 +894,13 @@ def leer_tiendas(cfg, state, alertas):
             continue
         fallos.pop(nombre_t, None)
         log(f"  {nombre_t} [{cache.get('metodo')}]: {len(hallados)} avisos que calzan")
-        if cfg.get("ajustes", {}).get("excluir_externos", True):
-            externos = [p for _, p in hallados.values() if es_externo(p, tienda)]
-            if externos:
-                log(f"    {len(externos)} de vendedores externos descartados")
-            hallados = {u: (j, p) for u, (j, p) in hallados.items() if not es_externo(p, tienda)}
+        for _, p in hallados.values():
+            p["externo"] = es_externo(p, tienda)
+        if cfg.get("ajustes", {}).get("excluir_externos", False):
+            n = sum(1 for _, p in hallados.values() if p["externo"])
+            if n:
+                log(f"    {n} de vendedores externos descartados")
+            hallados = {u: (j, p) for u, (j, p) in hallados.items() if not p["externo"]}
         listados += [(j, nombre_t, p) for j, p in hallados.values()]
 
     # links puestos a mano (para tiendas que no se dejan buscar)
@@ -933,7 +935,8 @@ def revisar_productos(cfg, state, hist, listados, alertas):
         g = grupos.setdefault(clave, {"juego": juego, "nombre": nombre, "plataforma": plat,
                                       "variante": variante, "nsuid": nsuid, "avisos": []})
         g["avisos"].append({"tienda": tienda, "precio": l["precio"], "url": l["url"],
-                            "titulo": l["titulo"], "normal": l.get("normal")})
+                            "titulo": l["titulo"], "normal": l.get("normal"),
+                            "externo": bool(l.get("externo")), "vendedor": l.get("vendedor")})
     log(f"  {len(listados)} avisos agrupados en {len(grupos)} productos")
 
     for clave, g in sorted(grupos.items(), key=lambda x: (x[1]["juego"]["nombre"], x[1]["nombre"])):
@@ -976,7 +979,9 @@ def revisar_productos(cfg, state, hist, listados, alertas):
             "url": mejor["url"], "ref": ref, "ref_tipo": ref_tipo, "pct": round(pct, 1),
             "min_hist": est.get("min"), "min_fecha": est.get("min_fecha"),
             "min_tienda": est.get("min_tienda"), "tipico": est.get("tipico"), "dias": est["dias"],
-            "avisos": [{k: a[k] for k in ("tienda", "precio", "url", "titulo")} for a in avisos],
+            "avisos": [{k: a.get(k) for k in ("tienda", "precio", "url", "titulo", "externo", "vendedor")}
+                       for a in avisos],
+            "externo": bool(mejor.get("externo")), "vendedor": mejor.get("vendedor"),
             "nsuid": g["nsuid"], "ultimo": precio, "visto": ahora_iso(),
         })
 
@@ -999,7 +1004,8 @@ def revisar_productos(cfg, state, hist, listados, alertas):
 def linea_producto(s, motivos, anterior, e):
     nombre = s["nombre"] + (f" ({' '.join(s['variante'])})" if s.get("variante") else "")
     l = (f'<a href="{esc_attr(s["url"])}">{esc(nombre)}</a> · {esc(s["plataforma"])}\n'
-         f'   💸 {clp(s["precio"])} en {esc(s["tienda"])}')
+         f'   💸 {clp(s["precio"])} en {esc(s["tienda"])}'
+         + (f' 🏪 {esc(s.get("vendedor") or "vendedor externo")}' if s.get("externo") else ""))
     if "minimo" in motivos:
         l += "  🏆 mínimo histórico"
     if "objetivo" in motivos:
