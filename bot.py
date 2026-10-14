@@ -67,7 +67,10 @@ EXCLUIR_SIEMPRE = {
     "juguete", "plush", "pin", "pins", "gorro", "chaqueta", "lampara",
     "cojin", "manta", "billetera", "stickers", "sticker", "auriculares", "audifonos",
     "almacenamiento", "volantes", "compatibles", "compatible", "accesorio", "accesorios",
-    "premgear", "kit", "estuches", "fundas", "protectores", "lapiz",
+    "premgear", "kit", "estuches", "fundas", "protectores", "lapiz", "tarjetero", "triptico",
+    "powera", "hori", "organizador", "portajuegos", "porta", "cartuchos", "vidrio", "templado",
+    "bateria", "joystick", "joysticks", "stand", "bolsa", "maletin", "adaptador", "hub", "led",
+    "mousepad", "alfombra", "camiseta", "pijama", "disfraz", "vaso", "botella", "cuaderno",
 }
 
 VOLCAR = None               # carpeta donde el diagnostico guarda las paginas
@@ -719,6 +722,17 @@ PLAT2_RE = re.compile(r"\b(nintendo switch 2 edition|switch 2 edition|switch 2|s
 SUFIJO_S2_RE = re.compile(r"\s*[–—-]\s*Nintendo Switch 2 Edition\s*|\s+Nintendo Switch 2 Edition\s*", re.I)
 
 
+# palabras de empaque o de la tienda que no cambian el juego (no separan productos)
+NEUTRAS = {"re", "run", "rerun", "lrg", "mapa", "dlc", "regalo", "exclusivo", "incluye", "bloc",
+           "nota", "adhesiva", "cover", "uae", "especial", "special", "goty", "year", "anniversary",
+           "aniversario", "booster", "course", "pas", "pass", "expansion", "bonus", "preventa",
+           "sellado", "nuevo", "fisica", "fisico", "square", "enix", "bandai", "namco",
+           "entertainment", "capcom", "sega", "atlus", "konami", "ubisoft", "warner", "nicalis"}
+# juegos cuyo nombre es una sola palabra comun: exigen calce exacto
+GENERICAS = {"sport", "sports", "party", "racing", "world", "adventure", "battle", "collection",
+             "fighter", "golf", "tennis", "soccer", "football", "dance", "music", "puzzle"}
+
+
 def plataforma_de(titulo):
     t = norm(re.sub(r"[’'´`]", "", titulo))
     return "Switch 2" if PLAT2_RE.search(t) else "Switch"
@@ -800,10 +814,12 @@ def emparejar(titulo, plataforma, candidatos):
         cov = len(cubiertos) / len(set(ct))
         if cov < 0.7 or len(cubiertos) < min(2, len(set(ct))):
             continue
-        extra = len({w for w in st_toks if w not in ct and w not in VARIANTES
+        extra = len({w for w in st_toks if w not in ct and w not in VARIANTES and w not in NEUTRAS
                      and not any(w == a + b for a, b in zip(ct, ct[1:]))})
         if cov < 1 and extra:
             continue      # le faltan palabras Y tiene otras distintas: es otro juego
+        if len(set(ct)) == 1 and ct[0] in GENERICAS and extra:
+            continue      # ej. "Sports Party" no es "Nintendo Switch Sports"
         score = (cov, c["plataforma"] == plataforma, -extra, -len(ct))
         if mejor_score is None or score > mejor_score:
             mejor, mejor_score = c, score
@@ -1395,8 +1411,9 @@ def dinero_local(valor, moneda):
         return ""
     sim = SIMBOLO.get(moneda, moneda + " ")
     if moneda in ("CLP", "COP", "ARS"):
-        return f"{sim}{int(round(valor)):,}".replace(",", ".") + f" {moneda}"
-    return f"{sim}{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".") + f" {moneda}"
+        return sim + f"{int(round(valor)):,}".replace(",", ".") + f" {moneda}"
+    num = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    return f"{sim}{num} {moneda}"
 
 
 def plat_txt(p):
