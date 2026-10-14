@@ -1,12 +1,12 @@
 {
   "fallos": {
     "PC Factory": 12,
-    "Paris": 5,
+    "Paris": 6,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 271,
-  "revision": "2026-10-14T11:53:38Z",
+  "fisicos": 266,
+  "revision": "2026-10-14T17:14:42Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -256,7 +256,7 @@
       "linea": "🟢 <b>Danganronpa</b> — 📦 1 desde $54.990 · 🎮 4 desde US$1.96\n   🟢 Danganronpa: Trigger Happy Havoc Anniversary Edition −86%",
       "nombres": [
         "danganronpa 2 goodbye despair anniversary edition",
-        "danganronpa decadence",
+        "danganronpa decadence sniper",
         "danganronpa s ultimate summer camp",
         "danganronpa trigger happy havoc anniversary edition",
         "danganronpa v3 killing harmony anniversary edition"
@@ -313,12 +313,11 @@
     },
     {
       "juego": "Donkey Kong",
-      "linea": "🟡 <b>Donkey Kong</b> — 📦 4 desde $54.990 · 🎮 6 desde US$5.89\n   🟡 Donkey Kong Bananza −23%",
+      "linea": "🟡 <b>Donkey Kong</b> — 📦 3 desde $54.990 · 🎮 6 desde US$5.89\n   🟡 Donkey Kong Bananza −23%",
       "nombres": [
         "arcade archives donkey kong",
         "arcade archives donkey kong 3",
         "arcade archives donkey kong jr",
-        "controlador inalambrico turtle beach rematch donkey kong",
         "donkey kong bananza",
         "donkey kong country returns hd",
         "donkey kong country tropical freeze"
@@ -376,7 +375,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟡 <b>Dragon Quest</b> — 📦 15 desde $29.990 · 🎮 17 desde US$4.92\n   🟡 DRAGON QUEST I &amp; II HD-2D Remake −26%",
+      "linea": "🟡 <b>Dragon Quest</b> — 📦 13 desde $29.990 · 🎮 17 desde US$4.92\n   🟡 DRAGON QUEST I &amp; II HD-2D Remake −26%",
       "nombres": [
         "dragon quest",
         "dragon quest builders",
@@ -493,7 +492,7 @@
     },
     {
       "juego": "Hades",
-      "linea": "🟢 <b>Hades</b> — 📦 3 desde $49.990 · 🎮 5 desde US$2.31\n   🟢 Hades Uprising −50%",
+      "linea": "🟢 <b>Hades</b> — 📦 3 desde $44.990 · 🎮 5 desde US$2.31\n   🟢 Hades Uprising −50%",
       "nombres": [
         "garden of the greek gods zeus poseidon hades love story",
         "hades",
@@ -506,13 +505,12 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟠 <b>Hitman</b> — 📦 4 desde $75.990 · 🎮 3 desde US$21.51",
+      "linea": "🟠 <b>Hitman</b> — 📦 3 desde $75.990 · 🎮 3 desde US$21.51",
       "nombres": [
         "game solutions 2 go hitman world of assassination",
         "hitman absolution",
         "hitman blood money reprisal",
-        "hitman world of assassination signature edition",
-        "limited run hitman blood money"
+        "hitman world of assassination signature edition"
       ],
       "orden": 3,
       "slug": "hitman"
@@ -562,7 +560,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟠 <b>Just Dance</b> — 📦 9 desde $28.990",
+      "linea": "🟠 <b>Just Dance</b> — 📦 8 desde $28.990",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -570,7 +568,6 @@
         "just dance 2022",
         "just dance 2026 limited edition",
         "pulseras para just dance y zumba",
-        "ubisoft just dance 2018",
         "ubisoft just dance 2019",
         "ubisoft just dance 2021"
       ],
@@ -579,8 +576,9 @@
     },
     {
       "juego": "Katamari",
-      "linea": "🟡 <b>Katamari</b> — 📦 2 desde $34.990 · 🎮 4 desde US$19.46\n   🟡 We Love Katamari REROLL+ Royal Reverie −22%",
+      "linea": "🟡 <b>Katamari</b> — 📦 3 desde $34.990 · 🎮 4 desde US$19.46\n   🟡 We Love Katamari REROLL+ Royal Reverie −22%",
       "nombres": [
+        "bandai namco we love katamari reroll",
         "katamari damacy reroll",
         "once upon a katamari",
         "we love katamari reroll royal reverie"
@@ -657,11 +655,11 @@
     },
     {
       "juego": "Live A Live",
-      "linea": "🟠 <b>Live A Live</b> — 📦 1 desde $44.990 · 🎮 1 desde US$49.22",
+      "linea": "🟡 <b>Live A Live</b> — 📦 1 desde $44.990 · 🎮 1 desde US$49.22\n   🟡 LIVE A LIVE −27%",
       "nombres": [
         "live a live"
       ],
-      "orden": 3,
+      "orden": 2,
       "slug": "live-a-live"
     },
     {
@@ -686,11 +684,10 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 30 desde $29.990 · 🎮 26 desde US$5.89\n   🟢 Mario Kart 8 Deluxe −47%",
+      "linea": "🟢 <b>Mario</b> — 📦 29 desde $29.990 · 🎮 26 desde US$5.89\n   🟢 Mario Kart 8 Deluxe −47%",
       "nombres": [
         "arcade archives mario bros",
         "arcade archives vs super mario bros",
-        "controlador inalambrico turtle beach rematch mario kart",
         "mario golf super rush",
         "mario kart 8 deluxe",
         "mario kart live home circuit mario set",
@@ -745,7 +742,7 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟠 <b>Marvel</b> — 📦 2 desde $49.990 · 🎮 7 desde US$22.33",
+      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 7 desde US$14.80\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
         "lego marvel super heroes",
         "lego marvel super heroes 2",
@@ -754,12 +751,12 @@
         "marvel ultimate alliance 3 the black order",
         "marvel vs capcom fighting collection arcade classics"
       ],
-      "orden": 3,
+      "orden": 1,
       "slug": "marvel"
     },
     {
       "juego": "Mega Man",
-      "linea": "🟡 <b>Mega Man</b> — 📦 3 desde $34.990 · 🎮 10 desde US$7.08\n   🟡 Mega Man Legacy Collection −34%",
+      "linea": "🟢 <b>Mega Man</b> — 📦 3 desde $34.990 · 🎮 10 desde US$6.30\n   🟢 Mega Man Battle Network Legacy Collection Vol. 2 −68%",
       "nombres": [
         "mega man 11",
         "mega man battle fighters",
@@ -772,7 +769,7 @@
         "mega man x legacy collection 2",
         "mega man zero zx legacy collection"
       ],
-      "orden": 2,
+      "orden": 1,
       "slug": "mega-man"
     },
     {
@@ -813,7 +810,7 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "🟡 <b>Minecraft</b> — 📦 3 desde $29.990 · 🎮 7 desde US$13.83\n   🟡 Minecraft: Nintendo Switch Edition −29%",
+      "linea": "🟡 <b>Minecraft</b> — 📦 2 desde $29.990 · 🎮 7 desde US$13.83\n   🟡 Minecraft: Nintendo Switch Edition −29%",
       "nombres": [
         "minecraft",
         "minecraft dungeons",
@@ -961,7 +958,7 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟡 <b>Pokémon</b> — 📦 18 desde $39.990 · 🎮 20 desde US$9.84\n   🟡 Pokémon: Let’s Go, Eevee! −44%",
+      "linea": "🟡 <b>Pokémon</b> — 📦 17 desde $39.990 · 🎮 20 desde US$9.84\n   🟡 Pokémon: Let’s Go, Eevee! −44%",
       "nombres": [
         "english pokemon firered version",
         "english pokemon leafgreen version",
@@ -1034,7 +1031,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟡 <b>Resident Evil</b> — 📦 4 desde $49.990 · 🎮 16 desde US$14.63\n   🟡 Resident Evil 3 −34%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 3 desde $49.990 · 🎮 16 desde US$6.30\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 0",
@@ -1053,7 +1050,7 @@
         "resident evil village cloud",
         "resident evil village gold edition"
       ],
-      "orden": 2,
+      "orden": 1,
       "slug": "resident-evil"
     },
     {
@@ -1131,7 +1128,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 10 desde $29.990 · 🎮 16 desde US$7.07\n   🟢 Sonic Wings Reunion −50%",
+      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $29.990 · 🎮 16 desde US$7.07\n   🟢 Sonic Wings Reunion −50%",
       "nombres": [
         "console archives sonic wings special",
         "sega ages sonic the hedgehog",
@@ -1163,9 +1160,8 @@
     },
     {
       "juego": "Splatoon",
-      "linea": "🟡 <b>Splatoon</b> — 📦 5 desde $31.990 · 🎮 3 desde US$49.22\n   🟡 Joystick Inalámbrico Pro Bluetooth Edición Splatoon −29%",
+      "linea": "🟡 <b>Splatoon</b> — 📦 4 desde $49.990 · 🎮 3 desde US$49.22\n   🟡 Splatoon Raiders −22%",
       "nombres": [
-        "joystick inalambrico pro bluetooth edicion splatoon",
         "splatoon 2",
         "splatoon 3",
         "splatoon raiders"
@@ -1175,12 +1171,12 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟠 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $64.990 · 🎮 1 desde US$45.70",
+      "linea": "⚪ <b>Split Fiction / It Takes Two</b> — 📦 2 desde $64.990 · 🎮 1 desde US$45.70",
       "nombres": [
         "electronic arts it takes two",
         "split fiction"
       ],
-      "orden": 3,
+      "orden": 4,
       "slug": "split-fiction-it-takes-two"
     },
     {
@@ -1229,7 +1225,7 @@
     },
     {
       "juego": "Story of Seasons",
-      "linea": "🟡 <b>Story of Seasons</b> — 📦 20 desde $34.711 · 🎮 17 desde US$9.49\n   🟡 STORY OF SEASONS: Grand Bazaar −30%",
+      "linea": "🟡 <b>Story of Seasons</b> — 📦 19 desde $34.711 · 🎮 17 desde US$9.49\n   🟡 STORY OF SEASONS: Grand Bazaar −30%",
       "nombres": [
         "doraemon story of seasons",
         "doraemon story of seasons friends of the great kingdom",
@@ -1261,7 +1257,7 @@
     },
     {
       "juego": "Street Fighter",
-      "linea": "🟡 <b>Street Fighter</b> — 📦 5 desde $24.990 · 🎮 3 desde US$23.63\n   🟡 Ultra Street Fighter Ii - Sniper Game −50%",
+      "linea": "🟢 <b>Street Fighter</b> — 📦 5 desde $24.990 · 🎮 3 desde US$3.54\n   🟢 Street Fighter 30th Anniversary Collection −85%",
       "nombres": [
         "street fighter 30th anniversary collection",
         "street fighter 6",
@@ -1269,12 +1265,12 @@
         "ultra street fighter ii sniper game",
         "ultra street fighter ii the final challengers"
       ],
-      "orden": 2,
+      "orden": 1,
       "slug": "street-fighter"
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟠 <b>Super Smash Bros</b> — 📦 2 desde $51.990 · 🎮 1 desde US$59.76",
+      "linea": "🟠 <b>Super Smash Bros</b> — 📦 2 desde $54.990 · 🎮 1 desde US$59.76",
       "nombres": [
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
@@ -1284,7 +1280,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟡 <b>Switch Sports</b> — 📦 11 desde $34.720 · 🎮 2 desde US$38.67\n   🟡 Instant Sports Tennis - Sniper −30%",
+      "linea": "🟡 <b>Switch Sports</b> — 📦 12 desde $34.720 · 🎮 2 desde US$38.67\n   🟡 Instant Sports Tennis - Sniper −30%",
       "nombres": [
         "funbox media junior league sports 3 en 1",
         "game merge games instant sports all stars",
@@ -1297,6 +1293,7 @@
         "nintendo switch sports",
         "nintendo switch sports resort",
         "sports camp a 35 game adventure",
+        "sports motion controls",
         "sports party sniper game"
       ],
       "orden": 2,
@@ -1304,10 +1301,9 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟡 <b>Tales of</b> — 📦 11 desde $49.990 · 🎮 32 desde US$4.48\n   🟡 Tales of Symphonia Remastered −33%",
+      "linea": "🟡 <b>Tales of</b> — 📦 8 desde $49.990 · 🎮 32 desde US$4.48\n   🟡 Tales of Symphonia Remastered −33%",
       "nombres": [
         "airheart tales of broken wings",
-        "bandai namco tales of graces of remastered",
         "bandai namco tales of xillia",
         "fhtagn tales of the creeping madness",
         "forgotten tales day of the dead",
@@ -1488,5 +1484,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 967
+  "total": 953
 }

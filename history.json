@@ -28,7 +28,7 @@
     },
     "70010000000185": {
       "2026-10-14": [
-        31.52,
+        15.76,
         "CL"
       ]
     },
@@ -182,13 +182,13 @@
     },
     "70010000001421": {
       "2026-10-14": [
-        15.75,
+        6.3,
         "CL"
       ]
     },
     "70010000001515": {
       "2026-10-14": [
-        15.75,
+        6.3,
         "CL"
       ]
     },
@@ -268,7 +268,7 @@
     },
     "70010000003242": {
       "2026-10-14": [
-        11.81,
+        6.3,
         "CL"
       ]
     },
@@ -304,7 +304,7 @@
     },
     "70010000003622": {
       "2026-10-14": [
-        23.63,
+        3.54,
         "CL"
       ]
     },
@@ -316,7 +316,7 @@
     },
     "70010000003964": {
       "2026-10-14": [
-        23.63,
+        7.87,
         "CL"
       ]
     },
@@ -362,7 +362,7 @@
     },
     "70010000004682": {
       "2026-10-14": [
-        15.75,
+        6.3,
         "CL"
       ]
     },
@@ -1554,13 +1554,13 @@
     },
     "70010000045616": {
       "2026-10-14": [
-        35.04,
+        11.39,
         "CL"
       ]
     },
     "70010000045621": {
       "2026-10-14": [
-        35.04,
+        11.39,
         "CL"
       ]
     },
@@ -2222,7 +2222,7 @@
     },
     "70010000077523": {
       "2026-10-14": [
-        46.26,
+        14.8,
         "BR"
       ]
     },
@@ -2476,7 +2476,7 @@
     },
     "70010000095203": {
       "2026-10-14": [
-        38.09,
+        15.23,
         "BR"
       ]
     },
@@ -2870,7 +2870,7 @@
     },
     "70010000104078": {
       "2026-10-14": [
-        35.15,
+        26.36,
         "CA"
       ]
     },
@@ -3756,6 +3756,17 @@
       "nombre": "Bandai Namco Tales of Xillia",
       "plataforma": "Switch"
     },
+    "bandai namco we love katamari reroll|Switch": {
+      "f": {
+        "2026-10-14": [
+          51990.0,
+          "Lider"
+        ]
+      },
+      "juego": "Katamari",
+      "nombre": "BANDAI NAMCO We Love Katamari REROLL",
+      "plataforma": "Switch"
+    },
     "bayonetta 3|Switch": {
       "f": {
         "2026-10-14": [
@@ -4116,7 +4127,7 @@
         ]
       },
       "juego": "Danganronpa",
-      "nombre": "Danganronpa Decadence",
+      "nombre": "Danganronpa Decadence - Sniper",
       "plataforma": "Switch"
     },
     "dave the diver|Switch": {
@@ -4798,7 +4809,7 @@
     "hades ii|Switch 2": {
       "f": {
         "2026-10-14": [
-          49990.0,
+          44990.0,
           "Falabella"
         ]
       },
@@ -7221,6 +7232,17 @@
       },
       "juego": "Switch Sports",
       "nombre": "Sports Camp: A 35-Game Adventure",
+      "plataforma": "Switch"
+    },
+    "sport motion control|Switch": {
+      "f": {
+        "2026-10-14": [
+          75990.0,
+          "Lider"
+        ]
+      },
+      "juego": "Switch Sports",
+      "nombre": "Sports Motion Controls",
       "plataforma": "Switch"
     },
     "sport party|Switch": {

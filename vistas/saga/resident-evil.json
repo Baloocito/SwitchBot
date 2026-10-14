@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "con_fisico": true,
+      "nivel": "compra",
+      "nombre": "Resident Evil Revelations",
+      "pct": 60.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Resident Evil Revelations</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$6.30</b> ≈ $6.149 en 🇨🇱 Chile\n   Precio en la tienda: $6.150 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$15.75 → ahorras US$9.45 · ⏳ termina el 5 nov (en 22 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/resident-evil-revelations-switch/\">US$6.30</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/resident-evil-revelations-switch/\">US$6.62</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/resident-evil-revelations-switch/\">US$7.02</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/resident-evil-revelations-switch/\">US$7.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/resident-evil-revelations-switch/\">US$8.69</a>\n   El más caro: 🇨🇴 US$9.66\n📦 Físico: $72.990 en Lider → el digital te ahorra $66.841\n📈 Mínimo US$6.30 (14 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/resident-evil-revelations-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "con_fisico": false,
+      "nivel": "compra",
+      "nombre": "Resident Evil Revelations 2",
+      "pct": 60.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Resident Evil Revelations 2</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$6.30</b> ≈ $6.149 en 🇨🇱 Chile\n   Precio en la tienda: $6.150 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$15.75 → ahorras US$9.45 · ⏳ termina el 5 nov (en 22 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/resident-evil-revelations-2-switch/\">US$6.30</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/resident-evil-revelations-2-switch/\">US$6.62</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/resident-evil-revelations-2-switch/\">US$7.02</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/resident-evil-revelations-2-switch/\">US$7.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/resident-evil-revelations-2-switch/\">US$8.69</a>\n   El más caro: 🇨🇴 US$9.66\n📈 Mínimo US$6.30 (14 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/resident-evil-revelations-2-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
       "con_fisico": false,
       "nivel": "bueno",
       "nombre": "Resident Evil 3",
@@ -32,13 +48,6 @@
       "tipo": "digital"
     },
     {
-      "nivel": "regular",
-      "nombre": "Resident Evil Revelations",
-      "pct": 6.9,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Resident Evil Revelations (coleccion)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$72.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $5.376 frente al «antes» que marca la tienda ($78.366)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $72.990 (14 oct, Lider) · máximo $72.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$15.75 ≈ $15.373 en 🇨🇱 Chile\n   ➜ El digital es $57.617 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/mundo-gamer/juego-capcom-resident-evil-revelations-coleccion-para-nintendo-switch-edicion-estandar/00001338841001\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
       "nivel": "normal",
       "nombre": "Resident Evil",
       "pct": 0,
@@ -51,22 +60,6 @@
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Resident Evil (import japan)</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (14 oct, 8 Bits) · máximo $49.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$15.75 ≈ $15.373 en 🇨🇱 Chile\n   ➜ El digital es $34.617 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/resident-evil-7-gold-edition-grotesque-ver-nintendo-switch-2-japan-import\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
-    },
-    {
-      "con_fisico": true,
-      "nivel": "normal",
-      "nombre": "Resident Evil Revelations",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Resident Evil Revelations</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$15.75</b> ≈ $15.373 en 🇨🇱 Chile\n   Precio en la tienda: $15.377 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/resident-evil-revelations-switch/\">US$15.75</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/resident-evil-revelations-switch/\">US$16.55</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/resident-evil-revelations-switch/\">US$17.57</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/resident-evil-revelations-switch/\">US$19.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/resident-evil-revelations-switch/\">US$21.73</a>\n   El más caro: 🇨🇴 US$24.14\n📦 Físico: $72.990 en Lider → el digital te ahorra $57.617\n📈 Mínimo US$15.75 (14 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/resident-evil-revelations-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "con_fisico": false,
-      "nivel": "normal",
-      "nombre": "Resident Evil Revelations 2",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Resident Evil Revelations 2</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$15.75</b> ≈ $15.373 en 🇨🇱 Chile\n   Precio en la tienda: $15.377 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/resident-evil-revelations-2-switch/\">US$15.75</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/resident-evil-revelations-2-switch/\">US$16.55</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/resident-evil-revelations-2-switch/\">US$17.57</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/resident-evil-revelations-2-switch/\">US$19.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/resident-evil-revelations-2-switch/\">US$21.73</a>\n   El más caro: 🇨🇴 US$24.14\n📈 Mínimo US$15.75 (14 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/resident-evil-revelations-2-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
     },
     {
       "con_fisico": false,
@@ -158,5 +151,5 @@
     }
   ],
   "juego": "Resident Evil",
-  "revision": "2026-10-14T11:53:38Z"
+  "revision": "2026-10-14T17:14:42Z"
 }
