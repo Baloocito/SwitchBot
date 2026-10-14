@@ -1010,6 +1010,7 @@ def revisar_eshop(cfg, state, hist, alertas):
                   "clp": round(actual * clp_x_usd) if clp_x_usd else None,
                   "regiones": {k: v["actual_usd"] for k, v in regs.items()},
                   "min_hist": est.get("min"), "min_fecha": est.get("min_fecha"),
+                  "pct_oferta": round(pct_oferta, 1), "objetivo": juego.get("objetivo_usd"),
                   "dias": est["dias"]})
 
         pct = pct_oferta
@@ -1041,7 +1042,8 @@ def revisar_eshop(cfg, state, hist, alertas):
             if "objetivo" in motivos:
                 linea += "  🎯"
             agregar_alerta(alertas, "digital", juego["nombre"], linea,
-                           puntaje(pct, motivos))
+                           puntaje(pct, motivos), ref=nsuid,
+                           extra=extra_motivos(motivos, anterior, actual, usd))
 
 
 def _leer_una_tienda(tienda, juegos, state):
@@ -1178,12 +1180,10 @@ def revisar_productos(cfg, state, hist, listados, alertas):
         otras = [a["precio"] for a in avisos[1:]]
         if est.get("tipico"):
             ref, ref_tipo = est["tipico"], "tipico"
-        elif len(otras) >= 2:
+        elif otras:
             ref, ref_tipo = _mediana(otras), "mercado"
         elif mejor.get("normal") and mejor["normal"] > precio:
             ref, ref_tipo = mejor["normal"], "tienda"
-        elif otras:
-            ref, ref_tipo = otras[0], "mercado"
         else:
             ref, ref_tipo = None, None
         pct = 100 * (1 - precio / ref) if ref else 0
@@ -1200,6 +1200,7 @@ def revisar_productos(cfg, state, hist, listados, alertas):
             "avisos": [{k: a.get(k) for k in ("tienda", "precio", "url", "titulo", "externo", "vendedor")}
                        for a in avisos],
             "externo": bool(mejor.get("externo")), "vendedor": mejor.get("vendedor"),
+            "normal_tienda": mejor.get("normal"), "objetivo": juego.get("objetivo_clp"),
             "nsuid": g["nsuid"], "ultimo": precio, "visto": ahora_iso(),
         })
 
@@ -1217,7 +1218,8 @@ def revisar_productos(cfg, state, hist, listados, alertas):
         if decidir(s, precio, motivos, nuevo=anterior is None):
             agregar_alerta(alertas, "fisico", juego["nombre"],
                            linea_producto(s, motivos, anterior, e),
-                           puntaje(s.get("pct") or 0, motivos))
+                           puntaje(s.get("pct") or 0, motivos), ref=clave,
+                           extra=extra_motivos(motivos, anterior, precio, clp))
 
 
 def linea_producto(s, motivos, anterior, e):
@@ -1285,8 +1287,20 @@ def puntaje(pct, motivos):
     return (pct or 0) + (100 if "minimo" in motivos else 0) + (80 if "objetivo" in motivos else 0)
 
 
-def agregar_alerta(alertas, tipo, juego, linea, score):
-    alertas.append({"tipo": tipo, "juego": juego, "linea": linea, "score": score})
+def agregar_alerta(alertas, tipo, juego, linea, score, ref=None, extra=None):
+    alertas.append({"tipo": tipo, "juego": juego, "linea": linea, "score": score,
+                    "ref": ref, "extra": extra})
+
+
+def extra_motivos(motivos, anterior=None, precio=None, dinero=None):
+    """Etiqueta corta de por que llega esta alerta."""
+    if "objetivo" in motivos:
+        return None
+    if "minimo" in motivos:
+        return "🏆 mínimo histórico"
+    if "baja" in motivos and anterior and precio is not None:
+        return f"📉 bajó desde {dinero(anterior)}"
+    return None
 
 
 def fecha_hora_chile():
@@ -1305,72 +1319,454 @@ def _con_juego(a):
     return f"<i>{esc(a['juego'])}</i> · {a['linea']}" if a["juego"] else a["linea"]
 
 
-def armar_mensajes(alertas, titulo="🔔 <b>ALERTA DE OFERTAS</b>"):
-    """Un solo informe ordenado por importancia, con encabezado y pie."""
-    ofertas = [a for a in alertas if a["tipo"] != "aviso"]
-    avisos = [a for a in alertas if a["tipo"] == "aviso"]
-    if not ofertas and not avisos:
-        return []
-    ofertas.sort(key=lambda a: -a["score"])
-    mostradas, resto = ofertas[:MAX_ALERTAS], ofertas[MAX_ALERTAS:]
-    urgentes = [a for a in mostradas if a["score"] >= 40]   # −40% real, 🏆 o 🎯
-    normales = [a for a in mostradas if a not in urgentes]
+# ------------------------------------------------------------------ tarjetas
+#
+# Cada producto se muestra como una "tarjeta de decision": veredicto arriba,
+# precio, por que es (o no) buen precio, comparacion entre tiendas, historial,
+# digital vs fisico y el link para comprar. Las mismas tarjetas se usan en las
+# alertas y en los comandos (/ofertas, /precios), que las leen ya armadas
+# desde la carpeta vistas/.
 
-    partes = []
-    resumen = f"{len(ofertas)} oferta{'s' if len(ofertas) != 1 else ''} nueva{'s' if len(ofertas) != 1 else ''}"
-    if urgentes:
-        resumen += f" · {len(urgentes)} 🔥"
-    cab = [titulo, f"<i>{fecha_hora_chile()} · {resumen}</i>" if ofertas else f"<i>{fecha_hora_chile()}</i>", LINEA]
+VISTAS_DIR = BASE / "vistas"
+SEP_TARJETA = "┈┈┈┈┈┈┈┈┈┈┈┈┈┈"
+PAISES = {
+    "US": ("🇺🇸", "EE. UU.", "en-us"), "CA": ("🇨🇦", "Canadá", "en-ca"),
+    "MX": ("🇲🇽", "México", "es-mx"), "BR": ("🇧🇷", "Brasil", "pt-br"),
+    "CL": ("🇨🇱", "Chile", "es-cl"), "CO": ("🇨🇴", "Colombia", "es-co"),
+    "PE": ("🇵🇪", "Perú", "es-pe"), "AR": ("🇦🇷", "Argentina", "es-ar"),
+}
+SIMBOLO = {"CLP": "$", "USD": "US$", "CAD": "CA$", "MXN": "MX$", "BRL": "R$", "COP": "COL$",
+           "PEN": "S/", "ARS": "AR$"}
+MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
+BARRAS = "▁▂▃▄▅▆▇█"
+NIVELES = {  # orden, emoji, titulo
+    "objetivo": (0, "🎯", "LLEGÓ A TU OBJETIVO"),
+    "compra": (1, "🟢", "COMPRA YA"),
+    "bueno": (2, "🟡", "BUEN PRECIO"),
+    "regular": (3, "🟠", "PRECIO REGULAR"),
+    "normal": (4, "⚪", "PRECIO NORMAL"),
+}
 
-    bloques = []
-    if urgentes:
-        bloques.append(["🔥 <b>NO TE LAS PIERDAS</b>"] + [_con_juego(a) for a in urgentes])
-    fis = [a for a in normales if a["tipo"] == "fisico"]
-    dig = [a for a in normales if a["tipo"] == "digital"]
+
+def fecha_corta(ymd):
+    try:
+        y, m, d = (int(x) for x in str(ymd)[:10].split("-"))
+        return f"{d} {MESES[m - 1]}"
+    except (ValueError, IndexError):
+        return str(ymd)
+
+
+def dias_para(fin_iso):
+    try:
+        from datetime import datetime, timezone
+        fin = datetime.fromisoformat(str(fin_iso).replace("Z", "+00:00"))
+        return (fin - datetime.now(timezone.utc)).total_seconds() / 86400
+    except (ValueError, TypeError):
+        return None
+
+
+def sparkline(vals):
+    if len(vals) < 2:
+        return ""
+    lo, hi = min(vals), max(vals)
+    return "".join(BARRAS[3 if hi == lo else round((v - lo) / (hi - lo) * 7)] for v in vals)
+
+
+def slug(texto):
+    return norm(texto).replace(" ", "-") or "x"
+
+
+def pais_txt(cod):
+    f, n, _ = PAISES.get(cod, ("🌎", cod, ""))
+    return f"{f} {n}"
+
+
+def url_pais(url, cod):
+    loc = PAISES.get(cod, (0, 0, ""))[2]
+    if not url or not loc or cod == "US":
+        return url
+    return re.sub(r"nintendo\.com/(us|[a-z]{2}-[a-z]{2})/", f"nintendo.com/{loc}/", url)
+
+
+def dinero_local(valor, moneda):
+    if valor is None:
+        return ""
+    sim = SIMBOLO.get(moneda, moneda + " ")
+    if moneda in ("CLP", "COP", "ARS"):
+        return f"{sim}{int(round(valor)):,}".replace(",", ".") + f" {moneda}"
+    return f"{sim}{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".") + f" {moneda}"
+
+
+def plat_txt(p):
+    return "Switch 2" if p == "Switch 2" else "Switch 1"
+
+
+def serie_de(hist, grupo, clave):
+    h = (hist.get(grupo) or {}).get(clave) or {}
+    f = h.get("f", h) if grupo == "productos" else h
+    fechas = sorted(k for k in f if re.match(r"\d{4}-\d{2}-\d{2}$", k))
+    return [(d, f[d][0] if isinstance(f[d], list) else f[d],
+             f[d][1] if isinstance(f[d], list) else None) for d in fechas]
+
+
+# ---------------------------------------------------------------- veredictos
+
+def veredicto_fisico(s):
+    pct = s.get("pct") or 0
+    fiable = s.get("ref_tipo") in ("tipico", "mercado")
+    minimo = (s.get("dias") or 0) >= MIN_DIAS and s.get("min_hist") and s["precio"] <= s["min_hist"]
+    if s.get("objetivo") and s["precio"] <= s["objetivo"]:
+        return "objetivo", f"llegó a tu objetivo de {clp(s['objetivo'])}"
+    if minimo:
+        return "compra", "es el precio más bajo que he visto"
+    n_otras = len(s.get("avisos") or []) - 1
+    contra = ("su precio típico" if s.get("ref_tipo") == "tipico"
+              else "la otra tienda" if n_otras == 1 else "el resto de las tiendas")
+    # con una sola tienda para comparar no se asegura "compra ya": esa otra puede estar cara
+    if fiable and pct >= 30 and (s.get("ref_tipo") == "tipico" or n_otras >= 2):
+        return "compra", f"{round(pct)}% bajo {contra}"
+    if fiable and pct >= 15:
+        extra = " (solo comparé con una tienda: revisa que no esté cara)" if n_otras == 1 and s.get("ref_tipo") != "tipico" else ""
+        return "bueno", f"{round(pct)}% bajo {contra}{extra}"
+    if s.get("ref_tipo") == "tienda" and pct >= 25:
+        return "bueno", f"−{round(pct)}% según la tienda (sin otra tienda para confirmarlo)"
+    if pct >= 5:
+        return "regular", f"apenas {round(pct)}% bajo la referencia"
+    return "normal", "está a su precio de siempre"
+
+
+def veredicto_digital(e):
+    pct = e.get("pct_oferta") or 0
+    minimo = (e.get("dias") or 0) >= MIN_DIAS and e.get("min_hist") and e["ultimo"] <= e["min_hist"]
+    if e.get("objetivo") and e["ultimo"] <= e["objetivo"]:
+        return "objetivo", f"llegó a tu objetivo de {usd(e['objetivo'])}"
+    if minimo and pct:
+        return "compra", "es el precio más bajo que he visto"
+    if pct >= 40:
+        return "compra", f"oferta de −{round(pct)}% en la eShop"
+    if pct >= 20:
+        return "bueno", f"oferta de −{round(pct)}% en la eShop"
+    if pct >= 5:
+        return "regular", f"oferta chica de −{round(pct)}%"
+    return "normal", "sin oferta, precio regular"
+
+
+def confianza(s):
+    n = len(s.get("avisos") or [])
+    d = (s.get("dias") or 0) + 1          # dias con datos, contando hoy
+    if d >= MIN_DIAS and n >= 3:
+        return "alta", f"{n} tiendas y {d} días de historial"
+    if d >= MIN_DIAS or n >= 2:
+        return "media", f"{n} tienda{'s' if n != 1 else ''} y {d} día{'s' if d != 1 else ''} de historial"
+    return "baja", f"una sola tienda y {d} día{'s' if d != 1 else ''} de historial"
+
+
+# ---------------------------------------------------------------- tarjetas
+
+def tarjeta_fisico(clave, s, state, hist, extra=None):
+    nivel, razon = veredicto_fisico(s)
+    _, emo, tit = NIVELES[nivel]
+    pct = s.get("pct") or 0
+    nombre = s["nombre"] + (f" ({' '.join(s['variante'])})" if s.get("variante") else "")
+    l = [f"{emo} <b>{tit}</b>" + (f" · −{round(pct)}%" if pct >= 5 else "") + (f" · {extra}" if extra else ""),
+         f"<b>{esc(nombre)}</b>",
+         f"🕹️ {plat_txt(s['plataforma'])} · 📦 Físico" + (f" · {esc(s['juego'])}" if norm(s["juego"]) not in norm(nombre) else "")]
+    vend = f" 🏪 <i>vende {esc(s.get('vendedor') or 'tercero')}</i>" if s.get("externo") else ""
+    l.append(f"💰 <b>{clp(s['precio'])}</b> en {esc(s['tienda'])}{vend}")
+    l.append(f"💡 {razon[0].upper() + razon[1:]}")
+    if s.get("ref") and pct >= 1:
+        ahorro = s["ref"] - s["precio"]
+        txt = {"tipico": "a su precio típico",
+               "mercado": "a la otra tienda" if len(s.get("avisos") or []) == 2 else "al promedio de las otras tiendas",
+               "tienda": "al «antes» que marca la tienda"}.get(s.get("ref_tipo"), "a la referencia")
+        l.append(f"   Ahorras {clp(ahorro)} frente {txt} ({clp(s['ref'])})")
+    # "antes" de la tienda inflado
+    otros = [a["precio"] for a in (s.get("avisos") or [])[1:]]
+    nt = s.get("normal_tienda")
+    if nt and nt > s["precio"]:
+        if otros and nt > 1.25 * _mediana(otros):
+            l.append(f"🏷️ La tienda dice «antes {clp(nt)}», pero las demás lo venden cerca de {clp(_mediana(otros))}: ese descuento está inflado")
+        elif s.get("ref_tipo") != "tienda":
+            l.append(f"🏷️ La tienda marca «antes {clp(nt)}» (−{round(100 * (1 - s['precio'] / nt))}%)")
+    # comparacion
+    avisos = s.get("avisos") or []
+    if len(avisos) > 1:
+        l.append(f"🏬 <b>Comparación ({len(avisos)} tiendas)</b>")
+        med = ["🥇", "🥈", "🥉"]
+        for i, a in enumerate(avisos[:8]):
+            m = med[i] if i < 3 else "▫️"
+            ext = f" 🏪 {esc(a.get('vendedor') or '')}".rstrip() if a.get("externo") else ""
+            dif = f" (+{clp(a['precio'] - s['precio'])})" if i else ""
+            l.append(f"   {m} <a href=\"{esc_attr(a['url'])}\">{clp(a['precio'])} {esc(a['tienda'])}</a>{ext}{dif}")
+        if len(avisos) > 8:
+            l.append(f"   … y {len(avisos) - 8} más")
+    else:
+        l.append("🏬 Solo lo encontré en esta tienda")
+    # historial
+    serie = serie_de(hist, "productos", clave)
+    if serie:
+        vals = [v for _, v, _ in serie]
+        dmin = min(serie, key=lambda x: x[1])
+        txt = f"📈 Mínimo {clp(dmin[1])} ({fecha_corta(dmin[0])}{', ' + esc(dmin[2]) if dmin[2] else ''})"
+        if len(vals) >= MIN_DIAS:
+            txt += f" · típico {clp(_mediana(vals[-DIAS_TIPICO:]))}"
+        txt += f" · máximo {clp(max(vals))}"
+        l.append(txt)
+        if len(vals) >= 2:
+            l.append(f"   {sparkline(vals[-30:])}  últimos {min(30, len(vals))} días")
+        else:
+            l.append("   Historial recién empezando: en 7 días sabré su precio típico")
+    # digital
+    e = (state.get("eshop") or {}).get(s.get("nsuid")) if s.get("nsuid") else None
+    if e and e.get("ultimo") is not None:
+        dig = f"🎮 Digital: {usd(e['ultimo'])}"
+        if e.get("clp"):
+            dig += f" ≈ {clp(e['clp'])}"
+        dig += f" en {pais_txt(e.get('pais', 'US'))}"
+        if e.get("pct_oferta"):
+            dig += f" (−{round(e['pct_oferta'])}%)"
+        l.append(dig)
+        if e.get("clp"):
+            dif = e["clp"] - s["precio"]
+            if dif > 0:
+                l.append(f"   ➜ El físico te ahorra {clp(dif)} y además se puede revender")
+            else:
+                l.append(f"   ➜ El digital es {clp(-dif)} más barato, pero no se puede revender")
+    nivel_c, por = confianza(s)
+    l.append(f"🔎 Confianza {nivel_c}: {por}")
+    l.append(f"🛒 <a href=\"{esc_attr(s['url'])}\">Ir a comprar en {esc(s['tienda'])}</a>")
+    return nivel, "\n".join(l)
+
+
+def tarjeta_digital(nsuid, e, state, hist, extra=None):
+    nivel, razon = veredicto_digital(e)
+    _, emo, tit = NIVELES[nivel]
+    pct = e.get("pct_oferta") or 0
+    l = [f"{emo} <b>{tit}</b>" + (f" · −{round(pct)}%" if pct >= 5 else "") + (f" · {extra}" if extra else ""),
+         f"<b>{esc(e['titulo'])}</b>",
+         f"🕹️ {plat_txt(e.get('plataforma'))} · 🎮 Digital (eShop)" +
+         (f" · {esc(e['juego'])}" if norm(e["juego"]) not in norm(e["titulo"]) else "")]
+    pais = e.get("pais", "US")
+    precio = f"💰 <b>{usd(e['ultimo'])}</b>"
+    if e.get("clp"):
+        precio += f" ≈ {clp(e['clp'])}"
+    precio += f" en {pais_txt(pais)}"
+    l.append(precio)
+    if e.get("moneda_local") and e.get("moneda_local") != "USD":
+        l.append(f"   Precio en la tienda: {dinero_local(e.get('local'), e['moneda_local'])}")
+    l.append(f"💡 {razon[0].upper() + razon[1:]}")
+    if pct >= 1 and e.get("normal"):
+        fin = ""
+        if e.get("fin"):
+            d = dias_para(e["fin"])
+            fin = f" · ⏳ termina el {fecha_corta(e['fin'])}"
+            if d is not None and d < 1:
+                fin += " (¡hoy!)"
+            elif d is not None:
+                fin += f" (en {int(d) + 1} días)" if d >= 1 else ""
+        l.append(f"🏷️ Normal {usd(e['normal'])} → ahorras {usd(e['normal'] - e['ultimo'])}{fin}")
+    regs = e.get("regiones") or {}
+    if len(regs) > 1:
+        orden = sorted(regs.items(), key=lambda x: x[1])
+        l.append("🌎 <b>Por país</b>")
+        for cod, v in orden[:5]:
+            l.append(f"   {PAISES.get(cod, ('🌎',))[0]} <a href=\"{esc_attr(url_pais(e.get('url'), cod))}\">{usd(v)}</a>"
+                     + (" ← el más barato" if cod == orden[0][0] else ""))
+        caro = orden[-1]
+        if len(orden) > 5 and caro[1] > orden[0][1] * 1.05:
+            l.append(f"   El más caro: {PAISES.get(caro[0], ('🌎',))[0]} {usd(caro[1])}")
+    # fisico equivalente
+    fis = [s for s in (state.get("productos") or {}).values() if s.get("nsuid") == nsuid]
     if fis:
-        bloques.append(["📦 <b>FÍSICO</b>"] + [_con_juego(a) for a in fis])
-    if dig:
-        bloques.append(["🎮 <b>DIGITAL · eShop</b>"] + [_con_juego(a) for a in dig])
-    if avisos:
-        bloques.append(["⚠️ <b>AVISOS DEL BOT</b>"] + [a["linea"] for a in avisos])
-    pie = [LINEA]
-    if resto:
-        pie.append(f"➕ {len(resto)} ofertas más de menor descuento → /ofertas")
-    pie.append("🏆 mínimo histórico · 🎯 tu objetivo · 🏪 vendedor externo")
-    pie.append("/ofertas · /precios · /ayuda")
+        f = min(fis, key=lambda s: s["precio"])
+        txt = f"📦 Físico: {clp(f['precio'])} en {esc(f['tienda'])}"
+        if e.get("clp"):
+            dif = f["precio"] - e["clp"]
+            txt += (f" → el digital te ahorra {clp(dif)}" if dif > 0
+                    else f" → el físico es {clp(-dif)} más barato y se puede revender")
+        l.append(txt)
+    serie = serie_de(hist, "eshop", nsuid)
+    if serie:
+        dmin = min(serie, key=lambda x: x[1])
+        vals = [v for _, v, _ in serie]
+        txt = f"📈 Mínimo {usd(dmin[1])} ({fecha_corta(dmin[0])}{' en ' + pais_txt(dmin[2]) if dmin[2] else ''})"
+        if len(vals) >= 2:
+            txt += f"\n   {sparkline(vals[-30:])}  últimos {min(30, len(vals))} días"
+        l.append(txt)
+    l.append(f"🛒 <a href=\"{esc_attr(url_pais(e.get('url'), pais))}\">Ver en la eShop de {PAISES.get(pais, ('', pais))[1]}</a>")
+    return nivel, "\n".join(l)
 
-    lineas = cab[:]
-    for k, bl in enumerate(bloques):
-        lineas += ([""] if k else []) + bl
-    lineas += [""] + pie
-    return trocear(lineas, cab[0])
+
+# ---------------------------------------------------------------- mensajes
+
+def cabecera(titulo, sub):
+    return f"{titulo}\n<i>{sub}</i>\n{LINEA}"
 
 
-def trocear(lineas, titulo):
-    """Corta en mensajes de Telegram sin partir un producto; numera las partes."""
-    msgs, actual, largo = [], [], 0
-    for ln in lineas:
-        if actual and largo + len(ln) + 1 > TELEGRAM_MAX:
-            corte = len(actual)
-            if ln.startswith(" "):
-                for k in range(len(actual) - 1, 0, -1):
-                    if not actual[k].startswith(" "):
-                        corte = k
-                        break
-            while corte > 1 and (not actual[corte - 1].strip() or actual[corte - 1].startswith(("🔥 <b>", "📦 <b>", "🎮 <b>", "⚠️ <b>"))):
-                corte -= 1
-            msgs.append("\n".join(actual[:corte]).strip())
-            actual = actual[corte:]
-            largo = sum(len(x) + 1 for x in actual)
-        actual.append(ln)
-        largo += len(ln) + 1
+def empaquetar(bloques, titulo):
+    """Junta bloques (tarjetas) en mensajes de Telegram sin partir ninguno."""
+    msgs, actual = [], ""
+    for b in bloques:
+        if not b:
+            continue
+        sep = "\n\n" if actual else ""
+        if actual and len(actual) + len(sep) + len(b) > TELEGRAM_MAX:
+            msgs.append(actual)
+            actual = b
+        else:
+            actual += sep + b
     if actual:
-        msgs.append("\n".join(actual).strip())
+        msgs.append(actual)
     if len(msgs) > 1:
         n = len(msgs)
-        msgs = [m if i == 0 else f"{titulo} <i>({i + 1}/{n})</i>\n\n{m}" for i, m in enumerate(msgs)]
-        msgs[0] = msgs[0].replace(titulo, f"{titulo} <i>(1/{n})</i>", 1)
+        msgs = [m.replace(titulo, f"{titulo} <i>({i + 1}/{n})</i>", 1) if i == 0
+                else f"{titulo} <i>({i + 1}/{n})</i>\n\n{m}" for i, m in enumerate(msgs)]
     return msgs
+
+
+def resumen_niveles(items):
+    cuenta = {}
+    for it in items:
+        cuenta[it["nivel"]] = cuenta.get(it["nivel"], 0) + 1
+    l = []
+    for k in ("objetivo", "compra", "bueno", "regular", "normal"):
+        if cuenta.get(k):
+            _, emo, tit = NIVELES[k]
+            l.append(f"{emo} {cuenta[k]} · {tit.lower()}")
+    return l
+
+
+def bloques_por_nivel(items):
+    """Secciones por veredicto, tarjetas separadas por una linea fina."""
+    bloques = []
+    for k in ("objetivo", "compra", "bueno", "regular", "normal"):
+        grupo = [it for it in items if it["nivel"] == k]
+        if not grupo:
+            continue
+        _, emo, tit = NIVELES[k]
+        bloques.append(f"━━━ {emo} <b>{tit}</b> ({len(grupo)}) ━━━")
+        for it in grupo:
+            bloques.append(it["texto"] + f"\n{SEP_TARJETA}")
+    return bloques
+
+
+LEYENDA = ("🟢 compra ya · 🟡 buen precio · 🟠 regular · ⚪ normal · 🎯 tu objetivo\n"
+           "🏪 vendedor externo del marketplace · 🥇🥈🥉 ranking de tiendas")
+
+
+def armar_mensajes(alertas, state=None, hist=None):
+    """Alerta automatica: resumen ejecutivo + tarjetas ordenadas por veredicto."""
+    state, hist = state or {}, hist or {}
+    items, avisos = [], []
+    for a in alertas:
+        if a["tipo"] == "aviso":
+            avisos.append(a["linea"])
+            continue
+        if a.get("ref") is not None:
+            if a["tipo"] == "fisico":
+                s = (state.get("productos") or {}).get(a["ref"])
+                if s:
+                    nivel, texto = tarjeta_fisico(a["ref"], s, state, hist, a.get("extra"))
+                    items.append({"nivel": nivel, "texto": texto, "score": a["score"], "s": s, "tipo": "fisico"})
+                    continue
+            else:
+                e = (state.get("eshop") or {}).get(a["ref"])
+                if e:
+                    nivel, texto = tarjeta_digital(a["ref"], e, state, hist, a.get("extra"))
+                    items.append({"nivel": nivel, "texto": texto, "score": a["score"], "s": e, "tipo": "digital"})
+                    continue
+        items.append({"nivel": "bueno", "texto": a["linea"], "score": a["score"], "tipo": a["tipo"]})
+    if not items and not avisos:
+        return []
+    items.sort(key=lambda it: (NIVELES[it["nivel"]][0], -it["score"]))
+    titulo = "🔔 <b>ALERTA DE OFERTAS</b>"
+    sub = f"{fecha_hora_chile()} · revisión automática · {len(items)} novedad{'es' if len(items) != 1 else ''}"
+    res = ["📋 <b>RESUMEN</b>"] + resumen_niveles(items)
+    if items:
+        top = items[0]
+        s = top["s"] if "s" in top else None
+        if s:
+            nombre = s.get("nombre") or s.get("titulo")
+            precio = clp(s["precio"]) if top["tipo"] == "fisico" else usd(s["ultimo"])
+            donde = s.get("tienda") or pais_txt(s.get("pais", "US"))
+            res.append(f"⭐ Mejor oportunidad: <b>{esc(nombre)}</b> a {precio} en {esc(donde)}")
+    bloques = [cabecera(titulo, sub) + "\n" + "\n".join(res)]
+    bloques += bloques_por_nivel(items)
+    if avisos:
+        bloques.append("⚠️ <b>AVISOS DEL BOT</b>\n" + "\n".join(f"• {x}" for x in avisos))
+    bloques.append(f"{LINEA}\n{LEYENDA}\n\nVer todo lo vigente: /ofertas · Por saga: /precios")
+    return empaquetar(bloques, titulo)
+
+
+# ---------------------------------------------------------------- vistas
+
+def generar_vistas(state, hist, cfg):
+    """Deja armadas las tarjetas para que el Worker de Telegram solo las envie."""
+    VISTAS_DIR.mkdir(exist_ok=True)
+    (VISTAS_DIR / "saga").mkdir(exist_ok=True)
+    revision = state.get("ultima_revision")
+    corte = None
+    if revision:
+        try:
+            from datetime import datetime, timedelta
+            corte = (datetime.fromisoformat(revision.replace("Z", "+00:00")) - timedelta(hours=12)
+                     ).strftime("%Y-%m-%dT%H:%M:%SZ")
+        except ValueError:
+            corte = None
+
+    def vigente(x):
+        return not corte or (x.get("visto") or "") >= corte
+
+    ofertas, sagas = [], {}
+    for clave, s in (state.get("productos") or {}).items():
+        if not vigente(s):
+            continue
+        nivel, texto = tarjeta_fisico(clave, s, state, hist)
+        it = {"nivel": nivel, "orden": NIVELES[nivel][0], "pct": round(s.get("pct") or 0, 1),
+              "tipo": "fisico", "juego": s["juego"], "nombre": s["nombre"], "texto": texto,
+              "precio": s["precio"]}
+        sagas.setdefault(s["juego"], []).append(it)
+        if nivel in ("objetivo", "compra", "bueno", "regular"):
+            ofertas.append(it)
+    ligados = {s.get("nsuid") for s in (state.get("productos") or {}).values() if s.get("nsuid")}
+    for nsuid, e in (state.get("eshop") or {}).items():
+        if not vigente(e) or e.get("ultimo") is None:
+            continue
+        nivel, texto = tarjeta_digital(nsuid, e, state, hist)
+        it = {"nivel": nivel, "orden": NIVELES[nivel][0], "pct": round(e.get("pct_oferta") or 0, 1),
+              "tipo": "digital", "juego": e["juego"], "nombre": e["titulo"], "texto": texto,
+              "precio_usd": e["ultimo"], "con_fisico": nsuid in ligados}
+        sagas.setdefault(e["juego"], []).append(it)
+        if nivel in ("objetivo", "compra", "bueno", "regular"):
+            ofertas.append(it)
+    ofertas.sort(key=lambda it: (it["orden"], -it["pct"]))
+    save_json(VISTAS_DIR / "ofertas.json", {"revision": revision, "items": ofertas})
+
+    indice = []
+    for juego, its in sorted(sagas.items(), key=lambda x: norm(x[0])):
+        its.sort(key=lambda it: (it["orden"], -it["pct"]))
+        fis = [i for i in its if i["tipo"] == "fisico"]
+        dig = [i for i in its if i["tipo"] == "digital"]
+        mejor = its[0]
+        partes = []
+        if fis:
+            partes.append(f"📦 {len(fis)} desde {clp(min(i['precio'] for i in fis))}")
+        if dig:
+            partes.append(f"🎮 {len(dig)} desde {usd(min(i['precio_usd'] for i in dig))}")
+        destacado = ""
+        if mejor["orden"] <= 2:
+            destacado = f"\n   {NIVELES[mejor['nivel']][1]} {esc(mejor['nombre'])}" + \
+                (f" −{round(mejor['pct'])}%" if mejor["pct"] >= 5 else "")
+        indice.append({"juego": juego, "slug": slug(juego), "orden": mejor["orden"],
+                       "linea": f"{NIVELES[mejor['nivel']][1]} <b>{esc(juego)}</b> — {' · '.join(partes)}{destacado}",
+                       "nombres": sorted({norm(i["nombre"]) for i in its})})
+        save_json(VISTAS_DIR / "saga" / f"{slug(juego)}.json", {
+            "revision": revision, "juego": juego,
+            "items": [{k: i[k] for k in ("nivel", "tipo", "texto", "pct", "con_fisico", "nombre") if k in i}
+                      for i in its]})
+    save_json(VISTAS_DIR / "indice.json", {"revision": revision, "sagas": indice,
+                                           "fisicos": sum(1 for x in ofertas), "total": sum(len(v) for v in sagas.values())})
+    log(f"  vistas: {len(ofertas)} ofertas, {len(indice)} sagas")
 
 
 # ------------------------------------------------------------- diagnostico
@@ -1447,7 +1843,7 @@ def main():
     nuevos_e = [s for s in state.get("eshop", {}).values() if s.get("visto_desde") is None]
     for s in nuevos_p + nuevos_e:
         s["visto_desde"] = hoy_chile()
-    mensajes = armar_mensajes(alertas)
+    mensajes = armar_mensajes(alertas, state, hist)
     if len(nuevos_p) + len(nuevos_e) >= 5:
         con_oferta = sum(1 for s in nuevos_p if (s.get("pct") or 0) >= 15) + \
             sum(1 for s in nuevos_e if s.get("normal"))
@@ -1468,6 +1864,10 @@ def main():
         log("Telegram fallo: estas ofertas se volveran a intentar en la proxima revision.")
     save_json(STATE_FILE, state)
     save_json(HIST_FILE, hist)
+    try:
+        generar_vistas(state, hist, cfg)
+    except Exception as e:  # noqa: BLE001 - las vistas nunca deben botar la revision
+        log(f"  vistas: error {type(e).__name__}: {e}")
     log(f"Listo: {enviados}/{len(mensajes)} mensajes enviados.")
 
 
