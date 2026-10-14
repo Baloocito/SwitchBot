@@ -99,16 +99,6 @@
       "tipo": "digital"
     },
     {
-      "juego": "Persona",
-      "nivel": "compra",
-      "nombre": "Persona 5 Royal",
-      "orden": 1,
-      "pct": 58.7,
-      "precio": 52990.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −59%\n<b>Persona 5 Royal</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$52.990</b> en Falabella 🏪 <i>vende Rivertec</i>\n💡 59% bajo el resto de las tiendas\n   Ahorras $75.455 frente al promedio de las otras tiendas ($128.445)\n🏷️ La tienda marca «antes $69.990» (−24%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/146400715/Persona-5-Royal-Euro-Nintendo-Switch\">$52.990 Falabella</a> 🏪 Rivertec\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/persona-5-royal-nintendo-switch/00073086522050\">$56.990 Lider</a> 🏪 Rivertec SPA (+$4.000)\n   🥉 <a href=\"https://8-bits.cl/products/persona-5-royal-one-more-edition-nsw\">$199.900 8 Bits</a> (+$146.910)\n📈 Mínimo $52.990 (14 oct, Falabella) · máximo $52.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$54.20 ≈ $52.904 en 🇨🇱 Chile\n   ➜ El digital es $86 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/146400715/Persona-5-Royal-Euro-Nintendo-Switch\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
       "con_fisico": true,
       "juego": "Dead Cells",
       "nivel": "compra",
@@ -213,16 +203,6 @@
       "pct": 34.6,
       "precio": 34990.0,
       "texto": "🟢 <b>COMPRA YA</b> · −35%\n<b>Mortal Kombat 1</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en Lider 🏪 <i>vende SNIPERCL</i>\n💡 35% bajo el resto de las tiendas\n   Ahorras $18.500 frente al promedio de las otras tiendas ($53.490)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.lider.cl/ip/videojuegos/mortal-kombat-1-nintendo-switch/00505189224321\">$34.990 Lider</a> 🏪 SNIPERCL\n   🥈 <a href=\"https://8-bits.cl/products/mortal-kombat-1-nsw\">$49.990 8 Bits</a> (+$15.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/147899174/Mortal-Kombat-1-Switch-FISICO\">$56.990 Falabella</a> 🏪 Tienda Retrogamers (+$22.000)\n📈 Mínimo $34.990 (14 oct, Lider) · máximo $34.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$37.91 ≈ $37.004 en 🇨🇱 Chile\n   ➜ El físico te ahorra $2.014 y además se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/mortal-kombat-1-nintendo-switch/00505189224321\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "juego": "Persona",
-      "nivel": "compra",
-      "nombre": "Persona 5 Strikers",
-      "orden": 1,
-      "pct": 33.3,
-      "precio": 24990.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −33%\n<b>Persona 5 Strikers</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$24.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 33% bajo el resto de las tiendas\n   Ahorras $12.500 frente al promedio de las otras tiendas ($37.490)\n🏷️ La tienda dice «antes $61.990», pero las demás lo venden cerca de $37.490: ese descuento está inflado\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148486388/Persona-5-Strikers-Nintendo-Switch-Sniper\">$24.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/persona-5-strikers-switch/00073086522033\">$24.990 Lider</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://8-bits.cl/products/persona-5-strikers-nsw\">$49.990 8 Bits</a> (+$25.000)\n📈 Mínimo $24.990 (14 oct, Falabella) · máximo $24.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$54.95 ≈ $53.636 en 🇲🇽 México\n   ➜ El físico te ahorra $28.646 y además se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148486388/Persona-5-Strikers-Nintendo-Switch-Sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -604,6 +584,16 @@
     {
       "juego": "Minecraft",
       "nivel": "bueno",
+      "nombre": "Minecraft: Nintendo Switch Edition",
+      "orden": 2,
+      "pct": 28.6,
+      "precio": 29990.0,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −29%\n<b>Minecraft: Nintendo Switch Edition</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 29% bajo el resto de las tiendas\n   Ahorras $12.000 frente al promedio de las otras tiendas ($41.990)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/minecraft-nsw\">$29.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/17441652/juego-nintendo-switch-minecraft\">$31.990 Falabella</a> (+$2.000)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-minecraft-switch/00004549642062\">$51.990 Lider</a> 🏪 nocnoc (+$22.000)\n📈 Mínimo $29.990 (14 oct, 8 Bits) · máximo $29.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$21.09 ≈ $20.586 en 🇨🇦 Canadá\n   ➜ El digital es $9.404 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/minecraft-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "juego": "Minecraft",
+      "nivel": "bueno",
       "nombre": "Minecraft",
       "orden": 2,
       "pct": 28.6,
@@ -619,16 +609,6 @@
       "pct": 28.6,
       "precio": 50000.0,
       "texto": "🟡 <b>BUEN PRECIO</b> · −29%\n<b>Monster Hunter Stories 2: Wings of Ruin</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$50.000</b> en Falabella 🏪 <i>vende Tienda Retrogamers</i>\n💡 29% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $19.990 frente a la otra tienda ($69.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/157593759/monster-hunter-stories-2-wings-of-ruin-nintendo-switch\">$50.000 Falabella</a> 🏪 Tienda Retrogamers\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/monster-hunter-stories-2-wings-of-ruin-nintendo-switch/00001338841023\">$69.990 Lider</a> 🏪 nocnoc (+$19.990)\n📈 Mínimo $50.000 (14 oct, Falabella) · máximo $50.000\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$38.57 ≈ $37.648 en 🇨🇱 Chile\n   ➜ El digital es $12.352 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 1 día de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/157593759/monster-hunter-stories-2-wings-of-ruin-nintendo-switch\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "juego": "Minecraft",
-      "nivel": "bueno",
-      "nombre": "Minecraft: Nintendo Switch Edition",
-      "orden": 2,
-      "pct": 28.6,
-      "precio": 29990.0,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −29%\n<b>Minecraft: Nintendo Switch Edition</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 29% bajo el resto de las tiendas\n   Ahorras $12.000 frente al promedio de las otras tiendas ($41.990)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/minecraft-nsw\">$29.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/17441652/juego-nintendo-switch-minecraft\">$31.990 Falabella</a> (+$2.000)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-minecraft-switch/00004549642062\">$51.990 Lider</a> 🏪 nocnoc (+$22.000)\n📈 Mínimo $29.990 (14 oct, 8 Bits) · máximo $29.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$21.09 ≈ $20.586 en 🇨🇦 Canadá\n   ➜ El digital es $9.404 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/minecraft-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -853,6 +833,16 @@
       "tipo": "fisico"
     },
     {
+      "juego": "Donkey Kong",
+      "nivel": "bueno",
+      "nombre": "Donkey Kong Bananza",
+      "orden": 2,
+      "pct": 22.9,
+      "precio": 79790.0,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −23%\n<b>Donkey Kong Bananza</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$79.790</b> en Falabella 🏪 <i>vende Africca</i>\n💡 23% bajo el resto de las tiendas\n   Ahorras $23.700 frente al promedio de las otras tiendas ($103.490)\n🏷️ La tienda marca «antes $99.990» (−20%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/145414889/Donkey-Kong-Bananza-Nintendo-Switch-2\">$79.790 Falabella</a> 🏪 Africca\n   🥈 <a href=\"https://8-bits.cl/products/donkey-kong-bananza-nsw2\">$79.990 8 Bits</a> (+$200)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/juego-donkey-kong-bananza-nintendo-switch-2/00004549690557\">$126.990 Lider</a> 🏪 nocnoc (+$47.200)\n📈 Mínimo $79.790 (14 oct, Falabella) · máximo $79.790\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$69.99 ≈ $68.317 en 🇺🇸 EE. UU.\n   ➜ El digital es $11.473 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/145414889/Donkey-Kong-Bananza-Nintendo-Switch-2\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
       "juego": "EA Sports FC",
       "nivel": "bueno",
       "nombre": "EA SPORTS FC 27",
@@ -943,16 +933,6 @@
       "tipo": "fisico"
     },
     {
-      "juego": "Donkey Kong",
-      "nivel": "bueno",
-      "nombre": "Donkey Kong Bananza",
-      "orden": 2,
-      "pct": 21.0,
-      "precio": 79790.0,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −21%\n<b>Donkey Kong Bananza</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$79.790</b> en Falabella 🏪 <i>vende Africca</i>\n💡 21% bajo el resto de las tiendas\n   Ahorras $21.200 frente al promedio de las otras tiendas ($100.990)\n🏷️ La tienda marca «antes $99.990» (−20%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/145414889/Donkey-Kong-Bananza-Nintendo-Switch-2\">$79.790 Falabella</a> 🏪 Africca\n   🥈 <a href=\"https://8-bits.cl/products/donkey-kong-bananza-nsw2\">$79.990 8 Bits</a> (+$200)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-donkey-kong-bananza-para-nintendo-switch-2/00004549690558\">$121.990 Lider</a> 🏪 nocnoc (+$42.200)\n📈 Mínimo $79.790 (14 oct, Falabella) · máximo $79.790\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$69.99 ≈ $68.317 en 🇺🇸 EE. UU.\n   ➜ El digital es $11.473 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/145414889/Donkey-Kong-Bananza-Nintendo-Switch-2\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
       "juego": "Atelier",
       "nivel": "bueno",
       "nombre": "Atelier Ryza 3: Alchemist of the End & the Secret Key DX",
@@ -1010,7 +990,7 @@
       "orden": 2,
       "pct": 19.4,
       "precio": 49990.0,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −19%\n<b>STORY OF SEASONS: Pioneers of Olive Town</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 19% bajo el resto de las tiendas\n   Ahorras $12.000 frente al promedio de las otras tiendas ($61.990)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">$49.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/113884994/Story-of-Seasons-Pioneers-of-Olive-Town-Switch-Sniper\">$54.990 Falabella</a> 🏪 Sniper (+$5.000)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/story-of-seasons-pioneers-of-olive-town-para-nintendo-switch/00506054077084\">$68.990 Lider</a> 🏪 nocnoc (+$19.000)\n📈 Mínimo $49.990 (14 oct, 8 Bits) · máximo $49.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$26.64 ≈ $26.003 en 🇨🇱 Chile\n   ➜ El digital es $23.987 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">Ir a comprar en 8 Bits</a>",
+      "texto": "🟡 <b>BUEN PRECIO</b> · −19%\n<b>STORY OF SEASONS: Pioneers of Olive Town</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 19% bajo el resto de las tiendas\n   Ahorras $12.000 frente al promedio de las otras tiendas ($61.990)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">$49.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/148490919/Story-Of-Seasons-Pioneers-Of-Olive-Town-Switch-Sniper\">$54.990 Falabella</a> 🏪 Sniper (+$5.000)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/story-of-seasons-pioneers-of-olive-town-para-nintendo-switch/00506054077084\">$68.990 Lider</a> 🏪 nocnoc (+$19.000)\n📈 Mínimo $49.990 (14 oct, 8 Bits) · máximo $49.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$26.64 ≈ $26.003 en 🇨🇱 Chile\n   ➜ El digital es $23.987 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -1034,13 +1014,23 @@
       "tipo": "fisico"
     },
     {
+      "juego": "Sonic",
+      "nivel": "bueno",
+      "nombre": "Sonic Racing: CrossWorlds",
+      "orden": 2,
+      "pct": 18.8,
+      "precio": 64990.0,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −19%\n<b>Sonic Racing: CrossWorlds</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$64.990</b> en 8 Bits\n💡 19% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $15.000 frente a la otra tienda ($79.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/sonic-racing-crossworlds-launch-edition-nsw\">$64.990 8 Bits</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/sonic-racing-crossworlds-switch/00505527705628\">$79.990 Lider</a> 🏪 SNIPER (+$15.000)\n📈 Mínimo $59.990 (14 oct, Lider) · máximo $59.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$33.48 ≈ $32.680 en 🇧🇷 Brasil\n   ➜ El digital es $32.310 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/sonic-racing-crossworlds-launch-edition-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
       "juego": "Zelda",
       "nivel": "bueno",
       "nombre": "The Legend of Zelda: Breath of the Wild",
       "orden": 2,
-      "pct": 18.8,
+      "pct": 18.7,
       "precio": 64990.0,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −19%\n<b>The Legend of Zelda: Breath of the Wild</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$64.990</b> en Bestmart\n💡 19% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $15.000 frente a la otra tienda ($79.990)\n🏷️ La tienda marca «antes $89.990» (−28%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://bestmart.cl/products/juego-the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2\">$64.990 Bestmart</a>\n   🥈 <a href=\"https://8-bits.cl/products/the-legend-of-zelda-breath-of-the-wild-nsw2\">$79.990 8 Bits</a> (+$15.000)\n📈 Mínimo $64.990 (12 oct, Bestmart) · máximo $64.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$69.99 ≈ $68.317 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $3.327 y además se puede revender\n🔎 Confianza media: 2 tiendas y 3 días de historial\n🛒 <a href=\"https://bestmart.cl/products/juego-the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2\">Ir a comprar en Bestmart</a>",
+      "texto": "🟡 <b>BUEN PRECIO</b> · −19%\n<b>The Legend of Zelda: Breath of the Wild</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$64.990</b> en Bestmart\n💡 19% bajo el resto de las tiendas\n   Ahorras $14.900 frente al promedio de las otras tiendas ($79.890)\n🏷️ La tienda marca «antes $89.990» (−28%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://bestmart.cl/products/juego-the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2\">$64.990 Bestmart</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/150944284/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2\">$79.790 Falabella</a> 🏪 Africca (+$14.800)\n   🥉 <a href=\"https://8-bits.cl/products/the-legend-of-zelda-breath-of-the-wild-nsw2\">$79.990 8 Bits</a> (+$15.000)\n📈 Mínimo $64.990 (12 oct, Bestmart) · máximo $64.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$69.99 ≈ $68.317 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $3.327 y además se puede revender\n🔎 Confianza media: 3 tiendas y 3 días de historial\n🛒 <a href=\"https://bestmart.cl/products/juego-the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2\">Ir a comprar en Bestmart</a>",
       "tipo": "fisico"
     },
     {
@@ -1364,6 +1354,16 @@
       "tipo": "fisico"
     },
     {
+      "juego": "Doom",
+      "nivel": "regular",
+      "nombre": "DOOM",
+      "orden": 3,
+      "pct": 12.5,
+      "precio": 69990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −12%\n<b>DOOM</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Apenas 12% bajo la referencia\n   Ahorras $10.000 frente al «antes» que marca la tienda ($79.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.990 (14 oct, Falabella) · máximo $69.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$19.46 ≈ $18.995 en 🇨🇱 Chile\n   ➜ El digital es $50.995 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148490815/doom-the-classics-collection-switch-fisico-sniper\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
       "juego": "Emio / Famicom Detective",
       "nivel": "regular",
       "nombre": "Emio - The Smiling Man Sniper",
@@ -1514,16 +1514,6 @@
       "tipo": "fisico"
     },
     {
-      "juego": "Persona",
-      "nivel": "regular",
-      "nombre": "Persona 5 Tactica",
-      "orden": 3,
-      "pct": 11.1,
-      "precio": 39990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −11%\n<b>Persona 5 Tactica</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.990</b> en 8 Bits\n💡 Apenas 11% bajo la referencia\n   Ahorras $5.000 frente a la otra tienda ($44.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/persona-5-tactica-nsw\">$39.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/147932788/Persona-5-Tactica-Switch-FISICO\">$44.990 Falabella</a> 🏪 Tienda Retrogamers (+$5.000)\n📈 Mínimo $39.990 (14 oct, 8 Bits) · máximo $39.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$54.20 ≈ $52.904 en 🇨🇱 Chile\n   ➜ El físico te ahorra $12.914 y además se puede revender\n🔎 Confianza media: 2 tiendas y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/persona-5-tactica-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
       "juego": "Sonic",
       "nivel": "regular",
       "nombre": "SONIC X SHADOW GENERATIONS",
@@ -1644,16 +1634,6 @@
       "tipo": "fisico"
     },
     {
-      "juego": "Shantae",
-      "nivel": "regular",
-      "nombre": "Shantae",
-      "orden": 3,
-      "pct": 9.3,
-      "precio": 159990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>Shantae (limited)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$159.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 9% bajo la referencia\n   Ahorras $16.339 frente al «antes» que marca la tienda ($176.329)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $159.990 (14 oct, Lider) · máximo $159.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$8.46 ≈ $8.258 en 🇨🇱 Chile\n   ➜ El digital es $151.732 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-limited-run-shantae-risky-s-revenge-nintendo-switch/00081997602480\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
       "juego": "Tales of",
       "nivel": "regular",
       "nombre": "BANDAI NAMCO Tales of Graces of Remastered",
@@ -1661,6 +1641,16 @@
       "pct": 9.3,
       "precio": 58990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>BANDAI NAMCO Tales of Graces of Remastered</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$58.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 9% bajo la referencia\n   Ahorras $6.028 frente al «antes» que marca la tienda ($65.018)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $58.990 (14 oct, Lider) · máximo $58.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-tales-of-graces-of-remastered-nintendo-switch/00072267484106\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "juego": "Shantae",
+      "nivel": "regular",
+      "nombre": "Shantae",
+      "orden": 3,
+      "pct": 9.3,
+      "precio": 159990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>Shantae (limited)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$159.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 9% bajo la referencia\n   Ahorras $16.339 frente al «antes» que marca la tienda ($176.329)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $159.990 (14 oct, Lider) · máximo $159.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$8.46 ≈ $8.258 en 🇨🇱 Chile\n   ➜ El digital es $151.732 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-limited-run-shantae-risky-s-revenge-nintendo-switch/00081997602480\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -1804,6 +1794,16 @@
       "tipo": "fisico"
     },
     {
+      "juego": "Persona",
+      "nivel": "regular",
+      "nombre": "Persona 5 Tactica",
+      "orden": 3,
+      "pct": 8.0,
+      "precio": 39990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Persona 5 Tactica</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.990</b> en 8 Bits\n💡 Apenas 8% bajo la referencia\n   Ahorras $3.500 frente al promedio de las otras tiendas ($43.490)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/persona-5-tactica-nsw\">$39.990 8 Bits</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/persona-5-tactica-switch/00073086522063\">$41.990 Lider</a> 🏪 nocnoc (+$2.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/147932788/Persona-5-Tactica-Switch-FISICO\">$44.990 Falabella</a> 🏪 Tienda Retrogamers (+$5.000)\n📈 Mínimo $39.990 (14 oct, 8 Bits) · máximo $39.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$54.20 ≈ $52.904 en 🇨🇱 Chile\n   ➜ El físico te ahorra $12.914 y además se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/persona-5-tactica-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
       "juego": "Star Fox",
       "nivel": "regular",
       "nombre": "Star Fox",
@@ -1811,16 +1811,6 @@
       "pct": 8.0,
       "precio": 68990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Star Fox</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$68.990</b> en Falabella 🏪 <i>vende Kaiojuegos</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $6.000 frente al promedio de las otras tiendas ($74.990)\n🏷️ La tienda marca «antes $89.990» (−23%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/155202769/star-fox-nintendo-switch-2\">$68.990 Falabella</a> 🏪 Kaiojuegos\n   🥈 <a href=\"https://8-bits.cl/products/star-fox-nintendo-switch-2\">$69.990 8 Bits</a> (+$1.000)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/star-fox-sw2/00004549690657\">$79.990 Lider</a> 🏪 MATHOGAMES.CL (+$11.000)\n📈 Mínimo $68.990 (12 oct, Falabella) · máximo $68.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$49.22 ≈ $48.043 en 🇨🇦 Canadá\n   ➜ El digital es $20.947 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 3 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/155202769/star-fox-nintendo-switch-2\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "juego": "Donkey Kong",
-      "nivel": "regular",
-      "nombre": "Donkey Kong Country: Tropical Freeze",
-      "orden": 3,
-      "pct": 7.9,
-      "precio": 54990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Donkey Kong Country: Tropical Freeze</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en 8 Bits\n💡 Apenas 8% bajo la referencia\n   Ahorras $4.700 frente al promedio de las otras tiendas ($59.690)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/donkey-kong-country-tropical-freeze-nsw\">$54.990 8 Bits</a>\n   🥈 <a href=\"https://bestmart.cl/products/donkey-kong-country-tropical-freeze-nintendo-switch-america\">$56.990 Bestmart</a> (+$2.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/148037386/Donkey-Kong-Country-Tropical-Freeze-Nintendo-Switch\">$59.690 Falabella</a> 🏪 Africca (+$4.700)\n   ▫️ <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-switch-donkey-kong-country-tropical-freeze/00004549642173\">$94.990 Lider</a> 🏪 nocnoc (+$40.000)\n📈 Mínimo $54.990 (14 oct, 8 Bits) · máximo $54.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$59.76 ≈ $58.331 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $3.341 y además se puede revender\n🔎 Confianza media: 4 tiendas y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/donkey-kong-country-tropical-freeze-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -1881,16 +1871,6 @@
       "pct": 7.7,
       "precio": 47990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>New Tales from the Borderlands</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$47.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $4.013 frente al «antes» que marca la tienda ($52.003)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $47.990 (14 oct, Lider) · máximo $47.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$35.15 ≈ $34.310 en 🇨🇦 Canadá\n   ➜ El digital es $13.680 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-2k-new-tales-from-the-borderlands-deluxe-switch/00071042555991\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "juego": "Sonic",
-      "nivel": "regular",
-      "nombre": "Sonic Racing: CrossWorlds",
-      "orden": 3,
-      "pct": 7.7,
-      "precio": 59990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Sonic Racing: CrossWorlds</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.990</b> en Lider 🏪 <i>vende Rivertec SPA</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $5.000 frente a la otra tienda ($64.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.lider.cl/ip/videojuegos/sonic-racing-crossworlds-nintendo-switch/00001008677042\">$59.990 Lider</a> 🏪 Rivertec SPA\n   🥈 <a href=\"https://8-bits.cl/products/sonic-racing-crossworlds-launch-edition-nsw\">$64.990 8 Bits</a> (+$5.000)\n📈 Mínimo $59.990 (14 oct, Lider) · máximo $59.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$33.48 ≈ $32.680 en 🇧🇷 Brasil\n   ➜ El digital es $27.310 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/sonic-racing-crossworlds-nintendo-switch/00001008677042\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -2064,6 +2044,16 @@
       "tipo": "fisico"
     },
     {
+      "juego": "Story of Seasons",
+      "nivel": "regular",
+      "nombre": "Harvest Moon: The Lost Valley",
+      "orden": 3,
+      "pct": 7.3,
+      "precio": 64990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Harvest Moon: The Lost Valley</b>\n🕹️ Switch 1 · 📦 Físico · Story of Seasons\n💰 <b>$64.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $5.119 frente al «antes» que marca la tienda ($70.109)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $64.990 (14 oct, Lider) · máximo $64.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$28.12 ≈ $27.448 en 🇨🇦 Canadá\n   ➜ El digital es $37.542 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/harvest-moon-the-lost-valley-skytree-village-para-nintendo-switch/00071959318012\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
       "juego": "Pokémon Mystery Dungeon / Snap",
       "nivel": "regular",
       "nombre": "Nueva Versión Europea De Pokémon Snap",
@@ -2081,16 +2071,6 @@
       "pct": 7.3,
       "precio": 28990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Pulseras Para Just Dance Y Zumba</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$28.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $2.284 frente al «antes» que marca la tienda ($31.274)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $28.990 (14 oct, Lider) · máximo $28.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/pulseras-para-nintendo-switch-just-dance-y-zumba/00075015316653\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "juego": "Story of Seasons",
-      "nivel": "regular",
-      "nombre": "Harvest Moon: The Lost Valley",
-      "orden": 3,
-      "pct": 7.3,
-      "precio": 64990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Harvest Moon: The Lost Valley</b>\n🕹️ Switch 1 · 📦 Físico · Story of Seasons\n💰 <b>$64.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $5.119 frente al «antes» que marca la tienda ($70.109)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $64.990 (14 oct, Lider) · máximo $64.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$28.12 ≈ $27.448 en 🇨🇦 Canadá\n   ➜ El digital es $37.542 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/harvest-moon-the-lost-valley-skytree-village-para-nintendo-switch/00071959318012\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -2234,6 +2214,16 @@
       "tipo": "fisico"
     },
     {
+      "juego": "Persona",
+      "nivel": "regular",
+      "nombre": "Persona 5 Royal",
+      "orden": 3,
+      "pct": 7.0,
+      "precio": 52990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Persona 5 Royal</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$52.990</b> en Falabella 🏪 <i>vende Rivertec</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.000 frente al promedio de las otras tiendas ($56.990)\n🏷️ La tienda marca «antes $69.990» (−24%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/146400715/Persona-5-Royal-Euro-Nintendo-Switch\">$52.990 Falabella</a> 🏪 Rivertec\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/persona-5-royal-nintendo-switch/00073086522050\">$56.990 Lider</a> 🏪 Rivertec SPA (+$4.000)\n   🥉 <a href=\"https://8-bits.cl/products/persona-5-royal-one-more-edition-nsw\">$199.900 8 Bits</a> (+$146.910) ⚠️ ¿otra edición?\n📈 Mínimo $52.990 (14 oct, Falabella) · máximo $52.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$54.20 ≈ $52.904 en 🇨🇱 Chile\n   ➜ El digital es $86 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/146400715/Persona-5-Royal-Euro-Nintendo-Switch\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
       "juego": "Hitman",
       "nivel": "regular",
       "nombre": "Game Solutions 2 Go Hitman World of Assassination",
@@ -2274,16 +2264,6 @@
       "tipo": "fisico"
     },
     {
-      "juego": "Xenoblade X",
-      "nivel": "regular",
-      "nombre": "Xenoblade Chronicles X: Definitive Edition",
-      "orden": 3,
-      "pct": 6.9,
-      "precio": 101990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Xenoblade Chronicles X: Definitive Edition</b>\n🕹️ Switch 1 · 📦 Físico · Xenoblade X\n💰 <b>$101.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $7.593 frente al «antes» que marca la tienda ($109.583)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $101.990 (14 oct, Lider) · máximo $101.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$59.76 ≈ $58.331 en 🇨🇦 Canadá\n   ➜ El digital es $43.659 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-xenoblade-chronicles-x-definitive/00004549651288\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
       "juego": "Tales of",
       "nivel": "regular",
       "nombre": "Tales of ARISE - Beyond the Dawn Edition",
@@ -2291,6 +2271,16 @@
       "pct": 6.9,
       "precio": 91990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Tales of ARISE - Beyond the Dawn Edition</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$91.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $6.782 frente al «antes» que marca la tienda ($98.772)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $91.990 (14 oct, Lider) · máximo $91.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$36.88 ≈ $35.998 en 🇨🇱 Chile\n   ➜ El digital es $55.992 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-2-tales-of-arise-beyond-dawn-ed-/00072267455107\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "juego": "Xenoblade X",
+      "nivel": "regular",
+      "nombre": "Xenoblade Chronicles X: Definitive Edition",
+      "orden": 3,
+      "pct": 6.9,
+      "precio": 101990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Xenoblade Chronicles X: Definitive Edition</b>\n🕹️ Switch 1 · 📦 Físico · Xenoblade X\n💰 <b>$101.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $7.593 frente al «antes» que marca la tienda ($109.583)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $101.990 (14 oct, Lider) · máximo $101.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$59.76 ≈ $58.331 en 🇨🇦 Canadá\n   ➜ El digital es $43.659 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-xenoblade-chronicles-x-definitive/00004549651288\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -2476,6 +2466,16 @@
     {
       "juego": "Final Fantasy",
       "nivel": "regular",
+      "nombre": "FINAL FANTASY IX",
+      "orden": 3,
+      "pct": 6.5,
+      "precio": 74990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −6%\n<b>FINAL FANTASY IX</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$74.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 6% bajo la referencia\n   Ahorras $5.199 frente al «antes» que marca la tienda ($80.189)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $74.990 (14 oct, Lider) · máximo $74.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$17.45 ≈ $17.033 en 🇧🇷 Brasil\n   ➜ El digital es $57.957 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/juego-final-fantasy-ix-nintendo-switch/00066224892840\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "juego": "Final Fantasy",
+      "nivel": "regular",
       "nombre": "FINAL FANTASY VI",
       "orden": 3,
       "pct": 6.4,
@@ -2544,6 +2544,16 @@
       "tipo": "fisico"
     },
     {
+      "juego": "Donkey Kong",
+      "nivel": "regular",
+      "nombre": "Donkey Kong Country: Tropical Freeze",
+      "orden": 3,
+      "pct": 5.7,
+      "precio": 54990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −6%\n<b>Donkey Kong Country: Tropical Freeze</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en 8 Bits\n💡 Apenas 6% bajo la referencia\n   Ahorras $3.350 frente al promedio de las otras tiendas ($58.340)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/donkey-kong-country-tropical-freeze-nsw\">$54.990 8 Bits</a>\n   🥈 <a href=\"https://bestmart.cl/products/donkey-kong-country-tropical-freeze-nintendo-switch-america\">$56.990 Bestmart</a> (+$2.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/148037386/Donkey-Kong-Country-Tropical-Freeze-Nintendo-Switch\">$59.690 Falabella</a> 🏪 Africca (+$4.700)\n📈 Mínimo $54.990 (14 oct, 8 Bits) · máximo $54.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$59.76 ≈ $58.331 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $3.341 y además se puede revender\n🔎 Confianza media: 3 tiendas y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/donkey-kong-country-tropical-freeze-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
       "juego": "Splatoon",
       "nivel": "regular",
       "nombre": "Splatoon 2",
@@ -2604,5 +2614,5 @@
       "tipo": "fisico"
     }
   ],
-  "revision": "2026-10-14T04:57:06Z"
+  "revision": "2026-10-14T05:07:40Z"
 }

@@ -1,6 +1,12 @@
 {
-  "fisicos": 258,
-  "revision": "2026-10-14T04:57:06Z",
+  "fallos": {
+    "PC Factory": 12,
+    "Paris": 4,
+    "SP Digital": 12,
+    "Weplay": 11
+  },
+  "fisicos": 259,
+  "revision": "2026-10-14T05:07:40Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -307,7 +313,7 @@
     },
     {
       "juego": "Donkey Kong",
-      "linea": "🟡 <b>Donkey Kong</b> — 📦 4 desde $54.990 · 🎮 6 desde US$5.89\n   🟡 Donkey Kong Bananza −21%",
+      "linea": "🟡 <b>Donkey Kong</b> — 📦 4 desde $54.990 · 🎮 6 desde US$5.89\n   🟡 Donkey Kong Bananza −23%",
       "nombres": [
         "arcade archives donkey kong",
         "arcade archives donkey kong 3",
@@ -424,7 +430,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟡 <b>Final Fantasy</b> — 📦 10 desde $39.990 · 🎮 24 desde US$9.84\n   🟡 FINAL FANTASY VI −47%",
+      "linea": "🟡 <b>Final Fantasy</b> — 📦 11 desde $39.990 · 🎮 24 desde US$9.84\n   🟡 FINAL FANTASY VI −47%",
       "nombres": [
         "collection of saga final fantasy legend",
         "crisis core final fantasy vii reunion",
@@ -741,7 +747,7 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟠 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 7 desde US$22.33",
+      "linea": "🟠 <b>Marvel</b> — 📦 2 desde $49.990 · 🎮 7 desde US$22.33",
       "nombres": [
         "lego marvel super heroes",
         "lego marvel super heroes 2",
@@ -809,7 +815,7 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "🟡 <b>Minecraft</b> — 📦 3 desde $29.990 · 🎮 7 desde US$13.83\n   🟡 Minecraft −29%",
+      "linea": "🟡 <b>Minecraft</b> — 📦 3 desde $29.990 · 🎮 7 desde US$13.83\n   🟡 Minecraft: Nintendo Switch Edition −29%",
       "nombres": [
         "minecraft",
         "minecraft dungeons",
@@ -929,7 +935,7 @@
     },
     {
       "juego": "Persona",
-      "linea": "🟢 <b>Persona</b> — 📦 6 desde $24.990 · 🎮 7 desde US$15.88\n   🟢 Persona 5 Royal −59%",
+      "linea": "🟡 <b>Persona</b> — 📦 6 desde $24.990 · 🎮 7 desde US$15.88\n   🟡 Persona 3 Reload −20%",
       "nombres": [
         "persona 3 portable",
         "persona 3 reload",
@@ -940,7 +946,7 @@
         "persona 5 strikers",
         "persona 5 tactica"
       ],
-      "orden": 1,
+      "orden": 2,
       "slug": "persona"
     },
     {
@@ -1473,5 +1479,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 954
+  "total": 956
 }
