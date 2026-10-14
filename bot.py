@@ -55,7 +55,7 @@ FALLOS_PARA_AVISAR = 5      # corridas seguidas sin resultados antes de avisar
 MAX_PAGINAS_SHOPIFY = 40    # 250 productos por pagina
 TELEGRAM_MAX = 3900
 
-PLATAFORMA = {"switch", "nsw", "ns2", "sw2", "switch2"}
+PLATAFORMA = {"switch", "nsw", "ns2", "sw2", "switch2", "nsw2"}
 EXCLUIR_SIEMPRE = {
     "amiibo", "funda", "estuche", "case", "carcasa", "protector", "mica",
     "control", "controles", "joy", "joycon", "figura", "figuras", "peluche",
@@ -198,7 +198,61 @@ def buscar_eshop(termino):
     return out
 
 
-def precios_eshop(nsuids, pais):
+# eShop de America comparten el mismo ID de juego (NSUID)
+REGIONES_AMERICA = ["US", "CA", "MX", "BR", "CL", "CO", "PE"]
+NOMBRE_PAIS = {"US": "🇺🇸 EE. UU.", "CA": "🇨🇦 Canadá", "MX": "🇲🇽 México", "BR": "🇧🇷 Brasil",
+               "CL": "🇨🇱 Chile", "CO": "🇨🇴 Colombia", "PE": "🇵🇪 Perú", "AR": "🇦🇷 Argentina"}
+FX_URL = "https://open.er-api.com/v6/latest/USD"
+
+
+def tipo_cambio(state):
+    """{moneda: unidades por 1 USD}. Si falla, usa el ultimo guardado."""
+    try:
+        r = get(FX_URL)
+        r.raise_for_status()
+        rates = r.json().get("rates") or {}
+        if rates.get("CLP"):
+            state["fx"] = {"rates": rates, "fecha": ahora_iso()}
+            return rates
+    except (requests.RequestException, ValueError) as e:
+        log(f"  dolar: no pude actualizar ({e}); uso el ultimo guardado")
+    return (state.get("fx") or {}).get("rates") or {}
+
+
+def a_usd(valor, moneda, rates):
+    if valor is None:
+        return None
+    if moneda == "USD":
+        return valor
+    r = rates.get(moneda)
+    return valor / r if r else None
+
+
+def precios_eshop_regiones(nsuids, regiones, rates):
+    """{nsuid: {pais: {regular_usd, actual_usd, local, moneda, fin}}}"""
+    out = {}
+    for pais in regiones:
+        try:
+            pr = precios_eshop(nsuids, pais, crudo=True)
+        except (requests.RequestException, ValueError) as e:
+            log(f"  eShop {pais}: fallo ({e})")
+            continue
+        for nsuid, p in pr.items():
+            mon = p["moneda"]
+            reg = a_usd(p["regular"], mon, rates)
+            act = a_usd(p["oferta"] if p["oferta"] is not None else p["regular"], mon, rates)
+            if reg is None or act is None:
+                continue
+            out.setdefault(nsuid, {})[pais] = {
+                "regular_usd": round(reg, 2), "actual_usd": round(act, 2),
+                "local": p["oferta"] if p["oferta"] is not None else p["regular"],
+                "moneda": mon, "fin": p["fin"], "oferta": p["oferta"] is not None,
+            }
+        time.sleep(0.3)
+    return out
+
+
+def precios_eshop(nsuids, pais, crudo=False):
     """{nsuid: {regular, oferta, fin}}"""
     out = {}
     ids = sorted(set(nsuids))
@@ -215,6 +269,7 @@ def precios_eshop(nsuids, pais):
                 "regular": float(reg["raw_value"]),
                 "oferta": float(desc["raw_value"]) if desc else None,
                 "fin": (desc or {}).get("end_datetime"),
+                "moneda": reg.get("currency") or "USD",
             }
     return out
 
@@ -488,6 +543,54 @@ def parse_embebido(pagina, url_pagina):
     return out
 
 
+def _texto_rsc(pagina):
+    """Junta los datos de paginas Next.js nuevas (self.__next_f.push) ya desescapados."""
+    trozos = []
+    for s in re.findall(r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)', pagina):
+        try:
+            trozos.append(json.loads('"' + s + '"'))
+        except ValueError:
+            pass
+    return "".join(trozos) if trozos else pagina
+
+
+def _cent(p):
+    if isinstance(p, dict):
+        v = p.get("value", p)
+        if isinstance(v, dict) and v.get("centAmount") is not None:
+            return float(v["centAmount"]) / (10 ** int(v.get("fractionDigits") or 0))
+    return None
+
+
+def parse_rsc(pagina, url_pagina):
+    """Listados tipo Paris/Cencosud: "products":[{name, slug, prices{regular,offer}, sellers}]"""
+    texto = _texto_rsc(pagina)
+    dec = json.JSONDecoder()
+    out, vistos = [], set()
+    for m in re.finditer(r'"products":\[', texto):
+        try:
+            lista, _ = dec.raw_decode(texto, m.end() - 1)
+        except ValueError:
+            continue
+        for p in lista:
+            if not isinstance(p, dict) or not p.get("name") or not p.get("slug"):
+                continue
+            pr = p.get("prices") or (p.get("masterVariant") or {}).get("prices") or {}
+            oferta, regular = _cent(pr.get("offer")), _cent(pr.get("regular"))
+            precio = oferta or regular
+            if not precio_valido(precio):
+                continue
+            url = urljoin(url_pagina, "/" + p["slug"].strip("/") + ".html")
+            if url in vistos:
+                continue
+            vistos.add(url)
+            sellers = p.get("sellers") if isinstance(p.get("sellers"), list) else []
+            out.append({"titulo": html.unescape(p["name"]), "url": url, "precio": precio,
+                        "normal": regular if regular and regular > precio else None,
+                        "vendedor": sellers[0] if sellers and isinstance(sellers[0], str) else None})
+    return out
+
+
 BUSQUEDAS_HTML = (
     "{base}/catalogsearch/result/?q={q}&product_list_limit=48",
     "{base}/search?q={q}",
@@ -515,7 +618,7 @@ def leer_html(base, termino, cache, plantilla=None):
             (VOLCAR / nombre).write_text(r.text, encoding="utf-8", errors="replace")
         if r.status_code != 200:
             continue
-        prods = parse_magento(r.text, r.url) or parse_embebido(r.text, r.url)
+        prods = parse_magento(r.text, r.url) or parse_rsc(r.text, r.url) or parse_embebido(r.text, r.url)
         if prods:
             cache["plantilla_html"] = t
             return prods
@@ -530,7 +633,20 @@ LECTORES = {
 }
 
 
+# paginas de busqueda conocidas (si la tienda no trae "busqueda" propia)
+BUSQUEDA_CONOCIDA = {
+    "paris.cl": "https://www.paris.cl/search/?q={q}",
+    "falabella.com": "https://www.falabella.com/falabella-cl/search?Ntt={q}",
+    "lider.cl": "https://www.lider.cl/search?q={q}",
+}
+
+
 def buscar_en_tienda(tienda, termino, state, cache):
+    if not tienda.get("busqueda"):
+        for dom, plantilla in BUSQUEDA_CONOCIDA.items():
+            if dom in tienda["url"]:
+                tienda = {**tienda, "busqueda": plantilla}
+                break
     """Devuelve lista de productos o None si la tienda no respondio con nada util."""
     base = tienda["url"].rstrip("/")
     metodos = state.setdefault("metodos", {})
@@ -606,8 +722,47 @@ def plataforma_de(titulo):
     return "Switch 2" if PLAT2_RE.search(t) else "Switch"
 
 
+# titulos que las tiendas chilenas escriben en espanol -> nombre de la eShop
+TRADUCCIONES = [
+    ("lagrimas del reino", "tears of the kingdom"),
+    ("aliento de lo salvaje", "breath of the wild"),
+    ("aliento salvaje", "breath of the wild"),
+    ("ecos de la sabiduria", "echoes of wisdom"),
+    ("el despertar de link", "links awakening"),
+    ("la tierra olvidada", "the forgotten land"),
+    ("tierra olvidada", "forgotten land"),
+    ("la era del cataclismo", "age of calamity"),
+    ("era del cataclismo", "age of calamity"),
+    ("la era del destierro", "age of imprisonment"),
+    ("era del destierro", "age of imprisonment"),
+    ("la era del encarcelamiento", "age of imprisonment"),
+    ("espada celeste", "skyward sword"),
+    ("leyendas pokemon", "pokemon legends"),
+    ("pokemon escarlata", "pokemon scarlet"),
+    ("pokemon purpura", "pokemon violet"),
+    ("pokemon espada", "pokemon sword"),
+    ("pokemon escudo", "pokemon shield"),
+    ("diamante brillante", "brilliant diamond"),
+    ("perla reluciente", "shining pearl"),
+    ("vamos pikachu", "lets go pikachu"),
+    ("vamos eevee", "lets go eevee"),
+    ("el regreso a dream land", "return to dream land"),
+    ("regreso a dream land", "return to dream land"),
+    ("estrellas aliadas", "star allies"),
+    ("la leyenda de zelda", "the legend of zelda"),
+    ("leyenda de zelda", "legend of zelda"),
+]
+_TRAD_RE = [(re.compile(r"\b" + a + r"\b"), c) for a, c in TRADUCCIONES]
+
+
+def traducir(texto_norm):
+    for rx, c in _TRAD_RE:
+        texto_norm = rx.sub(c, texto_norm)
+    return texto_norm
+
+
 def tokens_de(titulo):
-    t = norm(re.sub(r"[’'´`]", "", titulo))
+    t = traducir(norm(re.sub(r"[’'´`]", "", titulo)))
     t = PLAT2_RE.sub(" ", t)
     out = []
     for w in t.split():
@@ -800,33 +955,49 @@ def revisar_eshop(cfg, state, hist, alertas):
     log(f"  eShop: {len(encontrados)} juegos encontrados")
     if not encontrados:
         return
-    try:
-        precios = precios_eshop(encontrados.keys(), pais)
-    except (requests.RequestException, ValueError) as e:
-        log(f"  eShop: fallo la consulta de precios: {e}")
+    regiones = aj.get("regiones_eshop") or REGIONES_AMERICA
+    if pais not in regiones:
+        regiones = [pais] + list(regiones)
+    rates = tipo_cambio(state)
+    if not rates:
+        regiones = [pais]
+    porreg = precios_eshop_regiones(list(encontrados.keys()), regiones, rates or {"USD": 1})
+    if not porreg:
+        log("  eShop: no hubo precios")
         return
+    clp_x_usd = (rates or {}).get("CLP")
     items = state.setdefault("eshop", {})
     hist_e = hist.setdefault("eshop", {})
     for nsuid, (juego, h) in sorted(encontrados.items(), key=lambda x: x[1][1]["titulo"]):
-        p = precios.get(nsuid)
-        if not p:
+        regs = porreg.get(nsuid)
+        if not regs:
             continue
-        actual = p["oferta"] if p["oferta"] is not None else p["regular"]
+        base = regs.get(pais) or next(iter(regs.values()))
+        mejor_pais = min(regs, key=lambda k: regs[k]["actual_usd"])
+        mejor = regs[mejor_pais]
+        actual = mejor["actual_usd"]
+        regular = base["regular_usd"]
+        p = {"oferta": base["actual_usd"] if base["oferta"] else None, "regular": regular,
+             "fin": mejor["fin"] or base["fin"]}
         serie = hist_e.setdefault(nsuid, {})
         est = estadisticas(serie, hoy)
-        registrar(serie, hoy, actual)
+        registrar(serie, hoy, actual, mejor_pais)
 
         s = items.setdefault(nsuid, {})
         anterior = s.get("ultimo")
         s.update({"titulo": h["titulo"], "url": h["url"], "juego": juego["nombre"],
                   "plataforma": h.get("plataforma") or plataforma_de(h["titulo"]),
-                  "origen": "eShop " + pais, "moneda": "USD", "fin": p["fin"],
-                  "normal": p["regular"] if p["oferta"] is not None else None,
-                  "regular": p["regular"], "ultimo": actual, "visto": ahora_iso(),
+                  "origen": "eShop " + mejor_pais, "moneda": "USD", "fin": p["fin"],
+                  "normal": regular if actual < regular - 0.005 else None,
+                  "regular": regular, "ultimo": actual, "visto": ahora_iso(),
+                  "pais": mejor_pais, "local": mejor["local"], "moneda_local": mejor["moneda"],
+                  "precio_us": base["actual_usd"],
+                  "clp": round(actual * clp_x_usd) if clp_x_usd else None,
+                  "regiones": {k: v["actual_usd"] for k, v in regs.items()},
                   "min_hist": est.get("min"), "min_fecha": est.get("min_fecha"),
                   "dias": est["dias"]})
 
-        pct = 100 * (1 - actual / p["regular"]) if p["regular"] else 0
+        pct = 100 * (1 - actual / regular) if regular else 0
         objetivo = juego.get("objetivo_usd")
         motivos = []
         if objetivo is not None and actual <= objetivo:
@@ -837,19 +1008,24 @@ def revisar_eshop(cfg, state, hist, alertas):
             motivos.append("descuento")
         if anterior and 100 * (1 - actual / anterior) >= aj.get("baja_minima_pct", 10):
             motivos.append("baja")
-        log(f"    {h['titulo']}: {usd(actual)}" + (f" (normal {usd(p['regular'])})"
-                                                   if p["oferta"] is not None else ""))
+        log(f"    {h['titulo']}: {usd(actual)} {mejor_pais}" +
+            (f" (normal {usd(regular)})" if actual < regular - 0.005 else ""))
         if decidir(s, actual, motivos):
             linea = f'<a href="{esc_attr(h["url"])}">{esc(h["titulo"])}</a>\n   💸 {usd(actual)}'
-            if p["oferta"] is not None:
-                linea += f"  <s>{usd(p['regular'])}</s>  −{round(pct)}%"
+            if clp_x_usd:
+                linea += f" (≈{clp(actual * clp_x_usd)})"
+            if pct >= 1:
+                linea += f"  <s>{usd(regular)}</s>  −{round(pct)}%"
+            linea += f"\n   {NOMBRE_PAIS.get(mejor_pais, mejor_pais)}"
+            if mejor_pais != pais and base:
+                linea += f" · en {pais}: {usd(base['actual_usd'])}"
             if p["fin"]:
                 linea += f"  ⏳ hasta {esc(p['fin'][:10])}"
             if "minimo" in motivos:
                 linea += "\n   🏆 mínimo histórico"
             if "objetivo" in motivos:
                 linea += "  🎯"
-            alertas.setdefault(("🎮", juego["nombre"], "eShop " + pais), []).append(linea)
+            alertas.setdefault(("🎮", juego["nombre"], "eShop"), []).append(linea)
 
 
 def leer_tiendas(cfg, state, alertas):
@@ -1020,7 +1196,12 @@ def linea_producto(s, motivos, anterior, e):
     if len(s["avisos"]) > 1:
         detalles.append(f"{len(s['avisos'])} tiendas")
     if e and e.get("ultimo"):
-        detalles.append(f"🎮 {usd(e['ultimo'])}")
+        if e.get("clp"):
+            dif = e["clp"] - s["precio"]
+            cual = "conviene el físico" if dif > 0 else "conviene el digital"
+            detalles.append(f"🎮 {usd(e['ultimo'])} {e.get('pais', '')} ≈{clp(e['clp'])} → {cual}")
+        else:
+            detalles.append(f"🎮 {usd(e['ultimo'])}")
     if detalles:
         l += "\n   📊 " + " · ".join(detalles)
     return l
