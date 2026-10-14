@@ -424,10 +424,48 @@ def productos_en_json(nodo, url_pagina, out, vistos):
                 precio = min(acc["actual"])
                 normal = max(acc["normal"]) if acc["normal"] else None
                 out.append({"titulo": html.unescape(nombre), "url": u, "precio": precio,
-                            "normal": normal if normal and normal > precio else None})
+                            "normal": normal if normal and normal > precio else None,
+                            "vendedor": _vendedor(nodo)})
     for v in nodo.values():
         if isinstance(v, (dict, list)):
             productos_en_json(v, url_pagina, out, vistos)
+
+
+def _vendedor(nodo):
+    """Nombre del vendedor si la pagina lo informa (marketplace)."""
+    for k, v in nodo.items():
+        kl = k.lower()
+        if "seller" not in kl and "vendedor" not in kl and kl != "soldby":
+            continue
+        if "id" in kl and "name" not in kl:
+            continue
+        if isinstance(v, str) and v.strip() and not v.strip().isdigit():
+            return v.strip()
+        if isinstance(v, list) and v and isinstance(v[0], (str, dict)):
+            v = v[0]
+            if isinstance(v, str) and v.strip():
+                return v.strip()
+        if isinstance(v, dict):
+            for kk in ("name", "displayName", "sellerName", "nombre"):
+                if isinstance(v.get(kk), str) and v[kk].strip():
+                    return v[kk].strip()
+    return None
+
+
+# vendedores externos que se cuelan en los marketplaces (Falabella, Lider…)
+EXTERNOS_RE = re.compile(r"sniper|megagames?\b|\bimportado por\b|\bvendido por\b", re.I)
+
+
+def es_externo(producto, tienda):
+    """True si el aviso es de un vendedor externo y no de la tienda misma."""
+    if EXTERNOS_RE.search(producto.get("titulo", "")) or EXTERNOS_RE.search(producto.get("url", "")):
+        return True
+    v = producto.get("vendedor")
+    if not v:
+        return False
+    oficiales = [norm(tienda["nombre"])] + [norm(x) for x in tienda.get("vendedores_ok", [])]
+    nv = norm(v)
+    return not any(o and (o in nv or nv in o) for o in oficiales)
 
 
 def parse_embebido(pagina, url_pagina):
@@ -554,7 +592,8 @@ RUIDO = {"juego", "videojuego", "videojuegos", "nintendo", "switch", "nsw", "fis
          "physical", "game", "games", "card", "version", "americano", "americana", "nuevo",
          "sellado", "original", "sniper", "snipercl", "cl", "megagames", "standard",
          "estandar", "digital", "rpg", "latam", "ntsc", "us", "usa", "edition"}
-SINONIMOS = {"ed": "edition", "edicion": "edition"}
+SINONIMOS = {"ed": "edition", "edicion": "edition", "encarcelation": "imprisonment",
+             "encarcelamiento": "imprisonment"}
 VARIANTES = {"collector", "coleccionista", "coleccion", "limited", "limitada", "steelbook",
              "japan", "japon", "japones", "import", "importado", "asia", "asiatica", "europe",
              "europa", "eur", "pal", "bundle", "signature", "premium"}
@@ -855,6 +894,11 @@ def leer_tiendas(cfg, state, alertas):
             continue
         fallos.pop(nombre_t, None)
         log(f"  {nombre_t} [{cache.get('metodo')}]: {len(hallados)} avisos que calzan")
+        if cfg.get("ajustes", {}).get("excluir_externos", True):
+            externos = [p for _, p in hallados.values() if es_externo(p, tienda)]
+            if externos:
+                log(f"    {len(externos)} de vendedores externos descartados")
+            hallados = {u: (j, p) for u, (j, p) in hallados.items() if not es_externo(p, tienda)}
         listados += [(j, nombre_t, p) for j, p in hallados.values()]
 
     # links puestos a mano (para tiendas que no se dejan buscar)
