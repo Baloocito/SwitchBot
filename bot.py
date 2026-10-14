@@ -1177,7 +1177,9 @@ def revisar_productos(cfg, state, hist, listados, alertas):
         registrar(serie, hoy, precio, mejor["tienda"])
 
         # precio de referencia: tipico propio > otras tiendas > lo que dice la tienda
-        otras = [a["precio"] for a in avisos[1:]]
+        # precios fuera de rango (otra edicion mezclada, error de la tienda) no cuentan
+        med_todos = _mediana([a["precio"] for a in avisos])
+        otras = [a["precio"] for a in avisos[1:] if a["precio"] <= 2 * med_todos]
         if est.get("tipico"):
             ref, ref_tipo = est["tipico"], "tipico"
         elif otras:
@@ -1497,6 +1499,8 @@ def tarjeta_fisico(clave, s, state, hist, extra=None):
             m = med[i] if i < 3 else "▫️"
             ext = f" 🏪 {esc(a.get('vendedor') or '')}".rstrip() if a.get("externo") else ""
             dif = f" (+{clp(a['precio'] - s['precio'])})" if i else ""
+            if i and a["precio"] > 2 * _mediana([x["precio"] for x in avisos]):
+                dif += " ⚠️ ¿otra edición?"
             l.append(f"   {m} <a href=\"{esc_attr(a['url'])}\">{clp(a['precio'])} {esc(a['tienda'])}</a>{ext}{dif}")
         if len(avisos) > 8:
             l.append(f"   … y {len(avisos) - 8} más")
@@ -1765,6 +1769,7 @@ def generar_vistas(state, hist, cfg):
             "items": [{k: i[k] for k in ("nivel", "tipo", "texto", "pct", "con_fisico", "nombre") if k in i}
                       for i in its]})
     save_json(VISTAS_DIR / "indice.json", {"revision": revision, "sagas": indice,
+                                           "fallos": state.get("fallos") or {},
                                            "fisicos": sum(1 for x in ofertas), "total": sum(len(v) for v in sagas.values())})
     log(f"  vistas: {len(ofertas)} ofertas, {len(indice)} sagas")
 
