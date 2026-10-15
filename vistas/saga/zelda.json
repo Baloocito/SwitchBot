@@ -50,6 +50,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:31ce84a2c1",
+        "text": "⚙️ The Legend of Zelda: Tears of… S2 · $87.990"
+      },
+      "id": "31ce84a2c1",
+      "nivel": "normal",
+      "nombre": "The Legend of Zelda: Tears of the Kingdom",
+      "pct": 2.0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend of Zelda: Tears of the Kingdom</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$87.990</b> en 8 Bits\n💡 Está a su precio de siempre\n   Ahorras $1.800 frente a la otra tienda ($89.790)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/the-legend-of-zelda-tears-of-the-kingdom-nsw2\">$87.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/152640373/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-2\">$89.790 Falabella</a> 🏪 Africca (+$1.800)\n📈 Mínimo $87.990 (14 oct, 8 Bits) · máximo $87.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$79.99 ≈ $78.535 en 🇺🇸 EE. UU.\n   ➜ El digital es $9.455 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/the-legend-of-zelda-tears-of-the-kingdom-nsw2\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:abf6d69808",
         "text": "⚙️ The Legend of Zelda: Breath o… S2 · $79.790"
       },
@@ -70,18 +82,6 @@
       "nombre": "The Legend of Zelda: Link’s Awakening",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend of Zelda: Link’s Awakening</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$70.000</b> en Falabella 🏪 <i>vende Tienda Retrogamers</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $70.000 (12 oct, Falabella) · máximo $70.000\n   ▄▄▄▄  últimos 4 días\n🎮 Digital: US$59.73 ≈ $58.644 en 🇨🇦 Canadá\n   ➜ El digital es $11.356 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 4 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/158505561/the-legend-of-zelda-link-s-awakening-nintendo-switch\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:31ce84a2c1",
-        "text": "⚙️ The Legend of Zelda: Tears of… S2 · $87.990"
-      },
-      "id": "31ce84a2c1",
-      "nivel": "normal",
-      "nombre": "The Legend of Zelda: Tears of the Kingdom",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend of Zelda: Tears of the Kingdom</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$87.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $87.990 (14 oct, 8 Bits) · máximo $87.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$79.99 ≈ $78.535 en 🇺🇸 EE. UU.\n   ➜ El digital es $9.455 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/the-legend-of-zelda-tears-of-the-kingdom-nsw2\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -215,5 +215,5 @@
     }
   ],
   "juego": "Zelda",
-  "revision": "2026-10-15T17:04:56Z"
+  "revision": "2026-10-15T21:28:38Z"
 }
