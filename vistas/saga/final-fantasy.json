@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:d7ded0b860",
+        "text": "⚙️ FINAL FANTASY VI · $79.990"
+      },
+      "id": "d7ded0b860",
+      "nivel": "compra",
+      "nombre": "FINAL FANTASY VI",
+      "pct": 34.7,
+      "texto": "🟢 <b>COMPRA YA</b> · −35%\n<b>FINAL FANTASY VI</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$79.990</b> en 8 Bits\n💡 35% bajo el resto de las tiendas\n   Ahorras $42.500 frente al promedio de las otras tiendas ($122.490)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/final-fantasy-i-vi-collection-anniversary-edition-nsw\">$79.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/139867233/Final-Fantasy-I-VI-Collection-Nintendo-Switch\">$84.990 Falabella</a> 🏪 Rivertec (+$5.000)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/final-fantasy-i-vi-col-anv-edit-nsw/00066224892810\">$159.990 Lider</a> 🏪 nocnoc (+$80.000)\n📈 Mínimo $79.990 (14 oct, 8 Bits) · máximo $79.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$14.77 ≈ $14.501 en 🇨🇱 Chile\n   ➜ El digital es $65.489 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/final-fantasy-i-vi-collection-anniversary-edition-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:b8e06343bf",
         "text": "⚙️ FINAL FANTASY VI · $99.990"
       },
@@ -22,18 +34,6 @@
       "nombre": "FINAL FANTASY VII REMAKE INTERGRADE",
       "pct": 31.3,
       "texto": "🟡 <b>BUEN PRECIO</b> · −31%\n<b>FINAL FANTASY VII REMAKE INTERGRADE</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$54.990</b> en 8 Bits\n💡 31% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $25.010 frente a la otra tienda ($80.000)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/final-fantasy-vii-remake-intergrade-nintendo-switch-3\">$54.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/158504373/final-fantasy-vii-remake-intergrade-nintendo-switch-2\">$80.000 Falabella</a> 🏪 Tienda Retrogamers (+$25.010)\n📈 Mínimo $54.990 (14 oct, 8 Bits) · máximo $54.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$37.60 ≈ $36.916 en 🇨🇦 Canadá\n   ➜ El digital es $18.074 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/final-fantasy-vii-remake-intergrade-nintendo-switch-3\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:1b1c236dc3",
-        "text": "⚙️ FINAL FANTASY X/X-2 HD Remast… · $39.990"
-      },
-      "id": "1b1c236dc3",
-      "nivel": "bueno",
-      "nombre": "FINAL FANTASY X/X-2 HD Remaster",
-      "pct": 29.8,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −30%\n<b>FINAL FANTASY X/X-2 HD Remaster</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.990</b> en 8 Bits\n💡 30% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $17.000 frente a la otra tienda ($56.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/final-fantasy-xx-2-hd-remaster-nsw\">$39.990 8 Bits</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-final-fantasy-x-x-2-hd-remaster-nintendo-switch/00066224892210\">$56.990 Lider</a> 🏪 nocnoc (+$17.000)\n📈 Mínimo $39.990 (14 oct, 8 Bits) · máximo $39.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$42.16 ≈ $41.393 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $1.403 y además se puede revender\n🔎 Confianza media: 2 tiendas y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/final-fantasy-xx-2-hd-remaster-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -74,18 +74,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:d7ded0b860",
-        "text": "⚙️ FINAL FANTASY VI · $79.990"
-      },
-      "id": "d7ded0b860",
-      "nivel": "regular",
-      "nombre": "FINAL FANTASY VI",
-      "pct": 7.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>FINAL FANTASY VI</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$79.990</b> en 8 Bits\n💡 Apenas 7% bajo la referencia\n   Ahorras $6.000 frente al promedio de las otras tiendas ($85.990)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/final-fantasy-i-vi-collection-anniversary-edition-nsw\">$79.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/139867233/Final-Fantasy-I-VI-Collection-Nintendo-Switch\">$84.990 Falabella</a> 🏪 Rivertec (+$5.000)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/final-fantasy-i-vi-col-anv-edit-nsw/00066224892810\">$86.990 Lider</a> 🏪 nocnoc (+$7.000)\n📈 Mínimo $79.990 (14 oct, 8 Bits) · máximo $79.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$14.77 ≈ $14.501 en 🇨🇱 Chile\n   ➜ El digital es $65.489 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/final-fantasy-i-vi-collection-anniversary-edition-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:191e36042d",
         "text": "⚙️ FINAL FANTASY IX · $90.990"
       },
@@ -118,6 +106,18 @@
       "nombre": "FINAL FANTASY VIII Remastered",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>FINAL FANTASY VIII Remastered</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$47.990</b> en Falabella 🏪 <i>vende Tienda Retrogamers</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $47.990 (14 oct, Falabella) · máximo $47.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$16.58 ≈ $16.279 en 🇧🇷 Brasil\n   ➜ El digital es $31.711 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/142451052/Final-Fantasy-Vii-Viii-Remastered-Switch-En-Gc\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:1b1c236dc3",
+        "text": "⚙️ FINAL FANTASY X/X-2 HD Remast… · $39.990"
+      },
+      "id": "1b1c236dc3",
+      "nivel": "normal",
+      "nombre": "FINAL FANTASY X/X-2 HD Remaster",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>FINAL FANTASY X/X-2 HD Remaster</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (14 oct, 8 Bits) · máximo $39.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$42.16 ≈ $41.393 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $1.403 y además se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/final-fantasy-xx-2-hd-remaster-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -446,5 +446,5 @@
     }
   ],
   "juego": "Final Fantasy",
-  "revision": "2026-10-15T04:48:04Z"
+  "revision": "2026-10-15T11:30:24Z"
 }

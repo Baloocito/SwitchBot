@@ -2,15 +2,27 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:045c126820",
+        "text": "⚙️ Stardew Valley · $66.990"
+      },
+      "id": "045c126820",
+      "nivel": "regular",
+      "nombre": "Stardew Valley",
+      "pct": 6.6,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Stardew Valley</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$66.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.764 frente al «antes» que marca la tienda ($71.754)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $64.990 (14 oct, Lider) · máximo $66.990\n   ▁█  últimos 2 días\n🎮 Digital: US$4.96 ≈ $4.870 en 🇧🇷 Brasil\n   ➜ El digital es $62.120 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-stardew-valley/00506076088085\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:668b7345ab",
         "text": "⚙️ Stardew Valley · US$4.96"
       },
-      "con_fisico": false,
+      "con_fisico": true,
       "id": "668b7345ab",
       "nivel": "normal",
       "nombre": "Stardew Valley",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Stardew Valley</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$4.96</b> ≈ $4.870 en 🇧🇷 Brasil\n   Precio en la tienda: R$24,99 BRL\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/stardew-valley-switch/\">US$4.96</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/stardew-valley-switch/\">US$7.64</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/stardew-valley-switch/\">US$8.12</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/stardew-valley-switch/\">US$10.05</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/stardew-valley-switch/\">US$11.61</a>\n   El más caro: 🇺🇸 US$14.99\n📈 Mínimo US$4.96 (15 oct en 🇧🇷 Brasil)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/stardew-valley-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Stardew Valley</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$4.96</b> ≈ $4.870 en 🇧🇷 Brasil\n   Precio en la tienda: R$24,99 BRL\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/stardew-valley-switch/\">US$4.96</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/stardew-valley-switch/\">US$7.64</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/stardew-valley-switch/\">US$8.12</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/stardew-valley-switch/\">US$10.05</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/stardew-valley-switch/\">US$11.61</a>\n   El más caro: 🇺🇸 US$14.99\n📦 Físico: $66.990 en Lider → el digital te ahorra $62.120\n📈 Mínimo US$4.96 (15 oct en 🇧🇷 Brasil)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/stardew-valley-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -28,5 +40,5 @@
     }
   ],
   "juego": "Stardew Valley",
-  "revision": "2026-10-15T04:48:04Z"
+  "revision": "2026-10-15T11:30:24Z"
 }

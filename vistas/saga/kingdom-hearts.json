@@ -2,18 +2,6 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:2552344cc4",
-        "text": "⚙️ KINGDOM HEARTS Melody of Memo… · $39.720"
-      },
-      "id": "2552344cc4",
-      "nivel": "regular",
-      "nombre": "KINGDOM HEARTS Melody of Memory",
-      "pct": 20.1,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −20%\n<b>KINGDOM HEARTS Melody of Memory</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.720</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Apenas 20% bajo la referencia\n   Ahorras $10.000 frente al «antes» que marca la tienda ($49.720)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.720 (14 oct, Falabella) · máximo $39.720\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$49.62 ≈ $48.718 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $8.998 y además se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148485792/Kingdom-Hearts-Melody-Of-Memory-Switch-Fisico-Sniper\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:e64eece765",
         "text": "⚙️ KINGDOM HEARTS Melody of Memo… · US$49.62"
       },
@@ -118,5 +106,5 @@
     }
   ],
   "juego": "Kingdom Hearts",
-  "revision": "2026-10-15T04:48:04Z"
+  "revision": "2026-10-15T11:30:24Z"
 }

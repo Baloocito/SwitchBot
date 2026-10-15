@@ -14,6 +14,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:40c71fcb59",
+        "text": "⚙️ Pewesv Crash Bandicoot 4 · $67.990"
+      },
+      "id": "40c71fcb59",
+      "nivel": "regular",
+      "nombre": "Pewesv Crash Bandicoot 4",
+      "pct": 8.6,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>Pewesv Crash Bandicoot 4</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$67.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 9% bajo la referencia\n   Ahorras $6.424 frente al «antes» que marca la tienda ($74.414)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $67.990 (15 oct, Lider) · máximo $69.990\n   █▁  últimos 2 días\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-pewesv-crash-bandicoot-4-para-nintendo-switch/00478751025125\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:f18504111d",
         "text": "⚙️ Spyro Reignited Trilogy · $61.990"
       },
@@ -21,19 +33,7 @@
       "nivel": "regular",
       "nombre": "Spyro Reignited Trilogy",
       "pct": 7.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Spyro Reignited Trilogy</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$61.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.691 frente al «antes» que marca la tienda ($66.681)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $61.990 (14 oct, Lider) · máximo $61.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$35.14 ≈ $34.501 en 🇨🇦 Canadá\n   ➜ El digital es $27.489 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-activision-blizzard-spyro-reignited-trilogy-nintendo-switch/00503091728457\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:40c71fcb59",
-        "text": "⚙️ Pewesv Crash Bandicoot 4 · $69.990"
-      },
-      "id": "40c71fcb59",
-      "nivel": "regular",
-      "nombre": "Pewesv Crash Bandicoot 4",
-      "pct": 6.5,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −6%\n<b>Pewesv Crash Bandicoot 4</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$69.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 6% bajo la referencia\n   Ahorras $4.832 frente al «antes» que marca la tienda ($74.822)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.990 (14 oct, Lider) · máximo $69.990\n   ▄▄  últimos 2 días\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-pewesv-crash-bandicoot-4-para-nintendo-switch/00478751025125\">Ir a comprar en Lider</a>",
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Spyro Reignited Trilogy</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$61.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.691 frente al «antes» que marca la tienda ($66.681)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $61.990 (14 oct, Lider) · máximo $61.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$35.14 ≈ $34.501 en 🇨🇦 Canadá\n   ➜ El digital es $27.489 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-activision-blizzard-spyro-reignited-trilogy-nintendo-switch/00503091728457\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -89,5 +89,5 @@
     }
   ],
   "juego": "Crash / Spyro",
-  "revision": "2026-10-15T04:48:04Z"
+  "revision": "2026-10-15T11:30:24Z"
 }

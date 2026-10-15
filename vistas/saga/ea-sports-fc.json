@@ -26,18 +26,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:5453ac0a36",
-        "text": "⚙️ EA Sports FC 24 · $73.990"
-      },
-      "id": "5453ac0a36",
-      "nivel": "regular",
-      "nombre": "EA Sports FC 24",
-      "pct": 7.8,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>EA Sports FC 24</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$73.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $6.257 frente al «antes» que marca la tienda ($80.247)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $73.990 (14 oct, Lider) · máximo $73.990\n   ▄▄  últimos 2 días\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-ea-sports-fc-24/00004549645128\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:913b0854d4",
         "text": "⚙️ FIFA 21 – Electronic Arts · $118.990"
       },
@@ -70,6 +58,18 @@
       "nombre": "EA SPORTS FC 26",
       "pct": 3.2,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>EA SPORTS FC 26</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$154.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n   Ahorras $5.085 frente al «antes» que marca la tienda ($160.075)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $154.990 (14 oct, Lider) · máximo $154.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$56.22 ≈ $55.198 en 🇨🇦 Canadá\n   ➜ El digital es $99.792 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/ea-sports-fc-26-nintendo-switch/00001463374948\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:5453ac0a36",
+        "text": "⚙️ EA Sports FC 24 · $79.990"
+      },
+      "id": "5453ac0a36",
+      "nivel": "normal",
+      "nombre": "EA Sports FC 24",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>EA Sports FC 24</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$79.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $73.990 (14 oct, Lider) · máximo $73.990\n   ▄▄  últimos 2 días\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-ea-sports-fc-24/00004549645128\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -138,5 +138,5 @@
     }
   ],
   "juego": "EA Sports FC",
-  "revision": "2026-10-15T04:48:04Z"
+  "revision": "2026-10-15T11:30:24Z"
 }
