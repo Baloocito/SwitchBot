@@ -14,18 +14,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:cf80bba9f1",
-        "text": "⚙️ Bandai Namco Tales of Xillia · $59.990"
-      },
-      "id": "cf80bba9f1",
-      "nivel": "regular",
-      "nombre": "Bandai Namco Tales of Xillia",
-      "pct": 7.7,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Bandai Namco Tales of Xillia</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $5.028 frente al «antes» que marca la tienda ($65.018)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.990 (14 oct, Lider) · máximo $59.990\n   ▄▄  últimos 2 días\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-tales-of-xillia-para-nintendo-switch/00072267484101\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:eeb817b3f1",
         "text": "⚙️ iam8bit Tales of the Shire · $66.990"
       },
@@ -38,18 +26,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:27cb034fd0",
-        "text": "⚙️ Tales of Graces f Remastered · $54.990"
-      },
-      "id": "27cb034fd0",
-      "nivel": "regular",
-      "nombre": "Tales of Graces f Remastered",
-      "pct": 6.8,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Tales of Graces f Remastered</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en 8 Bits\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.000 frente a la otra tienda ($58.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/tales-of-graces-f-remastered-nsw\">$54.990 8 Bits</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-tales-of-graces-of-remastered-nintendo-switch/00072267484106\">$58.990 Lider</a> 🏪 nocnoc (+$4.000)\n📈 Mínimo $54.990 (14 oct, 8 Bits) · máximo $54.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$29.54 ≈ $29.003 en 🇨🇱 Chile\n   ➜ El digital es $25.987 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/tales-of-graces-f-remastered-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:4317176727",
         "text": "⚙️ Tales of Berseria Remastered · $49.990"
       },
@@ -58,6 +34,18 @@
       "nombre": "Tales of Berseria Remastered",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Tales of Berseria Remastered</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (14 oct, 8 Bits) · máximo $49.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$30.55 ≈ $29.994 en 🇨🇱 Chile\n   ➜ El digital es $19.996 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/tales-of-berseria-remastered-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:27cb034fd0",
+        "text": "⚙️ Tales of Graces f Remastered · $54.990"
+      },
+      "id": "27cb034fd0",
+      "nivel": "normal",
+      "nombre": "Tales of Graces f Remastered",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Tales of Graces f Remastered</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.990 (14 oct, 8 Bits) · máximo $54.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$29.54 ≈ $29.003 en 🇨🇱 Chile\n   ➜ El digital es $25.987 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/tales-of-graces-f-remastered-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -514,5 +502,5 @@
     }
   ],
   "juego": "Tales of",
-  "revision": "2026-10-15T11:30:24Z"
+  "revision": "2026-10-15T17:04:56Z"
 }

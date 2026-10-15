@@ -26,18 +26,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:ab17eeb7d9",
-        "text": "⚙️ The Legend of Zelda: Tears of… · $62.990"
-      },
-      "id": "ab17eeb7d9",
-      "nivel": "regular",
-      "nombre": "The Legend of Zelda: Tears of the Kingdom",
-      "pct": 10.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −10%\n<b>The Legend of Zelda: Tears of the Kingdom</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$62.990</b> en Bestmart\n💡 Apenas 10% bajo la referencia\n   Ahorras $7.000 frente a la otra tienda ($69.990)\n🏷️ La tienda marca «antes $69.990» (−10%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://bestmart.cl/products/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-americano\">$62.990 Bestmart</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/141974114/The-Legend-of-Zelda-Tears-of-the-Kingdom-Nintendo-Switch\">$69.990 Falabella</a> 🏪 Bestmart (+$7.000)\n📈 Mínimo $62.990 (12 oct, Bestmart) · máximo $62.990\n   ▄▄▄▄  últimos 4 días\n🎮 Digital: US$69.99 ≈ $68.717 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $5.727 y además se puede revender\n🔎 Confianza media: 2 tiendas y 4 días de historial\n🛒 <a href=\"https://bestmart.cl/products/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-americano\">Ir a comprar en Bestmart</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:cfe2eac1dc",
         "text": "⚙️ The Legend of Zelda: Echoes o… · $53.990"
       },
@@ -46,6 +34,18 @@
       "nombre": "The Legend of Zelda: Echoes of Wisdom",
       "pct": 7.5,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>The Legend of Zelda: Echoes of Wisdom</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$53.990</b> en Lider 🏪 <i>vende Rivertec SPA</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $4.350 frente al promedio de las otras tiendas ($58.340)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.lider.cl/ip/videojuegos/the-legend-of-zelda-echoes-of-wisdom-switch/00490237055242\">$53.990 Lider</a> 🏪 Rivertec SPA\n   🥈 <a href=\"https://bestmart.cl/products/the-legend-of-zelda-echoes-of-wisdom-switch\">$56.990 Bestmart</a> (+$3.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/145999448/The-Legend-Of-Zelda-Echoes-Of-Wisdom-Nintendo-Switch\">$59.690 Falabella</a> 🏪 Africca (+$5.700)\n📈 Mínimo $48.990 (12 oct, Bestmart) · máximo $53.990\n   ▁███  últimos 4 días\n🎮 Digital: US$59.73 ≈ $58.644 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $4.654 y además se puede revender\n🔎 Confianza media: 3 tiendas y 4 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/the-legend-of-zelda-echoes-of-wisdom-switch/00490237055242\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:ab17eeb7d9",
+        "text": "⚙️ The Legend of Zelda: Tears of… · $62.990"
+      },
+      "id": "ab17eeb7d9",
+      "nivel": "normal",
+      "nombre": "The Legend of Zelda: Tears of the Kingdom",
+      "pct": 3.1,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend of Zelda: Tears of the Kingdom</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$62.990</b> en Bestmart\n💡 Está a su precio de siempre\n   Ahorras $2.000 frente a la otra tienda ($64.990)\n🏷️ La tienda marca «antes $69.990» (−10%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://bestmart.cl/products/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-americano\">$62.990 Bestmart</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/141974114/The-Legend-of-Zelda-Tears-of-the-Kingdom-Nintendo-Switch\">$64.990 Falabella</a> 🏪 Bestmart (+$2.000)\n📈 Mínimo $62.990 (12 oct, Bestmart) · máximo $62.990\n   ▄▄▄▄  últimos 4 días\n🎮 Digital: US$69.99 ≈ $68.717 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $5.727 y además se puede revender\n🔎 Confianza media: 2 tiendas y 4 días de historial\n🛒 <a href=\"https://bestmart.cl/products/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-americano\">Ir a comprar en Bestmart</a>",
       "tipo": "fisico"
     },
     {
@@ -215,5 +215,5 @@
     }
   ],
   "juego": "Zelda",
-  "revision": "2026-10-15T11:30:24Z"
+  "revision": "2026-10-15T17:04:56Z"
 }

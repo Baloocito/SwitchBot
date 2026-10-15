@@ -122,6 +122,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:de6c091c5b",
+        "text": "⚙️ Trails and Traces: The Tomb o… · US$4.21"
+      },
+      "con_fisico": false,
+      "id": "de6c091c5b",
+      "nivel": "normal",
+      "nombre": "Trails and Traces: The Tomb of Thomas Tew",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Trails and Traces: The Tomb of Thomas Tew</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Trails / Kiseki\n💰 <b>US$4.21</b> ≈ $4.133 en 🇨🇦 Canadá\n   Precio en la tienda: CA$5,99 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/trails-and-traces-the-tomb-of-thomas-tew-switch/\">US$4.21</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/trails-and-traces-the-tomb-of-thomas-tew-switch/\">US$4.96</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/trails-and-traces-the-tomb-of-thomas-tew-switch/\">US$4.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/trails-and-traces-the-tomb-of-thomas-tew-switch/\">US$5.42</a>\n📈 Mínimo US$4.21 (15 oct en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/trails-and-traces-the-tomb-of-thomas-tew-switch/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:ed9a0fecea",
         "text": "⚙️ Trails in the Sky 1st Chapter · US$54.16"
       },
@@ -171,21 +184,8 @@
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Trails in the Sky 2nd Chapter: Nintendo Switch 2 Edition</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · Trails / Kiseki\n💰 <b>US$55.20</b> ≈ $54.196 en 🇨🇱 Chile\n   Precio en la tienda: $54.200 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition-switch-2/\">US$55.20</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition-switch-2/\">US$58.65</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition-switch-2/\">US$60.79</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition-switch-2/\">US$62.79</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition-switch-2/\">US$64.52</a>\n   El más caro: 🇨🇴 US$68.08\n📈 Mínimo US$55.20 (15 oct en 🇨🇱 Chile)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition-switch-2/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:de6c091c5b",
-        "text": "⚙️ Trails and Traces: The Tomb o… · US$4.21"
-      },
-      "con_fisico": false,
-      "id": "de6c091c5b",
-      "nivel": "normal",
-      "nombre": "Trails and Traces: The Tomb of Thomas Tew",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Trails and Traces: The Tomb of Thomas Tew</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Trails / Kiseki\n💰 <b>US$4.21</b> ≈ $4.133 en 🇨🇦 Canadá\n   Precio en la tienda: CA$5,99 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/trails-and-traces-the-tomb-of-thomas-tew-switch/\">US$4.21</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/trails-and-traces-the-tomb-of-thomas-tew-switch/\">US$4.96</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/trails-and-traces-the-tomb-of-thomas-tew-switch/\">US$4.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/trails-and-traces-the-tomb-of-thomas-tew-switch/\">US$5.42</a>\n📈 Mínimo US$4.21 (15 oct en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/trails-and-traces-the-tomb-of-thomas-tew-switch/\">Ver en la eShop de Canadá</a>",
-      "tipo": "digital"
     }
   ],
   "juego": "Trails / Kiseki",
-  "revision": "2026-10-15T11:30:24Z"
+  "revision": "2026-10-15T17:04:56Z"
 }
