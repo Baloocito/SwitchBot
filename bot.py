@@ -32,6 +32,8 @@ BASE = Path(__file__).resolve().parent
 CONFIG_FILE = BASE / "juegos.json"
 STATE_FILE = BASE / "state.json"
 HIST_FILE = BASE / "history.json"
+SEG_FILE = BASE / "seguimiento.json"     # lo escribe el Worker con los botones de Telegram
+SEG = {}
 
 PRICE_API = "https://api.ec.nintendo.com/v1/price"
 ALGOLIA_URL = "https://U3B6GR4UA3-dsn.algolia.net/1/indexes/store_game_en_us"
@@ -71,7 +73,12 @@ EXCLUIR_SIEMPRE = {
     "powera", "hori", "organizador", "portajuegos", "porta", "cartuchos", "vidrio", "templado",
     "bateria", "joystick", "joysticks", "stand", "bolsa", "maletin", "adaptador", "hub", "led",
     "mousepad", "alfombra", "camiseta", "pijama", "disfraz", "vaso", "botella", "cuaderno",
+    "membresia", "suscripcion", "codigo", "recarga", "prepago", "voucher",
 }
+
+# juegos encontrados fuera de la lista de sagas (catalogo completo de tiendas
+# Shopify y ofertas de la eShop)
+JUEGO_OTROS = {"nombre": "🔍 Otros juegos", "buscar": ["__descubiertos__"], "auto": True}
 
 VOLCAR = None               # carpeta donde el diagnostico guarda las paginas
 PENDIENTES = []             # alertas de esta corrida (para deshacer si Telegram falla)
@@ -253,6 +260,43 @@ def precios_eshop_regiones(nsuids, regiones, rates):
             }
         time.sleep(0.3)
     return out
+
+
+FILTROS_OFERTA = ('topLevelFilters:"Deals"', "price.discounted:true", 'availability:"On sale"')
+
+
+def buscar_ofertas_eshop(maximo=3000):
+    """Todos los juegos con descuento en la eShop de EE. UU. (no solo tus sagas).
+    Prueba varios filtros porque Nintendo los cambia de vez en cuando."""
+    for filtro in FILTROS_OFERTA:
+        out, page = [], 0
+        try:
+            while len(out) < maximo:
+                r = get(ALGOLIA_URL, headers={**HEADERS, **ALGOLIA_HEADERS},
+                        params={"query": "", "filters": filtro, "hitsPerPage": 500, "page": page})
+                if r.status_code != 200:
+                    break
+                data = r.json()
+                for h in data.get("hits", []):
+                    nsuid = str(h.get("nsuid") or "")
+                    if not nsuid.startswith("7001"):
+                        continue
+                    url = h.get("url") or ""
+                    out.append({"titulo": re.sub(r"[™®©]", "", h.get("title", nsuid)).strip(),
+                                "nsuid": nsuid, "url": urljoin(NINTENDO_WEB, url) if url else "",
+                                "plataforma": "Switch 2" if h.get("platformCode") == "NINTENDO_SWITCH_2" else "Switch"})
+                page += 1
+                if page >= (data.get("nbPages") or 0):
+                    break
+                time.sleep(0.3)
+        except (requests.RequestException, ValueError) as e:
+            log(f"  eShop ofertas [{filtro}]: {e}")
+            continue
+        if out:
+            log(f"  eShop ofertas: filtro {filtro} -> {len(out)} juegos")
+            return out
+        log(f"  eShop ofertas: filtro {filtro} sin resultados")
+    return []
 
 
 def precios_eshop(nsuids, pais, crudo=False):
@@ -917,6 +961,59 @@ def registrar(serie, hoy, precio, tienda=None):
             del serie[d]
 
 
+def id_de(tipo, clave):
+    """Id corto y estable de una tarjeta (cabe en los botones de Telegram)."""
+    import hashlib
+    return hashlib.sha1(f"{tipo}|{clave}".encode()).hexdigest()[:10]
+
+
+def seguimiento(id_):
+    """(objetivo, seguido, silenciado_hasta) puestos con los botones."""
+    obj = (SEG.get("objetivos") or {}).get(id_)
+    seguido = id_ in (SEG.get("seguidos") or {})
+    sil = (SEG.get("silenciados") or {}).get(id_)
+    if sil and sil.get("hasta") and sil["hasta"] < hoy_chile():
+        sil = None
+    return (obj.get("precio") if obj else None), seguido, (sil.get("hasta") or "siempre") if sil else None
+
+
+def registrar_detalle(h, hoy, avisos):
+    """Datos para funciones futuras (descuentos falsos, escasez, prediccion):
+    - t: precio y "antes" de cada tienda por dia
+    - n: en cuantas tiendas estaba disponible ese dia"""
+    t = h.setdefault("t", {})
+    for a in avisos:
+        dia = t.setdefault(a["tienda"], {})
+        dia[hoy] = [a["precio"], a.get("normal")] if a.get("normal") else a["precio"]
+        if len(dia) > DIAS_HISTORIAL:
+            for d in sorted(dia)[: len(dia) - DIAS_HISTORIAL]:
+                del dia[d]
+    n = h.setdefault("n", {})
+    n[hoy] = len(avisos)
+    if len(n) > DIAS_HISTORIAL:
+        for d in sorted(n)[: len(n) - DIAS_HISTORIAL]:
+            del n[d]
+
+
+def registrar_oferta_eshop(hist, nsuid, titulo, hoy, regs):
+    """Calendario de ofertas de la eShop (para predecir cuando vuelven):
+    una entrada por oferta y pais, con inicio, fin y % de descuento."""
+    cal = hist.setdefault("eshop_ofertas", {}).setdefault(nsuid, {"titulo": titulo, "o": []})
+    cal["titulo"] = titulo
+    for pais, r in regs.items():
+        if not r.get("oferta") or not r.get("regular_usd"):
+            continue
+        pct = round(100 * (1 - r["actual_usd"] / r["regular_usd"]))
+        fin = (r.get("fin") or "")[:10]
+        prev = next((o for o in cal["o"] if o["pais"] == pais and o.get("fin") == fin and o["pct"] == pct), None)
+        if prev:
+            prev["visto"] = hoy
+        else:
+            cal["o"].append({"pais": pais, "desde": hoy, "visto": hoy, "fin": fin, "pct": pct,
+                             "usd": r["actual_usd"]})
+    cal["o"] = cal["o"][-200:]
+
+
 def estadisticas(serie, hoy):
     """Usa solo dias anteriores a hoy."""
     prev = {d: (v[0] if isinstance(v, list) else v) for d, v in serie.items() if d < hoy}
@@ -979,6 +1076,13 @@ def revisar_eshop(cfg, state, hist, alertas):
                     if not prev or esp > max(len(palabras(x)) for x in terminos(prev[0])):
                         encontrados[h["nsuid"]] = (juego, h)
             time.sleep(0.3)
+    if aj.get("descubrir", True):
+        nuevos = 0
+        for h in buscar_ofertas_eshop():
+            if h["nsuid"] not in encontrados:
+                encontrados[h["nsuid"]] = (JUEGO_OTROS, h)
+                nuevos += 1
+        log(f"  eShop: {nuevos} juegos en oferta descubiertos fuera de tu lista")
     log(f"  eShop: {len(encontrados)} juegos encontrados")
     if not encontrados:
         return
@@ -1012,6 +1116,7 @@ def revisar_eshop(cfg, state, hist, alertas):
         serie = hist_e.setdefault(nsuid, {})
         est = estadisticas(serie, hoy)
         registrar(serie, hoy, actual, mejor_pais)
+        registrar_oferta_eshop(hist, nsuid, h["titulo"], hoy, regs)
 
         s = items.setdefault(nsuid, {})
         anterior = s.get("ultimo")
@@ -1030,8 +1135,13 @@ def revisar_eshop(cfg, state, hist, alertas):
                   "dias": est["dias"]})
 
         pct = pct_oferta
-        objetivo = juego.get("objetivo_usd")
+        id_ = id_de("d", nsuid)
+        obj_seg, seguido, silenciado = seguimiento(id_)
+        objetivo = obj_seg if obj_seg is not None else juego.get("objetivo_usd")
+        s.update({"id": id_, "objetivo": objetivo, "seguido": seguido, "silenciado": silenciado})
         motivos = []
+        if seguido and anterior and actual < anterior - 0.005:
+            motivos.append("seguido")
         if objetivo is not None and actual <= objetivo:
             motivos.append("objetivo")
         if est["dias"] >= MIN_DIAS and est.get("min") and actual < est["min"] * 0.99:
@@ -1042,7 +1152,8 @@ def revisar_eshop(cfg, state, hist, alertas):
             motivos.append("baja")
         log(f"    {h['titulo']}: {usd(actual)} {mejor_pais}" +
             (f" (normal {usd(regular)})" if actual < regular - 0.005 else ""))
-        if decidir(s, actual, motivos, nuevo=anterior is None):
+        silencio = anterior is None and (not juego.get("auto") or not state.get("descubrimiento_listo"))
+        if decidir(s, actual, motivos, nuevo=silencio) and not silenciado:
             linea = f'<a href="{esc_attr(h["url"])}">{esc(h["titulo"])}</a>\n   💸 {usd(actual)}'
             if clp_x_usd:
                 linea += f" (≈{clp(actual * clp_x_usd)})"
@@ -1093,7 +1204,17 @@ def _leer_una_tienda(tienda, juegos, state):
                      and coincide(p["titulo"], jj, True)),
                     key=lambda jj: max(len(palabras(t)) for t in terminos(jj)), default=j)
         hallados[url] = (mejor, p)
+    # tiendas Shopify: ya se bajo el catalogo completo, se aprovechan todos los juegos de Switch
+    if state.get("_descubrir", True):
+        for p in cache.get("shopify") or []:
+            if p["url"] not in hallados and precio_valido(p.get("precio")) and es_juego_switch(p["titulo"]):
+                hallados[p["url"]] = (JUEGO_OTROS, p)
     return respondio, hallados, cache
+
+
+def es_juego_switch(titulo):
+    w = palabras(titulo)
+    return bool(w & PLATAFORMA) and not (w & EXCLUIR_SIEMPRE)
 
 
 def _leer_seguro(tienda, juegos, state):
@@ -1111,9 +1232,11 @@ def leer_tiendas(cfg, state, alertas):
     juegos = cfg.get("juegos", [])
     listados = []
     tiendas = [t for t in cfg.get("tiendas", []) if t.get("activa") is not False]
+    state["_descubrir"] = cfg.get("ajustes", {}).get("descubrir", True)
     t0 = time.time()
     with ThreadPoolExecutor(max_workers=max(1, len(tiendas))) as ex:
         resultados = list(ex.map(lambda t: (t, *_leer_seguro(t, juegos, state)), tiendas))
+    state.pop("_descubrir", None)
     log(f"  tiendas leidas en {time.time() - t0:.0f} s")
     for tienda, respondio, hallados, cache in resultados:
         nombre_t = tienda["nombre"]
@@ -1161,13 +1284,15 @@ def revisar_productos(cfg, state, hist, listados, alertas):
     baja_min = aj.get("baja_minima_pct", 10)
     hoy = hoy_chile()
     cands = candidatos_eshop(state)
+    todos_cands = [c for lst in cands.values() for c in lst]
     eshop = state.get("eshop", {})
     hist_p = hist.setdefault("productos", {})
     productos = state.setdefault("productos", {})
 
     grupos = {}
     for juego, tienda, l in listados:
-        clave, nombre, plat, variante, nsuid = clave_producto(l, cands.get(juego["nombre"], []))
+        lista = todos_cands if juego.get("auto") else cands.get(juego["nombre"], [])
+        clave, nombre, plat, variante, nsuid = clave_producto(l, lista)
         g = grupos.setdefault(clave, {"juego": juego, "nombre": nombre, "plataforma": plat,
                                       "variante": variante, "nsuid": nsuid, "avisos": []})
         g["avisos"].append({"tienda": tienda, "precio": l["precio"], "url": l["url"],
@@ -1191,6 +1316,7 @@ def revisar_productos(cfg, state, hist, listados, alertas):
         serie = h.setdefault("f", {})
         est = estadisticas(serie, hoy)
         registrar(serie, hoy, precio, mejor["tienda"])
+        registrar_detalle(h, hoy, avisos)
 
         # precio de referencia: tipico propio > otras tiendas > lo que dice la tienda
         # precios fuera de rango (otra edicion mezclada, error de la tienda) no cuentan
@@ -1222,8 +1348,13 @@ def revisar_productos(cfg, state, hist, listados, alertas):
             "nsuid": g["nsuid"], "ultimo": precio, "visto": ahora_iso(),
         })
 
+        id_ = id_de("f", clave)
+        obj_seg, seguido, silenciado = seguimiento(id_)
+        objetivo = obj_seg if obj_seg is not None else juego.get("objetivo_clp")
+        s.update({"id": id_, "objetivo": objetivo, "seguido": seguido, "silenciado": silenciado})
         motivos = []
-        objetivo = juego.get("objetivo_clp")
+        if seguido and anterior and precio < anterior:
+            motivos.append("seguido")
         if objetivo is not None and precio <= objetivo:
             motivos.append("objetivo")
         if est["dias"] >= MIN_DIAS and est.get("min") and precio < est["min"] * 0.99:
@@ -1233,7 +1364,8 @@ def revisar_productos(cfg, state, hist, listados, alertas):
         if anterior and 100 * (1 - precio / anterior) >= baja_min:
             motivos.append("baja")
 
-        if decidir(s, precio, motivos, nuevo=anterior is None):
+        silencio = anterior is None and (not juego.get("auto") or not state.get("descubrimiento_listo"))
+        if decidir(s, precio, motivos, nuevo=silencio) and not silenciado:
             agregar_alerta(alertas, "fisico", juego["nombre"],
                            linea_producto(s, motivos, anterior, e),
                            puntaje(s.get("pct") or 0, motivos), ref=clave,
@@ -1272,9 +1404,12 @@ def linea_producto(s, motivos, anterior, e):
 
 # ------------------------------------------------------------------ telegram
 
-def send_telegram(text):
+def send_telegram(text, teclado=None):
+    if isinstance(text, tuple):
+        text, teclado = text
     if os.environ.get("DRY_RUN"):
-        log("[DRY_RUN]\n" + re.sub(r"<[^>]+>", "", text))
+        log("[DRY_RUN]\n" + re.sub(r"<[^>]+>", "", text) +
+            ("".join(f"\n   [{f[0]['text']}]" for f in teclado["inline_keyboard"]) if teclado else ""))
         return True
     token = os.environ.get("TELEGRAM_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
@@ -1285,7 +1420,8 @@ def send_telegram(text):
         r = requests.post(
             f"https://api.telegram.org/bot{token}/sendMessage",
             json={"chat_id": chat_id, "text": text, "parse_mode": "HTML",
-                  "disable_web_page_preview": True},
+                  "disable_web_page_preview": True,
+                  **({"reply_markup": teclado} if teclado else {})},
             timeout=TIMEOUT,
         )
         if r.status_code != 200:
@@ -1302,7 +1438,8 @@ LINEA = "━━━━━━━━━━━━━━"
 
 
 def puntaje(pct, motivos):
-    return (pct or 0) + (100 if "minimo" in motivos else 0) + (80 if "objetivo" in motivos else 0)
+    return ((pct or 0) + (100 if "minimo" in motivos else 0) + (80 if "objetivo" in motivos else 0)
+            + (60 if "seguido" in motivos else 0))
 
 
 def agregar_alerta(alertas, tipo, juego, linea, score, ref=None, extra=None):
@@ -1316,6 +1453,8 @@ def extra_motivos(motivos, anterior=None, precio=None, dinero=None):
         return None
     if "minimo" in motivos:
         return "🏆 mínimo histórico"
+    if "seguido" in motivos and anterior and precio is not None:
+        return f"⭐ bajó desde {dinero(anterior)}"
     if "baja" in motivos and anterior and precio is not None:
         return f"📉 bajó desde {dinero(anterior)}"
     return None
@@ -1482,6 +1621,29 @@ def confianza(s):
 
 # ---------------------------------------------------------------- tarjetas
 
+def lineas_seguimiento(s, precio, dinero):
+    l = []
+    if s.get("objetivo"):
+        falta = precio - s["objetivo"]
+        l.append(f"🎯 Tu objetivo: {dinero(s['objetivo'])}" +
+                 (" · ¡lo alcanzó!" if falta <= 0 else f" · faltan {dinero(falta)}"))
+    marcas = []
+    if s.get("seguido"):
+        marcas.append("⭐ Lo sigues: te aviso de cualquier baja")
+    if s.get("silenciado"):
+        marcas.append("🔕 Silenciado" + ("" if s["silenciado"] == "siempre" else f" hasta el {fecha_corta(s['silenciado'])}"))
+    l += marcas
+    return l
+
+
+def boton_de(s, tipo):
+    nombre = s.get("nombre") or s.get("titulo") or "?"
+    precio = clp(s["precio"]) if tipo == "fisico" else usd(s["ultimo"])
+    corto = nombre if len(nombre) <= 30 else nombre[:29] + "…"
+    s2 = " S2" if s.get("plataforma") == "Switch 2" else ""
+    return {"text": f"⚙️ {corto}{s2} · {precio}", "callback_data": f"a:{s.get('id')}"}
+
+
 def tarjeta_fisico(clave, s, state, hist, extra=None):
     nivel, razon = veredicto_fisico(s)
     _, emo, tit = NIVELES[nivel]
@@ -1555,6 +1717,7 @@ def tarjeta_fisico(clave, s, state, hist, extra=None):
                 l.append(f"   ➜ El digital es {clp(-dif)} más barato, pero no se puede revender")
     nivel_c, por = confianza(s)
     l.append(f"🔎 Confianza {nivel_c}: {por}")
+    l += lineas_seguimiento(s, s["precio"], clp)
     l.append(f"🛒 <a href=\"{esc_attr(s['url'])}\">Ir a comprar en {esc(s['tienda'])}</a>")
     return nivel, "\n".join(l)
 
@@ -1614,6 +1777,7 @@ def tarjeta_digital(nsuid, e, state, hist, extra=None):
         if len(vals) >= 2:
             txt += f"\n   {sparkline(vals[-30:])}  últimos {min(30, len(vals))} días"
         l.append(txt)
+    l += lineas_seguimiento(e, e["ultimo"], usd)
     l.append(f"🛒 <a href=\"{esc_attr(url_pais(e.get('url'), pais))}\">Ver en la eShop de {PAISES.get(pais, ('', pais))[1]}</a>")
     return nivel, "\n".join(l)
 
@@ -1625,24 +1789,34 @@ def cabecera(titulo, sub):
 
 
 def empaquetar(bloques, titulo):
-    """Junta bloques (tarjetas) en mensajes de Telegram sin partir ninguno."""
-    msgs, actual = [], ""
+    """Junta bloques en mensajes de Telegram sin partir ninguno.
+    Un bloque puede ser texto o (texto, boton): los botones de las tarjetas de
+    cada mensaje van al pie de ese mensaje. Devuelve [(texto, teclado|None)]."""
+    msgs, actual, botones = [], "", []
     for b in bloques:
         if not b:
             continue
+        txt, bot_ = (b if isinstance(b, tuple) else (b, None))
         sep = "\n\n" if actual else ""
-        if actual and len(actual) + len(sep) + len(b) > TELEGRAM_MAX:
-            msgs.append(actual)
-            actual = b
+        if actual and len(actual) + len(sep) + len(txt) > TELEGRAM_MAX:
+            msgs.append((actual, botones))
+            actual, botones = txt, []
         else:
-            actual += sep + b
+            actual += sep + txt
+        if bot_:
+            botones.append(bot_)
     if actual:
-        msgs.append(actual)
-    if len(msgs) > 1:
-        n = len(msgs)
-        msgs = [m.replace(titulo, f"{titulo} <i>({i + 1}/{n})</i>", 1) if i == 0
-                else f"{titulo} <i>({i + 1}/{n})</i>\n\n{m}" for i, m in enumerate(msgs)]
-    return msgs
+        msgs.append((actual, botones))
+    n = len(msgs)
+    out = []
+    for i, (m, bts) in enumerate(msgs):
+        if n > 1:
+            m = m.replace(titulo, f"{titulo} <i>({i + 1}/{n})</i>", 1) if i == 0 \
+                else f"{titulo} <i>({i + 1}/{n})</i>\n\n{m}"
+        if bts:
+            m += "\n\n<i>⚙️ Toca un juego para ponerle objetivo, seguirlo o silenciarlo</i>"
+        out.append((m, {"inline_keyboard": [[x] for x in bts]} if bts else None))
+    return out
 
 
 def resumen_niveles(items):
@@ -1667,7 +1841,7 @@ def bloques_por_nivel(items):
         _, emo, tit = NIVELES[k]
         bloques.append(f"━━━ {emo} <b>{tit}</b> ({len(grupo)}) ━━━")
         for it in grupo:
-            bloques.append(it["texto"] + f"\n{SEP_TARJETA}")
+            bloques.append((it["texto"] + f"\n{SEP_TARJETA}", it.get("boton")))
     return bloques
 
 
@@ -1688,13 +1862,15 @@ def armar_mensajes(alertas, state=None, hist=None):
                 s = (state.get("productos") or {}).get(a["ref"])
                 if s:
                     nivel, texto = tarjeta_fisico(a["ref"], s, state, hist, a.get("extra"))
-                    items.append({"nivel": nivel, "texto": texto, "score": a["score"], "s": s, "tipo": "fisico"})
+                    items.append({"nivel": nivel, "texto": texto, "score": a["score"], "s": s, "tipo": "fisico",
+                                  "boton": boton_de(s, "fisico") if s.get("id") else None})
                     continue
             else:
                 e = (state.get("eshop") or {}).get(a["ref"])
                 if e:
                     nivel, texto = tarjeta_digital(a["ref"], e, state, hist, a.get("extra"))
-                    items.append({"nivel": nivel, "texto": texto, "score": a["score"], "s": e, "tipo": "digital"})
+                    items.append({"nivel": nivel, "texto": texto, "score": a["score"], "s": e, "tipo": "digital",
+                                  "boton": boton_de(e, "digital") if e.get("id") else None})
                     continue
         items.append({"nivel": "bueno", "texto": a["linea"], "score": a["score"], "tipo": a["tipo"]})
     if not items and not avisos:
@@ -1738,14 +1914,19 @@ def generar_vistas(state, hist, cfg):
     def vigente(x):
         return not corte or (x.get("visto") or "") >= corte
 
-    ofertas, sagas = [], {}
+    ofertas, sagas, ids = [], {}, {}
     for clave, s in (state.get("productos") or {}).items():
         if not vigente(s):
             continue
+        s.setdefault("id", id_de("f", clave))
         nivel, texto = tarjeta_fisico(clave, s, state, hist)
         it = {"nivel": nivel, "orden": NIVELES[nivel][0], "pct": round(s.get("pct") or 0, 1),
               "tipo": "fisico", "juego": s["juego"], "nombre": s["nombre"], "texto": texto,
-              "precio": s["precio"]}
+              "precio": s["precio"], "id": s["id"], "boton": boton_de(s, "fisico")}
+        ids[s["id"]] = {"tipo": "fisico", "clave": clave, "nombre": s["nombre"], "juego": s["juego"],
+                        "plataforma": s.get("plataforma"), "precio": s["precio"], "moneda": "CLP",
+                        "tienda": s.get("tienda"), "url": s.get("url"), "saga": slug(s["juego"]),
+                        "min": s.get("min_hist")}
         sagas.setdefault(s["juego"], []).append(it)
         if nivel in ("objetivo", "compra", "bueno", "regular"):
             ofertas.append(it)
@@ -1753,10 +1934,16 @@ def generar_vistas(state, hist, cfg):
     for nsuid, e in (state.get("eshop") or {}).items():
         if not vigente(e) or e.get("ultimo") is None:
             continue
+        e.setdefault("id", id_de("d", nsuid))
         nivel, texto = tarjeta_digital(nsuid, e, state, hist)
         it = {"nivel": nivel, "orden": NIVELES[nivel][0], "pct": round(e.get("pct_oferta") or 0, 1),
               "tipo": "digital", "juego": e["juego"], "nombre": e["titulo"], "texto": texto,
-              "precio_usd": e["ultimo"], "con_fisico": nsuid in ligados}
+              "precio_usd": e["ultimo"], "con_fisico": nsuid in ligados,
+              "id": e["id"], "boton": boton_de(e, "digital")}
+        ids[e["id"]] = {"tipo": "digital", "clave": nsuid, "nombre": e["titulo"], "juego": e["juego"],
+                        "plataforma": e.get("plataforma"), "precio": e["ultimo"], "moneda": "USD",
+                        "tienda": "eShop " + e.get("pais", "US"), "url": url_pais(e.get("url"), e.get("pais", "US")),
+                        "saga": slug(e["juego"]), "min": e.get("min_hist")}
         sagas.setdefault(e["juego"], []).append(it)
         if nivel in ("objetivo", "compra", "bueno", "regular"):
             ofertas.append(it)
@@ -1783,11 +1970,12 @@ def generar_vistas(state, hist, cfg):
                        "nombres": sorted({norm(i["nombre"]) for i in its})})
         save_json(VISTAS_DIR / "saga" / f"{slug(juego)}.json", {
             "revision": revision, "juego": juego,
-            "items": [{k: i[k] for k in ("nivel", "tipo", "texto", "pct", "con_fisico", "nombre") if k in i}
-                      for i in its]})
+            "items": [{k: i[k] for k in ("nivel", "tipo", "texto", "pct", "con_fisico", "nombre", "id", "boton")
+                       if k in i} for i in its]})
     save_json(VISTAS_DIR / "indice.json", {"revision": revision, "sagas": indice,
                                            "fallos": state.get("fallos") or {},
                                            "fisicos": sum(1 for x in ofertas), "total": sum(len(v) for v in sagas.values())})
+    save_json(VISTAS_DIR / "ids.json", ids)
     log(f"  vistas: {len(ofertas)} ofertas, {len(indice)} sagas")
 
 
@@ -1848,6 +2036,8 @@ def main():
 
     state = load_json(STATE_FILE, {})
     alertas = []
+    global SEG
+    SEG = load_json(SEG_FILE, {})
 
     hist = load_json(HIST_FILE, {})
     log("Revisando eShop...")
@@ -1859,6 +2049,7 @@ def main():
     for viejo in ("digitales", "fisicos", "nsuids"):
         state.pop(viejo, None)
     state["ultima_revision"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    state["descubrimiento_listo"] = True
 
     # juegos que aparecen por primera vez: registrados en silencio
     nuevos_p = [s for s in state.get("productos", {}).values() if s.get("visto_desde") is None]
