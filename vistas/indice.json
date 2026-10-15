@@ -6,7 +6,7 @@
     "Weplay": 11
   },
   "fisicos": 1182,
-  "revision": "2026-10-15T04:40:28Z",
+  "revision": "2026-10-15T04:48:04Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -202,7 +202,7 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟠 <b>Contra</b> — 📦 1 desde $37.720 · 🎮 5 desde US$6.94",
+      "linea": "⚪ <b>Contra</b> — 📦 2 desde $37.720 · 🎮 5 desde US$6.94",
       "nombres": [
         "arcade archives contra",
         "arcade archives super contra",
@@ -210,7 +210,7 @@
         "contra operation galuga",
         "contra rogue corps"
       ],
-      "orden": 3,
+      "orden": 4,
       "slug": "contra"
     },
     {
@@ -742,7 +742,7 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 7 desde US$14.74\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 📦 2 desde $49.990 · 🎮 7 desde US$14.74\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
         "lego marvel super heroes",
         "lego marvel super heroes 2",
@@ -2493,7 +2493,7 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟡 <b>Tales of</b> — 📦 7 desde $49.990 · 🎮 32 desde US$4.46\n   🟡 Tales of Symphonia Remastered −33%",
+      "linea": "🟡 <b>Tales of</b> — 📦 8 desde $49.990 · 🎮 32 desde US$4.46\n   🟡 Tales of Symphonia Remastered −33%",
       "nombres": [
         "airheart tales of broken wings",
         "fhtagn tales of the creeping madness",
@@ -2675,5 +2675,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 2158
+  "total": 2161
 }

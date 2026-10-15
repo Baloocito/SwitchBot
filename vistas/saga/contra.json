@@ -2,14 +2,26 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:8ee84525bc",
+        "text": "⚙️ Contra Anniversary Collection · $96.990"
+      },
+      "id": "8ee84525bc",
+      "nivel": "normal",
+      "nombre": "Contra Anniversary Collection",
+      "pct": 4.9,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Contra Anniversary Collection</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$96.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n   Ahorras $5.049 frente al «antes» que marca la tienda ($102.039)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $96.990 (14 oct, Lider) · máximo $96.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$14.25 ≈ $13.991 en 🇨🇱 Chile\n   ➜ El digital es $82.999 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/konami-contra-anniversary-collection-para-nintendo-switch/00457010105142\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:a53189648e",
         "text": "⚙️ CONTRA: ROGUE CORPS · $37.720"
       },
       "id": "a53189648e",
-      "nivel": "regular",
+      "nivel": "normal",
       "nombre": "CONTRA: ROGUE CORPS",
-      "pct": 21.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −21%\n<b>CONTRA: ROGUE CORPS</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$37.720</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Apenas 21% bajo la referencia\n   Ahorras $10.000 frente al «antes» que marca la tienda ($47.720)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $37.720 (14 oct, Falabella) · máximo $37.720\n   ▄▄  últimos 2 días\n🎮 Digital: US$28.51 ≈ $27.992 en 🇨🇱 Chile\n   ➜ El digital es $9.728 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148486358/Contra-Rogue-Corps-Juego-Fisico-Nintendo-Switch-Sniper\">Ir a comprar en Falabella</a>",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>CONTRA: ROGUE CORPS</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$37.720</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Está a su precio de siempre\n🏷️ La tienda dice «antes $47.720», pero las demás lo venden cerca de $37.720: ese descuento está inflado\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148486358/Contra-Rogue-Corps-Juego-Fisico-Nintendo-Switch-Sniper\">$37.720 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/contra-rogue-corps-juego-fisico-nintendo-switch-sniper/00124598285530\">$37.720 Lider</a> 🏪 SNIPER (+$0)\n📈 Mínimo $37.720 (14 oct, Falabella) · máximo $37.720\n   ▄▄  últimos 2 días\n🎮 Digital: US$28.51 ≈ $27.992 en 🇨🇱 Chile\n   ➜ El digital es $9.728 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 2 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148486358/Contra-Rogue-Corps-Juego-Fisico-Nintendo-Switch-Sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -79,5 +91,5 @@
     }
   ],
   "juego": "Contra",
-  "revision": "2026-10-15T04:40:28Z"
+  "revision": "2026-10-15T04:48:04Z"
 }

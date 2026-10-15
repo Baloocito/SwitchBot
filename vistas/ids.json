@@ -1354,7 +1354,7 @@
   "0d58b2d94d": {
     "clave": "doom doom ii|Switch|limited",
     "juego": "Doom",
-    "min": 78990.0,
+    "min": null,
     "moneda": "CLP",
     "nombre": "DOOM + DOOM II",
     "plataforma": "Switch",
@@ -2389,7 +2389,7 @@
     "saga": "cuphead",
     "tienda": "Lider",
     "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/cuphead-switch/00081194903542"
+    "url": "https://www.lider.cl/ip/videojuegos/cuphead-nintendo-switch/00085007667037"
   },
   "178b7ee802": {
     "clave": "70010000081734",
@@ -2459,7 +2459,7 @@
   "18a36f6231": {
     "clave": "sonic frontiers|Switch",
     "juego": "Sonic",
-    "min": 42990.0,
+    "min": null,
     "moneda": "CLP",
     "nombre": "Sonic Frontiers",
     "plataforma": "Switch",
@@ -2563,7 +2563,7 @@
   "191e36042d": {
     "clave": "final fantasy ix|Switch",
     "juego": "Final Fantasy",
-    "min": null,
+    "min": 74990.0,
     "moneda": "CLP",
     "nombre": "FINAL FANTASY IX",
     "plataforma": "Switch",
@@ -3031,7 +3031,7 @@
   "1c674f571b": {
     "clave": "cd projekt cyberpunk 2077|Switch 2",
     "juego": "Cyberpunk 2077",
-    "min": 111990.0,
+    "min": null,
     "moneda": "CLP",
     "nombre": "CD de Projekt Cyberpunk 2077",
     "plataforma": "Switch 2",
@@ -8569,7 +8569,7 @@
   "4e7522ff0a": {
     "clave": "sonic superstars|Switch",
     "juego": "Sonic",
-    "min": 41990.0,
+    "min": null,
     "moneda": "CLP",
     "nombre": "SONIC SUPERSTARS",
     "plataforma": "Switch",
@@ -11201,9 +11201,9 @@
     "plataforma": "Switch",
     "precio": 49990.0,
     "saga": "mario",
-    "tienda": "8 Bits",
+    "tienda": "Lider",
     "tipo": "fisico",
-    "url": "https://8-bits.cl/products/mario-vs-donkey-kong-nsw"
+    "url": "https://www.lider.cl/ip/videojuegos/videojuego-mario-vs-donkey-kong-switch/00004549659972"
   },
   "6336eac339": {
     "clave": "legend heroe trail beyond horizon deluxe eu|Switch 2",
@@ -16118,6 +16118,19 @@
     "tienda": "eShop MX",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/mars-colonization-expedition-survival-simulator-switch/"
+  },
+  "8ee84525bc": {
+    "clave": "contra anniversary collection|Switch",
+    "juego": "Contra",
+    "min": 96990.0,
+    "moneda": "CLP",
+    "nombre": "Contra Anniversary Collection",
+    "plataforma": "Switch",
+    "precio": 96990.0,
+    "saga": "contra",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/konami-contra-anniversary-collection-para-nintendo-switch/00457010105142"
   },
   "8f052c69e5": {
     "clave": "70010000124139",
@@ -23217,6 +23230,19 @@
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/videojuegos/wario-ware-move-it-nintendo-switch-sniper-cl/00606727558221"
   },
+  "cf80bba9f1": {
+    "clave": "bandai namco tale xillia|Switch",
+    "juego": "Tales of",
+    "min": 59990.0,
+    "moneda": "CLP",
+    "nombre": "Bandai Namco Tales of Xillia",
+    "plataforma": "Switch",
+    "precio": 59990.0,
+    "saga": "tales-of",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-tales-of-xillia-para-nintendo-switch/00072267484101"
+  },
   "cfc615701d": {
     "clave": "bravely default ii|Switch",
     "juego": "Bravely Default",
@@ -26921,6 +26947,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/dragon-ball-sparking-zero-switch-2/"
+  },
+  "f486d998d3": {
+    "clave": "lego marvel super heroes 2|Switch",
+    "juego": "Marvel",
+    "min": 49990.0,
+    "moneda": "CLP",
+    "nombre": "LEGO Marvel Super Heroes 2",
+    "plataforma": "Switch",
+    "precio": 49990.0,
+    "saga": "marvel",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/lego-marvel-super-heroes-2-ingles-nsw/00088392959781"
   },
   "f4961e1041": {
     "clave": "70010000038245",

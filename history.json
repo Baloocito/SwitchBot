@@ -65278,11 +65278,26 @@
         "2026-10-14": [
           59990.0,
           "Lider"
+        ],
+        "2026-10-15": [
+          59990.0,
+          "Lider"
         ]
       },
       "juego": "Tales of",
+      "n": {
+        "2026-10-15": 1
+      },
       "nombre": "Bandai Namco Tales of Xillia",
-      "plataforma": "Switch"
+      "plataforma": "Switch",
+      "t": {
+        "Lider": {
+          "2026-10-15": [
+            59990.0,
+            65018.0
+          ]
+        }
+      }
     },
     "bandai namco we love katamari reroll|Switch": {
       "f": {
@@ -66392,11 +66407,26 @@
         "2026-10-14": [
           96990.0,
           "Lider"
+        ],
+        "2026-10-15": [
+          96990.0,
+          "Lider"
         ]
       },
       "juego": "Contra",
+      "n": {
+        "2026-10-15": 1
+      },
       "nombre": "Contra Anniversary Collection",
-      "plataforma": "Switch"
+      "plataforma": "Switch",
+      "t": {
+        "Lider": {
+          "2026-10-15": [
+            96990.0,
+            102039.0
+          ]
+        }
+      }
     },
     "contra rogue corps|Switch": {
       "f": {
@@ -66411,7 +66441,7 @@
       },
       "juego": "Contra",
       "n": {
-        "2026-10-15": 1
+        "2026-10-15": 2
       },
       "nombre": "CONTRA: ROGUE CORPS",
       "plataforma": "Switch",
@@ -66421,6 +66451,9 @@
             37720.0,
             47720.0
           ]
+        },
+        "Lider": {
+          "2026-10-15": 37720.0
         }
       }
     },
@@ -68368,11 +68401,26 @@
         "2026-10-14": [
           74990.0,
           "Lider"
+        ],
+        "2026-10-15": [
+          90990.0,
+          "Lider"
         ]
       },
       "juego": "Final Fantasy",
+      "n": {
+        "2026-10-15": 1
+      },
       "nombre": "FINAL FANTASY IX",
-      "plataforma": "Switch"
+      "plataforma": "Switch",
+      "t": {
+        "Lider": {
+          "2026-10-15": [
+            90990.0,
+            95389.0
+          ]
+        }
+      }
     },
     "final fantasy tactics the ivalice chronicles|Switch": {
       "f": {
@@ -70930,11 +70978,23 @@
         "2026-10-14": [
           49990.0,
           "Lider"
+        ],
+        "2026-10-15": [
+          49990.0,
+          "Lider"
         ]
       },
       "juego": "Marvel",
+      "n": {
+        "2026-10-15": 1
+      },
       "nombre": "LEGO Marvel Super Heroes 2",
-      "plataforma": "Switch"
+      "plataforma": "Switch",
+      "t": {
+        "Lider": {
+          "2026-10-15": 49990.0
+        }
+      }
     },
     "lego worlds|Switch": {
       "f": {
@@ -71564,7 +71624,7 @@
       },
       "juego": "Mario",
       "n": {
-        "2026-10-15": 4
+        "2026-10-15": 3
       },
       "nombre": "Mario & Luigi: Brothership",
       "plataforma": "Switch",
@@ -71583,9 +71643,6 @@
             50990.0,
             89990.0
           ]
-        },
-        "Lider": {
-          "2026-10-15": 49990.0
         }
       }
     },
@@ -71860,7 +71917,7 @@
         ],
         "2026-10-15": [
           49990.0,
-          "8 Bits"
+          "Lider"
         ]
       },
       "juego": "Mario",
@@ -71880,7 +71937,10 @@
           ]
         },
         "Lider": {
-          "2026-10-15": 54990.0
+          "2026-10-15": [
+            49990.0,
+            59990.0
+          ]
         }
       }
     },
@@ -78103,13 +78163,16 @@
       },
       "juego": "Sonic",
       "n": {
-        "2026-10-15": 1
+        "2026-10-15": 2
       },
       "nombre": "Team Sonic Racing",
       "plataforma": "Switch",
       "t": {
         "8 Bits": {
           "2026-10-15": 34990.0
+        },
+        "Lider": {
+          "2026-10-15": 40990.0
         }
       }
     },
