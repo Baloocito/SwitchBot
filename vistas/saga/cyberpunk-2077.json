@@ -1,84 +1,134 @@
 {
   "items": [
     {
+      "boton": {
+        "callback_data": "a:1c674f571b",
+        "text": "⚙️ CD de Projekt Cyberpunk 2077 S2 · $111.990"
+      },
+      "id": "1c674f571b",
       "nivel": "regular",
       "nombre": "CD de Projekt Cyberpunk 2077",
       "pct": 7.2,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>CD de Projekt Cyberpunk 2077</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$111.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $8.708 frente al «antes» que marca la tienda ($120.698)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $111.990 (14 oct, Lider) · máximo $111.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/cd-de-videojuegos-projekt-cyberpunk-2077-nintendo-switch-2/00081013667336\">Ir a comprar en Lider</a>",
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>CD de Projekt Cyberpunk 2077</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$111.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $8.708 frente al «antes» que marca la tienda ($120.698)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $111.990 (14 oct, Lider) · máximo $111.990\n   ▄▄  últimos 2 días\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/cd-de-videojuegos-projekt-cyberpunk-2077-nintendo-switch-2/00081013667336\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
+      "boton": {
+        "callback_data": "a:2c152fec19",
+        "text": "⚙️ VA-11 Hall-A: Cyberpunk Barte… · $39.990"
+      },
+      "id": "2c152fec19",
       "nivel": "normal",
       "nombre": "VA-11 Hall-A: Cyberpunk Bartender Action",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>VA-11 Hall-A: Cyberpunk Bartender Action (import japan)</b>\n🕹️ Switch 1 · 📦 Físico · Cyberpunk 2077\n💰 <b>$39.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (14 oct, 8 Bits) · máximo $39.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$5.58 ≈ $5.447 en 🇧🇷 Brasil\n   ➜ El digital es $34.543 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/va-11-hall-a-cyberpunk-bartender-action-nsw-japan-import\">Ir a comprar en 8 Bits</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>VA-11 Hall-A: Cyberpunk Bartender Action (import japan)</b>\n🕹️ Switch 1 · 📦 Físico · Cyberpunk 2077\n💰 <b>$39.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (14 oct, 8 Bits) · máximo $39.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$5.56 ≈ $5.459 en 🇧🇷 Brasil\n   ➜ El digital es $34.531 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/va-11-hall-a-cyberpunk-bartender-action-nsw-japan-import\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
+      "boton": {
+        "callback_data": "a:b62a7322c0",
+        "text": "⚙️ VA-11 Hall-A: Cyberpunk Barte… · US$5.56"
+      },
       "con_fisico": true,
+      "id": "b62a7322c0",
       "nivel": "normal",
       "nombre": "VA-11 Hall-A: Cyberpunk Bartender Action",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>VA-11 Hall-A: Cyberpunk Bartender Action</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$5.58</b> ≈ $5.447 en 🇧🇷 Brasil\n   Precio en la tienda: R$27,99 BRL\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">US$5.58</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">US$7.68</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">US$7.85</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">US$8.44</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">US$11.61</a>\n   El más caro: 🇺🇸 US$14.99\n📦 Físico: $39.990 en 8 Bits → el digital te ahorra $34.543\n📈 Mínimo US$5.58 (14 oct en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>VA-11 Hall-A: Cyberpunk Bartender Action</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$5.56</b> ≈ $5.459 en 🇧🇷 Brasil\n   Precio en la tienda: R$27,99 BRL\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">US$5.56</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">US$7.64</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">US$7.85</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">US$8.39</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">US$11.61</a>\n   El más caro: 🇺🇸 US$14.99\n📦 Físico: $39.990 en 8 Bits → el digital te ahorra $34.531\n📈 Mínimo US$5.56 (15 oct en 🇧🇷 Brasil)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/va-11-hall-a-cyberpunk-bartender-action-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
+      "boton": {
+        "callback_data": "a:06cbf1346e",
+        "text": "⚙️ Sense - A Cyberpunk Ghost Sto… · US$14.69"
+      },
       "con_fisico": false,
+      "id": "06cbf1346e",
       "nivel": "normal",
       "nombre": "Sense - A Cyberpunk Ghost Story",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sense - A Cyberpunk Ghost Story</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$14.75</b> ≈ $14.397 en 🇧🇷 Brasil\n   Precio en la tienda: R$73,99 BRL\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sense-a-cyberpunk-ghost-story-switch/\">US$14.75</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sense-a-cyberpunk-ghost-story-switch/\">US$16.39</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sense-a-cyberpunk-ghost-story-switch/\">US$17.57</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/sense-a-cyberpunk-ghost-story-switch/\">US$19.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sense-a-cyberpunk-ghost-story-switch/\">US$20.97</a>\n   El más caro: 🇨🇴 US$28.26\n📈 Mínimo US$14.75 (14 oct en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/sense-a-cyberpunk-ghost-story-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sense - A Cyberpunk Ghost Story</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$14.69</b> ≈ $14.423 en 🇧🇷 Brasil\n   Precio en la tienda: R$73,99 BRL\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sense-a-cyberpunk-ghost-story-switch/\">US$14.69</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sense-a-cyberpunk-ghost-story-switch/\">US$16.30</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sense-a-cyberpunk-ghost-story-switch/\">US$17.56</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/sense-a-cyberpunk-ghost-story-switch/\">US$19.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sense-a-cyberpunk-ghost-story-switch/\">US$20.85</a>\n   El más caro: 🇨🇴 US$28.28\n📈 Mínimo US$14.69 (15 oct en 🇧🇷 Brasil)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/sense-a-cyberpunk-ghost-story-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
+      "boton": {
+        "callback_data": "a:bbe35d4ddd",
+        "text": "⚙️ InfiniteCorp: Cyberpunk Card … · US$5.09"
+      },
       "con_fisico": false,
+      "id": "bbe35d4ddd",
       "nivel": "normal",
       "nombre": "InfiniteCorp: Cyberpunk Card Game",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>InfiniteCorp: Cyberpunk Card Game</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$5.12</b> ≈ $4.998 en 🇨🇱 Chile\n   Precio en la tienda: $4.999 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/infinitecorp-cyberpunk-card-game-switch/\">US$5.12</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/infinitecorp-cyberpunk-card-game-switch/\">US$7.02</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/infinitecorp-cyberpunk-card-game-switch/\">US$7.55</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/infinitecorp-cyberpunk-card-game-switch/\">US$7.97</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/infinitecorp-cyberpunk-card-game-switch/\">US$7.99</a>\n   El más caro: 🇨🇴 US$8.79\n📈 Mínimo US$5.12 (14 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/infinitecorp-cyberpunk-card-game-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>InfiniteCorp: Cyberpunk Card Game</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$5.09</b> ≈ $4.997 en 🇨🇱 Chile\n   Precio en la tienda: $4.999 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/infinitecorp-cyberpunk-card-game-switch/\">US$5.09</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/infinitecorp-cyberpunk-card-game-switch/\">US$7.02</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/infinitecorp-cyberpunk-card-game-switch/\">US$7.56</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/infinitecorp-cyberpunk-card-game-switch/\">US$7.94</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/infinitecorp-cyberpunk-card-game-switch/\">US$7.99</a>\n   El más caro: 🇨🇴 US$8.80\n📈 Mínimo US$5.09 (15 oct en 🇨🇱 Chile)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/infinitecorp-cyberpunk-card-game-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
+      "boton": {
+        "callback_data": "a:f8d895e123",
+        "text": "⚙️ Keylocker | Turn Based Cyberp… · US$11.85"
+      },
       "con_fisico": false,
+      "id": "f8d895e123",
       "nivel": "normal",
       "nombre": "Keylocker | Turn Based Cyberpunk Action",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Keylocker | Turn Based Cyberpunk Action</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$11.92</b> ≈ $11.635 en 🇨🇱 Chile\n   Precio en la tienda: $11.634 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$11.92</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$12.70</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$12.74</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$13.96</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$15.28</a>\n   El más caro: 🇺🇸 US$19.99\n📈 Mínimo US$11.92 (14 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/keylocker-turn-based-cyberpunk-action-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Keylocker | Turn Based Cyberpunk Action</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$11.85</b> ≈ $11.635 en 🇨🇱 Chile\n   Precio en la tienda: $11.634 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$11.85</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$12.67</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$12.70</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$13.90</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$15.29</a>\n   El más caro: 🇺🇸 US$19.99\n📈 Mínimo US$11.85 (15 oct en 🇨🇱 Chile)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/keylocker-turn-based-cyberpunk-action-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
+      "boton": {
+        "callback_data": "a:c4c209ae53",
+        "text": "⚙️ Cyberpunk City Tycoon · US$8.23"
+      },
       "con_fisico": false,
+      "id": "c4c209ae53",
       "nivel": "normal",
       "nombre": "Cyberpunk City Tycoon",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Cyberpunk City Tycoon</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$8.28</b> ≈ $8.082 en 🇲🇽 México\n   Precio en la tienda: MX$152,00 MXN\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/cyberpunk-city-tycoon-switch/\">US$8.28</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cyberpunk-city-tycoon-switch/\">US$8.44</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/cyberpunk-city-tycoon-switch/\">US$8.99</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cyberpunk-city-tycoon-switch/\">US$9.13</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cyberpunk-city-tycoon-switch/\">US$9.37</a>\n   El más caro: 🇨🇴 US$10.88\n📈 Mínimo US$8.28 (14 oct en 🇲🇽 México)\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/cyberpunk-city-tycoon-switch/\">Ver en la eShop de México</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Cyberpunk City Tycoon</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$8.23</b> ≈ $8.080 en 🇲🇽 México\n   Precio en la tienda: MX$152,00 MXN\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/cyberpunk-city-tycoon-switch/\">US$8.23</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cyberpunk-city-tycoon-switch/\">US$8.39</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/cyberpunk-city-tycoon-switch/\">US$8.99</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cyberpunk-city-tycoon-switch/\">US$9.13</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cyberpunk-city-tycoon-switch/\">US$9.33</a>\n   El más caro: 🇨🇴 US$10.89\n📈 Mínimo US$8.23 (15 oct en 🇲🇽 México)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/cyberpunk-city-tycoon-switch/\">Ver en la eShop de México</a>",
       "tipo": "digital"
     },
     {
+      "boton": {
+        "callback_data": "a:cfeae26fe0",
+        "text": "⚙️ Cyberpunk Speed Assassin · US$10.78"
+      },
       "con_fisico": false,
+      "id": "cfeae26fe0",
       "nivel": "normal",
       "nombre": "Cyberpunk Speed Assassin",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Cyberpunk Speed Assassin</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$10.79</b> ≈ $10.532 en 🇨🇦 Canadá\n   Precio en la tienda: CA$15,34 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cyberpunk-speed-assassin-switch/\">US$10.79</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/cyberpunk-speed-assassin-switch/\">US$10.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cyberpunk-speed-assassin-switch/\">US$11.09</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cyberpunk-speed-assassin-switch/\">US$12.06</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/cyberpunk-speed-assassin-switch/\">US$12.25</a>\n   El más caro: 🇨🇴 US$15.33\n📈 Mínimo US$10.79 (14 oct en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/cyberpunk-speed-assassin-switch/\">Ver en la eShop de Canadá</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Cyberpunk Speed Assassin</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$10.78</b> ≈ $10.584 en 🇨🇦 Canadá\n   Precio en la tienda: CA$15,34 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cyberpunk-speed-assassin-switch/\">US$10.78</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/cyberpunk-speed-assassin-switch/\">US$10.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cyberpunk-speed-assassin-switch/\">US$11.03</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cyberpunk-speed-assassin-switch/\">US$12.06</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/cyberpunk-speed-assassin-switch/\">US$12.19</a>\n   El más caro: 🇨🇴 US$15.34\n📈 Mínimo US$10.78 (15 oct en 🇨🇦 Canadá)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/cyberpunk-speed-assassin-switch/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
     },
     {
+      "boton": {
+        "callback_data": "a:080693b04f",
+        "text": "⚙️ Cyberpunk 2077: Ultimate Edit… S2 · US$56.01"
+      },
       "con_fisico": false,
+      "id": "080693b04f",
       "nivel": "normal",
       "nombre": "Cyberpunk 2077: Ultimate Edition",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Cyberpunk 2077: Ultimate Edition</b>\n🕹️ Switch 2 · 🎮 Digital (eShop)\n💰 <b>US$56.34</b> ≈ $54.993 en 🇨🇱 Chile\n   Precio en la tienda: $54.990 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$56.34</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$66.85</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$67.79</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$69.99</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$70.31</a>\n   El más caro: 🇨🇴 US$83.16\n📈 Mínimo US$56.34 (14 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">Ver en la eShop de Chile</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Cyberpunk 2077: Ultimate Edition</b>\n🕹️ Switch 2 · 🎮 Digital (eShop)\n💰 <b>US$56.01</b> ≈ $54.992 en 🇨🇱 Chile\n   Precio en la tienda: $54.990 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$56.01</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$66.86</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$67.51</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$69.99</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$70.28</a>\n   El más caro: 🇨🇴 US$83.22\n📈 Mínimo US$56.01 (15 oct en 🇨🇱 Chile)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
+      "boton": {
+        "callback_data": "a:8d0ad8ac60",
+        "text": "⚙️ Word Quest Cyberpunk · US$2.75"
+      },
       "con_fisico": false,
+      "id": "8d0ad8ac60",
       "nivel": "normal",
       "nombre": "Word Quest Cyberpunk",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Word Quest Cyberpunk</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$2.77</b> ≈ $2.704 en 🇨🇱 Chile\n   Precio en la tienda: $2.699 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/word-quest-cyberpunk-switch/\">US$2.77</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/word-quest-cyberpunk-switch/\">US$2.83</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/word-quest-cyberpunk-switch/\">US$2.91</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/word-quest-cyberpunk-switch/\">US$2.95</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/word-quest-cyberpunk-switch/\">US$2.99</a>\n   El más caro: 🇨🇴 US$3.42\n📈 Mínimo US$2.77 (14 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/word-quest-cyberpunk-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Word Quest Cyberpunk</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$2.75</b> ≈ $2.700 en 🇨🇱 Chile\n   Precio en la tienda: $2.699 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/word-quest-cyberpunk-switch/\">US$2.75</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/word-quest-cyberpunk-switch/\">US$2.82</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/word-quest-cyberpunk-switch/\">US$2.91</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/word-quest-cyberpunk-switch/\">US$2.94</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/word-quest-cyberpunk-switch/\">US$2.98</a>\n   El más caro: 🇨🇴 US$3.42\n📈 Mínimo US$2.75 (15 oct en 🇨🇱 Chile)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/word-quest-cyberpunk-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     }
   ],
   "juego": "Cyberpunk 2077",
-  "revision": "2026-10-14T21:45:34Z"
+  "revision": "2026-10-15T04:40:28Z"
 }

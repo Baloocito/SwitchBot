@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "boton": {
+        "callback_data": "a:bb67791bf3",
+        "text": "⚙️ Square Enix Nier Automata par… · $74.990"
+      },
+      "id": "bb67791bf3",
       "nivel": "regular",
       "nombre": "Square Enix Nier Automata para (Región EU libre)",
       "pct": 8.0,
@@ -8,21 +13,31 @@
       "tipo": "fisico"
     },
     {
+      "boton": {
+        "callback_data": "a:32e686009b",
+        "text": "⚙️ NieR:Automata The End of YoRH… · $54.990"
+      },
+      "id": "32e686009b",
       "nivel": "normal",
       "nombre": "NieR:Automata The End of YoRHa Edition",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>NieR:Automata The End of YoRHa Edition</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.990 (14 oct, 8 Bits) · máximo $54.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$29.89 ≈ $29.175 en 🇧🇷 Brasil\n   ➜ El digital es $25.815 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/nier-automata-the-end-of-yorha-edition-nsw\">Ir a comprar en 8 Bits</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>NieR:Automata The End of YoRHa Edition</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.990 (14 oct, 8 Bits) · máximo $54.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$29.77 ≈ $29.229 en 🇧🇷 Brasil\n   ➜ El digital es $25.761 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/nier-automata-the-end-of-yorha-edition-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
+      "boton": {
+        "callback_data": "a:7c907925f5",
+        "text": "⚙️ NieR:Automata The End of YoRH… · US$29.77"
+      },
       "con_fisico": true,
+      "id": "7c907925f5",
       "nivel": "normal",
       "nombre": "NieR:Automata The End of YoRHa Edition",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>NieR:Automata The End of YoRHa Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$29.89</b> ≈ $29.175 en 🇧🇷 Brasil\n   Precio en la tienda: R$149,90 BRL\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/nier-automata-the-end-of-yorha-edition-switch/\">US$29.89</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/nier-automata-the-end-of-yorha-edition-switch/\">US$32.99</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/nier-automata-the-end-of-yorha-edition-switch/\">US$37.61</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/nier-automata-the-end-of-yorha-edition-switch/\">US$39.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/nier-automata-the-end-of-yorha-edition-switch/\">US$43.57</a>\n   El más caro: 🇨🇴 US$47.09\n📦 Físico: $54.990 en 8 Bits → el digital te ahorra $25.815\n📈 Mínimo US$29.89 (14 oct en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/nier-automata-the-end-of-yorha-edition-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>NieR:Automata The End of YoRHa Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$29.77</b> ≈ $29.229 en 🇧🇷 Brasil\n   Precio en la tienda: R$149,90 BRL\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/nier-automata-the-end-of-yorha-edition-switch/\">US$29.77</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/nier-automata-the-end-of-yorha-edition-switch/\">US$32.80</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/nier-automata-the-end-of-yorha-edition-switch/\">US$37.60</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/nier-automata-the-end-of-yorha-edition-switch/\">US$39.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/nier-automata-the-end-of-yorha-edition-switch/\">US$43.33</a>\n   El más caro: 🇨🇴 US$47.13\n📦 Físico: $54.990 en 8 Bits → el digital te ahorra $25.761\n📈 Mínimo US$29.77 (15 oct en 🇧🇷 Brasil)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/nier-automata-the-end-of-yorha-edition-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     }
   ],
   "juego": "NieR",
-  "revision": "2026-10-14T21:45:34Z"
+  "revision": "2026-10-15T04:40:28Z"
 }

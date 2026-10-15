@@ -1,21 +1,31 @@
 {
   "items": [
     {
+      "boton": {
+        "callback_data": "a:1785243745",
+        "text": "⚙️ Cuphead · $39.990"
+      },
+      "id": "1785243745",
       "nivel": "normal",
       "nombre": "Cuphead",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Cuphead</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.990</b> en Lider 🏪 <i>vende Rivertec SPA</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (14 oct, Lider) · máximo $39.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$9.95 ≈ $9.712 en 🇧🇷 Brasil\n   ➜ El digital es $30.278 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/cuphead-switch/00081194903542\">Ir a comprar en Lider</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Cuphead</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.990</b> en Lider 🏪 <i>vende Rivertec SPA</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (14 oct, Lider) · máximo $39.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$9.91 ≈ $9.730 en 🇧🇷 Brasil\n   ➜ El digital es $30.260 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/cuphead-switch/00081194903542\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
+      "boton": {
+        "callback_data": "a:0db1afeed7",
+        "text": "⚙️ Cuphead · US$9.91"
+      },
       "con_fisico": true,
+      "id": "0db1afeed7",
       "nivel": "normal",
       "nombre": "Cuphead",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Cuphead</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$9.95</b> ≈ $9.712 en 🇧🇷 Brasil\n   Precio en la tienda: R$49,90 BRL\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cuphead-switch/\">US$9.95</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cuphead-switch/\">US$10.24</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/cuphead-switch/\">US$11.90</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cuphead-switch/\">US$18.28</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/cuphead-switch/\">US$19.01</a>\n   El más caro: 🇺🇸 US$19.99\n📦 Físico: $39.990 en Lider → el digital te ahorra $30.278\n📈 Mínimo US$9.95 (14 oct en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/cuphead-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Cuphead</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$9.91</b> ≈ $9.730 en 🇧🇷 Brasil\n   Precio en la tienda: R$49,90 BRL\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cuphead-switch/\">US$9.91</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cuphead-switch/\">US$10.19</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/cuphead-switch/\">US$11.91</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cuphead-switch/\">US$18.27</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/cuphead-switch/\">US$18.90</a>\n   El más caro: 🇺🇸 US$19.99\n📦 Físico: $39.990 en Lider → el digital te ahorra $30.260\n📈 Mínimo US$9.91 (15 oct en 🇧🇷 Brasil)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/cuphead-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     }
   ],
   "juego": "Cuphead",
-  "revision": "2026-10-14T21:45:34Z"
+  "revision": "2026-10-15T04:40:28Z"
 }

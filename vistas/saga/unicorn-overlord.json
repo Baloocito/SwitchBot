@@ -1,21 +1,31 @@
 {
   "items": [
     {
+      "boton": {
+        "callback_data": "a:9bfc789029",
+        "text": "⚙️ Unicorn Overlord · $44.990"
+      },
+      "id": "9bfc789029",
       "nivel": "bueno",
       "nombre": "Unicorn Overlord",
       "pct": 30.8,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −31%\n<b>Unicorn Overlord</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$44.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 31% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $20.000 frente a la otra tienda ($64.990)\n🏷️ La tienda marca «antes $75.990» (−41%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148475222/unicorn-overlord-switch-fisico-sniper\">$44.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/unicorn-overlord-nsw/00073086522075\">$64.990 Lider</a> 🏪 nocnoc (+$20.000)\n📈 Mínimo $44.990 (14 oct, Falabella) · máximo $44.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$56.25 ≈ $54.905 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $9.915 y además se puede revender\n🔎 Confianza media: 2 tiendas y 1 día de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148475222/unicorn-overlord-switch-fisico-sniper\">Ir a comprar en Falabella</a>",
+      "texto": "🟡 <b>BUEN PRECIO</b> · −31%\n<b>Unicorn Overlord</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$44.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 31% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $20.000 frente a la otra tienda ($64.990)\n🏷️ La tienda marca «antes $75.990» (−41%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148475222/unicorn-overlord-switch-fisico-sniper\">$44.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/unicorn-overlord-nsw/00073086522075\">$64.990 Lider</a> 🏪 nocnoc (+$20.000)\n📈 Mínimo $44.990 (14 oct, Falabella) · máximo $44.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$56.22 ≈ $55.198 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $10.208 y además se puede revender\n🔎 Confianza media: 2 tiendas y 2 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148475222/unicorn-overlord-switch-fisico-sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
+      "boton": {
+        "callback_data": "a:914f00d1a5",
+        "text": "⚙️ Unicorn Overlord · US$56.22"
+      },
       "con_fisico": true,
+      "id": "914f00d1a5",
       "nivel": "normal",
       "nombre": "Unicorn Overlord",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Unicorn Overlord</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$56.25</b> ≈ $54.905 en 🇨🇦 Canadá\n   Precio en la tienda: CA$79,99 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/unicorn-overlord-switch/\">US$56.25</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/unicorn-overlord-switch/\">US$57.13</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/unicorn-overlord-switch/\">US$59.32</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/unicorn-overlord-switch/\">US$59.80</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/unicorn-overlord-switch/\">US$59.99</a>\n   El más caro: 🇨🇴 US$75.97\n📦 Físico: $44.990 en Falabella → el físico es $9.915 más barato y se puede revender\n📈 Mínimo US$56.25 (14 oct en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/unicorn-overlord-switch/\">Ver en la eShop de Canadá</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Unicorn Overlord</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$56.22</b> ≈ $55.198 en 🇨🇦 Canadá\n   Precio en la tienda: CA$79,99 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/unicorn-overlord-switch/\">US$56.22</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/unicorn-overlord-switch/\">US$56.81</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/unicorn-overlord-switch/\">US$58.97</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/unicorn-overlord-switch/\">US$59.55</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/unicorn-overlord-switch/\">US$59.99</a>\n   El más caro: 🇨🇴 US$76.03\n📦 Físico: $44.990 en Falabella → el físico es $10.208 más barato y se puede revender\n📈 Mínimo US$56.22 (15 oct en 🇨🇦 Canadá)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/unicorn-overlord-switch/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
     }
   ],
   "juego": "Unicorn Overlord",
-  "revision": "2026-10-14T21:45:34Z"
+  "revision": "2026-10-15T04:40:28Z"
 }

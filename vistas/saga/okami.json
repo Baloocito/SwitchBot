@@ -1,21 +1,31 @@
 {
   "items": [
     {
+      "boton": {
+        "callback_data": "a:48605f2f9c",
+        "text": "⚙️ OKAMI HD · $39.990"
+      },
+      "id": "48605f2f9c",
       "nivel": "normal",
       "nombre": "OKAMI HD",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>OKAMI HD (import japan)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (14 oct, 8 Bits) · máximo $39.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$18.49 ≈ $18.048 en 🇨🇱 Chile\n   ➜ El digital es $21.942 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/okami-hd-japones-nsw\">Ir a comprar en 8 Bits</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>OKAMI HD (import japan)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (14 oct, 8 Bits) · máximo $39.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$18.38 ≈ $18.046 en 🇨🇱 Chile\n   ➜ El digital es $21.944 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/okami-hd-japones-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
+      "boton": {
+        "callback_data": "a:eef6543002",
+        "text": "⚙️ OKAMI HD · US$18.38"
+      },
       "con_fisico": true,
+      "id": "eef6543002",
       "nivel": "normal",
       "nombre": "OKAMI HD",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>OKAMI HD</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$18.49</b> ≈ $18.048 en 🇨🇱 Chile\n   Precio en la tienda: $18.049 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/okami-hd-switch/\">US$18.49</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/okami-hd-switch/\">US$18.98</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/okami-hd-switch/\">US$19.84</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/okami-hd-switch/\">US$19.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/okami-hd-switch/\">US$21.46</a>\n   El más caro: 🇨🇴 US$26.31\n📦 Físico: $39.990 en 8 Bits → el digital te ahorra $21.942\n📈 Mínimo US$18.49 (14 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/okami-hd-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>OKAMI HD</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$18.38</b> ≈ $18.046 en 🇨🇱 Chile\n   Precio en la tienda: $18.049 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/okami-hd-switch/\">US$18.38</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/okami-hd-switch/\">US$18.97</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/okami-hd-switch/\">US$19.76</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/okami-hd-switch/\">US$19.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/okami-hd-switch/\">US$21.34</a>\n   El más caro: 🇨🇴 US$26.33\n📦 Físico: $39.990 en 8 Bits → el digital te ahorra $21.944\n📈 Mínimo US$18.38 (15 oct en 🇨🇱 Chile)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/okami-hd-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     }
   ],
   "juego": "Okami",
-  "revision": "2026-10-14T21:45:34Z"
+  "revision": "2026-10-15T04:40:28Z"
 }

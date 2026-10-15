@@ -1,13 +1,18 @@
 {
   "items": [
     {
+      "boton": {
+        "callback_data": "a:cf80a10e0d",
+        "text": "⚙️ Wario Ware: Move It - Sniper_… · $59.900"
+      },
+      "id": "cf80a10e0d",
       "nivel": "normal",
       "nombre": "Wario Ware: Move It - Sniper_cl",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Wario Ware: Move It - Sniper_cl</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.900</b> en Lider 🏪 <i>vende SNIPER</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.900 (14 oct, Lider) · máximo $59.900\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/wario-ware-move-it-nintendo-switch-sniper-cl/00606727558221\">Ir a comprar en Lider</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Wario Ware: Move It - Sniper_cl</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.900</b> en Lider 🏪 <i>vende SNIPER</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.900 (14 oct, Lider) · máximo $59.900\n   ▄▄  últimos 2 días\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/wario-ware-move-it-nintendo-switch-sniper-cl/00606727558221\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     }
   ],
   "juego": "Wario",
-  "revision": "2026-10-14T21:45:34Z"
+  "revision": "2026-10-15T04:40:28Z"
 }

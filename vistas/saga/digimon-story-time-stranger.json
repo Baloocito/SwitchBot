@@ -1,36 +1,44 @@
 {
   "items": [
     {
-      "nivel": "regular",
-      "nombre": "Digimon Story Time Stranger",
-      "pct": 10.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −10%\n<b>Digimon Story Time Stranger</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$89.990</b> en Falabella 🏪 <i>vende Zoombigdeal</i>\n💡 Apenas 10% bajo la referencia\n   Ahorras $10.000 frente al «antes» que marca la tienda ($99.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $89.990 (12 oct, Falabella) · máximo $89.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$46.61 ≈ $45.496 en 🇨🇱 Chile\n   ➜ El digital es $44.494 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/155671472/nintendo-switch-digimon-story-time-stranger-physical-rpg-game-bandai-namco\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
+      "boton": {
+        "callback_data": "a:201237128f",
+        "text": "⚙️ Digimon Story Time Stranger · $79.990"
+      },
+      "id": "201237128f",
       "nivel": "normal",
       "nombre": "Digimon Story Time Stranger",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Digimon Story Time Stranger (import japan)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$79.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $79.990 (14 oct, 8 Bits) · máximo $79.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$46.61 ≈ $45.496 en 🇨🇱 Chile\n   ➜ El digital es $34.494 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/digimon-story-time-stranger-nsw-digimon-card-game-japan-import\">Ir a comprar en 8 Bits</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Digimon Story Time Stranger (import japan)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$79.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $79.990 (14 oct, 8 Bits) · máximo $79.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$46.34 ≈ $45.497 en 🇨🇱 Chile\n   ➜ El digital es $34.493 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/digimon-story-time-stranger-nsw-digimon-card-game-japan-import\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
+      "boton": {
+        "callback_data": "a:11b3ad336e",
+        "text": "⚙️ Digimon Story Time Stranger · US$46.34"
+      },
       "con_fisico": true,
+      "id": "11b3ad336e",
       "nivel": "normal",
       "nombre": "Digimon Story Time Stranger",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Digimon Story Time Stranger</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$46.61</b> ≈ $45.496 en 🇨🇱 Chile\n   Precio en la tienda: $45.499 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/digimon-story-time-stranger-switch/\">US$46.61</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/digimon-story-time-stranger-switch/\">US$48.69</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/digimon-story-time-stranger-switch/\">US$56.25</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/digimon-story-time-stranger-switch/\">US$58.05</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/digimon-story-time-stranger-switch/\">US$59.85</a>\n   El más caro: 🇧🇷 US$67.78\n📦 Físico: $79.990 en 8 Bits → el digital te ahorra $34.494\n📈 Mínimo US$46.61 (14 oct en 🇨🇱 Chile)\n   ██▁  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/digimon-story-time-stranger-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Digimon Story Time Stranger</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$46.34</b> ≈ $45.497 en 🇨🇱 Chile\n   Precio en la tienda: $45.499 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/digimon-story-time-stranger-switch/\">US$46.34</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/digimon-story-time-stranger-switch/\">US$48.69</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/digimon-story-time-stranger-switch/\">US$56.22</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/digimon-story-time-stranger-switch/\">US$58.09</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/digimon-story-time-stranger-switch/\">US$59.52</a>\n   El más caro: 🇧🇷 US$67.50\n📦 Físico: $79.990 en 8 Bits → el digital te ahorra $34.493\n📈 Mínimo US$46.34 (15 oct en 🇨🇱 Chile)\n   ██▁▁  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/digimon-story-time-stranger-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
+      "boton": {
+        "callback_data": "a:b9817fa53a",
+        "text": "⚙️ Digimon Story Time Stranger S2 · US$46.34"
+      },
       "con_fisico": false,
+      "id": "b9817fa53a",
       "nivel": "normal",
       "nombre": "Digimon Story Time Stranger",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Digimon Story Time Stranger</b>\n🕹️ Switch 2 · 🎮 Digital (eShop)\n💰 <b>US$46.61</b> ≈ $45.496 en 🇨🇱 Chile\n   Precio en la tienda: $45.499 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/digimon-story-time-stranger-switch-2/\">US$46.61</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/digimon-story-time-stranger-switch-2/\">US$48.69</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/digimon-story-time-stranger-switch-2/\">US$56.25</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/digimon-story-time-stranger-switch-2/\">US$58.05</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/digimon-story-time-stranger-switch-2/\">US$59.85</a>\n   El más caro: 🇧🇷 US$67.78\n📈 Mínimo US$46.61 (14 oct en 🇨🇱 Chile)\n   ██▁  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/digimon-story-time-stranger-switch-2/\">Ver en la eShop de Chile</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Digimon Story Time Stranger</b>\n🕹️ Switch 2 · 🎮 Digital (eShop)\n💰 <b>US$46.34</b> ≈ $45.497 en 🇨🇱 Chile\n   Precio en la tienda: $45.499 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/digimon-story-time-stranger-switch-2/\">US$46.34</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/digimon-story-time-stranger-switch-2/\">US$48.69</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/digimon-story-time-stranger-switch-2/\">US$56.22</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/digimon-story-time-stranger-switch-2/\">US$58.09</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/digimon-story-time-stranger-switch-2/\">US$59.52</a>\n   El más caro: 🇧🇷 US$67.50\n📈 Mínimo US$46.34 (15 oct en 🇨🇱 Chile)\n   ██▁▁  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/digimon-story-time-stranger-switch-2/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     }
   ],
   "juego": "Digimon Story Time Stranger",
-  "revision": "2026-10-14T21:45:34Z"
+  "revision": "2026-10-15T04:40:28Z"
 }
