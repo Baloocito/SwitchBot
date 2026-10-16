@@ -2,19 +2,6 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:0d9a1be2e6",
-        "text": "⚙️ Shantae: Risky's Revenge - Di… · US$5.25"
-      },
-      "con_fisico": false,
-      "id": "0d9a1be2e6",
-      "nivel": "bueno",
-      "nombre": "Shantae: Risky's Revenge - Director's Cut",
-      "pct": 39.9,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −40%\n<b>Shantae: Risky's Revenge - Director's Cut</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$5.25</b> ≈ $5.174 en 🇨🇱 Chile\n   Precio en la tienda: $5.170 CLP\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$8.74 → ahorras US$3.49 · ⏳ termina el 16 oct (¡hoy!)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/shantae-riskys-revenge-directors-cut-switch/\">US$5.25</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/shantae-riskys-revenge-directors-cut-switch/\">US$5.32</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/shantae-riskys-revenge-directors-cut-switch/\">US$5.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/shantae-riskys-revenge-directors-cut-switch/\">US$6.07</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/shantae-riskys-revenge-directors-cut-switch/\">US$6.30</a>\n   El más caro: 🇨🇴 US$7.35\n📈 Mínimo US$5.25 (16 oct en 🇨🇱 Chile)\n   █▄▁  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/shantae-riskys-revenge-directors-cut-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:b455853db3",
         "text": "⚙️ Shantae · $159.990"
       },
@@ -91,6 +78,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:0d9a1be2e6",
+        "text": "⚙️ Shantae: Risky's Revenge - Di… · US$8.74"
+      },
+      "con_fisico": false,
+      "id": "0d9a1be2e6",
+      "nivel": "normal",
+      "nombre": "Shantae: Risky's Revenge - Director's Cut",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Shantae: Risky's Revenge - Director's Cut</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$8.74</b> ≈ $8.613 en 🇨🇱 Chile\n   Precio en la tienda: $8.618 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/shantae-riskys-revenge-directors-cut-switch/\">US$8.74</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/shantae-riskys-revenge-directors-cut-switch/\">US$8.87</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/shantae-riskys-revenge-directors-cut-switch/\">US$9.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/shantae-riskys-revenge-directors-cut-switch/\">US$10.11</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/shantae-riskys-revenge-directors-cut-switch/\">US$10.50</a>\n   El más caro: 🇨🇴 US$12.26\n📈 Mínimo US$5.25 (16 oct en 🇨🇱 Chile)\n   █▄▁  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/shantae-riskys-revenge-directors-cut-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:7a5fdbc5e4",
         "text": "⚙️ Shantae · US$8.38"
       },
@@ -117,5 +117,5 @@
     }
   ],
   "juego": "Shantae",
-  "revision": "2026-10-16T04:33:38Z"
+  "revision": "2026-10-16T11:24:33Z"
 }

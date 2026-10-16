@@ -14,6 +14,30 @@
     },
     {
       "boton": {
+        "callback_data": "a:4880c33d03",
+        "text": "⚙️ Tales of Vesperia: Definitive… · $74.990"
+      },
+      "id": "4880c33d03",
+      "nivel": "regular",
+      "nombre": "Tales of Vesperia: Definitive Edition",
+      "pct": 8.4,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Tales of Vesperia: Definitive Edition</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$74.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $6.899 frente al «antes» que marca la tienda ($81.889)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $74.990 (16 oct, Lider) · máximo $75.990\n   █▁  últimos 2 días\n🎮 Digital: US$45.80 ≈ $45.136 en 🇨🇦 Canadá\n   ➜ El digital es $29.854 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-tales-of-vesperia-definitive-switch/00072267484004\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:cf80bba9f1",
+        "text": "⚙️ Bandai Namco Tales of Xillia · $59.990"
+      },
+      "id": "cf80bba9f1",
+      "nivel": "regular",
+      "nombre": "Bandai Namco Tales of Xillia",
+      "pct": 7.7,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Bandai Namco Tales of Xillia</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $5.028 frente al «antes» que marca la tienda ($65.018)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.990 (14 oct, Lider) · máximo $59.990\n   ▄▄▄  últimos 3 días\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-tales-of-xillia-para-nintendo-switch/00072267484101\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:eeb817b3f1",
         "text": "⚙️ iam8bit Tales of the Shire · $66.990"
       },
@@ -26,18 +50,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:27cb034fd0",
-        "text": "⚙️ Tales of Graces f Remastered · $54.990"
-      },
-      "id": "27cb034fd0",
-      "nivel": "regular",
-      "nombre": "Tales of Graces f Remastered",
-      "pct": 6.8,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Tales of Graces f Remastered</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en 8 Bits\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.000 frente a la otra tienda ($58.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/tales-of-graces-f-remastered-nsw\">$54.990 8 Bits</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-tales-of-graces-of-remastered-nintendo-switch/00072267484106\">$58.990 Lider</a> 🏪 nocnoc (+$4.000)\n📈 Mínimo $54.990 (14 oct, 8 Bits) · máximo $54.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$29.43 ≈ $29.003 en 🇨🇱 Chile\n   ➜ El digital es $25.987 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 3 días de historial\n🛒 <a href=\"https://8-bits.cl/products/tales-of-graces-f-remastered-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:4317176727",
         "text": "⚙️ Tales of Berseria Remastered · $49.990"
       },
@@ -46,6 +58,18 @@
       "nombre": "Tales of Berseria Remastered",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Tales of Berseria Remastered</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (14 oct, 8 Bits) · máximo $49.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$30.44 ≈ $29.999 en 🇨🇱 Chile\n   ➜ El digital es $19.991 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://8-bits.cl/products/tales-of-berseria-remastered-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:27cb034fd0",
+        "text": "⚙️ Tales of Graces f Remastered · $54.990"
+      },
+      "id": "27cb034fd0",
+      "nivel": "normal",
+      "nombre": "Tales of Graces f Remastered",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Tales of Graces f Remastered</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.990 (14 oct, 8 Bits) · máximo $54.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$29.43 ≈ $29.003 en 🇨🇱 Chile\n   ➜ El digital es $25.987 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://8-bits.cl/products/tales-of-graces-f-remastered-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -107,7 +131,7 @@
       "nivel": "normal",
       "nombre": "Tales of Vesperia: Definitive Edition",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Tales of Vesperia: Definitive Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$45.80</b> ≈ $45.136 en 🇨🇦 Canadá\n   Precio en la tienda: CA$64,99 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/tales-of-vesperia-definitive-edition-switch/\">US$45.80</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/tales-of-vesperia-definitive-edition-switch/\">US$47.38</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/tales-of-vesperia-definitive-edition-switch/\">US$49.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/tales-of-vesperia-definitive-edition-switch/\">US$59.54</a>\n📦 Físico: $75.990 en Lider → el digital te ahorra $30.854\n📈 Mínimo US$45.68 (15 oct en 🇨🇦 Canadá)\n   ▂▁█  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/tales-of-vesperia-definitive-edition-switch/\">Ver en la eShop de Canadá</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Tales of Vesperia: Definitive Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$45.80</b> ≈ $45.136 en 🇨🇦 Canadá\n   Precio en la tienda: CA$64,99 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/tales-of-vesperia-definitive-edition-switch/\">US$45.80</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/tales-of-vesperia-definitive-edition-switch/\">US$47.38</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/tales-of-vesperia-definitive-edition-switch/\">US$49.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/tales-of-vesperia-definitive-edition-switch/\">US$59.54</a>\n📦 Físico: $74.990 en Lider → el digital te ahorra $29.854\n📈 Mínimo US$45.68 (15 oct en 🇨🇦 Canadá)\n   ▂▁█  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/tales-of-vesperia-definitive-edition-switch/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
     },
     {
@@ -502,5 +526,5 @@
     }
   ],
   "juego": "Tales of",
-  "revision": "2026-10-16T04:33:38Z"
+  "revision": "2026-10-16T11:24:33Z"
 }

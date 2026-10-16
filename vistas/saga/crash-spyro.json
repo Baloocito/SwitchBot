@@ -26,18 +26,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:f18504111d",
-        "text": "⚙️ Spyro Reignited Trilogy · $61.990"
-      },
-      "id": "f18504111d",
-      "nivel": "regular",
-      "nombre": "Spyro Reignited Trilogy",
-      "pct": 7.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Spyro Reignited Trilogy</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$61.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.691 frente al «antes» que marca la tienda ($66.681)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $61.990 (14 oct, Lider) · máximo $61.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$35.23 ≈ $34.719 en 🇨🇦 Canadá\n   ➜ El digital es $27.271 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-activision-blizzard-spyro-reignited-trilogy-nintendo-switch/00503091728457\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:7179f52e5e",
         "text": "⚙️ Crash Bandicoot 4: It’s About… · $49.990"
       },
@@ -89,5 +77,5 @@
     }
   ],
   "juego": "Crash / Spyro",
-  "revision": "2026-10-16T04:33:38Z"
+  "revision": "2026-10-16T11:24:33Z"
 }
