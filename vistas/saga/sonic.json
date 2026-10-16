@@ -39,18 +39,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:dcda694b44",
-        "text": "⚙️ Team Sonic Racing · $34.990"
-      },
-      "id": "dcda694b44",
-      "nivel": "regular",
-      "nombre": "Team Sonic Racing",
-      "pct": 14.6,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −15%\n<b>Team Sonic Racing</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en 8 Bits\n💡 Apenas 15% bajo la referencia\n   Ahorras $6.000 frente a la otra tienda ($40.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/team-sonic-racing-switch\">$34.990 8 Bits</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-sonic-mania-plus-team-sonic-racing-double-pack-nintendo-switch/00001008677019\">$40.990 Lider</a> 🏪 Rivertec SPA (+$6.000)\n📈 Mínimo $34.990 (14 oct, 8 Bits) · máximo $34.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$26.28 ≈ $25.899 en 🇨🇱 Chile\n   ➜ El digital es $9.091 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 3 días de historial\n🛒 <a href=\"https://8-bits.cl/products/team-sonic-racing-switch\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:18a36f6231",
         "text": "⚙️ Sonic Frontiers · $42.990"
       },
@@ -119,6 +107,18 @@
       "nombre": "Sonic Mania",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Mania</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$44.990</b> en Lider 🏪 <i>vende Rivertec SPA</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $44.990 (14 oct, Lider) · máximo $44.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$17.76 ≈ $17.503 en 🇨🇱 Chile\n   ➜ El digital es $27.487 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/sonic-mania-nsw-megagames/00001008677010\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:dcda694b44",
+        "text": "⚙️ Team Sonic Racing · $34.990"
+      },
+      "id": "dcda694b44",
+      "nivel": "normal",
+      "nombre": "Team Sonic Racing",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Team Sonic Racing</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $34.990 (14 oct, 8 Bits) · máximo $34.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$26.28 ≈ $25.899 en 🇨🇱 Chile\n   ➜ El digital es $9.091 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://8-bits.cl/products/team-sonic-racing-switch\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -318,5 +318,5 @@
     }
   ],
   "juego": "Sonic",
-  "revision": "2026-10-16T16:43:16Z"
+  "revision": "2026-10-16T21:11:35Z"
 }

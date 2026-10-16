@@ -158,6 +158,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:ee50c1b303",
+        "text": "⚙️ Nintendo Switch Sports Resort S2 · $64.990"
+      },
+      "id": "ee50c1b303",
+      "nivel": "normal",
+      "nombre": "Nintendo Switch Sports Resort",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Nintendo Switch Sports Resort</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$64.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $64.990 (16 oct, 8 Bits) · máximo $64.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$49.32 ≈ $48.605 en 🇨🇦 Canadá\n   ➜ El digital es $16.385 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/nintendo-switch-sports-resort-nintendo-switch-2\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:2bcf55331a",
         "text": "⚙️ Nintendo Switch Sports · US$38.75"
       },
@@ -174,15 +186,15 @@
         "callback_data": "a:09dac2d66e",
         "text": "⚙️ Nintendo Switch Sports Resort S2 · US$49.32"
       },
-      "con_fisico": false,
+      "con_fisico": true,
       "id": "09dac2d66e",
       "nivel": "normal",
       "nombre": "Nintendo Switch Sports Resort",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Nintendo Switch Sports Resort</b>\n🕹️ Switch 2 · 🎮 Digital (eShop)\n💰 <b>US$49.32</b> ≈ $48.605 en 🇨🇦 Canadá\n   Precio en la tienda: CA$69,99 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/nintendo-switch-sports-resort-switch-2/\">US$49.32</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/nintendo-switch-sports-resort-switch-2/\">US$49.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/nintendo-switch-sports-resort-switch-2/\">US$52.75</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/nintendo-switch-sports-resort-switch-2/\">US$55.38</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/nintendo-switch-sports-resort-switch-2/\">US$55.75</a>\n   El más caro: 🇨🇴 US$72.19\n📈 Mínimo US$49.19 (15 oct en 🇨🇦 Canadá)\n   ▃▁█  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/nintendo-switch-sports-resort-switch-2/\">Ver en la eShop de Canadá</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Nintendo Switch Sports Resort</b>\n🕹️ Switch 2 · 🎮 Digital (eShop)\n💰 <b>US$49.32</b> ≈ $48.605 en 🇨🇦 Canadá\n   Precio en la tienda: CA$69,99 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/nintendo-switch-sports-resort-switch-2/\">US$49.32</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/nintendo-switch-sports-resort-switch-2/\">US$49.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/nintendo-switch-sports-resort-switch-2/\">US$52.75</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/nintendo-switch-sports-resort-switch-2/\">US$55.38</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/nintendo-switch-sports-resort-switch-2/\">US$55.75</a>\n   El más caro: 🇨🇴 US$72.19\n📦 Físico: $64.990 en 8 Bits → el digital te ahorra $16.385\n📈 Mínimo US$49.19 (15 oct en 🇨🇦 Canadá)\n   ▃▁█  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/nintendo-switch-sports-resort-switch-2/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
     }
   ],
   "juego": "Switch Sports",
-  "revision": "2026-10-16T16:43:16Z"
+  "revision": "2026-10-16T21:11:35Z"
 }

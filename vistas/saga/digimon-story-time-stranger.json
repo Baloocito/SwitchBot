@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:492fc44f3b",
+        "text": "⚙️ Digimon Story Time Stranger · $105.990"
+      },
+      "id": "492fc44f3b",
+      "nivel": "regular",
+      "nombre": "Digimon Story Time Stranger",
+      "pct": 8.3,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Digimon Story Time Stranger</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$105.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $9.644 frente al «antes» que marca la tienda ($115.634)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $89.990 (12 oct, Falabella) · máximo $105.990\n   ▁▁▁█  últimos 4 días\n🎮 Digital: US$46.17 ≈ $45.501 en 🇨🇱 Chile\n   ➜ El digital es $60.489 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 4 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/juego-bandai-namco-digimon-story-time-stranger-switch/00072267455104\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:201237128f",
         "text": "⚙️ Digimon Story Time Stranger · $79.990"
       },
@@ -40,5 +52,5 @@
     }
   ],
   "juego": "Digimon Story Time Stranger",
-  "revision": "2026-10-16T16:43:16Z"
+  "revision": "2026-10-16T21:11:35Z"
 }
