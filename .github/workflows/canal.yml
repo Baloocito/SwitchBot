@@ -1,0 +1,66 @@
+# Va en el repo como: .github/workflows/canal.yml
+# Publica en el canal a las horas de canal.json (hora de Chile). No revisa tiendas:
+# usa lo que dejo la ultima revision de alertas.yml.
+name: Canal de ofertas
+
+on:
+  schedule:
+    # GitHub solo entiende hora UTC y Chile cambia de horario, asi que corre a las dos
+    # horas posibles de cada publicacion; canal.py decide segun la hora real de Chile.
+    - cron: "5,35 0,1,12,13,15,16,17,21,22 * * *"
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "auto = lo que toque ahora · o forzar uno"
+        type: choice
+        options: [auto, top, pack, fisicos, ultima, semanal, bombazos]
+        default: auto
+      prueba:
+        description: "Mandar a tu chat personal en vez del canal"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write             # para guardar canal_estado.json
+
+concurrency:
+  group: alertas              # el mismo grupo que alertas.yml: nunca corren a la vez
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Publicar
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          CANAL_PRUEBA: ${{ (github.event_name == 'workflow_dispatch' && inputs.prueba) && '1' || vars.CANAL_PRUEBA }}
+        run: |
+          SLOT="${{ inputs.slot || 'auto' }}"
+          if [ "$SLOT" = "auto" ]; then python canal.py --auto
+          elif [ "$SLOT" = "bombazos" ]; then python canal.py --bombazos
+          else python canal.py --slot "$SLOT"; fi
+
+      - name: Guardar estado del canal
+        run: |
+          git config user.name "bot-ofertas"
+          git config user.email "bot-ofertas@users.noreply.github.com"
+          git add canal_estado.json 2>/dev/null || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -m "Canal: publicaciones"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs && git push && exit 0
+            sleep 5
+          done
+          exit 1

@@ -67,6 +67,37 @@ El bot detecta solo cómo leer la tienda (Shopify, WooCommerce, VTEX, Magento y 
 Si una tienda no funciona, se le puede indicar su página de búsqueda con
 `"busqueda": "https://www.mitienda.cl/buscar?q={q}"`.
 
+## Canal público de ofertas
+
+`canal.py` toma lo que recolecta `bot.py` y publica en un canal de Telegram solo lo que vale la pena,
+a horas fijas y sin repetir. Tu chat personal sigue recibiendo todo, igual que antes.
+
+| Hora (Chile) | Post | Días |
+|---|---|---|
+| 09:00 | Top 5 del día | lun–sáb |
+| 13:30 | Pack temático (cambia según el día) | lun–sáb |
+| 18:30 | Físicos en Chile | todos |
+| 21:00 | Última llamada (terminan hoy o mañana) | todos |
+| 12:00 | Top de la semana + encuesta | dom |
+| Tras cada revisión | Bombazo (máx. 2 al día, nunca entre 23:00 y 08:30) | todos |
+
+**Qué publica:** cada oferta recibe un puntaje (0–100) según si es de una saga que sigues, una "joya"
+conocida o de una editora confiable, más el descuento, lo que ahorras en pesos y si es mínimo histórico.
+Lo que es relleno (simuladores con año en el título, ajedrez, solitarios, juegos para niños pequeños,
+descuentos inflados de 85 % o más) no entra. Todo se ajusta en `canal.json` sin tocar código.
+
+**Configurarlo:**
+
+1. Crea el canal en Telegram, agrega tu bot como administrador con permiso de publicar.
+2. En GitHub → Settings → Secrets → Actions, agrega `TELEGRAM_CHANNEL_ID` (el `-100…` del canal).
+3. Para probar sin publicar: Settings → Variables → Actions, crea `CANAL_PRUEBA` = `1`.
+   Todo lo del canal te llegará a tu chat personal. Cuando te guste, borra la variable.
+4. Para ver qué publicaría hoy sin mandar nada: `python canal.py --vista`.
+5. Para forzar un post: Actions → Canal de ofertas → Run workflow → elige el formato.
+
+`python canal.py --sugerir` lista editoras que solo publican relleno, para agregarlas a
+`editoras.basura` en `canal.json` (necesita que el bot ya haya guardado las editoras).
+
 ## Diagnóstico
 
 Para ver qué encuentra el bot en cada tienda, entra a **Actions → Alertas de ofertas Switch → Run workflow**,

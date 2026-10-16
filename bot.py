@@ -188,6 +188,33 @@ def coincide(titulo, juego, exigir_plataforma):
 
 # --------------------------------------------------------------------- eShop
 
+# Datos extra del catalogo para curar el canal (editora, generos...). Nintendo no
+# documenta estos campos, asi que se prueban varios nombres y se ignora lo que falte.
+META_ALGOLIA = {
+    "editora": ("softwarePublisher", "publisher", "publishers"),
+    "desarrollador": ("softwareDeveloper", "developer", "developers"),
+    "generos": ("genres", "genre"),
+    "lanzamiento": ("releaseDate", "releaseDateDisplay"),
+}
+
+
+def meta_algolia(h):
+    out = {}
+    for campo, claves in META_ALGOLIA.items():
+        for k in claves:
+            v = h.get(k)
+            if isinstance(v, list):
+                v = [str(x).strip() for x in v if str(x).strip()]
+                if campo in ("editora", "desarrollador"):
+                    v = ", ".join(v)
+            if isinstance(v, str):
+                v = v.strip()
+            if v:
+                out[campo] = v
+                break
+    return out
+
+
 def buscar_eshop(termino):
     """Busca en el catalogo de la eShop de EE. UU. Devuelve [{titulo, nsuid, url}]."""
     r = get(ALGOLIA_URL, headers={**HEADERS, **ALGOLIA_HEADERS},
@@ -204,6 +231,7 @@ def buscar_eshop(termino):
             "nsuid": nsuid,
             "url": urljoin(NINTENDO_WEB, url) if url else "",
             "plataforma": "Switch 2" if h.get("platformCode") == "NINTENDO_SWITCH_2" else "Switch",
+            **meta_algolia(h),
         })
     return out
 
@@ -284,7 +312,8 @@ def buscar_ofertas_eshop(maximo=3000):
                     url = h.get("url") or ""
                     out.append({"titulo": re.sub(r"[™®©]", "", h.get("title", nsuid)).strip(),
                                 "nsuid": nsuid, "url": urljoin(NINTENDO_WEB, url) if url else "",
-                                "plataforma": "Switch 2" if h.get("platformCode") == "NINTENDO_SWITCH_2" else "Switch"})
+                                "plataforma": "Switch 2" if h.get("platformCode") == "NINTENDO_SWITCH_2" else "Switch",
+                                **meta_algolia(h)})
                 page += 1
                 if page >= (data.get("nbPages") or 0):
                     break
@@ -1130,6 +1159,8 @@ def revisar_eshop(cfg, state, hist, alertas):
                   "precio_us": base["actual_usd"],
                   "clp": round(actual * clp_x_usd) if clp_x_usd else None,
                   "regiones": {k: v["actual_usd"] for k, v in regs.items()},
+                  "regiones_normal": {k: v["regular_usd"] for k, v in regs.items()},
+                  **{k: h[k] for k in META_ALGOLIA if h.get(k)},
                   "min_hist": est.get("min"), "min_fecha": est.get("min_fecha"),
                   "pct_oferta": round(pct_oferta, 1), "objetivo": juego.get("objetivo_usd"),
                   "dias": est["dias"]})
@@ -1987,6 +2018,14 @@ def diagnostico(cfg):
     juego = {"nombre": termino, "buscar": termino}
     log(f"=== DIAGNOSTICO con la busqueda '{termino}' ===\n")
     log("eShop EE. UU.:")
+    try:
+        r = get(ALGOLIA_URL, headers={**HEADERS, **ALGOLIA_HEADERS},
+                params={"query": termino, "hitsPerPage": 1})
+        hit = (r.json().get("hits") or [{}])[0]
+        log(f"  campos del catalogo: {', '.join(sorted(hit))}")
+        log(f"  datos para el canal: {meta_algolia(hit) or 'ninguno (revisar META_ALGOLIA)'}")
+    except (requests.RequestException, ValueError) as e:
+        log(f"  campos del catalogo: ERROR {e}")
     try:
         hits = [h for h in buscar_eshop(termino) if coincide(h["titulo"], juego, False)]
         precios = precios_eshop([h["nsuid"] for h in hits[:20]], "US")
