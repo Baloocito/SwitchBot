@@ -15,15 +15,29 @@
     },
     {
       "boton": {
-        "callback_data": "a:a1f7c7c2c1",
-        "text": "⚙️ DOOM · $69.990"
+        "callback_data": "a:ef13df1768",
+        "text": "⚙️ Doom & Destiny · US$2.02"
       },
-      "id": "a1f7c7c2c1",
-      "nivel": "regular",
-      "nombre": "DOOM",
-      "pct": 12.5,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −12%\n<b>DOOM</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Apenas 12% bajo la referencia\n   Ahorras $10.000 frente al «antes» que marca la tienda ($79.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.990 (14 oct, Falabella) · máximo $69.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$19.28 ≈ $19.000 en 🇨🇱 Chile\n   ➜ El digital es $50.990 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148490815/doom-the-classics-collection-switch-fisico-sniper\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
+      "con_fisico": false,
+      "id": "ef13df1768",
+      "nivel": "compra",
+      "nombre": "Doom & Destiny",
+      "pct": 66.8,
+      "texto": "🟢 <b>COMPRA YA</b> · −67%\n<b>Doom &amp; Destiny</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$2.02</b> ≈ $1.991 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −67% en la eShop\n🏷️ Normal US$6.09 → ahorras US$4.07 · ⏳ termina el 26 oct (en 10 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-and-destiny-switch/\">US$2.02</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/doom-and-destiny-switch/\">US$2.33</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-and-destiny-switch/\">US$2.37</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/doom-and-destiny-switch/\">US$2.62</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/doom-and-destiny-switch/\">US$2.70</a>\n   El más caro: 🇺🇸 US$3.59\n📈 Mínimo US$2.02 (16 oct en 🇨🇱 Chile)\n   ██▁  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-and-destiny-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:b2b2296452",
+        "text": "⚙️ Doom & Destiny Advanced · US$2.02"
+      },
+      "con_fisico": false,
+      "id": "b2b2296452",
+      "nivel": "compra",
+      "nombre": "Doom & Destiny Advanced",
+      "pct": 66.8,
+      "texto": "🟢 <b>COMPRA YA</b> · −67%\n<b>Doom &amp; Destiny Advanced</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$2.02</b> ≈ $1.991 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −67% en la eShop\n🏷️ Normal US$6.09 → ahorras US$4.07 · ⏳ termina el 26 oct (en 10 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-and-destiny-advanced-switch/\">US$2.02</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/doom-and-destiny-advanced-switch/\">US$2.33</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-and-destiny-advanced-switch/\">US$2.37</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/doom-and-destiny-advanced-switch/\">US$2.62</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/doom-and-destiny-advanced-switch/\">US$2.70</a>\n   El más caro: 🇺🇸 US$3.59\n📈 Mínimo US$2.02 (16 oct en 🇨🇱 Chile)\n   ██▁  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-and-destiny-advanced-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
     },
     {
       "boton": {
@@ -39,6 +53,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:a1f7c7c2c1",
+        "text": "⚙️ DOOM · $69.990"
+      },
+      "id": "a1f7c7c2c1",
+      "nivel": "normal",
+      "nombre": "DOOM",
+      "pct": 4.1,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DOOM</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Está a su precio de siempre\n   Ahorras $3.000 frente al «antes» que marca la tienda ($72.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.990 (14 oct, Falabella) · máximo $69.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$19.28 ≈ $19.000 en 🇨🇱 Chile\n   ➜ El digital es $50.990 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/123779323/Doom-The-Classics-Collection-Switch-Fisico-Sniper\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:eac714c0f7",
         "text": "⚙️ DOOM · US$19.28"
       },
@@ -48,19 +74,6 @@
       "nombre": "DOOM",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DOOM</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$19.28</b> ≈ $19.000 en 🇨🇱 Chile\n   Precio en la tienda: $18.999 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-switch/\">US$19.28</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/doom-switch/\">US$19.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/doom-switch/\">US$19.99</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/doom-switch/\">US$20.09</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/doom-switch/\">US$21.13</a>\n   El más caro: 🇨🇴 US$25.12\n📦 Físico: $69.990 en Falabella → el digital te ahorra $50.990\n📈 Mínimo US$19.28 (16 oct en 🇨🇱 Chile)\n   █▄▁  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:ef13df1768",
-        "text": "⚙️ Doom & Destiny · US$6.09"
-      },
-      "con_fisico": false,
-      "id": "ef13df1768",
-      "nivel": "normal",
-      "nombre": "Doom & Destiny",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Doom &amp; Destiny</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$6.09</b> ≈ $6.002 en 🇨🇱 Chile\n   Precio en la tienda: $5.999 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-and-destiny-switch/\">US$6.09</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/doom-and-destiny-switch/\">US$7.04</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-and-destiny-switch/\">US$7.26</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/doom-and-destiny-switch/\">US$7.85</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/doom-and-destiny-switch/\">US$8.73</a>\n   El más caro: 🇺🇸 US$11.99\n📈 Mínimo US$6.09 (16 oct en 🇨🇱 Chile)\n   █▃▁  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-and-destiny-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -113,19 +126,6 @@
       "nombre": "DOOM 64",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DOOM 64</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$4.06</b> ≈ $4.001 en 🇨🇱 Chile\n   Precio en la tienda: $4.000 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-64-switch/\">US$4.06</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/doom-64-switch/\">US$4.82</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/doom-64-switch/\">US$4.93</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-64-switch/\">US$4.94</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/doom-64-switch/\">US$4.99</a>\n   El más caro: 🇨🇴 US$7.85\n📦 Físico: $44.990 en 8 Bits → el digital te ahorra $40.989\n📈 Mínimo US$4.06 (16 oct en 🇨🇱 Chile)\n   █▃▁  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-64-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:b2b2296452",
-        "text": "⚙️ Doom & Destiny Advanced · US$6.09"
-      },
-      "con_fisico": false,
-      "id": "b2b2296452",
-      "nivel": "normal",
-      "nombre": "Doom & Destiny Advanced",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Doom &amp; Destiny Advanced</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$6.09</b> ≈ $6.002 en 🇨🇱 Chile\n   Precio en la tienda: $5.999 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-and-destiny-advanced-switch/\">US$6.09</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/doom-and-destiny-advanced-switch/\">US$7.04</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-and-destiny-advanced-switch/\">US$7.26</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/doom-and-destiny-advanced-switch/\">US$7.85</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/doom-and-destiny-advanced-switch/\">US$8.73</a>\n   El más caro: 🇺🇸 US$11.99\n📈 Mínimo US$6.09 (16 oct en 🇨🇱 Chile)\n   █▃▁  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-and-destiny-advanced-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -234,5 +234,5 @@
     }
   ],
   "juego": "Doom",
-  "revision": "2026-10-16T11:24:33Z"
+  "revision": "2026-10-16T16:43:16Z"
 }
