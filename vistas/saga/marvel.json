@@ -27,18 +27,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:f486d998d3",
-        "text": "⚙️ LEGO Marvel Super Heroes 2 · $49.990"
-      },
-      "id": "f486d998d3",
-      "nivel": "normal",
-      "nombre": "LEGO Marvel Super Heroes 2",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>LEGO Marvel Super Heroes 2</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Lider 🏪 <i>vende Rivertec SPA</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (14 oct, Lider) · máximo $49.990\n   ▄▄▄▄  últimos 4 días\n🎮 Digital: US$22.70 ≈ $22.302 en 🇨🇱 Chile\n   ➜ El digital es $27.688 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 4 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/lego-marvel-super-heroes-2-ingles-nsw/00088392959781\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:fe6ebac199",
         "text": "⚙️ LEGO Marvel Super Heroes 2 · US$22.70"
       },
@@ -117,5 +105,5 @@
     }
   ],
   "juego": "Marvel",
-  "revision": "2026-10-17T13:54:31Z"
+  "revision": "2026-10-17T22:31:06Z"
 }

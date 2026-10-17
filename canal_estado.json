@@ -1,4 +1,7 @@
 {
+  "alarmas": {
+    "tiendas": "2026-10-17|['Paris (18)']"
+  },
   "dias": {
     "2026-10-17": {
       "bombazos": 0,
@@ -126,6 +129,7 @@
       "slot": "top"
     }
   },
+  "sospechosos": {},
   "ultima_llamada": {
     "7b6979888f": {
       "fecha": "2026-10-17",
