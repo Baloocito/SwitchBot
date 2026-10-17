@@ -20,7 +20,8 @@
     "saldo_url": "",
     "web_url": "",
     "max_por_saga": 1,
-    "max_regalados_en_listas": 2
+    "max_regalados_en_listas": 2,
+    "canal_url": ""
   },
   "horarios": [
     {
@@ -236,7 +237,21 @@
       "Mintrocket",
       "Sabotage"
     ],
-    "basura": []
+    "basura": [
+      "Pix Arts",
+      "Silesia Games",
+      "Ocean Media",
+      "Halva Studio",
+      "SAT-BOX",
+      "EpiXR Games",
+      "CGI LAB GAMES",
+      "Play Lab",
+      "SC Ovilex Soft",
+      "Soroka Games",
+      "McPeppergames",
+      "SimulatorMaker Studio",
+      "17Studio"
+    ]
   },
   "joyas": [
     "Celeste",

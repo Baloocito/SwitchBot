@@ -23,6 +23,7 @@ import os
 import re
 import sys
 from datetime import datetime, timedelta, timezone
+from urllib.parse import quote
 
 import requests
 
@@ -135,10 +136,24 @@ def candidatos(cfg, state, incluir_excluidos=False):
         corte = (datetime.fromisoformat(revision.replace("Z", "+00:00")) - timedelta(hours=12)
                  ).strftime("%Y-%m-%dT%H:%M:%SZ")
     out = []
+    # fisico mas barato de cada juego (tiendas reales), para comparar con el digital
+    fisicos = {}
+    for s in (state.get("productos") or {}).values():
+        if not s.get("nsuid") or (s.get("visto") or "") < corte:
+            continue
+        for av in s.get("avisos") or []:
+            if av.get("externo"):
+                continue
+            prev = fisicos.get(s["nsuid"])
+            if not prev or av["precio"] < prev["precio"]:
+                fisicos[s["nsuid"]] = {"precio": av["precio"], "tienda": av["tienda"], "url": av["url"]}
 
     for nsuid, e in (state.get("eshop") or {}).items():
         if (e.get("visto") or "") < corte or e.get("ultimo") is None or not rate:
             continue
+        d = dias_para(e["fin"]) if e.get("fin") else None
+        if d is not None and d <= 0.02:
+            continue                      # la oferta ya termino (o termina en minutos)
         regs = e.get("regiones") or {}
         if "CL" not in regs:
             continue                      # no se vende en la eShop de Chile
@@ -171,7 +186,7 @@ def candidatos(cfg, state, incluir_excluidos=False):
             "saga": saga_de(e.get("juego")), "plataforma": e.get("plataforma"),
             "editora": e.get("editora"), "url": url_pais(e.get("url"), "CL"),
             "precio": precio, "normal": normal, "pct": pct, "normal_usd": normal_usd,
-            "fin": e.get("fin"), "ext": ext, "ahorro": normal - precio,
+            "fin": e.get("fin"), "ext": ext, "ahorro": normal - precio, "fisico": fisicos.get(nsuid),
             "minimo": (e.get("dias") or 0) >= MIN_DIAS and e.get("min_hist") is not None
             and e["ultimo"] <= e["min_hist"],
         })
@@ -306,6 +321,11 @@ def marcar(est, items, t, slot, grupo="publicados"):
 
 # --------------------------------------------------------------- formato
 
+MEDALLAS = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣", "6️⃣"]
+DIAS_TXT = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"]
+LINEA = "━━━━━━━━━━━━━━"
+
+
 def corto(nombre, n=48):
     return nombre if len(nombre) <= n else nombre[:n - 1].rstrip(" :-–") + "…"
 
@@ -318,11 +338,15 @@ def plat(o):
     return " (S2)" if o.get("plataforma") == "Switch 2" else ""
 
 
+def fecha_txt(t):
+    return f"{DIAS_TXT[t.weekday()]} {fecha_corta(t.strftime('%Y-%m-%d'))}"
+
+
 def etiqueta(cfg, o):
     if o["minimo"]:
         return " 📉"
     if o.get("dias") is not None and o["dias"] <= 1:
-        return " ⏳hoy"
+        return " ⏳"
     if o["tipo"] == "digital" and o["precio"] < cfg["ajustes"]["regalado_bajo_clp"]:
         return " 💸"
     if o["nivel"] == "bombazo":
@@ -330,18 +354,23 @@ def etiqueta(cfg, o):
     return ""
 
 
-def linea(cfg, o, n=None):
-    pre = f"{n}. " if n else "• "
-    caja = "📦 " if o["tipo"] == "fisico" else ""
-    donde = f" en {esc(o['tienda'])}" if o["tipo"] == "fisico" else ""
-    return (f"{pre}{caja}<a href=\"{esc_attr(o['url'])}\">{esc(corto(o['nombre']))}</a>{plat(o)} — "
-            f"<b>{precio_txt(o)}</b>{donde} (−{round(o['pct'])}%){etiqueta(cfg, o)}")
+def quedan(o):
+    """'⏳ Termina en 5 h' / '⏳ Hasta el 7 nov' (fecha en que termina la oferta)."""
+    d = o.get("dias")
+    if d is None:
+        return None
+    if d < 1:
+        horas = max(1, round(d * 24))
+        return f"⏳ Termina en {horas} h"
+    if d < 2:
+        return "⏳ Termina mañana"
+    return f"⏳ Hasta el {fecha_corta(o['fin'])}"
 
 
 def veredicto(o):
     if o["minimo"]:
         return "Nunca había estado tan barato."
-    if o.get("dias") is not None and o["dias"] <= 1:
+    if o.get("dias") is not None and o["dias"] < 1:
         return "Último día: después vuelve a su precio."
     if o["pct"] >= 70:
         return "Precio pa' no pensarlo."
@@ -352,59 +381,117 @@ def veredicto(o):
     return "Buen momento para comprarlo."
 
 
-def quedan(o):
-    d = o.get("dias")
-    if d is None:
-        return None
-    if d <= 1:
-        return "⏳ Termina hoy"
-    return f"⏳ Quedan {int(d) + 1} días (hasta el {fecha_corta(o['fin'])})"
+def mejor_opcion(o):
+    """Donde conviene comprarlo: (texto, url). Compara digital vs fisico si hay ambos."""
+    f = o.get("fisico")
+    if o["tipo"] == "digital" and f and f["precio"] < o["precio"]:
+        return f"📦 {f['tienda']}", f["url"]
+    if o["tipo"] == "digital":
+        return "🎮 eShop", o["url"]
+    return f"📦 {o['tienda']}", o["url"]
+
+
+def bloque(cfg, o, medalla):
+    """Tarjeta corta de un juego para las listas: nombre, precio, contexto y comparacion."""
+    tachado = f" <s>{clp(o['normal'])}</s>" if o.get("normal") and o["normal"] > o["precio"] else ""
+    donde = f" en {esc(o['tienda'])}" if o["tipo"] == "fisico" else ""
+    l = [f"{medalla} <b>{esc(corto(o['nombre'], 44))}</b>{plat(o)}",
+         f"💰 <b>{precio_txt(o)}</b>{tachado} · −{round(o['pct'])}%{donde}"]
+    extra = []
+    if o["minimo"]:
+        extra.append("📉 mínimo histórico")
+    if quedan(o):
+        extra.append(quedan(o)[2:].lower() if extra else quedan(o))
+    if extra:
+        l.append(" · ".join(extra))
+    f = o.get("fisico")
+    if o["tipo"] == "digital" and f:
+        dif = o["precio"] - f["precio"]
+        if dif > 0:
+            l.append(f"📦 Físico más barato: <b>{clp(f['precio'])}</b> en {esc(f['tienda'])} (−{clp(dif)})")
+        else:
+            l.append(f"📦 Físico: {clp(f['precio'])} en {esc(f['tienda'])}")
+    elif o["tipo"] == "fisico" and len(o.get("avisos") or []) > 1:
+        sig = o["avisos"][1]
+        l.append(f"🏬 Le sigue {esc(sig['tienda'])} a {clp(sig['precio'])}")
+    return "\n".join(l)
 
 
 def boton(texto, url):
     return {"text": texto, "url": url}
 
 
+def botones_juegos(items):
+    """Un boton por juego, directo a donde conviene comprarlo."""
+    filas = []
+    for i, o in enumerate(items):
+        donde, url = mejor_opcion(o)
+        filas.append([boton(f"{MEDALLAS[i]} {corto(o['nombre'], 26)} · {donde}", url)])
+    return filas
+
+
+def pie(cfg):
+    a = cfg["ajustes"]
+    fila = []
+    if a.get("web_url"):
+        fila.append(boton("📚 Todas las ofertas", a["web_url"]))
+    if a.get("canal_url"):
+        texto = quote("Ofertas de Switch en Chile, filtradas y en pesos 🎮")
+        fila.append(boton("📣 Invitar a un amigo",
+                          f"https://t.me/share/url?url={quote(a['canal_url'], safe='')}&text={texto}"))
+    return [fila] if fila else []
+
+
 def post_bombazo(cfg, o):
     a = cfg["ajustes"]
     cab = "💣 <b>BOMBAZO</b>" + (" · 📉 <b>MÍNIMO HISTÓRICO</b>" if o["minimo"] else "")
-    l = [cab, f"<b>{esc(o['nombre'])}</b>", ""]
     tachado = f"  <s>{clp(o['normal'])}</s>" if o.get("normal") and o["normal"] > o["precio"] else ""
+    l = [cab, "", f"<b>{esc(o['nombre'])}</b>"]
     if o["tipo"] == "digital":
         l.append(f"💰 <b>{precio_txt(o)}</b>{tachado}  (−{round(o['pct'])}%) en eShop Chile")
         if o["ext"]:
             l.append(f"🇺🇸 Con saldo de EE. UU. sale ~{clp(o['ext']['clp'])} ({o['ext']['ahorro']}% menos)")
+        f = o.get("fisico")
+        if f:
+            dif = o["precio"] - f["precio"]
+            l.append(f"📦 Físico: {clp(f['precio'])} en {esc(f['tienda'])}" +
+                     (f" (−{clp(dif)})" if dif > 0 else ""))
     else:
         l.append(f"💰 <b>{precio_txt(o)}</b>{tachado}  (−{round(o['pct'])}%) en {esc(o['tienda'])}")
         if len(o["avisos"]) > 1:
             sig = o["avisos"][1]
-            l.append(f"🏬 La siguiente tienda lo tiene a {clp(sig['precio'])} ({esc(sig['tienda'])})")
+            l.append(f"🏬 Le sigue {esc(sig['tienda'])} a {clp(sig['precio'])}")
     info = ["Switch 2" if o.get("plataforma") == "Switch 2" else "Switch"]
     if o.get("editora"):
         info.append(esc(o["editora"].split(",")[0]))
-    info.append("📦 Físico" if o["tipo"] == "fisico" else "🎮 Digital")
-    l.append(" · ".join(info))
+    l.append("🕹️ " + " · ".join(info))
     if quedan(o):
         l.append(quedan(o))
     l += ["", f"👉 {veredicto(o)}"]
-    botones = [boton("🛒 Ver en eShop" if o["tipo"] == "digital" else f"🛒 Ir a {o['tienda']}", o["url"])]
+    donde, url = mejor_opcion(o)
+    filas = [[boton(f"🛒 Comprar · {donde}", url)]]
+    if o["tipo"] == "digital" and o.get("fisico") and url != o["url"]:
+        filas.append([boton("🎮 Ver en eShop", o["url"])])
     if o["ext"] and a.get("saldo_url"):
-        botones.append(boton("💳 Comprar saldo", a["saldo_url"]))
-    return {"texto": "\n".join(l), "botones": [botones], "preview": o["url"] if o["tipo"] == "digital" else None}
+        filas.append([boton("💳 Comprar saldo", a["saldo_url"])])
+    return {"texto": "\n".join(l), "botones": filas + pie(cfg),
+            "preview": o["url"] if o["tipo"] == "digital" else None}
 
 
-def pie(cfg):
-    w = cfg["ajustes"].get("web_url")
-    return [[boton("📚 Ver todas las ofertas", w)]] if w else None
-
-
-def post_lista(cfg, titulo, items, t, extra=None, numerar=True):
-    fuente = "eShop Chile y tiendas" if any(o["tipo"] == "fisico" for o in items) else "eShop Chile"
-    l = [titulo, f"<i>{fecha_corta(t.strftime('%Y-%m-%d'))} · precios {fuente}</i>", ""]
-    l += [linea(cfg, o, i + 1 if numerar else None) for i, o in enumerate(items)]
+def post_lista(cfg, titulo, items, t, extra=None, cierre=None):
+    """Lista con tarjetas cortas, foto del primero arriba y un boton por juego."""
+    fuente = "eShop Chile 🇨🇱 y tiendas" if any(o["tipo"] == "fisico" or o.get("fisico") for o in items) \
+        else "eShop Chile 🇨🇱"
+    l = [titulo, f"<i>{fecha_txt(t)} · precios {fuente}</i>"]
+    for i, o in enumerate(items):
+        l += ["", bloque(cfg, o, MEDALLAS[i])]
     if extra:
         l += ["", extra]
-    return {"texto": "\n".join(l), "botones": pie(cfg)}
+    ahorro = sum(o.get("ahorro") or 0 for o in items)
+    l += ["", LINEA, cierre or f"💡 Ahorras {clp(ahorro)} si te llevas los {len(items)}"]
+    primero = next((o for o in items if o["tipo"] == "digital"), None)
+    return {"texto": "\n".join(l), "botones": botones_juegos(items) + pie(cfg),
+            "preview": primero["url"] if primero else None}
 
 
 # --------------------------------------------------------------- slots
@@ -443,8 +530,8 @@ def slot_top(cfg, est, cands, t):
     items = elegir(cfg, elegibles(cfg, est, cands, t), 5)
     if not items:
         return None, []
-    return post_lista(cfg, "☕ <b>TOP 5 DE HOY</b>" if len(items) == 5 else "☕ <b>LO MEJOR DE HOY</b>",
-                      items, t), items
+    titulo = "☕ <b>TOP 5 DE HOY</b>" if len(items) == 5 else "☕ <b>LO MEJOR DE HOY</b>"
+    return post_lista(cfg, titulo, items, t), items
 
 
 def filtro_pack(cfg, o, filtro):
@@ -472,19 +559,19 @@ def slot_pack(cfg, est, cands, t):
     con_fisicos = pack["filtro"] in ("nintendo", "saga")
     base = [o for o in cands if (o["tipo"] == "digital" or con_fisicos) and not ya_publicado(cfg, est, o, t)
             and o.get("senales") and o["score"] >= cfg["ajustes"]["umbral_destacado"] - 15]
-    items = elegir(cfg, [o for o in base if filtro_pack(cfg, o, pack["filtro"])], 5,
+    items = elegir(cfg, [o for o in base if filtro_pack(cfg, o, pack["filtro"])], 4,
                    regalados=pack["filtro"] != "regalado")
     if len(items) < 2:
         return None, []
-    extra = None
+    extra, r = None, None
     if pack["filtro"] != "regalado":
         baratos = [o for o in base if o not in items and filtro_pack(cfg, o, "regalado")]
         if baratos:
             r = max(baratos, key=lambda o: o["score"])
-            extra = f"💸 Regalado del día: <a href=\"{esc_attr(r['url'])}\">{esc(corto(r['nombre']))}</a> a <b>{precio_txt(r)}</b>"
-    post = post_lista(cfg, f"🍔 <b>PACK DEL DÍA</b> · {esc(pack['titulo'])}",
-                      items, t, extra, numerar=False)
-    return post, items + ([r] if extra else [])
+            extra = (f"💸 <b>Regalado del día:</b> <a href=\"{esc_attr(r['url'])}\">{esc(corto(r['nombre']))}</a>"
+                     f" a <b>{precio_txt(r)}</b>")
+    post = post_lista(cfg, f"🍔 <b>PACK DEL DÍA</b>\n<b>{esc(pack['titulo'])}</b>", items, t, extra)
+    return post, items + ([r] if r else [])
 
 
 def slot_fisicos(cfg, est, cands, t):
@@ -493,13 +580,20 @@ def slot_fisicos(cfg, est, cands, t):
     fis = elegir(cfg, fis, cfg["fisicos"]["max_juegos"])
     if not fis:
         return None, []
-    l = ["📦 <b>FÍSICOS EN CHILE</b>", f"<i>{fecha_corta(t.strftime('%Y-%m-%d'))}</i>"]
+    l = ["📦 <b>FÍSICOS EN CHILE</b>", f"<i>{fecha_txt(t)} · comparamos {len(cfg_tiendas(fis))} tiendas</i>"]
     med = ["🥇", "🥈", "🥉"]
-    for o in fis:
-        l += ["", f"<b>{esc(o['nombre'])}</b>{plat(o)} · −{round(o['pct'])}%{etiqueta(cfg, o)}"]
-        for i, av in enumerate(o["avisos"][:3]):
-            l.append(f"{med[i]} <a href=\"{esc_attr(av['url'])}\">{esc(av['tienda'])} {clp(av['precio'])}</a>")
-    return {"texto": "\n".join(l), "botones": pie(cfg)}, fis
+    for i, o in enumerate(fis):
+        l += ["", f"{MEDALLAS[i]} <b>{esc(corto(o['nombre'], 44))}</b>{plat(o)} · −{round(o['pct'])}%"
+              + (" · 📉 mínimo" if o["minimo"] else "")]
+        for j, av in enumerate(o["avisos"][:3]):
+            l.append(f"   {med[j]} {esc(av['tienda'])} <b>{clp(av['precio'])}</b>" if j == 0
+                     else f"   {med[j]} {esc(av['tienda'])} {clp(av['precio'])}")
+    l += ["", LINEA, "💡 Precio más bajo primero; el botón te lleva a esa tienda"]
+    return {"texto": "\n".join(l), "botones": botones_juegos(fis) + pie(cfg)}, fis
+
+
+def cfg_tiendas(items):
+    return {av["tienda"] for o in items for av in o.get("avisos") or []}
 
 
 def slot_ultima(cfg, est, cands, t):
@@ -509,12 +603,9 @@ def slot_ultima(cfg, est, cands, t):
                          and not ya_publicado(cfg, est, o, t, "ultima_llamada")], 5)
     if not items:
         return None, []
-    l = ["⏳ <b>ÚLTIMA LLAMADA</b> · terminan hoy o mañana", ""]
-    for i, o in enumerate(items):
-        cuando = "hoy" if o["dias"] <= 1 else "mañana"
-        l.append(f"{i + 1}. <a href=\"{esc_attr(o['url'])}\">{esc(corto(o['nombre']))}</a>{plat(o)} — "
-                 f"<b>{precio_txt(o)}</b> (−{round(o['pct'])}%) · {cuando}")
-    return {"texto": "\n".join(l), "botones": pie(cfg)}, items
+    post = post_lista(cfg, "⏳ <b>ÚLTIMA LLAMADA</b> · se acaban pronto", items, t,
+                      cierre="⚠️ Después de esto vuelven a su precio normal")
+    return post, items
 
 
 def slot_semanal(cfg, est, cands, t):
