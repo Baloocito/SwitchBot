@@ -541,11 +541,27 @@ def destino():
     return os.environ.get("TELEGRAM_CHANNEL_ID")
 
 
+FALLOS = []
+
+
 def tg(metodo, cuerpo):
     token = os.environ.get("TELEGRAM_TOKEN")
-    r = requests.post(f"https://api.telegram.org/bot{token}/{metodo}", json=cuerpo, timeout=TIMEOUT)
+    try:
+        r = requests.post(f"https://api.telegram.org/bot{token}/{metodo}", json=cuerpo, timeout=TIMEOUT)
+    except requests.RequestException as e:
+        log(f"ERROR Telegram {metodo}: {e}")
+        FALLOS.append(metodo)
+        return None
     if r.status_code != 200:
+        FALLOS.append(metodo)
         log(f"ERROR Telegram {metodo} {r.status_code}: {r.text[:300]}")
+        if r.status_code == 429:
+            seg = int((r.json().get("parameters") or {}).get("retry_after") or 0)
+            log(f"  Telegram bloqueó al bot en este chat por {seg // 3600} h {seg % 3600 // 60} min "
+                "por exceso de mensajes. No es un error del canal: hay que esperar.")
+        elif r.status_code in (400, 403):
+            log("  Revisa que TELEGRAM_CHANNEL_ID sea el número -100… completo y que el bot sea "
+                "administrador del canal con permiso de publicar.")
         return None
     return r.json().get("result")
 
@@ -741,6 +757,8 @@ def main():
         modo_auto(cfg, est, cands, t)
     if not os.environ.get("DRY_RUN"):
         save_json(ESTADO_FILE, est)
+    if FALLOS:
+        sys.exit(1)                     # que Actions lo marque en rojo
 
 
 if __name__ == "__main__":

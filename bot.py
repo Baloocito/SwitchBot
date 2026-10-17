@@ -1599,6 +1599,12 @@ def linea_producto(s, motivos, anterior, e):
 
 # ------------------------------------------------------------------ telegram
 
+PAUSA_TELEGRAM = 1.5        # segundos entre mensajes: Telegram bloquea al bot si manda rafagas
+ESPERA_MAX_429 = 60         # si Telegram pide esperar mas que esto, se deja para la proxima corrida
+_ULTIMO_ENVIO = [0.0]
+BLOQUEO = {}                # {"hasta": iso} cuando Telegram bloqueo al bot por exceso de mensajes
+
+
 def send_telegram(text, teclado=None):
     if isinstance(text, tuple):
         text, teclado = text
@@ -1606,26 +1612,59 @@ def send_telegram(text, teclado=None):
         log("[DRY_RUN]\n" + re.sub(r"<[^>]+>", "", text) +
             ("".join(f"\n   [{f[0]['text']}]" for f in teclado["inline_keyboard"]) if teclado else ""))
         return True
+    if BLOQUEO:
+        return False
     token = os.environ.get("TELEGRAM_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
     if not token or not chat_id:
         log("ERROR: faltan TELEGRAM_TOKEN o TELEGRAM_CHAT_ID")
         return False
-    try:
-        r = requests.post(
-            f"https://api.telegram.org/bot{token}/sendMessage",
-            json={"chat_id": chat_id, "text": text, "parse_mode": "HTML",
-                  "disable_web_page_preview": True,
-                  **({"reply_markup": teclado} if teclado else {})},
-            timeout=TIMEOUT,
-        )
+    for intento in (1, 2):
+        espera = PAUSA_TELEGRAM - (time.time() - _ULTIMO_ENVIO[0])
+        if espera > 0:
+            time.sleep(espera)
+        try:
+            r = requests.post(
+                f"https://api.telegram.org/bot{token}/sendMessage",
+                json={"chat_id": chat_id, "text": text, "parse_mode": "HTML",
+                      "disable_web_page_preview": True,
+                      **({"reply_markup": teclado} if teclado else {})},
+                timeout=TIMEOUT,
+            )
+        except requests.RequestException as e:
+            log(f"ERROR Telegram: {e}")
+            return False
+        _ULTIMO_ENVIO[0] = time.time()
+        if r.status_code == 429:
+            try:
+                seg = int(r.json().get("parameters", {}).get("retry_after") or 0)
+            except ValueError:
+                seg = 0
+            if intento == 1 and 0 < seg <= ESPERA_MAX_429:
+                log(f"  Telegram pide esperar {seg} s; espero y reintento")
+                time.sleep(seg + 1)
+                continue
+            hasta = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(time.time() + seg))
+            BLOQUEO["hasta"] = hasta
+            log(f"ERROR Telegram 429: bloqueó al bot por {seg // 3600} h {seg % 3600 // 60} min "
+                f"(hasta {hasta}) por mandar demasiados mensajes. No mando nada más hasta entonces.")
+            return False
         if r.status_code != 200:
             log(f"ERROR Telegram {r.status_code}: {r.text[:200]}")
             return False
         return True
-    except requests.RequestException as e:
-        log(f"ERROR Telegram: {e}")
-        return False
+    return False
+
+
+def recortar_mensajes(mensajes, maximo):
+    """Deja los primeros mensajes (las mejores ofertas van primero) y cambia el resto por un
+    aviso corto: decenas de mensajes seguidos hacen que Telegram bloquee al bot por horas."""
+    if len(mensajes) <= maximo:
+        return mensajes
+    resto = len(mensajes) - (maximo - 1)
+    aviso = (f"📦 <b>Y hay más</b>\n{LINEA}\nNo te mando {resto} mensajes más para que Telegram no bloquee "
+             f"al bot.\nVer todo lo vigente: /ofertas · Por saga: /precios")
+    return mensajes[:maximo - 1] + [aviso]
 
 
 MAX_ALERTAS = 30          # mas que esto va resumido a /ofertas
@@ -2277,7 +2316,20 @@ def main():
             "", "Los registré en silencio para no llenarte de alertas.",
             "Desde ahora te aviso solo cuando bajen de precio.",
             LINEA, "Ver las ofertas de hoy: /ofertas"]))
-    enviados = sum(1 for m in mensajes if send_telegram(m))
+    mensajes = recortar_mensajes(mensajes, cfg.get("ajustes", {}).get("max_mensajes", 12))
+    bloqueado = state.get("telegram_bloqueado_hasta")
+    if bloqueado and bloqueado > time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()):
+        log(f"Telegram tiene bloqueado al bot hasta {bloqueado}: esta vez no mando nada.")
+        BLOQUEO["hasta"] = bloqueado
+    else:
+        state.pop("telegram_bloqueado_hasta", None)
+    enviados = 0
+    for m in mensajes:
+        if not send_telegram(m):
+            break
+        enviados += 1
+    if BLOQUEO.get("hasta"):
+        state["telegram_bloqueado_hasta"] = BLOQUEO["hasta"]
     if enviados < len(mensajes):
         # no llegaron: se deshacen las marcas para que se vuelvan a avisar la proxima vez
         for s, previo in PENDIENTES:
