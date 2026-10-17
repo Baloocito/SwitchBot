@@ -67,6 +67,19 @@ El bot detecta solo cómo leer la tienda (Shopify, WooCommerce, VTEX, Magento y 
 Si una tienda no funciona, se le puede indicar su página de búsqueda con
 `"busqueda": "https://www.mitienda.cl/buscar?q={q}"`.
 
+## Memorias microSD
+
+Además de los juegos, el bot sigue el precio de las microSD en las mismas tiendas y te avisa
+igual que con un juego: mínimo histórico, descuento real contra las otras tiendas, o baja de precio.
+
+- Las agrupa por tipo, capacidad y marca ("microSD Express 256 GB · SanDisk").
+- **Express** = Switch 2 (es la única que sirve para sus juegos). **Normal** = Switch 1.
+- Descarta lectores, packs, consolas con memoria incluida, vendedores externos y precios
+  imposibles por GB (típico de tarjetas falsas). Las de marca desconocida se registran sin avisar.
+- Se configura en `juegos.json` → `memorias` (búsquedas, descuento mínimo, `"activa": false` para apagarlo).
+
+La primera revisión las registra en silencio; desde la segunda avisa de cambios.
+
 ## Canal público de ofertas
 
 `canal.py` toma lo que recolecta `bot.py` y publica en un canal de Telegram solo lo que vale la pena,

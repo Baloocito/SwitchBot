@@ -4,6 +4,16 @@
     "descuento_minimo_pct": 15,
     "baja_minima_pct": 10
   },
+  "memorias": {
+    "activa": true,
+    "buscar": [
+      "microsd express",
+      "microsd",
+      "micro sd"
+    ],
+    "descuento_minimo_pct": 15,
+    "excluir_externos": true
+  },
   "tiendas": [
     {
       "nombre": "Falabella",

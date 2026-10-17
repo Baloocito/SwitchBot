@@ -1240,6 +1240,21 @@ def _leer_una_tienda(tienda, juegos, state):
         for p in cache.get("shopify") or []:
             if p["url"] not in hallados and precio_valido(p.get("precio")) and es_juego_switch(p["titulo"]):
                 hallados[p["url"]] = (JUEGO_OTROS, p)
+    # memorias microSD (van aparte de los juegos: tienen su propio filtro)
+    terminos_mem = state.get("_memorias") or []
+    if terminos_mem and respondio:
+        mem = {}
+        fuentes = [cache.get("shopify")] if cache.get("metodo") == "shopify" else []
+        if not fuentes:
+            for t in terminos_mem:
+                prods = buscar_en_tienda(tienda, t, state, cache)
+                fuentes.append(prods or [])
+                time.sleep(PAUSA)
+        for prods in fuentes:
+            for p in prods or []:
+                if precio_valido(p.get("precio")) and clasificar_memoria(p["titulo"], p["precio"]):
+                    mem.setdefault(p["url"], p)
+        cache["memorias"] = mem
     return respondio, hallados, cache
 
 
@@ -1264,10 +1279,18 @@ def leer_tiendas(cfg, state, alertas):
     listados = []
     tiendas = [t for t in cfg.get("tiendas", []) if t.get("activa") is not False]
     state["_descubrir"] = cfg.get("ajustes", {}).get("descubrir", True)
+    mem_cfg = cfg.get("memorias") or {}
+    state["_memorias"] = mem_cfg.get("buscar", MEMORIAS_BUSCAR) if mem_cfg.get("activa", True) else []
+    MEMORIAS_LISTADOS.clear()
     t0 = time.time()
     with ThreadPoolExecutor(max_workers=max(1, len(tiendas))) as ex:
         resultados = list(ex.map(lambda t: (t, *_leer_seguro(t, juegos, state)), tiendas))
     state.pop("_descubrir", None)
+    state.pop("_memorias", None)
+    for tienda, respondio, _, cache in resultados:
+        for p in (cache.get("memorias") or {}).values():
+            p["externo"] = es_externo(p, tienda)
+            MEMORIAS_LISTADOS.append((tienda["nombre"], p))
     log(f"  tiendas leidas en {time.time() - t0:.0f} s")
     for tienda, respondio, hallados, cache in resultados:
         nombre_t = tienda["nombre"]
@@ -1401,6 +1424,147 @@ def revisar_productos(cfg, state, hist, listados, alertas):
                            linea_producto(s, motivos, anterior, e),
                            puntaje(s.get("pct") or 0, motivos), ref=clave,
                            extra=extra_motivos(motivos, anterior, precio, clp))
+
+
+# --------------------------------------------------------------- memorias
+
+MEMORIAS_BUSCAR = ["microsd express", "microsd", "micro sd"]
+MEMORIAS_LISTADOS = []      # (tienda, producto) de esta corrida, los llena leer_tiendas
+MEM_RE = re.compile(r"\bmicro ?sd(hc|xc)?\b")
+CAP_RE = re.compile(r"(?<![\d.,])(\d+(?:[.,]\d)?)\s?(gb|tb)\b")
+CAPACIDADES_GB = {32, 64, 128, 256, 512, 1024, 1536, 2048}
+MARCAS_MEM = ["sandisk", "samsung", "kingston", "lexar", "pny", "sony", "adata", "kioxia",
+              "toshiba", "transcend", "netac", "hikvision", "teamgroup", "silicon power",
+              "verbatim", "western digital", "crucial"]
+EXCLUIR_MEM = {"lector", "reader", "usb", "pendrive", "hub", "estuche", "funda", "case", "porta",
+               "combo", "pack", "kit", "x2", "x3", "x4", "2x", "3x", "unidades", "consola", "bundle",
+               "dock", "ssd", "disco", "camara", "dashcam", "celular", "telefono", "tablet",
+               "reacondicionado", "usado", "usada", "seminuevo", "gopro", "dron"}
+NOMBRE_MARCA = {"sandisk": "SanDisk", "pny": "PNY", "adata": "ADATA", "kioxia": "KIOXIA",
+                "teamgroup": "TeamGroup"}
+# por debajo de esto por GB casi siempre es una tarjeta falsa (capacidad trucada)
+MIN_CLP_POR_GB = {"normal": 25, "express": 80}
+
+
+def clasificar_memoria(titulo, precio=None):
+    """'Tarjeta microSD Express SanDisk 256GB para Switch 2' ->
+    {'tipo': 'express', 'gb': 256, 'marca': 'SanDisk'}. None si no es una microSD suelta."""
+    t = norm(titulo)
+    if not MEM_RE.search(t) or set(t.split()) & EXCLUIR_MEM:
+        return None
+    caps = set()
+    for num, unidad in CAP_RE.findall(str(titulo).lower()):
+        try:
+            n = float(num.replace(",", "."))
+        except ValueError:
+            continue
+        caps.add(int(round(n * 1024)) if unidad == "tb" else int(n))
+    caps &= CAPACIDADES_GB
+    if len(caps) != 1:
+        return None                     # sin capacidad o con varias (aviso de variantes)
+    gb = caps.pop()
+    tipo = "express" if "express" in t.split() else "normal"
+    if precio and precio / gb < MIN_CLP_POR_GB[tipo]:
+        return None
+    marca = next((m for m in MARCAS_MEM if contiene_palabras(t, m)), None)
+    return {"tipo": tipo, "gb": gb, "marca": NOMBRE_MARCA.get(marca, marca.title()) if marca else None}
+
+
+def contiene_palabras(texto_norm, frase):
+    return re.search(r"(^| )" + re.escape(frase) + r"( |$)", texto_norm) is not None
+
+
+def nombre_memoria(m):
+    cap = f"{m['gb'] // 1024} TB" if m["gb"] >= 1024 and m["gb"] % 1024 == 0 else \
+        f"{m['gb'] / 1024:.1f} TB" if m["gb"] >= 1024 else f"{m['gb']} GB"
+    return f"microSD{' Express' if m['tipo'] == 'express' else ''} {cap}" + \
+        (f" · {m['marca']}" if m.get("marca") else "")
+
+
+def revisar_memorias(cfg, state, hist, alertas):
+    """Agrupa las microSD por tipo, capacidad y marca, guarda el historial y avisa
+    de minimos historicos, descuentos reales y bajas (igual que con los juegos)."""
+    mem_cfg = cfg.get("memorias") or {}
+    if mem_cfg.get("activa", True) is False:
+        return
+    aj = cfg.get("ajustes", {})
+    desc_min = mem_cfg.get("descuento_minimo_pct", aj.get("descuento_minimo_pct", 25))
+    baja_min = aj.get("baja_minima_pct", 10)
+    excluir_ext = mem_cfg.get("excluir_externos", True)
+    hoy = hoy_chile()
+    grupos = {}
+    for tienda, p in MEMORIAS_LISTADOS:
+        if excluir_ext and p.get("externo"):
+            continue
+        m = clasificar_memoria(p["titulo"], p["precio"])
+        if not m:
+            continue
+        clave = f"{m['tipo']}|{m['gb']}|{norm(m['marca'] or 'otra')}"
+        g = grupos.setdefault(clave, {"m": m, "por_tienda": {}})
+        prev = g["por_tienda"].get(tienda)
+        if not prev or p["precio"] < prev["precio"]:
+            g["por_tienda"][tienda] = {"tienda": tienda, "precio": p["precio"], "url": p["url"],
+                                       "titulo": p["titulo"], "normal": p.get("normal")}
+    log(f"  memorias: {len(MEMORIAS_LISTADOS)} avisos, {len(grupos)} modelos")
+    items = state.setdefault("memorias", {})
+    hist_m = hist.setdefault("memorias", {})
+    for clave, g in sorted(grupos.items()):
+        m = g["m"]
+        avisos = sorted(g["por_tienda"].values(), key=lambda a: a["precio"])
+        mejor = avisos[0]
+        precio = mejor["precio"]
+        serie = hist_m.setdefault(clave, {})
+        est = estadisticas(serie, hoy)
+        registrar(serie, hoy, precio, mejor["tienda"])
+        otras = [a["precio"] for a in avisos[1:] if a["precio"] <= 2 * _mediana([x["precio"] for x in avisos])]
+        if est.get("tipico"):
+            ref, ref_tipo = est["tipico"], "tipico"
+        elif otras:
+            ref, ref_tipo = _mediana(otras), "mercado"
+        else:
+            ref, ref_tipo = None, None
+        pct = 100 * (1 - precio / ref) if ref else 0
+        s = items.setdefault(clave, {})
+        anterior = s.get("ultimo")
+        s.update({"nombre": nombre_memoria(m), "tipo": m["tipo"], "gb": m["gb"], "marca": m["marca"],
+                  "consola": "Switch 2" if m["tipo"] == "express" else "Switch 1",
+                  "precio": precio, "tienda": mejor["tienda"], "url": mejor["url"],
+                  "por_gb": round(precio / m["gb"]), "ref": ref, "ref_tipo": ref_tipo,
+                  "pct": round(pct, 1), "min_hist": est.get("min"), "min_fecha": est.get("min_fecha"),
+                  "tipico": est.get("tipico"), "dias": est["dias"], "ultimo": precio, "visto": ahora_iso(),
+                  "avisos": [{k: a[k] for k in ("tienda", "precio", "url", "titulo")} for a in avisos]})
+        if not m["marca"]:
+            continue                    # sin marca conocida: se registra pero no se avisa
+        motivos = []
+        if est["dias"] >= MIN_DIAS and est.get("min") and precio < est["min"] * 0.99:
+            motivos.append("minimo")
+        if ref and pct >= desc_min:
+            motivos.append("descuento")
+        if anterior and 100 * (1 - precio / anterior) >= baja_min:
+            motivos.append("baja")
+        if decidir(s, precio, motivos, nuevo=anterior is None):
+            agregar_alerta(alertas, "memoria", "💾 Memorias", linea_memoria(s, motivos, anterior),
+                           puntaje(pct, motivos), extra="compra" if "minimo" in motivos or pct >= 30 else "bueno")
+
+
+def linea_memoria(s, motivos, anterior):
+    l = [f"💾 <b>{esc(s['nombre'])}</b> · para {s['consola']}",
+         f"💰 <b>{clp(s['precio'])}</b> en {esc(s['tienda'])} ({clp(s['por_gb'])} por GB)"
+         + (f" · −{round(s['pct'])}%" if s["pct"] >= 5 else "")]
+    if "minimo" in motivos:
+        l.append("🏆 Es el precio más bajo que he visto")
+    elif "baja" in motivos and anterior:
+        l.append(f"📉 Bajó desde {clp(anterior)}")
+    if s.get("ref") and s["pct"] >= 5:
+        contra = "su precio típico" if s["ref_tipo"] == "tipico" else "las otras tiendas"
+        l.append(f"   Ahorras {clp(s['ref'] - s['precio'])} frente a {contra} ({clp(s['ref'])})")
+    med = ["🥈", "🥉"]
+    for i, a in enumerate(s["avisos"][1:3]):
+        l.append(f"   {med[i]} <a href=\"{esc_attr(a['url'])}\">{clp(a['precio'])} {esc(a['tienda'])}</a>")
+    if s["tipo"] == "normal":
+        l.append("⚠️ No sirve para juegos de Switch 2 (esa consola solo usa microSD Express)")
+    l.append(f"🛒 <a href=\"{esc_attr(s['url'])}\">Ir a comprar en {esc(s['tienda'])}</a>")
+    return "\n".join(l)
 
 
 def linea_producto(s, motivos, anterior, e):
@@ -1903,7 +2067,8 @@ def armar_mensajes(alertas, state=None, hist=None):
                     items.append({"nivel": nivel, "texto": texto, "score": a["score"], "s": e, "tipo": "digital",
                                   "boton": boton_de(e, "digital") if e.get("id") else None})
                     continue
-        items.append({"nivel": "bueno", "texto": a["linea"], "score": a["score"], "tipo": a["tipo"]})
+        nivel = a["extra"] if a["tipo"] == "memoria" and a.get("extra") in NIVELES else "bueno"
+        items.append({"nivel": nivel, "texto": a["linea"], "score": a["score"], "tipo": a["tipo"]})
     if not items and not avisos:
         return []
     items.sort(key=lambda it: (NIVELES[it["nivel"]][0], -it["score"]))
@@ -2084,6 +2249,10 @@ def main():
     log("Revisando tiendas...")
     listados = leer_tiendas(cfg, state, alertas)
     revisar_productos(cfg, state, hist, listados, alertas)
+    try:
+        revisar_memorias(cfg, state, hist, alertas)
+    except Exception as e:  # noqa: BLE001 - las memorias nunca deben botar la revision
+        log(f"  memorias: error {type(e).__name__}: {e}")
     state.pop("tiendas", None)          # formato anterior (por aviso), ya no se usa
     for viejo in ("digitales", "fisicos", "nsuids"):
         state.pop(viejo, None)
