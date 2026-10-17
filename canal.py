@@ -27,7 +27,7 @@ from urllib.parse import quote
 
 import requests
 
-from bot import (BASE, MIN_DIAS, STATE_FILE, TIMEOUT, clp, dias_para, esc, esc_attr,
+from bot import (BASE, USADO_RE, MIN_DIAS, STATE_FILE, TIMEOUT, clp, dias_para, esc, esc_attr,
                  fecha_corta, load_json, log, norm, save_json, url_pais)
 
 CANAL_FILE = BASE / "canal.json"
@@ -141,8 +141,10 @@ def candidatos(cfg, state, incluir_excluidos=False):
     for s in (state.get("productos") or {}).values():
         if not s.get("nsuid") or (s.get("visto") or "") < corte:
             continue
+        if s.get("variante"):
+            continue                      # coleccionista, steelbook, bundles: no es comparable
         for av in s.get("avisos") or []:
-            if av.get("externo"):
+            if av.get("externo") or USADO_RE.search(norm(av.get("titulo") or "")):
                 continue
             prev = fisicos.get(s["nsuid"])
             if not prev or av["precio"] < prev["precio"]:
@@ -405,7 +407,7 @@ def bloque(cfg, o, medalla):
     if extra:
         l.append(" · ".join(extra))
     f = o.get("fisico")
-    if o["tipo"] == "digital" and f:
+    if o["tipo"] == "digital" and f and f["precio"] <= o["precio"] * 1.3:
         dif = o["precio"] - f["precio"]
         if dif > 0:
             l.append(f"📦 Físico más barato: <b>{clp(f['precio'])}</b> en {esc(f['tienda'])} (−{clp(dif)})")
@@ -452,7 +454,7 @@ def post_bombazo(cfg, o):
         if o["ext"]:
             l.append(f"🇺🇸 Con saldo de EE. UU. sale ~{clp(o['ext']['clp'])} ({o['ext']['ahorro']}% menos)")
         f = o.get("fisico")
-        if f:
+        if f and f["precio"] <= o["precio"] * 1.3:
             dif = o["precio"] - f["precio"]
             l.append(f"📦 Físico: {clp(f['precio'])} en {esc(f['tienda'])}" +
                      (f" (−{clp(dif)})" if dif > 0 else ""))

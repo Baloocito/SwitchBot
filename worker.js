@@ -17,14 +17,44 @@ const GH = "https://api.github.com";
 const WORKFLOW = "alertas.yml";
 const TG_MAX = 3900;
 
-const AYUDA = `👑 <b>Comandos de SwitchBot</b>
+const SEP = "━━━━━━━━━━━━━━";
+
+function marco(titulo, sub, cuerpo, pie = []) {
+  const l = [titulo];
+  if (sub) l.push(`<i>${sub}</i>`);
+  l.push(SEP, ...cuerpo);
+  if (pie.length) l.push(SEP, ...pie);
+  return l.join("\n");
+}
+
+function guardado(cuerpo, pie = ["Se aplica desde la próxima revisión · /revisar para hacerla ahora"]) {
+  return marco("✅ <b>CAMBIO GUARDADO</b>", null, Array.isArray(cuerpo) ? cuerpo : [cuerpo], pie);
+}
+
+function uso(comando, ejemplos) {
+  return marco(`ℹ️ <b>CÓMO USAR ${comando.toUpperCase()}</b>`, null, ejemplos);
+}
+
+const AYUDA = `📖 <b>MENÚ DE SWITCHBOT</b>
+<i>Tu cazador de ofertas de Nintendo Switch</i>
+${"━━━━━━━━━━━━━━"}
 
 <b>Precios</b>
-/precios — lo más barato de cada juego
-/precios <i>juego</i> — todos los precios de un juego
+/precios — todas las sagas, primero las que tienen oportunidades
+/precios <i>saga o juego</i> — tarjetas completas para decidir
 /ofertas — todo lo que hoy tiene descuento
+/ofertas compra · /ofertas fisico · /ofertas digital · /ofertas todo
 /ofertas <i>%</i> — solo descuentos de ese % o más
+/historial <i>juego</i> — mínimo, típico y evolución del precio
 /revisar — revisar precios ahora (tarda 2–4 min)
+
+<b>Agenda</b>
+/resumen — resumen diario (hora, ahora, off)
+/evento — modo evento: Black Friday y otros (on, off)
+
+<b>Seguimiento</b>
+/seguidos — tus objetivos ⭐ seguidos y 🔕 silenciados
+⚙️ En cada tarjeta: objetivo, seguir o silenciar con un toque
 
 <b>Juegos</b>
 /agregar <i>nombre</i> — ej. /agregar Kirby
@@ -41,11 +71,18 @@ const AYUDA = `👑 <b>Comandos de SwitchBot</b>
 <b>Ajustes</b>
 /config — ver la configuración
 /descuento <i>%</i> — descuento mínimo para avisar
-/baja <i>%</i> — baja mínima entre revisiones`;
+/baja <i>%</i> — baja mínima entre revisiones
+/externos si|no — incluir vendedores externos de marketplaces
+${"━━━━━━━━━━━━━━"}
+🏆 mínimo histórico · 🎯 tu objetivo · 🏪 vendedor externo · S2 = Switch 2`;
 
 const COMANDOS_MENU = [
   ["precios", "Precios actuales (opcional: juego)"],
   ["ofertas", "Juegos con descuento hoy"],
+  ["historial", "Historial de precios de un juego"],
+  ["seguidos", "Tus objetivos, seguidos y silenciados"],
+  ["resumen", "Resumen diario"],
+  ["evento", "Modo evento (Black Friday)"],
   ["revisar", "Revisar precios ahora"],
   ["config", "Ver la configuración"],
   ["agregar", "Agregar un juego"],
@@ -55,7 +92,7 @@ const COMANDOS_MENU = [
   ["baja", "Baja mínima entre revisiones"],
   ["tienda", "Agregar una tienda"],
   ["quitartienda", "Quitar una tienda"],
-  ["ayuda", "Lista de comandos"],
+  ["ayuda", "Menú de comandos"],
 ];
 
 // ------------------------------------------------------------------ entrada
@@ -78,6 +115,17 @@ export default {
       return new Response("No autorizado.", { status: 403 });
     }
     const update = await request.json().catch(() => null);
+    if (update && update.callback_query) {
+      const cq = update.callback_query;
+      const chat = String(cq.message && cq.message.chat && cq.message.chat.id);
+      if (chat !== String(env.CHAT_ID).trim()) return new Response("ok");
+      try {
+        await manejarBoton(env, cq);
+      } catch (e) {
+        await tg(env, "answerCallbackQuery", { callback_query_id: cq.id, text: "⚠️ " + (e.message || e).toString().slice(0, 180), show_alert: true });
+      }
+      return new Response("ok");
+    }
     const msg = update && (update.message || update.edited_message);
     if (!msg || typeof msg.text !== "string") return new Response("ok");
 
@@ -87,9 +135,11 @@ export default {
       return new Response("ok");
     }
     try {
+      const ref = msg.reply_to_message && /ref:([0-9a-f]{10})/.exec(msg.reply_to_message.text || "");
+      if (ref) return (await objetivoEscrito(env, chatId, ref[1], msg.text.trim())), new Response("ok");
       await manejar(env, chatId, msg.text.trim());
     } catch (e) {
-      await send(env, chatId, "⚠️ " + esc(e.message || String(e)));
+      await send(env, chatId, marco("⚠️ <b>NO SE PUDO</b>", null, [esc(e.message || String(e))]));
     }
     return new Response("ok");
   },
@@ -106,7 +156,7 @@ async function setup(env, origin) {
   const wh = await tg(env, "setWebhook", {
     url: origin + "/",
     secret_token: env.WEBHOOK_SECRET,
-    allowed_updates: ["message", "edited_message"],
+    allowed_updates: ["message", "edited_message", "callback_query"],
     drop_pending_updates: true,
   });
   lineas.push("Webhook de Telegram: " + (wh.ok ? "OK" : "ERROR " + wh.description));
@@ -133,7 +183,7 @@ async function setup(env, origin) {
 async function manejar(env, chatId, texto) {
   const m = texto.match(/^\/([a-zA-Z_]+)(?:@\S+)?\s*([\s\S]*)$/);
   if (!m) {
-    return send(env, chatId, "Escribe /ayuda para ver los comandos.");
+    return send(env, chatId, marco("👋 <b>HOLA</b>", null, ["Escríbeme un comando, por ejemplo /ofertas.", "Todos los comandos: /ayuda"]));
   }
   const cmd = m[1].toLowerCase();
   const args = m[2].trim();
@@ -149,6 +199,25 @@ async function manejar(env, chatId, texto) {
       return send(env, chatId, await cmdPrecios(env, args));
     case "ofertas":
       return send(env, chatId, await cmdOfertas(env, args));
+    case "historial":
+      if (!args) return send(env, chatId, uso("/historial", ["/historial metroid prime 4", "/historial zelda"]));
+      {
+        const r = await cmdPrecios(env, args);
+        if (typeof r === "object") {
+          const t2 = r.titulo.replace("💰 <b>PRECIOS ·", "📈 <b>HISTORIAL ·");
+          r.bloques[0] = r.bloques[0].replace(r.titulo, t2);
+          r.titulo = t2;
+        }
+        return send(env, chatId, typeof r === "string" ? r.replace("💰 <b>PRECIOS ·", "📈 <b>HISTORIAL ·") : r);
+      }
+    case "resumen":
+      return send(env, chatId, await cmdResumen(env, args));
+    case "evento":
+    case "eventos":
+      return send(env, chatId, await cmdEvento(env, args));
+    case "seguidos":
+    case "seguimiento":
+      return send(env, chatId, await cmdSeguidos(env));
     case "revisar":
       return send(env, chatId, await cmdRevisar(env));
     case "agregar":
@@ -161,121 +230,283 @@ async function manejar(env, chatId, texto) {
       return send(env, chatId, await cmdAjuste(env, args, "descuento_minimo_pct", "Descuento mínimo"));
     case "baja":
       return send(env, chatId, await cmdAjuste(env, args, "baja_minima_pct", "Baja mínima"));
+    case "externos":
+      return send(env, chatId, await cmdExternos(env, args));
     case "tienda":
       return send(env, chatId, await cmdTienda(env, args));
     case "quitartienda":
       return send(env, chatId, await cmdQuitarTienda(env, args));
     default:
-      return send(env, chatId, "No conozco ese comando. Escribe /ayuda.");
+      return send(env, chatId, marco("❓ <b>COMANDO DESCONOCIDO</b>", null, [`No conozco /${esc(cmd)}.`, "Todos los comandos: /ayuda"]));
   }
 }
 
 async function cmdConfig(env) {
   const { data: cfg } = await leer(env, "juegos.json");
-  const { data: st } = await leer(env, "state.json");
+  const { data: idx } = await leer(env, "vistas/indice.json");
+  const st = idx ? { fallos: idx.fallos, ultima_revision: idx.revision } : null;
   const aj = cfg.ajustes || {};
-  const l = [
-    "⚙️ <b>Configuración</b>",
-    `Descuento mínimo: <b>${aj.descuento_minimo_pct ?? 25}%</b>`,
-    `Baja mínima entre revisiones: <b>${aj.baja_minima_pct ?? 10}%</b>`,
-    `eShop: <b>${esc(aj.pais_eshop || "US")}</b>`,
-    "",
-    `🎮 <b>Juegos (${(cfg.juegos || []).length})</b>`,
-  ];
-  for (const j of cfg.juegos || []) {
-    const t = terminos(j);
-    let linea = `• ${esc(j.nombre)}`;
-    if (t.length !== 1 || norm(t[0]) !== norm(j.nombre)) linea += ` <i>(busca: ${esc(t.join(", "))})</i>`;
-    const obj = [];
-    if (j.objetivo_clp != null) obj.push(clp(j.objetivo_clp));
-    if (j.objetivo_usd != null) obj.push(usd(j.objetivo_usd));
-    if (obj.length) linea += ` 🎯 ${obj.join(" / ")}`;
-    l.push(linea);
-  }
-  l.push("", `🏬 <b>Tiendas (${(cfg.tiendas || []).length})</b>`);
+  const juegos = cfg.juegos || [];
+  const tiendas = cfg.tiendas || [];
   const fallos = (st && st.fallos) || {};
-  for (const t of cfg.tiendas || []) {
-    const estado = fallos[t.nombre] ? ` ⚠️ ${fallos[t.nombre]} revisiones seguidas sin poder leerla` : "";
-    l.push(`• ${esc(t.nombre)} — ${esc(t.url.replace(/^https?:\/\/(www\.)?/, ""))}${estado}`);
+  const objetivos = juegos.filter((j) => j.objetivo_clp != null || j.objetivo_usd != null);
+  const l = [
+    "🔔 <b>Cuándo te aviso</b>",
+    `• Descuento real de <b>${aj.descuento_minimo_pct ?? 25}%</b> o más (/descuento)`,
+    `• Baja de <b>${aj.baja_minima_pct ?? 10}%</b> entre revisiones (/baja)`,
+    "• Mínimo histórico 🏆 y precio objetivo 🎯",
+    `• Vendedores externos: <b>${aj.excluir_externos ? "excluidos" : "incluidos 🏪"}</b> (/externos)`,
+    "",
+    `🗞️ Resumen diario: <b>${(aj.modo_alertas || "resumen") === "resumen" ? `a las ${aj.hora_resumen ?? 20}:00` : "apagado"}</b> (/resumen)`,
+    `🚨 Modo evento: <b>${idx && idx.evento ? "activo · " + esc(idx.evento.nombre) : idx && idx.proximo ? "próximo " + esc(idx.proximo.nombre) + " el " + fecha(idx.proximo.desde) : "sin eventos"}</b> (/evento)`,
+    "",
+    `🌎 <b>eShop comparadas</b>: ${esc((aj.regiones_eshop || ["US", "CA", "MX", "BR", "CL", "CO", "PE"]).join(" · "))}`,
+    "",
+    `🏬 <b>Tiendas (${tiendas.filter((t) => t.activa !== false).length} activas)</b>`,
+  ];
+  for (const t of tiendas) {
+    const est = t.activa === false ? "⏸️ pausada" : fallos[t.nombre] ? `⚠️ ${fallos[t.nombre]} ${fallos[t.nombre] === 1 ? "fallo" : "fallos seguidos"}` : "✅";
+    l.push(`• ${esc(t.nombre)} ${est}`);
   }
-  if (st && st.ultima_revision) l.push("", `🕒 Última revisión: ${hora(st.ultima_revision)}`);
-  return l.join("\n");
+  l.push("", `🎮 <b>Juegos vigilados (${juegos.length})</b>`);
+  l.push(juegos.map((j) => esc(j.nombre)).sort((a, b) => a.localeCompare(b, "es")).join(" · "));
+  if (objetivos.length) {
+    l.push("", "🎯 <b>Precios objetivo</b>");
+    for (const j of objetivos) {
+      const o = [j.objetivo_clp != null ? clp(j.objetivo_clp) : null, j.objetivo_usd != null ? usd(j.objetivo_usd) : null].filter(Boolean);
+      l.push(`• ${esc(j.nombre)}: ${o.join(" / ")}`);
+    }
+  }
+  const sub = st && st.ultima_revision ? `Última revisión: ${hora(st.ultima_revision)}` : null;
+  return marco("⚙️ <b>CONFIGURACIÓN</b>", sub, l, ["Cambiar: /agregar · /quitar · /objetivo · /tienda"]);
 }
 
-function itemsVigentes(st) {
+function vigente(it, st) {
+  if (!st || !st.ultima_revision) return true;
+  const corte = new Date(new Date(st.ultima_revision).getTime() - 12 * 3600e3).toISOString().slice(0, 19);
+  return (it.visto || "") >= corte;
+}
+
+function productosVigentes(st) {
+  if (!st) return [];
+  return Object.entries(st.productos || {})
+    .filter(([, p]) => p.nombre && p.precio != null && vigente(p, st))
+    .map(([clave, p]) => ({ clave, ...p }));
+}
+
+function eshopVigentes(st) {
+  if (!st) return [];
+  return Object.entries(st.eshop || {})
+    .filter(([, e]) => e.titulo && e.ultimo != null && vigente(e, st))
+    .map(([nsuid, e]) => ({ nsuid, ...e }));
+}
+
+const REF_TXT = { tipico: "vs su precio típico", mercado: "vs otras tiendas", tienda: "según la tienda" };
+const REF_CORTO = { tipico: "vs típico", mercado: "vs otras", tienda: "según tienda" };
+
+function nombreProducto(p) {
+  return esc(p.nombre) + (p.variante && p.variante.length ? ` (${esc(p.variante.join(" "))})` : "");
+}
+
+function lineaProducto(p, st, { conJuego = false, detalle = false } = {}) {
+  let s = `<a href="${escAttr(p.url)}">${nombreProducto(p)}</a> · ${esc(p.plataforma)}`;
+  if (conJuego) s = `<i>${esc(p.juego)}</i> · ` + s;
+  s += `\n   📦 ${clp(p.precio)} en ${esc(p.tienda)}` + (p.externo ? ` 🏪 ${esc(p.vendedor || "vendedor externo")}` : "");
+  if (p.min_hist && p.dias >= 7 && p.precio <= p.min_hist) s += " 🏆";
+  if (p.ref && p.pct >= 5) s += `  −${Math.round(p.pct)}% ${REF_TXT[p.ref_tipo] || "vs referencia"} (${clp(p.ref)})`;
+  const e = p.nsuid && st && st.eshop ? st.eshop[p.nsuid] : null;
+  if (e && e.ultimo != null) {
+    s += `\n   🎮 ${usd(e.ultimo)}` + (e.clp ? ` ≈${clp(e.clp)}` : "") + (e.pais && e.pais !== "US" ? ` en ${esc(e.pais)}` : "") +
+      (pctEshop(e) ? ` (−${Math.round(pctEshop(e))}%)` : "") +
+      (e.clp ? (e.clp < p.precio ? " → conviene digital" : " → conviene físico") : "");
+  }
+  if (detalle && p.avisos && p.avisos.length > 1) {
+    for (const a of p.avisos) s += `\n      · <a href="${escAttr(a.url)}">${clp(a.precio)} ${esc(a.tienda)}</a>${a.externo ? " 🏪" : ""}`;
+  }
+  if (detalle && p.min_hist && p.dias >= 1) {
+    s += `\n   📉 mínimo visto ${clp(p.min_hist)}` + (p.min_tienda ? ` en ${esc(p.min_tienda)}` : "") +
+      (p.min_fecha ? ` (${fecha(p.min_fecha)})` : "");
+  }
+  return s;
+}
+
+function lineaEshop(e, conJuego = false) {
+  const pct = Math.round(pctEshop(e));
+  let s = `<a href="${escAttr(e.url)}">${esc(e.titulo)}</a>${e.plataforma === "Switch 2" && !/switch 2/i.test(e.titulo) ? " <b>S2</b>" : ""}\n   🎮 ${usd(e.ultimo)}` +
+    (e.clp ? ` ≈${clp(e.clp)}` : "") + (e.pais && e.pais !== "US" ? ` en ${esc(e.pais)}` : "");
+  if (pct > 0) s += `  <s>${usd(e.normal)}</s>  −${pct}%`;
+  if (e.fin && pct > 0) s += `  ⏳ ${fecha(e.fin.slice(0, 10))}`;
+  if (e.min_hist && e.dias >= 7 && e.ultimo <= e.min_hist) s += " 🏆";
+  if (conJuego) s = `<i>${esc(e.juego)}</i> · ` + s;
+  return s;
+}
+
+// % de oferta real en la eShop (ignora diferencias chicas entre paises)
+function pctEshop(e) {
+  if (!e || !e.normal || !(e.normal > e.ultimo)) return 0;
+  const pct = 100 * (1 - e.ultimo / e.normal);
+  return pct >= 5 ? pct : 0;
+}
+
+function coincideBusqueda(q, juego, nombre) {
+  return norm(juego) === q || norm(nombre).includes(q) || norm(juego).includes(q);
+}
+
+// ------------------------------------------------- vistas (tarjetas ya armadas)
+
+const NIVEL = {
+  objetivo: [0, "🎯", "LLEGÓ A TU OBJETIVO"],
+  compra: [1, "🟢", "COMPRA YA"],
+  bueno: [2, "🟡", "BUEN PRECIO"],
+  regular: [3, "🟠", "PRECIO REGULAR"],
+  normal: [4, "⚪", "PRECIO NORMAL"],
+};
+const LEYENDA = "🟢 compra ya · 🟡 buen precio · 🟠 regular · ⚪ normal · 🎯 tu objetivo\n🏪 vendedor externo del marketplace · 🥇🥈🥉 ranking de tiendas";
+const SEP_TARJETA = "┈┈┈┈┈┈┈┈┈┈┈┈┈┈";
+
+function resumenNiveles(items) {
+  const c = {};
+  for (const it of items) c[it.nivel] = (c[it.nivel] || 0) + 1;
+  return Object.keys(NIVEL).filter((k) => c[k]).map((k) => `${NIVEL[k][1]} ${c[k]} · ${NIVEL[k][2].toLowerCase()}`);
+}
+
+function seccionesPorNivel(items) {
   const out = [];
-  if (!st) return out;
-  const corte = st.ultima_revision
-    ? new Date(new Date(st.ultima_revision).getTime() - 12 * 3600e3).toISOString()
-    : "";
-  for (const grupo of ["eshop", "tiendas"]) {
-    for (const it of Object.values(st[grupo] || {})) {
-      if (!it.titulo || it.ultimo == null) continue;
-      if (corte && (it.visto || "") < corte.slice(0, 19)) continue;
-      out.push(it);
-    }
+  for (const k of Object.keys(NIVEL)) {
+    const g = items.filter((it) => it.nivel === k);
+    if (!g.length) continue;
+    out.push(`━━━ ${NIVEL[k][1]} <b>${NIVEL[k][2]}</b> (${g.length}) ━━━`);
+    for (const it of g) out.push({ t: `${it.texto}\n${SEP_TARJETA}`, boton: it.boton });
   }
   return out;
 }
 
-function lineaItem(it, conJuego = false) {
-  const pct = it.normal && it.normal > it.ultimo ? Math.round(100 * (1 - it.ultimo / it.normal)) : 0;
-  let s = `<a href="${escAttr(it.url)}">${esc(it.titulo)}</a> · ${esc(it.origen)}\n   ${dinero(it.ultimo, it.moneda)}`;
-  if (pct > 0) s += `  <s>${dinero(it.normal, it.moneda)}</s>  −${pct}%`;
-  if (it.fin && pct > 0) s += `  ⏳ ${it.fin.slice(0, 10)}`;
-  if (conJuego) s = `<i>${esc(it.juego)}</i> · ` + s;
-  return s;
-}
-
-async function cmdPrecios(env, args) {
-  const { data: st } = await leer(env, "state.json");
-  const items = itemsVigentes(st);
-  if (!items.length) return "Todavía no hay precios guardados. Usa /revisar y vuelve en unos minutos.";
-  const pie = `\n\n🕒 Precios de la revisión del ${hora(st.ultima_revision)}`;
-
-  if (args) {
-    const q = norm(args);
-    const sel = items.filter((it) => norm(it.juego) === q)
-      .concat(items.filter((it) => norm(it.juego) !== q && norm(it.titulo).includes(q)));
-    if (!sel.length) return `No encontré precios para "${esc(args)}". Revisa el nombre con /config.`;
-    const fis = sel.filter((it) => it.moneda === "CLP").sort((a, b) => a.ultimo - b.ultimo);
-    const dig = sel.filter((it) => it.moneda !== "CLP").sort((a, b) => a.ultimo - b.ultimo);
-    const l = [`💰 <b>${esc(args)}</b> — ${sel.length} precios`];
-    if (fis.length) l.push("", "📦 <b>Físico</b>", ...fis.map((it) => lineaItem(it)));
-    if (dig.length) l.push("", "🎮 <b>Digital</b>", ...dig.map((it) => lineaItem(it)));
-    return l.join("\n") + pie;
-  }
-
-  const porJuego = {};
-  for (const it of items) (porJuego[it.juego] ||= []).push(it);
-  const l = ["💰 <b>Lo más barato de cada juego</b>", "<i>Para ver todo: /precios nombre</i>"];
-  for (const juego of Object.keys(porJuego).sort((a, b) => a.localeCompare(b, "es"))) {
-    const g = porJuego[juego];
-    l.push("", `<b>${esc(juego)}</b> (${g.length})`);
-    const fis = g.filter((it) => it.moneda === "CLP").sort((a, b) => a.ultimo - b.ultimo)[0];
-    const dig = g.filter((it) => it.moneda !== "CLP").sort((a, b) => a.ultimo - b.ultimo)[0];
-    if (fis) l.push("📦 " + lineaItem(fis));
-    if (dig) l.push("🎮 " + lineaItem(dig));
-  }
-  return l.join("\n") + pie;
+function sinDatos(titulo) {
+  return marco(titulo, null, ["Todavía no hay datos armados.", "Usa /revisar y vuelve en unos minutos."]);
 }
 
 async function cmdOfertas(env, args) {
-  const { data: st } = await leer(env, "state.json");
-  const min = args ? parseFloat(args.replace(/[^\d.]/g, "")) || 1 : 1;
-  const items = itemsVigentes(st)
-    .filter((it) => it.normal && it.normal > it.ultimo)
-    .map((it) => ({ ...it, pct: 100 * (1 - it.ultimo / it.normal) }))
-    .filter((it) => it.pct >= min)
-    .sort((a, b) => b.pct - a.pct);
-  if (!items.length) {
-    return `No hay juegos con ${min > 1 ? min + "% o más de " : ""}descuento en la última revisión.`;
+  const { data } = await leer(env, "vistas/ofertas.json");
+  const titulo = "🔥 <b>OFERTAS VIGENTES</b>";
+  if (!data) return sinDatos(titulo);
+  const a = norm(args);
+  const min = parseFloat(a.replace(/[^\d.]/g, "")) || 0;
+  const tipo = /fisic/.test(a) ? "fisico" : /digit|eshop/.test(a) ? "digital" : null;
+  const todo = /todo|todas|regular/.test(a);
+  const solo = /compra|ya/.test(a) ? ["objetivo", "compra"] : todo ? null : ["objetivo", "compra", "bueno"];
+  let items = data.items.filter((it) => it.pct >= min && (!tipo || it.tipo === tipo) && (!solo || solo.includes(it.nivel)));
+  const regulares = todo ? 0 : data.items.filter((it) => it.nivel === "regular" && it.pct >= min && (!tipo || it.tipo === tipo)).length;
+  const filtros = [min ? `${min}% o más` : null, tipo ? (tipo === "fisico" ? "solo físico" : "solo digital") : null,
+    /compra|ya/.test(a) ? "solo para comprar ya" : null, todo ? "incluye regulares" : null].filter(Boolean).join(" · ");
+  const sub = `Revisión del ${hora(data.revision)}${filtros ? " · " + filtros : ""}`;
+  if (!items.length) return marco(titulo, sub, ["No hay ofertas con ese filtro ahora.", "Prueba: /ofertas · /ofertas fisico · /ofertas 20"]);
+  const fis = items.filter((i) => i.tipo === "fisico").length;
+  const cab = marco(titulo, sub, ["📋 <b>RESUMEN</b>", ...resumenNiveles(items),
+    `📦 ${fis} físico${fis === 1 ? "" : "s"} · 🎮 ${items.length - fis} digital${items.length - fis === 1 ? "" : "es"}`]);
+  return { titulo, bloques: [cab, ...seccionesPorNivel(items),
+    `${SEP}\n${LEYENDA}` + (regulares ? `\n\n🟠 Hay ${regulares} más a precio regular (−5% a −15%): /ofertas todo` : "") +
+    "\n\nFiltrar: /ofertas compra · /ofertas fisico · /ofertas digital · /ofertas 30 · /ofertas todo"] };
+}
+
+async function cmdPrecios(env, args) {
+  const { data: indice } = await leer(env, "vistas/indice.json");
+  if (!indice) return sinDatos("💰 <b>PRECIOS ACTUALES</b>");
+  const sub = `Revisión del ${hora(indice.revision)}`;
+  if (!args) {
+    const con = indice.sagas.filter((s) => s.orden <= 2).sort((a, b) => a.orden - b.orden || a.juego.localeCompare(b.juego, "es"));
+    const sin = indice.sagas.filter((s) => s.orden > 2).sort((a, b) => a.juego.localeCompare(b.juego, "es"));
+    const l = [];
+    if (con.length) l.push(`🔥 <b>CON OPORTUNIDADES</b> (${con.length})`, ...con.map((s) => s.linea));
+    if (sin.length) l.push(...(l.length ? [""] : []), `😴 <b>SIN NOVEDADES</b> (${sin.length})`, ...sin.map((s) => s.linea));
+    return marco("💰 <b>PRECIOS ACTUALES</b>", `${sub} · ${indice.sagas.length} sagas · ${indice.total} productos`, l,
+      ["📦 físico · 🎮 eShop (país más barato)", "Ver una saga completa: /precios zelda", "Buscar un juego: /precios tears of the kingdom"]);
   }
-  const l = [`🔥 <b>Ofertas${min > 1 ? ` de ${min}% o más` : ""}</b> — ${items.length}`];
-  for (const it of items.slice(0, 60)) l.push(lineaItem(it, true));
-  if (items.length > 60) l.push(`… y ${items.length - 60} más. Usa /ofertas 30 para filtrar.`);
-  l.push("", `🕒 Revisión del ${hora(st.ultima_revision)}`);
-  return l.join("\n");
+  const q = norm(args);
+  let saga = indice.sagas.find((s) => norm(s.juego) === q) ||
+    indice.sagas.find((s) => norm(s.juego).includes(q) || q.includes(norm(s.juego)));
+  let filtro = null;
+  if (!saga) {
+    saga = indice.sagas.find((s) => (s.nombres || []).some((n) => n.includes(q)));
+    filtro = q;
+  } else if (norm(saga.juego) !== q && !norm(saga.juego).includes(q)) {
+    filtro = q;
+  }
+  const titulo = `💰 <b>PRECIOS · ${esc(args.toUpperCase())}</b>`;
+  if (!saga) return marco(titulo, sub, [`No encontré "${esc(args)}".`, "Mira las sagas con /precios o agrégala con /agregar."]);
+  const { data } = await leer(env, `vistas/saga/${saga.slug}.json`);
+  if (!data) return sinDatos(titulo);
+  let items = data.items;
+  if (filtro) items = items.filter((it) => norm(it.nombre || it.texto).includes(filtro));
+  if (!items.length) items = data.items;
+  const fis = items.filter((i) => i.tipo === "fisico").length;
+  const cab = marco(titulo, `${sub} · saga ${esc(saga.juego)}`, ["📋 <b>RESUMEN</b>", ...resumenNiveles(items),
+    `📦 ${fis} físico${fis === 1 ? "" : "s"} · 🎮 ${items.length - fis} digital${items.length - fis === 1 ? "" : "es"}`]);
+  return { titulo, bloques: [cab, ...seccionesPorNivel(items), `${SEP}\n${LEYENDA}\n\nTodas las sagas: /precios · Ofertas: /ofertas`] };
+}
+
+function lineaCorta(p, st) {
+  const plat = p.plataforma === "Switch 2" ? " <b>S2</b>" : "";
+  const varTxt = p.variante && p.variante.length ? ` (${esc(p.variante.join(" "))})` : "";
+  let s = `• <a href="${escAttr(p.url)}">${esc(p.nombre)}</a>${varTxt}${plat} — ${clp(p.precio)} ${esc(p.tienda)}${p.externo ? " 🏪" : ""}`;
+  if (p.min_hist && p.dias >= 7 && p.precio <= p.min_hist) s += " 🏆";
+  if (p.ref && p.pct >= 5) s += ` · −${Math.round(p.pct)}% ${REF_CORTO[p.ref_tipo] || ""}`;
+  const e = p.nsuid && st && st.eshop ? st.eshop[p.nsuid] : null;
+  if (e && e.ultimo != null) {
+    s += ` · 🎮 ${usd(e.ultimo)}${e.pais && e.pais !== "US" ? " " + e.pais : ""}`;
+    if (e.clp) s += e.clp < p.precio ? " (digital más barato)" : "";
+  }
+  return s;
+}
+
+const BARRAS = "▁▂▃▄▅▆▇█";
+
+function sparkline(valores) {
+  if (valores.length < 2) return "";
+  const lo = Math.min(...valores), hi = Math.max(...valores);
+  return valores.map((v) => BARRAS[hi === lo ? 3 : Math.round(((v - lo) / (hi - lo)) * 7)]).join("");
+}
+
+function valor(v) {
+  return Array.isArray(v) ? v[0] : v;
+}
+
+async function cmdHistorial(env, args) {
+  if (!args) return uso("/historial", ["/historial metroid prime 4", "/historial zelda"]);
+  const { data: hist } = await leer(env, "history.json");
+  const { data: st } = await leer(env, "state.json");
+  if (!hist || !hist.productos) return marco("📈 <b>HISTORIAL DE PRECIOS</b>", null, ["Todavía no hay historial. Se va armando con cada revisión."]);
+  const q = norm(args);
+  const encontrados = Object.entries(hist.productos)
+    .filter(([, h]) => coincideBusqueda(q, h.juego || "", h.nombre || ""))
+    .sort((a, b) => Object.keys(b[1].f || {}).length - Object.keys(a[1].f || {}).length);
+  if (!encontrados.length) return marco(`📈 <b>HISTORIAL · ${esc(args.toUpperCase())}</b>`, null, [`No hay historial para "${esc(args)}".`]);
+  const l = [];
+  for (const [clave, h] of encontrados.slice(0, 8)) {
+    const fechas = Object.keys(h.f || {}).sort();
+    if (!fechas.length) continue;
+    const vals = fechas.map((d) => valor(h.f[d]));
+    const iMin = vals.indexOf(Math.min(...vals));
+    const tiendaMin = Array.isArray(h.f[fechas[iMin]]) ? h.f[fechas[iMin]][1] : null;
+    const actual = st && st.productos && st.productos[clave];
+    if (l.length) l.push("");
+    l.push(`<b>${esc(h.nombre)}</b> · ${esc(h.plataforma || "")}`);
+    if (actual && vigente(actual, st)) l.push(`   Hoy: ${clp(actual.precio)} en ${esc(actual.tienda)}`);
+    l.push(`   🏆 Mínimo: ${clp(vals[iMin])}${tiendaMin ? " en " + esc(tiendaMin) : ""} (${fecha(fechas[iMin])})`);
+    const ordenados = [...vals].sort((a, b) => a - b);
+    const tipico = ordenados[Math.floor(ordenados.length / 2)];
+    l.push(`   Típico: ${clp(tipico)} · Máximo: ${clp(Math.max(...vals))}`);
+    const ult = fechas.slice(-30).map((d) => valor(h.f[d]));
+    l.push(`   ${sparkline(ult)}  ${fechas.length} día${fechas.length === 1 ? "" : "s"} de datos`);
+    const nsuid = actual && actual.nsuid;
+    const he = nsuid && hist.eshop && hist.eshop[nsuid];
+    if (he) {
+      const ev = Object.values(he).map(valor);
+      l.push(`   🎮 eShop: hoy ${usd(ev[ev.length - 1])} · mínimo ${usd(Math.min(...ev))}`);
+    }
+  }
+  const pie = ["Mínimo y típico usan el precio más bajo de cada día, entre todas las tiendas"];
+  if (encontrados.length > 8) pie.unshift(`… y ${encontrados.length - 8} más. Escribe un nombre más preciso.`);
+  return marco(`📈 <b>HISTORIAL · ${esc(args.toUpperCase())}</b>`, `${Math.min(8, encontrados.length)} de ${encontrados.length} productos`, l, pie);
 }
 
 async function cmdRevisar(env) {
@@ -284,11 +515,14 @@ async function cmdRevisar(env) {
     body: JSON.stringify({ ref: "main", inputs: { modo: "normal" } }),
   });
   if (r.status !== 204) throw new Error(`GitHub no inició la revisión (${r.status}): ${(await r.text()).slice(0, 150)}`);
-  return "🔎 Revisión iniciada. En 2–4 minutos te llegan las ofertas nuevas, si hay.\nDespués puedes ver todo con /precios u /ofertas.";
+  return marco("🔎 <b>REVISIÓN EN CURSO</b>", null, [
+    "Estoy revisando todas las tiendas y la eShop.",
+    "En unos 8 minutos te llega la 🔔 alerta si hay algo urgente; lo demás va al 🗞️ resumen.",
+  ], ["Después: /ofertas · /precios"]);
 }
 
 async function cmdAgregar(env, args) {
-  if (!args) return "Uso: /agregar Kirby\no: /agregar Final Fantasy | final fantasy, ff";
+  if (!args) return uso("/agregar", ["/agregar Kirby", "/agregar Final Fantasy | final fantasy, ff"]);
   const [nombreRaw, busqRaw] = args.split("|");
   const nombre = nombreRaw.trim();
   const buscar = busqRaw
@@ -302,23 +536,23 @@ async function cmdAgregar(env, args) {
     }
     cfg.juegos.push({ nombre, buscar: buscar.length === 1 ? buscar[0] : buscar });
   });
-  return `✅ Agregado <b>${esc(nombre)}</b> (busca: ${esc(buscar.join(", "))}).\nSe incluye desde la próxima revisión, o usa /revisar.`;
+  return guardado([`➕ Juego agregado: <b>${esc(nombre)}</b>`, `Busca: ${esc(buscar.join(", "))}`]);
 }
 
 async function cmdQuitar(env, args) {
-  if (!args) return "Uso: /quitar Kirby";
+  if (!args) return uso("/quitar", ["/quitar Kirby"]);
   let quitado;
   await editar(env, `Quita juego ${args}`, (cfg) => {
     const i = (cfg.juegos || []).findIndex((j) => norm(j.nombre) === norm(args));
     if (i < 0) throw new Error(`No encontré "${args}". Revisa el nombre con /config.`);
     quitado = cfg.juegos.splice(i, 1)[0].nombre;
   });
-  return `🗑️ Quitado <b>${esc(quitado)}</b>.`;
+  return guardado(`🗑️ Juego quitado: <b>${esc(quitado)}</b>`);
 }
 
 async function cmdObjetivo(env, args) {
-  const uso = "Uso:\n/objetivo Zelda 30000 (pesos, físico)\n/objetivo Zelda 29.99 usd (eShop)\n/objetivo Zelda quitar";
-  if (!args) return uso;
+  const ayuda = uso("/objetivo", ["/objetivo Zelda 30000 — pesos, físico", "/objetivo Zelda 29.99 usd — eShop", "/objetivo Zelda quitar"]);
+  if (!args) return ayuda;
   let resp;
   const quitar = args.match(/^(.+?)\s+(quitar|borrar|no)$/i);
   if (quitar) {
@@ -326,12 +560,12 @@ async function cmdObjetivo(env, args) {
       const j = buscarJuego(cfg, quitar[1]);
       delete j.objetivo_clp;
       delete j.objetivo_usd;
-      resp = `🎯 Sin precio objetivo para <b>${esc(j.nombre)}</b>.`;
+      resp = guardado(`🎯 Sin precio objetivo para <b>${esc(j.nombre)}</b>`);
     });
     return resp;
   }
   const m = args.match(/^(.+?)\s+(us\$|\$)?\s*([\d.,]+)\s*(usd|us\$|dolares|dólares|clp|pesos)?$/i);
-  if (!m) return uso;
+  if (!m) return ayuda;
   const nombre = m[1].trim();
   const numero = m[3];
   const marca = ((m[2] || "") + (m[4] || "")).toLowerCase();
@@ -339,28 +573,40 @@ async function cmdObjetivo(env, args) {
   const valor = esUsd
     ? parseFloat(numero.replace(",", "."))
     : parseInt(numero.replace(/[.,]/g, ""), 10);
-  if (!(valor > 0)) return uso;
+  if (!(valor > 0)) return ayuda;
   await editar(env, `Objetivo ${nombre}`, (cfg) => {
     const j = buscarJuego(cfg, nombre);
     j[esUsd ? "objetivo_usd" : "objetivo_clp"] = valor;
-    resp = `🎯 <b>${esc(j.nombre)}</b>: te aviso cuando ${esUsd ? "en la eShop" : "en tiendas"} llegue a <b>${esUsd ? usd(valor) : clp(valor)}</b> o menos.`;
+    resp = guardado(`🎯 <b>${esc(j.nombre)}</b>: te aviso cuando ${esUsd ? "en la eShop" : "en tiendas"} llegue a <b>${esUsd ? usd(valor) : clp(valor)}</b> o menos.`);
   });
   return resp;
 }
 
 async function cmdAjuste(env, args, clave, etiqueta) {
   const n = parseFloat((args || "").replace(/[^\d.]/g, ""));
-  if (!(n >= 1 && n <= 95)) return `Uso: /${clave.startsWith("desc") ? "descuento" : "baja"} 30  (entre 1 y 95)`;
+  if (!(n >= 1 && n <= 95)) return uso(`/${clave.startsWith("desc") ? "descuento" : "baja"}`, [`/${clave.startsWith("desc") ? "descuento" : "baja"} 30 — un número entre 1 y 95`]);
   await editar(env, `${etiqueta} ${n}%`, (cfg) => {
     cfg.ajustes ||= {};
     cfg.ajustes[clave] = n;
   });
-  return `✅ ${etiqueta}: <b>${n}%</b>. Se aplica desde la próxima revisión.`;
+  return guardado(`${etiqueta}: <b>${n}%</b>`);
+}
+
+async function cmdExternos(env, args) {
+  const a = norm(args);
+  if (!["si", "no"].includes(a)) return uso("/externos", ["/externos si — incluir vendedores externos 🏪", "/externos no — solo lo que vende la tienda"]);
+  await editar(env, `Vendedores externos: ${a}`, (cfg) => {
+    cfg.ajustes ||= {};
+    cfg.ajustes.excluir_externos = a === "no";
+  });
+  return guardado(a === "no"
+    ? "Solo muestro lo que vende la tienda misma, sin vendedores externos."
+    : "Incluyo vendedores externos de los marketplaces, marcados con 🏪.");
 }
 
 async function cmdTienda(env, args) {
   const m = (args || "").match(/^(.+?)\s+(https?:\/\/\S+)$/i);
-  if (!m) return "Uso: /tienda Zmart https://www.zmart.cl";
+  if (!m) return uso("/tienda", ["/tienda Zmart https://www.zmart.cl"]);
   const nombre = m[1].trim();
   const url = m[2].replace(/\/+$/, "");
   await editar(env, `Agrega tienda ${nombre}`, (cfg) => {
@@ -370,18 +616,18 @@ async function cmdTienda(env, args) {
     }
     cfg.tiendas.push({ nombre, url });
   });
-  return `✅ Tienda <b>${esc(nombre)}</b> agregada. En la próxima revisión el bot prueba cómo leerla; si no puede, te avisa.`;
+  return guardado([`🏬 Tienda agregada: <b>${esc(nombre)}</b>`, "En la próxima revisión pruebo cómo leerla; si no puedo, te aviso."]);
 }
 
 async function cmdQuitarTienda(env, args) {
-  if (!args) return "Uso: /quitartienda Zmart";
+  if (!args) return uso("/quitartienda", ["/quitartienda Zmart"]);
   let quitada;
   await editar(env, `Quita tienda ${args}`, (cfg) => {
     const i = (cfg.tiendas || []).findIndex((t) => norm(t.nombre) === norm(args));
     if (i < 0) throw new Error(`No encontré la tienda "${args}". Revisa con /config.`);
     quitada = cfg.tiendas.splice(i, 1)[0].nombre;
   });
-  return `🗑️ Tienda <b>${esc(quitada)}</b> quitada.`;
+  return guardado(`🗑️ Tienda quitada: <b>${esc(quitada)}</b>`);
 }
 
 function buscarJuego(cfg, nombre) {
@@ -392,6 +638,258 @@ function buscarJuego(cfg, nombre) {
     js.find((x) => norm(x.nombre).includes(q));
   if (!j) throw new Error(`No encontré "${nombre}". Revisa el nombre con /config.`);
   return j;
+}
+
+
+// ------------------------------------------------------------- agenda
+
+async function dispatch(env, modo) {
+  const r = await gh(env, `/repos/${env.GITHUB_REPO}/actions/workflows/${WORKFLOW}/dispatches`, {
+    method: "POST",
+    body: JSON.stringify({ ref: "main", inputs: { modo } }),
+  });
+  if (r.status !== 204) throw new Error(`GitHub no inició la tarea (${r.status}): ${(await r.text()).slice(0, 150)}`);
+}
+
+async function cmdResumen(env, args) {
+  const a = norm(args);
+  const titulo = "🗞️ <b>RESUMEN DIARIO</b>";
+  if (a === "ahora" || a === "ya") {
+    await dispatch(env, "resumen");
+    return marco(titulo, null, ["Lo estoy armando: llega en 1–2 minutos."]);
+  }
+  if (a === "off" || a === "no" || a === "apagar") {
+    await editar(env, "Resumen diario apagado", (cfg) => { cfg.ajustes ||= {}; cfg.ajustes.modo_alertas = "inmediato"; });
+    return guardado(["🔔 Sin resumen: todas las ofertas te llegan apenas las encuentro."], []);
+  }
+  const h = parseInt(a, 10);
+  if (a && !(h >= 0 && h <= 23)) return uso("/resumen", ["/resumen 21 — a qué hora llega (0 a 23)", "/resumen ahora — mandarlo ya", "/resumen off — todo al momento, sin resumen"]);
+  if (a) {
+    await editar(env, `Resumen a las ${h}:00`, (cfg) => { cfg.ajustes ||= {}; cfg.ajustes.hora_resumen = h; cfg.ajustes.modo_alertas = "resumen"; });
+    return guardado([`🗞️ El resumen te llega todos los días a las <b>${h}:00</b>.`,
+      "🔔 Lo urgente (🎯 objetivo, 🟢 compra ya, ⭐ seguidos, 🏆 mínimos) sigue llegando al momento."], []);
+  }
+  const { data: cfg } = await leer(env, "juegos.json");
+  const { data: idx } = await leer(env, "vistas/indice.json");
+  const aj = (cfg && cfg.ajustes) || {};
+  const on = (aj.modo_alertas || "resumen") === "resumen";
+  return marco(titulo, null, [
+    on ? `✅ Activo: todos los días a las <b>${aj.hora_resumen ?? 20}:00</b>` : "⏸️ Apagado: todo llega al momento",
+    on ? `🗂️ ${idx && idx.pendientes || 0} oferta(s) esperando el próximo resumen` : "",
+    "",
+    "🔔 Al momento: 🎯 objetivo · 🟢 compra ya · ⭐ seguidos · 🏆 mínimos",
+    "🗞️ En el resumen: 🟡 buen precio · 🟠 regular · ⏳ ofertas que terminan pronto · 🎯 cómo van tus objetivos · 📅 próximo evento",
+  ].filter((x) => x !== ""), ["/resumen 21 · /resumen ahora · /resumen off"]);
+}
+
+async function cmdEvento(env, args) {
+  const a = norm(args);
+  const titulo = "🚨 <b>MODO EVENTO</b>";
+  const m = a.match(/^(on|si|activar)\s*(\d+)?/);
+  if (m) {
+    const horas = Math.min(parseInt(m[2] || "24", 10), 24 * 14);
+    const hasta = new Date(Date.now() + horas * 3600e3).toISOString().slice(0, 19) + "Z";
+    await editar(env, `Modo evento ${horas} h`, (cfg) => { cfg.ajustes ||= {}; cfg.ajustes.evento_manual = { nombre: "Modo evento manual", hasta }; });
+    return guardado([`🚨 Modo evento activo por <b>${horas} horas</b>.`, "🔎 Reviso cada hora y te mando todas las ofertas al momento."], ["Apagar: /evento off"]);
+  }
+  if (a === "off" || a === "no" || a === "apagar") {
+    await editar(env, "Modo evento apagado", (cfg) => { cfg.ajustes ||= {}; delete cfg.ajustes.evento_manual; });
+    return guardado("Modo evento manual apagado. Los eventos del calendario se siguen activando solos.", []);
+  }
+  if (a) return uso("/evento", ["/evento on — activar 24 horas", "/evento on 72 — activar 72 horas", "/evento off — apagar el modo manual"]);
+  const { data: idx } = await leer(env, "vistas/indice.json");
+  const ev = idx && idx.evento, prox = idx && idx.proximo;
+  const l = [];
+  if (ev) l.push(`🚨 <b>ACTIVO</b>: ${esc(ev.nombre)} hasta el ${fecha(ev.hasta)}`, "Reviso cada hora y todo llega al momento.");
+  else l.push("😴 Ningún evento activo ahora: reviso cada 6 horas.");
+  if (prox) {
+    const dias = Math.round((new Date(prox.desde) - new Date(hoyChile())) / 86400e3);
+    l.push("", "📅 <b>Próximo</b>", `• ${esc(prox.nombre)}: ${fecha(prox.desde)} al ${fecha(prox.hasta)} (en ${dias} días)` + (prox.nota ? `\n  <i>${esc(prox.nota)}</i>` : ""));
+  }
+  l.push("", "🔎 Durante un evento cada tarjeta compara contra el precio de las semanas anteriores y te avisa si una tienda subió el precio justo antes para inflar el «descuento».");
+  return marco(titulo, null, l, ["/evento on 24 · /evento off"]);
+}
+
+// ------------------------------------------------------------- botones
+
+const SEG_VACIO = { objetivos: {}, seguidos: {}, silenciados: {} };
+
+function hoyChile(dias = 0) {
+  const d = new Date(Date.now() - 3 * 3600e3 + dias * 86400e3);
+  return d.toISOString().slice(0, 10);
+}
+
+function dineroDe(info, v) {
+  return info.moneda === "USD" ? usd(v) : clp(v);
+}
+
+function redondeo(info, v) {
+  if (info.moneda === "USD") return Math.max(0.99, Math.floor(v) - 0.01);
+  return Math.max(990, Math.round(v / 1000) * 1000 - 10);
+}
+
+function estadoSeg(seg, id) {
+  const sil = (seg.silenciados || {})[id];
+  const vigente = sil && (!sil.hasta || sil.hasta >= hoyChile());
+  return {
+    objetivo: ((seg.objetivos || {})[id] || {}).precio,
+    seguido: !!(seg.seguidos || {})[id],
+    silenciado: vigente ? (sil.hasta || "siempre") : null,
+  };
+}
+
+function panel(info, id, seg) {
+  const st = estadoSeg(seg, id);
+  const plat = info.plataforma === "Switch 2" ? "Switch 2" : "Switch 1";
+  const l = [
+    `⚙️ <b>ACCIONES</b>`,
+    `<b>${esc(info.nombre)}</b>`,
+    `🕹️ ${plat} · ${info.tipo === "fisico" ? "📦 Físico" : "🎮 Digital"} · ${esc(info.juego)}`,
+    SEP,
+    `💰 Precio actual: <b>${dineroDe(info, info.precio)}</b> en ${esc(info.tienda || "")}`,
+  ];
+  if (info.min) l.push(`📉 Mínimo visto: ${dineroDe(info, info.min)}`);
+  l.push(st.objetivo != null
+    ? `🎯 Objetivo: <b>${dineroDe(info, st.objetivo)}</b>` + (info.precio <= st.objetivo ? " · ¡ya lo alcanzó!" : ` · faltan ${dineroDe(info, info.precio - st.objetivo)}`)
+    : "🎯 Objetivo: sin definir");
+  l.push(st.seguido ? "⭐ Lo sigues: te aviso de cualquier baja" : "⭐ No lo sigues");
+  l.push(st.silenciado ? `🔕 Silenciado${st.silenciado === "siempre" ? "" : " hasta el " + fecha(st.silenciado)}` : "🔔 Alertas activas");
+  l.push(SEP, "<i>Los cambios se aplican desde la próxima revisión</i>");
+
+  const kb = [];
+  if (info.url) kb.push([{ text: `🛒 Ir a ${info.tienda || "la tienda"}`, url: info.url }]);
+  kb.push([{ text: "📈 Ver tarjeta completa", callback_data: `v:${id}` }]);
+  kb.push([10, 20, 30].map((p) => {
+    const v = redondeo(info, info.precio * (1 - p / 100));
+    return { text: `🎯 ${dineroDe(info, v)} (−${p}%)`, callback_data: `o:${id}:${p}` };
+  }));
+  const fila = [{ text: "✏️ Otro precio", callback_data: `oc:${id}` }];
+  if (info.min && info.min < info.precio) fila.unshift({ text: `🎯 Mínimo ${dineroDe(info, info.min)}`, callback_data: `om:${id}` });
+  if (st.objetivo != null) fila.push({ text: "🗑️ Sin objetivo", callback_data: `ox:${id}` });
+  kb.push(fila);
+  kb.push([st.seguido ? { text: "⭐ Dejar de seguir", callback_data: `s:${id}:0` } : { text: "⭐ Seguir este juego", callback_data: `s:${id}:1` }]);
+  kb.push(st.silenciado
+    ? [{ text: "🔔 Reactivar alertas", callback_data: `m:${id}:x` }]
+    : [{ text: "🔕 7 días", callback_data: `m:${id}:7` }, { text: "🔕 30 días", callback_data: `m:${id}:30` }, { text: "🔕 Siempre", callback_data: `m:${id}:0` }]);
+  return { text: l.join("\n"), reply_markup: { inline_keyboard: kb } };
+}
+
+async function infoDe(env, id) {
+  const { data } = await leer(env, "vistas/ids.json");
+  const info = data && data[id];
+  if (!info) throw new Error("No encontré ese juego en la última revisión. Prueba de nuevo después de /revisar.");
+  return info;
+}
+
+async function guardarSeg(env, msg, cambio) {
+  return editarArchivo(env, "seguimiento.json", msg, cambio, SEG_VACIO);
+}
+
+async function manejarBoton(env, cq) {
+  const [acc, id, arg] = String(cq.data || "").split(":");
+  const chatId = cq.message.chat.id;
+  const msgId = cq.message.message_id;
+  const toast = (text) => tg(env, "answerCallbackQuery", { callback_query_id: cq.id, text });
+  const info = await infoDe(env, id);
+
+  if (acc === "a") {                       // abrir panel en un mensaje nuevo
+    await toast("");
+    const { data: seg } = await leer(env, "seguimiento.json");
+    return tg(env, "sendMessage", { chat_id: chatId, parse_mode: "HTML", disable_web_page_preview: true, ...panel(info, id, seg || SEG_VACIO) });
+  }
+  if (acc === "v") {                       // tarjeta completa
+    await toast("");
+    const { data } = await leer(env, `vistas/saga/${info.saga}.json`);
+    const it = data && data.items.find((x) => x.id === id);
+    return tg(env, "sendMessage", {
+      chat_id: chatId, parse_mode: "HTML", disable_web_page_preview: true,
+      text: it ? it.texto : "No encontré la tarjeta.",
+      reply_markup: { inline_keyboard: [[{ text: "⚙️ Acciones", callback_data: `a:${id}` }]] },
+    });
+  }
+  if (acc === "oc") {                      // objetivo escrito a mano
+    await toast("");
+    return tg(env, "sendMessage", {
+      chat_id: chatId, parse_mode: "HTML",
+      text: `✏️ <b>PRECIO OBJETIVO</b>\n${esc(info.nombre)}\nPrecio actual: ${dineroDe(info, info.precio)}\n\nResponde a este mensaje con el precio, por ejemplo ${info.moneda === "USD" ? "19.99" : "29990"}.\n<i>ref:${id}</i>`,
+      reply_markup: { force_reply: true, input_field_placeholder: info.moneda === "USD" ? "19.99" : "29990" },
+    });
+  }
+
+  let aviso = "";
+  const seg = await guardarSeg(env, `Botón ${acc} · ${info.nombre}`, (s) => {
+    s.objetivos ||= {}; s.seguidos ||= {}; s.silenciados ||= {};
+    const base = { nombre: info.nombre, tipo: info.tipo, moneda: info.moneda, desde: hoyChile() };
+    if (acc === "o" || acc === "om") {
+      const v = acc === "om" ? info.min : redondeo(info, info.precio * (1 - Number(arg) / 100));
+      s.objetivos[id] = { ...base, precio: v };
+      aviso = `🎯 Te aviso cuando llegue a ${dineroDe(info, v)}`;
+    } else if (acc === "ox") {
+      delete s.objetivos[id];
+      aviso = "🗑️ Objetivo quitado";
+    } else if (acc === "s") {
+      if (arg === "1") { s.seguidos[id] = base; aviso = "⭐ Ahora lo sigues"; } else { delete s.seguidos[id]; aviso = "Dejaste de seguirlo"; }
+    } else if (acc === "m") {
+      if (arg === "x") { delete s.silenciados[id]; aviso = "🔔 Alertas reactivadas"; } else {
+        s.silenciados[id] = { ...base, hasta: arg === "0" ? null : hoyChile(Number(arg)) };
+        aviso = arg === "0" ? "🔕 Silenciado para siempre" : `🔕 Silenciado ${arg} días`;
+      }
+    } else {
+      throw new Error("Botón desconocido");
+    }
+  });
+  await toast(aviso);
+  return tg(env, "editMessageText", { chat_id: chatId, message_id: msgId, parse_mode: "HTML", disable_web_page_preview: true, ...panel(info, id, seg) });
+}
+
+async function objetivoEscrito(env, chatId, id, texto) {
+  const info = await infoDe(env, id);
+  const limpio = texto.replace(/[^\d.,]/g, "");
+  const v = info.moneda === "USD" ? parseFloat(limpio.replace(",", ".")) : parseInt(limpio.replace(/[.,]/g, ""), 10);
+  if (!(v > 0)) return send(env, chatId, marco("⚠️ <b>NO SE PUDO</b>", null, ["No entendí el precio. Escribe solo el número, por ejemplo 29990."]));
+  const seg = await guardarSeg(env, `Objetivo ${info.nombre}`, (s) => {
+    s.objetivos ||= {};
+    s.objetivos[id] = { nombre: info.nombre, tipo: info.tipo, moneda: info.moneda, desde: hoyChile(), precio: v };
+  });
+  return tg(env, "sendMessage", { chat_id: chatId, parse_mode: "HTML", disable_web_page_preview: true, ...panel(info, id, seg) });
+}
+
+async function cmdSeguidos(env) {
+  const { data: seg } = await leer(env, "seguimiento.json");
+  const { data: ids } = await leer(env, "vistas/ids.json");
+  const s = seg || SEG_VACIO;
+  const titulo = "⭐ <b>TU SEGUIMIENTO</b>";
+  const lista = (obj) => Object.entries(obj || {});
+  const obj = lista(s.objetivos), seg_ = lista(s.seguidos);
+  const sil = lista(s.silenciados).filter(([, v]) => !v.hasta || v.hasta >= hoyChile());
+  if (!obj.length && !seg_.length && !sil.length) {
+    return marco(titulo, null, ["Todavía no sigues ningún juego.",
+      "En cualquier tarjeta toca ⚙️ para ponerle objetivo, seguirlo o silenciarlo."]);
+  }
+  const bloques = [marco(titulo, `${obj.length} con objetivo · ${seg_.length} seguido${seg_.length === 1 ? "" : "s"} · ${sil.length} silenciado${sil.length === 1 ? "" : "s"}`, [])];
+  const fila = (id, v, extra) => {
+    const info = (ids || {})[id];
+    const precio = info ? dineroDe(info, info.precio) : "sin datos";
+    return { junto: true, t: `• <b>${esc(v.nombre)}</b> — hoy ${precio}${extra(info)}`,
+      boton: { text: `⚙️ ${v.nombre.length > 32 ? v.nombre.slice(0, 31) + "…" : v.nombre}`, callback_data: `a:${id}` } };
+  };
+  if (obj.length) {
+    bloques.push("🎯 <b>CON OBJETIVO</b>");
+    obj.sort((a, b) => ((ids || {})[a[0]]?.precio / a[1].precio || 9) - ((ids || {})[b[0]]?.precio / b[1].precio || 9));
+    for (const [id, v] of obj) bloques.push(fila(id, v, (info) => {
+      const meta = info ? dineroDe(info, v.precio) : v.precio;
+      return info && info.precio <= v.precio ? ` · 🎯 ${meta} ✅ ¡lo alcanzó!` : ` · 🎯 ${meta}`;
+    }));
+  }
+  if (seg_.length) {
+    bloques.push("⭐ <b>SEGUIDOS</b>");
+    for (const [id, v] of seg_) bloques.push(fila(id, v, (info) => info && info.min ? ` · mínimo ${dineroDe(info, info.min)}` : ""));
+  }
+  if (sil.length) {
+    bloques.push("🔕 <b>SILENCIADOS</b>");
+    for (const [id, v] of sil) bloques.push(fila(id, v, () => v.hasta ? ` · hasta el ${fecha(v.hasta)}` : " · para siempre"));
+  }
+  return { titulo, bloques };
 }
 
 // ----------------------------------------------------------------- GitHub
@@ -413,7 +911,7 @@ async function gh(env, path, opts = {}) {
 async function leer(env, archivo) {
   const r = await gh(env, `/repos/${env.GITHUB_REPO}/contents/${archivo}`);
   if (r.status === 404) {
-    if (archivo === "state.json") return { data: null, sha: null };
+    if (archivo !== "juegos.json") return { data: null, sha: null };
     throw new Error(`No encontré ${archivo} en el repo.`);
   }
   if (!r.ok) throw new Error(`GitHub respondió ${r.status} al leer ${archivo}. Revisa GITHUB_TOKEN y GITHUB_REPO.`);
@@ -431,18 +929,23 @@ async function leer(env, archivo) {
 }
 
 async function editar(env, mensaje, cambio) {
+  return editarArchivo(env, "juegos.json", mensaje, cambio);
+}
+
+async function editarArchivo(env, archivo, mensaje, cambio, inicial = null) {
   for (let intento = 0; intento < 3; intento++) {
-    const { data, sha } = await leer(env, "juegos.json");
+    let { data, sha } = await leer(env, archivo);
+    if (!data) data = inicial ? JSON.parse(JSON.stringify(inicial)) : {};
     cambio(data);
-    const r = await gh(env, `/repos/${env.GITHUB_REPO}/contents/juegos.json`, {
+    const r = await gh(env, `/repos/${env.GITHUB_REPO}/contents/${archivo}`, {
       method: "PUT",
       body: JSON.stringify({
         message: `${mensaje} (desde Telegram)`,
         content: b64encode(JSON.stringify(data, null, 2) + "\n"),
-        sha,
+        ...(sha ? { sha } : {}),
       }),
     });
-    if (r.ok) return;
+    if (r.ok) return data;
     if (r.status !== 409 && r.status !== 422) {
       throw new Error(`GitHub no guardó el cambio (${r.status}). Revisa los permisos del token.`);
     }
@@ -462,7 +965,16 @@ async function tg(env, metodo, cuerpo) {
 }
 
 async function send(env, chatId, texto) {
-  for (const parte of trocear(texto)) {
+  if (texto && typeof texto === "object") return enviarBloques(env, chatId, texto);
+  let partes = trocear(texto);
+  if (partes.length > 1) {
+    const titulo = texto.split("\n")[0];
+    const n = partes.length;
+    partes = partes.map((p, i) => i === 0
+      ? p.replace(titulo, `${titulo} <i>(1/${n})</i>`)
+      : `${titulo} <i>(${i + 1}/${n})</i>\n\n${p}`);
+  }
+  for (const parte of partes) {
     const r = await tg(env, "sendMessage", {
       chat_id: chatId,
       text: parte,
@@ -476,22 +988,63 @@ async function send(env, chatId, texto) {
   }
 }
 
+// mensajes con tarjetas: cada mensaje lleva los botones de sus tarjetas
+async function enviarBloques(env, chatId, { titulo, bloques }) {
+  const msgs = [];
+  let actual = "", botones = [];
+  const usados = new Set();
+  for (const b of bloques) {
+    const t = typeof b === "string" ? b : b.t;
+    if (!t) continue;
+    const sep = actual ? (typeof b === "object" && b.junto ? "\n" : "\n\n") : "";
+    if (actual && actual.length + sep.length + t.length > TG_MAX) {
+      msgs.push([actual, botones]);
+      actual = t; botones = [];
+    } else {
+      actual += sep + t;
+    }
+    if (typeof b === "object" && b.boton && !usados.has(b.boton.callback_data)) {
+      usados.add(b.boton.callback_data);
+      botones.push(b.boton);
+    }
+  }
+  if (actual) msgs.push([actual, botones]);
+  const n = msgs.length;
+  for (let i = 0; i < n; i++) {
+    let [m, bts] = msgs[i];
+    if (n > 1) m = i === 0 ? m.replace(titulo, `${titulo} <i>(1/${n})</i>`) : `${titulo} <i>(${i + 1}/${n})</i>\n\n${m}`;
+    if (bts.length) m += "\n\n<i>⚙️ Toca un juego para ponerle objetivo, seguirlo o silenciarlo</i>";
+    const cuerpo = { chat_id: chatId, text: m, parse_mode: "HTML", disable_web_page_preview: true };
+    if (bts.length) cuerpo.reply_markup = { inline_keyboard: bts.map((x) => [x]) };
+    const r = await tg(env, "sendMessage", cuerpo);
+    if (!r.ok) await tg(env, "sendMessage", { chat_id: chatId, text: m.replace(/<[^>]+>/g, "") });
+  }
+}
+
 function trocear(texto) {
+  // empaqueta por bloques (separados por linea en blanco) sin partir ninguno
+  const bloques = texto.split("\n\n");
   const partes = [];
   let actual = "";
-  for (const linea of texto.split("\n")) {
-    if (actual && actual.length + linea.length + 1 > TG_MAX) {
+  for (let b of bloques) {
+    while (b.length > TG_MAX) {           // bloque gigante: se corta por lineas
+      const corte = b.lastIndexOf("\n", TG_MAX);
+      const k = corte > 0 ? corte : TG_MAX;
+      if (actual) { partes.push(actual); actual = ""; }
+      partes.push(b.slice(0, k));
+      b = b.slice(k).replace(/^\n/, "");
+    }
+    const sep = actual ? "\n\n" : "";
+    if (actual && actual.length + sep.length + b.length > TG_MAX) {
       partes.push(actual);
-      actual = linea;
+      actual = b;
     } else {
-      actual = actual ? actual + "\n" + linea : linea;
+      actual += sep + b;
     }
   }
   if (actual) partes.push(actual);
-  return partes;
+  return partes.filter((p) => p.trim());
 }
-
-// ---------------------------------------------------------------- formato
 
 function terminos(j) {
   const b = j.buscar || j.nombre || "";
@@ -526,6 +1079,12 @@ function usd(n) {
 
 function dinero(n, moneda) {
   return moneda === "CLP" ? clp(n) : usd(n);
+}
+
+function fecha(ymd) {
+  const [y, m, d] = String(ymd).split("-").map(Number);
+  const meses = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+  return d && m ? `${d} ${meses[m - 1]}` + (y !== new Date().getFullYear() ? ` ${y}` : "") : String(ymd);
 }
 
 function hora(iso) {
