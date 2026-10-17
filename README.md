@@ -108,6 +108,19 @@ descuentos inflados de 85 % o más) no entra. Todo se ajusta en `canal.json` sin
 4. Para ver qué publicaría hoy sin mandar nada: `python canal.py --vista`.
 5. Para forzar un post: Actions → Canal de ofertas → Run workflow → elige el formato.
 
+**Protecciones antes de publicar** (en `canal.json`):
+
+- **Revisión previa** (`revision_previa`): cada post llega primero a tu chat con botones
+  *Publicar ya*, *Saltar* y *Quitar juegos*. Si no haces nada, sale solo pasados
+  `revision_minutos` (en la siguiente pasada, cada 30 min). Al publicar se vuelve a revisar
+  que cada oferta siga vigente. Los botones los maneja el Worker (`worker.js`).
+- **Alarma de errores:** si la última revisión de precios tiene más de `datos_viejos_horas`,
+  el canal se pausa y te avisa. Las tiendas que no responden y los precios sospechosos
+  (descuento de 80 %+ en físico o 95 %+ en digital, bloque `sospechoso`) te llegan a tu chat
+  y no se publican.
+- **Bienvenida:** Actions → Canal de ofertas → `bienvenida` publica el post fijado con
+  horarios, íconos y el aviso de precios y links de afiliado.
+
 `python canal.py --sugerir` lista editoras que solo publican relleno, para agregarlas a
 `editoras.basura` en `canal.json` (necesita que el bot ya haya guardado las editoras).
 

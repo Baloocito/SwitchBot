@@ -12,6 +12,12 @@ Uso:
     python canal.py --bombazos          publica bombazos pendientes (lo usa alertas.yml)
     python canal.py --vista             muestra todo lo que publicaria hoy, sin mandar nada
     python canal.py --sugerir           editoras candidatas a la lista de basura
+    python canal.py --bienvenida        publica (y fija) el post de bienvenida del canal
+
+Revision antes de publicar (canal.json -> ajustes.revision_previa): cada post llega primero a
+tu chat con botones Publicar ya / Saltar / Quitar juegos. Si no haces nada, sale solo pasados
+revision_minutos (en la siguiente pasada del workflow). Tus decisiones las guarda el Worker
+en canal_decisiones.json.
 
 Variables de entorno:
     TELEGRAM_TOKEN, TELEGRAM_CHANNEL_ID
@@ -19,6 +25,7 @@ Variables de entorno:
     DRY_RUN=1        no manda nada, solo imprime
 """
 
+import hashlib
 import os
 import re
 import sys
@@ -27,11 +34,14 @@ from urllib.parse import quote
 
 import requests
 
-from bot import (BASE, USADO_RE, MIN_DIAS, STATE_FILE, TIMEOUT, clp, dias_para, esc, esc_attr,
+from bot import (BASE, CONFIG_FILE, USADO_RE, MIN_DIAS, STATE_FILE, TIMEOUT, clp, dias_para, esc, esc_attr,
                  fecha_corta, load_json, log, norm, save_json, url_pais)
 
 CANAL_FILE = BASE / "canal.json"
 ESTADO_FILE = BASE / "canal_estado.json"
+DECISIONES_FILE = BASE / "canal_decisiones.json"   # lo escribe el Worker con los botones de revision
+NOMBRE_SLOT = {"top": "Top 5 del día", "pack": "Pack del día", "fisicos": "Físicos en Chile",
+               "ultima": "Última llamada", "semanal": "Top de la semana", "bombazo": "Bombazo"}
 OTROS = "otros juegos"
 DIAS = ["lun", "mar", "mie", "jue", "vie", "sab", "dom"]
 VENTANA_MIN = 90            # minutos despues de la hora del slot en que todavia se publica
@@ -256,6 +266,13 @@ def puntuar(cfg, o):
     o["senales"] = [s for s, _ in senales]
     rel = max((v for _, v in senales), default=0) + p["senal_extra"] * max(0, len(senales) - 1)
 
+    # precios demasiado buenos para ser verdad: se frenan y se avisa al admin
+    sos = cfg.get("sospechoso") or {}
+    lim = sos.get("pct_fisico", 80) if o["tipo"] == "fisico" else sos.get("pct_digital", 95)
+    if o["pct"] >= lim:
+        o["excluido"] = "sospechoso"
+        return
+
     # basura
     if calza_lista(t, b["titulo_excluir"]):
         o["excluido"] = "titulo"
@@ -304,7 +321,13 @@ def dia_de(est, t):
     return d
 
 
+def ids_en_cola(est):
+    return {i for c in (est.get("cola") or {}).values() for i in c.get("ids", [])}
+
+
 def ya_publicado(cfg, est, o, t, grupo="publicados"):
+    if o["id"] in ids_en_cola(est):
+        return True                     # esperando revision: no se propone dos veces
     p = est[grupo].get(o["id"])
     if not p:
         return False
@@ -484,7 +507,7 @@ def post_lista(cfg, titulo, items, t, extra=None, cierre=None):
     ahorro = sum(o.get("ahorro") or 0 for o in items)
     l += ["", LINEA, cierre or f"💡 Ahorras {clp(ahorro)} si te llevas los {len(items)}"]
     primero = next((o for o in items if o["tipo"] == "digital"), None)
-    return {"texto": "\n".join(l), "botones": pie(cfg),
+    return {"texto": "\n".join(l), "botones": pie(cfg), "titulo": titulo, "cierre": cierre,
             "preview": primero["url"] if primero else None}
 
 
@@ -574,6 +597,10 @@ def slot_fisicos(cfg, est, cands, t):
     fis = elegir(cfg, fis, cfg["fisicos"]["max_juegos"])
     if not fis:
         return None, []
+    return post_fisicos(cfg, fis, t), fis
+
+
+def post_fisicos(cfg, fis, t):
     l = ["📦 <b>FÍSICOS EN CHILE</b>", f"<i>{fecha_txt(t)} · comparamos {len(cfg_tiendas(fis))} tiendas</i>"]
     med = ["🥇", "🥈", "🥉"]
     for i, o in enumerate(fis):
@@ -584,7 +611,7 @@ def slot_fisicos(cfg, est, cands, t):
             l.append(f"   {med[j]} {enlace} <b>{clp(av['precio'])}</b>" if j == 0
                      else f"   {med[j]} {enlace} {clp(av['precio'])}")
     l += ["", LINEA, "💡 Toca el juego o la tienda para ir a comprar"]
-    return {"texto": "\n".join(l), "botones": pie(cfg)}, fis
+    return {"texto": "\n".join(l), "botones": pie(cfg)}
 
 
 def cfg_tiendas(items):
@@ -682,7 +709,114 @@ def enviar(post, sonido):
     return res
 
 
+def avisar_admin(texto, botones=None, preview=None):
+    """Mensaje a tu chat personal (revisiones y alarmas). Nunca va al canal."""
+    if os.environ.get("DRY_RUN"):
+        log("[A TU CHAT] " + re.sub(r"<[^>]+>", "", texto)[:600])
+        for fila in botones or []:
+            log("   " + "  ".join(f"[{b['text']}]" for b in fila))
+        return {"message_id": 0}
+    chat = os.environ.get("TELEGRAM_CHAT_ID")
+    if not os.environ.get("TELEGRAM_TOKEN") or not chat:
+        log("ERROR: falta TELEGRAM_CHAT_ID para avisarte")
+        return None
+    cuerpo = {"chat_id": chat, "text": texto[:4090], "parse_mode": "HTML",
+              "link_preview_options": ({"url": preview, "prefer_large_media": True, "show_above_text": True}
+                                       if preview else {"is_disabled": True})}
+    if botones:
+        cuerpo["reply_markup"] = {"inline_keyboard": botones}
+    return tg("sendMessage", cuerpo)
+
+
 def publicar(cfg, est, t, slot, post, items, sonido, grupo="publicados"):
+    """Con revision previa activa, el post va primero a tu chat; si no, directo al canal."""
+    if cfg["ajustes"].get("revision_previa") and not os.environ.get("DRY_RUN"):
+        return proponer(cfg, est, t, slot, post, items, sonido, grupo)
+    return publicar_directo(cfg, est, t, slot, post, items, sonido, grupo)
+
+
+def proponer(cfg, est, t, slot, post, items, sonido, grupo):
+    a = cfg["ajustes"]
+    ids = [o["id"] for o in items]
+    cid = hashlib.sha1(f"{slot}|{t.isoformat()}|{','.join(ids)}".encode()).hexdigest()[:8]
+    sale = t + timedelta(minutes=a.get("revision_minutos", 10))
+    cab = (f"👀 <b>REVISIÓN · {NOMBRE_SLOT.get(slot, slot)}</b>\n"
+           f"<i>Sale al canal desde las {sale:%H:%M} si no haces nada.</i>\n{LINEA}\n\n")
+    botones = [[{"text": "✅ Publicar ya", "callback_data": f"cp:{cid}"},
+                {"text": "⏭️ Saltar", "callback_data": f"cs:{cid}"}],
+               [{"text": "✏️ Quitar juegos", "callback_data": f"ce:{cid}"}]]
+    res = avisar_admin(cab + post["texto"], botones, post.get("preview"))
+    if res is None:
+        return False
+    est.setdefault("cola", {})[cid] = {
+        "slot": slot, "grupo": grupo, "sonido": sonido, "post": post, "ids": ids,
+        "nombres": [o["nombre"] for o in items], "sale": sale.isoformat(), "creado": t.isoformat(),
+        "admin_msg": res.get("message_id")}
+    log(f"  {slot}: enviado a tu chat para revisión ({cid}), sale desde las {sale:%H:%M}")
+    return True
+
+
+def reconstruir(cfg, c, items, t):
+    """Arma de nuevo un post de la cola cuando le faltan juegos (quitados o vencidos)."""
+    p = c["post"]
+    if c["slot"] == "bombazo":
+        return post_bombazo(cfg, items[0])
+    if c["slot"] == "fisicos":
+        return post_fisicos(cfg, items, t)
+    titulo = (p.get("titulo") or "☕ <b>LO MEJOR DE HOY</b>").replace("TOP 5 DE HOY", "LO MEJOR DE HOY")
+    nuevo = post_lista(cfg, titulo, items, t, cierre=p.get("cierre"))
+    if p.get("encuesta"):
+        nuevo["encuesta"] = p["encuesta"]
+    return nuevo
+
+
+def cerrar_revision(c, texto):
+    """Cambia los botones del mensaje de revision por el resultado."""
+    if c.get("admin_msg") and not os.environ.get("DRY_RUN"):
+        tg("editMessageReplyMarkup", {"chat_id": os.environ.get("TELEGRAM_CHAT_ID"),
+                                      "message_id": c["admin_msg"],
+                                      "reply_markup": {"inline_keyboard": [[{"text": texto, "callback_data": "cx:0"}]]}})
+
+
+def procesar_cola(cfg, est, cands, t):
+    cola = est.get("cola") or {}
+    if not cola:
+        return
+    dec = load_json(DECISIONES_FILE, {})
+    por_id = {o["id"]: o for o in cands}
+    for cid, c in list(cola.items()):
+        d = dec.get(cid) or {}
+        if d.get("accion") == "saltar":
+            log(f"  revisión {cid}: la saltaste")
+            cerrar_revision(c, "⏭️ Saltado")
+            del cola[cid]
+            continue
+        sale = datetime.fromisoformat(c["sale"])
+        if d.get("accion") != "publicar" and t < sale:
+            continue
+        if t - sale > timedelta(hours=cfg["ajustes"].get("revision_caduca_horas", 6)):
+            log(f"  revisión {cid}: quedó vieja sin publicarse, se descarta")
+            cerrar_revision(c, "⌛ Venció sin publicarse")
+            del cola[cid]
+            continue
+        quitar = set(d.get("quitar") or [])
+        items = [por_id[i] for i in c["ids"] if i in por_id and i not in quitar]
+        if not items:
+            log(f"  revisión {cid}: ya no queda ningún juego vigente, no se publica")
+            cerrar_revision(c, "🚫 Sin juegos vigentes")
+            del cola[cid]
+            continue
+        post = c["post"] if len(items) == len(c["ids"]) else reconstruir(cfg, c, items, t)
+        cola.pop(cid)                   # fuera de la cola antes de publicar (si no, se ve como ya publicado)
+        if publicar_directo(cfg, est, t, c["slot"], post, items, c["sonido"], c["grupo"]):
+            quitados = len(c["ids"]) - len(items)
+            cerrar_revision(c, f"✅ Publicado {t:%H:%M}" + (f" · {quitados} quitado(s)" if quitados else ""))
+            log(f"  revisión {cid}: publicada ({len(items)} juegos)")
+        else:
+            cola[cid] = c               # no salio: se reintenta en la proxima pasada
+
+
+def publicar_directo(cfg, est, t, slot, post, items, sonido, grupo="publicados"):
     d = dia_de(est, t)
     if d["posts"] >= cfg["ajustes"]["max_posts_dia"]:
         log(f"  {slot}: tope de {d['posts']} posts diarios alcanzado")
@@ -701,6 +835,93 @@ def publicar(cfg, est, t, slot, post, items, sonido, grupo="publicados"):
     return True
 
 
+# --------------------------------------------------------------- salud
+
+def chequear_salud(cfg, state, est, t):
+    """Alarma de errores. Devuelve False si no se debe publicar en esta pasada."""
+    a = cfg["ajustes"]
+    alarmas = est.setdefault("alarmas", {})
+    ok = True
+    rev = state.get("ultima_revision")
+    if rev:
+        horas = (datetime.now(timezone.utc) - datetime.fromisoformat(rev.replace("Z", "+00:00"))
+                 ).total_seconds() / 3600
+        if horas > a.get("datos_viejos_horas", 9):
+            ok = False
+            log(f"  salud: la última revisión de precios fue hace {horas:.0f} h; no publico")
+            if (alarmas.get("datos_viejos") or "") < (t - timedelta(hours=6)).isoformat():
+                avisar_admin(f"⚠️ <b>CANAL EN PAUSA</b>\nLa última revisión de precios fue hace {horas:.0f} h, "
+                             "así que no publico para no mostrar ofertas vencidas.\n"
+                             "Revisa Actions → Alertas de ofertas Switch, o usa /revisar.")
+                alarmas["datos_viejos"] = t.isoformat()
+    activas = {x["nombre"] for x in (load_json(CONFIG_FILE, {}) or {}).get("tiendas", [])
+               if x.get("activa") is not False}
+    caidas = sorted(f"{k} ({v})" for k, v in (state.get("fallos") or {}).items()
+                    if k in activas and v >= a.get("tienda_caida_revisiones", 3))
+    hoy = t.strftime("%Y-%m-%d")
+    if caidas and alarmas.get("tiendas") != f"{hoy}|{caidas}":
+        avisar_admin("🏬 <b>TIENDAS QUE NO RESPONDEN</b>\n" + "\n".join(f"• {x} revisiones seguidas" for x in caidas)
+                     + "\n\nSus ofertas no salen en el canal hasta que vuelvan.")
+        alarmas["tiendas"] = f"{hoy}|{caidas}"
+    return ok
+
+
+def avisar_sospechosos(cfg, state, est, t):
+    """Precios demasiado buenos para ser verdad: no se publican y te llegan para que los mires."""
+    vistos = est.setdefault("sospechosos", {})
+    corte = (t - timedelta(days=3)).strftime("%Y-%m-%d")
+    for k in [k for k, v in vistos.items() if v < corte]:
+        del vistos[k]
+    nuevos = [o for o in candidatos(cfg, state, incluir_excluidos=True)
+              if o.get("excluido") == "sospechoso" and f"{o['id']}|{o['precio']}" not in vistos]
+    if not nuevos:
+        return
+    l = ["🚨 <b>PRECIOS SOSPECHOSOS</b> (no los publiqué)", ""]
+    for o in nuevos[:10]:
+        donde = o.get("tienda") or "eShop Chile"
+        l.append(f"• <a href=\"{esc_attr(o['url'])}\">{esc(corto(o['nombre']))}</a> — {clp(o['precio'])} en "
+                 f"{esc(donde)} (−{round(o['pct'])}%)")
+        vistos[f"{o['id']}|{o['precio']}"] = t.strftime("%Y-%m-%d")
+    l += ["", "Puede ser un error de la tienda (o una ganga real). Si es real, compártelo a mano."]
+    avisar_admin("\n".join(l))
+
+
+TEXTO_BIENVENIDA = """👋 <b>Bienvenido a {nombre}</b>
+Las mejores ofertas de Nintendo Switch 1 y 2 en Chile, filtradas y en pesos. Sin relleno: solo lo que vale la pena.
+
+🕘 <b>Horarios</b>
+09:00 ☕ Top 5 del día (lun–sáb)
+13:30 🍔 Pack temático (lun–sáb)
+18:30 📦 Físicos en tiendas chilenas
+21:00 ⏳ Última llamada
+Dom 12:00 🏆 Top de la semana
+💣 Bombazos cuando aparecen (nunca de noche)
+
+🔎 <b>Cómo leer los posts</b>
+📉 mínimo histórico: nunca estuvo más barato
+💸 regalado: menos de $5.000
+⏳ la oferta termina pronto
+🎮 eShop Chile · 📦 versión física
+El precio tachado es el precio normal.
+
+⚠️ <b>Importante</b>
+Los precios y el stock pueden cambiar en cualquier momento: confírmalos en la tienda antes de pagar. No somos una tienda ni vendemos los juegos.
+Algunos links pueden ser de afiliado: si compras con ellos, el canal recibe una pequeña comisión sin costo extra para ti. Los marcamos con 🔗."""
+
+
+def modo_bienvenida(cfg):
+    texto = TEXTO_BIENVENIDA.format(nombre=esc(cfg["ajustes"].get("nombre_canal", "nuestro canal")))
+    res = enviar({"texto": texto, "botones": pie(cfg)}, False)
+    if res and res is not SIN_ENVIO:
+        fijado = tg("pinChatMessage", {"chat_id": destino(), "message_id": res["message_id"],
+                                       "disable_notification": True})
+        if fijado is None:
+            FALLOS.pop()                # publicar salio bien; fijarlo es opcional
+            log("  No pude fijarlo: dale al bot el permiso 'Fijar mensajes' o fíjalo a mano.")
+        else:
+            log("  Bienvenida publicada y fijada.")
+
+
 # --------------------------------------------------------------- modos
 
 def correr_slot(cfg, est, cands, t, slot, sonido, forzar=False):
@@ -717,7 +938,7 @@ def correr_slot(cfg, est, cands, t, slot, sonido, forzar=False):
     grupo = "ultima_llamada" if slot == "ultima" else "publicados"
     if publicar(cfg, est, t, slot, post, items, sonido, grupo) and not os.environ.get("DRY_RUN"):
         d["slots"].append(slot)
-        log(f"  {slot}: publicado ({len(items)} juegos)")
+        log(f"  {slot}: listo ({len(items)} juegos)")
 
 
 def toca_hoy(dias, t):
@@ -731,6 +952,7 @@ def toca_hoy(dias, t):
 
 
 def modo_auto(cfg, est, cands, t):
+    procesar_cola(cfg, est, cands, t)
     for h in cfg["horarios"]:
         if not toca_hoy(h["dias"], t):
             continue
@@ -822,6 +1044,9 @@ def main():
     if "--sugerir" in sys.argv:
         modo_sugerir(cfg, state)
         return
+    if "--bienvenida" in sys.argv:
+        modo_bienvenida(cfg)
+        sys.exit(1 if FALLOS else 0)
     est = cargar_estado()
     t = ahora(cfg)
     cands = candidatos(cfg, state)
@@ -829,7 +1054,13 @@ def main():
     if "--vista" in sys.argv:
         modo_vista(cfg, est, cands, t)
         return
-    if "--slot" in sys.argv:
+    sano = chequear_salud(cfg, state, est, t)
+    avisar_sospechosos(cfg, state, est, t)
+    if not sano:
+        pass                            # datos viejos: no se publica nada en esta pasada
+    elif "--cola" in sys.argv:
+        procesar_cola(cfg, est, cands, t)
+    elif "--slot" in sys.argv:
         i = sys.argv.index("--slot")
         slot = sys.argv[i + 1] if len(sys.argv) > i + 1 else ""
         if slot not in SLOTS:
@@ -838,6 +1069,7 @@ def main():
         sonido = next((h["sonido"] for h in cfg["horarios"] if h["slot"] == slot), False)
         correr_slot(cfg, est, cands, t, slot, sonido, forzar=True)
     elif "--bombazos" in sys.argv:
+        procesar_cola(cfg, est, cands, t)
         modo_bombazos(cfg, est, cands, t)
     else:
         modo_auto(cfg, est, cands, t)

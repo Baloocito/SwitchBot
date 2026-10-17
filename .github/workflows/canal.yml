@@ -5,20 +5,20 @@ name: Canal de ofertas
 
 on:
   schedule:
-    # GitHub solo entiende hora UTC y Chile cambia de horario, asi que corre a las dos
-    # horas posibles de cada publicacion; canal.py decide segun la hora real de Chile.
-    - cron: "5,35 0,1,12,13,15,16,17,21,22 * * *"
+    # Cada 30 min: canal.py decide segun la hora real de Chile si toca un post, y publica
+    # los que ya pasaron la revision (los que aprobaste o a los que se les acabo el plazo).
+    - cron: "5,35 * * * *"
   workflow_dispatch:
     inputs:
       slot:
         description: "auto = lo que toque ahora · o forzar uno"
         type: choice
-        options: [auto, top, pack, fisicos, ultima, semanal, bombazos]
+        options: [auto, top, pack, fisicos, ultima, semanal, bombazos, cola, bienvenida]
         default: auto
       prueba:
-        description: "Mandar a tu chat personal en vez del canal"
+        description: "Mandar a tu chat personal en vez del canal (con la revisión previa activa, ya te llega todo antes)"
         type: boolean
-        default: true
+        default: false
 
 permissions:
   contents: write             # para guardar canal_estado.json
@@ -50,6 +50,8 @@ jobs:
           SLOT="${{ inputs.slot || 'auto' }}"
           if [ "$SLOT" = "auto" ]; then python canal.py --auto
           elif [ "$SLOT" = "bombazos" ]; then python canal.py --bombazos
+          elif [ "$SLOT" = "cola" ]; then python canal.py --cola
+          elif [ "$SLOT" = "bienvenida" ]; then python canal.py --bienvenida
           else python canal.py --slot "$SLOT"; fi
 
       - name: Guardar estado del canal

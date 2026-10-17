@@ -785,8 +785,76 @@ async function guardarSeg(env, msg, cambio) {
   return editarArchivo(env, "seguimiento.json", msg, cambio, SEG_VACIO);
 }
 
+// ------------------------------------------------------- revision del canal
+// canal.py manda cada post primero a tu chat con estos botones. Tu decision queda en
+// canal_decisiones.json y canal.py la aplica (Publicar ya lanza el workflow del canal al tiro).
+
+const WORKFLOW_CANAL = "canal.yml";
+
+async function botonCanal(env, cq, acc, cid, arg) {
+  const chatId = cq.message.chat.id;
+  const msgId = cq.message.message_id;
+  const toast = (text, alerta = false) => tg(env, "answerCallbackQuery", { callback_query_id: cq.id, text, show_alert: alerta });
+  if (acc === "cx") return toast("");
+  const { data: est } = await leer(env, "canal_estado.json");
+  const c = est && est.cola && est.cola[cid];
+  if (!c) {
+    await tg(env, "editMessageReplyMarkup", { chat_id: chatId, message_id: msgId, reply_markup: { inline_keyboard: [] } });
+    return toast("Este post ya no está en revisión (ya salió, se saltó o venció).", true);
+  }
+  const guardar = (msg, cambio) => editarArchivo(env, "canal_decisiones.json", msg, (d) => {
+    for (const k of Object.keys(d)) if (!(est.cola || {})[k]) delete d[k];   // limpia decisiones viejas
+    d[cid] ||= {};
+    cambio(d[cid]);
+  }, {});
+  const marcar = (texto) => tg(env, "editMessageReplyMarkup", {
+    chat_id: chatId, message_id: msgId, reply_markup: { inline_keyboard: [[{ text: texto, callback_data: `cx:${cid}` }]] },
+  });
+  const teclado = (quitar) => {
+    const filas = c.ids.map((id, i) => [{
+      text: `${quitar.includes(id) ? "↩️ Volver a poner" : "❌ Quitar"} ${i + 1}. ${String(c.nombres[i] || "").slice(0, 28)}`,
+      callback_data: `cq:${cid}:${i}`,
+    }]);
+    filas.push([{ text: "✅ Publicar ya", callback_data: `cp:${cid}` }, { text: "⏭️ Saltar", callback_data: `cs:${cid}` }]);
+    return tg(env, "editMessageReplyMarkup", { chat_id: chatId, message_id: msgId, reply_markup: { inline_keyboard: filas } });
+  };
+
+  if (acc === "cs") {
+    await guardar("Canal: saltar post", (x) => { x.accion = "saltar"; });
+    await marcar("⏭️ Saltado");
+    return toast("⏭️ Listo, ese post no sale.");
+  }
+  if (acc === "cp") {
+    await guardar("Canal: publicar post", (x) => { x.accion = "publicar"; });
+    const r = await gh(env, `/repos/${env.GITHUB_REPO}/actions/workflows/${WORKFLOW_CANAL}/dispatches`, {
+      method: "POST",
+      body: JSON.stringify({ ref: "main", inputs: { slot: "cola", prueba: "false" } }),
+    });
+    await marcar(r.status === 204 ? "⏳ Publicando…" : "✅ Aprobado (sale en la próxima pasada)");
+    return toast(r.status === 204 ? "✅ Sale al canal en 1 a 2 minutos." : "✅ Aprobado. GitHub no respondió: sale en la próxima pasada.");
+  }
+  if (acc === "ce") {
+    const { data: dec } = await leer(env, "canal_decisiones.json");
+    await toast("Toca los juegos que quieres sacar");
+    return teclado(((dec || {})[cid] || {}).quitar || []);
+  }
+  if (acc === "cq") {
+    const id = c.ids[Number(arg)];
+    if (!id) return toast("No encontré ese juego.", true);
+    const d = await guardar("Canal: quitar juego", (x) => {
+      x.quitar ||= [];
+      x.quitar = x.quitar.includes(id) ? x.quitar.filter((y) => y !== id) : [...x.quitar, id];
+    });
+    const quitar = d[cid].quitar || [];
+    await toast(quitar.includes(id) ? "❌ Quitado del post" : "↩️ Vuelve al post");
+    return teclado(quitar);
+  }
+  return toast("Botón desconocido", true);
+}
+
 async function manejarBoton(env, cq) {
   const [acc, id, arg] = String(cq.data || "").split(":");
+  if (["cp", "cs", "ce", "cq", "cx"].includes(acc)) return botonCanal(env, cq, acc, id, arg);
   const chatId = cq.message.chat.id;
   const msgId = cq.message.message_id;
   const toast = (text) => tg(env, "answerCallbackQuery", { callback_query_id: cq.id, text });

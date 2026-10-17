@@ -21,7 +21,13 @@
     "web_url": "",
     "max_por_saga": 1,
     "max_regalados_en_listas": 2,
-    "canal_url": "https://t.me/+JY1TTorcYE02NWUx"
+    "canal_url": "https://t.me/+JY1TTorcYE02NWUx",
+    "nombre_canal": "TopinSales Switch",
+    "revision_previa": true,
+    "revision_minutos": 10,
+    "revision_caduca_horas": 6,
+    "datos_viejos_horas": 9,
+    "tienda_caida_revisiones": 3
   },
   "horarios": [
     {
@@ -463,5 +469,10 @@
     "pct_max_con_2_tiendas": 55,
     "excluir_vendedores_externos": true,
     "max_juegos": 3
+  },
+  "sospechoso": {
+    "_ayuda": "Descuentos desde estos % no se publican: te llegan a tu chat para revisarlos (suelen ser errores de la tienda o de lectura).",
+    "pct_fisico": 80,
+    "pct_digital": 95
   }
 }
