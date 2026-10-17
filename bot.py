@@ -1681,6 +1681,22 @@ def agregar_alerta(alertas, tipo, juego, linea, score, ref=None, extra=None):
                     "ref": ref, "extra": extra})
 
 
+def ids_contundentes(state, cfg):
+    """ids de juegos que pasan el filtro de calidad (destacados o de tu lista). None si no se pudo."""
+    if cfg.get("ajustes", {}).get("solo_contundentes", True) is False:
+        return None
+    try:
+        import canal
+        ccfg = load_json(canal.CANAL_FILE, None)
+        if not ccfg:
+            return None
+        return {o["id"] for o in canal.candidatos(ccfg, state)
+                if o.get("saga") or o.get("nivel") in ("destacado", "bombazo")}
+    except Exception as e:  # noqa: BLE001
+        log(f"  filtro de calidad: error {type(e).__name__}: {e}")
+        return None
+
+
 def filtrar_alertas(alertas, state, cfg):
     """Solo lo contundente, con el mismo criterio del canal (canal.json):
     - juegos de tu lista: siempre, salvo que sean relleno que solo comparte una palabra
@@ -1997,6 +2013,7 @@ def tarjeta_fisico(clave, s, state, hist, extra=None):
                 l.append(f"   ➜ El físico te ahorra {clp(dif)} y además se puede revender")
             else:
                 l.append(f"   ➜ El digital es {clp(-dif)} más barato, pero no se puede revender")
+    l += lineas_evento(clave, s, hist)
     nivel_c, por = confianza(s)
     l.append(f"🔎 Confianza {nivel_c}: {por}")
     l += lineas_seguimiento(s, s["precio"], clp)
@@ -2257,9 +2274,351 @@ def generar_vistas(state, hist, cfg):
                        if k in i} for i in its]})
     save_json(VISTAS_DIR / "indice.json", {"revision": revision, "sagas": indice,
                                            "fallos": state.get("fallos") or {},
+                                           "evento": evento_activo(cfg) if cfg else None,
+                                           "proximo": proximo_evento(cfg) if cfg else None,
+                                           "pendientes": len(state.get("pendientes") or []),
                                            "fisicos": sum(1 for x in ofertas), "total": sum(len(v) for v in sagas.values())})
     save_json(VISTAS_DIR / "ids.json", ids)
     log(f"  vistas: {len(ofertas)} ofertas, {len(indice)} sagas")
+
+
+# ------------------------------------------------------------------- agenda
+#
+# El workflow corre cada hora. El bot decide en cada pasada:
+#   - si toca revisar precios (cada 6 h, o cada 1 h en modo evento)
+#   - si toca mandar el resumen diario (a la hora que elijas)
+# Lo urgente (🎯 objetivo, 🟢 compra ya, ⭐ seguidos, 🏆 minimos) llega al tiro;
+# lo demas espera al resumen. En modo evento llega todo al tiro.
+
+EVENTO = None          # evento activo en esta pasada
+
+EVENTOS_BASE = [
+    {"nombre": "Black Friday eShop", "desde": "2026-11-19", "hasta": "2026-12-03",
+     "nota": "fechas estimadas según 2025"},
+    {"nombre": "Black Friday Chile", "desde": "2026-11-27", "hasta": "2026-11-30"},
+    {"nombre": "Ofertas de fin de año eShop", "desde": "2026-12-17", "hasta": "2027-01-06",
+     "nota": "fechas estimadas"},
+]
+
+
+def ahora_chile():
+    try:
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("America/Santiago"))
+    except Exception:
+        from datetime import datetime, timedelta
+        return datetime.utcnow() - timedelta(hours=3)
+
+
+def _dias_entre(a, b):
+    from datetime import date
+    y1, m1, d1 = (int(x) for x in a[:10].split("-"))
+    y2, m2, d2 = (int(x) for x in b[:10].split("-"))
+    return (date(y2, m2, d2) - date(y1, m1, d1)).days
+
+
+def _sumar_dias(ymd, n):
+    from datetime import date, timedelta
+    y, m, d = (int(x) for x in ymd[:10].split("-"))
+    return (date(y, m, d) + timedelta(days=n)).isoformat()
+
+
+def lista_eventos(cfg):
+    aj = cfg.get("ajustes", {})
+    evs = [e for e in EVENTOS_BASE if e["nombre"] not in (aj.get("eventos_desactivados") or [])]
+    evs += aj.get("eventos") or []
+    return sorted(evs, key=lambda e: e["desde"])
+
+
+def evento_activo(cfg):
+    aj = cfg.get("ajustes", {})
+    man = aj.get("evento_manual")
+    if man and man.get("hasta") and man["hasta"] > ahora_iso():
+        return {"nombre": man.get("nombre") or "Modo evento manual", "desde": man.get("desde", hoy_chile()),
+                "hasta": man["hasta"][:10], "manual": True}
+    hoy = hoy_chile()
+    for e in lista_eventos(cfg):
+        if e["desde"] <= hoy <= e["hasta"]:
+            return e
+    return None
+
+
+def proximo_evento(cfg):
+    hoy = hoy_chile()
+    futuros = [e for e in lista_eventos(cfg) if e["desde"] > hoy]
+    return futuros[0] if futuros else None
+
+
+def horas_desde(iso):
+    try:
+        from datetime import datetime, timezone
+        t = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        return (datetime.now(timezone.utc) - t).total_seconds() / 3600
+    except (ValueError, AttributeError):
+        return 999
+
+
+# ---------------------------------------------------------------- pre-evento
+
+def lineas_evento(clave, s, hist):
+    """Durante un evento: compara contra el precio de las semanas anteriores y
+    detecta tiendas que subieron el precio justo antes para inflar el descuento."""
+    if not EVENTO or EVENTO.get("manual"):
+        return []
+    h = (hist.get("productos") or {}).get(clave) or {}
+    desde = EVENTO["desde"]
+    base_ini, base_fin = _sumar_dias(desde, -21), _sumar_dias(desde, -7)
+    serie = {d: (v[0] if isinstance(v, list) else v) for d, v in (h.get("f") or {}).items()}
+    antes = [v for d, v in serie.items() if base_ini <= d <= base_fin]
+    l = []
+    if antes:
+        ref = _mediana(antes)
+        dif = 100 * (1 - s["precio"] / ref)
+        if dif >= 1:
+            l.append(f"📅 Antes de {esc(EVENTO['nombre'])} estaba a {clp(ref)}: hoy está {round(dif)}% más barato de verdad")
+        elif dif <= -1:
+            l.append(f"📅 Antes de {esc(EVENTO['nombre'])} estaba a {clp(ref)}: ¡hoy está MÁS CARO!")
+        else:
+            l.append(f"📅 Mismo precio que antes de {esc(EVENTO['nombre'])} ({clp(ref)}): el descuento no es real")
+    # tienda que inflo el precio la semana previa
+    t = (h.get("t") or {}).get(s.get("tienda")) or {}
+    val = {d: (v[0] if isinstance(v, list) else v) for d, v in t.items()}
+    previo = [v for d, v in val.items() if base_ini <= d <= base_fin]
+    semana = [v for d, v in val.items() if _sumar_dias(desde, -6) <= d < desde]
+    if previo and semana and max(semana) > 1.1 * min(previo):
+        l.append(f"⚠️ {esc(s['tienda'])} subió este juego de {clp(min(previo))} a {clp(max(semana))} "
+                 f"la semana antes del evento: ojo con el «descuento»")
+    return l
+
+
+# ---------------------------------------------------------------- clasificar
+
+def es_urgente(it):
+    if it["tipo"] == "memoria":
+        return True                     # no se guardan para el resumen: van al momento
+    return it["nivel"] in ("objetivo", "compra") or any(
+        x in (it.get("extra") or "") for x in ("⭐", "🏆"))
+
+
+def render_alertas(alertas, state, hist):
+    """Convierte las alertas en tarjetas [{nivel, texto, score, boton, ...}] y avisos."""
+    items, avisos = [], []
+    for a in alertas:
+        if a["tipo"] == "aviso":
+            avisos.append(a["linea"])
+            continue
+        if a["tipo"] == "memoria":
+            nivel = a["extra"] if a.get("extra") in NIVELES else "bueno"
+            items.append({"nivel": nivel, "texto": a["linea"], "score": a["score"], "tipo": "memoria",
+                          "extra": None, "ref": None, "boton": None})
+            continue
+        grupo = "productos" if a["tipo"] == "fisico" else "eshop"
+        s = (state.get(grupo) or {}).get(a.get("ref"))
+        if not s:
+            continue
+        if a["tipo"] == "fisico":
+            nivel, texto = tarjeta_fisico(a["ref"], s, state, hist, a.get("extra"))
+        else:
+            nivel, texto = tarjeta_digital(a["ref"], s, state, hist, a.get("extra"))
+        items.append({"nivel": nivel, "texto": texto, "score": a["score"], "s": s, "tipo": a["tipo"],
+                      "extra": a.get("extra"), "ref": a["ref"],
+                      "boton": boton_de(s, a["tipo"]) if s.get("id") else None})
+    items.sort(key=lambda it: (NIVELES[it["nivel"]][0], -it["score"]))
+    return items, avisos
+
+
+def mensaje_alerta(items, avisos, titulo, sub_extra=""):
+    if not items and not avisos:
+        return []
+    sub = f"{fecha_hora_chile()} · {len(items)} novedad{'es' if len(items) != 1 else ''}{sub_extra}"
+    res = ["📋 <b>RESUMEN</b>"] + resumen_niveles(items)
+    if items and items[0].get("s"):
+        s = items[0]["s"]
+        nombre = s.get("nombre") or s.get("titulo")
+        precio = clp(s["precio"]) if items[0]["tipo"] == "fisico" else usd(s["ultimo"])
+        donde = s.get("tienda") or pais_txt(s.get("pais", "US"))
+        res.append(f"⭐ Mejor oportunidad: <b>{esc(nombre)}</b> a {precio} en {esc(donde)}")
+    bloques = [cabecera(titulo, sub) + "\n" + "\n".join(res)]
+    bloques += bloques_por_nivel(items)
+    if avisos:
+        bloques.append("⚠️ <b>AVISOS DEL BOT</b>\n" + "\n".join(f"• {x}" for x in avisos))
+    bloques.append(f"{LINEA}\n{LEYENDA}\n\nVer todo lo vigente: /ofertas · Por saga: /precios · Tu lista: /seguidos")
+    return empaquetar(bloques, titulo)
+
+
+# ---------------------------------------------------------------- resumen
+
+def armar_resumen(state, hist, cfg, revisiones_hoy):
+    hoy = hoy_chile()
+    pend = {}
+    for p in state.get("pendientes") or []:
+        pend[(p["tipo"], p["ref"])] = p              # el ultimo gana
+    alertas = [{"tipo": t, "ref": r, "score": p.get("score", 0), "extra": p.get("extra"), "linea": ""}
+               for (t, r), p in pend.items()]
+    items, _ = render_alertas(alertas, state, hist)
+    # solo lo que sigue vigente y sigue siendo oferta
+    corte = _sumar_dias(hoy, -1)
+    items = [it for it in items if it["nivel"] != "normal" and (it["s"].get("visto") or "")[:10] >= corte]
+
+    titulo = "🗞️ <b>RESUMEN DEL DÍA</b>"
+    sub = f"{fecha_hora_chile()} · {revisiones_hoy} revisi{'ones' if revisiones_hoy != 1 else 'ón'} hoy"
+    l = ["📋 <b>HOY</b>"]
+    urg = (state.get("urgentes_dia") or {}).get(hoy, 0)
+    l.append(f"• 🔔 {urg} alerta{'s' if urg != 1 else ''} urgente{'s' if urg != 1 else ''} enviada{'s' if urg != 1 else ''} al momento")
+    l.append(f"• 🗂️ {len(items)} oferta{'s' if len(items) != 1 else ''} más que esperaban este resumen")
+    l.append(f"• 👀 Vigilando {len(state.get('productos') or {})} físicos y {len(state.get('eshop') or {})} digitales")
+
+    # ofertas eShop que terminan pronto (solo lo que vale la pena, mismo filtro que las alertas)
+    buenos = ids_contundentes(state, cfg)
+    termina = []
+    for e in (state.get("eshop") or {}).values():
+        if buenos is not None and e.get("id") not in buenos and not e.get("seguido"):
+            continue
+        d = dias_para(e.get("fin")) if e.get("fin") else None
+        if d is not None and 0 <= d <= 2 and (e.get("pct_oferta") or 0) >= 20 and (e.get("visto") or "")[:10] >= corte:
+            termina.append((d, e))
+    termina.sort(key=lambda x: (-(x[1].get("seguido") or x[1].get("objetivo") is not None), -x[1].get("pct_oferta", 0)))
+    if termina:
+        l += ["", "⏳ <b>TERMINAN PRONTO</b> (eShop, próximas 48 h)"]
+        for d, e in termina[:10]:
+            cuando = "hoy" if d < 1 else "mañana"
+            marca = " ⭐" if e.get("seguido") else ""
+            l.append(f"• <a href=\"{esc_attr(url_pais(e.get('url'), e.get('pais', 'US')))}\">{esc(e['titulo'])}</a>{marca} — "
+                     f"{usd(e['ultimo'])} −{round(e['pct_oferta'])}% · termina {cuando}")
+        if len(termina) > 10:
+            l.append(f"  … y {len(termina) - 10} más")
+
+    # objetivos
+    por_id = {s.get("id"): s for s in list((state.get("productos") or {}).values()) +
+              list((state.get("eshop") or {}).values()) if s.get("id")}
+    objs = (SEG.get("objetivos") or {})
+    if objs:
+        l += ["", "🎯 <b>TUS OBJETIVOS</b>"]
+        filas = []
+        for id_, o in objs.items():
+            s = por_id.get(id_)
+            if not s:
+                filas.append((9, f"• {esc(o.get('nombre', '?'))} — sin datos en la última revisión"))
+                continue
+            fis = "precio" in s and "nombre" in s
+            act = s["precio"] if fis else s["ultimo"]
+            din = clp if fis else usd
+            if act <= o["precio"]:
+                filas.append((0, f"• ✅ <b>{esc(o['nombre'])}</b> — {din(act)} · ¡llegó a tu objetivo de {din(o['precio'])}!"))
+            else:
+                falta = 100 * (act - o["precio"]) / act
+                filas.append((falta, f"• {esc(o['nombre'])} — hoy {din(act)} · 🎯 {din(o['precio'])} · falta {round(falta)}%"))
+        l += [f for _, f in sorted(filas, key=lambda x: x[0])]
+
+    # eventos
+    ev = EVENTO or None
+    prox = proximo_evento(cfg)
+    if ev:
+        l += ["", f"🚨 <b>MODO EVENTO ACTIVO</b>: {esc(ev['nombre'])} hasta el {fecha_corta(ev['hasta'])}"]
+    elif prox:
+        dias = _dias_entre(hoy, prox["desde"])
+        l += ["", "📅 <b>PRÓXIMO EVENTO</b>",
+              f"• {esc(prox['nombre'])} en {dias} día{'s' if dias != 1 else ''} ({fecha_corta(prox['desde'])}"
+              + (f", {prox['nota']}" if prox.get("nota") else "") + ")",
+              "  El modo evento se activa solo: revisión cada hora y alertas al momento."]
+
+    bloques = [cabecera(titulo, sub) + "\n" + "\n".join(l)]
+    if items:
+        bloques.append(f"{LINEA}\n🗂️ <b>OFERTAS QUE ESPERABAN EL RESUMEN</b>")
+        bloques += bloques_por_nivel(items)
+    bloques.append(f"{LINEA}\n{LEYENDA}\n\nTodo lo vigente: /ofertas · Tu lista: /seguidos · Cambiar hora: /resumen 21")
+    return empaquetar(bloques, titulo)
+
+
+# ---------------------------------------------------------------- ciclo
+
+def ciclo(cfg, state, hist, forzar=False, solo_resumen=False):
+    """Decide que hacer en esta pasada. Devuelve (mensajes, hubo_cambios)."""
+    global EVENTO
+    aj = cfg.get("ajustes", {})
+    EVENTO = evento_activo(cfg)
+    modo = aj.get("modo_alertas", "resumen")          # "resumen" o "inmediato"
+    hora_res = int(aj.get("hora_resumen", 20))
+    intervalo = 1 if EVENTO else float(aj.get("intervalo_horas", 6))
+    ultima = state.get("ultima_revision")
+    ahora = ahora_chile()
+    hoy = hoy_chile()
+
+    toca_revisar = (forzar or not ultima or horas_desde(ultima) >= intervalo - 0.25) and not solo_resumen
+    toca_resumen = solo_resumen or (modo == "resumen" and ahora.hour >= hora_res
+                                    and state.get("resumen_enviado") != hoy)
+    if EVENTO:
+        log(f"🚨 modo evento: {EVENTO['nombre']} (revisión cada hora)")
+    log(f"revisar: {'sí' if toca_revisar else 'no'} · resumen: {'sí' if toca_resumen else 'no'}"
+        f" (última revisión hace {horas_desde(ultima):.1f} h, intervalo {intervalo:g} h)")
+    if not toca_revisar and not toca_resumen:
+        return [], False
+
+    mensajes = []
+    if toca_revisar:
+        alertas = []
+        log("Revisando eShop...")
+        revisar_eshop(cfg, state, hist, alertas)
+        log("Revisando tiendas...")
+        listados = leer_tiendas(cfg, state, alertas)
+        revisar_productos(cfg, state, hist, listados, alertas)
+        try:
+            revisar_memorias(cfg, state, hist, alertas)
+        except Exception as e:  # noqa: BLE001 - las memorias nunca deben botar la revision
+            log(f"  memorias: error {type(e).__name__}: {e}")
+        state.pop("tiendas", None)
+        for viejo in ("digitales", "fisicos", "nsuids"):
+            state.pop(viejo, None)
+        state["ultima_revision"] = ahora_iso()
+        state["descubrimiento_listo"] = True
+        rev = state.setdefault("revisiones_dia", {})
+        rev[hoy] = rev.get(hoy, 0) + 1
+        for d in sorted(rev)[:-10]:
+            del rev[d]
+
+        nuevos_p = [s for s in state.get("productos", {}).values() if s.get("visto_desde") is None]
+        nuevos_e = [s for s in state.get("eshop", {}).values() if s.get("visto_desde") is None]
+        for s in nuevos_p + nuevos_e:
+            s["visto_desde"] = hoy
+        if len(nuevos_p) + len(nuevos_e) >= 5:
+            con_oferta = sum(1 for s in nuevos_p if (s.get("pct") or 0) >= 15) + \
+                sum(1 for s in nuevos_e if s.get("pct_oferta"))
+            mensajes.append("\n".join([
+                "🆕 <b>BASE DE DATOS AMPLIADA</b>", f"<i>{fecha_hora_chile()}</i>", LINEA,
+                f"📦 {len(nuevos_p)} productos físicos nuevos",
+                f"🎮 {len(nuevos_e)} juegos de la eShop nuevos",
+                f"🔥 {con_oferta} ya están con descuento", "",
+                "Los registré en silencio para no llenarte de alertas.",
+                "Desde ahora te aviso solo cuando bajen de precio.", LINEA, "Ver las ofertas de hoy: /ofertas"]))
+
+        if not EVENTO:                  # en un evento llega todo lo que encuentre
+            alertas = filtrar_alertas(alertas, state, cfg)
+        items, avisos = render_alertas(alertas, state, hist)
+        if EVENTO:
+            titulo = f"🚨 <b>ALERTA · {esc(EVENTO['nombre'].upper())}</b>"
+            mensajes += mensaje_alerta(items, avisos, titulo, " · modo evento")
+        elif modo == "resumen":
+            urg = [it for it in items if es_urgente(it)]
+            resto = [it for it in items if not es_urgente(it)]
+            mensajes += mensaje_alerta(urg, avisos, "🔔 <b>ALERTA URGENTE</b>",
+                                       f" · {len(resto)} más para el resumen de las {hora_res}:00" if resto else "")
+            pend = state.setdefault("pendientes", [])
+            for it in resto:
+                pend.append({"tipo": it["tipo"], "ref": it["ref"], "score": it["score"],
+                             "extra": it.get("extra"), "fecha": hoy})
+            ud = state.setdefault("urgentes_dia", {})
+            ud[hoy] = ud.get(hoy, 0) + len(urg)
+            for d in sorted(ud)[:-10]:
+                del ud[d]
+        else:
+            mensajes += mensaje_alerta(items, avisos, "🔔 <b>ALERTA DE OFERTAS</b>")
+
+    if toca_resumen:
+        mensajes += armar_resumen(state, hist, cfg, (state.get("revisiones_dia") or {}).get(hoy, 0))
+        state["pendientes"] = []
+        state["resumen_enviado"] = hoy
+    return mensajes, True
 
 
 # ------------------------------------------------------------- diagnostico
@@ -2326,45 +2685,14 @@ def main():
         return
 
     state = load_json(STATE_FILE, {})
-    alertas = []
     global SEG
     SEG = load_json(SEG_FILE, {})
-
     hist = load_json(HIST_FILE, {})
-    log("Revisando eShop...")
-    revisar_eshop(cfg, state, hist, alertas)
-    log("Revisando tiendas...")
-    listados = leer_tiendas(cfg, state, alertas)
-    revisar_productos(cfg, state, hist, listados, alertas)
-    try:
-        revisar_memorias(cfg, state, hist, alertas)
-    except Exception as e:  # noqa: BLE001 - las memorias nunca deben botar la revision
-        log(f"  memorias: error {type(e).__name__}: {e}")
-    state.pop("tiendas", None)          # formato anterior (por aviso), ya no se usa
-    for viejo in ("digitales", "fisicos", "nsuids"):
-        state.pop(viejo, None)
-    state["ultima_revision"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
-    state["descubrimiento_listo"] = True
-
-    # juegos que aparecen por primera vez: registrados en silencio
-    nuevos_p = [s for s in state.get("productos", {}).values() if s.get("visto_desde") is None]
-    nuevos_e = [s for s in state.get("eshop", {}).values() if s.get("visto_desde") is None]
-    for s in nuevos_p + nuevos_e:
-        s["visto_desde"] = hoy_chile()
-    alertas = filtrar_alertas(alertas, state, cfg)
-    mensajes = armar_mensajes(alertas, state, hist)
-    if len(nuevos_p) + len(nuevos_e) >= 5:
-        con_oferta = sum(1 for s in nuevos_p if (s.get("pct") or 0) >= 15) + \
-            sum(1 for s in nuevos_e if s.get("normal"))
-        mensajes.insert(0, "\n".join([
-            "🆕 <b>BASE DE DATOS AMPLIADA</b>",
-            f"<i>{fecha_hora_chile()}</i>", LINEA,
-            f"📦 {len(nuevos_p)} productos físicos nuevos",
-            f"🎮 {len(nuevos_e)} juegos de la eShop nuevos",
-            f"🔥 {con_oferta} ya están con descuento",
-            "", "Los registré en silencio para no llenarte de alertas.",
-            "Desde ahora te aviso solo cuando bajen de precio.",
-            LINEA, "Ver las ofertas de hoy: /ofertas"]))
+    mensajes, cambios = ciclo(cfg, state, hist, forzar="--forzar" in sys.argv,
+                              solo_resumen="--resumen" in sys.argv)
+    if not cambios:
+        log("Nada que hacer en esta pasada.")
+        return
     mensajes = recortar_mensajes(mensajes, cfg.get("ajustes", {}).get("max_mensajes", 12))
     bloqueado = state.get("telegram_bloqueado_hasta")
     if bloqueado and bloqueado > time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()):
@@ -2391,7 +2719,6 @@ def main():
     except Exception as e:  # noqa: BLE001 - las vistas nunca deben botar la revision
         log(f"  vistas: error {type(e).__name__}: {e}")
     log(f"Listo: {enviados}/{len(mensajes)} mensajes enviados.")
-
 
 if __name__ == "__main__":
     main()

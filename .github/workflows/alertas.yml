@@ -3,13 +3,14 @@ name: Alertas de ofertas Switch
 
 on:
   schedule:
-    - cron: "17 */6 * * *"   # cada 6 horas (hora UTC)
+    - cron: "17 * * * *"     # cada hora: el bot decide si toca revisar (cada 6 h, cada 1 h en
+                              # modo evento) o mandar el resumen diario
   workflow_dispatch:          # para correrlo a mano desde la pestaña Actions
     inputs:
       modo:
-        description: "normal = revisar precios · diagnostico = probar las tiendas"
+        description: "normal = revisar ya · resumen = mandar el resumen ya · diagnostico = probar las tiendas"
         type: choice
-        options: [normal, diagnostico]
+        options: [normal, resumen, diagnostico]
         default: normal
       termino:
         description: "Búsqueda para el diagnóstico"
@@ -53,7 +54,10 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python bot.py
+        run: |
+          if [ "${{ inputs.modo }}" = "resumen" ]; then python bot.py --resumen
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then python bot.py --forzar
+          else python bot.py; fi
 
       - name: Bombazos del canal
         if: ${{ inputs.modo != 'diagnostico' }}

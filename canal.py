@@ -397,7 +397,8 @@ def bloque(cfg, o, medalla):
     """Tarjeta corta de un juego para las listas: nombre, precio, contexto y comparacion."""
     tachado = f" <s>{clp(o['normal'])}</s>" if o.get("normal") and o["normal"] > o["precio"] else ""
     donde = f" en {esc(o['tienda'])}" if o["tipo"] == "fisico" else ""
-    l = [f"{medalla} <b>{esc(corto(o['nombre'], 44))}</b>{plat(o)}",
+    _, url = mejor_opcion(o)
+    l = [f"{medalla} <a href=\"{esc_attr(url)}\"><b>{esc(corto(o['nombre'], 44))}</b></a>{plat(o)}",
          f"💰 <b>{precio_txt(o)}</b>{tachado} · −{round(o['pct'])}%{donde}"]
     extra = []
     if o["minimo"]:
@@ -421,15 +422,6 @@ def bloque(cfg, o, medalla):
 
 def boton(texto, url):
     return {"text": texto, "url": url}
-
-
-def botones_juegos(items):
-    """Un boton por juego, directo a donde conviene comprarlo."""
-    filas = []
-    for i, o in enumerate(items):
-        donde, url = mejor_opcion(o)
-        filas.append([boton(f"{MEDALLAS[i]} {corto(o['nombre'], 26)} · {donde}", url)])
-    return filas
 
 
 def pie(cfg):
@@ -492,7 +484,7 @@ def post_lista(cfg, titulo, items, t, extra=None, cierre=None):
     ahorro = sum(o.get("ahorro") or 0 for o in items)
     l += ["", LINEA, cierre or f"💡 Ahorras {clp(ahorro)} si te llevas los {len(items)}"]
     primero = next((o for o in items if o["tipo"] == "digital"), None)
-    return {"texto": "\n".join(l), "botones": botones_juegos(items) + pie(cfg),
+    return {"texto": "\n".join(l), "botones": pie(cfg),
             "preview": primero["url"] if primero else None}
 
 
@@ -585,13 +577,14 @@ def slot_fisicos(cfg, est, cands, t):
     l = ["📦 <b>FÍSICOS EN CHILE</b>", f"<i>{fecha_txt(t)} · comparamos {len(cfg_tiendas(fis))} tiendas</i>"]
     med = ["🥇", "🥈", "🥉"]
     for i, o in enumerate(fis):
-        l += ["", f"{MEDALLAS[i]} <b>{esc(corto(o['nombre'], 44))}</b>{plat(o)} · −{round(o['pct'])}%"
+        l += ["", f"{MEDALLAS[i]} <a href=\"{esc_attr(o['url'])}\"><b>{esc(corto(o['nombre'], 44))}</b></a>{plat(o)} · −{round(o['pct'])}%"
               + (" · 📉 mínimo" if o["minimo"] else "")]
         for j, av in enumerate(o["avisos"][:3]):
-            l.append(f"   {med[j]} {esc(av['tienda'])} <b>{clp(av['precio'])}</b>" if j == 0
-                     else f"   {med[j]} {esc(av['tienda'])} {clp(av['precio'])}")
-    l += ["", LINEA, "💡 Precio más bajo primero; el botón te lleva a esa tienda"]
-    return {"texto": "\n".join(l), "botones": botones_juegos(fis) + pie(cfg)}, fis
+            enlace = f"<a href=\"{esc_attr(av['url'])}\">{esc(av['tienda'])}</a>"
+            l.append(f"   {med[j]} {enlace} <b>{clp(av['precio'])}</b>" if j == 0
+                     else f"   {med[j]} {enlace} {clp(av['precio'])}")
+    l += ["", LINEA, "💡 Toca el juego o la tienda para ir a comprar"]
+    return {"texto": "\n".join(l), "botones": pie(cfg)}, fis
 
 
 def cfg_tiendas(items):
