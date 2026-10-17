@@ -2,11 +2,12 @@
   "dias": {
     "2026-10-17": {
       "bombazos": 0,
-      "posts": 3,
+      "posts": 4,
       "slots": [
         "top",
         "top",
-        "ultima"
+        "ultima",
+        "pack"
       ]
     }
   },
@@ -46,6 +47,16 @@
       ],
       "message_id": 7,
       "slot": "ultima"
+    },
+    {
+      "fecha": "2026-10-17T14:55-03:00",
+      "ids": [
+        "431082885d",
+        "4d27091322",
+        "d156f22585"
+      ],
+      "message_id": 8,
+      "slot": "pack"
     }
   ],
   "publicados": {
@@ -69,6 +80,16 @@
       "precio": 5970,
       "slot": "top"
     },
+    "431082885d": {
+      "fecha": "2026-10-17",
+      "precio": 34990.0,
+      "slot": "pack"
+    },
+    "4d27091322": {
+      "fecha": "2026-10-17",
+      "precio": 64990.0,
+      "slot": "pack"
+    },
     "a600896585": {
       "fecha": "2026-10-17",
       "precio": 15180,
@@ -88,6 +109,11 @@
       "fecha": "2026-10-17",
       "precio": 11120,
       "slot": "top"
+    },
+    "d156f22585": {
+      "fecha": "2026-10-17",
+      "precio": 4470,
+      "slot": "pack"
     },
     "d1b6eb8d5f": {
       "fecha": "2026-10-17",
@@ -127,5 +153,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-10-17T06:48:54.125240-03:00"
+  "ultimo_post": "2026-10-17T14:55:29.739443-03:00"
 }
