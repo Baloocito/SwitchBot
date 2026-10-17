@@ -9,19 +9,7 @@
       "nivel": "regular",
       "nombre": "It Takes Two",
       "pct": 8.1,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>It Takes Two</b>\n🕹️ Switch 2 · 📦 Físico · Split Fiction / It Takes Two\n💰 <b>$174.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $15.504 frente al «antes» que marca la tienda ($190.494)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $174.990 (15 oct, Lider) · máximo $174.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$32.37 ≈ $31.901 en 🇨🇱 Chile\n   ➜ El digital es $143.089 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-electronic-arts-it-takes-two-para-nintendo-switch/00001463374782\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:d639d8df88",
-        "text": "⚙️ Split Fiction S2 · $64.990"
-      },
-      "id": "d639d8df88",
-      "nivel": "normal",
-      "nombre": "Split Fiction",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Split Fiction</b>\n🕹️ Switch 2 · 📦 Físico · Split Fiction / It Takes Two\n💰 <b>$64.990</b> en Falabella 🏪 <i>vende Rivertec</i>\n💡 Está a su precio de siempre\n🏷️ La tienda dice «antes $99.990», pero las demás lo venden cerca de $64.990: ese descuento está inflado\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/144714925/Split-Fiction-Switch-2\">$64.990 Falabella</a> 🏪 Rivertec\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/split-fiction-sw2/00001463338551\">$64.990 Lider</a> 🏪 Rivertec SPA (+$0)\n📈 Mínimo $64.990 (14 oct, Falabella) · máximo $64.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$45.80 ≈ $45.136 en 🇨🇦 Canadá\n   ➜ El digital es $19.854 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 3 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/144714925/Split-Fiction-Switch-2\">Ir a comprar en Falabella</a>",
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>It Takes Two</b>\n🕹️ Switch 2 · 📦 Físico · Split Fiction / It Takes Two\n💰 <b>$174.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $15.504 frente al «antes» que marca la tienda ($190.494)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $174.990 (15 oct, Lider) · máximo $174.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$32.47 ≈ $31.900 en 🇨🇱 Chile\n   ➜ El digital es $143.090 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-electronic-arts-it-takes-two-para-nintendo-switch/00001463374782\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -33,36 +21,48 @@
       "nivel": "normal",
       "nombre": "It Takes Two",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>It Takes Two (import japan)</b>\n🕹️ Switch 2 · 📦 Físico · Split Fiction / It Takes Two\n💰 <b>$39.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (16 oct, 8 Bits) · máximo $39.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$32.37 ≈ $31.901 en 🇨🇱 Chile\n   ➜ El digital es $8.089 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/it-takes-two-nsw-japan-import\">Ir a comprar en 8 Bits</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>It Takes Two (import japan)</b>\n🕹️ Switch 2 · 📦 Físico · Split Fiction / It Takes Two\n💰 <b>$39.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (16 oct, 8 Bits) · máximo $39.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$32.47 ≈ $31.900 en 🇨🇱 Chile\n   ➜ El digital es $8.090 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/it-takes-two-nsw-japan-import\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:d639d8df88",
+        "text": "⚙️ Split Fiction S2 · $64.990"
+      },
+      "id": "d639d8df88",
+      "nivel": "normal",
+      "nombre": "Split Fiction",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Split Fiction</b>\n🕹️ Switch 2 · 📦 Físico · Split Fiction / It Takes Two\n💰 <b>$64.990</b> en Falabella 🏪 <i>vende Rivertec</i>\n💡 Está a su precio de siempre\n🏷️ La tienda dice «antes $99.990», pero las demás lo venden cerca de $64.990: ese descuento está inflado\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/144714925/Split-Fiction-Switch-2\">$64.990 Falabella</a> 🏪 Rivertec\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/split-fiction-sw2/00001463338551\">$64.990 Lider</a> 🏪 Rivertec SPA (+$0)\n📈 Mínimo $64.990 (14 oct, Falabella) · máximo $64.990\n   ▄▄▄▄  últimos 4 días\n🎮 Digital: US$45.94 ≈ $45.134 en 🇨🇦 Canadá\n   ➜ El digital es $19.856 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 4 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/144714925/Split-Fiction-Switch-2\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
       "boton": {
         "callback_data": "a:625f2116fc",
-        "text": "⚙️ Split Fiction S2 · US$45.80"
+        "text": "⚙️ Split Fiction S2 · US$45.94"
       },
       "con_fisico": true,
       "id": "625f2116fc",
       "nivel": "normal",
       "nombre": "Split Fiction",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Split Fiction</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · Split Fiction / It Takes Two\n💰 <b>US$45.80</b> ≈ $45.136 en 🇨🇦 Canadá\n   Precio en la tienda: CA$64,99 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/split-fiction-switch-2/\">US$45.80</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/split-fiction-switch-2/\">US$49.26</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/split-fiction-switch-2/\">US$49.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/split-fiction-switch-2/\">US$50.63</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/split-fiction-switch-2/\">US$52.11</a>\n   El más caro: 🇨🇴 US$69.08\n📦 Físico: $64.990 en Falabella → el digital te ahorra $19.854\n📈 Mínimo US$45.68 (15 oct en 🇨🇦 Canadá)\n   ▂▁█  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/split-fiction-switch-2/\">Ver en la eShop de Canadá</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Split Fiction</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · Split Fiction / It Takes Two\n💰 <b>US$45.94</b> ≈ $45.134 en 🇨🇦 Canadá\n   Precio en la tienda: CA$64,99 CAD\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/split-fiction-switch-2/\">US$45.94</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/split-fiction-switch-2/\">US$48.94</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/split-fiction-switch-2/\">US$49.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/split-fiction-switch-2/\">US$50.79</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/split-fiction-switch-2/\">US$52.12</a>\n   El más caro: 🇨🇴 US$69.12\n📦 Físico: $64.990 en Falabella → el digital te ahorra $19.856\n📈 Mínimo US$45.68 (15 oct en 🇨🇦 Canadá)\n   ▂▁▄█  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/split-fiction-switch-2/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
     },
     {
       "boton": {
         "callback_data": "a:500404dc4d",
-        "text": "⚙️ It Takes Two S2 · US$32.37"
+        "text": "⚙️ It Takes Two S2 · US$32.47"
       },
       "con_fisico": true,
       "id": "500404dc4d",
       "nivel": "normal",
       "nombre": "It Takes Two",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>It Takes Two</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · Split Fiction / It Takes Two\n💰 <b>US$32.37</b> ≈ $31.901 en 🇨🇱 Chile\n   Precio en la tienda: $31.900 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/it-takes-two-70010000121106-switch-2/\">US$32.37</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/it-takes-two-70010000121106-switch-2/\">US$38.75</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/it-takes-two-70010000121106-switch-2/\">US$39.37</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/it-takes-two-70010000121106-switch-2/\">US$39.99</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/it-takes-two-70010000121106-switch-2/\">US$43.37</a>\n   El más caro: 🇨🇴 US$50.24\n📦 Físico: $39.990 en 8 Bits → el digital te ahorra $8.089\n📈 Mínimo US$32.37 (16 oct en 🇨🇱 Chile)\n   █▁  últimos 2 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/it-takes-two-70010000121106-switch-2/\">Ver en la eShop de Chile</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>It Takes Two</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · Split Fiction / It Takes Two\n💰 <b>US$32.47</b> ≈ $31.900 en 🇨🇱 Chile\n   Precio en la tienda: $31.900 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/it-takes-two-70010000121106-switch-2/\">US$32.47</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/it-takes-two-70010000121106-switch-2/\">US$38.87</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/it-takes-two-70010000121106-switch-2/\">US$39.11</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/it-takes-two-70010000121106-switch-2/\">US$39.99</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/it-takes-two-70010000121106-switch-2/\">US$43.39</a>\n   El más caro: 🇨🇴 US$50.27\n📦 Físico: $39.990 en 8 Bits → el digital te ahorra $8.090\n📈 Mínimo US$32.37 (16 oct en 🇨🇱 Chile)\n   █▁▇  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/it-takes-two-70010000121106-switch-2/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     }
   ],
   "juego": "Split Fiction / It Takes Two",
-  "revision": "2026-10-16T21:11:35Z"
+  "revision": "2026-10-17T04:27:40Z"
 }
