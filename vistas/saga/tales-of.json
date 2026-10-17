@@ -2,6 +2,19 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:0a68d1ad46",
+        "text": "⚙️ Tales of Autumn · US$1.97"
+      },
+      "con_fisico": false,
+      "id": "0a68d1ad46",
+      "nivel": "compra",
+      "nombre": "Tales of Autumn",
+      "pct": 84.9,
+      "texto": "🟢 <b>COMPRA YA</b> · −85%\n<b>Tales of Autumn</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$1.97</b> ≈ $1.935 en 🇨🇦 Canadá\n   Precio en la tienda: CA$2,79 CAD\n💡 Oferta de −85% en la eShop\n🏷️ Normal US$13.08 → ahorras US$11.11 · ⏳ termina el 31 oct (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/tales-of-autumn-switch/\">US$1.97</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/tales-of-autumn-switch/\">US$1.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/tales-of-autumn-switch/\">US$2.03</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/tales-of-autumn-switch/\">US$2.18</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/tales-of-autumn-switch/\">US$2.33</a>\n   El más caro: 🇨🇴 US$2.98\n📈 Mínimo US$1.97 (17 oct en 🇨🇦 Canadá)\n   ███▁  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/tales-of-autumn-switch/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:771c700440",
         "text": "⚙️ Tales of Symphonia Remastered · $49.990"
       },
@@ -306,19 +319,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:0a68d1ad46",
-        "text": "⚙️ Tales of Autumn · US$12.57"
-      },
-      "con_fisico": false,
-      "id": "0a68d1ad46",
-      "nivel": "normal",
-      "nombre": "Tales of Autumn",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Tales of Autumn</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$12.57</b> ≈ $12.349 en 🇨🇱 Chile\n   Precio en la tienda: $12.350 CLP\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/tales-of-autumn-switch/\">US$12.57</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/tales-of-autumn-switch/\">US$12.99</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/tales-of-autumn-switch/\">US$13.08</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/tales-of-autumn-switch/\">US$13.98</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/tales-of-autumn-switch/\">US$14.08</a>\n   El más caro: 🇨🇴 US$16.82\n📈 Mínimo US$12.53 (16 oct en 🇨🇱 Chile)\n   █▄▁▃  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/tales-of-autumn-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:328f022208",
         "text": "⚙️ Soulbind: Tales Of The Underw… · US$6.92"
       },
@@ -397,5 +397,5 @@
     }
   ],
   "juego": "Tales of",
-  "revision": "2026-10-17T04:27:40Z"
+  "revision": "2026-10-17T13:54:31Z"
 }
