@@ -1681,6 +1681,54 @@ def agregar_alerta(alertas, tipo, juego, linea, score, ref=None, extra=None):
                     "ref": ref, "extra": extra})
 
 
+def filtrar_alertas(alertas, state, cfg):
+    """Solo lo contundente, con el mismo criterio del canal (canal.json):
+    - juegos de tu lista: siempre, salvo que sean relleno que solo comparte una palabra
+      con la saga ("Hades Uprising");
+    - juegos descubiertos: solo los destacados;
+    - lo que sigues o llego a tu objetivo, memorias y avisos del bot: siempre."""
+    if cfg.get("ajustes", {}).get("solo_contundentes", True) is False:
+        return alertas
+    try:
+        import canal
+        ccfg = load_json(canal.CANAL_FILE, None)
+        if not ccfg:
+            return alertas
+        cands = {o["id"]: o for o in canal.candidatos(ccfg, state, incluir_excluidos=True)}
+    except Exception as e:  # noqa: BLE001 - si el filtro falla, mejor avisar todo
+        log(f"  filtro de alertas: error {type(e).__name__}: {e}; mando todo")
+        return alertas
+    out, fuera = [], 0
+    for a in alertas:
+        grupo = {"digital": "eshop", "fisico": "productos"}.get(a["tipo"])
+        s = (state.get(grupo) or {}).get(a.get("ref")) if grupo else None
+        if not s:
+            out.append(a)
+            continue
+        precio = s.get("ultimo") if a["tipo"] == "digital" else s.get("precio")
+        if s.get("seguido") or (s.get("objetivo") is not None and precio is not None
+                                and precio <= s["objetivo"]):
+            out.append(a)
+            continue
+        o = cands.get(s.get("id"))
+        de_tu_lista = norm(re.sub(r"^\W+", "", a.get("juego") or "")) != "otros juegos"
+        if o is None:
+            ok = de_tu_lista              # no se pudo evaluar: se respeta tu lista
+        elif o.get("excluido"):
+            ok = False
+        elif de_tu_lista:
+            ok = bool(o.get("saga")) or o.get("nivel") != "resto"
+        else:
+            ok = o.get("nivel") in ("destacado", "bombazo")
+        if ok:
+            out.append(a)
+        else:
+            fuera += 1
+    if fuera:
+        log(f"  filtro de alertas: {fuera} de relleno o poco relevantes no se avisan (siguen en /ofertas)")
+    return out
+
+
 def extra_motivos(motivos, anterior=None, precio=None, dinero=None):
     """Etiqueta corta de por que llega esta alerta."""
     if "objetivo" in motivos:
@@ -2303,6 +2351,7 @@ def main():
     nuevos_e = [s for s in state.get("eshop", {}).values() if s.get("visto_desde") is None]
     for s in nuevos_p + nuevos_e:
         s["visto_desde"] = hoy_chile()
+    alertas = filtrar_alertas(alertas, state, cfg)
     mensajes = armar_mensajes(alertas, state, hist)
     if len(nuevos_p) + len(nuevos_e) >= 5:
         con_oferta = sum(1 for s in nuevos_p if (s.get("pct") or 0) >= 15) + \

@@ -3,7 +3,8 @@
     "pais_eshop": "US",
     "descuento_minimo_pct": 15,
     "baja_minima_pct": 10,
-    "max_mensajes": 12
+    "max_mensajes": 12,
+    "solo_contundentes": true
   },
   "memorias": {
     "activa": true,
