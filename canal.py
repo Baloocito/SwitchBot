@@ -237,6 +237,26 @@ def candidatos(cfg, state, incluir_excluidos=False):
     return out if incluir_excluidos else [o for o in out if not o.get("excluido")]
 
 
+def basura_por_nombre(cfg, titulo, editora=None, normal_usd=None):
+    """Relleno reconocible solo por nombre, editora y precio (sin saber si esta en oferta).
+    Lo usa bot.py para no guardar juegos descubiertos que nunca valdria la pena avisar.
+    Una joya o una editora A/B nunca es basura. Devuelve el motivo o None."""
+    b, ed = cfg["basura"], cfg["editoras"]
+    t = norm(titulo)
+    edit = norm(editora or "")
+    if es_joya(t, cfg["joyas"]) or (edit and any(contiene(edit, x) for x in ed["a"] + ed["b"])):
+        return None
+    if edit and any(contiene(edit, x) for x in ed.get("basura") or []):
+        return "editora basura"
+    if calza_lista(t, b["titulo_excluir"]):
+        return "titulo"
+    if any(re.search(rx, t) for rx in b["titulo_regex_excluir"]):
+        return "titulo con año"
+    if normal_usd is not None and normal_usd < b["precio_normal_min_usd"]:
+        return "precio normal muy bajo"
+    return None
+
+
 def puntuar(cfg, o):
     p, b, ed = cfg["puntaje"], cfg["basura"], cfg["editoras"]
     t = norm(o["nombre"])

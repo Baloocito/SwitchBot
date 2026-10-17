@@ -1083,6 +1083,24 @@ def ahora_iso():
 
 # ---------------------------------------------------------------- revisar
 
+_CFG_CANAL = []
+
+
+def cfg_canal():
+    if not _CFG_CANAL:
+        _CFG_CANAL.append(load_json(BASE / "canal.json", None))
+    return _CFG_CANAL[0]
+
+
+def es_basura_descubierta(ccfg, h, normal_usd):
+    try:
+        import canal
+        return canal.basura_por_nombre(ccfg, h["titulo"], h.get("editora"), normal_usd)
+    except Exception as e:  # noqa: BLE001 - ante la duda, se guarda
+        log(f"  filtro de basura: error {type(e).__name__}: {e}")
+        return None
+
+
 def revisar_eshop(cfg, state, hist, alertas):
     aj = cfg.get("ajustes", {})
     pais = aj.get("pais_eshop", "US")
@@ -1128,11 +1146,20 @@ def revisar_eshop(cfg, state, hist, alertas):
     clp_x_usd = (rates or {}).get("CLP")
     items = state.setdefault("eshop", {})
     hist_e = hist.setdefault("eshop", {})
+    ccfg = cfg_canal()
+    basura = 0
     for nsuid, (juego, h) in sorted(encontrados.items(), key=lambda x: x[1][1]["titulo"]):
         regs = porreg.get(nsuid)
         if not regs:
             continue
         base = regs.get(pais) or next(iter(regs.values()))
+        # juegos descubiertos que son relleno: ni se guardan ni se avisan (tu lista no se toca)
+        if juego.get("auto") and ccfg and es_basura_descubierta(ccfg, h, base["regular_usd"]):
+            basura += 1
+            items.pop(nsuid, None)
+            hist_e.pop(nsuid, None)
+            (hist.get("eshop_ofertas") or {}).pop(nsuid, None)
+            continue
         mejor_pais = min(regs, key=lambda k: regs[k]["actual_usd"])
         mejor = regs[mejor_pais]
         actual = mejor["actual_usd"]
@@ -1202,6 +1229,8 @@ def revisar_eshop(cfg, state, hist, alertas):
             agregar_alerta(alertas, "digital", juego["nombre"], linea,
                            puntaje(pct, motivos), ref=nsuid,
                            extra=extra_motivos(motivos, anterior, actual, usd))
+    if basura:
+        log(f"  eShop: {basura} juegos descubiertos de relleno descartados (no se guardan)")
 
 
 def _leer_una_tienda(tienda, juegos, state):
@@ -2214,6 +2243,15 @@ def generar_vistas(state, hist, cfg):
     def vigente(x):
         return not corte or (x.get("visto") or "") >= corte
 
+    # /ofertas y /precios muestran solo lo que vale la pena (el resto queda guardado igual)
+    buenos = ids_contundentes(state, cfg)
+
+    def vale(x, tipo):
+        if buenos is None or x.get("seguido") or x.get("objetivo") is not None or x.get("id") in buenos:
+            return True
+        de_tu_lista = norm(re.sub(r"^\W+", "", x.get("juego") or "")) != "otros juegos"
+        return tipo == "fisico" and de_tu_lista and not USADO_RE.search(norm(x.get("nombre") or ""))
+
     ofertas, sagas, ids = [], {}, {}
     for clave, s in (state.get("productos") or {}).items():
         if not vigente(s):
@@ -2227,6 +2265,8 @@ def generar_vistas(state, hist, cfg):
                         "plataforma": s.get("plataforma"), "precio": s["precio"], "moneda": "CLP",
                         "tienda": s.get("tienda"), "url": s.get("url"), "saga": slug(s["juego"]),
                         "min": s.get("min_hist")}
+        if not vale(s, "fisico"):
+            continue
         sagas.setdefault(s["juego"], []).append(it)
         if nivel in ("objetivo", "compra", "bueno", "regular"):
             ofertas.append(it)
@@ -2244,6 +2284,8 @@ def generar_vistas(state, hist, cfg):
                         "plataforma": e.get("plataforma"), "precio": e["ultimo"], "moneda": "USD",
                         "tienda": "eShop " + e.get("pais", "US"), "url": url_pais(e.get("url"), e.get("pais", "US")),
                         "saga": slug(e["juego"]), "min": e.get("min_hist")}
+        if not vale(e, "digital"):
+            continue
         sagas.setdefault(e["juego"], []).append(it)
         if nivel in ("objetivo", "compra", "bueno", "regular"):
             ofertas.append(it)

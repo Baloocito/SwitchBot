@@ -1077,6 +1077,13 @@ async function enviarBloques(env, chatId, { titulo, bloques }) {
     }
   }
   if (actual) msgs.push([actual, botones]);
+  // tope: decenas de mensajes seguidos hacen que Telegram bloquee al bot por horas
+  const MAX_MSGS = 6;
+  if (msgs.length > MAX_MSGS) {
+    const resto = msgs.length - (MAX_MSGS - 1);
+    msgs.splice(MAX_MSGS - 1, msgs.length, [`📦 <b>Y hay más</b>\n${SEP}\nNo te mando ${resto} mensajes más para que Telegram no bloquee al bot.\n` +
+      "Afina la búsqueda: /ofertas compra · /ofertas fisico · /ofertas 50 · /precios <i>juego</i>", []]);
+  }
   const n = msgs.length;
   for (let i = 0; i < n; i++) {
     let [m, bts] = msgs[i];
