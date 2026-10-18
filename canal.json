@@ -27,7 +27,9 @@
     "revision_minutos": 10,
     "revision_caduca_horas": 6,
     "datos_viejos_horas": 9,
-    "tienda_caida_revisiones": 3
+    "tienda_caida_revisiones": 3,
+    "texto_compartir": "🎮 Ofertas de Nintendo Switch en Chile, filtradas y en pesos. Únete gratis: {link}",
+    "_ayuda_canal_url": "Link que se comparte. Hoy es el de invitación del canal privado; cuando el canal sea público, cámbialo por https://t.me/tu_usuario (más fácil de recordar y no caduca)."
   },
   "horarios": [
     {

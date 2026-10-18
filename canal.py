@@ -467,16 +467,26 @@ def boton(texto, url):
     return {"text": texto, "url": url}
 
 
-def pie(cfg):
+def texto_compartir(cfg):
+    """Mensaje listo para pegar en WhatsApp, Instagram o un foro (con el link del canal)."""
     a = cfg["ajustes"]
-    fila = []
-    if a.get("web_url"):
-        fila.append(boton("📚 Todas las ofertas", a["web_url"]))
+    plantilla = a.get("texto_compartir") or "🎮 Ofertas de Nintendo Switch en Chile, filtradas y en pesos: {link}"
+    return plantilla.format(link=a["canal_url"])
+
+
+def pie(cfg):
+    """Botones de utilidad al pie de cada post. Compartir saca el link fuera de Telegram:
+    'Copiar link' lo deja en el portapapeles (para Instagram, foros, etc.) y WhatsApp
+    abre la app con el mensaje escrito."""
+    a = cfg["ajustes"]
+    filas = []
     if a.get("canal_url"):
-        texto = quote("Ofertas de Switch en Chile, filtradas y en pesos 🎮")
-        fila.append(boton("📣 Invitar a un amigo",
-                          f"https://t.me/share/url?url={quote(a['canal_url'], safe='')}&text={texto}"))
-    return [fila] if fila else []
+        texto = texto_compartir(cfg)
+        filas.append([{"text": "📋 Copiar link del canal", "copy_text": {"text": texto[:256]}},
+                      boton("📲 WhatsApp", f"https://wa.me/?text={quote(texto)}")])
+    if a.get("web_url"):
+        filas.append([boton("📚 Todas las ofertas", a["web_url"])])
+    return filas
 
 
 def post_bombazo(cfg, o):
@@ -926,11 +936,16 @@ El precio tachado es el precio normal.
 
 ⚠️ <b>Importante</b>
 Los precios y el stock pueden cambiar en cualquier momento: confírmalos en la tienda antes de pagar. No somos una tienda ni vendemos los juegos.
-Algunos links pueden ser de afiliado: si compras con ellos, el canal recibe una pequeña comisión sin costo extra para ti. Los marcamos con 🔗."""
+Algunos links pueden ser de afiliado: si compras con ellos, el canal recibe una pequeña comisión sin costo extra para ti. Los marcamos con 🔗.
+
+📣 <b>¿Te sirve? Compártelo</b>
+{link}
+Usa los botones de abajo para copiar el link o mandarlo por WhatsApp."""
 
 
 def modo_bienvenida(cfg):
-    texto = TEXTO_BIENVENIDA.format(nombre=esc(cfg["ajustes"].get("nombre_canal", "nuestro canal")))
+    texto = TEXTO_BIENVENIDA.format(nombre=esc(cfg["ajustes"].get("nombre_canal", "nuestro canal")),
+                                    link=esc(cfg["ajustes"].get("canal_url", "")))
     res = enviar({"texto": texto, "botones": pie(cfg)}, False)
     if res and res is not SIN_ENVIO:
         fijado = tg("pinChatMessage", {"chat_id": destino(), "message_id": res["message_id"],
