@@ -2,19 +2,19 @@
   "evento": null,
   "fallos": {
     "PC Factory": 12,
-    "Paris": 18,
+    "Paris": 19,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 328,
-  "pendientes": 0,
+  "fisicos": 330,
+  "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-17T22:31:06Z",
+  "revision": "2026-10-18T06:06:23Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -199,12 +199,11 @@
     },
     {
       "juego": "Cyberpunk 2077",
-      "linea": "🟠 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990",
+      "linea": "⚪ <b>Cyberpunk 2077</b> — 📦 1 desde $39.990",
       "nombres": [
-        "cd de projekt cyberpunk 2077",
         "va 11 hall a cyberpunk bartender action"
       ],
-      "orden": 3,
+      "orden": 4,
       "slug": "cyberpunk-2077"
     },
     {
@@ -300,9 +299,10 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟡 <b>EA Sports FC</b> — 📦 6 desde $47.990\n   🟡 EA SPORTS FC 26 −23%",
+      "linea": "🟡 <b>EA Sports FC</b> — 📦 7 desde $47.990\n   🟡 EA SPORTS FC 26 −23%",
       "nombres": [
         "ea sports fc 24",
+        "ea sports fc 25",
         "ea sports fc 26",
         "ea sports fc 27",
         "fifa 21 electronic arts"
@@ -424,7 +424,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟠 <b>Just Dance</b> — 📦 10 desde $28.990",
+      "linea": "🟠 <b>Just Dance</b> — 📦 11 desde $28.990",
       "nombres": [
         "just dance 20 1 mes de prueba gratuita",
         "just dance 2017",
@@ -435,7 +435,8 @@
         "pulseras para just dance y zumba",
         "ubisoft just dance 2018",
         "ubisoft just dance 2019",
-        "ubisoft just dance 2021"
+        "ubisoft just dance 2021",
+        "ubisoft just dance 2024 descarga digital"
       ],
       "orden": 3,
       "slug": "just-dance"
@@ -659,10 +660,9 @@
     },
     {
       "juego": "NBA 2K",
-      "linea": "🟠 <b>NBA 2K</b> — 📦 2 desde $57.990",
+      "linea": "🟠 <b>NBA 2K</b> — 📦 1 desde $57.990",
       "nombres": [
-        "2k nba 2k18",
-        "nba 2k playgrounds 2"
+        "2k nba 2k18"
       ],
       "orden": 3,
       "slug": "nba-2k"
@@ -955,7 +955,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟡 <b>Sonic</b> — 📦 10 desde $29.990\n   🟡 SONIC X SHADOW GENERATIONS −20%",
+      "linea": "🟡 <b>Sonic</b> — 📦 9 desde $29.990\n   🟡 SONIC X SHADOW GENERATIONS −20%",
       "nombres": [
         "sonic forces",
         "sonic frontiers",
@@ -1209,10 +1209,9 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟡 <b>Zelda</b> — 📦 9 desde $44.990\n   🟡 The Legend of Zelda: Tears of the Kingdom −28%",
+      "linea": "🟡 <b>Zelda</b> — 📦 8 desde $44.990\n   🟡 The Legend of Zelda: Tears of the Kingdom −28%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
-        "oled zelda tears of the kingdom japan specs",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
@@ -1222,5 +1221,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 497
+  "total": 495
 }
