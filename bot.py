@@ -159,10 +159,56 @@ def precio_valido(p):
     return p is not None and PRECIO_MIN_CLP <= p <= PRECIO_MAX_CLP
 
 
+BLOQUEO_RE = re.compile(r"cf-chl|challenge-platform|Attention Required|Access Denied|captcha|"
+                        r"Request unsuccessful|Incapsula|_Incapsula_|px-captcha|Pardon Our Interruption", re.I)
+VIA_WORKER = set()          # dominios que se leen por el Worker (tiendas con "via": "worker")
+RELAY_USADO = set()         # dominios que tuvieron que pasar por el Worker en esta corrida
+
+
+def dominio(url):
+    return re.sub(r"^https?://(www\.)?", "", str(url)).split("/")[0].lower()
+
+
+def _relay(url, kw):
+    """Pide la pagina a traves del Worker de Cloudflare (sale por otra red: muchas tiendas
+    bloquean los servidores de GitHub pero no los de Cloudflare)."""
+    base = os.environ.get("WORKER_URL", "").rstrip("/")
+    clave = os.environ.get("PROXY_KEY", "")
+    completa = requests.Request("GET", url, params=kw.get("params")).prepare().url
+    return requests.get(f"{base}/proxy", params={"u": completa},
+                        headers={"X-Proxy-Key": clave}, timeout=kw.get("timeout", TIMEOUT) + 15)
+
+
+def bloqueado(r):
+    return r.status_code in (401, 403, 429, 503) or (
+        r.status_code == 200 and len(r.text) < 20000 and bool(BLOQUEO_RE.search(r.text[:20000])))
+
+
 def get(url, **kw):
     kw.setdefault("headers", HEADERS)
     kw.setdefault("timeout", TIMEOUT)
-    return requests.get(url, **kw)
+    hay_relay = bool(os.environ.get("WORKER_URL") and os.environ.get("PROXY_KEY"))
+    dom = dominio(url)
+    if hay_relay and dom in VIA_WORKER:
+        return _relay(url, kw)
+    try:
+        r = requests.get(url, **kw)
+    except requests.RequestException:
+        if not (hay_relay and dom.endswith(".cl")):
+            raise
+        r = None
+    # bloqueado o caido: se reintenta por el Worker (solo tiendas chilenas)
+    if hay_relay and dom.endswith(".cl") and (r is None or bloqueado(r)):
+        try:
+            r2 = _relay(url, kw)
+            if r2.status_code == 200 and not bloqueado(r2):
+                RELAY_USADO.add(dom)
+                return r2
+        except requests.RequestException:
+            pass
+        if r is None:
+            raise requests.RequestException(f"{dom}: sin respuesta directa ni por el Worker")
+    return r
 
 
 # ------------------------------------------------------------------ juegos
@@ -589,8 +635,12 @@ EXTERNOS_RE = re.compile(r"sniper|megagames?\b|\bimportado por\b|\bvendido por\b
 
 def es_externo(producto, tienda):
     """True si el aviso es de un vendedor externo y no de la tienda misma."""
-    if EXTERNOS_RE.search(producto.get("titulo", "")) or EXTERNOS_RE.search(producto.get("url", "")):
-        return True
+    propia = norm(tienda["nombre"]).replace(" ", "")
+    for texto in (producto.get("titulo", ""), re.sub(r"^https?://[^/]+", "", producto.get("url", ""))):
+        m = EXTERNOS_RE.search(texto)
+        # "Sniper" o "MegaGames" son externos en Falabella, pero no en su propia tienda
+        if m and norm(m.group(0)).replace(" ", "") not in propia:
+            return True
     v = producto.get("vendedor")
     if not v:
         return False
@@ -1350,6 +1400,8 @@ def leer_tiendas(cfg, state, alertas):
     listados = []
     tiendas = [t for t in cfg.get("tiendas", []) if t.get("activa") is not False]
     state["_descubrir"] = cfg.get("ajustes", {}).get("descubrir", True)
+    VIA_WORKER.clear()
+    VIA_WORKER.update(dominio(t["url"]) for t in tiendas if t.get("via") == "worker")
     mem_cfg = cfg.get("memorias") or {}
     state["_memorias"] = mem_cfg.get("buscar", MEMORIAS_BUSCAR) if mem_cfg.get("activa", True) else []
     MEMORIAS_LISTADOS.clear()
@@ -1363,6 +1415,8 @@ def leer_tiendas(cfg, state, alertas):
             p["externo"] = es_externo(p, tienda)
             MEMORIAS_LISTADOS.append((tienda["nombre"], p))
     log(f"  tiendas leidas en {time.time() - t0:.0f} s")
+    if RELAY_USADO:
+        log(f"  leidas por el Worker (bloqueaban a GitHub): {', '.join(sorted(RELAY_USADO))}")
     for tienda, respondio, hallados, cache in resultados:
         nombre_t = tienda["nombre"]
         if not respondio:
@@ -2866,8 +2920,11 @@ def diagnostico(cfg):
                 + (usd(p['oferta'] if p['oferta'] is not None else p['regular']) if p else "sin precio"))
     except (requests.RequestException, ValueError) as e:
         log(f"  ERROR: {e}")
+    log("\nRelay por el Worker: " + ("activo" if os.environ.get("WORKER_URL") and os.environ.get("PROXY_KEY")
+                                      else "NO configurado (faltan WORKER_URL y PROXY_KEY en GitHub)"))
+    VIA_WORKER.update(dominio(t["url"]) for t in cfg.get("tiendas", []) if t.get("via") == "worker")
     for tienda in cfg.get("tiendas", []):
-        log(f"\n{tienda['nombre']} ({tienda['url']}):")
+        log(f"\n{tienda['nombre']} ({tienda['url']})" + (" [inactiva]" if tienda.get("activa") is False else "") + ":")
         cache = {}
         prods = buscar_en_tienda(tienda, termino, {}, cache)
         for d in cache.get("diag", []):
@@ -2876,7 +2933,8 @@ def diagnostico(cfg):
             log("  => NO FUNCIONA")
             continue
         ok = [p for p in prods if precio_valido(p.get("precio")) and coincide(p["titulo"], juego, True)]
-        log(f"  => metodo {cache.get('metodo')}: {len(prods)} productos leidos, {len(ok)} calzan")
+        log(f"  => metodo {cache.get('metodo')}: {len(prods)} productos leidos, {len(ok)} calzan"
+            + (" · vía Worker" if dominio(tienda["url"]) in RELAY_USADO | VIA_WORKER else ""))
         for p in ok[:6]:
             log(f"  - {p['titulo']} | {clp(p['precio'])}"
                 + (f" (normal {clp(p['normal'])})" if p.get("normal") else "") + f" | {p['url']}")

@@ -140,6 +140,18 @@ descuentos inflados de 85 % o más) no entra. Todo se ajusta en `canal.json` sin
 `python canal.py --sugerir` lista editoras que solo publican relleno, para agregarlas a
 `editoras.basura` en `canal.json` (necesita que el bot ya haya guardado las editoras).
 
+## Tiendas que bloquean a GitHub (relay por el Worker)
+
+Algunas tiendas (Paris, Weplay…) rechazan las visitas desde los servidores de GitHub. Si una
+tienda chilena responde bloqueada, el bot repite la consulta a través de tu Worker de Cloudflare,
+que sale por otra red. Para activarlo, en GitHub → Settings → Secrets → Actions agrega:
+
+- `WORKER_URL`: la dirección de tu Worker (ej. `https://switchbot.tu-usuario.workers.dev`)
+- `PROXY_KEY`: el mismo valor que `WEBHOOK_SECRET` en Cloudflare
+
+Una tienda con `"via": "worker"` en `juegos.json` se lee siempre por el Worker. El Worker solo
+acepta pedidos con la clave y solo a dominios `.cl` (más dominios: variable `PROXY_DOMINIOS`).
+
 ## Diagnóstico
 
 Para ver qué encuentra el bot en cada tienda, entra a **Actions → Alertas de ofertas Switch → Run workflow**,

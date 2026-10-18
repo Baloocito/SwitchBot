@@ -49,6 +49,34 @@
     {
       "nombre": "8 Bits",
       "url": "https://8-bits.cl"
+    },
+    {
+      "nombre": "Weplay",
+      "url": "https://www.weplay.cl",
+      "busqueda": "https://www.weplay.cl/catalogsearch/result/?q={q}&product_list_limit=48"
+    },
+    {
+      "nombre": "Sniper",
+      "url": "https://sniper.cl"
+    },
+    {
+      "nombre": "Hobbie Games",
+      "url": "https://www.hobbiegames.cl"
+    },
+    {
+      "nombre": "MegaGames",
+      "url": "https://megagames.cl"
+    },
+    {
+      "nombre": "Ripley",
+      "url": "https://simple.ripley.cl",
+      "busqueda": "https://simple.ripley.cl/search/{q}",
+      "activa": false
+    },
+    {
+      "nombre": "TodoJuegos",
+      "url": "https://www.todojuegos.cl",
+      "activa": false
     }
   ],
   "juegos": [

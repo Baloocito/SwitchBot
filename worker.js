@@ -107,6 +107,7 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
+    if (request.method === "GET" && url.pathname === "/proxy") return proxy(request, env, url);
     if (request.method === "GET" && url.pathname === "/setup") {
       if (!env.WEBHOOK_SECRET || url.searchParams.get("clave") !== env.WEBHOOK_SECRET) {
         return new Response("Clave incorrecta.", { status: 403 });
@@ -150,6 +151,34 @@ export default {
     return new Response("ok");
   },
 };
+
+// ------------------------------------------------------------------ relay de tiendas
+// bot.py pide aqui las paginas de tiendas que bloquean a los servidores de GitHub.
+// Solo responde con la clave (PROXY_KEY = WEBHOOK_SECRET) y solo a tiendas .cl.
+
+const PROXY_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36",
+  "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
+  "Accept-Language": "es-CL,es;q=0.9,en;q=0.8",
+};
+
+async function proxy(request, env, url) {
+  if (!env.WEBHOOK_SECRET || request.headers.get("X-Proxy-Key") !== env.WEBHOOK_SECRET) {
+    return new Response("No autorizado.", { status: 403 });
+  }
+  let destino;
+  try { destino = new URL(url.searchParams.get("u") || ""); } catch { return new Response("URL inválida", { status: 400 }); }
+  const extra = String(env.PROXY_DOMINIOS || "").split(",").map((x) => x.trim()).filter(Boolean);
+  const host = destino.hostname.toLowerCase();
+  if (destino.protocol !== "https:" || !(host.endsWith(".cl") || extra.some((d) => host === d || host.endsWith("." + d)))) {
+    return new Response("Dominio no permitido", { status: 403 });
+  }
+  const r = await fetch(destino.toString(), { headers: PROXY_HEADERS, redirect: "follow", cf: { cacheTtl: 0 } });
+  return new Response(r.body, {
+    status: r.status,
+    headers: { "content-type": r.headers.get("content-type") || "text/html; charset=utf-8" },
+  });
+}
 
 async function setup(env, origin) {
   const faltan = ["TELEGRAM_TOKEN", "CHAT_ID", "GITHUB_TOKEN", "GITHUB_REPO", "WEBHOOK_SECRET"]
