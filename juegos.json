@@ -44,7 +44,8 @@
     },
     {
       "nombre": "Paris",
-      "url": "https://www.paris.cl"
+      "url": "https://www.paris.cl",
+      "via": "worker"
     },
     {
       "nombre": "8 Bits",
@@ -53,7 +54,9 @@
     {
       "nombre": "Weplay",
       "url": "https://www.weplay.cl",
-      "busqueda": "https://www.weplay.cl/catalogsearch/result/?q={q}&product_list_limit=48"
+      "busqueda": "https://www.weplay.cl/catalogsearch/result/?q={q}&product_list_limit=48",
+      "activa": false,
+      "_nota": "Bloquea a GitHub y tambien al Worker (403 de Cloudflare). Pendiente."
     },
     {
       "nombre": "Sniper",
@@ -61,7 +64,9 @@
     },
     {
       "nombre": "Hobbie Games",
-      "url": "https://www.hobbiegames.cl"
+      "url": "https://www.hobbiegames.cl",
+      "activa": false,
+      "_nota": "Solo vende cartas y servicio tecnico; no tiene juegos de Switch."
     },
     {
       "nombre": "MegaGames",
@@ -71,7 +76,8 @@
       "nombre": "Ripley",
       "url": "https://simple.ripley.cl",
       "busqueda": "https://simple.ripley.cl/search/{q}",
-      "activa": false
+      "activa": false,
+      "_nota": "403 directo y por el Worker. Pendiente."
     },
     {
       "nombre": "TodoJuegos",

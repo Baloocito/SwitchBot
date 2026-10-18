@@ -175,8 +175,10 @@ def _relay(url, kw):
     base = os.environ.get("WORKER_URL", "").rstrip("/")
     clave = os.environ.get("PROXY_KEY", "")
     completa = requests.Request("GET", url, params=kw.get("params")).prepare().url
-    return requests.get(f"{base}/proxy", params={"u": completa},
-                        headers={"X-Proxy-Key": clave}, timeout=kw.get("timeout", TIMEOUT) + 15)
+    r = requests.get(f"{base}/proxy", params={"u": completa},
+                     headers={"X-Proxy-Key": clave}, timeout=kw.get("timeout", TIMEOUT) + 15)
+    r.url = completa            # los links relativos de la pagina se arman con la tienda, no con el Worker
+    return r
 
 
 def bloqueado(r):
