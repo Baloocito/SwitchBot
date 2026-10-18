@@ -67,6 +67,22 @@ El bot detecta solo cómo leer la tienda (Shopify, WooCommerce, VTEX, Magento y 
 Si una tienda no funciona, se le puede indicar su página de búsqueda con
 `"busqueda": "https://www.mitienda.cl/buscar?q={q}"`.
 
+## Tu bot personal: panel de negocio y control
+
+El canal se encarga de los digitales para jugar. Tu chat personal queda para el negocio físico
+y para manejar todo:
+
+- **Alertas al momento:** físicos (con margen frente a las otras tiendas, si se está agotando y
+  si el precio viene subiendo), memorias, tus objetivos y lo que sigues. Los digitales solo si
+  los sigues o tienen objetivo (`ajustes.alertas_digitales`: `seguidos` o `todas`).
+- **Informe diario** (20:00, `/resumen`): mercado físico (más baratos que el resto, se están
+  agotando, subiendo de precio), memorias, objetivos, estado del canal (miembros, posts,
+  revisiones) y salud del bot (tiendas caídas, última revisión, evento próximo).
+- **Moderador:** revisión de cada post del canal, alarmas de errores y precios sospechosos.
+- **Comandos:** `/estado` (todo de un vistazo) y `/canal` (`pausa`, `seguir`, `revision on|off`,
+  `revision 15`). Para ver los miembros del canal en `/estado`, agrega en Cloudflare la variable
+  `CHANNEL_ID` con el `-100…` del canal.
+
 ## Memorias microSD
 
 Además de los juegos, el bot sigue el precio de las microSD en las mismas tiendas y te avisa

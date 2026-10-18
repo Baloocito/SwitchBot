@@ -4,7 +4,8 @@
     "descuento_minimo_pct": 15,
     "baja_minima_pct": 10,
     "max_mensajes": 12,
-    "solo_contundentes": true
+    "solo_contundentes": true,
+    "alertas_digitales": "seguidos"
   },
   "memorias": {
     "activa": true,

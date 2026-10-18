@@ -1091,7 +1091,9 @@ def main():
         return
     sano = chequear_salud(cfg, state, est, t)
     avisar_sospechosos(cfg, state, est, t)
-    if not sano:
+    if cfg["ajustes"].get("pausado") and "--slot" not in sys.argv:
+        log("  canal en pausa (/canal seguir para reanudar): no publico nada")
+    elif not sano:
         pass                            # datos viejos: no se publica nada en esta pasada
     elif "--cola" in sys.argv:
         procesar_cola(cfg, est, cands, t)

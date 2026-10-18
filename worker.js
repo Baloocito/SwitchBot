@@ -39,6 +39,11 @@ const AYUDA = `📖 <b>MENÚ DE SWITCHBOT</b>
 <i>Tu cazador de ofertas de Nintendo Switch</i>
 ${"━━━━━━━━━━━━━━"}
 
+<b>Panel</b>
+/estado — cómo están el bot, las tiendas y el canal
+/canal — estado del canal y controles (pausa, seguir, revisión on/off)
+/resumen — informe diario de negocio (hora, ahora, off)
+
 <b>Precios</b>
 /precios — todas las sagas, primero las que tienen oportunidades
 /precios <i>saga o juego</i> — tarjetas completas para decidir
@@ -49,7 +54,6 @@ ${"━━━━━━━━━━━━━━"}
 /revisar — revisar precios ahora (tarda 2–4 min)
 
 <b>Agenda</b>
-/resumen — resumen diario (hora, ahora, off)
 /evento — modo evento: Black Friday y otros (on, off)
 
 <b>Seguimiento</b>
@@ -77,11 +81,13 @@ ${"━━━━━━━━━━━━━━"}
 🏆 mínimo histórico · 🎯 tu objetivo · 🏪 vendedor externo · S2 = Switch 2`;
 
 const COMANDOS_MENU = [
+  ["estado", "Estado del bot, tiendas y canal"],
+  ["canal", "Canal: estado, pausa, revisión"],
   ["precios", "Precios actuales (opcional: juego)"],
   ["ofertas", "Juegos con descuento hoy"],
   ["historial", "Historial de precios de un juego"],
   ["seguidos", "Tus objetivos, seguidos y silenciados"],
-  ["resumen", "Resumen diario"],
+  ["resumen", "Informe diario de negocio"],
   ["evento", "Modo evento (Black Friday)"],
   ["revisar", "Revisar precios ahora"],
   ["config", "Ver la configuración"],
@@ -195,6 +201,10 @@ async function manejar(env, chatId, texto) {
       return send(env, chatId, AYUDA);
     case "config":
       return send(env, chatId, await cmdConfig(env));
+    case "estado":
+      return send(env, chatId, await cmdEstado(env));
+    case "canal":
+      return send(env, chatId, await cmdCanal(env, args));
     case "precios":
       return send(env, chatId, await cmdPrecios(env, args));
     case "ofertas":
@@ -239,6 +249,79 @@ async function manejar(env, chatId, texto) {
     default:
       return send(env, chatId, marco("❓ <b>COMANDO DESCONOCIDO</b>", null, [`No conozco /${esc(cmd)}.`, "Todos los comandos: /ayuda"]));
   }
+}
+
+// ------------------------------------------------------------- panel de control
+
+async function miembrosCanal(env) {
+  const canal = env.CHANNEL_ID || env.TELEGRAM_CHANNEL_ID;
+  if (!canal) return null;
+  const r = await tg(env, "getChatMemberCount", { chat_id: canal });
+  return r && r.ok ? r.result : null;
+}
+
+async function lineasCanal(env) {
+  const [{ data: est }, { data: ccfg }, miembros] = await Promise.all([
+    leer(env, "canal_estado.json"), leer(env, "canal.json"), miembrosCanal(env)]);
+  const aj = (ccfg && ccfg.ajustes) || {};
+  const e = est || {};
+  const dia = (e.dias || {})[hoyChile()] || {};
+  const cola = Object.values(e.cola || {});
+  const l = [];
+  if (miembros !== null) l.push(`👥 ${miembros} miembros`);
+  l.push(aj.pausado ? "⏸️ <b>PAUSADO</b>: no publica nada" : "▶️ Publicando");
+  l.push(aj.revision_previa ? `👀 Revisión previa: sí (${aj.revision_minutos ?? 10} min para revisar)` : "👀 Revisión previa: no (publica directo)");
+  l.push(`📝 Hoy: ${dia.posts || 0} post(s)${(dia.slots || []).length ? " · " + dia.slots.join(", ") : ""}${dia.bombazos ? ` · 💣 ${dia.bombazos}` : ""}`);
+  if (cola.length) l.push(`⏳ Esperando tu revisión: ${cola.map((c) => c.slot).join(", ")}`);
+  if (e.ultimo_post) l.push(`🕐 Último post: ${esc(String(e.ultimo_post).slice(0, 16).replace("T", " "))}`);
+  return l;
+}
+
+async function cmdEstado(env) {
+  const { data: ev } = await leer(env, "vistas/estado.json");
+  const l = ["🩺 <b>BOT</b>"];
+  if (ev) {
+    l.push(...(ev.salud || []).map(esc));
+    l.push(`📊 Hoy: ${ev.revisiones_hoy || 0} revisión(es) · ${ev.alertas_hoy || 0} alerta(s) al momento`);
+    if (ev.evento) l.push(`🚨 Modo evento: ${esc(ev.evento)}`);
+    else if (ev.proximo) l.push(`📅 Próximo evento: ${esc(ev.proximo)}`);
+  } else {
+    l.push("Todavía no hay datos: aparecen después de la próxima revisión (/revisar).");
+  }
+  l.push("", "📣 <b>CANAL</b>", ...(await lineasCanal(env)));
+  return marco("📟 <b>ESTADO GENERAL</b>", ev ? `Datos de la revisión del ${hora(ev.ultima_revision)}` : null, l,
+    ["/canal · /resumen ahora · /revisar"]);
+}
+
+async function cmdCanal(env, args) {
+  const a = norm(args);
+  const cambiar = (msg, fn) => editarArchivo(env, "canal.json", `Canal: ${msg}`, (c) => { c.ajustes ||= {}; fn(c.ajustes); });
+  if (/^(pausa|pausar|stop|off)$/.test(a)) {
+    await cambiar("pausa", (aj) => { aj.pausado = true; });
+    return guardado(["⏸️ Canal en pausa: no publica nada hasta que escribas /canal seguir.",
+      "Los posts que estaban en revisión quedan esperando."], []);
+  }
+  if (/^(seguir|reanudar|play|on|activar)$/.test(a)) {
+    await cambiar("seguir", (aj) => { delete aj.pausado; });
+    return guardado("▶️ El canal vuelve a publicar desde la próxima pasada (cada 30 min).", []);
+  }
+  const rev = a.match(/^revision (on|off|si|no|\d+)$/);
+  if (rev) {
+    const v = rev[1];
+    if (/^\d+$/.test(v)) {
+      await cambiar("minutos de revision", (aj) => { aj.revision_previa = true; aj.revision_minutos = Number(v); });
+      return guardado(`👀 Tienes <b>${v} minutos</b> para revisar cada post antes de que salga.`, []);
+    }
+    const on = v === "on" || v === "si";
+    await cambiar(`revision ${on ? "on" : "off"}`, (aj) => { aj.revision_previa = on; });
+    return guardado(on ? "👀 Cada post te llega primero a ti con Publicar ya / Saltar / Quitar juegos."
+      : "🚀 Los posts salen directo al canal, sin pasar por tu chat.", []);
+  }
+  if (a) return uso("/canal", ["/canal — estado del canal", "/canal pausa — dejar de publicar",
+    "/canal seguir — volver a publicar", "/canal revision on|off — revisar cada post antes",
+    "/canal revision 15 — minutos para revisar"]);
+  return marco("📣 <b>CANAL</b>", null, await lineasCanal(env),
+    ["/canal pausa · /canal seguir · /canal revision on|off"]);
 }
 
 async function cmdConfig(env) {
