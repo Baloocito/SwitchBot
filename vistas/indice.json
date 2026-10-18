@@ -2,19 +2,19 @@
   "evento": null,
   "fallos": {
     "PC Factory": 12,
-    "Paris": 20,
+    "Paris": 21,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 316,
-  "pendientes": 2,
+  "fisicos": 315,
+  "pendientes": 3,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-18T14:47:27Z",
+  "revision": "2026-10-18T20:57:36Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -439,9 +439,8 @@
     },
     {
       "juego": "Katamari",
-      "linea": "🟡 <b>Katamari</b> — 📦 4 desde $34.990\n   🟡 We Love Katamari REROLL+ Royal Reverie −22%",
+      "linea": "🟡 <b>Katamari</b> — 📦 3 desde $34.990\n   🟡 We Love Katamari REROLL+ Royal Reverie −22%",
       "nombres": [
-        "bandai katamari damacy encore",
         "bandai namco we love katamari reroll",
         "once upon a katamari",
         "we love katamari reroll royal reverie"
@@ -516,7 +515,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 26 desde $29.990\n   🟢 Mario Kart 8 Deluxe −47%",
+      "linea": "🟢 <b>Mario</b> — 📦 27 desde $29.990\n   🟢 Mario Kart 8 Deluxe −47%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -531,6 +530,7 @@
         "mario vs donkey kong",
         "new super mario bros u deluxe",
         "paper mario the thousand year door",
+        "purtch con azul neon y rojo neon mario kart 8",
         "super mario 3d world bowsers fury",
         "super mario bros wonder",
         "super mario bros wonder meetup in bellabel park",
@@ -719,7 +719,6 @@
         "cricket through the ages",
         "dicey dungeons",
         "dorfromantik",
-        "epic chef",
         "ghosts n goblins resurrection",
         "going under",
         "guilty gear strive nintendo switch edition",
@@ -737,6 +736,7 @@
         "pga tour 2k25",
         "reigns game of thrones",
         "reigns kings queens",
+        "return of the obra dinn",
         "risk of rain 2",
         "river city rival showdown",
         "river city saga three kingdoms",
@@ -890,7 +890,7 @@
     },
     {
       "juego": "Rune Factory",
-      "linea": "🟡 <b>Rune Factory</b> — 📦 7 desde $27.990\n   🟡 Rune Factory: Guardians of Azuma −68%",
+      "linea": "🟡 <b>Rune Factory</b> — 📦 6 desde $27.990\n   🟡 Rune Factory: Guardians of Azuma −68%",
       "nombres": [
         "rune factory 3 special",
         "rune factory 4 special",
@@ -1099,12 +1099,12 @@
     },
     {
       "juego": "Tomodachi Life",
-      "linea": "🟢 <b>Tomodachi Life</b> — 📦 2 desde $64.990\n   🟢 Tomodachi Life: Living the Dream −30%",
+      "linea": "🟡 <b>Tomodachi Life</b> — 📦 2 desde $64.990\n   🟡 Tomodachi Life: Living the Dream −28%",
       "nombres": [
         "tomodachi life",
         "tomodachi life living the dream"
       ],
-      "orden": 1,
+      "orden": 2,
       "slug": "tomodachi-life"
     },
     {
@@ -1184,10 +1184,9 @@
     },
     {
       "juego": "Ys",
-      "linea": "🟠 <b>Ys</b> — 📦 3 desde $54.990",
+      "linea": "🟠 <b>Ys</b> — 📦 2 desde $54.990",
       "nombres": [
         "ys ix monstrum nox",
-        "ys memoire the oath in felghana",
         "ys viii lacrimosa of dana"
       ],
       "orden": 3,
@@ -1207,5 +1206,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 481
+  "total": 479
 }

@@ -26,18 +26,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:5eda953784",
-        "text": "⚙️ Rune Factory 3 Special · $99.990"
-      },
-      "id": "5eda953784",
-      "nivel": "regular",
-      "nombre": "Rune Factory 3 Special",
-      "pct": 23.1,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −23%\n<b>Rune Factory 3 Special (limited)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$99.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Apenas 23% bajo la referencia\n   Ahorras $30.000 frente al «antes» que marca la tienda ($129.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $99.990 (14 oct, Falabella) · máximo $99.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$23.31 ≈ $22.901 en 🇨🇱 Chile\n   ➜ El digital es $77.089 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/124783767/Rune-Factory-3-Special-Limited-Ed-Switch-Fisico-Sniper\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:88f31a7939",
         "text": "⚙️ Rune Factory Guardianes de Az… · $63.990"
       },
@@ -86,5 +74,5 @@
     }
   ],
   "juego": "Rune Factory",
-  "revision": "2026-10-18T14:47:27Z"
+  "revision": "2026-10-18T20:57:36Z"
 }

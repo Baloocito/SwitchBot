@@ -178,6 +178,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:71e434e9b9",
+        "text": "⚙️ Narita Boy · US$4.05"
+      },
+      "con_fisico": false,
+      "id": "71e434e9b9",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Narita Boy",
+      "orden": 1,
+      "pct": 80.0,
+      "precio_usd": 4.05,
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Narita Boy</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.05</b> ≈ $3.979 en 🇨🇱 Chile\n   Precio en la tienda: $3.980 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$20.26 → ahorras US$16.21 · ⏳ termina el 31 oct (en 13 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/narita-boy-switch/\">US$4.05</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/narita-boy-switch/\">US$4.66</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/narita-boy-switch/\">US$4.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/narita-boy-switch/\">US$5.26</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/narita-boy-switch/\">US$5.67</a>\n   El más caro: 🇨🇴 US$20.08\n📈 Mínimo US$4.05 (18 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/narita-boy-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:b2f054b18b",
         "text": "⚙️ Star Renegades · US$4.01"
       },
@@ -189,7 +205,7 @@
       "orden": 1,
       "pct": 80.0,
       "precio_usd": 4.01,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Star Renegades</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.01</b> ≈ $3.940 en 🇨🇱 Chile\n   Precio en la tienda: $3.939 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$20.05 → ahorras US$16.04 · ⏳ termina el 1 nov (en 15 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">US$4.01</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/star-renegades-switch/\">US$4.45</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/star-renegades-switch/\">US$4.87</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/star-renegades-switch/\">US$4.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/star-renegades-switch/\">US$5.25</a>\n   El más caro: 🇨🇴 US$7.10\n📈 Mínimo US$4.00 (16 oct en 🇨🇱 Chile)\n   █▁██  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Star Renegades</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.01</b> ≈ $3.940 en 🇨🇱 Chile\n   Precio en la tienda: $3.939 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$20.05 → ahorras US$16.04 · ⏳ termina el 1 nov (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">US$4.01</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/star-renegades-switch/\">US$4.45</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/star-renegades-switch/\">US$4.87</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/star-renegades-switch/\">US$4.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/star-renegades-switch/\">US$5.25</a>\n   El más caro: 🇨🇴 US$7.10\n📈 Mínimo US$4.00 (16 oct en 🇨🇱 Chile)\n   █▁██  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -290,22 +306,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:fb049ba4b8",
-        "text": "⚙️ Epic Chef · US$4.05"
-      },
-      "con_fisico": false,
-      "id": "fb049ba4b8",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Epic Chef",
-      "orden": 1,
-      "pct": 80.0,
-      "precio_usd": 4.05,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Epic Chef</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.05</b> ≈ $3.979 en 🇨🇱 Chile\n   Precio en la tienda: $3.980 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$20.26 → ahorras US$16.21 · ⏳ termina el 31 oct (en 13 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/epic-chef-switch/\">US$4.05</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/epic-chef-switch/\">US$4.45</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/epic-chef-switch/\">US$4.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/epic-chef-switch/\">US$5.26</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/epic-chef-switch/\">US$5.42</a>\n   El más caro: 🇨🇴 US$30.16\n📈 Mínimo US$4.04 (16 oct en 🇨🇱 Chile)\n   █▁██  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/epic-chef-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:462ba04f91",
         "text": "⚙️ King of Seas · US$4.05"
       },
@@ -366,22 +366,6 @@
       "pct": 80.0,
       "precio_usd": 4.05,
       "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Killer Frequency</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.05</b> ≈ $3.979 en 🇨🇱 Chile\n   Precio en la tienda: $3.980 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$20.26 → ahorras US$16.21 · ⏳ termina el 31 oct (en 13 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/killer-frequency-switch/\">US$4.05</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/killer-frequency-switch/\">US$4.93</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/killer-frequency-switch/\">US$4.94</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/killer-frequency-switch/\">US$4.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/killer-frequency-switch/\">US$5.11</a>\n   El más caro: 🇨🇴 US$36.41\n📈 Mínimo US$4.04 (16 oct en 🇨🇱 Chile)\n   █▁██  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/killer-frequency-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:71e434e9b9",
-        "text": "⚙️ Narita Boy · US$4.05"
-      },
-      "con_fisico": false,
-      "id": "71e434e9b9",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Narita Boy",
-      "orden": 1,
-      "pct": 80.0,
-      "precio_usd": 4.05,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Narita Boy</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.05</b> ≈ $3.979 en 🇨🇱 Chile\n   Precio en la tienda: $3.980 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$20.26 → ahorras US$16.21 · ⏳ termina el 31 oct (en 13 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/narita-boy-switch/\">US$4.05</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/narita-boy-switch/\">US$4.66</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/narita-boy-switch/\">US$4.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/narita-boy-switch/\">US$5.26</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/narita-boy-switch/\">US$5.67</a>\n   El más caro: 🇨🇴 US$20.08\n📈 Mínimo US$4.05 (18 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/narita-boy-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -829,7 +813,7 @@
       "orden": 1,
       "pct": 60.0,
       "precio_usd": 4.28,
-      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Cassette Beasts</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.28</b> ≈ $4.205 en 🇨🇱 Chile\n   Precio en la tienda: $4.200 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$10.69 → ahorras US$6.41 · ⏳ termina el 1 nov (en 15 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cassette-beasts-switch/\">US$4.28</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cassette-beasts-switch/\">US$4.71</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/cassette-beasts-switch/\">US$4.94</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cassette-beasts-switch/\">US$5.01</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/cassette-beasts-switch/\">US$5.97</a>\n   El más caro: 🇺🇸 US$7.99\n📈 Mínimo US$4.26 (16 oct en 🇨🇱 Chile)\n   █▁▄█  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/cassette-beasts-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Cassette Beasts</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.28</b> ≈ $4.205 en 🇨🇱 Chile\n   Precio en la tienda: $4.200 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$10.69 → ahorras US$6.41 · ⏳ termina el 1 nov (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cassette-beasts-switch/\">US$4.28</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cassette-beasts-switch/\">US$4.71</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/cassette-beasts-switch/\">US$4.94</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cassette-beasts-switch/\">US$5.01</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/cassette-beasts-switch/\">US$5.97</a>\n   El más caro: 🇺🇸 US$7.99\n📈 Mínimo US$4.26 (16 oct en 🇨🇱 Chile)\n   █▁▄█  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/cassette-beasts-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -1132,7 +1116,7 @@
       "orden": 1,
       "pct": 44.5,
       "precio_usd": 2.03,
-      "texto": "🟢 <b>COMPRA YA</b> · −44%\n<b>Townscaper</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.03</b> ≈ $1.994 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −44% en la eShop\n🏷️ Normal US$3.66 → ahorras US$1.63 · ⏳ termina el 1 nov (en 15 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/townscaper-switch/\">US$2.03</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/townscaper-switch/\">US$2.18</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/townscaper-switch/\">US$2.25</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/townscaper-switch/\">US$2.39</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/townscaper-switch/\">US$2.40</a>\n   El más caro: 🇨🇴 US$2.70\n📈 Mínimo US$2.02 (16 oct en 🇨🇱 Chile)\n   █▁██  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/townscaper-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −44%\n<b>Townscaper</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.03</b> ≈ $1.994 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −44% en la eShop\n🏷️ Normal US$3.66 → ahorras US$1.63 · ⏳ termina el 1 nov (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/townscaper-switch/\">US$2.03</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/townscaper-switch/\">US$2.18</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/townscaper-switch/\">US$2.25</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/townscaper-switch/\">US$2.39</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/townscaper-switch/\">US$2.40</a>\n   El más caro: 🇨🇴 US$2.70\n📈 Mínimo US$2.02 (16 oct en 🇨🇱 Chile)\n   █▁██  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/townscaper-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -1179,21 +1163,6 @@
       "pct": 30.4,
       "precio": 39990.0,
       "texto": "🟢 <b>COMPRA YA</b> · −30%\n<b>Monster Hunter Generations Ultimate</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.990</b> en Lider 🏪 <i>vende SNIPERCL</i>\n💡 30% bajo el resto de las tiendas\n   Ahorras $17.505 frente al promedio de las otras tiendas ($57.495)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.lider.cl/ip/videojuegos/monster-hunter-generations-ultimate-nintendo-switch/00001338841009\">$39.990 Lider</a> 🏪 SNIPERCL\n   🥈 <a href=\"https://8-bits.cl/products/monster-hunter-generations-ultimate-nsw\">$54.990 8 Bits</a> (+$15.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/157597216/monster-hunter-generations-ultimate-nintendo-switch\">$60.000 Falabella</a> 🏪 Tienda Retrogamers (+$20.010)\n📈 Mínimo $39.990 (14 oct, Lider) · máximo $39.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$29.07 ≈ $28.559 en 🇨🇱 Chile\n   ➜ El digital es $11.431 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/monster-hunter-generations-ultimate-nintendo-switch/00001338841009\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:27238616c5",
-        "text": "⚙️ Tomodachi Life: Living the Dr… · $64.990"
-      },
-      "id": "27238616c5",
-      "juego": "Tomodachi Life",
-      "nivel": "compra",
-      "nombre": "Tomodachi Life: Living the Dream",
-      "orden": 1,
-      "pct": 30.1,
-      "precio": 64990.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −30%\n<b>Tomodachi Life: Living the Dream</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$64.990</b> en 8 Bits\n💡 30% bajo el resto de las tiendas\n   Ahorras $28.000 frente al promedio de las otras tiendas ($92.990)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/tomodachi-life-living-the-dream-nsw\">$64.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/156138907/tomodachi-life-living-the-dream-switch\">$89.990 Falabella</a> 🏪 Tienda Retrogamers (+$25.000)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/juego-nintendo-tomodachi-life-living-the-dream-para-switch/00004549651353\">$95.990 Lider</a> 🏪 nocnoc (+$31.000)\n📈 Mínimo $64.990 (14 oct, 8 Bits) · máximo $64.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$59.99 ≈ $58.936 en 🇺🇸 EE. UU.\n   ➜ El digital es $6.054 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 5 días de historial\n🛒 <a href=\"https://8-bits.cl/products/tomodachi-life-living-the-dream-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -1419,7 +1388,7 @@
       "orden": 2,
       "pct": 34.0,
       "precio_usd": 7.66,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −34%\n<b>Undertale</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$7.66</b> ≈ $7.525 en 🇨🇱 Chile\n   Precio en la tienda: $7.524 CLP\n💡 Oferta de −34% en la eShop\n🏷️ Normal US$11.60 → ahorras US$3.94 · ⏳ termina el 1 nov (en 15 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/undertale-switch/\">US$7.66</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/undertale-switch/\">US$8.86</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/undertale-switch/\">US$9.89</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/undertale-switch/\">US$10.25</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/undertale-switch/\">US$10.37</a>\n   El más caro: 🇨🇴 US$11.82\n📦 Físico: $49.990 en 8 Bits → el digital te ahorra $42.465\n📈 Mínimo US$7.63 (16 oct en 🇨🇱 Chile)\n   █▁██  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/undertale-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟡 <b>BUEN PRECIO</b> · −34%\n<b>Undertale</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$7.66</b> ≈ $7.525 en 🇨🇱 Chile\n   Precio en la tienda: $7.524 CLP\n💡 Oferta de −34% en la eShop\n🏷️ Normal US$11.60 → ahorras US$3.94 · ⏳ termina el 1 nov (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/undertale-switch/\">US$7.66</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/undertale-switch/\">US$8.86</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/undertale-switch/\">US$9.89</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/undertale-switch/\">US$10.25</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/undertale-switch/\">US$10.37</a>\n   El más caro: 🇨🇴 US$11.82\n📦 Físico: $49.990 en 8 Bits → el digital te ahorra $42.465\n📈 Mínimo US$7.63 (16 oct en 🇨🇱 Chile)\n   █▁██  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/undertale-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -1497,6 +1466,22 @@
       "precio": 49990.0,
       "texto": "🟡 <b>BUEN PRECIO</b> · −33%\n<b>Tales of Symphonia Remastered</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 33% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $25.000 frente a la otra tienda ($74.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/tales-of-symphonia-remastered-nsw\">$49.990 8 Bits</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/tales-of-symphonia-remastered-chosen-edition-nsw/00046929528958\">$74.990 Lider</a> 🏪 MUNDOJUEGOS (+$25.000)\n📈 Mínimo $49.990 (14 oct, 8 Bits) · máximo $49.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$30.54 ≈ $30.004 en 🇨🇱 Chile\n   ➜ El digital es $19.986 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 5 días de historial\n🛒 <a href=\"https://8-bits.cl/products/tales-of-symphonia-remastered-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:d610270588",
+        "text": "⚙️ Return of the Obra Dinn · US$5.56"
+      },
+      "con_fisico": false,
+      "id": "d610270588",
+      "juego": "🔍 Otros juegos",
+      "nivel": "bueno",
+      "nombre": "Return of the Obra Dinn",
+      "orden": 2,
+      "pct": 33.1,
+      "precio_usd": 5.56,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −33%\n<b>Return of the Obra Dinn</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.56</b> ≈ $5.462 en 🇨🇱 Chile\n   Precio en la tienda: $5.467 CLP\n💡 Oferta de −33% en la eShop\n🏷️ Normal US$8.31 → ahorras US$2.75 · ⏳ termina el 2 nov (en 15 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/return-of-the-obra-dinn-switch/\">US$5.56</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/return-of-the-obra-dinn-switch/\">US$7.21</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/return-of-the-obra-dinn-switch/\">US$7.90</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/return-of-the-obra-dinn-switch/\">US$8.27</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/return-of-the-obra-dinn-switch/\">US$8.74</a>\n   El más caro: 🇺🇸 US$13.39\n📈 Mínimo US$5.56 (18 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/return-of-the-obra-dinn-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
     },
     {
       "boton": {
@@ -1768,6 +1753,21 @@
       "pct": 28.0,
       "precio": 179990.0,
       "texto": "🟡 <b>BUEN PRECIO</b> · −28%\n<b>The Legend of Zelda: Tears of the Kingdom (collector japan)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$179.990</b> en Falabella 🏪 <i>vende Rivertec</i>\n💡 −28% según la tienda (sin otra tienda para confirmarlo)\n   Ahorras $70.000 frente al «antes» que marca la tienda ($249.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $179.990 (12 oct, Falabella) · típico $179.990 · máximo $179.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🎮 Digital: US$69.99 ≈ $68.761 en 🇺🇸 EE. UU.\n   ➜ El digital es $111.229 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/139455520/Zelda-Tears-Of-The-Kingdom-Collector-Edition-Japan-Nintendo-Switch\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:27238616c5",
+        "text": "⚙️ Tomodachi Life: Living the Dr… · $64.990"
+      },
+      "id": "27238616c5",
+      "juego": "Tomodachi Life",
+      "nivel": "bueno",
+      "nombre": "Tomodachi Life: Living the Dream",
+      "orden": 2,
+      "pct": 27.8,
+      "precio": 64990.0,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −28%\n<b>Tomodachi Life: Living the Dream</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$64.990</b> en 8 Bits\n💡 28% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $25.000 frente a la otra tienda ($89.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/tomodachi-life-living-the-dream-nsw\">$64.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/156138907/tomodachi-life-living-the-dream-switch\">$89.990 Falabella</a> 🏪 Tienda Retrogamers (+$25.000)\n📈 Mínimo $64.990 (14 oct, 8 Bits) · máximo $64.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$59.99 ≈ $58.936 en 🇺🇸 EE. UU.\n   ➜ El digital es $6.054 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 5 días de historial\n🛒 <a href=\"https://8-bits.cl/products/tomodachi-life-living-the-dream-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -2451,21 +2451,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:c7c8c70f3c",
-        "text": "⚙️ STORY OF SEASONS: Pioneers of… · $49.990"
-      },
-      "id": "c7c8c70f3c",
-      "juego": "Story of Seasons",
-      "nivel": "bueno",
-      "nombre": "STORY OF SEASONS: Pioneers of Olive Town",
-      "orden": 2,
-      "pct": 15.3,
-      "precio": 49990.0,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −15%\n<b>STORY OF SEASONS: Pioneers of Olive Town</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 15% bajo el resto de las tiendas\n   Ahorras $9.000 frente al promedio de las otras tiendas ($58.990)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">$49.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/113884994/Story-of-Seasons-Pioneers-of-Olive-Town-Switch-Sniper\">$54.990 Falabella</a> 🏪 Sniper (+$5.000)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/story-of-seasons-pioneers-of-olive-town-para-nintendo-switch/00506054077084\">$62.990 Lider</a> 🏪 nocnoc (+$13.000)\n📈 Mínimo $49.990 (14 oct, 8 Bits) · máximo $49.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$26.46 ≈ $25.995 en 🇨🇱 Chile\n   ➜ El digital es $23.995 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 5 días de historial\n🛒 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:8552460467",
         "text": "⚙️ Xenoblade Chroonicles 2 S2 · $83.690"
       },
@@ -2492,21 +2477,6 @@
       "pct": 24.3,
       "precio": 52990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −24%\n<b>Pikmin 1</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$52.990</b> en Falabella 🏪 <i>vende Rivertec</i>\n💡 Apenas 24% bajo la referencia\n   Ahorras $17.000 frente al «antes» que marca la tienda ($69.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $52.990 (14 oct, Falabella) · máximo $52.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$28.27 ≈ $27.773 en 🇨🇦 Canadá\n   ➜ El digital es $25.217 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/138727980/Pikmin-1-+-2-Nintendo-Switch\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:5eda953784",
-        "text": "⚙️ Rune Factory 3 Special · $99.990"
-      },
-      "id": "5eda953784",
-      "juego": "Rune Factory",
-      "nivel": "regular",
-      "nombre": "Rune Factory 3 Special",
-      "orden": 3,
-      "pct": 23.1,
-      "precio": 99990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −23%\n<b>Rune Factory 3 Special (limited)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$99.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Apenas 23% bajo la referencia\n   Ahorras $30.000 frente al «antes» que marca la tienda ($129.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $99.990 (14 oct, Falabella) · máximo $99.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$23.31 ≈ $22.901 en 🇨🇱 Chile\n   ➜ El digital es $77.089 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/124783767/Rune-Factory-3-Special-Limited-Ed-Switch-Fisico-Sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -3366,21 +3336,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:608d26b327",
-        "text": "⚙️ Mario & Luigi: Brothership · $47.990"
-      },
-      "id": "608d26b327",
-      "juego": "Mario",
-      "nivel": "regular",
-      "nombre": "Mario & Luigi: Brothership",
-      "orden": 3,
-      "pct": 9.4,
-      "precio": 47990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>Mario &amp; Luigi: Brothership</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$47.990</b> en Bestmart\n💡 Apenas 9% bajo la referencia\n   Ahorras $5.000 frente al promedio de las otras tiendas ($52.990)\n🏷️ La tienda marca «antes $64.990» (−26%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://bestmart.cl/products/mario-luigi™-brothership-nintendo-switch-america\">$47.990 Bestmart</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/138585213/Mario-y-Luigi-Brothership-Nintendo-Switch\">$50.990 Falabella</a> 🏪 Rivertec (+$3.000)\n   🥉 <a href=\"https://8-bits.cl/products/mario-luigi-brothership-nsw\">$54.990 8 Bits</a> (+$7.000)\n📈 Mínimo $47.990 (14 oct, Bestmart) · máximo $47.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$59.99 ≈ $58.936 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $10.946 y además se puede revender\n🔎 Confianza media: 3 tiendas y 5 días de historial\n🛒 <a href=\"https://bestmart.cl/products/mario-luigi™-brothership-nintendo-switch-america\">Ir a comprar en Bestmart</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:2e1afd3671",
         "text": "⚙️ EA SPORTS FC 25 · $58.990"
       },
@@ -3422,6 +3377,21 @@
       "pct": 9.1,
       "precio": 49990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>Octopath Traveler</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Apenas 9% bajo la referencia\n   Ahorras $5.000 frente a la otra tienda ($54.990)\n🏷️ La tienda dice «antes $69.990», pero las demás lo venden cerca de $54.990: ese descuento está inflado\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148489147/Octopath-Traveler-Juego-Fisico-Switch-Sniper-Game\">$49.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/octopath-traveler-switch-megagames/00004549659213\">$54.990 Lider</a> 🏪 Rivertec SPA (+$5.000)\n📈 Mínimo $49.990 (14 oct, Falabella) · máximo $49.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$56.54 ≈ $55.547 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $5.557 y además se puede revender\n🔎 Confianza media: 2 tiendas y 5 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148489147/Octopath-Traveler-Juego-Fisico-Switch-Sniper-Game\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:c7c8c70f3c",
+        "text": "⚙️ STORY OF SEASONS: Pioneers of… · $49.990"
+      },
+      "id": "c7c8c70f3c",
+      "juego": "Story of Seasons",
+      "nivel": "regular",
+      "nombre": "STORY OF SEASONS: Pioneers of Olive Town",
+      "orden": 3,
+      "pct": 9.1,
+      "precio": 49990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>STORY OF SEASONS: Pioneers of Olive Town</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 Apenas 9% bajo la referencia\n   Ahorras $5.000 frente a la otra tienda ($54.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">$49.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/148490919/Story-Of-Seasons-Pioneers-Of-Olive-Town-Switch-Sniper\">$54.990 Falabella</a> 🏪 Sniper (+$5.000)\n📈 Mínimo $49.990 (14 oct, 8 Bits) · máximo $49.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$26.46 ≈ $25.995 en 🇨🇱 Chile\n   ➜ El digital es $23.995 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 5 días de historial\n🛒 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -3542,21 +3512,6 @@
       "pct": 8.6,
       "precio": 67990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>Pewesv Crash Bandicoot 4</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$67.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 9% bajo la referencia\n   Ahorras $6.424 frente al «antes» que marca la tienda ($74.414)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $67.990 (15 oct, Lider) · máximo $69.990\n   █▁▁▁▁  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-pewesv-crash-bandicoot-4-para-nintendo-switch/00478751025125\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:753959a37e",
-        "text": "⚙️ BANDAI NAMCO We Love Katamari… · $52.990"
-      },
-      "id": "753959a37e",
-      "juego": "Katamari",
-      "nivel": "regular",
-      "nombre": "BANDAI NAMCO We Love Katamari REROLL",
-      "orden": 3,
-      "pct": 8.5,
-      "precio": 52990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>BANDAI NAMCO We Love Katamari REROLL</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$52.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $4.903 frente al «antes» que marca la tienda ($57.893)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $51.990 (14 oct, Lider) · máximo $52.990\n   ▁▁▁▁█  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-we-love-katamari-reroll-nintendo-switch/00072267484070\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -4161,21 +4116,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:7101826c63",
-        "text": "⚙️ Bandai Katamari Damacy Encore · $43.990"
-      },
-      "id": "7101826c63",
-      "juego": "Katamari",
-      "nivel": "regular",
-      "nombre": "Bandai Katamari Damacy Encore",
-      "orden": 3,
-      "pct": 7.7,
-      "precio": 43990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Bandai Katamari Damacy Encore</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$43.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $3.681 frente al «antes» que marca la tienda ($47.671)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $43.990 (16 oct, Lider) · máximo $43.990\n   ▄▄▄  últimos 3 días\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-katamari-damacy-encore-nintendo-switch/00457317334286\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:cf80bba9f1",
         "text": "⚙️ Bandai Namco Tales of Xillia · $59.990"
       },
@@ -4266,6 +4206,21 @@
     },
     {
       "boton": {
+        "callback_data": "a:5e5cd54f7d",
+        "text": "⚙️ Mario Strikers: Battle League · $98.990"
+      },
+      "id": "5e5cd54f7d",
+      "juego": "Mario",
+      "nivel": "regular",
+      "nombre": "Mario Strikers: Battle League",
+      "orden": 3,
+      "pct": 7.7,
+      "precio": 98990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Mario Strikers: Battle League</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$98.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $8.237 frente al «antes» que marca la tienda ($107.227)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $98.990 (14 oct, Lider) · máximo $98.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$59.99 ≈ $58.936 en 🇺🇸 EE. UU.\n   ➜ El digital es $40.054 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-mario-strikers-battle-league-para-switch/00004549642977\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:e9191de500",
         "text": "⚙️ Natsume Harvest Moon Edición … · $59.990"
       },
@@ -4337,36 +4292,6 @@
       "pct": 7.7,
       "precio": 119990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>STORY OF SEASONS: Grand Bazaar (premium)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$119.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $10.000 frente al «antes» que marca la tienda ($129.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $119.990 (14 oct, Falabella) · máximo $119.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$30.54 ≈ $30.004 en 🇨🇱 Chile\n   ➜ El digital es $89.986 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/147849952/Story-Of-Seasons-Grand-Bazaar-Premium-Edition-Switch-SniperCL\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:943e5bca78",
-        "text": "⚙️ Ys Memoire: The Oath in Felgh… · $98.990"
-      },
-      "id": "943e5bca78",
-      "juego": "Ys",
-      "nivel": "regular",
-      "nombre": "Ys Memoire: The Oath in Felghana",
-      "orden": 3,
-      "pct": 7.7,
-      "precio": 98990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Ys Memoire: The Oath in Felghana</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$98.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $8.218 frente al «antes» que marca la tienda ($107.208)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $98.990 (14 oct, Lider) · máximo $98.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$20.87 ≈ $20.503 en 🇨🇱 Chile\n   ➜ El digital es $78.487 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/ys-memoire-the-oath-in-felghana-para-nintendo-switch/00506054077210\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:5e5cd54f7d",
-        "text": "⚙️ Mario Strikers: Battle League · $99.990"
-      },
-      "id": "5e5cd54f7d",
-      "juego": "Mario",
-      "nivel": "regular",
-      "nombre": "Mario Strikers: Battle League",
-      "orden": 3,
-      "pct": 7.6,
-      "precio": 99990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Mario Strikers: Battle League</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$99.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $8.244 frente al «antes» que marca la tienda ($108.234)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $98.990 (14 oct, Lider) · máximo $98.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$59.99 ≈ $58.936 en 🇺🇸 EE. UU.\n   ➜ El digital es $41.054 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/juego-nintendo-mario-strikers-battle-league-football-switch/00004549642975\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -4476,6 +4401,21 @@
     },
     {
       "boton": {
+        "callback_data": "a:627be87fc5",
+        "text": "⚙️ Mario vs. Donkey Kong · $49.990"
+      },
+      "id": "627be87fc5",
+      "juego": "Mario",
+      "nivel": "regular",
+      "nombre": "Mario vs. Donkey Kong",
+      "orden": 3,
+      "pct": 7.4,
+      "precio": 49990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Mario vs. Donkey Kong</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.000 frente al promedio de las otras tiendas ($53.990)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/mario-vs-donkey-kong-nsw\">$49.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/128474468/Mario-vs-Donkey-Kong-Nintendo-Switch\">$52.990 Falabella</a> 🏪 Kaiojuegos (+$3.000)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/mario-vs-donkey-kong-nintendo-switch-fisico/00637488312195\">$54.990 Lider</a> 🏪 SNIPER (+$5.000)\n📈 Mínimo $49.990 (14 oct, 8 Bits) · máximo $49.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$49.47 ≈ $48.601 en 🇨🇦 Canadá\n   ➜ El digital es $1.389 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 5 días de historial\n🛒 <a href=\"https://8-bits.cl/products/mario-vs-donkey-kong-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:5c04543e69",
         "text": "⚙️ Spyro Reignited Trilogy · $60.990"
       },
@@ -4487,6 +4427,21 @@
       "pct": 7.4,
       "precio": 60990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Spyro Reignited Trilogy (asia)</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$60.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.864 frente al «antes» que marca la tienda ($65.854)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $60.990 (14 oct, Lider) · máximo $60.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$35.34 ≈ $34.719 en 🇨🇦 Canadá\n   ➜ El digital es $26.271 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nsw-spyro-reignited-trilogy-asia-/00503091728665\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:753959a37e",
+        "text": "⚙️ BANDAI NAMCO We Love Katamari… · $52.990"
+      },
+      "id": "753959a37e",
+      "juego": "Katamari",
+      "nivel": "regular",
+      "nombre": "BANDAI NAMCO We Love Katamari REROLL",
+      "orden": 3,
+      "pct": 7.3,
+      "precio": 52990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>BANDAI NAMCO We Love Katamari REROLL</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$52.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.153 frente al «antes» que marca la tienda ($57.143)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $51.990 (14 oct, Lider) · máximo $52.990\n   ▁▁▁▁█  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-we-love-katamari-reroll-nintendo-switch/00072267484070\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -4686,6 +4641,21 @@
     },
     {
       "boton": {
+        "callback_data": "a:041e9a584c",
+        "text": "⚙️ PURTCH con azul neón y rojo n… · $740.990"
+      },
+      "id": "041e9a584c",
+      "juego": "Mario",
+      "nivel": "regular",
+      "nombre": "PURTCH con azul neón y rojo neón + Mario Kart 8",
+      "orden": 3,
+      "pct": 6.0,
+      "precio": 740990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −6%\n<b>PURTCH con azul neón y rojo neón + Mario Kart 8</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$740.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 6% bajo la referencia\n   Ahorras $47.111 frente al «antes» que marca la tienda ($788.101)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $740.990 (18 oct, Lider) · máximo $740.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/nintendo-switch-purtch-con-azul-neon-y-rojo-neon-mario-kart-8/00004549614984\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:d7ded0b860",
         "text": "⚙️ FINAL FANTASY VI · $79.990"
       },
@@ -4697,6 +4667,21 @@
       "pct": 5.9,
       "precio": 79990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −6%\n<b>FINAL FANTASY VI</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$79.990</b> en 8 Bits\n💡 Apenas 6% bajo la referencia\n   Ahorras $5.000 frente a la otra tienda ($84.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/final-fantasy-i-vi-collection-anniversary-edition-nsw\">$79.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/139867233/Final-Fantasy-I-VI-Collection-Nintendo-Switch\">$84.990 Falabella</a> 🏪 Rivertec (+$5.000)\n📈 Mínimo $79.990 (14 oct, 8 Bits) · máximo $79.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$14.76 ≈ $14.501 en 🇨🇱 Chile\n   ➜ El digital es $65.489 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 5 días de historial\n🛒 <a href=\"https://8-bits.cl/products/final-fantasy-i-vi-collection-anniversary-edition-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:608d26b327",
+        "text": "⚙️ Mario & Luigi: Brothership · $47.990"
+      },
+      "id": "608d26b327",
+      "juego": "Mario",
+      "nivel": "regular",
+      "nombre": "Mario & Luigi: Brothership",
+      "orden": 3,
+      "pct": 5.9,
+      "precio": 47990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −6%\n<b>Mario &amp; Luigi: Brothership</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$47.990</b> en Bestmart\n💡 Apenas 6% bajo la referencia\n   Ahorras $3.000 frente al promedio de las otras tiendas ($50.990)\n🏷️ La tienda dice «antes $64.990», pero las demás lo venden cerca de $50.990: ese descuento está inflado\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://bestmart.cl/products/mario-luigi™-brothership-nintendo-switch-america\">$47.990 Bestmart</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/mario-luigi-brothership-nintendo-switch/00490237055248\">$49.990 Lider</a> 🏪 SNIPERCL (+$2.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/138585213/Mario-y-Luigi-Brothership-Nintendo-Switch\">$50.990 Falabella</a> 🏪 Rivertec (+$3.000)\n   ▫️ <a href=\"https://8-bits.cl/products/mario-luigi-brothership-nsw\">$54.990 8 Bits</a> (+$7.000)\n📈 Mínimo $47.990 (14 oct, Bestmart) · máximo $47.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$59.99 ≈ $58.936 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $10.946 y además se puede revender\n🔎 Confianza media: 4 tiendas y 5 días de historial\n🛒 <a href=\"https://bestmart.cl/products/mario-luigi™-brothership-nintendo-switch-america\">Ir a comprar en Bestmart</a>",
       "tipo": "fisico"
     },
     {
@@ -4820,5 +4805,5 @@
       "tipo": "fisico"
     }
   ],
-  "revision": "2026-10-18T14:47:27Z"
+  "revision": "2026-10-18T20:57:36Z"
 }
