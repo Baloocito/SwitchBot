@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:1c674f571b",
+        "text": "⚙️ CD de Projekt Cyberpunk 2077 S2 · $95.990"
+      },
+      "id": "1c674f571b",
+      "nivel": "regular",
+      "nombre": "CD de Projekt Cyberpunk 2077",
+      "pct": 8.2,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>CD de Projekt Cyberpunk 2077</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$95.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $8.577 frente al «antes» que marca la tienda ($104.567)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $95.990 (17 oct, Lider) · máximo $111.990\n   ███▁▁  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/cd-de-videojuegos-projekt-cyberpunk-2077-nintendo-switch-2/00081013667336\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:2c152fec19",
         "text": "⚙️ VA-11 Hall-A: Cyberpunk Barte… · $39.990"
       },
@@ -14,5 +26,5 @@
     }
   ],
   "juego": "Cyberpunk 2077",
-  "revision": "2026-10-18T06:06:23Z"
+  "revision": "2026-10-18T14:47:27Z"
 }

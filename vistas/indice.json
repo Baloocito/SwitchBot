@@ -2,11 +2,11 @@
   "evento": null,
   "fallos": {
     "PC Factory": 12,
-    "Paris": 19,
+    "Paris": 20,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 330,
+  "fisicos": 316,
   "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
@@ -14,7 +14,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-18T06:06:23Z",
+  "revision": "2026-10-18T14:47:27Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -178,12 +178,13 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟠 <b>Crash / Spyro</b> — 📦 4 desde $47.990",
+      "linea": "🟠 <b>Crash / Spyro</b> — 📦 6 desde $47.990",
       "nombres": [
         "crash bandicoot 4 its about time",
         "crash bandicoot n sane trilogy",
         "koch media crash bandicoot 4",
-        "pewesv crash bandicoot 4"
+        "pewesv crash bandicoot 4",
+        "spyro reignited trilogy"
       ],
       "orden": 3,
       "slug": "crash-spyro"
@@ -199,24 +200,21 @@
     },
     {
       "juego": "Cyberpunk 2077",
-      "linea": "⚪ <b>Cyberpunk 2077</b> — 📦 1 desde $39.990",
+      "linea": "🟠 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990",
       "nombres": [
+        "cd de projekt cyberpunk 2077",
         "va 11 hall a cyberpunk bartender action"
       ],
-      "orden": 4,
+      "orden": 3,
       "slug": "cyberpunk-2077"
     },
     {
       "juego": "Danganronpa",
-      "linea": "🟢 <b>Danganronpa</b> — 📦 1 desde $54.990 · 🎮 4 desde US$1.97\n   🟢 Danganronpa: Trigger Happy Havoc Anniversary Edition −86%",
+      "linea": "🟠 <b>Danganronpa</b> — 📦 1 desde $54.990",
       "nombres": [
-        "danganronpa 2 goodbye despair anniversary edition",
-        "danganronpa decadence sniper",
-        "danganronpa s ultimate summer camp",
-        "danganronpa trigger happy havoc anniversary edition",
-        "danganronpa v3 killing harmony anniversary edition"
+        "danganronpa decadence sniper"
       ],
-      "orden": 1,
+      "orden": 3,
       "slug": "danganronpa"
     },
     {
@@ -259,12 +257,10 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟠 <b>Doom</b> — 📦 4 desde $44.990",
+      "linea": "🟠 <b>Doom</b> — 📦 2 desde $44.990",
       "nombres": [
         "doom",
-        "doom 64",
-        "doom doom ii",
-        "the last kids on earth and the staff of doom"
+        "doom 64"
       ],
       "orden": 3,
       "slug": "doom"
@@ -403,7 +399,7 @@
     },
     {
       "juego": "Hollow Knight",
-      "linea": "⚪ <b>Hollow Knight</b> — 📦 4 desde $36.990",
+      "linea": "⚪ <b>Hollow Knight</b> — 📦 3 desde $36.990",
       "nombres": [
         "hollow knight",
         "hollow knight silksong"
@@ -520,7 +516,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 27 desde $29.990\n   🟢 Mario Kart 8 Deluxe −47%",
+      "linea": "🟢 <b>Mario</b> — 📦 26 desde $29.990\n   🟢 Mario Kart 8 Deluxe −47%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -531,7 +527,6 @@
         "mario rabbids sparks of hope",
         "mario sonic at the olympic games tokyo 2020",
         "mario strikers battle league",
-        "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
         "new super mario bros u deluxe",
@@ -570,8 +565,9 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$14.59\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 📦 2 desde $49.990 · 🎮 1 desde US$14.59\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
+        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -708,11 +704,8 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 64 desde US$1.97\n   🟢 Serious Sam Collection −86%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 54 desde US$1.97\n   🟢 Serious Sam Collection −86%",
       "nombres": [
-        "ai the somnium files",
-        "ai the somnium files nirvana initiative",
-        "bakeru",
         "before we leave",
         "bioshock 2 remastered",
         "bioshock infinite the complete edition",
@@ -722,13 +715,11 @@
         "capcom fighting collection",
         "capcom fighting collection 2",
         "cassette beasts",
-        "chaos head noah",
         "cook serve delicious 3",
         "cricket through the ages",
         "dicey dungeons",
         "dorfromantik",
         "epic chef",
-        "fitness circuit",
         "ghosts n goblins resurrection",
         "going under",
         "guilty gear strive nintendo switch edition",
@@ -736,33 +727,29 @@
         "king of seas",
         "kingdom eighties",
         "kingdom two crowns",
-        "made in abyss binary star falling into darkness",
         "minishoot adventures",
         "minishoot adventures nintendo switch 2 edition",
         "minit",
         "mother russia bleeds",
-        "natsu mon 20th century summer kid",
-        "no sleep for kaname date from ai the somnium files",
+        "narita boy",
         "olliolli world",
         "pepper grinder",
         "pga tour 2k25",
-        "pixeljunk monsters 2",
-        "re zero starting life in another world the prophecy of the throne",
         "reigns game of thrones",
+        "reigns kings queens",
         "risk of rain 2",
         "river city rival showdown",
+        "river city saga three kingdoms",
         "rogue heroes ruins of tasos",
         "ruiner",
         "serious sam collection",
         "shinsekai into the depths",
-        "shiren the wanderer the tower of fortune and the dice of fate",
         "shotgun king the final checkmate",
         "sludge life",
         "star renegades",
         "steamworld dig 2",
         "terra nil",
         "the knight witch",
-        "the quintessential quintuplets five memories spent with you",
         "the red strings club",
         "townscaper",
         "trek to yomi",
@@ -814,7 +801,7 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟡 <b>Pokémon</b> — 📦 16 desde $39.990\n   🟡 Pokémon: Let’s Go, Eevee! −45%",
+      "linea": "🟡 <b>Pokémon</b> — 📦 16 desde $39.990\n   🟡 Pokémon: Let’s Go, Eevee! −48%",
       "nombres": [
         "pokemon brilliant diamond",
         "pokemon legends z a",
@@ -832,13 +819,12 @@
     },
     {
       "juego": "Pokémon Mystery Dungeon / Snap",
-      "linea": "🟡 <b>Pokémon Mystery Dungeon / Snap</b> — 📦 3 desde $39.990 · 🎮 1 desde US$24.73\n   🟡 Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island −30%",
+      "linea": "🟠 <b>Pokémon Mystery Dungeon / Snap</b> — 📦 3 desde $39.990",
       "nombres": [
         "new pokemon snap",
-        "nueva version europea de pokemon snap",
-        "shiren the wanderer the mystery dungeon of serpentcoil island"
+        "nueva version europea de pokemon snap"
       ],
-      "orden": 2,
+      "orden": 3,
       "slug": "pokemon-mystery-dungeon-snap"
     },
     {
@@ -904,11 +890,12 @@
     },
     {
       "juego": "Rune Factory",
-      "linea": "🟡 <b>Rune Factory</b> — 📦 6 desde $27.990\n   🟡 Rune Factory: Guardians of Azuma −68%",
+      "linea": "🟡 <b>Rune Factory</b> — 📦 7 desde $27.990\n   🟡 Rune Factory: Guardians of Azuma −68%",
       "nombres": [
         "rune factory 3 special",
         "rune factory 4 special",
         "rune factory 5",
+        "rune factory guardianes de azuma edicion estandar",
         "rune factory guardians of azuma"
       ],
       "orden": 2,
@@ -1122,14 +1109,13 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟠 <b>Trails / Kiseki</b> — 📦 10 desde $59.990",
+      "linea": "🟠 <b>Trails / Kiseki</b> — 📦 9 desde $59.990",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
         "nis america the legend of heroes trails",
         "nis america the legend of heroes trails to azure",
-        "nis america trails from zero trails to azure",
         "the legend of nayuta boundless trails deluxe ed sniper",
         "trails in the sky 1st chapter",
         "trails in the sky 2nd chapter"
@@ -1179,7 +1165,7 @@
     },
     {
       "juego": "Xenoblade X",
-      "linea": "⚪ <b>Xenoblade X</b> — 📦 1 desde $76.990",
+      "linea": "⚪ <b>Xenoblade X</b> — 📦 2 desde $76.990",
       "nombres": [
         "xenoblade chronicles x definitive edition"
       ],
@@ -1221,5 +1207,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 495
+  "total": 481
 }

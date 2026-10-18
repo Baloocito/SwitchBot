@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:a1f7c7c2c1",
+        "text": "⚙️ DOOM · $69.990"
+      },
+      "id": "a1f7c7c2c1",
+      "nivel": "regular",
+      "nombre": "DOOM",
+      "pct": 12.5,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −12%\n<b>DOOM</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Apenas 12% bajo la referencia\n   Ahorras $10.000 frente al «antes» que marca la tienda ($79.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.990 (14 oct, Falabella) · máximo $69.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$19.34 ≈ $19.000 en 🇨🇱 Chile\n   ➜ El digital es $50.990 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148490815/doom-the-classics-collection-switch-fisico-sniper\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:16b42584bd",
         "text": "⚙️ DOOM 64 · $44.990"
       },
@@ -11,44 +23,8 @@
       "pct": 8.2,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>DOOM 64</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$44.990</b> en 8 Bits\n💡 Apenas 8% bajo la referencia\n   Ahorras $4.000 frente a la otra tienda ($48.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/doom-64-nsw\">$44.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/147898306/DOOM-64-Switch-FISICO\">$48.990 Falabella</a> 🏪 Tienda Retrogamers (+$4.000)\n📈 Mínimo $44.990 (14 oct, 8 Bits) · máximo $44.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$4.07 ≈ $3.999 en 🇨🇱 Chile\n   ➜ El digital es $40.991 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 5 días de historial\n🛒 <a href=\"https://8-bits.cl/products/doom-64-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:0d58b2d94d",
-        "text": "⚙️ DOOM + DOOM II · $77.990"
-      },
-      "id": "0d58b2d94d",
-      "nivel": "regular",
-      "nombre": "DOOM + DOOM II",
-      "pct": 8.1,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>DOOM + DOOM II (limited)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$77.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $6.855 frente al «antes» que marca la tienda ($84.845)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $77.990 (17 oct, Lider) · máximo $78.990\n   ██▁  últimos 3 días\n🎮 Digital: US$8.73 ≈ $8.577 en 🇨🇱 Chile\n   ➜ El digital es $69.413 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/juego-limited-run-doom-doom-ii-nintendo-switch/00084048650163\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:248ebb81dd",
-        "text": "⚙️ The Last Kids on Earth and th… · $74.990"
-      },
-      "id": "248ebb81dd",
-      "nivel": "regular",
-      "nombre": "The Last Kids on Earth and the Staff of Doom",
-      "pct": 7.6,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>The Last Kids on Earth and the Staff of Doom</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$74.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $6.149 frente al «antes» que marca la tienda ($81.139)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $74.990 (14 oct, Lider) · máximo $74.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$27.57 ≈ $27.086 en 🇨🇦 Canadá\n   ➜ El digital es $47.904 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-the-last-kids-on-earth-and-the-staff-of-doom-para-nintendo-switch/00081933802133\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:a1f7c7c2c1",
-        "text": "⚙️ DOOM · $69.990"
-      },
-      "id": "a1f7c7c2c1",
-      "nivel": "normal",
-      "nombre": "DOOM",
-      "pct": 4.1,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DOOM</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Está a su precio de siempre\n   Ahorras $3.000 frente al «antes» que marca la tienda ($72.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.990 (14 oct, Falabella) · máximo $69.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$19.34 ≈ $19.000 en 🇨🇱 Chile\n   ➜ El digital es $50.990 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/123779323/Doom-The-Classics-Collection-Switch-Fisico-Sniper\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
     }
   ],
   "juego": "Doom",
-  "revision": "2026-10-18T06:06:23Z"
+  "revision": "2026-10-18T14:47:27Z"
 }

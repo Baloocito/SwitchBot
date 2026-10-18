@@ -74,6 +74,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:ecc55236e3",
+        "text": "⚙️ Instant Sports de Just For Ga… · $66.990"
+      },
+      "id": "ecc55236e3",
+      "nivel": "regular",
+      "nombre": "Instant Sports de Just For Games",
+      "pct": 8.7,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>Instant Sports de Just For Games</b>\n🕹️ Switch 1 · 📦 Físico · Switch Sports\n💰 <b>$66.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 9% bajo la referencia\n   Ahorras $6.369 frente al «antes» que marca la tienda ($73.359)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $66.990 (15 oct, Lider) · máximo $67.990\n   █▁▁▁▁  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-instant-sports-de-just-for-games-para-nintendo-switch/00370066452560\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:73f08be7cd",
         "text": "⚙️ Game Merge Games Instant Spor… · $61.990"
       },
@@ -106,18 +118,6 @@
       "nombre": "Sports Camp: A 35-Game Adventure",
       "pct": 8.3,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Sports Camp: A 35-Game Adventure</b>\n🕹️ Switch 1 · 📦 Físico · Switch Sports\n💰 <b>$54.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $5.000 frente al «antes» que marca la tienda ($59.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.990 (14 oct, Falabella) · máximo $54.990\n   ▄▄▄▄▄  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/149196356/sports-camp-a-35-game-adventure-switch\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:ecc55236e3",
-        "text": "⚙️ Instant Sports de Just For Ga… · $66.990"
-      },
-      "id": "ecc55236e3",
-      "nivel": "regular",
-      "nombre": "Instant Sports de Just For Games",
-      "pct": 7.8,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Instant Sports de Just For Games</b>\n🕹️ Switch 1 · 📦 Físico · Switch Sports\n💰 <b>$66.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $5.628 frente al «antes» que marca la tienda ($72.618)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $66.990 (15 oct, Lider) · máximo $67.990\n   █▁▁▁▁  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-instant-sports-de-just-for-games-para-nintendo-switch/00370066452560\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -170,5 +170,5 @@
     }
   ],
   "juego": "Switch Sports",
-  "revision": "2026-10-18T06:06:23Z"
+  "revision": "2026-10-18T14:47:27Z"
 }

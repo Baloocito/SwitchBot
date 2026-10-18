@@ -38,6 +38,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:88f31a7939",
+        "text": "⚙️ Rune Factory Guardianes de Az… · $63.990"
+      },
+      "id": "88f31a7939",
+      "nivel": "regular",
+      "nombre": "Rune Factory Guardianes de Azuma Edición Estándar",
+      "pct": 13.4,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −13%\n<b>Rune Factory Guardianes de Azuma Edición Estándar</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$63.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 13% bajo la referencia\n   Ahorras $9.919 frente al «antes» que marca la tienda ($73.909)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $63.990 (18 oct, Lider) · máximo $63.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/rune-factory-guardianes-de-azuma-edicion-estandar-para-switch/00085006224222\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:7abb29873c",
         "text": "⚙️ Rune Factory 4 Special · $38.990"
       },
@@ -74,5 +86,5 @@
     }
   ],
   "juego": "Rune Factory",
-  "revision": "2026-10-18T06:06:23Z"
+  "revision": "2026-10-18T14:47:27Z"
 }
