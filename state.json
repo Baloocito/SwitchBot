@@ -71584,29 +71584,10 @@
     "Falabella": "html",
     "Lider": "html"
   },
-  "pendientes": [
-    {
-      "extra": null,
-      "fecha": "2026-10-18",
-      "ref": "resident evil|Switch 2",
-      "score": 36.1,
-      "tipo": "fisico"
-    },
-    {
-      "extra": "📉 bajó desde $87.990",
-      "fecha": "2026-10-18",
-      "ref": "final fantasy ix|Switch",
-      "score": 7.7,
-      "tipo": "fisico"
-    },
-    {
-      "extra": null,
-      "fecha": "2026-10-18",
-      "ref": "70010000020339",
-      "score": 33.09265944645007,
-      "tipo": "digital"
-    }
-  ],
+  "miembros_canal": {
+    "2026-10-18": 3
+  },
+  "pendientes": [],
   "productos": {
     "13 sentinel aegi rim|Switch": {
       "avisado": null,
@@ -102165,7 +102146,7 @@
       "visto_desde": "2026-10-15"
     }
   },
-  "resumen_enviado": "2026-10-17",
+  "resumen_enviado": "2026-10-18",
   "revisiones_dia": {
     "2026-10-17": 2,
     "2026-10-18": 3

@@ -2,43 +2,7 @@
   "alarmas": {
     "tiendas": "2026-10-18|['Paris (21)']"
   },
-  "cola": {
-    "22f5197f": {
-      "admin_msg": 12800,
-      "creado": "2026-10-18T18:46:58.821704-03:00",
-      "grupo": "publicados",
-      "ids": [
-        "4144715be8",
-        "50e7fa30b3",
-        "8846329771"
-      ],
-      "nombres": [
-        "Minecraft: Nintendo Switch Edition",
-        "EA SPORTS FC 26",
-        "SONIC X SHADOW GENERATIONS"
-      ],
-      "post": {
-        "botones": [
-          [
-            {
-              "copy_text": {
-                "text": "🎮 Ofertas de Nintendo Switch en Chile, filtradas y en pesos. Únete gratis: https://t.me/+JY1TTorcYE02NWUx"
-              },
-              "text": "📋 Copiar link del canal"
-            },
-            {
-              "text": "📲 WhatsApp",
-              "url": "https://wa.me/?text=%F0%9F%8E%AE%20Ofertas%20de%20Nintendo%20Switch%20en%20Chile%2C%20filtradas%20y%20en%20pesos.%20%C3%9Anete%20gratis%3A%20https%3A//t.me/%2BJY1TTorcYE02NWUx"
-            }
-          ]
-        ],
-        "texto": "📦 <b>FÍSICOS EN CHILE</b>\n<i>dom 18 oct · comparamos 3 tiendas</i>\n\n🥇 <a href=\"https://8-bits.cl/products/minecraft-nsw\"><b>Minecraft: Nintendo Switch Edition</b></a> · −29%\n   🥇 <a href=\"https://8-bits.cl/products/minecraft-nsw\">8 Bits</a> <b>$29.990</b>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/17441652/juego-nintendo-switch-minecraft\">Falabella</a> $31.990\n\n🥈 <a href=\"https://www.falabella.com/falabella-cl/product/17548868/Juego-Ea-Sports-Fc-26-Latam-Ns2-Electronic-Arts\"><b>EA SPORTS FC 26</b></a> (S2) · −23%\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/17548868/Juego-Ea-Sports-Fc-26-Latam-Ns2-Electronic-Arts\">Falabella</a> <b>$47.990</b>\n   🥈 <a href=\"https://bestmart.cl/products/juego-fc-26-ea-sports-nintendo-switch-2\">Bestmart</a> $54.990\n   🥉 <a href=\"https://8-bits.cl/products/ea-sports-fc-26-nintendo-switch-2\">8 Bits</a> $69.990\n\n🥉 <a href=\"https://8-bits.cl/products/sonic-x-shadow-generations-nintendo-switch-2\"><b>SONIC X SHADOW GENERATIONS</b></a> (S2) · −20%\n   🥇 <a href=\"https://8-bits.cl/products/sonic-x-shadow-generations-nintendo-switch-2\">8 Bits</a> <b>$59.990</b>\n   🥈 <a href=\"https://bestmart.cl/products/juego-sonic-x-shadow-generations-nintendo-switch-2\">Bestmart</a> $64.990\n\n━━━━━━━━━━━━━━\n💡 Toca el juego o la tienda para ir a comprar"
-      },
-      "sale": "2026-10-18T18:56:58.821704-03:00",
-      "slot": "fisicos",
-      "sonido": false
-    }
-  },
+  "cola": {},
   "dias": {
     "2026-10-17": {
       "bombazos": 0,
@@ -52,7 +16,7 @@
     },
     "2026-10-18": {
       "bombazos": 0,
-      "posts": 0,
+      "posts": 1,
       "slots": [
         "fisicos"
       ]
@@ -104,6 +68,16 @@
       ],
       "message_id": 8,
       "slot": "pack"
+    },
+    {
+      "fecha": "2026-10-18T20:18-03:00",
+      "ids": [
+        "4144715be8",
+        "50e7fa30b3",
+        "8846329771"
+      ],
+      "message_id": 9,
+      "slot": "fisicos"
     }
   ],
   "publicados": {
@@ -127,6 +101,11 @@
       "precio": 5970,
       "slot": "top"
     },
+    "4144715be8": {
+      "fecha": "2026-10-18",
+      "precio": 29990.0,
+      "slot": "fisicos"
+    },
     "431082885d": {
       "fecha": "2026-10-17",
       "precio": 34990.0,
@@ -136,6 +115,16 @@
       "fecha": "2026-10-17",
       "precio": 64990.0,
       "slot": "pack"
+    },
+    "50e7fa30b3": {
+      "fecha": "2026-10-18",
+      "precio": 47990.0,
+      "slot": "fisicos"
+    },
+    "8846329771": {
+      "fecha": "2026-10-18",
+      "precio": 59990.0,
+      "slot": "fisicos"
     },
     "a600896585": {
       "fecha": "2026-10-17",
@@ -201,5 +190,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-10-17T14:55:29.739443-03:00"
+  "ultimo_post": "2026-10-18T20:18:12.361672-03:00"
 }
