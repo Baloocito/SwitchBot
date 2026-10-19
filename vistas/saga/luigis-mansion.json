@@ -2,18 +2,6 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:e880c6a33e",
-        "text": "⚙️ Luigi Mansion 2 HD · $52.990"
-      },
-      "id": "e880c6a33e",
-      "nivel": "bueno",
-      "nombre": "Luigi Mansion 2 HD",
-      "pct": 36.1,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −36%\n<b>Luigi Mansion 2 HD</b>\n🕹️ Switch 1 · 📦 Físico · Luigi's Mansion\n💰 <b>$52.990</b> en Bestmart\n💡 36% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $30.000 frente a la otra tienda ($82.990)\n🏷️ La tienda marca «antes $64.990» (−18%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://bestmart.cl/products/luigi-s-mansion-2-hd-nintendo-switch-america\">$52.990 Bestmart</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-luigi-mansion-2-hd-switch/00004549690480\">$82.990 Lider</a> 🏪 nocnoc (+$30.000)\n📈 Mínimo $52.990 (15 oct, Bestmart) · máximo $82.990\n   █▁▁▁▁  últimos 5 días\n🔎 Confianza media: 2 tiendas y 5 días de historial\n🛒 <a href=\"https://bestmart.cl/products/luigi-s-mansion-2-hd-nintendo-switch-america\">Ir a comprar en Bestmart</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:4023898f8a",
         "text": "⚙️ Luigi s Mansion 3 · $56.990"
       },
@@ -21,10 +9,22 @@
       "nivel": "regular",
       "nombre": "Luigi s Mansion 3",
       "pct": 12.3,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −12%\n<b>Luigi s Mansion 3</b>\n🕹️ Switch 1 · 📦 Físico · Luigi's Mansion\n💰 <b>$56.990</b> en Bestmart\n💡 Apenas 12% bajo la referencia\n   Ahorras $8.000 frente al «antes» que marca la tienda ($64.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $56.990 (14 oct, Bestmart) · máximo $56.990\n   ▄▄▄▄▄  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://bestmart.cl/products/luigis-mansion-3-nintendo-switch-america\">Ir a comprar en Bestmart</a>",
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −12%\n<b>Luigi s Mansion 3</b>\n🕹️ Switch 1 · 📦 Físico · Luigi's Mansion\n💰 <b>$56.990</b> en Bestmart\n💡 Apenas 12% bajo la referencia\n   Ahorras $8.000 frente al «antes» que marca la tienda ($64.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $56.990 (14 oct, Bestmart) · máximo $56.990\n   ▄▄▄▄▄▄  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://bestmart.cl/products/luigis-mansion-3-nintendo-switch-america\">Ir a comprar en Bestmart</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:30b41a6b1c",
+        "text": "⚙️ Luigi s Mansion 2 HD · $55.000"
+      },
+      "id": "30b41a6b1c",
+      "nivel": "normal",
+      "nombre": "Luigi s Mansion 2 HD",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Luigi s Mansion 2 HD</b>\n🕹️ Switch 1 · 📦 Físico · Luigi's Mansion\n💰 <b>$55.000</b> en Paris 🏪 <i>vende Tienda RetroGamers </i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $55.000 (19 oct, Paris) · máximo $55.000\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.paris.cl/luigi-s-mansion-2-hd-nintendo-switch-MK9U0FVSIY.html\">Ir a comprar en Paris</a>",
       "tipo": "fisico"
     }
   ],
   "juego": "Luigi's Mansion",
-  "revision": "2026-10-18T20:57:36Z"
+  "revision": "2026-10-19T16:30:19Z"
 }

@@ -2,15 +2,16 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:1c674f571b",
-        "text": "⚙️ CD de Projekt Cyberpunk 2077 S2 · $95.990"
+        "callback_data": "a:080693b04f",
+        "text": "⚙️ Cyberpunk 2077: Ultimate Edit… S2 · US$22.41"
       },
-      "id": "1c674f571b",
-      "nivel": "regular",
-      "nombre": "CD de Projekt Cyberpunk 2077",
-      "pct": 8.2,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>CD de Projekt Cyberpunk 2077</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$95.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $8.577 frente al «antes» que marca la tienda ($104.567)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $95.990 (17 oct, Lider) · máximo $111.990\n   ███▁▁  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/cd-de-videojuegos-projekt-cyberpunk-2077-nintendo-switch-2/00081013667336\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
+      "con_fisico": true,
+      "id": "080693b04f",
+      "nivel": "compra",
+      "nombre": "Cyberpunk 2077: Ultimate Edition",
+      "pct": 60.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Cyberpunk 2077: Ultimate Edition</b>\n🕹️ Switch 2 · 🎮 Digital (eShop)\n💰 <b>US$22.41</b> ≈ $21.999 en 🇨🇱 Chile\n   Precio en la tienda: $21.996 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$56.02 → ahorras US$33.61 · ⏳ termina el 3 nov (en 15 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$22.41</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$26.77</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$26.81</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$27.99</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">US$28.30</a>\n   El más caro: 🇨🇴 US$33.38\n📦 Físico: $94.990 en Falabella → el digital te ahorra $72.991\n📈 Mínimo US$22.41 (19 oct en 🇨🇱 Chile)\n   █████▁  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/cyberpunk-2077-ultimate-edition-switch-2/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
     },
     {
       "boton": {
@@ -21,10 +22,10 @@
       "nivel": "normal",
       "nombre": "VA-11 Hall-A: Cyberpunk Bartender Action",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>VA-11 Hall-A: Cyberpunk Bartender Action (import japan)</b>\n🕹️ Switch 1 · 📦 Físico · Cyberpunk 2077\n💰 <b>$39.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (14 oct, 8 Bits) · máximo $39.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$5.50 ≈ $5.403 en 🇧🇷 Brasil\n   ➜ El digital es $34.587 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://8-bits.cl/products/va-11-hall-a-cyberpunk-bartender-action-nsw-japan-import\">Ir a comprar en 8 Bits</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>VA-11 Hall-A: Cyberpunk Bartender Action (import japan)</b>\n🕹️ Switch 1 · 📦 Físico · Cyberpunk 2077\n💰 <b>$39.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (14 oct, 8 Bits) · máximo $39.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$5.52 ≈ $5.419 en 🇧🇷 Brasil\n   ➜ El digital es $34.571 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/va-11-hall-a-cyberpunk-bartender-action-nsw-japan-import\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     }
   ],
   "juego": "Cyberpunk 2077",
-  "revision": "2026-10-18T20:57:36Z"
+  "revision": "2026-10-19T16:30:19Z"
 }
