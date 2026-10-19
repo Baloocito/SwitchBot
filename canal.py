@@ -42,7 +42,7 @@ ESTADO_FILE = BASE / "canal_estado.json"
 DECISIONES_FILE = BASE / "canal_decisiones.json"   # lo escribe el Worker con los botones de revision
 NOMBRE_SLOT = {"top": "Top 5 del día", "pack": "Pack del día", "fisicos": "Físicos en Chile",
                "ultima": "Última llamada", "semanal": "Top de la semana", "bombazo": "Bombazo",
-               "proximos": "Lo que viene"}
+               "proximos": "Lo que viene", "memorias": "Memorias microSD"}
 OTROS = "otros juegos"
 DIAS = ["lun", "mar", "mie", "jue", "vie", "sab", "dom"]
 VENTANA_MIN = 90            # minutos despues de la hora del slot en que todavia se publica
@@ -787,8 +787,61 @@ def slot_proximos(cfg, est, cands, t):
     return {"texto": "\n".join(l), "botones": pie(cfg)}, []
 
 
+def memorias_vigentes(cfg, state, t):
+    """microSD de marca conocida vistas en las ultimas 48 h, con sus avisos por tienda."""
+    corte = (t - timedelta(hours=48)).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    out = []
+    for s in (state.get("memorias") or {}).values():
+        if not s.get("marca") or (s.get("visto") or "") < corte or not s.get("precio"):
+            continue
+        out.append(s)
+    return out
+
+
+def slot_memorias(cfg, est, cands, t):
+    """Comparador semanal de microSD: la mas barata de cada capacidad, por consola."""
+    mems = memorias_vigentes(cfg, load_json(STATE_FILE, {}), t)
+    conf = cfg.get("memorias_canal") or {}
+    capacidades = conf.get("capacidades") or {"express": [256, 512], "normal": [128, 256, 512]}
+    bloques = []
+    for tipo, titulo, nota in (
+            ("express", "🎮 <b>SWITCH 2</b> · microSD Express",
+             "La única que sirve para jugar juegos de Switch 2 desde la tarjeta."),
+            ("normal", "🕹️ <b>SWITCH 1</b> · microSD (UHS-I)",
+             "En Switch 2 solo sirve para fotos y videos, no para juegos.")):
+        filas = []
+        for gb in capacidades.get(tipo, []):
+            opciones = sorted((s for s in mems if s["tipo"] == tipo and s["gb"] == gb), key=lambda s: s["precio"])
+            if not opciones:
+                continue
+            s = opciones[0]
+            av = (s.get("avisos") or [{"tienda": s["tienda"], "url": s["url"], "precio": s["precio"]}])[0]
+            url = afiliar(cfg, av["tienda"], av["url"])
+            enlace = f"<a href=\"{esc_attr(url)}\">{esc(av['tienda'])}</a>" + (" 🔗" if es_afiliado(cfg, av["tienda"]) else "")
+            extra = []
+            if s.get("min_hist") and s["precio"] <= s["min_hist"] and (s.get("dias") or 0) >= MIN_DIAS:
+                extra.append("📉 mínimo")
+            elif s.get("pct") and s["pct"] >= 10:
+                extra.append(f"−{round(s['pct'])}%")
+            cap = f"{gb // 1024} TB" if gb >= 1024 else f"{gb} GB"
+            filas.append(f"💾 <b>{cap}</b> · {esc(s['marca'])} · <b>{clp(s['precio'])}</b> en {enlace}"
+                         + (" · " + " · ".join(extra) if extra else ""))
+            otra = next((o for o in opciones[1:] if o.get("marca") != s["marca"]), None)
+            if otra:
+                filas.append(f"     o {esc(otra['marca'])} a {clp(otra['precio'])} en {esc(otra['tienda'])}")
+        if filas:
+            bloques += ["", titulo, f"<i>{nota}</i>"] + filas
+    if len([b for b in bloques if b.startswith("💾")]) < 2:
+        return None, []
+    tiendas = {s["tienda"] for s in mems}
+    l = ["💾 <b>MEMORIAS PARA TU SWITCH</b>", f"<i>{fecha_txt(t)} · la más barata de cada tamaño en {len(tiendas)} tiendas</i>"]
+    l += bloques
+    l += ["", LINEA, "✅ Solo marcas conocidas y tiendas confiables: las microSD demasiado baratas suelen ser falsas."]
+    return {"texto": "\n".join(l), "botones": pie(cfg)}, []
+
+
 SLOTS = {"top": slot_top, "pack": slot_pack, "fisicos": slot_fisicos, "proximos": slot_proximos,
-         "ultima": slot_ultima, "semanal": slot_semanal}
+         "ultima": slot_ultima, "semanal": slot_semanal, "memorias": slot_memorias}
 
 
 # --------------------------------------------------------------- envio

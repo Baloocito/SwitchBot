@@ -1684,19 +1684,39 @@ MARCAS_MEM = ["sandisk", "samsung", "kingston", "lexar", "pny", "sony", "adata",
               "verbatim", "western digital", "crucial"]
 EXCLUIR_MEM = {"lector", "reader", "usb", "pendrive", "hub", "estuche", "funda", "case", "porta",
                "combo", "pack", "kit", "x2", "x3", "x4", "2x", "3x", "unidades", "consola", "bundle",
-               "dock", "ssd", "disco", "camara", "dashcam", "celular", "telefono", "tablet",
-               "reacondicionado", "usado", "usada", "seminuevo", "gopro", "dron"}
+               "dock", "ssd", "disco", "reacondicionado", "usado", "usada", "seminuevo"}
+# aparatos: "Camara GoPro con microSD 64GB" no es una memoria, pero "Memoria microSD 128GB para
+# celular y camara" si. Se descarta solo si el aparato aparece ANTES de la palabra microSD.
+APARATOS_MEM = {"camara", "dashcam", "celular", "telefono", "smartphone", "tablet", "gopro", "dron",
+                "drone", "notebook", "parlante", "reloj", "smartwatch"}
 NOMBRE_MARCA = {"sandisk": "SanDisk", "pny": "PNY", "adata": "ADATA", "kioxia": "KIOXIA",
                 "teamgroup": "TeamGroup"}
 # por debajo de esto por GB casi siempre es una tarjeta falsa (capacidad trucada)
 MIN_CLP_POR_GB = {"normal": 25, "express": 80}
 
 
-def clasificar_memoria(titulo, precio=None):
-    """'Tarjeta microSD Express SanDisk 256GB para Switch 2' ->
-    {'tipo': 'express', 'gb': 256, 'marca': 'SanDisk'}. None si no es una microSD suelta."""
+def motivo_no_memoria(titulo, precio=None):
+    """Por que un aviso no cuenta como microSD suelta (para el diagnostico). None si cuenta."""
     t = norm(titulo)
-    if not MEM_RE.search(t) or set(t.split()) & EXCLUIR_MEM:
+    mm = MEM_RE.search(t)
+    if not mm:
+        return "no dice microSD"
+    if set(t.split()) & EXCLUIR_MEM:
+        return "accesorio/pack: " + ", ".join(sorted(set(t.split()) & EXCLUIR_MEM))
+    if set(t[:mm.start()].split()) & APARATOS_MEM:
+        return "es un aparato con memoria"
+    if not clasificar_memoria(titulo, precio):
+        return "sin capacidad clara o precio imposible por GB"
+    return None
+
+
+def clasificar_memoria(titulo, precio=None, url=None):
+    """'Tarjeta microSD Express SanDisk 256GB para Switch 2' ->
+    {'tipo': 'express', 'gb': 256, 'marca': 'SanDisk'}. None si no es una microSD suelta.
+    La marca se busca tambien en el link (algunas tiendas la dejan fuera del titulo)."""
+    t = norm(titulo)
+    mm = MEM_RE.search(t)
+    if not mm or set(t.split()) & EXCLUIR_MEM or set(t[:mm.start()].split()) & APARATOS_MEM:
         return None
     caps = set()
     for num, unidad in CAP_RE.findall(str(titulo).lower()):
@@ -1713,6 +1733,9 @@ def clasificar_memoria(titulo, precio=None):
     if precio and precio / gb < MIN_CLP_POR_GB[tipo]:
         return None
     marca = next((m for m in MARCAS_MEM if contiene_palabras(t, m)), None)
+    if not marca and url:
+        u = norm(re.sub(r"[-_/.]+", " ", str(url)))
+        marca = next((m for m in MARCAS_MEM if contiene_palabras(u, m)), None)
     return {"tipo": tipo, "gb": gb, "marca": NOMBRE_MARCA.get(marca, marca.title()) if marca else None}
 
 
@@ -1754,7 +1777,7 @@ def leer_memorias_ml(cfg, state):
             if it.get("condicion") == "used" or not it.get("seguro") or it.get("moneda") != "CLP" \
                     or not precio_valido(it.get("precio")) or it.get("url") in vistos:
                 continue
-            m = clasificar_memoria(it.get("titulo") or "", it["precio"])
+            m = clasificar_memoria(it.get("titulo") or "", it["precio"], it.get("url"))
             if not m:
                 continue
             vistos.add(it.get("url"))
@@ -1790,7 +1813,7 @@ def revisar_memorias(cfg, state, hist, alertas):
     for tienda, p in MEMORIAS_LISTADOS:
         if excluir_ext and p.get("externo"):
             continue
-        m = clasificar_memoria(p["titulo"], p["precio"])
+        m = clasificar_memoria(p["titulo"], p["precio"], p.get("url"))
         if not m:
             continue
         clave = f"{m['tipo']}|{m['gb']}|{norm(m['marca'] or 'otra')}"
@@ -3282,6 +3305,36 @@ def diagnostico(cfg):
         if not ok:
             for p in prods[:3]:
                 log(f"  ? {p.get('titulo')} | {p.get('precio')} | {p.get('url')}")
+        if tienda.get("activa") is not False:
+            diagnostico_memorias(cfg, tienda, cache)
+
+
+def diagnostico_memorias(cfg, tienda, cache):
+    """microSD de la tienda: cuantas encuentra, cuales cuentan y por que se descartan las otras."""
+    terminos_mem = (cfg.get("memorias") or {}).get("buscar", MEMORIAS_BUSCAR)
+    if cache.get("metodo") == "shopify":
+        fuentes = cache.get("shopify") or []
+    else:
+        fuentes = []
+        for t in terminos_mem:
+            fuentes += buscar_en_tienda(tienda, t, {}, cache) or []
+            time.sleep(PAUSA)
+    vistos, buenas, malas = set(), [], {}
+    for p in fuentes:
+        if p.get("url") in vistos or not precio_valido(p.get("precio")) or not MEM_RE.search(norm(p["titulo"])):
+            continue
+        vistos.add(p.get("url"))
+        m = clasificar_memoria(p["titulo"], p["precio"], p.get("url"))
+        if m:
+            buenas.append((m, p))
+        else:
+            malas.setdefault(motivo_no_memoria(p["titulo"], p["precio"]) or "?", []).append(p)
+    log(f"  microSD: {len(vistos)} avisos, {len(buenas)} cuentan"
+        + (f", {sum(1 for m, _ in buenas if not m['marca'])} sin marca reconocida (no avisan)" if buenas else ""))
+    for m, p in sorted(buenas, key=lambda x: (x[0]["tipo"], x[0]["gb"], x[1]["precio"]))[:8]:
+        log(f"    ✓ {nombre_memoria(m)} | {clp(p['precio'])} | {p['titulo'][:70]}")
+    for motivo, ps in malas.items():
+        log(f"    ✗ {motivo}: {len(ps)} · ej. {ps[0]['titulo'][:70]}")
 
 
 # ---------------------------------------------------------------------- main

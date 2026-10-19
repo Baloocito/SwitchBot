@@ -97,6 +97,11 @@ igual que con un juego: mínimo histórico, descuento real contra las otras tien
 
 La primera revisión las registra en silencio; desde la segunda avisa de cambios.
 
+En el canal, los miércoles a las 20:00 sale **💾 Memorias para tu Switch**: la microSD más barata de
+cada tamaño (Express 256/512 GB para Switch 2; 128/256/512 GB para Switch 1), solo de marcas
+conocidas, con la segunda mejor opción de otra marca. El diagnóstico muestra, tienda por tienda,
+cuántas microSD encontró, cuáles cuentan y por qué descartó las demás.
+
 ## Canal público de ofertas
 
 `canal.py` toma lo que recolecta `bot.py` y publica en un canal de Telegram solo lo que vale la pena,
@@ -109,6 +114,7 @@ a horas fijas y sin repetir. Tu chat personal sigue recibiendo todo, igual que a
 | 18:30 | Físicos en Chile | todos |
 | 21:00 | Última llamada (terminan hoy o mañana) | todos |
 | 12:00 | Top de la semana + encuesta | dom |
+| 20:00 | Memorias microSD (comparador) | mié |
 | Tras cada revisión | Bombazo (máx. 2 al día, nunca entre 23:00 y 08:30) | todos |
 
 **Qué publica:** cada oferta recibe un puntaje (0–100) según si es de una saga que sigues, una "joya"
