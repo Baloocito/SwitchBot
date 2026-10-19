@@ -14,42 +14,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:12fc834f91",
-        "text": "⚙️ SONIC FORCES · $29.990"
-      },
-      "id": "12fc834f91",
-      "nivel": "normal",
-      "nombre": "SONIC FORCES",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>SONIC FORCES (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (14 oct, 8 Bits) · máximo $29.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$15.75 ≈ $15.461 en 🇧🇷 Brasil\n   ➜ El digital es $14.529 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-sonic-forces-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:3a2ce52201",
-        "text": "⚙️ Sonic Frontiers · $34.990"
-      },
-      "id": "3a2ce52201",
-      "nivel": "normal",
-      "nombre": "Sonic Frontiers",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Frontiers (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $34.990 (14 oct, 8 Bits) · máximo $34.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$36.16 ≈ $35.497 en 🇨🇱 Chile\n   ➜ El físico te ahorra $507 y además se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-sonic-frontiers-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:d5d3cc617f",
-        "text": "⚙️ Sonic Racing: CrossWorlds S2 · $69.900"
-      },
-      "id": "d5d3cc617f",
-      "nivel": "normal",
-      "nombre": "Sonic Racing: CrossWorlds",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Racing: CrossWorlds</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$69.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.900 (19 oct, TodoJuegos) · máximo $81.990\n   ██▁  últimos 3 días\n🎮 Digital: US$33.10 ≈ $32.493 en 🇧🇷 Brasil\n   ➜ El digital es $37.407 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Sonic-Racing--CrossWorlds-Year-One-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:ec8edfe133",
         "text": "⚙️ Sonic Classic Collection · $59.900"
       },
@@ -58,6 +22,18 @@
       "nombre": "Sonic Classic Collection",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Classic Collection</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.900 (19 oct, TodoJuegos) · máximo $59.900\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Sonic-Classic-Collection/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:12fc834f91",
+        "text": "⚙️ SONIC FORCES · $29.990"
+      },
+      "id": "12fc834f91",
+      "nivel": "normal",
+      "nombre": "SONIC FORCES",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>SONIC FORCES (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (14 oct, 8 Bits) · máximo $29.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$15.75 ≈ $15.461 en 🇧🇷 Brasil\n   ➜ El digital es $14.529 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-sonic-forces-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -74,6 +50,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:3a2ce52201",
+        "text": "⚙️ Sonic Frontiers · $34.990"
+      },
+      "id": "3a2ce52201",
+      "nivel": "normal",
+      "nombre": "Sonic Frontiers",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Frontiers (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $34.990 (14 oct, 8 Bits) · máximo $34.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$36.16 ≈ $35.497 en 🇨🇱 Chile\n   ➜ El físico te ahorra $507 y además se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-sonic-frontiers-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:84d36d9320",
         "text": "⚙️ Sonic Modern Collection · $59.900"
       },
@@ -82,6 +70,18 @@
       "nombre": "Sonic Modern Collection",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Modern Collection</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.900 (19 oct, TodoJuegos) · máximo $59.900\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Sonic-Modern-Collection/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:d5d3cc617f",
+        "text": "⚙️ Sonic Racing: CrossWorlds S2 · $69.900"
+      },
+      "id": "d5d3cc617f",
+      "nivel": "normal",
+      "nombre": "Sonic Racing: CrossWorlds",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Racing: CrossWorlds</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$69.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.900 (19 oct, TodoJuegos) · máximo $81.990\n   ██▁  últimos 3 días\n🎮 Digital: US$33.10 ≈ $32.493 en 🇧🇷 Brasil\n   ➜ El digital es $37.407 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Sonic-Racing--CrossWorlds-Year-One-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
     }
   ],

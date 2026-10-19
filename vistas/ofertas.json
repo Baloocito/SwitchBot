@@ -114,22 +114,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:f6429dbe53",
-        "text": "⚙️ RUINER · US$2.03"
-      },
-      "con_fisico": false,
-      "id": "f6429dbe53",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "RUINER",
-      "orden": 1,
-      "pct": 81.0,
-      "precio_usd": 2.03,
-      "texto": "🟢 <b>COMPRA YA</b> · −81%\n<b>RUINER</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.03</b> ≈ $1.993 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −81% en la eShop\n🏷️ Normal US$10.70 → ahorras US$8.67 · ⏳ termina el 20 oct (¡hoy!)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/ruiner-switch/\">US$2.03</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/ruiner-switch/\">US$2.18</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/ruiner-switch/\">US$2.36</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/ruiner-switch/\">US$2.47</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/ruiner-switch/\">US$2.71</a>\n   El más caro: 🇲🇽 US$3.15\n📈 Mínimo US$2.02 (16 oct en 🇨🇱 Chile)\n   █▁███  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/ruiner-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:36a322c74e",
         "text": "⚙️ Moonlighter · US$2.03"
       },
@@ -142,6 +126,22 @@
       "pct": 81.0,
       "precio_usd": 2.03,
       "texto": "🟢 <b>COMPRA YA</b> · −81%\n<b>Moonlighter</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.03</b> ≈ $1.993 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −81% en la eShop\n🏷️ Normal US$10.70 → ahorras US$8.67 · ⏳ termina el 9 nov (en 21 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/moonlighter-switch/\">US$2.03</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/moonlighter-switch/\">US$2.18</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/moonlighter-switch/\">US$2.71</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/moonlighter-switch/\">US$3.25</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/moonlighter-switch/\">US$3.34</a>\n   El más caro: 🇲🇽 US$3.98\n📈 Mínimo US$2.03 (19 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/moonlighter-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:f6429dbe53",
+        "text": "⚙️ RUINER · US$2.03"
+      },
+      "con_fisico": false,
+      "id": "f6429dbe53",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "RUINER",
+      "orden": 1,
+      "pct": 81.0,
+      "precio_usd": 2.03,
+      "texto": "🟢 <b>COMPRA YA</b> · −81%\n<b>RUINER</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.03</b> ≈ $1.993 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −81% en la eShop\n🏷️ Normal US$10.70 → ahorras US$8.67 · ⏳ termina el 20 oct (¡hoy!)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/ruiner-switch/\">US$2.03</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/ruiner-switch/\">US$2.18</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/ruiner-switch/\">US$2.36</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/ruiner-switch/\">US$2.47</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/ruiner-switch/\">US$2.71</a>\n   El más caro: 🇲🇽 US$3.15\n📈 Mínimo US$2.02 (16 oct en 🇨🇱 Chile)\n   █▁███  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/ruiner-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -1065,7 +1065,7 @@
       "orden": 1,
       "pct": 50.0,
       "precio_usd": 6.37,
-      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Turnip Boy Robs a Bank</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.37</b> ≈ $6.253 en 🇲🇽 México\n   Precio en la tienda: MX$117,50 MXN\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$12.73 → ahorras US$6.36 · ⏳ termina el 27 oct (en 8 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/turnip-boy-robs-a-bank-switch/\">US$6.41</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/turnip-boy-robs-a-bank-switch/\">US$6.72</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/turnip-boy-robs-a-bank-switch/\">US$7.28</a>\n   El más caro: 🇨🇴 US$8.66\n📦 Físico: $49.990 en Falabella → el digital te ahorra $43.737\n📈 Mínimo US$6.34 (16 oct en 🇨🇱 Chile)\n   ▆▁▆▆█  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">Ver en la eShop de México</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Turnip Boy Robs a Bank</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.37</b> ≈ $6.253 en 🇲🇽 México\n   Precio en la tienda: MX$117,50 MXN\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$12.73 → ahorras US$6.36 · ⏳ termina el 27 oct (en 8 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/turnip-boy-robs-a-bank-switch/\">US$6.41</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/turnip-boy-robs-a-bank-switch/\">US$6.72</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/turnip-boy-robs-a-bank-switch/\">US$7.28</a>\n   El más caro: 🇨🇴 US$8.66\n📦 Físico: $49.990 en Falabella → el digital te ahorra $43.737\n📈 Mínimo US$6.34 (16 oct en 🇨🇱 Chile)\n   ▆▁▆▆█  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">Ver en la eShop de México</a>",
       "tipo": "digital"
     },
     {
@@ -1814,21 +1814,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:3d1223dee4",
-        "text": "⚙️ Legend of Heroes Trails of Co… · $29.990"
-      },
-      "id": "3d1223dee4",
-      "juego": "Trails / Kiseki",
-      "nivel": "bueno",
-      "nombre": "Legend of Heroes Trails of Cold Steel III - Sniper",
-      "orden": 2,
-      "pct": 50.0,
-      "precio": 29990.0,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −50%\n<b>Legend of Heroes Trails of Cold Steel III - Sniper</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$29.990</b> en Lider 🏪 <i>vende SNIPERCL</i>\n💡 50% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $30.000 frente a la otra tienda ($59.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.lider.cl/ip/videojuegos/the-legend-of-heroes-trails-of-cold-steel-iii-nintendo-switch/00081010086264\">$29.990 Lider</a> 🏪 SNIPERCL\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/122915565/Legend-of-Heroes-Trails-of-Cold-Steel-III-Switch-Sniper\">$59.990 Falabella</a> 🏪 Sniper (+$30.000)\n📈 Mínimo $29.990 (19 oct, Lider) · máximo $59.990\n   █████▁  últimos 6 días\n🔎 Confianza media: 2 tiendas y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/the-legend-of-heroes-trails-of-cold-steel-iii-nintendo-switch/00081010086264\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:43522e64f1",
         "text": "⚙️ EA SPORTS FC26 S2 · $44.990"
       },
@@ -1840,6 +1825,21 @@
       "pct": 50.0,
       "precio": 44990.0,
       "texto": "🟡 <b>BUEN PRECIO</b> · −50%\n<b>EA SPORTS FC26</b>\n🕹️ Switch 2 · 📦 Físico · Switch Sports\n💰 <b>$44.990</b> en Paris\n💡 −50% según la tienda (sin otra tienda para confirmarlo)\n   Ahorras $45.000 frente al «antes» que marca la tienda ($89.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $44.990 (19 oct, Paris) · máximo $44.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.paris.cl/juego-nintendo-switch-2-ea-sports-fc26-273713999.html\">Ir a comprar en Paris</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:3d1223dee4",
+        "text": "⚙️ Legend of Heroes Trails of Co… · $29.990"
+      },
+      "id": "3d1223dee4",
+      "juego": "Trails / Kiseki",
+      "nivel": "bueno",
+      "nombre": "Legend of Heroes Trails of Cold Steel III - Sniper",
+      "orden": 2,
+      "pct": 50.0,
+      "precio": 29990.0,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −50%\n<b>Legend of Heroes Trails of Cold Steel III - Sniper</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$29.990</b> en Lider 🏪 <i>vende SNIPERCL</i>\n💡 50% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $30.000 frente a la otra tienda ($59.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.lider.cl/ip/videojuegos/the-legend-of-heroes-trails-of-cold-steel-iii-nintendo-switch/00081010086264\">$29.990 Lider</a> 🏪 SNIPERCL\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/122915565/Legend-of-Heroes-Trails-of-Cold-Steel-III-Switch-Sniper\">$59.990 Falabella</a> 🏪 Sniper (+$30.000)\n📈 Mínimo $29.990 (19 oct, Lider) · máximo $59.990\n   █████▁  últimos 6 días\n🔎 Confianza media: 2 tiendas y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/the-legend-of-heroes-trails-of-cold-steel-iii-nintendo-switch/00081010086264\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -4074,6 +4074,21 @@
     },
     {
       "boton": {
+        "callback_data": "a:2033f58d45",
+        "text": "⚙️ Paper Mario: The Origami King · $113.990"
+      },
+      "id": "2033f58d45",
+      "juego": "Mario",
+      "nivel": "regular",
+      "nombre": "Paper Mario: The Origami King",
+      "orden": 3,
+      "pct": 8.1,
+      "precio": 113990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Paper Mario: The Origami King</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$113.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $10.089 frente al «antes» que marca la tienda ($124.079)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $113.990 (19 oct, Lider) · máximo $113.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El digital es $55.100 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-paper-mario-the-origami-king-para-switch/00004549642641\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:253e076eca",
         "text": "⚙️ Rayman Edición 30º Aniversari… · $51.990"
       },
@@ -4100,21 +4115,6 @@
       "pct": 8.1,
       "precio": 51990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Ubisoft Just Dance 2021</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$51.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $4.564 frente al «antes» que marca la tienda ($56.554)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $51.990 (14 oct, Lider) · máximo $55.990\n   ▁▁█▁▁▁  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2021-para-nintendo-switch/00330721616410\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:2033f58d45",
-        "text": "⚙️ Paper Mario: The Origami King · $113.990"
-      },
-      "id": "2033f58d45",
-      "juego": "Mario",
-      "nivel": "regular",
-      "nombre": "Paper Mario: The Origami King",
-      "orden": 3,
-      "pct": 8.1,
-      "precio": 113990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Paper Mario: The Origami King</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$113.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $10.089 frente al «antes» que marca la tienda ($124.079)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $113.990 (19 oct, Lider) · máximo $113.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El digital es $55.100 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-paper-mario-the-origami-king-para-switch/00004549642641\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -4179,6 +4179,21 @@
     },
     {
       "boton": {
+        "callback_data": "a:bfbd3ebb43",
+        "text": "⚙️ Mando de GameCube para Super … · $320.990"
+      },
+      "id": "bfbd3ebb43",
+      "juego": "Super Smash Bros",
+      "nivel": "regular",
+      "nombre": "Mando de GameCube para Super Smash Bros. Ed.",
+      "orden": 3,
+      "pct": 7.9,
+      "precio": 320990.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Mando de GameCube para Super Smash Bros. Ed.</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$320.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $27.537 frente al «antes» que marca la tienda ($348.527)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $320.990 (19 oct, Lider) · máximo $320.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/mando-de-gamecube-para-nintendo-switch-super-smash-bros-ed-/00004549643085\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:80eecfd636",
         "text": "⚙️ Mortal Kombat Legacy Colecció… · $125.990"
       },
@@ -4235,21 +4250,6 @@
       "pct": 7.9,
       "precio": 77990.0,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Xenoblade Chronicles 2: Torna ~ The Golden Country</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$77.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $6.693 frente al «antes» que marca la tienda ($84.683)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $77.990 (14 oct, Lider) · máximo $77.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$38.91 ≈ $38.197 en 🇨🇦 Canadá\n   ➜ El digital es $39.793 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-xenoblade-chronicles-2-torna-the-golden-country/00004549642281\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:bfbd3ebb43",
-        "text": "⚙️ Mando de GameCube para Super … · $320.990"
-      },
-      "id": "bfbd3ebb43",
-      "juego": "Super Smash Bros",
-      "nivel": "regular",
-      "nombre": "Mando de GameCube para Super Smash Bros. Ed.",
-      "orden": 3,
-      "pct": 7.9,
-      "precio": 320990.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Mando de GameCube para Super Smash Bros. Ed.</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$320.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $27.537 frente al «antes» que marca la tienda ($348.527)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $320.990 (19 oct, Lider) · máximo $320.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/mando-de-gamecube-para-nintendo-switch-super-smash-bros-ed-/00004549643085\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {

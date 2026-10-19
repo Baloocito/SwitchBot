@@ -50,18 +50,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:c044b8d6ab",
-        "text": "⚙️ The LEGO Movie 2 Videogame · $29.990"
-      },
-      "id": "c044b8d6ab",
-      "nivel": "normal",
-      "nombre": "The LEGO Movie 2 Videogame",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The LEGO Movie 2 Videogame</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (14 oct, 8 Bits) · máximo $29.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$33.72 ≈ $33.102 en 🇨🇱 Chile\n   ➜ El físico te ahorra $3.112 y además se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/the-lego-movie-2-videogame-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:b647a8ded1",
         "text": "⚙️ LEGO Worlds · $18.000"
       },
@@ -70,6 +58,18 @@
       "nombre": "LEGO Worlds",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>LEGO Worlds (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$18.000</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $18.000 (19 oct, TodoJuegos) · máximo $18.000\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$21.22 ≈ $20.831 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $2.831 y además se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/[USADO]-LEGO-Worlds/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:c044b8d6ab",
+        "text": "⚙️ The LEGO Movie 2 Videogame · $29.990"
+      },
+      "id": "c044b8d6ab",
+      "nivel": "normal",
+      "nombre": "The LEGO Movie 2 Videogame",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The LEGO Movie 2 Videogame</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (14 oct, 8 Bits) · máximo $29.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$33.72 ≈ $33.102 en 🇨🇱 Chile\n   ➜ El físico te ahorra $3.112 y además se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/the-lego-movie-2-videogame-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     }
   ],

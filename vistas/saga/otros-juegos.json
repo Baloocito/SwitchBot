@@ -67,19 +67,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:f6429dbe53",
-        "text": "⚙️ RUINER · US$2.03"
-      },
-      "con_fisico": false,
-      "id": "f6429dbe53",
-      "nivel": "compra",
-      "nombre": "RUINER",
-      "pct": 81.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −81%\n<b>RUINER</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.03</b> ≈ $1.993 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −81% en la eShop\n🏷️ Normal US$10.70 → ahorras US$8.67 · ⏳ termina el 20 oct (¡hoy!)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/ruiner-switch/\">US$2.03</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/ruiner-switch/\">US$2.18</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/ruiner-switch/\">US$2.36</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/ruiner-switch/\">US$2.47</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/ruiner-switch/\">US$2.71</a>\n   El más caro: 🇲🇽 US$3.15\n📈 Mínimo US$2.02 (16 oct en 🇨🇱 Chile)\n   █▁███  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/ruiner-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:36a322c74e",
         "text": "⚙️ Moonlighter · US$2.03"
       },
@@ -89,6 +76,19 @@
       "nombre": "Moonlighter",
       "pct": 81.0,
       "texto": "🟢 <b>COMPRA YA</b> · −81%\n<b>Moonlighter</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.03</b> ≈ $1.993 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −81% en la eShop\n🏷️ Normal US$10.70 → ahorras US$8.67 · ⏳ termina el 9 nov (en 21 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/moonlighter-switch/\">US$2.03</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/moonlighter-switch/\">US$2.18</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/moonlighter-switch/\">US$2.71</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/moonlighter-switch/\">US$3.25</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/moonlighter-switch/\">US$3.34</a>\n   El más caro: 🇲🇽 US$3.98\n📈 Mínimo US$2.03 (19 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/moonlighter-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:f6429dbe53",
+        "text": "⚙️ RUINER · US$2.03"
+      },
+      "con_fisico": false,
+      "id": "f6429dbe53",
+      "nivel": "compra",
+      "nombre": "RUINER",
+      "pct": 81.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −81%\n<b>RUINER</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.03</b> ≈ $1.993 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −81% en la eShop\n🏷️ Normal US$10.70 → ahorras US$8.67 · ⏳ termina el 20 oct (¡hoy!)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/ruiner-switch/\">US$2.03</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/ruiner-switch/\">US$2.18</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/ruiner-switch/\">US$2.36</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/ruiner-switch/\">US$2.47</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/ruiner-switch/\">US$2.71</a>\n   El más caro: 🇲🇽 US$3.15\n📈 Mínimo US$2.02 (16 oct en 🇨🇱 Chile)\n   █▁███  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/ruiner-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -568,7 +568,7 @@
       "nivel": "compra",
       "nombre": "Turnip Boy Robs a Bank",
       "pct": 50.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Turnip Boy Robs a Bank</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.37</b> ≈ $6.253 en 🇲🇽 México\n   Precio en la tienda: MX$117,50 MXN\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$12.73 → ahorras US$6.36 · ⏳ termina el 27 oct (en 8 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/turnip-boy-robs-a-bank-switch/\">US$6.41</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/turnip-boy-robs-a-bank-switch/\">US$6.72</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/turnip-boy-robs-a-bank-switch/\">US$7.28</a>\n   El más caro: 🇨🇴 US$8.66\n📦 Físico: $49.990 en Falabella → el digital te ahorra $43.737\n📈 Mínimo US$6.34 (16 oct en 🇨🇱 Chile)\n   ▆▁▆▆█  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">Ver en la eShop de México</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Turnip Boy Robs a Bank</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.37</b> ≈ $6.253 en 🇲🇽 México\n   Precio en la tienda: MX$117,50 MXN\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$12.73 → ahorras US$6.36 · ⏳ termina el 27 oct (en 8 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/turnip-boy-robs-a-bank-switch/\">US$6.41</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/turnip-boy-robs-a-bank-switch/\">US$6.72</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/turnip-boy-robs-a-bank-switch/\">US$7.28</a>\n   El más caro: 🇨🇴 US$8.66\n📦 Físico: $49.990 en Falabella → el digital te ahorra $43.737\n📈 Mínimo US$6.34 (16 oct en 🇨🇱 Chile)\n   ▆▁▆▆█  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">Ver en la eShop de México</a>",
       "tipo": "digital"
     },
     {
