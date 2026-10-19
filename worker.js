@@ -272,7 +272,7 @@ async function mlBuscarCatalogo(env, q) {
 
 // Vendedor seguro para recomendar en el canal: tienda oficial, o MercadoLíder Gold/Platinum
 // con reputación verde. Se revisan solo los nuevos más baratos (una consulta por vendedor).
-async function marcarSeguros(env, items, maxVendedores = 5) {
+async function marcarSeguros(env, items, maxVendedores = 12) {
   const cache = {};
   const nuevos = items.filter((x) => x.condicion !== "used").sort((a, b) => a.precio - b.precio);
   for (const x of nuevos) {
