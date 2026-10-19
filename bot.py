@@ -842,9 +842,7 @@ def catalogo_woocommerce(base, cache, paginas):
             vistos.add(x.get("permalink"))
             out.append({"titulo": html.unescape(x.get("name", "")), "url": x.get("permalink", ""),
                         "precio": precio / div if precio else None, "normal": normal / div if normal else None})
-        if len(data) < 100:
-            break
-        time.sleep(PAUSA)
+        time.sleep(PAUSA)               # algunas tiendas entregan menos de 100 por pagina: se sigue
     cache.setdefault("diag", []).append(f"catalogo woocommerce: {len(out)} productos")
     return out
 
@@ -1467,7 +1465,7 @@ def _leer_una_tienda(tienda, juegos, state):
 
 # consolas y hardware que aparecen en las busquedas generales ("Nintendo Switch OLED 64GB")
 HARDWARE_RE = re.compile(r"\b(oled|lite|\d+ ?gb|\d+ ?tb|reacondicionad[oa]s?|joy ?cons?|pro controller|"
-                         r"mando|base de carga|bateria|pantalla|carcasa|mantencion|reparacion)\b")
+                         r"mando|base de carga|bateria|pantalla|carcasa|mantencion|reparacion|analog caps|grips?|thumb)\b")
 
 
 def es_juego_switch(titulo):
@@ -3155,8 +3153,9 @@ def diagnostico(cfg):
             res = ml_buscar("zelda tears of the kingdom nintendo switch")
             ok = [x for x in res.get("items") or [] if ml_calza(x["titulo"], "The Legend of Zelda: Tears of the Kingdom", "Switch")]
             log(f"  prueba Zelda TOTK: {len(res.get('items') or [])} avisos, {len(ok)} calzan")
-            for x in ok[:4]:
-                log(f"    · {x['titulo']} | {clp(x['precio'])} | {x['condicion']}")
+            for x in (res.get("items") or [])[:8]:
+                marca = "✓" if x in ok else "✗"
+                log(f"    {marca} {x['titulo']} | {clp(x['precio'])} | {x['condicion']}")
         except (requests.RequestException, ValueError) as e:
             log(f"\nMercadoLibre: ERROR {e}")
     log("\nRelay por el Worker: " + ("activo" if os.environ.get("WORKER_URL") and os.environ.get("PROXY_KEY")
