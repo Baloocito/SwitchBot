@@ -15,7 +15,7 @@
 
 const GH = "https://api.github.com";
 const WORKFLOW = "alertas.yml";
-const VERSION = "2026-10-19 despliegue automático";
+const VERSION = "2026-10-19b";
 const TG_MAX = 3900;
 
 const SEP = "━━━━━━━━━━━━━━";
@@ -520,7 +520,10 @@ async function cmdEstado(env) {
   const { data: ev } = await leer(env, "vistas/estado.json");
   const l = ["🩺 <b>BOT</b>"];
   if (ev) {
-    l.push(...(ev.salud || []).map(esc));
+    // "hace X h" se calcula ahora (el texto guardado por el bot queda congelado)
+    const horasRev = ev.ultima_revision ? (Date.now() - Date.parse(ev.ultima_revision)) / 3600000 : null;
+    l.push(...(ev.salud || []).map((x) => esc(String(x).startsWith("🔄 Última revisión") && horasRev !== null
+      ? `🔄 Última revisión: hace ${Math.round(horasRev)} h${horasRev > 9 ? " ⚠️ (atrasada)" : ""}` : x)));
     l.push(`📊 Hoy: ${ev.revisiones_hoy || 0} revisión(es) · ${ev.alertas_hoy || 0} alerta(s) al momento`);
     if (ev.evento) l.push(`🚨 Modo evento: ${esc(ev.evento)}`);
     else if (ev.proximo) l.push(`📅 Próximo evento: ${esc(ev.proximo)}`);
