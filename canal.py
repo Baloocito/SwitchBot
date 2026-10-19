@@ -1149,6 +1149,7 @@ Las mejores ofertas de Nintendo Switch 1 y 2 en Chile, filtradas y en pesos. Sin
 13:30 🍔 Pack temático (lun–sáb)
 18:30 📦 Físicos en tiendas chilenas
 21:00 ⏳ Última llamada
+Mié 20:00 💾 Memorias microSD: la más barata de cada tamaño
 Jue 12:00 📅 Lo que viene: lanzamientos y preventas
 Dom 12:00 🏆 Top de la semana
 💣 Bombazos cuando aparecen (nunca de noche)
