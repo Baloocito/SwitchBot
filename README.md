@@ -16,7 +16,8 @@ y te manda por Telegram un resumen agrupado por juego con las ofertas nuevas.
 ## Comandos de Telegram
 
 `/precios`, `/ofertas`, `/agregar`, `/objetivo`, `/config` y más. Se instalan aparte en Cloudflare
-(gratis): ver `COMANDOS.md`. El archivo `worker.js` no hace falta subirlo al repo, se pega en Cloudflare.
+(gratis): ver `COMANDOS.md`. El Worker está en la carpeta `worker/` y Cloudflare lo despliega solo
+(ver "Despliegue automático del Worker").
 
 ## Cómo decide si algo es oferta
 
@@ -129,7 +130,7 @@ descuentos inflados de 85 % o más) no entra. Todo se ajusta en `canal.json` sin
 - **Revisión previa** (`revision_previa`): cada post llega primero a tu chat con botones
   *Publicar ya*, *Saltar* y *Quitar juegos*. Si no haces nada, sale solo pasados
   `revision_minutos` (en la siguiente pasada, cada 30 min). Al publicar se vuelve a revisar
-  que cada oferta siga vigente. Los botones los maneja el Worker (`worker.js`).
+  que cada oferta siga vigente. Los botones los maneja el Worker (`worker/worker.js`).
 - **Alarma de errores:** si la última revisión de precios tiene más de `datos_viejos_horas`,
   el canal se pausa y te avisa. Las tiendas que no responden y los precios sospechosos
   (descuento de 80 %+ en físico o 95 %+ en digital, bloque `sospechoso`) te llegan a tu chat
@@ -197,6 +198,18 @@ canal y cada hora la revisión de precios (modo `programado`). El cron de GitHub
 1. Cloudflare → tu Worker → Settings → Triggers → **Cron Triggers** → Add: `5,35 * * * *`.
 2. El `GITHUB_TOKEN` del Worker necesita permiso **Actions: Read and write** (además de Contents).
    Si GitHub rechaza la orden, el bot te avisa por Telegram.
+
+## Despliegue automático del Worker
+
+El código del Worker vive en `worker/` (`worker.js` + `wrangler.toml`). Cloudflare lo despliega
+solo cada vez que cambia algo en esa carpeta; los commits del bot (precios, estado) no lo tocan.
+
+Configuración (una vez): Cloudflare → Workers → switchbot → Settings → Builds → Connect →
+repo `Baloocito/SwitchBot`, rama `main`, **Root directory** `worker`, **Build watch paths**
+incluir `worker/*`. Deploy command: `npx wrangler deploy` (el que viene por defecto).
+
+`wrangler.toml` define el KV `ML` y el reloj (`5,35 * * * *`). Las variables y secretos siguen
+en el panel (`keep_vars = true`), y un despliegue nunca borra secretos.
 
 ## Diagnóstico
 

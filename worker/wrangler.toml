@@ -1,0 +1,18 @@
+# Worker de SwitchBot (comandos de Telegram, botones, relay de tiendas, MercadoLibre y reloj).
+# Cloudflare lo despliega solo cuando cambia algo en esta carpeta (Settings → Builds,
+# directorio raíz "worker", watch path "worker/*").
+name = "switchbot"
+main = "worker.js"
+compatibility_date = "2025-06-01"
+workers_dev = true
+
+# Las variables (CHAT_ID, GITHUB_REPO…) siguen en el panel de Cloudflare; los secretos
+# nunca los borra un despliegue.
+keep_vars = true
+
+[[kv_namespaces]]
+binding = "ML"
+id = "3c689635ae674fa290ef1ada8edc3028"
+
+[triggers]
+crons = ["5,35 * * * *"]
