@@ -791,6 +791,8 @@ def recorrer_catalogo(tienda, cache, paginas=None):
     conf = tienda.get("catalogo", True)
     if conf is False:
         return []
+    if cache.get("metodo") == "woocommerce":
+        return catalogo_woocommerce(tienda["url"].rstrip("/"), cache, paginas or 10)
     plantillas = conf.get("urls") if isinstance(conf, dict) else None
     if not plantillas:
         plantillas = next((v for k, v in CATALOGO_CONOCIDO.items() if k in tienda["url"]), [])
@@ -816,6 +818,34 @@ def recorrer_catalogo(tienda, cache, paginas=None):
                 break                   # la pagina 1 puede repetir otra busqueda: se mira la 2 igual
             time.sleep(PAUSA)
     cache.setdefault("diag", []).append(f"catalogo: {len(out)} productos")
+    return out
+
+
+def catalogo_woocommerce(base, cache, paginas):
+    """WooCommerce: todos los productos que dicen 'switch', de a 100 por pagina."""
+    out, vistos = [], set()
+    for p in range(1, paginas + 1):
+        try:
+            r = get(f"{base}/wp-json/wc/store/v1/products",
+                    params={"search": "switch", "per_page": 100, "page": p})
+            data = r.json() if r.status_code == 200 else []
+        except (requests.RequestException, ValueError):
+            break
+        if not isinstance(data, list) or not data:
+            break
+        for x in data:
+            if not isinstance(x, dict) or x.get("is_in_stock") is False or x.get("permalink") in vistos:
+                continue
+            pr = x.get("prices") or {}
+            div = 10 ** int(pr.get("currency_minor_unit") or 0)
+            precio, normal = parse_precio(pr.get("price")), parse_precio(pr.get("regular_price"))
+            vistos.add(x.get("permalink"))
+            out.append({"titulo": html.unescape(x.get("name", "")), "url": x.get("permalink", ""),
+                        "precio": precio / div if precio else None, "normal": normal / div if normal else None})
+        if len(data) < 100:
+            break
+        time.sleep(PAUSA)
+    cache.setdefault("diag", []).append(f"catalogo woocommerce: {len(out)} productos")
     return out
 
 
@@ -1435,9 +1465,14 @@ def _leer_una_tienda(tienda, juegos, state):
     return respondio, hallados, cache
 
 
+# consolas y hardware que aparecen en las busquedas generales ("Nintendo Switch OLED 64GB")
+HARDWARE_RE = re.compile(r"\b(oled|lite|\d+ ?gb|\d+ ?tb|reacondicionad[oa]s?|joy ?cons?|pro controller|"
+                         r"mando|base de carga|bateria|pantalla|carcasa|mantencion|reparacion)\b")
+
+
 def es_juego_switch(titulo):
     w = palabras(titulo)
-    return bool(w & PLATAFORMA) and not (w & EXCLUIR_SIEMPRE)
+    return bool(w & PLATAFORMA) and not (w & EXCLUIR_SIEMPRE) and not HARDWARE_RE.search(norm(titulo))
 
 
 def _leer_seguro(tienda, juegos, state):
