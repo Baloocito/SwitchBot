@@ -41,7 +41,8 @@ CANAL_FILE = BASE / "canal.json"
 ESTADO_FILE = BASE / "canal_estado.json"
 DECISIONES_FILE = BASE / "canal_decisiones.json"   # lo escribe el Worker con los botones de revision
 NOMBRE_SLOT = {"top": "Top 5 del día", "pack": "Pack del día", "fisicos": "Físicos en Chile",
-               "ultima": "Última llamada", "semanal": "Top de la semana", "bombazo": "Bombazo"}
+               "ultima": "Última llamada", "semanal": "Top de la semana", "bombazo": "Bombazo",
+               "proximos": "Lo que viene"}
 OTROS = "otros juegos"
 DIAS = ["lun", "mar", "mie", "jue", "vie", "sab", "dom"]
 VENTANA_MIN = 90            # minutos despues de la hora del slot en que todavia se publica
@@ -197,6 +198,8 @@ def candidatos(cfg, state, incluir_excluidos=False):
             "id": e.get("id") or "d" + nsuid, "tipo": "digital", "nombre": e["titulo"],
             "saga": saga_de(e.get("juego")), "plataforma": e.get("plataforma"),
             "editora": e.get("editora"), "url": url_pais(e.get("url"), "CL"),
+            "popularidad": e.get("popularidad"), "generos": e.get("generos") or [],
+            "lanzamiento": e.get("lanzamiento"),
             "precio": precio, "normal": normal, "pct": pct, "normal_usd": normal_usd,
             "fin": e.get("fin"), "ext": ext, "ahorro": normal - precio, "fisico": fisicos.get(nsuid),
             "minimo": (e.get("dias") or 0) >= MIN_DIAS and e.get("min_hist") is not None
@@ -225,6 +228,7 @@ def candidatos(cfg, state, incluir_excluidos=False):
             "id": s.get("id") or "f" + clave, "tipo": "fisico", "nombre": s["nombre"],
             "saga": saga_de(s.get("juego")), "plataforma": s.get("plataforma"),
             "editora": e.get("editora"), "url": s.get("url"), "tienda": s.get("tienda"),
+            "popularidad": e.get("popularidad"), "generos": e.get("generos") or [],
             "precio": s["precio"], "normal": s.get("ref"), "pct": pct, "avisos": avisos,
             "ahorro": (s.get("ref") or s["precio"]) - s["precio"],
             "normal_usd": None, "fin": None, "ext": None,
@@ -237,7 +241,12 @@ def candidatos(cfg, state, incluir_excluidos=False):
     return out if incluir_excluidos else [o for o in out if not o.get("excluido")]
 
 
-def basura_por_nombre(cfg, titulo, editora=None, normal_usd=None):
+def es_popular(cfg, popularidad):
+    top = cfg["puntaje"].get("popular_top", 500)
+    return isinstance(popularidad, (int, float)) and 0 < popularidad <= top
+
+
+def basura_por_nombre(cfg, titulo, editora=None, normal_usd=None, popularidad=None):
     """Relleno reconocible solo por nombre, editora y precio (sin saber si esta en oferta).
     Lo usa bot.py para no guardar juegos descubiertos que nunca valdria la pena avisar.
     Una joya o una editora A/B nunca es basura. Devuelve el motivo o None."""
@@ -246,6 +255,8 @@ def basura_por_nombre(cfg, titulo, editora=None, normal_usd=None):
     edit = norm(editora or "")
     if es_joya(t, cfg["joyas"]) or (edit and any(contiene(edit, x) for x in ed["a"] + ed["b"])):
         return None
+    if es_popular(cfg, popularidad):
+        return None                     # lo juega mucha gente: nunca es basura
     if edit and any(contiene(edit, x) for x in ed.get("basura") or []):
         return "editora basura"
     if calza_lista(t, b["titulo_excluir"]):
@@ -283,6 +294,8 @@ def puntuar(cfg, o):
             senales.append(("editora_a", p["editora_a"]))
         elif any(contiene(edit, x) for x in ed["b"]):
             senales.append(("editora_b", p["editora_b"]))
+    if es_popular(cfg, o.get("popularidad")):
+        senales.append(("popular", p.get("popular", 20)))
     o["senales"] = [s for s, _ in senales]
     rel = max((v for _, v in senales), default=0) + p["senal_extra"] * max(0, len(senales) - 1)
 
@@ -593,6 +606,9 @@ def filtro_pack(cfg, o, filtro):
         return "editora_a" in o.get("senales", []) or "saga_estrella" in o.get("senales", [])
     if filtro == "rebajados":
         return o["pct"] >= 60 and o["score"] >= a["umbral_destacado"] - 10
+    if filtro.startswith("genero:"):
+        buscados = [norm(x) for x in filtro[7:].split("|")]
+        return any(any(b in norm(g) for b in buscados) for g in o.get("generos") or [])
     if filtro == "nintendo":
         nin = {norm(x) for x in cfg["sagas_nintendo"]}
         return (o["saga"] and norm(o["saga"]) in nin) or contiene(norm(o.get("editora") or ""), "nintendo")
@@ -672,7 +688,68 @@ def slot_semanal(cfg, est, cands, t):
     return post, []
 
 
-SLOTS = {"top": slot_top, "pack": slot_pack, "fisicos": slot_fisicos,
+def relevante(cfg, nombre, saga=None, editora=None, popularidad=None):
+    """Vale la pena mostrarlo aunque no este en oferta (lanzamientos)."""
+    t = norm(nombre)
+    edit = norm(editora or "")
+    return bool((saga and saga_valida(saga, t)) or es_joya(t, cfg["joyas"]) or es_popular(cfg, popularidad)
+                or (edit and any(contiene(edit, x) for x in cfg["editoras"]["a"])))
+
+
+def proximos(cfg, state, t, dias=60):
+    """Lanzamientos de la eShop en los proximos dias + preventas fisicas, juntados por juego."""
+    hoy = t.strftime("%Y-%m-%d")
+    hasta = (t + timedelta(days=dias)).strftime("%Y-%m-%d")
+    corte = (t - timedelta(days=2)).strftime("%Y-%m-%d")
+    rate = ((state.get("fx") or {}).get("rates") or {}).get("CLP")
+    fis = {}
+    for s_ in (state.get("productos") or {}).values():
+        if not s_.get("preventa") or (s_.get("visto") or "")[:10] < corte or s_.get("externo"):
+            continue
+        k = s_.get("nsuid") or "f:" + norm(s_["nombre"])
+        if k not in fis or s_["precio"] < fis[k]["precio"]:
+            fis[k] = s_
+    out = {}
+    for nsuid, e in (state.get("eshop") or {}).items():
+        lz = (e.get("lanzamiento") or "")[:10]
+        if not (hoy < lz <= hasta) or not relevante(cfg, e["titulo"], saga_de(e.get("juego")),
+                                                    e.get("editora"), e.get("popularidad")):
+            continue
+        regs = e.get("regiones") or {}
+        out[nsuid] = {"nombre": e["titulo"], "fecha": lz, "plataforma": e.get("plataforma"),
+                      "url": url_pais(e.get("url"), "CL"),
+                      "digital": redondear_clp(regs["CL"] * rate) if "CL" in regs and rate else None,
+                      "fisico": fis.pop(nsuid, None)}
+    for k, s_ in fis.items():            # preventas fisicas sin ficha digital conocida
+        if norm(re.sub(r"^\W+", "", s_.get("juego") or "")) == OTROS and not s_.get("variante"):
+            continue
+        out[k] = {"nombre": s_["nombre"], "fecha": None, "plataforma": s_.get("plataforma"),
+                  "url": s_["url"], "digital": None, "fisico": s_}
+    return sorted(out.values(), key=lambda x: (x["fecha"] or "9999", x["nombre"]))
+
+
+def slot_proximos(cfg, est, cands, t):
+    items = proximos(cfg, load_json(STATE_FILE, {}), t)[:8]
+    if not items:
+        return None, []
+    l = ["📅 <b>LO QUE VIENE</b>", "<i>Lanzamientos y preventas de las próximas semanas</i>"]
+    for x in items:
+        cuando = f"🗓️ {fecha_corta(x['fecha'])}" if x["fecha"] else "🗓️ fecha por confirmar"
+        l += ["", f"{cuando} · <a href=\"{esc_attr(x['url'])}\"><b>{esc(corto(x['nombre'], 44))}</b></a>"
+              + (" (S2)" if x.get("plataforma") == "Switch 2" else "")]
+        precios = []
+        if x["digital"]:
+            precios.append(f"🎮 eShop {clp(x['digital'])}")
+        f = x["fisico"]
+        if f:
+            precios.append(f"📦 preventa <a href=\"{esc_attr(f['url'])}\">{esc(f['tienda'])}</a> {clp(f['precio'])}")
+        if precios:
+            l.append("   " + " · ".join(precios))
+    l += ["", LINEA, "💡 Reservar en físico asegura la copia; las ediciones especiales se agotan rápido"]
+    return {"texto": "\n".join(l), "botones": pie(cfg)}, []
+
+
+SLOTS = {"top": slot_top, "pack": slot_pack, "fisicos": slot_fisicos, "proximos": slot_proximos,
          "ultima": slot_ultima, "semanal": slot_semanal}
 
 
@@ -924,6 +1001,7 @@ Las mejores ofertas de Nintendo Switch 1 y 2 en Chile, filtradas y en pesos. Sin
 13:30 🍔 Pack temático (lun–sáb)
 18:30 📦 Físicos en tiendas chilenas
 21:00 ⏳ Última llamada
+Jue 12:00 📅 Lo que viene: lanzamientos y preventas
 Dom 12:00 🏆 Top de la semana
 💣 Bombazos cuando aparecen (nunca de noche)
 
@@ -1038,7 +1116,7 @@ def modo_vista(cfg, est, cands, t):
         log("(ninguno hoy)")
     sim = {"publicados": dict(est["publicados"]), "ultima_llamada": dict(est["ultima_llamada"]),
            "dias": {}, "posts": []}
-    for slot in ("top", "pack", "fisicos", "ultima", "semanal"):
+    for slot in ("top", "pack", "fisicos", "ultima", "semanal", "proximos"):
         log(f"\n=== {slot.upper()} ===")
         post, items = SLOTS[slot](cfg, sim, cands, t)
         if not post:

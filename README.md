@@ -140,6 +140,17 @@ descuentos inflados de 85 % o más) no entra. Todo se ajusta en `canal.json` sin
 `python canal.py --sugerir` lista editoras que solo publican relleno, para agregarlas a
 `editoras.basura` en `canal.json` (necesita que el bot ya haya guardado las editoras).
 
+## Catálogo completo y lanzamientos
+
+- **Catálogo completo:** además de buscar tus juegos, el bot recorre las búsquedas generales
+  de juegos de Switch en Falabella, Lider y Paris, página por página (`CATALOGO_CONOCIDO` en
+  `bot.py`; `"catalogo": false` en una tienda lo apaga). Las tiendas Shopify ya se leían completas.
+- **Datos de Nintendo:** se guardan popularidad, tendencia, géneros y franquicias de cada juego.
+  Un juego entre los 500 más populares suma puntos en el canal y nunca se descarta como basura.
+- **Preventas:** los físicos marcados "preventa" en las tiendas te avisan una vez (de tu lista o
+  ediciones especiales). El canal publica los jueves "📅 Lo que viene" con lanzamientos de la
+  eShop y preventas de las próximas semanas.
+
 ## Tiendas que bloquean a GitHub (relay por el Worker)
 
 Algunas tiendas (Paris, Weplay…) rechazan las visitas desde los servidores de GitHub. Si una

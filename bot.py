@@ -241,7 +241,10 @@ def coincide(titulo, juego, exigir_plataforma):
 META_ALGOLIA = {
     "editora": ("softwarePublisher", "publisher", "publishers"),
     "desarrollador": ("softwareDeveloper", "developer", "developers"),
-    "generos": ("genres", "genre"),
+    "generos": ("gameGenreLabels", "gameGenres", "genres"),
+    "franquicias": ("franchises",),
+    "popularidad": ("popularityRank",),
+    "tendencia": ("trendingRank",),
     "lanzamiento": ("releaseDate", "releaseDateDisplay"),
 }
 
@@ -769,6 +772,53 @@ BUSQUEDA_CONOCIDA = {
 }
 
 
+# catalogo completo de juegos de Switch en tiendas que no son Shopify: busquedas genericas
+# paginadas. {p} = numero de pagina, {s} = desplazamiento ((p-1) * tamano). Se detiene cuando
+# una pagina ya no trae productos nuevos (asi un parametro de pagina equivocado cuesta 2 consultas).
+CATALOGO_CONOCIDO = {
+    "falabella.com": ["https://www.falabella.com/falabella-cl/search?Ntt=juegos+nintendo+switch&page={p}",
+                      "https://www.falabella.com/falabella-cl/search?Ntt=juego+nintendo+switch+2&page={p}"],
+    "lider.cl": ["https://www.lider.cl/search?q=juegos+nintendo+switch&page={p}",
+                 "https://www.lider.cl/search?q=juego+switch+2&page={p}"],
+    "paris.cl": ["https://www.paris.cl/search/?q=juegos+nintendo+switch&page={p}",
+                 "https://www.paris.cl/search/?q=juegos+nintendo+switch&start={s}&sz=24"],
+}
+CATALOGO_PAGINAS = 15
+
+
+def recorrer_catalogo(tienda, cache, paginas=None):
+    """Todos los juegos de Switch de la tienda, pagina por pagina. Devuelve [producto]."""
+    conf = tienda.get("catalogo", True)
+    if conf is False:
+        return []
+    plantillas = conf.get("urls") if isinstance(conf, dict) else None
+    if not plantillas:
+        plantillas = next((v for k, v in CATALOGO_CONOCIDO.items() if k in tienda["url"]), [])
+    paginas = paginas or (conf.get("paginas") if isinstance(conf, dict) else None) or CATALOGO_PAGINAS
+    vistos, out = set(), []
+    for t in plantillas:
+        for p in range(1, paginas + 1):
+            url = t.format(p=p, s=(p - 1) * 24)
+            try:
+                r = get(url)
+            except requests.RequestException as e:
+                cache.setdefault("diag", []).append(f"catalogo {url}: {type(e).__name__}")
+                break
+            if r.status_code != 200:
+                cache.setdefault("diag", []).append(f"catalogo {url} -> HTTP {r.status_code}")
+                break
+            prods = parse_magento(r.text, r.url) or parse_rsc(r.text, r.url) or parse_embebido(r.text, r.url) or []
+            nuevos = [x for x in prods if x.get("url") and x["url"] not in vistos]
+            for x in nuevos:
+                vistos.add(x["url"])
+            out += nuevos
+            if not prods or (not nuevos and p > 1):
+                break                   # la pagina 1 puede repetir otra busqueda: se mira la 2 igual
+            time.sleep(PAUSA)
+    cache.setdefault("diag", []).append(f"catalogo: {len(out)} productos")
+    return out
+
+
 def buscar_en_tienda(tienda, termino, state, cache):
     if not tienda.get("busqueda"):
         for dom, plantilla in BUSQUEDA_CONOCIDA.items():
@@ -966,8 +1016,9 @@ def candidatos_eshop(state):
     return por_juego
 
 
+PREVENTA_RE = re.compile(r"\bpre ?ventas?\b|\bpre ?orden(es)?\b|\bpre ?order\b|\breserva\b")
 LIMPIAR_RE = re.compile(
-    r"\b(video)?juegos?\b|\bnintendo\s+switch\s*2\b|\bnintendo\s+switch\b|\bswitch\s*2\b|"
+    r"\bpre-?ventas?\b|\bpre-?orden\b|\bpre-?order\b|\b(video)?juegos?\b|\bnintendo\s+switch\s*2\b|\bnintendo\s+switch\b|\bswitch\s*2\b|"
     r"\bswitch\b|\bnsw2?\b|\bns2\b|\bsw2\b|\(\s*\)|\bf[ií]sico\b|\bphysical( game card)?\b|"
     r"\bpara\b(?=\s*$)|\bfor\b(?=\s*$)", re.I)
 
@@ -1189,7 +1240,7 @@ def cfg_canal():
 def es_basura_descubierta(ccfg, h, normal_usd):
     try:
         import canal
-        return canal.basura_por_nombre(ccfg, h["titulo"], h.get("editora"), normal_usd)
+        return canal.basura_por_nombre(ccfg, h["titulo"], h.get("editora"), normal_usd, h.get("popularidad"))
     except Exception as e:  # noqa: BLE001 - ante la duda, se guarda
         log(f"  filtro de basura: error {type(e).__name__}: {e}")
         return None
@@ -1358,9 +1409,12 @@ def _leer_una_tienda(tienda, juegos, state):
                      and coincide(p["titulo"], jj, True)),
                     key=lambda jj: max(len(palabras(t)) for t in terminos(jj)), default=j)
         hallados[url] = (mejor, p)
-    # tiendas Shopify: ya se bajo el catalogo completo, se aprovechan todos los juegos de Switch
+    # tiendas Shopify: ya se bajo el catalogo completo, se aprovechan todos los juegos de Switch.
+    # Las demas (Falabella, Lider, Paris): se recorre su catalogo de juegos de Switch.
+    if state.get("_descubrir", True) and respondio and cache.get("metodo") != "shopify":
+        cache["catalogo"] = recorrer_catalogo(tienda, cache)
     if state.get("_descubrir", True):
-        for p in cache.get("shopify") or []:
+        for p in (cache.get("shopify") or []) + (cache.get("catalogo") or []):
             if p["url"] not in hallados and precio_valido(p.get("precio")) and es_juego_switch(p["titulo"]):
                 hallados[p["url"]] = (JUEGO_OTROS, p)
     # memorias microSD (van aparte de los juegos: tienen su propio filtro)
@@ -1529,6 +1583,7 @@ def revisar_productos(cfg, state, hist, listados, alertas):
             "nsuid": g["nsuid"], "ultimo": precio, "visto": ahora_iso(),
         })
 
+        s["preventa"] = any(PREVENTA_RE.search(norm(a.get("titulo") or "")) for a in avisos)
         id_ = id_de("f", clave)
         obj_seg, seguido, silenciado = seguimiento(id_)
         objetivo = obj_seg if obj_seg is not None else juego.get("objetivo_clp")
@@ -1551,8 +1606,12 @@ def revisar_productos(cfg, state, hist, listados, alertas):
             s.pop("avisado_escasez", None)
 
         silencio = anterior is None and (not juego.get("auto") or not state.get("descubrimiento_listo"))
+        # preventa de algo de tu lista o de una edicion especial: se avisa una vez (aunque sea nuevo)
+        if s["preventa"] and not s.get("avisado_preventa") and (not juego.get("auto") or g["variante"]):
+            motivos.append("preventa")
+            s["avisado_preventa"] = hoy
         avisar = decidir(s, precio, motivos, nuevo=silencio)
-        if "escasez" in motivos and not silencio:
+        if ("escasez" in motivos and not silencio) or "preventa" in motivos:
             avisar = True                   # se avisa una vez aunque el precio no haya bajado
         if avisar and not silenciado:
             agregar_alerta(alertas, "fisico", juego["nombre"],
@@ -1861,7 +1920,7 @@ def filtrar_alertas(alertas, state, cfg):
                                 and precio <= s["objetivo"]):
             out.append(a)
             continue
-        if a["tipo"] == "fisico" and a.get("extra") == "📦 se está agotando":
+        if a["tipo"] == "fisico" and a.get("extra") in ("📦 se está agotando", "📅 preventa abierta"):
             out.append(a)               # dato de negocio: siempre
             continue
         if a["tipo"] == "digital" and cfg.get("ajustes", {}).get("alertas_digitales", "seguidos") != "todas":
@@ -1898,6 +1957,8 @@ def extra_motivos(motivos, anterior=None, precio=None, dinero=None):
         return f"📉 bajó desde {dinero(anterior)}"
     if "escasez" in motivos:
         return "📦 se está agotando"
+    if "preventa" in motivos:
+        return "📅 preventa abierta"
     return None
 
 
@@ -2552,7 +2613,7 @@ def lineas_evento(clave, s, hist):
 # ---------------------------------------------------------------- clasificar
 
 def es_urgente(it):
-    if it["tipo"] == "memoria":
+    if it["tipo"] == "memoria" or it.get("extra") in ("📦 se está agotando", "📅 preventa abierta"):
         return True                     # no se guardan para el resumen: van al momento
     return it["nivel"] in ("objetivo", "compra") or any(
         x in (it.get("extra") or "") for x in ("⭐", "🏆"))
@@ -2935,6 +2996,12 @@ def diagnostico(cfg):
             log("  => NO FUNCIONA")
             continue
         ok = [p for p in prods if precio_valido(p.get("precio")) and coincide(p["titulo"], juego, True)]
+        if cache.get("metodo") != "shopify" and tienda.get("activa") is not False:
+            cat = recorrer_catalogo(tienda, cache, paginas=3)
+            juegos_cat = [p for p in cat if precio_valido(p.get("precio")) and es_juego_switch(p["titulo"])]
+            log(f"  catálogo (3 páginas de prueba): {len(cat)} productos, {len(juegos_cat)} juegos de Switch")
+            for p in juegos_cat[:3]:
+                log(f"    · {p['titulo']} | {clp(p['precio'])}")
         log(f"  => metodo {cache.get('metodo')}: {len(prods)} productos leidos, {len(ok)} calzan"
             + (" · vía Worker" if dominio(tienda["url"]) in RELAY_USADO | VIA_WORKER else ""))
         for p in ok[:6]:

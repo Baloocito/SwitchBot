@@ -61,6 +61,12 @@
       "hora": "12:00",
       "dias": "dom",
       "sonido": true
+    },
+    {
+      "slot": "proximos",
+      "hora": "12:00",
+      "dias": "jue",
+      "sonido": false
     }
   ],
   "packs": {
@@ -77,8 +83,8 @@
       "filtro": "joya"
     },
     "jue": {
-      "titulo": "Las grandes editoras",
-      "filtro": "editora_a"
+      "titulo": "Para jugar con amigos",
+      "filtro": "genero:party|sports|racing|fighting"
     },
     "vie": {
       "titulo": "Para el finde: los más rebajados",
@@ -105,7 +111,10 @@
     "minimo_historico": 20,
     "termina_pronto": 5,
     "titulo_sospechoso": -30,
-    "barato_sin_relevancia": -15
+    "barato_sin_relevancia": -15,
+    "popular": 20,
+    "popular_top": 500,
+    "_ayuda_popular": "popular: puntos si el juego está entre los popular_top más populares de la eShop (popularityRank de Nintendo). Un juego popular nunca se descarta como basura."
   },
   "sagas_estrella": [
     "Metroid",
