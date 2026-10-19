@@ -2,7 +2,44 @@
   "alarmas": {
     "tiendas": "2026-10-18|['Paris (21)']"
   },
-  "cola": {},
+  "cola": {
+    "057b5ce8": {
+      "admin_msg": 12802,
+      "creado": "2026-10-18T21:07:43.508541-03:00",
+      "grupo": "ultima_llamada",
+      "ids": [
+        "0ba98ab82e",
+        "f0b1b3de1e"
+      ],
+      "nombres": [
+        "Kingdom Two Crowns",
+        "Reigns: Kings & Queens"
+      ],
+      "post": {
+        "botones": [
+          [
+            {
+              "copy_text": {
+                "text": "🎮 Ofertas de Nintendo Switch en Chile, filtradas y en pesos. Únete gratis: https://t.me/+JY1TTorcYE02NWUx"
+              },
+              "text": "📋 Copiar link del canal"
+            },
+            {
+              "text": "📲 WhatsApp",
+              "url": "https://wa.me/?text=%F0%9F%8E%AE%20Ofertas%20de%20Nintendo%20Switch%20en%20Chile%2C%20filtradas%20y%20en%20pesos.%20%C3%9Anete%20gratis%3A%20https%3A//t.me/%2BJY1TTorcYE02NWUx"
+            }
+          ]
+        ],
+        "cierre": "⚠️ Después de esto vuelven a su precio normal",
+        "preview": "https://www.nintendo.com/es-cl/store/products/kingdom-two-crowns-switch/",
+        "texto": "⏳ <b>ÚLTIMA LLAMADA</b> · se acaban pronto\n<i>dom 18 oct · precios eShop Chile 🇨🇱</i>\n\n🥇 <a href=\"https://www.nintendo.com/es-cl/store/products/kingdom-two-crowns-switch/\"><b>Kingdom Two Crowns</b></a>\n💰 <b>$3.750</b> <s>$15.000</s> · −75%\n⏳ Termina en 7 h\n\n🥈 <a href=\"https://www.nintendo.com/es-cl/store/products/reigns-kings-and-queens-switch/\"><b>Reigns: Kings &amp; Queens</b></a>\n💰 <b>$1.990</b> <s>$4.700</s> · −58%\n⏳ Termina mañana\n\n━━━━━━━━━━━━━━\n⚠️ Después de esto vuelven a su precio normal",
+        "titulo": "⏳ <b>ÚLTIMA LLAMADA</b> · se acaban pronto"
+      },
+      "sale": "2026-10-18T21:17:43.508541-03:00",
+      "slot": "ultima",
+      "sonido": false
+    }
+  },
   "dias": {
     "2026-10-17": {
       "bombazos": 0,
@@ -18,7 +55,8 @@
       "bombazos": 0,
       "posts": 1,
       "slots": [
-        "fisicos"
+        "fisicos",
+        "ultima"
       ]
     }
   },
