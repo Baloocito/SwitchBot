@@ -52,6 +52,23 @@ jobs:
           if-no-files-found: ignore
           retention-days: 7
 
+      # Copia las mismas páginas a la rama "diagnostico" (se reemplaza en cada corrida),
+      # para poder estudiarlas sin descargar el zip a mano.
+      - name: Publicar páginas en la rama diagnostico
+        if: ${{ inputs.modo == 'diagnostico' }}
+        continue-on-error: true
+        run: |
+          [ -d diagnostico ] || exit 0
+          cp -r diagnostico /tmp/diag
+          git config user.name "bot-ofertas"
+          git config user.email "bot-ofertas@users.noreply.github.com"
+          git checkout --orphan diag-tmp
+          git rm -rfq . >/dev/null
+          cp -r /tmp/diag/. .
+          git add -A
+          git commit -qm "Paginas del diagnostico"
+          git push -f origin HEAD:diagnostico
+
       - name: Revisar precios
         if: ${{ inputs.modo != 'diagnostico' }}
         env:
