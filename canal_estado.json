@@ -24,8 +24,8 @@
       ]
     },
     "2026-10-19": {
-      "bombazos": 0,
-      "posts": 1,
+      "bombazos": 1,
+      "posts": 2,
       "slots": [
         "pack"
       ]
@@ -98,6 +98,14 @@
       ],
       "message_id": 13,
       "slot": "pack"
+    },
+    {
+      "fecha": "2026-10-19T15:05-03:00",
+      "ids": [
+        "271f0b0679"
+      ],
+      "message_id": 14,
+      "slot": "bombazo"
     }
   ],
   "publicados": {
@@ -120,6 +128,11 @@
       "fecha": "2026-10-17",
       "precio": 2020,
       "slot": "top"
+    },
+    "271f0b0679": {
+      "fecha": "2026-10-19",
+      "precio": 64900.0,
+      "slot": "bombazo"
     },
     "2ffd568068": {
       "fecha": "2026-10-17",
@@ -230,5 +243,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-10-19T13:35:34.100019-03:00"
+  "ultimo_post": "2026-10-19T15:05:34.998449-03:00"
 }
