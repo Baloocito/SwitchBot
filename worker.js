@@ -376,6 +376,19 @@ async function setup(env, origin) {
     return "WEBHOOK_SECRET debe tener al menos 8 caracteres y solo letras, números, _ o -.";
   }
   const lineas = [];
+  // diagnostico: como estaba el webhook antes de reconfigurarlo
+  const info = await tg(env, "getWebhookInfo", {});
+  if (info.ok) {
+    const w = info.result || {};
+    lineas.push("Antes: webhook " + (w.url ? (w.url === origin + "/" ? "apuntaba a este Worker" : "apuntaba a OTRA dirección: " + w.url) : "NO estaba configurado"));
+    lineas.push("Antes: mensajes en espera " + (w.pending_update_count || 0));
+    if (w.last_error_message) {
+      lineas.push("Antes: último error de Telegram al llamar al Worker: " + w.last_error_message
+        + (w.last_error_date ? " (" + new Date(w.last_error_date * 1000).toISOString() + ")" : ""));
+    }
+  } else {
+    lineas.push("Telegram no respondió getWebhookInfo: " + info.description + " (¿token correcto o bot bloqueado?)");
+  }
   const wh = await tg(env, "setWebhook", {
     url: origin + "/",
     secret_token: env.WEBHOOK_SECRET,
@@ -397,7 +410,14 @@ async function setup(env, origin) {
     chat_id: env.CHAT_ID,
     text: "👑 Comandos activados. Escribe /ayuda para verlos.",
   });
-  lineas.push("Mensaje de prueba a tu chat: " + (hola.ok ? "OK" : "ERROR " + hola.description));
+  lineas.push("Mensaje de prueba a tu chat: " + (hola.ok ? "OK" : "ERROR " + hola.description
+    + (hola.parameters && hola.parameters.retry_after ? ` (Telegram bloqueó al bot por ${Math.ceil(hola.parameters.retry_after / 60)} min)` : "")));
+  try {
+    const a = await gh(env, `/repos/${env.GITHUB_REPO}/actions/workflows`);
+    lineas.push("Permiso de Actions (reloj y botones): " + (a.ok ? "OK" : "ERROR " + a.status + " — dale Actions: Read and write al token"));
+  } catch (e) {
+    lineas.push("Permiso de Actions: ERROR " + e.message);
+  }
   return lineas.join("\n");
 }
 
