@@ -177,6 +177,16 @@ que sale por otra red. Para activarlo, en GitHub → Settings → Secrets → Ac
 Una tienda con `"via": "worker"` en `juegos.json` se lee siempre por el Worker. El Worker solo
 acepta pedidos con la clave y solo a dominios `.cl` (más dominios: variable `PROXY_DOMINIOS`).
 
+## Reloj del Worker (publicaciones a la hora)
+
+El cron de GitHub se atrasa hasta 2–3 horas cuando GitHub está cargado, y los posts del canal
+perdían su hora. El Worker tiene su propio reloj, que sí es puntual: cada 30 minutos inicia el
+canal y cada hora la revisión de precios (modo `programado`). El cron de GitHub queda de respaldo.
+
+1. Cloudflare → tu Worker → Settings → Triggers → **Cron Triggers** → Add: `5,35 * * * *`.
+2. El `GITHUB_TOKEN` del Worker necesita permiso **Actions: Read and write** (además de Contents).
+   Si GitHub rechaza la orden, el bot te avisa por Telegram.
+
 ## Diagnóstico
 
 Para ver qué encuentra el bot en cada tienda, entra a **Actions → Alertas de ofertas Switch → Run workflow**,

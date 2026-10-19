@@ -495,8 +495,10 @@ def pie(cfg):
     filas = []
     if a.get("canal_url"):
         texto = texto_compartir(cfg)
-        filas.append([{"text": "📋 Copiar link del canal", "copy_text": {"text": texto[:256]}},
-                      boton("📲 WhatsApp", f"https://wa.me/?text={quote(texto)}")])
+        # Sin emojis: Telegram ya dibuja su propio icono (copiar / flecha de link) y con dos
+        # iconos el texto se cortaba en el celular.
+        filas.append([{"text": "Copiar link", "copy_text": {"text": texto[:256]}},
+                      boton("WhatsApp", f"https://wa.me/?text={quote(texto)}")])
     if a.get("web_url"):
         filas.append([boton("📚 Todas las ofertas", a["web_url"])])
     return filas

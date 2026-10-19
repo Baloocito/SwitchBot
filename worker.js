@@ -104,6 +104,12 @@ const COMANDOS_MENU = [
 // ------------------------------------------------------------------ entrada
 
 export default {
+  // Reloj de Cloudflare (Settings → Triggers → Cron Triggers: "5,35 * * * *").
+  // El cron de GitHub se atrasa horas cuando hay mucha carga; este llega a la hora.
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(reloj(env, new Date(event.scheduledTime)));
+  },
+
   async fetch(request, env) {
     const url = new URL(request.url);
 
@@ -906,6 +912,33 @@ function buscarJuego(cfg, nombre) {
 
 
 // ------------------------------------------------------------- agenda
+
+// Cada 30 min: el canal (publica si toca un post). Cada hora (minuto 5): la revisión de
+// precios, que decide sola si toca revisar o mandar el informe. Primero la revisión, así el
+// canal (que espera en la misma fila de GitHub) usa los precios recién leídos.
+async function reloj(env, ahora) {
+  const tareas = [];
+  if (ahora.getUTCMinutes() < 30) tareas.push([WORKFLOW, { modo: "programado" }]);
+  tareas.push([WORKFLOW_CANAL, { slot: "auto", prueba: "false" }]);
+  for (const [wf, inputs] of tareas) {
+    const r = await gh(env, `/repos/${env.GITHUB_REPO}/actions/workflows/${wf}/dispatches`, {
+      method: "POST",
+      body: JSON.stringify({ ref: "main", inputs }),
+    });
+    if (r.status !== 204) {
+      const detalle = (await r.text()).slice(0, 200);
+      console.log(`reloj: ${wf} -> ${r.status} ${detalle}`);
+      // aviso como mucho cada 6 horas para no llenar el chat
+      if (ahora.getUTCHours() % 6 === 0 && ahora.getUTCMinutes() < 30) {
+        await send(env, env.CHAT_ID, marco("⚠️ <b>RELOJ DEL WORKER</b>", null, [
+          `GitHub no aceptó iniciar <code>${wf}</code> (${r.status}).`,
+          "Revisa que GITHUB_TOKEN tenga permiso <b>Actions: Read and write</b>.",
+          esc(detalle),
+        ]));
+      }
+    }
+  }
+}
 
 async function dispatch(env, modo) {
   const r = await gh(env, `/repos/${env.GITHUB_REPO}/actions/workflows/${WORKFLOW}/dispatches`, {

@@ -8,9 +8,9 @@ on:
   workflow_dispatch:          # para correrlo a mano desde la pestaña Actions
     inputs:
       modo:
-        description: "normal = revisar ya · resumen = mandar el resumen ya · diagnostico = probar las tiendas"
+        description: "normal = revisar ya · resumen = mandar el resumen ya · diagnostico = probar las tiendas · programado = lo usa el reloj del Worker"
         type: choice
-        options: [normal, resumen, diagnostico]
+        options: [normal, resumen, diagnostico, programado]
         default: normal
       termino:
         description: "Búsqueda para el diagnóstico"
@@ -79,6 +79,7 @@ jobs:
           PROXY_KEY: ${{ secrets.PROXY_KEY }}
         run: |
           if [ "${{ inputs.modo }}" = "resumen" ]; then python bot.py --resumen
+          elif [ "${{ inputs.modo }}" = "programado" ]; then python bot.py
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then python bot.py --forzar
           else python bot.py; fi
 
