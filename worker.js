@@ -237,10 +237,10 @@ async function mlGet(env, path) {
 // Plan B: buscador de catalogo (productos) + publicaciones de cada producto.
 // MercadoLibre cerro /sites/{site}/search a muchas apps; el catalogo suele seguir abierto.
 async function mlBuscarCatalogo(env, q) {
-  const ps = await mlGet(env, `/products/search?status=active&site_id=MLC&q=${encodeURIComponent(q)}&limit=6`);
+  const ps = await mlGet(env, `/products/search?status=active&site_id=MLC&q=${encodeURIComponent(q)}&limit=12`);
   if (ps.status !== 200) return { ok: false, status: ps.status, via: "catalogo", error: ps.j.message || ps.j.error || "error" };
   const items = [];
-  for (const p of (ps.j.results || []).slice(0, 4)) {
+  for (const p of (ps.j.results || []).slice(0, 8)) {
     const it = await mlGet(env, `/products/${p.id}/items?limit=30`);
     if (it.status === 200 && Array.isArray(it.j.results) && it.j.results.length) {
       for (const x of it.j.results) {

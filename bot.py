@@ -822,17 +822,21 @@ def recorrer_catalogo(tienda, cache, paginas=None):
 
 
 def catalogo_woocommerce(base, cache, paginas):
-    """WooCommerce: todos los productos que dicen 'switch', de a 100 por pagina."""
+    """WooCommerce: todos los productos que dicen 'switch' o 'nsw', de a 100 por pagina."""
     out, vistos = [], set()
-    for p in range(1, paginas + 1):
+    agotada = set()
+    for busca, p in [(b, n) for b in ("switch", "nsw") for n in range(1, paginas + 1)]:
+        if busca in agotada:
+            continue
         try:
             r = get(f"{base}/wp-json/wc/store/v1/products",
-                    params={"search": "switch", "per_page": 100, "page": p})
+                    params={"search": busca, "per_page": 100, "page": p})
             data = r.json() if r.status_code == 200 else []
         except (requests.RequestException, ValueError):
-            break
+            data = []
         if not isinstance(data, list) or not data:
-            break
+            agotada.add(busca)          # sin mas paginas para esta busqueda
+            continue
         for x in data:
             if not isinstance(x, dict) or x.get("is_in_stock") is False or x.get("permalink") in vistos:
                 continue
@@ -1858,6 +1862,10 @@ def revisar_mercadolibre(cfg, state, hoy):
         q = f"{s['nombre']} {'switch 2' if s.get('plataforma') == 'Switch 2' else 'nintendo switch'}"
         try:
             res = ml_buscar(q)
+            calzan = [it for it in res.get("items") or []
+                      if ml_calza(it.get("titulo") or "", s["nombre"], s.get("plataforma"))]
+            if res.get("ok") and not calzan:
+                res = ml_buscar(s["nombre"])     # el catalogo a veces prioriza otra version: sin la consola
         except (requests.RequestException, ValueError) as e:
             log(f"  mercadolibre: fallo la consulta ({type(e).__name__}); sigo en la proxima revision")
             break
@@ -3150,8 +3158,11 @@ def diagnostico(cfg):
             r = requests.get(os.environ["WORKER_URL"].rstrip("/") + "/ml/estado",
                              headers={"X-Proxy-Key": os.environ["PROXY_KEY"]}, timeout=40)
             log(f"\nMercadoLibre: {r.text[:400]}")
-            res = ml_buscar("zelda tears of the kingdom nintendo switch")
+            res = ml_buscar("The Legend of Zelda: Tears of the Kingdom nintendo switch")
             ok = [x for x in res.get("items") or [] if ml_calza(x["titulo"], "The Legend of Zelda: Tears of the Kingdom", "Switch")]
+            if not ok:
+                res = ml_buscar("The Legend of Zelda: Tears of the Kingdom")
+                ok = [x for x in res.get("items") or [] if ml_calza(x["titulo"], "The Legend of Zelda: Tears of the Kingdom", "Switch")]
             log(f"  prueba Zelda TOTK: {len(res.get('items') or [])} avisos, {len(ok)} calzan")
             for x in (res.get("items") or [])[:8]:
                 marca = "✓" if x in ok else "✗"
