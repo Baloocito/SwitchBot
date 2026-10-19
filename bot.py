@@ -53,6 +53,15 @@ HEADERS = {
 }
 TIMEOUT = 25
 PAUSA = 1.0                 # segundos entre consultas a una misma tienda
+# Presupuesto de tiempo de una revision (GitHub la corta a los 45 min y entonces NO se guarda
+# nada). Lo opcional (catalogos completos, MercadoLibre) se salta si ya se paso del limite.
+INICIO = time.time()
+LIMITE_CATALOGO_MIN = 14    # despues de esto, los catalogos completos se cortan
+LIMITE_ML_MIN = 24          # despues de esto, no se consulta mas MercadoLibre en esta revision
+
+
+def minutos():
+    return (time.time() - INICIO) / 60
 FALLOS_PARA_AVISAR = 5      # corridas seguidas sin resultados antes de avisar
 MAX_PAGINAS_SHOPIFY = 40    # 250 productos por pagina
 TELEGRAM_MAX = 3900
@@ -815,6 +824,9 @@ def recorrer_catalogo(tienda, cache, paginas=None):
     vistos, out = set(), []
     for t in plantillas:
         for p in range(1, paginas + 1):
+            if minutos() > LIMITE_CATALOGO_MIN and not VOLCAR:
+                cache.setdefault("diag", []).append(f"catalogo cortado a los {minutos():.0f} min")
+                break
             url = t.format(p=p, s=(p - 1) * 24)
             try:
                 r = get(url)
@@ -1765,9 +1777,14 @@ def leer_memorias_ml(cfg, state):
     if not ml_disponible() or mem_cfg.get("mercadolibre") is False:
         return 0
     hoy = hoy_chile()
+    if state.get("memorias_ml_fecha") == hoy:
+        return 0                        # una vez al dia basta (los precios de memorias cambian lento)
     prov = state.setdefault("proveedores_ml", {})
     vistos, n = set(), 0
     for q in mem_cfg.get("mercadolibre_buscar") or ML_MEMORIAS_BUSCAR:
+        if minutos() > LIMITE_ML_MIN:
+            log(f"  memorias ML: corto a los {minutos():.0f} min")
+            return n
         try:
             res = ml_buscar(q)
         except (requests.RequestException, ValueError) as e:
@@ -1794,6 +1811,7 @@ def leer_memorias_ml(cfg, state):
             p["fecha_conteo"] = hoy
             n += 1
         time.sleep(0.5)
+    state["memorias_ml_fecha"] = hoy
     log(f"  memorias ML: {n} avisos de vendedores seguros")
     return n
 
@@ -1945,6 +1963,9 @@ def revisar_mercadolibre(cfg, state, hoy):
     cands.sort(key=lambda x: x[0])
     hechos = errores = 0
     for _, clave, s in cands[:(cfg.get("mercadolibre") or {}).get("por_corrida", ML_POR_CORRIDA)]:
+        if minutos() > LIMITE_ML_MIN:
+            log(f"  mercadolibre: corto a los {minutos():.0f} min para no pasarme del tiempo")
+            break
         q = f"{s['nombre']} {'switch 2' if s.get('plataforma') == 'Switch 2' else 'nintendo switch'}"
         try:
             res = ml_buscar(q)
@@ -3152,8 +3173,9 @@ def ciclo(cfg, state, hist, forzar=False, solo_resumen=False):
         alertas = []
         log("Revisando eShop...")
         revisar_eshop(cfg, state, hist, alertas)
-        log("Revisando tiendas...")
+        log(f"Revisando tiendas... ({minutos():.1f} min)")
         listados = leer_tiendas(cfg, state, alertas)
+        log(f"  tiendas listas a los {minutos():.1f} min")
         revisar_productos(cfg, state, hist, listados, alertas)
         try:
             leer_memorias_ml(cfg, state)
@@ -3167,6 +3189,7 @@ def ciclo(cfg, state, hist, forzar=False, solo_resumen=False):
             revisar_mercadolibre(cfg, state, hoy)
         except Exception as e:  # noqa: BLE001 - MercadoLibre nunca debe botar la revision
             log(f"  mercadolibre: error {type(e).__name__}: {e}")
+        log(f"  revisión completa en {minutos():.1f} min")
         state.pop("tiendas", None)
         for viejo in ("digitales", "fisicos", "nsuids"):
             state.pop(viejo, None)
