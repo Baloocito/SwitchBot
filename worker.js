@@ -228,6 +228,39 @@ async function mlToken(env, forzarUsuario = false) {
   return guardar(rt.j, "usuario");
 }
 
+async function mlGet(env, path) {
+  const tok = await mlToken(env, !!(env.ML && await env.ML.get("refresh")));
+  const r = await fetch(ML_API + path, { headers: { Authorization: `Bearer ${tok.token}`, Accept: "application/json" } });
+  return { status: r.status, j: await r.json().catch(() => ({})) };
+}
+
+// Plan B: buscador de catalogo (productos) + publicaciones de cada producto.
+// MercadoLibre cerro /sites/{site}/search a muchas apps; el catalogo suele seguir abierto.
+async function mlBuscarCatalogo(env, q) {
+  const ps = await mlGet(env, `/products/search?status=active&site_id=MLC&q=${encodeURIComponent(q)}&limit=6`);
+  if (ps.status !== 200) return { ok: false, status: ps.status, via: "catalogo", error: ps.j.message || ps.j.error || "error" };
+  const items = [];
+  for (const p of (ps.j.results || []).slice(0, 4)) {
+    const it = await mlGet(env, `/products/${p.id}/items?limit=30`);
+    if (it.status === 200 && Array.isArray(it.j.results) && it.j.results.length) {
+      for (const x of it.j.results) {
+        items.push({ titulo: p.name, precio: x.price, moneda: x.currency_id || "CLP", condicion: x.condition || "new",
+          url: `https://www.mercadolibre.cl/p/${p.id}`, vendidos: x.sold_quantity ?? null,
+          oficial: !!x.official_store_id, vendedor: null, envio_gratis: !!(x.shipping && x.shipping.free_shipping) });
+      }
+    } else {
+      const det = await mlGet(env, `/products/${p.id}`);
+      const bb = det.j && det.j.buy_box_winner;
+      if (bb && bb.price) {
+        items.push({ titulo: p.name, precio: bb.price, moneda: bb.currency_id || "CLP", condicion: bb.condition || "new",
+          url: det.j.permalink || `https://www.mercadolibre.cl/p/${p.id}`, vendidos: null, oficial: !!bb.official_store_id,
+          vendedor: null, envio_gratis: !!(bb.shipping && bb.shipping.free_shipping) });
+      }
+    }
+  }
+  return { ok: true, via: "catalogo", total: items.length, items };
+}
+
 async function mlBuscar(env, q, offset = 0) {
   const url = `${ML_API}/sites/MLC/search?q=${encodeURIComponent(q)}&limit=50&offset=${offset}`;
   const pedir = (tok) => fetch(url, { headers: { Authorization: `Bearer ${tok.token}`, Accept: "application/json" } });
@@ -238,6 +271,7 @@ async function mlBuscar(env, q, offset = 0) {
     r = await pedir(tok);
   }
   const j = await r.json().catch(() => ({}));
+  if (r.status === 403) return mlBuscarCatalogo(env, q);
   if (!r.ok) return { ok: false, status: r.status, via: tok.via, error: j.message || j.error || "error" };
   const items = (j.results || []).map((x) => ({
     titulo: x.title, precio: x.price, moneda: x.currency_id, condicion: x.condition, url: x.permalink,
@@ -259,9 +293,15 @@ async function rutaML(request, env, url) {
     if (url.pathname === "/ml/estado") {
       if (!autorizado) return json({ ok: false, error: "No autorizado" }, 403);
       const cc = env.ML_CLIENT_ID ? await mlTokenPost(env, { grant_type: "client_credentials" }) : { ok: false, status: 0 };
-      const prueba = await mlBuscar(env, "nintendo switch").catch((e) => ({ ok: false, error: e.message }));
+      const prueba = await mlBuscar(env, "zelda tears of the kingdom nintendo switch").catch((e) => ({ ok: false, error: e.message }));
+      const rutas = {};
+      for (const [k, path] of [["busqueda_publica", "/sites/MLC/search?q=zelda&limit=1"],
+        ["catalogo", "/products/search?status=active&site_id=MLC&q=zelda&limit=1"]]) {
+        rutas[k] = await mlGet(env, path).then((x) => x.status).catch((e) => e.message);
+      }
       return json({ client_credentials: cc.ok ? "ok" : `no (${cc.status})`, kv: !!env.ML,
-        autorizacion_usuario: !!(env.ML && await env.ML.get("refresh")), busqueda: prueba.ok ? `ok vía ${prueba.via}, ${prueba.items.length} resultados` : prueba });
+        autorizacion_usuario: !!(env.ML && await env.ML.get("refresh")), rutas,
+        busqueda: prueba.ok ? `ok vía ${prueba.via}, ${prueba.items.length} resultados` : prueba });
     }
     if (url.pathname === "/ml/login") {
       if (!env.WEBHOOK_SECRET || url.searchParams.get("clave") !== env.WEBHOOK_SECRET) return new Response("Clave incorrecta.", { status: 403 });
