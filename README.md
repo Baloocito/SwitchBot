@@ -151,6 +151,20 @@ descuentos inflados de 85 % o más) no entra. Todo se ajusta en `canal.json` sin
   ediciones especiales). El canal publica los jueves "📅 Lo que viene" con lanzamientos de la
   eShop y preventas de las próximas semanas.
 
+## MercadoLibre (precio de reventa)
+
+El bot consulta en MercadoLibre Chile a cuánto se vende cada juego físico, nuevo y usado,
+a través del Worker (que guarda las credenciales; el repo es público y no las tiene).
+
+1. App en developers.mercadolibre.cl con Redirect URI `https://TU-WORKER/ml/callback`.
+2. En Cloudflare, secretos `ML_CLIENT_ID` y `ML_CLIENT_SECRET`.
+3. Diagnóstico: la línea "MercadoLibre:" dice si funciona con acceso de app (client_credentials).
+4. Solo si dice que falta autorización: crea un KV en Cloudflare, conéctalo al Worker con el
+   nombre `ML` y abre una vez `https://TU-WORKER/ml/login?clave=TU_WEBHOOK_SECRET`.
+
+Se ve en las tarjetas físicas ("🛒 MercadoLibre: nuevo ~$X · usado ~$Y", "💰 Reventa") y en el
+informe diario (sección REVENTA). Hasta 40 juegos por revisión, cada uno cada 3 días.
+
 ## Tiendas que bloquean a GitHub (relay por el Worker)
 
 Algunas tiendas (Paris, Weplay…) rechazan las visitas desde los servidores de GitHub. Si una

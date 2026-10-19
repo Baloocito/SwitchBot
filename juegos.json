@@ -617,5 +617,10 @@
       "nombre": "Silksong",
       "buscar": "silksong"
     }
-  ]
+  ],
+  "mercadolibre": {
+    "activa": true,
+    "por_corrida": 40,
+    "_ayuda": "Precio de reventa en MercadoLibre Chile vía el Worker (necesita WORKER_URL y PROXY_KEY en GitHub y ML_CLIENT_ID/ML_CLIENT_SECRET en Cloudflare). Cada juego se consulta cada 3 días."
+  }
 }

@@ -1761,6 +1761,117 @@ def linea_memoria(s, motivos, anterior):
     return "\n".join(l)
 
 
+# ----------------------------------------------------------- mercadolibre
+
+ML_POR_CORRIDA = 40         # consultas a MercadoLibre por revision (rota entre los juegos)
+ML_DIAS_VIGENCIA = 3        # cada juego se vuelve a consultar cada 3 dias
+
+
+def ml_disponible():
+    return bool(os.environ.get("WORKER_URL") and os.environ.get("PROXY_KEY"))
+
+
+def ml_buscar(q):
+    r = requests.get(os.environ["WORKER_URL"].rstrip("/") + "/ml/buscar", params={"q": q},
+                     headers={"X-Proxy-Key": os.environ["PROXY_KEY"]}, timeout=TIMEOUT + 15)
+    return r.json()
+
+
+def ml_calza(titulo, nombre, plataforma):
+    """El aviso de MercadoLibre es el mismo juego (y la misma consola) y no un accesorio."""
+    w = palabras(titulo)
+    if w & EXCLUIR_SIEMPRE:
+        return False
+    if (plataforma_de(titulo) == "Switch 2") != (plataforma == "Switch 2"):
+        return False
+    t_nombre = set(tokens_de(nombre))
+    t_aviso = set(tokens_de(titulo))
+    if not t_nombre:
+        return False
+    # los vendedores abrevian ("Zelda Tears of the Kingdom"): basta el 75 % de las palabras,
+    # pero el subtitulo (lo que va despues de ":") tiene que estar completo
+    if len(t_nombre) <= 2 and not t_nombre <= t_aviso:
+        return False
+    if len(t_nombre & t_aviso) < 0.75 * len(t_nombre):
+        return False
+    if ":" in nombre and not set(tokens_de(nombre.split(":", 1)[1])) <= t_aviso:
+        return False
+    extra = (w & VARIANTES) - palabras(nombre) - {"usado"}
+    return not extra                 # coleccionista, steelbook, bundles: otro producto
+
+
+def revisar_mercadolibre(cfg, state, hoy):
+    """Precio de reventa: a cuanto se vende cada fisico nuevo y usado en MercadoLibre Chile."""
+    if not ml_disponible() or (cfg.get("mercadolibre") or {}).get("activa") is False:
+        return
+    ml = state.setdefault("mercadolibre", {})
+    corte_visto = _sumar_dias(hoy, -1)
+    vence = _sumar_dias(hoy, -ML_DIAS_VIGENCIA)
+    cands = []
+    for clave, s in (state.get("productos") or {}).items():
+        if (s.get("visto") or "")[:10] < corte_visto or s.get("externo") or s.get("variante"):
+            continue
+        if USADO_RE.search(norm(s.get("nombre") or "")):
+            continue
+        previo = ml.get(clave) or {}
+        if (previo.get("fecha") or "") > vence:
+            continue
+        de_tu_lista = norm(re.sub(r"^\W+", "", s.get("juego") or "")) != "otros juegos"
+        prioridad = (0 if de_tu_lista else 1, previo.get("fecha") or "")
+        cands.append((prioridad, clave, s))
+    cands.sort(key=lambda x: x[0])
+    hechos = errores = 0
+    for _, clave, s in cands[:(cfg.get("mercadolibre") or {}).get("por_corrida", ML_POR_CORRIDA)]:
+        q = f"{s['nombre']} {'switch 2' if s.get('plataforma') == 'Switch 2' else 'nintendo switch'}"
+        try:
+            res = ml_buscar(q)
+        except (requests.RequestException, ValueError) as e:
+            log(f"  mercadolibre: fallo la consulta ({type(e).__name__}); sigo en la proxima revision")
+            break
+        if not res.get("ok"):
+            errores += 1
+            log(f"  mercadolibre: {res.get('error')} ({res.get('status')})")
+            if errores >= 2:
+                break
+            continue
+        nuevos, usados = [], []
+        for it in res.get("items") or []:
+            if it.get("moneda") != "CLP" or not precio_valido(it.get("precio")):
+                continue
+            if not ml_calza(it.get("titulo") or "", s["nombre"], s.get("plataforma")):
+                continue
+            (usados if it.get("condicion") == "used" else nuevos).append(it)
+        def med(xs):
+            return _mediana([x["precio"] for x in xs]) if len(xs) >= 2 else None
+        ml[clave] = {"fecha": hoy, "nombre": s["nombre"],
+                     "nuevo": med(nuevos), "n_nuevo": len(nuevos),
+                     "nuevo_min": min((x["precio"] for x in nuevos), default=None),
+                     "usado": med(usados), "n_usado": len(usados),
+                     "vendidos": sum(x.get("vendidos") or 0 for x in nuevos + usados) or None,
+                     "busqueda": "https://listado.mercadolibre.cl/" + norm(q).replace(" ", "-")}
+        hechos += 1
+        time.sleep(0.5)
+    if hechos:
+        log(f"  mercadolibre: {hechos} juegos consultados")
+
+
+def lineas_mercadolibre(m, precio):
+    if not m or not (m.get("nuevo") or m.get("usado")):
+        return []
+    partes = []
+    if m.get("nuevo"):
+        partes.append(f"nuevo ~{clp(m['nuevo'])}")
+    if m.get("usado"):
+        partes.append(f"usado ~{clp(m['usado'])}")
+    l = [f"🛒 <a href=\"{esc_attr(m['busqueda'])}\">MercadoLibre</a>: " + " · ".join(partes)
+         + f" ({m['n_nuevo'] + m['n_usado']} avisos)"]
+    ref = m.get("nuevo")
+    if ref and ref >= precio * 1.12:
+        l.append(f"💰 <b>Reventa</b>: lo compras a {clp(precio)} y nuevo se vende a ~{clp(ref)} "
+                 f"(+{clp(ref - precio)} antes de comisiones)")
+    return l
+
+
 def linea_producto(s, motivos, anterior, e):
     nombre = s["nombre"] + (f" ({' '.join(s['variante'])})" if s.get("variante") else "")
     l = (f'<a href="{esc_attr(s["url"])}">{esc(nombre)}</a> · {esc(s["plataforma"])}\n'
@@ -2219,6 +2330,7 @@ def tarjeta_fisico(clave, s, state, hist, extra=None):
                 l.append(f"   ➜ El digital es {clp(-dif)} más barato, pero no se puede revender")
     l += lineas_evento(clave, s, hist)
     l += lineas_negocio((hist.get("productos") or {}).get(clave) or {}, s)
+    l += lineas_mercadolibre((state.get("mercadolibre") or {}).get(clave), s["precio"])
     nivel_c, por = confianza(s)
     l.append(f"🔎 Confianza {nivel_c}: {por}")
     l += lineas_seguimiento(s, s["precio"], clp)
@@ -2812,6 +2924,19 @@ def armar_resumen(state, hist, cfg, revisiones_hoy):
         for clave, s, ng in subiendo[:5]:
             l.append(f"• {esc(s['nombre'])} — {clp(s['precio'])} (+{round(ng['tendencia_pct'])}%)")
 
+    # reventa en mercadolibre
+    mlp = state.get("mercadolibre") or {}
+    reventa = []
+    for clave, s, ng in ops:
+        m = mlp.get(clave) or {}
+        if m.get("nuevo") and m["nuevo"] >= s["precio"] * 1.15:
+            reventa.append((m["nuevo"] - s["precio"], s, m))
+    if reventa:
+        l += ["", "💰 <b>REVENTA</b> (precio nuevo en MercadoLibre)"]
+        for dif, s, m in sorted(reventa, key=lambda x: -x[0])[:6]:
+            l.append(f"• <a href=\"{esc_attr(s['url'])}\">{esc(s['nombre'])}</a> — {clp(s['precio'])} en "
+                     f"{esc(s['tienda'])} · ML ~{clp(m['nuevo'])} (+{clp(dif)})")
+
     # memorias
     mem = [m for m in (state.get("memorias") or {}).values() if (m.get("visto") or "")[:10] >= corte and m.get("marca")]
     if mem:
@@ -2903,6 +3028,10 @@ def ciclo(cfg, state, hist, forzar=False, solo_resumen=False):
             revisar_memorias(cfg, state, hist, alertas)
         except Exception as e:  # noqa: BLE001 - las memorias nunca deben botar la revision
             log(f"  memorias: error {type(e).__name__}: {e}")
+        try:
+            revisar_mercadolibre(cfg, state, hoy)
+        except Exception as e:  # noqa: BLE001 - MercadoLibre nunca debe botar la revision
+            log(f"  mercadolibre: error {type(e).__name__}: {e}")
         state.pop("tiendas", None)
         for viejo in ("digitales", "fisicos", "nsuids"):
             state.pop(viejo, None)
@@ -2983,6 +3112,18 @@ def diagnostico(cfg):
                 + (usd(p['oferta'] if p['oferta'] is not None else p['regular']) if p else "sin precio"))
     except (requests.RequestException, ValueError) as e:
         log(f"  ERROR: {e}")
+    if ml_disponible():
+        try:
+            r = requests.get(os.environ["WORKER_URL"].rstrip("/") + "/ml/estado",
+                             headers={"X-Proxy-Key": os.environ["PROXY_KEY"]}, timeout=40)
+            log(f"\nMercadoLibre: {r.text[:400]}")
+            res = ml_buscar("zelda tears of the kingdom nintendo switch")
+            ok = [x for x in res.get("items") or [] if ml_calza(x["titulo"], "The Legend of Zelda: Tears of the Kingdom", "Switch")]
+            log(f"  prueba Zelda TOTK: {len(res.get('items') or [])} avisos, {len(ok)} calzan")
+            for x in ok[:4]:
+                log(f"    · {x['titulo']} | {clp(x['precio'])} | {x['condicion']}")
+        except (requests.RequestException, ValueError) as e:
+            log(f"\nMercadoLibre: ERROR {e}")
     log("\nRelay por el Worker: " + ("activo" if os.environ.get("WORKER_URL") and os.environ.get("PROXY_KEY")
                                       else "NO configurado (faltan WORKER_URL y PROXY_KEY en GitHub)"))
     VIA_WORKER.update(dominio(t["url"]) for t in cfg.get("tiendas", []) if t.get("via") == "worker")

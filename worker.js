@@ -108,6 +108,7 @@ export default {
     const url = new URL(request.url);
 
     if (request.method === "GET" && url.pathname === "/proxy") return proxy(request, env, url);
+    if (request.method === "GET" && url.pathname.startsWith("/ml/")) return rutaML(request, env, url);
     if (request.method === "GET" && url.pathname === "/setup") {
       if (!env.WEBHOOK_SECRET || url.searchParams.get("clave") !== env.WEBHOOK_SECRET) {
         return new Response("Clave incorrecta.", { status: 403 });
@@ -178,6 +179,117 @@ async function proxy(request, env, url) {
     status: r.status,
     headers: { "content-type": r.headers.get("content-type") || "text/html; charset=utf-8" },
   });
+}
+
+// ------------------------------------------------------------------ MercadoLibre
+// Secretos en Cloudflare: ML_CLIENT_ID y ML_CLIENT_SECRET. Opcional: un KV llamado ML
+// (necesario solo si MercadoLibre no acepta client_credentials para buscar).
+// Rutas:
+//   /ml/buscar?q=...     (con X-Proxy-Key) resultados de busqueda en MercadoLibre Chile
+//   /ml/estado           (con X-Proxy-Key) que acceso funciona
+//   /ml/login?clave=...  autorizar una vez con tu cuenta (si client_credentials no alcanza)
+//   /ml/callback         donde vuelve MercadoLibre tras autorizar
+
+const ML_API = "https://api.mercadolibre.com";
+let ML_CACHE = null;   // { token, vence, via } en memoria del Worker
+
+async function mlTokenPost(env, cuerpo) {
+  const r = await fetch(`${ML_API}/oauth/token`, {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded", Accept: "application/json" },
+    body: new URLSearchParams({ client_id: env.ML_CLIENT_ID, client_secret: env.ML_CLIENT_SECRET, ...cuerpo }),
+  });
+  const j = await r.json().catch(() => ({}));
+  return { ok: r.ok && !!j.access_token, j, status: r.status };
+}
+
+async function mlToken(env, forzarUsuario = false) {
+  if (!env.ML_CLIENT_ID || !env.ML_CLIENT_SECRET) throw new Error("Faltan ML_CLIENT_ID y ML_CLIENT_SECRET en Cloudflare");
+  const ahora = Date.now();
+  if (ML_CACHE && ML_CACHE.vence > ahora + 60000 && (!forzarUsuario || ML_CACHE.via === "usuario")) return ML_CACHE;
+  if (env.ML && !forzarUsuario) {
+    const guardado = await env.ML.get("access", "json");
+    if (guardado && guardado.vence > ahora + 60000) return (ML_CACHE = guardado);
+  }
+  const guardar = async (j, via) => {
+    ML_CACHE = { token: j.access_token, vence: ahora + (j.expires_in || 21600) * 1000, via };
+    if (env.ML) await env.ML.put("access", JSON.stringify(ML_CACHE));
+    return ML_CACHE;
+  };
+  if (!forzarUsuario) {
+    const cc = await mlTokenPost(env, { grant_type: "client_credentials" });
+    if (cc.ok) return guardar(cc.j, "app");
+  }
+  const refresh = env.ML && await env.ML.get("refresh");
+  if (!refresh) throw new Error("MercadoLibre no dio acceso de app y no hay autorización de usuario: abre /ml/login");
+  const rt = await mlTokenPost(env, { grant_type: "refresh_token", refresh_token: refresh });
+  if (!rt.ok) throw new Error(`No pude renovar el acceso de MercadoLibre (${rt.status}): vuelve a abrir /ml/login`);
+  if (rt.j.refresh_token) await env.ML.put("refresh", rt.j.refresh_token);   // es de un solo uso
+  return guardar(rt.j, "usuario");
+}
+
+async function mlBuscar(env, q, offset = 0) {
+  const url = `${ML_API}/sites/MLC/search?q=${encodeURIComponent(q)}&limit=50&offset=${offset}`;
+  const pedir = (tok) => fetch(url, { headers: { Authorization: `Bearer ${tok.token}`, Accept: "application/json" } });
+  let tok = await mlToken(env);
+  let r = await pedir(tok);
+  if ((r.status === 401 || r.status === 403) && tok.via === "app" && env.ML && await env.ML.get("refresh")) {
+    tok = await mlToken(env, true);         // el acceso de app no alcanza para buscar: se usa el de usuario
+    r = await pedir(tok);
+  }
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) return { ok: false, status: r.status, via: tok.via, error: j.message || j.error || "error" };
+  const items = (j.results || []).map((x) => ({
+    titulo: x.title, precio: x.price, moneda: x.currency_id, condicion: x.condition, url: x.permalink,
+    vendidos: x.sold_quantity ?? null, oficial: !!x.official_store_id, vendedor: x.seller && x.seller.nickname || null,
+    envio_gratis: !!(x.shipping && x.shipping.free_shipping),
+  }));
+  return { ok: true, via: tok.via, total: (j.paging && j.paging.total) || items.length, items };
+}
+
+async function rutaML(request, env, url) {
+  const json = (o, status = 200) => new Response(JSON.stringify(o), { status, headers: { "content-type": "application/json" } });
+  const autorizado = env.WEBHOOK_SECRET && request.headers.get("X-Proxy-Key") === env.WEBHOOK_SECRET;
+  const callback = `${url.origin}/ml/callback`;
+  try {
+    if (url.pathname === "/ml/buscar") {
+      if (!autorizado) return json({ ok: false, error: "No autorizado" }, 403);
+      return json(await mlBuscar(env, url.searchParams.get("q") || "", Number(url.searchParams.get("offset") || 0)));
+    }
+    if (url.pathname === "/ml/estado") {
+      if (!autorizado) return json({ ok: false, error: "No autorizado" }, 403);
+      const cc = env.ML_CLIENT_ID ? await mlTokenPost(env, { grant_type: "client_credentials" }) : { ok: false, status: 0 };
+      const prueba = await mlBuscar(env, "nintendo switch").catch((e) => ({ ok: false, error: e.message }));
+      return json({ client_credentials: cc.ok ? "ok" : `no (${cc.status})`, kv: !!env.ML,
+        autorizacion_usuario: !!(env.ML && await env.ML.get("refresh")), busqueda: prueba.ok ? `ok vía ${prueba.via}, ${prueba.items.length} resultados` : prueba });
+    }
+    if (url.pathname === "/ml/login") {
+      if (!env.WEBHOOK_SECRET || url.searchParams.get("clave") !== env.WEBHOOK_SECRET) return new Response("Clave incorrecta.", { status: 403 });
+      if (!env.ML) return new Response("Primero crea un KV en Cloudflare y conéctalo a este Worker con el nombre ML.", { status: 400 });
+      const estado = crypto.randomUUID();
+      await env.ML.put("estado_login", estado, { expirationTtl: 900 });
+      const auth = `https://auth.mercadolibre.cl/authorization?response_type=code&client_id=${env.ML_CLIENT_ID}` +
+        `&redirect_uri=${encodeURIComponent(callback)}&state=${estado}`;
+      return Response.redirect(auth, 302);
+    }
+    if (url.pathname === "/ml/callback") {
+      const code = url.searchParams.get("code");
+      if (!code || !env.ML) return new Response("Falta el código o el KV ML.", { status: 400 });
+      const esperado = await env.ML.get("estado_login");
+      if (!esperado || esperado !== url.searchParams.get("state")) return new Response("Autorización vencida: vuelve a abrir /ml/login.", { status: 400 });
+      const t = await mlTokenPost(env, { grant_type: "authorization_code", code, redirect_uri: callback });
+      if (!t.ok) return new Response(`MercadoLibre rechazó el código (${t.status}).`, { status: 400 });
+      await env.ML.put("refresh", t.j.refresh_token);
+      await env.ML.delete("estado_login");
+      ML_CACHE = { token: t.j.access_token, vence: Date.now() + (t.j.expires_in || 21600) * 1000, via: "usuario" };
+      await env.ML.put("access", JSON.stringify(ML_CACHE));
+      return new Response("✅ SwitchBot quedó conectado a MercadoLibre. Ya puedes cerrar esta página.",
+        { headers: { "content-type": "text/plain; charset=utf-8" } });
+    }
+    return json({ ok: false, error: "Ruta desconocida" }, 404);
+  } catch (e) {
+    return json({ ok: false, error: e.message || String(e) }, 500);
+  }
 }
 
 async function setup(env, origin) {
