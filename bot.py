@@ -57,7 +57,7 @@ FALLOS_PARA_AVISAR = 5      # corridas seguidas sin resultados antes de avisar
 MAX_PAGINAS_SHOPIFY = 40    # 250 productos por pagina
 TELEGRAM_MAX = 3900
 
-PLATAFORMA = {"switch", "nsw", "ns2", "sw2", "switch2", "nsw2"}
+PLATAFORMA = {"switch", "nsw", "nswi", "ns2", "sw2", "switch2", "nsw2"}
 EXCLUIR_SIEMPRE = {
     "amiibo", "funda", "estuche", "case", "carcasa", "protector", "mica",
     "control", "controles", "joy", "joycon", "figura", "figuras", "peluche",
@@ -525,6 +525,20 @@ def parse_magento(pagina, url_pagina):
     return out
 
 
+def parse_filas_buscador(pagina, url_pagina):
+    """Buscador rapido de TodoJuegos (buscador_ajax_plano.asp): filas con link y precio."""
+    out = []
+    for b in re.split(r'class="filaProductoBuscador"', pagina)[1:]:
+        a = re.search(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>', b, flags=re.S | re.I)
+        m = re.search(r"\$\s*([\d.]+)", b)
+        if not a or not m:
+            continue                    # "$ - -" = sin precio (sin stock o por confirmar)
+        titulo = html.unescape(re.sub(r"<[^>]+>", "", a.group(2))).strip()
+        out.append({"titulo": titulo, "url": urljoin(url_pagina, a.group(1)),
+                    "precio": parse_precio(m.group(1)), "normal": None})
+    return out
+
+
 # --- datos embebidos (JSON-LD y __NEXT_DATA__)
 
 CLAVES_NOMBRE = ("displayName", "productName", "name", "title")
@@ -749,7 +763,7 @@ def leer_html(base, termino, cache, plantilla=None):
             (VOLCAR / nombre).write_text(r.text, encoding="utf-8", errors="replace")
         if r.status_code != 200:
             continue
-        prods = parse_magento(r.text, r.url) or parse_rsc(r.text, r.url) or parse_embebido(r.text, r.url)
+        prods = parse_magento(r.text, r.url) or parse_filas_buscador(r.text, r.url) or parse_rsc(r.text, r.url) or parse_embebido(r.text, r.url)
         if prods:
             cache["plantilla_html"] = t
             return prods
@@ -769,6 +783,7 @@ BUSQUEDA_CONOCIDA = {
     "paris.cl": "https://www.paris.cl/search/?q={q}",
     "falabella.com": "https://www.falabella.com/falabella-cl/search?Ntt={q}",
     "lider.cl": "https://www.lider.cl/search?q={q}",
+    "todojuegos.cl": "https://www.todojuegos.cl/Productos/buscador_ajax_plano.asp?consulta={q}",
 }
 
 
@@ -809,7 +824,7 @@ def recorrer_catalogo(tienda, cache, paginas=None):
             if r.status_code != 200:
                 cache.setdefault("diag", []).append(f"catalogo {url} -> HTTP {r.status_code}")
                 break
-            prods = parse_magento(r.text, r.url) or parse_rsc(r.text, r.url) or parse_embebido(r.text, r.url) or []
+            prods = parse_magento(r.text, r.url) or parse_filas_buscador(r.text, r.url) or parse_rsc(r.text, r.url) or parse_embebido(r.text, r.url) or []
             nuevos = [x for x in prods if x.get("url") and x["url"] not in vistos]
             for x in nuevos:
                 vistos.add(x["url"])
@@ -914,7 +929,7 @@ def precio_de_pagina(url):
 
 STOP = {"the", "of", "and", "de", "la", "el", "los", "las", "y", "del", "for", "para",
         "a", "an", "en", "to", "with", "con", "por"}
-RUIDO = {"juego", "videojuego", "videojuegos", "nintendo", "switch", "nsw", "fisico",
+RUIDO = {"juego", "videojuego", "videojuegos", "nintendo", "switch", "nsw", "nswi", "fisico",
          "physical", "game", "games", "card", "version", "americano", "americana", "nuevo",
          "sellado", "original", "sniper", "snipercl", "cl", "megagames", "standard",
          "estandar", "digital", "rpg", "latam", "ntsc", "us", "usa", "edition"}
@@ -1051,7 +1066,7 @@ def candidatos_eshop(state):
 PREVENTA_RE = re.compile(r"\bpre ?ventas?\b|\bpre ?orden(es)?\b|\bpre ?order\b|\breserva\b")
 LIMPIAR_RE = re.compile(
     r"\bpre-?ventas?\b|\bpre-?orden\b|\bpre-?order\b|\b(video)?juegos?\b|\bnintendo\s+switch\s*2\b|\bnintendo\s+switch\b|\bswitch\s*2\b|"
-    r"\bswitch\b|\bnsw2?\b|\bns2\b|\bsw2\b|\(\s*\)|\bf[ií]sico\b|\bphysical( game card)?\b|"
+    r"\bswitch\b|\bnswi\b|\bnsw2?\b|\bns2\b|\bsw2\b|\(\s*\)|\bf[ií]sico\b|\bphysical( game card)?\b|"
     r"\bpara\b(?=\s*$)|\bfor\b(?=\s*$)", re.I)
 
 
