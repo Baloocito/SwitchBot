@@ -1727,6 +1727,54 @@ def nombre_memoria(m):
         (f" · {m['marca']}" if m.get("marca") else "")
 
 
+# busquedas de microSD en MercadoLibre: solo se usan avisos nuevos de vendedores seguros
+# (tienda oficial o MercadoLider Gold/Platinum con reputacion verde, lo decide el Worker)
+ML_MEMORIAS_BUSCAR = ["microsd express 256gb", "microsd express 512gb", "microsd express sandisk",
+                      "microsd express samsung", "microsd express lexar", "microsd sandisk 256gb",
+                      "microsd sandisk 512gb", "microsd samsung evo 256gb", "microsd samsung 512gb",
+                      "microsd kingston 256gb", "microsd lexar 256gb"]
+
+
+def leer_memorias_ml(cfg, state):
+    """Suma a MEMORIAS_LISTADOS las microSD de vendedores seguros de MercadoLibre y guarda
+    quienes son esos vendedores (state['proveedores_ml']) para elegir con quien afiliarse."""
+    mem_cfg = cfg.get("memorias") or {}
+    if not ml_disponible() or mem_cfg.get("mercadolibre") is False:
+        return 0
+    hoy = hoy_chile()
+    prov = state.setdefault("proveedores_ml", {})
+    vistos, n = set(), 0
+    for q in mem_cfg.get("mercadolibre_buscar") or ML_MEMORIAS_BUSCAR:
+        try:
+            res = ml_buscar(q)
+        except (requests.RequestException, ValueError) as e:
+            log(f"  memorias ML: fallo '{q}' ({type(e).__name__})")
+            break
+        for it in res.get("items") or []:
+            if it.get("condicion") == "used" or not it.get("seguro") or it.get("moneda") != "CLP" \
+                    or not precio_valido(it.get("precio")) or it.get("url") in vistos:
+                continue
+            m = clasificar_memoria(it.get("titulo") or "", it["precio"])
+            if not m:
+                continue
+            vistos.add(it.get("url"))
+            vend = it.get("vendedor") or "tienda oficial"
+            MEMORIAS_LISTADOS.append(("MercadoLibre", {
+                "titulo": f"{it['titulo']} ({vend})", "precio": it["precio"], "url": it.get("url"),
+                "normal": None}))
+            p = prov.setdefault(vend, {"marcas": [], "tipos": []})
+            p.update({"nivel": it.get("nivel"), "visto": hoy})
+            for campo, valor in (("marcas", m["marca"]), ("tipos", m["tipo"])):
+                if valor and valor not in p[campo]:
+                    p[campo].append(valor)
+            p["avisos"] = p.get("avisos", 0) + 1 if p.get("fecha_conteo") == hoy else 1
+            p["fecha_conteo"] = hoy
+            n += 1
+        time.sleep(0.5)
+    log(f"  memorias ML: {n} avisos de vendedores seguros")
+    return n
+
+
 def revisar_memorias(cfg, state, hist, alertas):
     """Agrupa las microSD por tipo, capacidad y marca, guarda el historial y avisa
     de minimos historicos, descuentos reales y bajas (igual que con los juegos)."""
@@ -3085,6 +3133,10 @@ def ciclo(cfg, state, hist, forzar=False, solo_resumen=False):
         listados = leer_tiendas(cfg, state, alertas)
         revisar_productos(cfg, state, hist, listados, alertas)
         try:
+            leer_memorias_ml(cfg, state)
+        except Exception as e:  # noqa: BLE001
+            log(f"  memorias ML: error {type(e).__name__}: {e}")
+        try:
             revisar_memorias(cfg, state, hist, alertas)
         except Exception as e:  # noqa: BLE001 - las memorias nunca deben botar la revision
             log(f"  memorias: error {type(e).__name__}: {e}")
@@ -3186,6 +3238,21 @@ def diagnostico(cfg):
             for x in (res.get("items") or [])[:8]:
                 marca = "✓" if x in ok else "✗"
                 log(f"    {marca} {x['titulo']} | {clp(x['precio'])} | {x['condicion']}")
+            log("\n  microSD en MercadoLibre (✓ = vendedor seguro, el que puede ir al canal):")
+            vend = {}
+            for q in ("microsd express 256gb", "microsd sandisk 256gb", "microsd samsung evo 256gb"):
+                for x in ml_buscar(q).get("items") or []:
+                    m = clasificar_memoria(x.get("titulo") or "", x.get("precio"))
+                    if not m or x.get("condicion") == "used":
+                        continue
+                    v = vend.setdefault(x.get("vendedor") or "(sin datos)", {"seguro": x.get("seguro"),
+                                                                            "nivel": x.get("nivel"), "n": 0, "min": None})
+                    v["n"] += 1
+                    v["min"] = min(v["min"] or x["precio"], x["precio"])
+                time.sleep(0.5)
+            for nombre, v in sorted(vend.items(), key=lambda kv: (not kv[1]["seguro"], kv[1]["min"] or 0)):
+                log(f"    {'✓' if v['seguro'] else '✗'} {nombre} · {v['nivel'] or 'sin reputación destacada'}"
+                    f" · {v['n']} avisos desde {clp(v['min'])}")
         except (requests.RequestException, ValueError) as e:
             log(f"\nMercadoLibre: ERROR {e}")
     log("\nRelay por el Worker: " + ("activo" if os.environ.get("WORKER_URL") and os.environ.get("PROXY_KEY")

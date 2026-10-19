@@ -276,7 +276,7 @@ async function marcarSeguros(env, items, maxVendedores = 5) {
   const cache = {};
   const nuevos = items.filter((x) => x.condicion !== "used").sort((a, b) => a.precio - b.precio);
   for (const x of nuevos) {
-    if (x.oficial) { x.seguro = true; x.nivel = "tienda oficial"; continue; }
+    if (x.oficial) { x.seguro = true; x.nivel = "tienda oficial"; }
     if (!x.seller_id) continue;
     if (!(x.seller_id in cache)) {
       if (Object.keys(cache).length >= maxVendedores) continue;
@@ -289,6 +289,7 @@ async function marcarSeguros(env, items, maxVendedores = 5) {
     const lider = ["platinum", "gold"].includes(rep.power_seller_status);
     const negativas = ((rep.transactions || {}).ratings || {}).negative ?? 1;
     x.vendedor = u.nickname || null;
+    if (x.oficial) continue;
     if (lider && rep.level_id === "5_green" && negativas <= 0.05) {
       x.seguro = true;
       x.nivel = `MercadoLíder ${rep.power_seller_status === "platinum" ? "Platinum" : "Gold"}`;
