@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:12f116a7ae",
+        "text": "⚙️ Yoshi and the Mysterious Book S2 · $64.990"
+      },
+      "id": "12f116a7ae",
+      "nivel": "bueno",
+      "nombre": "Yoshi and the Mysterious Book",
+      "pct": 21.7,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −22%\n<b>Yoshi and the Mysterious Book</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$64.990</b> en Lider\n💡 22% bajo el resto de las tiendas\n   Ahorras $18.000 frente al promedio de las otras tiendas ($82.990)\n🏷️ La tienda marca «antes $89.990» (−28%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.lider.cl/ip/videojuegos/juego-nintendo-switch-2-yoshi-and-the-mysterious-book/00004549690639\">$64.990 Lider</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/154358219/yoshi-and-the-mysterious-book-nintendo-switch-2\">$82.990 Falabella</a> 🏪 Sniper (+$18.000)\n   🥉 <a href=\"https://sniper.cl/products/yoshi-and-the-mysterious-book-nintendo-switch-2\">$82.990 Sniper</a> (+$18.000)\n📈 Mínimo $64.990 (14 oct, Lider) · máximo $64.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El digital es $6.100 más barato, pero no se puede revender\n💼 <b>Margen</b>: la otra tienda lo vende a $82.990 → ~$18.000 (22%) de diferencia\n🔎 Confianza media: 3 tiendas y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/juego-nintendo-switch-2-yoshi-and-the-mysterious-book/00004549690639\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:0b2390051e",
         "text": "⚙️ Sw Yoshi S2 · $74.990"
       },
@@ -11,20 +23,8 @@
       "pct": 16.7,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −17%\n<b>Sw Yoshi</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$74.990</b> en Falabella\n💡 Apenas 17% bajo la referencia\n   Ahorras $15.000 frente al «antes» que marca la tienda ($89.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $74.990 (16 oct, Falabella) · máximo $89.990\n   ██▁▁▁▁  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/80760197/juego-sw-switch-2-yoshi-ns2-nintendo\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:12f116a7ae",
-        "text": "⚙️ Yoshi and the Mysterious Book S2 · $82.990"
-      },
-      "id": "12f116a7ae",
-      "nivel": "normal",
-      "nombre": "Yoshi and the Mysterious Book",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Yoshi and the Mysterious Book</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$82.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $92.990» (−11%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/154358219/yoshi-and-the-mysterious-book-nintendo-switch-2\">$82.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://sniper.cl/products/yoshi-and-the-mysterious-book-nintendo-switch-2\">$82.990 Sniper</a> (+$0)\n📈 Mínimo $64.990 (14 oct, Lider) · máximo $82.990\n   ▁▁▁▁▁█  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El digital es $24.100 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 6 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/154358219/yoshi-and-the-mysterious-book-nintendo-switch-2\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
     }
   ],
   "juego": "Yoshi",
-  "revision": "2026-10-19T16:30:19Z"
+  "revision": "2026-10-19T22:48:23Z"
 }

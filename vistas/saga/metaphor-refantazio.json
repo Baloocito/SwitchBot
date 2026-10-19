@@ -2,18 +2,29 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:cd2f5fb6d4",
-        "text": "⚙️ Metaphor: ReFantazio S2 · US$33.00"
+        "callback_data": "a:be0759256e",
+        "text": "⚙️ Metaphor: ReFantazio S2 · $49.900"
       },
-      "con_fisico": false,
-      "id": "cd2f5fb6d4",
+      "id": "be0759256e",
       "nivel": "normal",
       "nombre": "Metaphor: ReFantazio",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Metaphor: ReFantazio</b>\n🕹️ Switch 2 · 🎮 Digital (eShop)\n💰 <b>US$33.00</b> ≈ $32.421 en 🇧🇷 Brasil\n   Precio en la tienda: R$167,90 BRL\n💡 Sin oferta, precio regular\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/metaphor-refantazio-switch-2/\">US$33.00</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/metaphor-refantazio-switch-2/\">US$37.56</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/metaphor-refantazio-switch-2/\">US$37.81</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/metaphor-refantazio-switch-2/\">US$37.85</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/metaphor-refantazio-switch-2/\">US$39.27</a>\n   El más caro: 🇺🇸 US$39.99\n📈 Mínimo US$33.00 (17 oct en 🇧🇷 Brasil)\n   █▆▄▁  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/metaphor-refantazio-switch-2/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Metaphor: ReFantazio</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$49.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.900 (19 oct, TodoJuegos) · máximo $49.900\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$33.10 ≈ $32.493 en 🇧🇷 Brasil\n   ➜ El digital es $17.407 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Metaphor--ReFantazio/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:71294c073b",
+        "text": "⚙️ Metaphor: ReFantazio S2 · $59.900"
+      },
+      "id": "71294c073b",
+      "nivel": "normal",
+      "nombre": "Metaphor: ReFantazio",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Metaphor: ReFantazio (steelbook)</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$59.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.900 (19 oct, TodoJuegos) · máximo $59.900\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$33.10 ≈ $32.493 en 🇧🇷 Brasil\n   ➜ El digital es $27.407 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Metaphor--ReFantazio-SteelBook-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
     }
   ],
   "juego": "Metaphor ReFantazio",
-  "revision": "2026-10-17T22:31:06Z"
+  "revision": "2026-10-19T22:48:23Z"
 }

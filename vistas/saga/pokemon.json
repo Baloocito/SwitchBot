@@ -14,18 +14,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:e4bb258b83",
-        "text": "⚙️ Pokémon Brilliant Diamond · $54.990"
-      },
-      "id": "e4bb258b83",
-      "nivel": "normal",
-      "nombre": "Pokémon Brilliant Diamond",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Pokémon Brilliant Diamond</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.990 (14 oct, 8 Bits) · máximo $54.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $3.900 y además se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/pokemon-brilliant-diamond-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:905a2936bb",
         "text": "⚙️ Pokémon: Let’s Go, Pikachu! · $39.990"
       },
@@ -98,5 +86,5 @@
     }
   ],
   "juego": "Pokémon",
-  "revision": "2026-10-19T16:30:19Z"
+  "revision": "2026-10-19T22:48:23Z"
 }

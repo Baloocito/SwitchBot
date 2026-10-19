@@ -80,6 +80,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:36a322c74e",
+        "text": "⚙️ Moonlighter · US$2.03"
+      },
+      "con_fisico": false,
+      "id": "36a322c74e",
+      "nivel": "compra",
+      "nombre": "Moonlighter",
+      "pct": 81.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −81%\n<b>Moonlighter</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.03</b> ≈ $1.993 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −81% en la eShop\n🏷️ Normal US$10.70 → ahorras US$8.67 · ⏳ termina el 9 nov (en 21 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/moonlighter-switch/\">US$2.03</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/moonlighter-switch/\">US$2.18</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/moonlighter-switch/\">US$2.71</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/moonlighter-switch/\">US$3.25</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/moonlighter-switch/\">US$3.34</a>\n   El más caro: 🇲🇽 US$3.98\n📈 Mínimo US$2.03 (19 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/moonlighter-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:27a05c0fd7",
         "text": "⚙️ Worms W.M.D · US$4.30"
       },
@@ -109,12 +122,12 @@
         "callback_data": "a:b2f054b18b",
         "text": "⚙️ Star Renegades · US$4.01"
       },
-      "con_fisico": false,
+      "con_fisico": true,
       "id": "b2f054b18b",
       "nivel": "compra",
       "nombre": "Star Renegades",
       "pct": 80.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Star Renegades</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.01</b> ≈ $3.936 en 🇨🇱 Chile\n   Precio en la tienda: $3.939 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$20.07 → ahorras US$16.06 · ⏳ termina el 1 nov (en 13 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">US$4.01</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/star-renegades-switch/\">US$4.45</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/star-renegades-switch/\">US$4.89</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/star-renegades-switch/\">US$4.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/star-renegades-switch/\">US$5.26</a>\n   El más caro: 🇨🇴 US$7.12\n📈 Mínimo US$4.00 (16 oct en 🇨🇱 Chile)\n   █▁███  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Star Renegades</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.01</b> ≈ $3.936 en 🇨🇱 Chile\n   Precio en la tienda: $3.939 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$20.07 → ahorras US$16.06 · ⏳ termina el 1 nov (en 13 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">US$4.01</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/star-renegades-switch/\">US$4.45</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/star-renegades-switch/\">US$4.89</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/star-renegades-switch/\">US$4.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/star-renegades-switch/\">US$5.26</a>\n   El más caro: 🇨🇴 US$7.12\n📦 Físico: $27.900 en Paris → el digital te ahorra $23.964\n📈 Mínimo US$4.00 (16 oct en 🇨🇱 Chile)\n   █▁███  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -174,12 +187,12 @@
         "callback_data": "a:3d4b493493",
         "text": "⚙️ Turnip Boy Commits Tax Evasion · US$2.34"
       },
-      "con_fisico": false,
+      "con_fisico": true,
       "id": "3d4b493493",
       "nivel": "compra",
       "nombre": "Turnip Boy Commits Tax Evasion",
       "pct": 80.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Turnip Boy Commits Tax Evasion</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.34</b> ≈ $2.297 en 🇨🇱 Chile\n   Precio en la tienda: $2.296 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$11.70 → ahorras US$9.36 · ⏳ termina el 27 oct (en 8 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-commits-tax-evasion-switch/\">US$2.34</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/turnip-boy-commits-tax-evasion-switch/\">US$2.82</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/turnip-boy-commits-tax-evasion-switch/\">US$2.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/turnip-boy-commits-tax-evasion-switch/\">US$3.01</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/turnip-boy-commits-tax-evasion-switch/\">US$3.14</a>\n   El más caro: 🇨🇴 US$3.40\n📈 Mínimo US$2.33 (16 oct en 🇨🇱 Chile)\n   █▁███  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-commits-tax-evasion-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Turnip Boy Commits Tax Evasion</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.34</b> ≈ $2.297 en 🇨🇱 Chile\n   Precio en la tienda: $2.296 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$11.70 → ahorras US$9.36 · ⏳ termina el 27 oct (en 8 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-commits-tax-evasion-switch/\">US$2.34</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/turnip-boy-commits-tax-evasion-switch/\">US$2.82</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/turnip-boy-commits-tax-evasion-switch/\">US$2.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/turnip-boy-commits-tax-evasion-switch/\">US$3.01</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/turnip-boy-commits-tax-evasion-switch/\">US$3.14</a>\n   El más caro: 🇨🇴 US$3.40\n📦 Físico: $73.990 en Lider → el digital te ahorra $71.693\n📈 Mínimo US$2.33 (16 oct en 🇨🇱 Chile)\n   █▁███  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-commits-tax-evasion-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -265,12 +278,12 @@
         "callback_data": "a:9cbfc6b013",
         "text": "⚙️ Risk of Rain 2 · US$4.43"
       },
-      "con_fisico": false,
+      "con_fisico": true,
       "id": "9cbfc6b013",
       "nivel": "compra",
       "nombre": "Risk of Rain 2",
       "pct": 75.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Risk of Rain 2</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.43</b> ≈ $4.349 en 🇧🇷 Brasil\n   Precio en la tienda: R$22,49 BRL\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$17.74 → ahorras US$13.31 · ⏳ termina el 7 nov (en 19 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/risk-of-rain-2-switch/\">US$4.43</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/risk-of-rain-2-switch/\">US$4.81</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/risk-of-rain-2-switch/\">US$5.93</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/risk-of-rain-2-switch/\">US$6.13</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/risk-of-rain-2-switch/\">US$6.18</a>\n   El más caro: 🇲🇽 US$6.77\n📈 Mínimo US$4.42 (17 oct en 🇧🇷 Brasil)\n   █▁▁▃  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/risk-of-rain-2-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Risk of Rain 2</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.43</b> ≈ $4.349 en 🇧🇷 Brasil\n   Precio en la tienda: R$22,49 BRL\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$17.74 → ahorras US$13.31 · ⏳ termina el 7 nov (en 19 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/risk-of-rain-2-switch/\">US$4.43</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/risk-of-rain-2-switch/\">US$4.81</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/risk-of-rain-2-switch/\">US$5.93</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/risk-of-rain-2-switch/\">US$6.13</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/risk-of-rain-2-switch/\">US$6.18</a>\n   El más caro: 🇲🇽 US$6.77\n📦 Físico: $43.990 en Lider → el digital te ahorra $39.641\n📈 Mínimo US$4.42 (17 oct en 🇧🇷 Brasil)\n   █▁▁▃  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/risk-of-rain-2-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -503,7 +516,7 @@
       "nivel": "compra",
       "nombre": "Super Mario RPG",
       "pct": 50.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Super Mario RPG</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$24.990</b> en Sniper\n💡 50% bajo el resto de las tiendas\n   Ahorras $25.000 frente al promedio de las otras tiendas ($49.990)\n🏷️ La tienda marca «antes $49.990» (−50%)\n🏬 <b>Comparación (7 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/super-mario-rpg-nintendo-switch-sniper\">$24.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/150936466/super-mario-rpg-nintendo-switch-sniper\">$29.990 Falabella</a> 🏪 Sniper (+$5.000)\n   🥉 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Super-Mario-RPG/?ref=buscador\">$44.900 TodoJuegos</a> (+$19.910)\n   ▫️ <a href=\"https://www.paris.cl/super-mario-rpg-nintendo-switch-MKSYFC94NB.html\">$49.990 Paris</a> 🏪 Tienda RetroGamers (+$25.000)\n   ▫️ <a href=\"https://8-bits.cl/products/super-mario-rpg-nsw\">$49.990 8 Bits</a> (+$25.000)\n   ▫️ <a href=\"https://megagames.cl/producto/switch/juegos-nsw/super-mario-rpg-nsw/\">$51.990 MegaGames</a> (+$27.000)\n   ▫️ <a href=\"https://bestmart.cl/products/juego-super-mario-wonder-nintendo-switch\">$56.990 Bestmart</a> (+$32.000)\n📈 Mínimo $9.990 (14 oct, Bestmart) · máximo $49.990\n   ▁████▄  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $33.900 y además se puede revender\n🔎 Confianza media: 7 tiendas y 6 días de historial\n🛒 <a href=\"https://sniper.cl/products/super-mario-rpg-nintendo-switch-sniper\">Ir a comprar en Sniper</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Super Mario RPG</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$24.990</b> en Sniper\n💡 50% bajo el resto de las tiendas\n   Ahorras $25.000 frente al promedio de las otras tiendas ($49.990)\n🏷️ La tienda marca «antes $49.990» (−50%)\n🏬 <b>Comparación (8 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/super-mario-rpg-nintendo-switch-sniper\">$24.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/150936466/super-mario-rpg-nintendo-switch-sniper\">$29.990 Falabella</a> 🏪 Sniper (+$5.000)\n   🥉 <a href=\"https://www.lider.cl/ip/mundo-gamer/juego-switch-super-mario-rpg/00004549659963\">$29.990 Lider</a> 🏪 SNIPERCL (+$5.000)\n   ▫️ <a href=\"https://www.todojuegos.cl/Productos/NSWI/Super-Mario-RPG/?ref=buscador\">$44.900 TodoJuegos</a> (+$19.910)\n   ▫️ <a href=\"https://www.paris.cl/super-mario-rpg-nintendo-switch-MKSYFC94NB.html\">$49.990 Paris</a> 🏪 Tienda RetroGamers (+$25.000)\n   ▫️ <a href=\"https://8-bits.cl/products/super-mario-rpg-nsw\">$49.990 8 Bits</a> (+$25.000)\n   ▫️ <a href=\"https://megagames.cl/producto/switch/juegos-nsw/super-mario-rpg-nsw/\">$51.990 MegaGames</a> (+$27.000)\n   ▫️ <a href=\"https://bestmart.cl/products/juego-super-mario-wonder-nintendo-switch\">$56.990 Bestmart</a> (+$32.000)\n📈 Mínimo $9.990 (14 oct, Bestmart) · máximo $49.990\n   ▁████▄  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $33.900 y además se puede revender\n🔎 Confianza media: 8 tiendas y 6 días de historial\n🛒 <a href=\"https://sniper.cl/products/super-mario-rpg-nintendo-switch-sniper\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     },
     {
@@ -555,7 +568,7 @@
       "nivel": "compra",
       "nombre": "Turnip Boy Robs a Bank",
       "pct": 50.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Turnip Boy Robs a Bank</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.37</b> ≈ $6.253 en 🇲🇽 México\n   Precio en la tienda: MX$117,50 MXN\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$12.73 → ahorras US$6.36 · ⏳ termina el 27 oct (en 8 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/turnip-boy-robs-a-bank-switch/\">US$6.41</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/turnip-boy-robs-a-bank-switch/\">US$6.72</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/turnip-boy-robs-a-bank-switch/\">US$7.28</a>\n   El más caro: 🇨🇴 US$8.66\n📦 Físico: $49.990 en Sniper → el digital te ahorra $43.737\n📈 Mínimo US$6.34 (16 oct en 🇨🇱 Chile)\n   ▆▁▆▆█  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">Ver en la eShop de México</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Turnip Boy Robs a Bank</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.37</b> ≈ $6.253 en 🇲🇽 México\n   Precio en la tienda: MX$117,50 MXN\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$12.73 → ahorras US$6.36 · ⏳ termina el 27 oct (en 8 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/turnip-boy-robs-a-bank-switch/\">US$6.41</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/turnip-boy-robs-a-bank-switch/\">US$6.72</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/turnip-boy-robs-a-bank-switch/\">US$7.28</a>\n   El más caro: 🇨🇴 US$8.66\n📦 Físico: $49.990 en Falabella → el digital te ahorra $43.737\n📈 Mínimo US$6.34 (16 oct en 🇨🇱 Chile)\n   ▆▁▆▆█  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">Ver en la eShop de México</a>",
       "tipo": "digital"
     },
     {
@@ -638,6 +651,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:c2c29803ed",
+        "text": "⚙️ Assassin's Creed Shadows S2 · $39.900"
+      },
+      "id": "c2c29803ed",
+      "nivel": "compra",
+      "nombre": "Assassin's Creed Shadows",
+      "pct": 43.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −43%\n<b>Assassin's Creed Shadows</b>\n🕹️ Switch 2 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$39.900</b> en TodoJuegos\n💡 43% bajo el resto de las tiendas\n   Ahorras $30.090 frente al promedio de las otras tiendas ($69.990)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NS2/Assassins-Creed-Shadows/?ref=buscador\">$39.900 TodoJuegos</a>\n   🥈 <a href=\"https://bestmart.cl/products/juego-assassins-creed-shadows-nintendo-switch-2\">$64.990 Bestmart</a> (+$25.090)\n   🥉 <a href=\"https://8-bits.cl/products/assassins-creed-shadows-nintendo-switch-2\">$69.990 8 Bits</a> (+$30.090)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/156558003/assassins-creed-shadows-nintendo-switch-2\">$72.990 Falabella</a> 🏪 Dprimero Corp (+$33.090)\n📈 Mínimo $39.900 (19 oct, TodoJuegos) · máximo $64.990\n   █████▁  últimos 6 días\n🎮 Digital: US$55.01 ≈ $54.001 en 🇨🇱 Chile\n   ➜ El físico te ahorra $14.101 y además se puede revender\n💼 <b>Margen</b>: las otras tiendas lo venden a $67.490 → ~$27.590 (41%) de diferencia\n🔎 Confianza media: 4 tiendas y 6 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Assassins-Creed-Shadows/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:d1ae7f7de6",
         "text": "⚙️ Shotgun King: The Final Check… · US$7.42"
       },
@@ -648,6 +673,30 @@
       "pct": 40.1,
       "texto": "🟢 <b>COMPRA YA</b> · −40%\n<b>Shotgun King: The Final Checkmate</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$7.42</b> ≈ $7.284 en 🇨🇦 Canadá\n   Precio en la tienda: CA$10,49 CAD\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$12.38 → ahorras US$4.96 · ⏳ termina el 27 oct (en 8 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/shotgun-king-the-final-checkmate-switch/\">US$7.42</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/shotgun-king-the-final-checkmate-switch/\">US$7.49</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/shotgun-king-the-final-checkmate-switch/\">US$7.63</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/shotgun-king-the-final-checkmate-switch/\">US$8.19</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/shotgun-king-the-final-checkmate-switch/\">US$8.78</a>\n   El más caro: 🇨🇴 US$10.21\n📈 Mínimo US$7.37 (15 oct en 🇨🇦 Canadá)\n   ▁▄▇▇█  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/shotgun-king-the-final-checkmate-switch/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:ba3d6680fd",
+        "text": "⚙️ MARVEL vs. CAPCOM Fighting Co… · $34.900"
+      },
+      "id": "ba3d6680fd",
+      "nivel": "compra",
+      "nombre": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+      "pct": 35.4,
+      "texto": "🟢 <b>COMPRA YA</b> · −35%\n<b>MARVEL vs. CAPCOM Fighting Collection: Arcade Classics</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$34.900</b> en TodoJuegos\n💡 35% bajo el resto de las tiendas\n   Ahorras $19.090 frente al promedio de las otras tiendas ($53.990)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Marvel-vs--Capcom-Fighting-Collection--Arcade-Classics/?ref=buscador\">$34.900 TodoJuegos</a>\n   🥈 <a href=\"https://sniper.cl/products/marvel-vs-capcom-fighting-collection-nintendo-switch-sniper\">$39.990 Sniper</a> (+$5.090)\n   🥉 <a href=\"https://8-bits.cl/products/marvel-vs-capcom-fighting-collection-arcade-classics-nsw-comic-book\">$49.990 8 Bits</a> (+$15.090)\n   ▫️ <a href=\"https://www.lider.cl/ip/videojuegos/marvel-vs-capcom-fighting-collection-nintendo-switch-sniper/00515467951497\">$57.990 Lider</a> 🏪 SNIPER (+$23.090)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/142984626/Marvel-vs-Capcom-Fighting-Collection-Arcade-Classics-Nintendo-Switch\">$59.990 Falabella</a> 🏪 Tienda Retrogamers (+$25.090)\n📈 Mínimo $34.900 (19 oct, TodoJuegos) · máximo $49.990\n   █████▁  últimos 6 días\n🎮 Digital: US$14.64 ≈ $14.372 en 🇧🇷 Brasil (−68%)\n   ➜ El digital es $20.528 más barato, pero no se puede revender\n💼 <b>Margen</b>: las otras tiendas lo venden a $44.990 → ~$10.090 (22%) de diferencia\n🔎 Confianza media: 5 tiendas y 6 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Marvel-vs--Capcom-Fighting-Collection--Arcade-Classics/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:e9ceb94db9",
+        "text": "⚙️ Assassin's Creed III: Remaste… · $24.900"
+      },
+      "id": "e9ceb94db9",
+      "nivel": "compra",
+      "nombre": "Assassin's Creed III: Remastered",
+      "pct": 32.7,
+      "texto": "🟢 <b>COMPRA YA</b> · −33%\n<b>Assassin's Creed III: Remastered</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$24.900</b> en TodoJuegos\n💡 33% bajo el resto de las tiendas\n   Ahorras $12.090 frente al promedio de las otras tiendas ($36.990)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Assassins-Creed-III-Remastered/?ref=buscador\">$24.900 TodoJuegos</a>\n   🥈 <a href=\"https://8-bits.cl/products/assassinscreed-iii-remastered-nsw\">$34.990 8 Bits</a> (+$10.090)\n   🥉 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/assassins-creed-iii-remastered/\">$36.990 MegaGames</a> (+$12.090)\n   ▫️ <a href=\"https://www.paris.cl/assassin-s-creed-iii-remastered-nintendo-switch-MK2ZD8QAJD.html\">$45.000 Paris</a> 🏪 Tienda RetroGamers (+$20.100)\n📈 Mínimo $24.900 (19 oct, TodoJuegos) · máximo $34.990\n   █████▁  últimos 6 días\n🎮 Digital: US$25.43 ≈ $24.964 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $64 y además se puede revender\n💼 <b>Margen</b>: las otras tiendas lo venden a $35.990 → ~$11.090 (31%) de diferencia\n🛒 <a href=\"https://listado.mercadolibre.cl/assassins-creed-iii-remastered-nintendo-switch\">MercadoLibre</a>: nuevo ~$29.428 (14 avisos)\n💰 <b>Reventa</b>: lo compras a $24.900 y nuevo se vende a ~$29.428 (+$4.528 antes de comisiones)\n🔎 Confianza media: 4 tiendas y 6 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Assassins-Creed-III-Remastered/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
     },
     {
       "boton": {
@@ -729,6 +778,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:1785243745",
+        "text": "⚙️ Cuphead · $32.900"
+      },
+      "id": "1785243745",
+      "nivel": "bueno",
+      "nombre": "Cuphead",
+      "pct": 22.6,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −23%\n<b>Cuphead</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$32.900</b> en TodoJuegos\n💡 23% bajo el resto de las tiendas\n   Ahorras $9.590 frente al promedio de las otras tiendas ($42.490)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Cuphead/?ref=buscador\">$32.900 TodoJuegos</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/cuphead-switch/00081194903542\">$39.990 Lider</a> 🏪 Rivertec SPA (+$7.090)\n   🥉 <a href=\"https://sniper.cl/products/cuphead-switch-fisico-americano-sniper\">$39.990 Sniper</a> (+$7.090)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/150609959/cuphead-switch-fisico-americano-sniper\">$44.990 Falabella</a> 🏪 Sniper (+$12.090)\n   ▫️ <a href=\"https://www.paris.cl/cuphead-nintendo-switch-MKLBWQ251R.html\">$44.990 Paris</a> 🏪 RIVERTEC (+$12.090)\n📈 Mínimo $32.900 (19 oct, TodoJuegos) · máximo $39.990\n   █████▁  últimos 6 días\n🎮 Digital: US$9.84 ≈ $9.660 en 🇧🇷 Brasil\n   ➜ El digital es $23.240 más barato, pero no se puede revender\n💼 <b>Margen</b>: la otra tienda lo vende a $39.990 → ~$7.090 (18%) de diferencia\n🔎 Confianza media: 5 tiendas y 6 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Cuphead/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:aabfc0b6c2",
         "text": "⚙️ Vampire Survivors · US$2.17"
       },
@@ -742,5 +803,5 @@
     }
   ],
   "juego": "🔍 Otros juegos",
-  "revision": "2026-10-19T16:30:19Z"
+  "revision": "2026-10-19T22:48:23Z"
 }

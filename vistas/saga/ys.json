@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:13a5691059",
+        "text": "⚙️ Ys Ix: Monstrom Nox - Pact Ed… · $59.990"
+      },
+      "id": "13a5691059",
+      "nivel": "normal",
+      "nombre": "Ys Ix: Monstrom Nox - Pact Edition - Sniper",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Ys Ix: Monstrom Nox - Pact Edition - Sniper</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.990</b> en Sniper\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.990 (19 oct, Sniper) · máximo $59.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://sniper.cl/products/ys-ix-monstrom-nox-pact-edition-switch-sniper\">Ir a comprar en Sniper</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:59c192f54e",
         "text": "⚙️ Ys IX: Monstrum Nox · $89.990"
       },
@@ -26,18 +38,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:13a5691059",
-        "text": "⚙️ Ys Ix: Monstrom Nox - Pact Ed… · $59.990"
-      },
-      "id": "13a5691059",
-      "nivel": "normal",
-      "nombre": "Ys Ix: Monstrom Nox - Pact Edition - Sniper",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Ys Ix: Monstrom Nox - Pact Edition - Sniper</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.990</b> en Sniper\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.990 (19 oct, Sniper) · máximo $59.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://sniper.cl/products/ys-ix-monstrom-nox-pact-edition-switch-sniper\">Ir a comprar en Sniper</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:b5aac80c02",
         "text": "⚙️ Ys X: Nordics · $79.990"
       },
@@ -47,8 +47,20 @@
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Ys X: Nordics</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$79.990</b> en Sniper\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $79.990 (19 oct, Sniper) · máximo $79.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$50.93 ≈ $49.996 en 🇨🇱 Chile\n   ➜ El digital es $29.994 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://sniper.cl/products/ys-x-nordics-deluxe-edition-nintendo-switch-sniper\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:b636387c82",
+        "text": "⚙️ Ys X: Proud Nordics S2 · $82.900"
+      },
+      "id": "b636387c82",
+      "nivel": "normal",
+      "nombre": "Ys X: Proud Nordics",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Ys X: Proud Nordics</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$82.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $82.900 (19 oct, TodoJuegos) · máximo $82.900\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$59.41 ≈ $58.321 en 🇨🇱 Chile\n   ➜ El digital es $24.579 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Ys-X--Proud-Nordics-Deluxe-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
     }
   ],
   "juego": "Ys",
-  "revision": "2026-10-19T16:30:19Z"
+  "revision": "2026-10-19T22:48:23Z"
 }

@@ -9,7 +9,19 @@
       "nivel": "compra",
       "nombre": "Xenoblade Chronicles 3",
       "pct": 30.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −30%\n<b>Xenoblade Chronicles 3</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en Sniper\n💡 30% bajo el resto de las tiendas\n   Ahorras $15.000 frente al promedio de las otras tiendas ($49.990)\n🏷️ La tienda marca «antes $49.990» (−30%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/xenoblade-chronicles-3-nintendo-switch-sniper\">$34.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/150994039/xenoblade-chronicles-3-nintendo-switch-sniper\">$39.990 Falabella</a> 🏪 Sniper (+$5.000)\n   🥉 <a href=\"https://8-bits.cl/products/xenoblade-chronicles-3-nsw\">$59.990 8 Bits</a> (+$25.000)\n📈 Mínimo $34.990 (19 oct, Sniper) · máximo $39.990\n   █████▁  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $23.900 y además se puede revender\n💼 <b>Margen</b>: la otra tienda lo vende a $59.990 → ~$25.000 (42%) de diferencia\n🔎 Confianza media: 3 tiendas y 6 días de historial\n🛒 <a href=\"https://sniper.cl/products/xenoblade-chronicles-3-nintendo-switch-sniper\">Ir a comprar en Sniper</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −30%\n<b>Xenoblade Chronicles 3</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en Sniper\n💡 30% bajo el resto de las tiendas\n   Ahorras $15.000 frente al promedio de las otras tiendas ($49.990)\n🏷️ La tienda marca «antes $49.990» (−30%)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/xenoblade-chronicles-3-nintendo-switch-sniper\">$34.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/150994039/xenoblade-chronicles-3-nintendo-switch-sniper\">$39.990 Falabella</a> 🏪 Sniper (+$5.000)\n   🥉 <a href=\"https://www.lider.cl/ip/videojuegos/xenoblade-chronicles-3-nintendo-switch/00004549659828\">$49.990 Lider</a> 🏪 SNIPER (+$15.000)\n   ▫️ <a href=\"https://www.paris.cl/xenoblade-chronicles-3-nintendo-switch-sniper-MK20GLFA0L.html\">$49.990 Paris</a> 🏪 SNIPERCL (+$15.000)\n   ▫️ <a href=\"https://8-bits.cl/products/xenoblade-chronicles-3-nsw\">$59.990 8 Bits</a> (+$25.000)\n📈 Mínimo $34.990 (19 oct, Sniper) · máximo $39.990\n   █████▁  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $23.900 y además se puede revender\n💼 <b>Margen</b>: la otra tienda lo vende a $59.990 → ~$25.000 (42%) de diferencia\n🔎 Confianza media: 5 tiendas y 6 días de historial\n🛒 <a href=\"https://sniper.cl/products/xenoblade-chronicles-3-nintendo-switch-sniper\">Ir a comprar en Sniper</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:f12de66317",
+        "text": "⚙️ Xenoblade Chronicles Definiti… · $69.990"
+      },
+      "id": "f12de66317",
+      "nivel": "bueno",
+      "nombre": "Xenoblade Chronicles Definitive Edition",
+      "pct": 30.7,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −31%\n<b>Xenoblade Chronicles Definitive Edition</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en 8 Bits\n💡 31% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $31.000 frente a la otra tienda ($100.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/xenoblade-chronicles-definitive-edition-nsw\">$69.990 8 Bits</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-xenoblade-chronicles-definitive/00004549642582\">$100.990 Lider</a> 🏪 nocnoc (+$31.000)\n📈 Mínimo $69.990 (14 oct, 8 Bits) · máximo $69.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El digital es $11.100 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/xenoblade-chronicles-definitive-edition-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -26,14 +38,50 @@
     },
     {
       "boton": {
+        "callback_data": "a:b4b7ed8d30",
+        "text": "⚙️ Xenoblade Chronicles 2: Torna… · $77.990"
+      },
+      "id": "b4b7ed8d30",
+      "nivel": "regular",
+      "nombre": "Xenoblade Chronicles 2: Torna ~ The Golden Country",
+      "pct": 7.9,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Xenoblade Chronicles 2: Torna ~ The Golden Country</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$77.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $6.693 frente al «antes» que marca la tienda ($84.683)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $77.990 (14 oct, Lider) · máximo $77.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$38.91 ≈ $38.197 en 🇨🇦 Canadá\n   ➜ El digital es $39.793 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-xenoblade-chronicles-2-torna-the-golden-country/00004549642281\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:d42288ed4e",
+        "text": "⚙️ Xenoblade Chronicles 3 · $44.990"
+      },
+      "id": "d42288ed4e",
+      "nivel": "regular",
+      "nombre": "Xenoblade Chronicles 3",
+      "pct": 6.3,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −6%\n<b>Xenoblade Chronicles 3 (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$44.990</b> en 8 Bits\n💡 Apenas 6% bajo la referencia\n   Ahorras $3.010 frente a la otra tienda ($48.000)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/usado-xenoblade-chronicles-3-nsw\">$44.990 8 Bits</a>\n   🥈 <a href=\"https://www.todojuegos.cl/Productos/NSWI/[USADO]-Xenoblade-Chronicles-3/?ref=buscador\">$48.000 TodoJuegos</a> (+$3.010)\n📈 Mínimo $44.990 (14 oct, 8 Bits) · máximo $44.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $13.900 y además se puede revender\n🔎 Confianza media: 2 tiendas y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-xenoblade-chronicles-3-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:1b2a6a49e2",
         "text": "⚙️ Xenoblade Chronicles 2 S2 · $74.990"
       },
       "id": "1b2a6a49e2",
       "nivel": "regular",
       "nombre": "Xenoblade Chronicles 2",
-      "pct": 6.3,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −6%\n<b>Xenoblade Chronicles 2</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$74.990</b> en Falabella 🏪 <i>vende Mathogames</i>\n💡 Apenas 6% bajo la referencia\n   Ahorras $5.000 frente a la otra tienda ($79.990)\n🏷️ La tienda marca «antes $89.990» (−17%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/158299575/xenoblade-chronicles-2-nintendo-switch-2-edition\">$74.990 Falabella</a> 🏪 Mathogames\n   🥈 <a href=\"https://8-bits.cl/products/xenoblade-chronicles-2-nintendo-switch-2\">$79.990 8 Bits</a> (+$5.000)\n📈 Mínimo $74.990 (15 oct, Falabella) · máximo $79.990\n   █▁▁▁▁▁  últimos 6 días\n🎮 Digital: US$69.99 ≈ $68.707 en 🇺🇸 EE. UU.\n   ➜ El digital es $6.283 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 6 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/158299575/xenoblade-chronicles-2-nintendo-switch-2-edition\">Ir a comprar en Falabella</a>",
+      "pct": 6.1,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −6%\n<b>Xenoblade Chronicles 2</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$74.990</b> en Falabella 🏪 <i>vende Mathogames</i>\n💡 Apenas 6% bajo la referencia\n   Ahorras $4.910 frente al promedio de las otras tiendas ($79.900)\n🏷️ La tienda marca «antes $89.990» (−17%)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/158299575/xenoblade-chronicles-2-nintendo-switch-2-edition\">$74.990 Falabella</a> 🏪 Mathogames\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-xenoblade-chronicles-2-para-nintendo-switch-2/00004549690654\">$74.990 Lider</a> 🏪 MATHOGAMES.CL (+$0)\n   🥉 <a href=\"https://www.todojuegos.cl/Productos/NS2/Xenoblade-Chronicles-2-Switch-2-Edition/?ref=buscador\">$79.900 TodoJuegos</a> (+$4.910)\n   ▫️ <a href=\"https://8-bits.cl/products/xenoblade-chronicles-2-nintendo-switch-2\">$79.990 8 Bits</a> (+$5.000)\n📈 Mínimo $74.990 (15 oct, Falabella) · máximo $79.990\n   █▁▁▁▁▁  últimos 6 días\n🎮 Digital: US$69.99 ≈ $68.707 en 🇺🇸 EE. UU.\n   ➜ El digital es $6.283 más barato, pero no se puede revender\n🔎 Confianza media: 4 tiendas y 6 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/158299575/xenoblade-chronicles-2-nintendo-switch-2-edition\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:2747a3630b",
+        "text": "⚙️ Xenoblade Chronicles 2 · $117.990"
+      },
+      "id": "2747a3630b",
+      "nivel": "normal",
+      "nombre": "Xenoblade Chronicles 2",
+      "pct": 4.8,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Xenoblade Chronicles 2</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$117.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n   Ahorras $6.004 frente al «antes» que marca la tienda ($123.994)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $117.990 (14 oct, Lider) · máximo $117.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El digital es $59.100 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-xenoblade-chronicles-2/00004549659159\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -50,30 +98,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:d42288ed4e",
-        "text": "⚙️ Xenoblade Chronicles 3 · $44.990"
-      },
-      "id": "d42288ed4e",
-      "nivel": "normal",
-      "nombre": "Xenoblade Chronicles 3",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Xenoblade Chronicles 3 (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$44.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $44.990 (14 oct, 8 Bits) · máximo $44.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $13.900 y además se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-xenoblade-chronicles-3-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:f12de66317",
-        "text": "⚙️ Xenoblade Chronicles Definiti… · $69.990"
-      },
-      "id": "f12de66317",
-      "nivel": "normal",
-      "nombre": "Xenoblade Chronicles Definitive Edition",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Xenoblade Chronicles Definitive Edition</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.990 (14 oct, 8 Bits) · máximo $69.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El digital es $11.100 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/xenoblade-chronicles-definitive-edition-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:2a039f2859",
         "text": "⚙️ Xenoblade Chronicles: Definit… S2 · $79.990"
       },
@@ -86,5 +110,5 @@
     }
   ],
   "juego": "Xenoblade",
-  "revision": "2026-10-19T16:30:19Z"
+  "revision": "2026-10-19T22:48:23Z"
 }

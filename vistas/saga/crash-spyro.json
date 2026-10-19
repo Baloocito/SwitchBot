@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:c0b386e1a8",
+        "text": "⚙️ Crash Bandicoot N. Sane Trilo… · $34.900"
+      },
+      "id": "c0b386e1a8",
+      "nivel": "bueno",
+      "nombre": "Crash Bandicoot N. Sane Trilogy",
+      "pct": 22.4,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −22%\n<b>Crash Bandicoot N. Sane Trilogy</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$34.900</b> en TodoJuegos\n💡 22% bajo el resto de las tiendas\n   Ahorras $10.090 frente al promedio de las otras tiendas ($44.990)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Crash-Bandicoot-N--Sane-Trilogy/?ref=buscador\">$34.900 TodoJuegos</a>\n   🥈 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/crash-bandicoot-n-sane-trilogy-nsw/\">$39.990 MegaGames</a> (+$5.090)\n   🥉 <a href=\"https://www.paris.cl/crash-bandicoot-n-sane-trilogy-nintendo-switch-MKM6I1PJQE.html\">$44.990 Paris</a> 🏪 RIVERTEC (+$10.090)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/150761301/crash-bandicoot-n-sane-trilogy-juego-fisico-switch\">$47.990 Falabella</a> 🏪 Sniper (+$13.090)\n📈 Mínimo $34.900 (19 oct, TodoJuegos) · máximo $47.990\n   █████▁  últimos 6 días\n🎮 Digital: US$38.91 ≈ $38.197 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $3.297 y además se puede revender\n💼 <b>Margen</b>: la otra tienda lo vende a $39.990 → ~$5.090 (13%) de diferencia\n🛒 <a href=\"https://listado.mercadolibre.cl/crash-bandicoot-n-sane-trilogy-nintendo-switch\">MercadoLibre</a>: nuevo ~$44.990 (15 avisos)\n💰 <b>Reventa</b>: lo compras a $34.900 y nuevo se vende a ~$44.990 (+$10.090 antes de comisiones)\n🔎 Confianza media: 4 tiendas y 6 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Crash-Bandicoot-N--Sane-Trilogy/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:7179f52e5e",
         "text": "⚙️ Crash Bandicoot 4: It’s About… · $39.990"
       },
@@ -14,17 +26,53 @@
     },
     {
       "boton": {
-        "callback_data": "a:c0b386e1a8",
-        "text": "⚙️ Crash Bandicoot N. Sane Trilo… · $39.990"
+        "callback_data": "a:40c71fcb59",
+        "text": "⚙️ Pewesv Crash Bandicoot 4 · $67.990"
       },
-      "id": "c0b386e1a8",
-      "nivel": "bueno",
+      "id": "40c71fcb59",
+      "nivel": "regular",
+      "nombre": "Pewesv Crash Bandicoot 4",
+      "pct": 8.6,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>Pewesv Crash Bandicoot 4</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$67.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 9% bajo la referencia\n   Ahorras $6.424 frente al «antes» que marca la tienda ($74.414)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $67.990 (15 oct, Lider) · máximo $69.990\n   █▁▁▁▁▁  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-pewesv-crash-bandicoot-4-para-nintendo-switch/00478751025125\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:41f137d44c",
+        "text": "⚙️ Koch Media Crash Bandicoot 4 · $68.990"
+      },
+      "id": "41f137d44c",
+      "nivel": "regular",
+      "nombre": "Koch Media Crash Bandicoot 4",
+      "pct": 7.4,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Koch Media Crash Bandicoot 4</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$68.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $5.481 frente al «antes» que marca la tienda ($74.471)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $68.990 (16 oct, Lider) · máximo $68.990\n   ▄▄▄▄  últimos 4 días\n🔎 Confianza baja: una sola tienda y 4 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-koch-media-crash-bandicoot-4-para-switch/00503091729418\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:f18504111d",
+        "text": "⚙️ Spyro Reignited Trilogy · $34.900"
+      },
+      "id": "f18504111d",
+      "nivel": "normal",
+      "nombre": "Spyro Reignited Trilogy",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Spyro Reignited Trilogy</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$34.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $34.900 (19 oct, TodoJuegos) · máximo $61.990\n   ███▁  últimos 4 días\n🎮 Digital: US$35.37 ≈ $34.722 en 🇨🇦 Canadá\n   ➜ El digital es $178 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 4 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Spyro-Reignited-Trilogy/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:d633fa2fdc",
+        "text": "⚙️ Crash Bandicoot N. Sane Trilo… · $28.000"
+      },
+      "id": "d633fa2fdc",
+      "nivel": "normal",
       "nombre": "Crash Bandicoot N. Sane Trilogy",
-      "pct": 16.7,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −17%\n<b>Crash Bandicoot N. Sane Trilogy</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$39.990</b> en MegaGames\n💡 17% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $8.000 frente a la otra tienda ($47.990)\n🏷️ La tienda marca «antes $45.990» (−13%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/crash-bandicoot-n-sane-trilogy-nsw/\">$39.990 MegaGames</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/150761301/crash-bandicoot-n-sane-trilogy-juego-fisico-switch\">$47.990 Falabella</a> 🏪 Sniper (+$8.000)\n📈 Mínimo $39.990 (19 oct, MegaGames) · máximo $47.990\n   █████▁  últimos 6 días\n🎮 Digital: US$38.91 ≈ $38.197 en 🇨🇦 Canadá\n   ➜ El digital es $1.793 más barato, pero no se puede revender\n🛒 <a href=\"https://listado.mercadolibre.cl/crash-bandicoot-n-sane-trilogy-nintendo-switch\">MercadoLibre</a>: nuevo ~$44.990 (15 avisos)\n💰 <b>Reventa</b>: lo compras a $39.990 y nuevo se vende a ~$44.990 (+$5.000 antes de comisiones)\n🔎 Confianza media: 2 tiendas y 6 días de historial\n🛒 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/crash-bandicoot-n-sane-trilogy-nsw/\">Ir a comprar en MegaGames</a>",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Crash Bandicoot N. Sane Trilogy (usado)</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$28.000</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $28.000 (19 oct, TodoJuegos) · máximo $28.000\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$38.91 ≈ $38.197 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $10.197 y además se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/[USADO]-Crash-Bandicoot-N--Sane-Trilogy/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
     }
   ],
   "juego": "Crash / Spyro",
-  "revision": "2026-10-19T16:30:19Z"
+  "revision": "2026-10-19T22:48:23Z"
 }

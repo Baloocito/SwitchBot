@@ -2,6 +2,30 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:1e0b42013f",
+        "text": "⚙️ Nueva Versión Europea De Poké… · $101.990"
+      },
+      "id": "1e0b42013f",
+      "nivel": "regular",
+      "nombre": "Nueva Versión Europea De Pokémon Snap",
+      "pct": 8.2,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Nueva Versión Europea De Pokémon Snap</b>\n🕹️ Switch 1 · 📦 Físico · Pokémon Mystery Dungeon / Snap\n💰 <b>$101.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $9.151 frente al «antes» que marca la tienda ($111.141)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $101.990 (14 oct, Lider) · máximo $101.990\n   ▄▄▄▄▄▄  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-switch-nueva-version-europea-de-pokemon-snap/00004549642739\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:b1d0d6bd0f",
+        "text": "⚙️ Chocobo's Mystery Dungeon EVE… · $49.990"
+      },
+      "id": "b1d0d6bd0f",
+      "nivel": "normal",
+      "nombre": "Chocobo's Mystery Dungeon EVERY BUDDY!",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Chocobo's Mystery Dungeon EVERY BUDDY!</b>\n🕹️ Switch 1 · 📦 Físico · Pokémon Mystery Dungeon / Snap\n💰 <b>$49.990</b> en Paris 🏪 <i>vende Tienda RetroGamers </i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (19 oct, Paris) · máximo $49.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$32.51 ≈ $31.914 en 🇧🇷 Brasil\n   ➜ El digital es $18.076 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.paris.cl/chocobo-mystery-dungeon-every-buddy-nintendo-switch-MKY3NNZIU6.html\">Ir a comprar en Paris</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:41e7003f0d",
         "text": "⚙️ New Pokémon Snap · $54.990"
       },
@@ -23,20 +47,8 @@
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>New Pokémon Snap (usado)</b>\n🕹️ Switch 1 · 📦 Físico · Pokémon Mystery Dungeon / Snap\n💰 <b>$39.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (14 oct, 8 Bits) · máximo $39.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$59.99 ≈ $58.890 en 🇺🇸 EE. UU.\n   ➜ El físico te ahorra $18.900 y además se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-new-pokemon-snap-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:b1d0d6bd0f",
-        "text": "⚙️ Chocobo's Mystery Dungeon EVE… · $49.990"
-      },
-      "id": "b1d0d6bd0f",
-      "nivel": "normal",
-      "nombre": "Chocobo's Mystery Dungeon EVERY BUDDY!",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Chocobo's Mystery Dungeon EVERY BUDDY!</b>\n🕹️ Switch 1 · 📦 Físico · Pokémon Mystery Dungeon / Snap\n💰 <b>$49.990</b> en Paris 🏪 <i>vende Tienda RetroGamers </i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (19 oct, Paris) · máximo $49.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$32.51 ≈ $31.914 en 🇧🇷 Brasil\n   ➜ El digital es $18.076 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.paris.cl/chocobo-mystery-dungeon-every-buddy-nintendo-switch-MKY3NNZIU6.html\">Ir a comprar en Paris</a>",
-      "tipo": "fisico"
     }
   ],
   "juego": "Pokémon Mystery Dungeon / Snap",
-  "revision": "2026-10-19T16:30:19Z"
+  "revision": "2026-10-19T22:48:23Z"
 }

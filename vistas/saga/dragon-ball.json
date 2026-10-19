@@ -14,6 +14,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:4c30807216",
+        "text": "⚙️ Dragon Ball Z Kakarot + A New… · $39.900"
+      },
+      "id": "4c30807216",
+      "nivel": "bueno",
+      "nombre": "Dragon Ball Z Kakarot + A New Power Awakes Set -sniper",
+      "pct": 20.2,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −20%\n<b>Dragon Ball Z Kakarot + A New Power Awakes Set -sniper</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.900</b> en TodoJuegos\n💡 20% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $10.090 frente a la otra tienda ($49.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Dragon-Ball-Z--Kakarot-A-New-Power-Awakes-Set/?ref=buscador\">$39.900 TodoJuegos</a>\n   🥈 <a href=\"https://sniper.cl/products/dragon-ball-z-kakarot-a-new-power-awakes-set-nsw-sniper\">$49.990 Sniper</a> (+$10.090)\n📈 Mínimo $39.900 (19 oct, TodoJuegos) · máximo $39.900\n   Historial recién empezando: en 7 días sabré su precio típico\n💼 <b>Margen</b>: la otra tienda lo vende a $49.990 → ~$10.090 (20%) de diferencia\n🔎 Confianza media: 2 tiendas y 1 día de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Dragon-Ball-Z--Kakarot-A-New-Power-Awakes-Set/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:26c383f9a9",
         "text": "⚙️ DRAGON BALL FighterZ · $29.990"
       },
@@ -22,18 +34,6 @@
       "nombre": "DRAGON BALL FighterZ",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DRAGON BALL FighterZ (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (14 oct, 8 Bits) · máximo $29.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$20.37 ≈ $19.997 en 🇨🇱 Chile\n   ➜ El digital es $9.993 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-dragon-ball-fighterz-nsw-1\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:2fdf1ad6ab",
-        "text": "⚙️ Dragon Ball Heroes World Miss… · $19.990"
-      },
-      "id": "2fdf1ad6ab",
-      "nivel": "normal",
-      "nombre": "Dragon Ball Heroes World Mission",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Dragon Ball Heroes World Mission (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$19.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $19.990 (14 oct, 8 Bits) · máximo $19.990\n   ▄▄▄▄▄▄  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-dragon-ball-heroes-world-mission-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -50,18 +50,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:4c30807216",
-        "text": "⚙️ Dragon Ball Z Kakarot + A New… · $49.990"
-      },
-      "id": "4c30807216",
-      "nivel": "normal",
-      "nombre": "Dragon Ball Z Kakarot + A New Power Awakes Set -sniper",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Dragon Ball Z Kakarot + A New Power Awakes Set -sniper</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Sniper\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (19 oct, Sniper) · máximo $49.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://sniper.cl/products/dragon-ball-z-kakarot-a-new-power-awakes-set-nsw-sniper\">Ir a comprar en Sniper</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:35c71cb86d",
         "text": "⚙️ Super Dragon Ball Heroes Worl… · $49.990"
       },
@@ -71,8 +59,20 @@
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Super Dragon Ball Heroes World Mission</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Sniper\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (19 oct, Sniper) · máximo $49.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://sniper.cl/products/super-dragon-ball-heroes-world-mission-nintendo-switch\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:2fdf1ad6ab",
+        "text": "⚙️ Dragon Ball Heroes World Miss… · $19.990"
+      },
+      "id": "2fdf1ad6ab",
+      "nivel": "normal",
+      "nombre": "Dragon Ball Heroes World Mission",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Dragon Ball Heroes World Mission (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$19.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $19.990 (14 oct, 8 Bits) · máximo $19.990\n   ▄▄▄▄▄▄  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-dragon-ball-heroes-world-mission-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
     }
   ],
   "juego": "Dragon Ball",
-  "revision": "2026-10-19T16:30:19Z"
+  "revision": "2026-10-19T22:48:23Z"
 }

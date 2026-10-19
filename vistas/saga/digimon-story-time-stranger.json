@@ -2,18 +2,6 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:201237128f",
-        "text": "⚙️ Digimon Story Time Stranger · $79.990"
-      },
-      "id": "201237128f",
-      "nivel": "normal",
-      "nombre": "Digimon Story Time Stranger",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Digimon Story Time Stranger (import japan)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$79.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $79.990 (14 oct, 8 Bits) · máximo $79.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$46.35 ≈ $45.500 en 🇨🇱 Chile\n   ➜ El digital es $34.490 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/digimon-story-time-stranger-nsw-digimon-card-game-japan-import\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:47b496cb5b",
         "text": "⚙️ Digimon Story Time Stranger S2 · $69.900"
       },
@@ -22,6 +10,18 @@
       "nombre": "Digimon Story Time Stranger",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Digimon Story Time Stranger</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$69.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.900 (19 oct, TodoJuegos) · máximo $69.900\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$46.35 ≈ $45.500 en 🇨🇱 Chile\n   ➜ El digital es $24.400 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Digimon-Story-Time-Stranger/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:201237128f",
+        "text": "⚙️ Digimon Story Time Stranger · $79.990"
+      },
+      "id": "201237128f",
+      "nivel": "normal",
+      "nombre": "Digimon Story Time Stranger",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Digimon Story Time Stranger (import japan)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$79.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $79.990 (14 oct, 8 Bits) · máximo $79.990\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$46.35 ≈ $45.500 en 🇨🇱 Chile\n   ➜ El digital es $34.490 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/digimon-story-time-stranger-nsw-digimon-card-game-japan-import\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -38,5 +38,5 @@
     }
   ],
   "juego": "Digimon Story Time Stranger",
-  "revision": "2026-10-19T16:30:19Z"
+  "revision": "2026-10-19T22:48:23Z"
 }
