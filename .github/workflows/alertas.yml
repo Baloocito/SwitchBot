@@ -77,11 +77,29 @@ jobs:
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           WORKER_URL: ${{ secrets.WORKER_URL }}
           PROXY_KEY: ${{ secrets.PROXY_KEY }}
+        timeout-minutes: 40         # el paso se corta antes que el job: asi el log igual se publica
         run: |
-          if [ "${{ inputs.modo }}" = "resumen" ]; then python bot.py --resumen
-          elif [ "${{ inputs.modo }}" = "programado" ]; then python bot.py
-          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then python bot.py --forzar
-          else python bot.py; fi
+          set -o pipefail
+          if [ "${{ inputs.modo }}" = "resumen" ]; then ARGS="--resumen"
+          elif [ "${{ inputs.modo }}" = "programado" ]; then ARGS=""
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then ARGS="--forzar"
+          else ARGS=""; fi
+          python -u bot.py $ARGS 2>&1 | tee /tmp/revision.log
+
+      # El log de la ultima revision queda en la rama "logs" (tambien si fallo o se corto),
+      # para poder leerlo sin descargar nada.
+      - name: Publicar log
+        if: ${{ always() && inputs.modo != 'diagnostico' }}
+        continue-on-error: true
+        run: |
+          [ -f /tmp/revision.log ] || exit 0
+          cd "$(mktemp -d)"
+          git init -q && git checkout -q -b logs
+          cp /tmp/revision.log revision.log
+          git config user.name "bot-ofertas"
+          git config user.email "bot-ofertas@users.noreply.github.com"
+          git add revision.log && git commit -qm "Log ${{ github.run_id }} (${{ job.status }})"
+          git push -fq "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" logs
 
       - name: Guardar estado
         if: ${{ inputs.modo != 'diagnostico' }}

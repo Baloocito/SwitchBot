@@ -58,6 +58,7 @@ PAUSA = 1.0                 # segundos entre consultas a una misma tienda
 INICIO = time.time()
 LIMITE_CATALOGO_MIN = 14    # despues de esto, los catalogos completos se cortan
 LIMITE_ML_MIN = 24          # despues de esto, no se consulta mas MercadoLibre en esta revision
+LIMITE_TIENDAS_MIN = 20     # despues de esto, cada tienda deja de buscar (se queda con lo que tiene)
 
 
 def minutos():
@@ -1445,6 +1446,10 @@ def _leer_una_tienda(tienda, juegos, state):
     for juego in juegos:
         if juego.get("fisico") is False:
             continue
+        if minutos() > LIMITE_TIENDAS_MIN and not VOLCAR:
+            cache.setdefault("diag", []).append(f"busqueda cortada a los {minutos():.0f} min")
+            log(f"  {tienda['nombre']}: corto la busqueda a los {minutos():.0f} min (lenta)")
+            break
         for t in terminos(juego):
             nt = norm(t)
             if nt in vistos_terminos:
@@ -1483,6 +1488,8 @@ def _leer_una_tienda(tienda, juegos, state):
         fuentes = [cache.get("shopify")] if cache.get("metodo") == "shopify" else []
         if not fuentes:
             for t in terminos_mem:
+                if minutos() > LIMITE_TIENDAS_MIN:
+                    break
                 prods = buscar_en_tienda(tienda, t, state, cache)
                 fuentes.append(prods or [])
                 time.sleep(PAUSA)
@@ -1506,8 +1513,11 @@ def es_juego_switch(titulo):
 
 def _leer_seguro(tienda, juegos, state):
     """Si una tienda revienta, se cuenta como fallo y las demas siguen."""
+    t0 = time.time()
     try:
-        return _leer_una_tienda(tienda, juegos, state)
+        r = _leer_una_tienda(tienda, juegos, state)
+        r[2]["seg"] = time.time() - t0
+        return r
     except Exception as e:  # noqa: BLE001
         return False, {}, {"diag": [f"error inesperado: {type(e).__name__}: {str(e)[:150]}"]}
 
@@ -1535,6 +1545,9 @@ def leer_tiendas(cfg, state, alertas):
             p["externo"] = es_externo(p, tienda)
             MEMORIAS_LISTADOS.append((tienda["nombre"], p))
     log(f"  tiendas leidas en {time.time() - t0:.0f} s")
+    for tienda, _, _, cache in resultados:
+        if cache.get("seg"):
+            log(f"    {tienda['nombre']}: {cache['seg']:.0f} s")
     if RELAY_USADO:
         log(f"  leidas por el Worker (bloqueaban a GitHub): {', '.join(sorted(RELAY_USADO))}")
     for tienda, respondio, hallados, cache in resultados:
@@ -3363,6 +3376,9 @@ def diagnostico_memorias(cfg, tienda, cache):
 # ---------------------------------------------------------------------- main
 
 def main():
+    # si algo se cuelga, a los 33 min se imprime en el log donde esta cada hilo (para encontrarlo)
+    import faulthandler
+    faulthandler.dump_traceback_later(33 * 60, exit=False)
     if "--test" in sys.argv:
         ok = send_telegram("✅ <b>PRUEBA DE CONEXIÓN</b>\nSwitchBot está conectado y funcionando.")
         sys.exit(0 if ok else 1)
