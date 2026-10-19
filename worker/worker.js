@@ -15,6 +15,7 @@
 
 const GH = "https://api.github.com";
 const WORKFLOW = "alertas.yml";
+const VERSION = "2026-10-19 despliegue automático";
 const TG_MAX = 3900;
 
 const SEP = "━━━━━━━━━━━━━━";
@@ -123,7 +124,7 @@ export default {
         headers: { "content-type": "text/plain; charset=utf-8" },
       });
     }
-    if (request.method !== "POST") return new Response("SwitchBot activo.");
+    if (request.method !== "POST") return new Response(`SwitchBot activo · versión ${VERSION}`);
 
     if (request.headers.get("X-Telegram-Bot-Api-Secret-Token") !== env.WEBHOOK_SECRET) {
       return new Response("No autorizado.", { status: 403 });
