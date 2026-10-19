@@ -59,7 +59,7 @@ jobs:
         continue-on-error: true
         run: |
           [ -d diagnostico ] || exit 0
-          cp -r diagnostico /tmp/diag
+          cp -r diagnostico /tmp/diag && rm -rf diagnostico
           git config user.name "bot-ofertas"
           git config user.email "bot-ofertas@users.noreply.github.com"
           git checkout --orphan diag-tmp
