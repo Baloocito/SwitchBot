@@ -24,7 +24,9 @@ permissions:
   contents: write             # para guardar canal_estado.json
 
 concurrency:
-  group: alertas              # el mismo grupo que alertas.yml: nunca corren a la vez
+  # Grupo propio: si compartiera el de alertas.yml, GitHub cancela la revision de precios cuando
+  # el canal se pone en la fila al mismo tiempo (paso el 19-oct: 16 h sin revisar precios).
+  group: canal
   cancel-in-progress: false
 
 jobs:

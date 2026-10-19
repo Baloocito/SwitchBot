@@ -42,7 +42,8 @@ ESTADO_FILE = BASE / "canal_estado.json"
 DECISIONES_FILE = BASE / "canal_decisiones.json"   # lo escribe el Worker con los botones de revision
 NOMBRE_SLOT = {"top": "Top 5 del día", "pack": "Pack del día", "fisicos": "Físicos en Chile",
                "ultima": "Última llamada", "semanal": "Top de la semana", "bombazo": "Bombazo",
-               "proximos": "Lo que viene", "memorias": "Memorias microSD"}
+               "proximos": "Lo que viene", "memorias": "Memorias microSD",
+               "clasicos": "Los imprescindibles"}
 OTROS = "otros juegos"
 DIAS = ["lun", "mar", "mie", "jue", "vie", "sab", "dom"]
 VENTANA_MIN = 90            # minutos despues de la hora del slot en que todavia se publica
@@ -840,8 +841,64 @@ def slot_memorias(cfg, est, cands, t):
     return {"texto": "\n".join(l), "botones": pie(cfg)}, []
 
 
+def slot_clasicos(cfg, est, cands, t):
+    """Relleno util cuando no hay ofertas nuevas: cuanto cuestan HOY los imprescindibles
+    (sagas estrella, joyas y los mas populares) en fisico, y que tan cerca estan de su minimo."""
+    state = load_json(STATE_FILE, {})
+    corte = (t - timedelta(hours=30)).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    eshop = state.get("eshop") or {}
+    usados = set((est.get("relleno_juegos") or {}).keys())
+    items = []
+    for s in (state.get("productos") or {}).values():
+        if (s.get("visto") or "") < corte or s.get("externo") or s.get("variante") or not s.get("precio"):
+            continue
+        e = eshop.get(s.get("nsuid") or "") or {}
+        if not relevante(cfg, s["nombre"], saga_de(s.get("juego")), e.get("editora"), e.get("popularidad")):
+            continue
+        if s.get("id") in usados:
+            continue                      # no repetir el mismo juego en los rellenos de la semana
+        items.append((e.get("popularidad") or 9999, s))
+    def pct_real(s):                       # solo descuentos confirmados (historial u otras tiendas)
+        p = s.get("pct") or 0
+        return p if s.get("ref_tipo") in ("tipico", "mercado") and p <= 60 else 0
+    items.sort(key=lambda x: (x[0], -pct_real(x[1]), x[1]["precio"]))
+    elegidos = [s for _, s in items[:6]]
+    if len(elegidos) < 3:
+        return None, []
+    l = ["🎯 <b>LOS IMPRESCINDIBLES</b> · cuánto cuestan hoy",
+         f"<i>{fecha_txt(t)} · el precio más bajo en tiendas de Chile</i>"]
+    for i, s in enumerate(elegidos):
+        url = afiliar(cfg, s.get("tienda"), s.get("url"))
+        linea = (f"{MEDALLAS[i]} <a href=\"{esc_attr(url)}\"><b>{esc(corto(s['nombre'], 44))}</b></a>"
+                 + (" (S2)" if s.get("plataforma") == "Switch 2" else ""))
+        precio = f"   💰 <b>{clp(s['precio'])}</b> en {esc(s.get('tienda') or '')}"
+        if pct_real(s) >= 5:
+            precio += f" · −{round(pct_real(s))}%"
+        l += ["", linea, precio]
+        if s.get("min_hist") and (s.get("dias") or 0) >= MIN_DIAS:
+            if s["precio"] <= s["min_hist"]:
+                l.append("   📉 Es lo más barato que lo hemos visto")
+            else:
+                l.append(f"   📊 Lo más barato que lo vimos: {clp(s['min_hist'])}")
+    l += ["", LINEA, "💡 Si estás esperando uno, guárdalo: te avisamos cuando baje."]
+    if not os.environ.get("DRY_RUN"):
+        rj = est.setdefault("relleno_juegos", {})
+        for s in elegidos:
+            rj[s.get("id")] = t.date().isoformat()
+        corte_d = (t - timedelta(days=7)).date().isoformat()
+        for k in [k for k, v in rj.items() if v < corte_d]:
+            del rj[k]
+    return {"texto": "\n".join(l), "botones": pie(cfg)}, []
+
+
 SLOTS = {"top": slot_top, "pack": slot_pack, "fisicos": slot_fisicos, "proximos": slot_proximos,
-         "ultima": slot_ultima, "semanal": slot_semanal, "memorias": slot_memorias}
+         "ultima": slot_ultima, "semanal": slot_semanal, "memorias": slot_memorias,
+         "clasicos": slot_clasicos}
+
+# Si un horario no tiene ofertas nuevas, se publica uno de estos (el que lleve mas dias sin salir),
+# para que el canal nunca quede mudo. canal.json -> ajustes.relleno lo cambia.
+RELLENO = ["clasicos", "memorias", "proximos"]
+RELLENO_DIAS_MIN = 2              # el mismo relleno no se repite antes de 2 dias
 
 
 # --------------------------------------------------------------- envio
@@ -1134,6 +1191,10 @@ def correr_slot(cfg, est, cands, t, slot, sonido, forzar=False):
         log(f"  {slot}: ya se publicó hoy")
         return
     post, items = SLOTS[slot](cfg, est, cands, t)
+    if not post and slot in cfg["ajustes"].get("slots_con_relleno", ["top", "pack", "fisicos"]):
+        post, items, usado = relleno(cfg, est, cands, t)
+        if post:
+            log(f"  {slot}: sin ofertas nuevas, publico relleno '{usado}'")
     if not post:
         log(f"  {slot}: nada que pase el filtro, se salta")
         if not os.environ.get("DRY_RUN"):
@@ -1143,6 +1204,25 @@ def correr_slot(cfg, est, cands, t, slot, sonido, forzar=False):
     if publicar(cfg, est, t, slot, post, items, sonido, grupo) and not os.environ.get("DRY_RUN"):
         d["slots"].append(slot)
         log(f"  {slot}: listo ({len(items)} juegos)")
+
+
+def relleno(cfg, est, cands, t):
+    """El relleno que lleve mas tiempo sin publicarse (y que tenga datos)."""
+    usados = est.setdefault("relleno", {})
+    hoy = t.date()
+    opciones = cfg["ajustes"].get("relleno") or RELLENO
+    def dias_sin(r):
+        f = usados.get(r)
+        return (hoy - datetime.fromisoformat(f).date()).days if f else 999
+    for r in sorted(opciones, key=lambda r: -dias_sin(r)):
+        if dias_sin(r) < RELLENO_DIAS_MIN or r not in SLOTS:
+            continue
+        post, items = SLOTS[r](cfg, est, cands, t)
+        if post:
+            if not os.environ.get("DRY_RUN"):
+                usados[r] = hoy.isoformat()
+            return post, items, r
+    return None, [], None
 
 
 def toca_hoy(dias, t):

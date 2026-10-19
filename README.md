@@ -117,6 +117,11 @@ a horas fijas y sin repetir. Tu chat personal sigue recibiendo todo, igual que a
 | 20:00 | Memorias microSD (comparador) | mié |
 | Tras cada revisión | Bombazo (máx. 2 al día, nunca entre 23:00 y 08:30) | todos |
 
+**Nunca mudo:** si al Top, al Pack o a Físicos no les toca ninguna oferta nueva, sale un relleno
+útil en su lugar (el que lleve más días sin salir): 🎯 *Los imprescindibles* (cuánto cuestan hoy
+los juegos de sagas grandes y los más populares, sin repetir juegos en la semana), 💾 *Memorias*
+o 📅 *Lo que viene*. Se cambia en `canal.json` → `ajustes.relleno`.
+
 **Qué publica:** cada oferta recibe un puntaje (0–100) según si es de una saga que sigues, una "joya"
 conocida o de una editora confiable, más el descuento, lo que ahorras en pesos y si es mínimo histórico.
 Lo que es relleno (simuladores con año en el título, ajedrez, solitarios, juegos para niños pequeños,
