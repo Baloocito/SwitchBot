@@ -1899,7 +1899,11 @@ def revisar_mercadolibre(cfg, state, hoy):
             (usados if it.get("condicion") == "used" else nuevos).append(it)
         def med(xs):
             return _mediana([x["precio"] for x in xs]) if len(xs) >= 2 else None
-        ml[clave] = {"fecha": hoy, "nombre": s["nombre"],
+        seguros = sorted((x for x in nuevos if x.get("seguro")), key=lambda x: x["precio"])
+        seguro = ({"precio": seguros[0]["precio"], "url": seguros[0].get("url"),
+                   "vendedor": seguros[0].get("vendedor"), "nivel": seguros[0].get("nivel")}
+                  if seguros else None)
+        ml[clave] = {"fecha": hoy, "nombre": s["nombre"], "seguro": seguro,
                      "nuevo": med(nuevos), "n_nuevo": len(nuevos),
                      "nuevo_min": min((x["precio"] for x in nuevos), default=None),
                      "usado": med(usados), "n_usado": len(usados),

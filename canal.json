@@ -485,5 +485,14 @@
     "_ayuda": "Descuentos desde estos % no se publican: te llegan a tu chat para revisarlos (suelen ser errores de la tienda o de lectura).",
     "pct_fisico": 80,
     "pct_digital": 95
+  },
+  "afiliados": {
+    "_ayuda": "Parametros de afiliado que se agregan a los links de cada tienda (el nombre debe ser igual al de juegos.json; MercadoLibre es aparte). Mientras falte algun valor, los links salen normales. Los links con afiliado se marcan con 🔗 en el canal.",
+    "MercadoLibre": {
+      "parametros": {
+        "matt_word": "",
+        "matt_tool": ""
+      }
+    }
   }
 }

@@ -165,6 +165,17 @@ a través del Worker (que guarda las credenciales; el repo es público y no las 
 Se ve en las tarjetas físicas ("🛒 MercadoLibre: nuevo ~$X · usado ~$Y", "💰 Reventa") y en el
 informe diario (sección REVENTA). Hasta 40 juegos por revisión, cada uno cada 3 días.
 
+### MercadoLibre en el canal y afiliados
+
+En los posts de físicos, MercadoLibre aparece como una tienda más, pero solo con un vendedor
+seguro (tienda oficial, o MercadoLíder Gold/Platinum con reputación verde y menos de 5 % de
+calificaciones negativas) y solo publicaciones nuevas.
+
+Los links de afiliado se configuran en `canal.json` → `afiliados`: por cada tienda, los
+parámetros que se agregan al link (MercadoLibre: `matt_word` y `matt_tool`, que salen de un link
+del Generador de links). Mientras falte un valor, el link sale normal. Los links con afiliado
+llevan 🔗 en el canal.
+
 ## Tiendas que bloquean a GitHub (relay por el Worker)
 
 Algunas tiendas (Paris, Weplay…) rechazan las visitas desde los servidores de GitHub. Si una

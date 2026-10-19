@@ -251,7 +251,9 @@ async function mlBuscarCatalogo(env, q) {
     if (it.status === 200 && Array.isArray(it.j.results) && it.j.results.length) {
       for (const x of it.j.results) {
         items.push({ titulo: p.name, precio: x.price, moneda: x.currency_id || "CLP", condicion: x.condition || "new",
-          url: `https://www.mercadolibre.cl/p/${p.id}`, vendidos: x.sold_quantity ?? null,
+          url: x.item_id ? `https://articulo.mercadolibre.cl/${String(x.item_id).replace(/^MLC-?/, "MLC-")}`
+            : `https://www.mercadolibre.cl/p/${p.id}`,
+          vendidos: x.sold_quantity ?? null, seller_id: x.seller_id || null,
           oficial: !!x.official_store_id, vendedor: null, envio_gratis: !!(x.shipping && x.shipping.free_shipping) });
       }
     } else {
@@ -264,7 +266,34 @@ async function mlBuscarCatalogo(env, q) {
       }
     }
   }
+  await marcarSeguros(env, items);
   return { ok: true, via: "catalogo", total: items.length, items };
+}
+
+// Vendedor seguro para recomendar en el canal: tienda oficial, o MercadoLíder Gold/Platinum
+// con reputación verde. Se revisan solo los nuevos más baratos (una consulta por vendedor).
+async function marcarSeguros(env, items, maxVendedores = 5) {
+  const cache = {};
+  const nuevos = items.filter((x) => x.condicion !== "used").sort((a, b) => a.precio - b.precio);
+  for (const x of nuevos) {
+    if (x.oficial) { x.seguro = true; x.nivel = "tienda oficial"; continue; }
+    if (!x.seller_id) continue;
+    if (!(x.seller_id in cache)) {
+      if (Object.keys(cache).length >= maxVendedores) continue;
+      const u = await mlGet(env, `/users/${x.seller_id}`).catch(() => ({ status: 0, j: {} }));
+      cache[x.seller_id] = u.status === 200 ? u.j : null;
+    }
+    const u = cache[x.seller_id];
+    if (!u) continue;
+    const rep = u.seller_reputation || {};
+    const lider = ["platinum", "gold"].includes(rep.power_seller_status);
+    const negativas = ((rep.transactions || {}).ratings || {}).negative ?? 1;
+    x.vendedor = u.nickname || null;
+    if (lider && rep.level_id === "5_green" && negativas <= 0.05) {
+      x.seguro = true;
+      x.nivel = `MercadoLíder ${rep.power_seller_status === "platinum" ? "Platinum" : "Gold"}`;
+    }
+  }
 }
 
 async function mlBuscar(env, q, offset = 0) {
@@ -282,8 +311,9 @@ async function mlBuscar(env, q, offset = 0) {
   const items = (j.results || []).map((x) => ({
     titulo: x.title, precio: x.price, moneda: x.currency_id, condicion: x.condition, url: x.permalink,
     vendidos: x.sold_quantity ?? null, oficial: !!x.official_store_id, vendedor: x.seller && x.seller.nickname || null,
-    envio_gratis: !!(x.shipping && x.shipping.free_shipping),
+    seller_id: x.seller && x.seller.id || null, envio_gratis: !!(x.shipping && x.shipping.free_shipping),
   }));
+  await marcarSeguros(env, items);
   return { ok: true, via: tok.via, total: (j.paging && j.paging.total) || items.length, items };
 }
 

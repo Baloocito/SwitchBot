@@ -137,6 +137,36 @@ def saga_de(juego):
 
 # ------------------------------------------------------------ candidatos
 
+def afiliar(cfg, tienda, url):
+    """Agrega los parametros de afiliado de la tienda (canal.json -> afiliados) al link.
+    Si la tienda no tiene afiliado configurado (o falta algun valor), el link queda igual."""
+    conf = (cfg.get("afiliados") or {}).get(tienda or "") or {}
+    params = conf.get("parametros") or {}
+    if not url or not params or not all(params.values()) or conf.get("activo") is False:
+        return url
+    sep = "&" if "?" in url else "?"
+    return url + sep + "&".join(f"{k}={quote(str(v))}" for k, v in params.items())
+
+
+def es_afiliado(cfg, tienda):
+    conf = (cfg.get("afiliados") or {}).get(tienda or "") or {}
+    p = conf.get("parametros") or {}
+    return bool(p) and all(p.values()) and conf.get("activo") is not False
+
+
+def aviso_mercadolibre(cfg, state, clave):
+    """El aviso nuevo mas barato de un vendedor seguro en MercadoLibre (tienda oficial o
+    MercadoLider Gold/Platinum con reputacion verde), con datos de los ultimos 4 dias."""
+    m = (state.get("mercadolibre") or {}).get(clave) or {}
+    seg = m.get("seguro")
+    if not seg or not seg.get("url") or not seg.get("precio"):
+        return None
+    if (m.get("fecha") or "") < (ahora(cfg) - timedelta(days=4)).strftime("%Y-%m-%d"):
+        return None
+    return {"tienda": "MercadoLibre", "precio": seg["precio"], "url": afiliar(cfg, "MercadoLibre", seg["url"]),
+            "nivel": seg.get("nivel"), "mercadolibre": True}
+
+
 def candidatos(cfg, state, incluir_excluidos=False):
     """Todas las ofertas vigentes, ya puntuadas: digitales (eShop Chile) y fisicos."""
     a = cfg["ajustes"]
@@ -212,6 +242,7 @@ def candidatos(cfg, state, incluir_excluidos=False):
             continue
         avisos = [x for x in (s.get("avisos") or [])
                   if not (f["excluir_vendedores_externos"] and x.get("externo"))]
+        avisos = [{**x, "url": afiliar(cfg, x.get("tienda"), x.get("url"))} for x in avisos]
         pct = s.get("pct") or 0
         if (s.get("externo") and f["excluir_vendedores_externos"]) or pct < f["pct_min"]:
             continue
@@ -223,11 +254,14 @@ def candidatos(cfg, state, incluir_excluidos=False):
                 continue
             if len(avisos) == 2 and pct > f["pct_max_con_2_tiendas"]:
                 continue                  # probablemente la otra tienda tiene otra edicion
+        ml = aviso_mercadolibre(cfg, state, clave)
+        if ml:
+            avisos = sorted(avisos + [ml], key=lambda x: x["precio"])
         e = (state.get("eshop") or {}).get(s.get("nsuid") or "") or {}
         out.append({
             "id": s.get("id") or "f" + clave, "tipo": "fisico", "nombre": s["nombre"],
             "saga": saga_de(s.get("juego")), "plataforma": s.get("plataforma"),
-            "editora": e.get("editora"), "url": s.get("url"), "tienda": s.get("tienda"),
+            "editora": e.get("editora"), "url": afiliar(cfg, s.get("tienda"), s.get("url")), "tienda": s.get("tienda"),
             "popularidad": e.get("popularidad"), "generos": e.get("generos") or [],
             "precio": s["precio"], "normal": s.get("ref"), "pct": pct, "avisos": avisos,
             "ahorro": (s.get("ref") or s["precio"]) - s["precio"],
@@ -656,6 +690,8 @@ def post_fisicos(cfg, fis, t):
               + (" · 📉 mínimo" if o["minimo"] else "")]
         for j, av in enumerate(o["avisos"][:3]):
             enlace = f"<a href=\"{esc_attr(av['url'])}\">{esc(av['tienda'])}</a>"
+            if es_afiliado(cfg, av["tienda"]):
+                enlace += " 🔗"
             l.append(f"   {med[j]} {enlace} <b>{clp(av['precio'])}</b>" if j == 0
                      else f"   {med[j]} {enlace} {clp(av['precio'])}")
     l += ["", LINEA, "💡 Toca el juego o la tienda para ir a comprar"]
