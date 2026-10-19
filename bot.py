@@ -777,6 +777,11 @@ def leer_html(base, termino, cache, plantilla=None):
         if prods:
             cache["plantilla_html"] = t
             return prods
+        if plantilla:
+            # pagina de busqueda conocida que respondio bien pero sin resultados: la tienda no
+            # tiene ese juego. Sin esto se probaban Shopify, WooCommerce y VTEX por cada juego
+            # (asi TodoJuegos llego a tardar 18 min por revision).
+            return []
     return None
 
 

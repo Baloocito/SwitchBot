@@ -74,7 +74,8 @@
       "url": "https://www.todojuegos.cl",
       "busqueda": "https://www.todojuegos.cl/Productos/buscador_ajax_plano.asp?consulta={q}",
       "catalogo": false,
-      "_nota": "Lee el buscador rapido (el que aparece bajo la lupa). Solo trae tus juegos, no el catalogo completo."
+      "_nota": "Lee el buscador rapido (el que aparece bajo la lupa). Solo trae tus juegos, no el catalogo completo.",
+      "via": "worker"
     }
   ],
   "juegos": [
