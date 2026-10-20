@@ -168,6 +168,26 @@ def aviso_mercadolibre(cfg, state, clave):
             "nivel": seg.get("nivel"), "mercadolibre": True}
 
 
+def dias_minimo(cfg):
+    """Dias de historial que hacen falta para decir "minimo historico" en el canal."""
+    return cfg["ajustes"].get("minimo_dias", 30)
+
+
+def tienda_nueva(cfg, state, tienda, t):
+    """Tienda con menos de 7 dias de datos: no genera bombazos (todo le sale como novedad)."""
+    desde = (state.get("tiendas_desde") or {}).get(tienda or "")
+    if not desde:
+        return False
+    return desde > (t - timedelta(days=cfg["ajustes"].get("tienda_nueva_dias", 7))).strftime("%Y-%m-%d")
+
+
+def n_tiendas_activas():
+    try:
+        return len([x for x in (load_json(CONFIG_FILE, {}) or {}).get("tiendas", []) if x.get("activa") is not False])
+    except Exception:  # noqa: BLE001
+        return 0
+
+
 def candidatos(cfg, state, incluir_excluidos=False):
     """Todas las ofertas vigentes, ya puntuadas: digitales (eShop Chile) y fisicos."""
     a = cfg["ajustes"]
@@ -233,7 +253,7 @@ def candidatos(cfg, state, incluir_excluidos=False):
             "lanzamiento": e.get("lanzamiento"),
             "precio": precio, "normal": normal, "pct": pct, "normal_usd": normal_usd,
             "fin": e.get("fin"), "ext": ext, "ahorro": normal - precio, "fisico": fisicos.get(nsuid),
-            "minimo": (e.get("dias") or 0) >= MIN_DIAS and e.get("min_hist") is not None
+            "minimo": (e.get("dias") or 0) >= dias_minimo(cfg) and e.get("min_hist") is not None
             and e["ultimo"] <= e["min_hist"],
         })
 
@@ -243,7 +263,8 @@ def candidatos(cfg, state, incluir_excluidos=False):
             continue
         avisos = [x for x in (s.get("avisos") or [])
                   if not (f["excluir_vendedores_externos"] and x.get("externo"))]
-        avisos = [{**x, "url": afiliar(cfg, x.get("tienda"), x.get("url"))} for x in avisos]
+        avisos = [{**x, "url": afiliar(cfg, x.get("tienda"), x.get("url"))} for x in avisos
+                  if x.get("precio") and x["precio"] <= 2.5 * s["precio"]]   # otra edicion: no se compara
         pct = s.get("pct") or 0
         if (s.get("externo") and f["excluir_vendedores_externos"]) or pct < f["pct_min"]:
             continue
@@ -263,11 +284,12 @@ def candidatos(cfg, state, incluir_excluidos=False):
             "id": s.get("id") or "f" + clave, "tipo": "fisico", "nombre": s["nombre"],
             "saga": saga_de(s.get("juego")), "plataforma": s.get("plataforma"),
             "editora": e.get("editora"), "url": afiliar(cfg, s.get("tienda"), s.get("url")), "tienda": s.get("tienda"),
+            "tienda_nueva": tienda_nueva(cfg, state, s.get("tienda"), ahora(cfg)),
             "popularidad": e.get("popularidad"), "generos": e.get("generos") or [],
             "precio": s["precio"], "normal": s.get("ref"), "pct": pct, "avisos": avisos,
             "ahorro": (s.get("ref") or s["precio"]) - s["precio"],
             "normal_usd": None, "fin": None, "ext": None,
-            "minimo": (s.get("dias") or 0) >= MIN_DIAS and s.get("min_hist") is not None
+            "minimo": (s.get("dias") or 0) >= dias_minimo(cfg) and s.get("min_hist") is not None
             and s["precio"] <= s["min_hist"],
         })
 
@@ -462,7 +484,9 @@ def quedan(o):
 
 def veredicto(o):
     if o["minimo"]:
-        return "Nunca había estado tan barato."
+        return "El precio más bajo que hemos visto en el último mes."
+    if o["tipo"] == "fisico" and len(o.get("avisos") or []) >= 2 and o["avisos"][0]["precio"] < o["avisos"][1]["precio"]:
+        return "El más barato hoy entre las tiendas de Chile."
     if o.get("dias") is not None and o["dias"] < 1:
         return "Último día: después vuelve a su precio."
     if o["pct"] >= 70:
@@ -619,7 +643,8 @@ def elegir(cfg, items, n, regalados=True):
 def elegibles(cfg, est, cands, t, minimo="destacado"):
     orden = {"bombazo": 2, "destacado": 1, "resto": 0}
     return sorted((o for o in cands if orden[o["nivel"]] >= orden[minimo]
-                   and not ya_publicado(cfg, est, o, t)),
+                   and not ya_publicado(cfg, est, o, t)
+                   and not (minimo == "bombazo" and o.get("tienda_nueva"))),
                   key=lambda o: -o["score"])
 
 
@@ -684,7 +709,8 @@ def slot_fisicos(cfg, est, cands, t):
 
 
 def post_fisicos(cfg, fis, t):
-    l = ["📦 <b>FÍSICOS EN CHILE</b>", f"<i>{fecha_txt(t)} · comparamos {len(cfg_tiendas(fis))} tiendas</i>"]
+    n = n_tiendas_activas() or len(cfg_tiendas(fis))
+    l = ["📦 <b>FÍSICOS EN CHILE</b>", f"<i>{fecha_txt(t)} · comparamos {n} tiendas</i>"]
     med = ["🥇", "🥈", "🥉"]
     for i, o in enumerate(fis):
         l += ["", f"{MEDALLAS[i]} <a href=\"{esc_attr(o['url'])}\"><b>{esc(corto(o['nombre'], 44))}</b></a>{plat(o)} · −{round(o['pct'])}%"
@@ -1155,7 +1181,7 @@ Dom 12:00 🏆 Top de la semana
 💣 Bombazos cuando aparecen (nunca de noche)
 
 🔎 <b>Cómo leer los posts</b>
-📉 mínimo histórico: nunca estuvo más barato
+📉 mínimo: lo más barato que hemos visto en el último mes
 💸 regalado: menos de $5.000
 ⏳ la oferta termina pronto
 🎮 eShop Chile · 📦 versión física

@@ -1664,7 +1664,9 @@ def revisar_productos(cfg, state, hist, listados, alertas):
         # precio de referencia: tipico propio > otras tiendas > lo que dice la tienda
         # precios fuera de rango (otra edicion mezclada, error de la tienda) no cuentan
         med_todos = _mediana([a["precio"] for a in avisos])
-        otras = [a["precio"] for a in avisos[1:] if a["precio"] <= 2 * med_todos]
+        # y una tienda que cobra 2,5 veces o mas casi siempre vende otra edicion (coleccionista,
+        # importada): compararla inventaria descuentos de 75 % que no existen
+        otras = [a["precio"] for a in avisos[1:] if a["precio"] <= 2 * med_todos and a["precio"] <= 2.5 * precio]
         if est.get("tipico"):
             ref, ref_tipo = est["tipico"], "tipico"
         elif otras:
@@ -1726,6 +1728,25 @@ def revisar_productos(cfg, state, hist, listados, alertas):
                            linea_producto(s, motivos, anterior, e),
                            puntaje(s.get("pct") or 0, motivos), ref=clave,
                            extra=extra_motivos(motivos, anterior, precio, clp))
+
+
+def fechar_tiendas(state, hist, cfg):
+    """Desde que dia el bot tiene datos de cada tienda (state['tiendas_desde']). El canal no
+    publica bombazos de una tienda recien agregada: sin historial, todo le sale como novedad."""
+    desde = state.setdefault("tiendas_desde", {})
+    activas = [t["nombre"] for t in cfg.get("tiendas", []) if t.get("activa") is not False]
+    faltan = [n for n in activas if n not in desde]
+    if not faltan:
+        return
+    primera = {}
+    for h in (hist.get("productos") or {}).values():
+        for tienda, dias in (h.get("t") or {}).items():
+            if tienda in faltan and dias:
+                d = min(dias)
+                if d < primera.get(tienda, "9999"):
+                    primera[tienda] = d
+    for n in faltan:
+        desde[n] = primera.get(n, hoy_chile())
 
 
 # --------------------------------------------------------------- memorias
@@ -3384,6 +3405,10 @@ def ciclo(cfg, state, hist, forzar=False, solo_resumen=False):
         listados = leer_tiendas(cfg, state, alertas)
         log(f"  tiendas listas a los {minutos():.1f} min")
         revisar_productos(cfg, state, hist, listados, alertas)
+        try:
+            fechar_tiendas(state, hist, cfg)
+        except Exception as e:  # noqa: BLE001
+            log(f"  tiendas_desde: error {type(e).__name__}: {e}")
         try:
             leer_memorias_ml(cfg, state)
         except Exception as e:  # noqa: BLE001

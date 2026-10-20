@@ -29,7 +29,10 @@
     "datos_viejos_horas": 9,
     "tienda_caida_revisiones": 3,
     "texto_compartir": "🎮 Ofertas de Nintendo Switch en Chile, filtradas y en pesos. Únete gratis: {link}",
-    "_ayuda_canal_url": "Link público del canal que va en los botones de compartir y en la bienvenida."
+    "_ayuda_canal_url": "Link público del canal que va en los botones de compartir y en la bienvenida.",
+    "minimo_dias": 30,
+    "tienda_nueva_dias": 7,
+    "_ayuda_confianza": "minimo_dias: historial necesario para decir 'mínimo' en el canal. tienda_nueva_dias: una tienda recién agregada no genera bombazos durante esos días. Las tiendas que cobran 2,5 veces o más que la más barata no se comparan (suele ser otra edición)."
   },
   "horarios": [
     {
