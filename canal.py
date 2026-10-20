@@ -250,7 +250,7 @@ def candidatos(cfg, state, incluir_excluidos=False):
             "saga": saga_de(e.get("juego")), "plataforma": e.get("plataforma"),
             "editora": e.get("editora"), "url": url_pais(e.get("url"), "CL"),
             "popularidad": e.get("popularidad"), "generos": e.get("generos") or [],
-            "lanzamiento": e.get("lanzamiento"),
+            "lanzamiento": e.get("lanzamiento"), "imagen": e.get("imagen"),
             "precio": precio, "normal": normal, "pct": pct, "normal_usd": normal_usd,
             "fin": e.get("fin"), "ext": ext, "ahorro": normal - precio, "fisico": fisicos.get(nsuid),
             "minimo": (e.get("dias") or 0) >= dias_minimo(cfg) and e.get("min_hist") is not None
@@ -436,12 +436,30 @@ def marcar(est, items, t, slot, grupo="publicados"):
 
 # --------------------------------------------------------------- formato
 
-MEDALLAS = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣", "6️⃣"]
+MEDALLAS = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
+SANGRIA = "      "            # segunda linea de cada juego
 DIAS_TXT = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"]
 LINEA = "━━━━━━━━━━━━━━"
 
 
+def legible(nombre):
+    """'CHRONO CROSS: THE RADICAL DREAMERS EDITION' -> 'Chrono Cross: The Radical Dreamers Edition'.
+    Las siglas cortas (EA, FC, X, II) se dejan como estan."""
+    letras = [ch for ch in nombre if ch.isalpha()]
+    if not letras or not all(ch.isupper() for ch in letras):
+        return nombre
+    out = []
+    for w in nombre.split(" "):
+        base = re.sub(r"[^A-Za-zÁÉÍÓÚÑÜ]", "", w)
+        if len(base) <= 2 or re.fullmatch(r"[IVX]+", base):
+            out.append(w)
+        else:
+            out.append(w[:1] + w[1:].lower())
+    return " ".join(out)
+
+
 def corto(nombre, n=48):
+    nombre = legible(nombre)
     return nombre if len(nombre) <= n else nombre[:n - 1].rstrip(" :-–") + "…"
 
 
@@ -513,26 +531,36 @@ def bloque(cfg, o, medalla):
     tachado = f" <s>{clp(o['normal'])}</s>" if o.get("normal") and o["normal"] > o["precio"] else ""
     donde = f" en {esc(o['tienda'])}" if o["tipo"] == "fisico" else ""
     _, url = mejor_opcion(o)
-    l = [f"{medalla} <a href=\"{esc_attr(url)}\"><b>{esc(corto(o['nombre'], 44))}</b></a>{plat(o)}",
-         f"💰 <b>{precio_txt(o)}</b>{tachado} · −{round(o['pct'])}%{donde}"]
-    extra = []
+    linea = f"{SANGRIA}<b>{precio_txt(o)}</b>{tachado} −{round(o['pct'])}%{donde}"
     if o["minimo"]:
-        extra.append("📉 mínimo histórico")
+        linea += " · 📉 mínimo"
     if quedan(o):
-        extra.append(quedan(o)[2:].lower() if extra else quedan(o))
-    if extra:
-        l.append(" · ".join(extra))
+        q = quedan(o)[2:]
+        linea += " · " + q[:1].lower() + q[1:]
+    l = [f"{medalla} <a href=\"{esc_attr(url)}\"><b>{esc(corto(o['nombre'], 44))}</b></a>{plat(o)}", linea]
     f = o.get("fisico")
     if o["tipo"] == "digital" and f and f["precio"] <= o["precio"] * 1.3:
         dif = o["precio"] - f["precio"]
         if dif > 0:
-            l.append(f"📦 Físico más barato: <b>{clp(f['precio'])}</b> en {esc(f['tienda'])} (−{clp(dif)})")
+            l.append(f"{SANGRIA}📦 Físico más barato: <b>{clp(f['precio'])}</b> en {esc(f['tienda'])}")
         else:
-            l.append(f"📦 Físico: {clp(f['precio'])} en {esc(f['tienda'])}")
+            l.append(f"{SANGRIA}📦 Físico: {clp(f['precio'])} en {esc(f['tienda'])}")
     elif o["tipo"] == "fisico" and len(o.get("avisos") or []) > 1:
         sig = o["avisos"][1]
-        l.append(f"🏬 Le sigue {esc(sig['tienda'])} a {clp(sig['precio'])}")
+        l.append(f"{SANGRIA}🏬 Le sigue {esc(sig['tienda'])} a {clp(sig['precio'])}")
     return "\n".join(l)
+
+
+def vista_previa(o):
+    """Imagen del juego para la vista previa (va debajo del texto). Si hay imagen directa de
+    Nintendo se usa esa: asi no aparece el texto generico de la pagina de la eShop."""
+    if not o or o.get("tipo") != "digital":
+        return None
+    img = o.get("imagen")
+    if img:
+        return img if img.startswith("http") else \
+            "https://assets.nintendo.com/image/upload/f_jpg,q_auto,w_960/" + img.lstrip("/")
+    return o.get("url")
 
 
 def boton(texto, url):
@@ -567,9 +595,9 @@ def post_bombazo(cfg, o):
     a = cfg["ajustes"]
     cab = "💣 <b>BOMBAZO</b>" + (" · 📉 <b>MÍNIMO HISTÓRICO</b>" if o["minimo"] else "")
     tachado = f"  <s>{clp(o['normal'])}</s>" if o.get("normal") and o["normal"] > o["precio"] else ""
-    l = [cab, "", f"<b>{esc(o['nombre'])}</b>"]
+    l = [cab, "", f"<b>{esc(legible(o['nombre']))}</b>"]
     if o["tipo"] == "digital":
-        l.append(f"💰 <b>{precio_txt(o)}</b>{tachado}  (−{round(o['pct'])}%) en eShop Chile")
+        l.append(f"<b>{precio_txt(o)}</b>{tachado} −{round(o['pct'])}% en eShop Chile")
         if o["ext"]:
             l.append(f"🇺🇸 Con saldo de EE. UU. sale ~{clp(o['ext']['clp'])} ({o['ext']['ahorro']}% menos)")
         f = o.get("fisico")
@@ -578,7 +606,7 @@ def post_bombazo(cfg, o):
             l.append(f"📦 Físico: {clp(f['precio'])} en {esc(f['tienda'])}" +
                      (f" (−{clp(dif)})" if dif > 0 else ""))
     else:
-        l.append(f"💰 <b>{precio_txt(o)}</b>{tachado}  (−{round(o['pct'])}%) en {esc(o['tienda'])}")
+        l.append(f"<b>{precio_txt(o)}</b>{tachado} −{round(o['pct'])}% en {esc(o['tienda'])}")
         if len(o["avisos"]) > 1:
             sig = o["avisos"][1]
             l.append(f"🏬 Le sigue {esc(sig['tienda'])} a {clp(sig['precio'])}")
@@ -590,13 +618,16 @@ def post_bombazo(cfg, o):
         l.append(quedan(o))
     l += ["", f"👉 {veredicto(o)}"]
     donde, url = mejor_opcion(o)
-    filas = [[boton(f"🛒 Comprar · {donde}", url)]]
+    texto = texto_compartir(cfg) if a.get("canal_url") else None
+    fila = [boton("🛒 Comprar", url)]
+    if texto:
+        fila.append(boton("WhatsApp", f"https://wa.me/?text={quote(texto)}"))
+    filas = [fila]
     if o["tipo"] == "digital" and o.get("fisico") and url != o["url"]:
         filas.append([boton("🎮 Ver en eShop", o["url"])])
     if o["ext"] and a.get("saldo_url"):
         filas.append([boton("💳 Comprar saldo", a["saldo_url"])])
-    return {"texto": "\n".join(l), "botones": filas + pie(cfg),
-            "preview": o["url"] if o["tipo"] == "digital" else None}
+    return {"texto": "\n".join(l), "botones": filas, "preview": vista_previa(o)}
 
 
 def post_lista(cfg, titulo, items, t, extra=None, cierre=None):
@@ -604,15 +635,16 @@ def post_lista(cfg, titulo, items, t, extra=None, cierre=None):
     fuente = "eShop Chile 🇨🇱 y tiendas" if any(o["tipo"] == "fisico" or o.get("fisico") for o in items) \
         else "eShop Chile 🇨🇱"
     l = [titulo, f"<i>{fecha_txt(t)} · precios {fuente}</i>"]
+    l.append("")
     for i, o in enumerate(items):
-        l += ["", bloque(cfg, o, MEDALLAS[i])]
+        l.append(bloque(cfg, o, MEDALLAS[i]))
     if extra:
         l += ["", extra]
     ahorro = sum(o.get("ahorro") or 0 for o in items)
-    l += ["", LINEA, cierre or f"💡 Ahorras {clp(ahorro)} si te llevas los {len(items)}"]
+    l += ["", cierre or f"💡 Ahorras <b>{clp(ahorro)}</b> si te llevas los {len(items)}"]
     primero = next((o for o in items if o["tipo"] == "digital"), None)
     return {"texto": "\n".join(l), "botones": pie(cfg), "titulo": titulo, "cierre": cierre,
-            "preview": primero["url"] if primero else None}
+            "preview": vista_previa(primero)}
 
 
 # --------------------------------------------------------------- slots
@@ -695,7 +727,7 @@ def slot_pack(cfg, est, cands, t):
             r = max(baratos, key=lambda o: o["score"])
             extra = (f"💸 <b>Regalado del día:</b> <a href=\"{esc_attr(r['url'])}\">{esc(corto(r['nombre']))}</a>"
                      f" a <b>{precio_txt(r)}</b>")
-    post = post_lista(cfg, f"🍔 <b>PACK DEL DÍA</b>\n<b>{esc(pack['titulo'])}</b>", items, t, extra)
+    post = post_lista(cfg, f"🍔 <b>PACK DEL DÍA · {esc(pack['titulo'])}</b>", items, t, extra)
     return post, items + ([r] if r else [])
 
 
@@ -711,17 +743,16 @@ def slot_fisicos(cfg, est, cands, t):
 def post_fisicos(cfg, fis, t):
     n = n_tiendas_activas() or len(cfg_tiendas(fis))
     l = ["📦 <b>FÍSICOS EN CHILE</b>", f"<i>{fecha_txt(t)} · comparamos {n} tiendas</i>"]
-    med = ["🥇", "🥈", "🥉"]
+    l.append("")
     for i, o in enumerate(fis):
-        l += ["", f"{MEDALLAS[i]} <a href=\"{esc_attr(o['url'])}\"><b>{esc(corto(o['nombre'], 44))}</b></a>{plat(o)} · −{round(o['pct'])}%"
-              + (" · 📉 mínimo" if o["minimo"] else "")]
+        l.append(f"{MEDALLAS[i]} <a href=\"{esc_attr(o['url'])}\"><b>{esc(corto(o['nombre'], 44))}</b></a>{plat(o)} −{round(o['pct'])}%"
+                 + (" · 📉 mínimo" if o["minimo"] else ""))
+        partes = []
         for j, av in enumerate(o["avisos"][:3]):
-            enlace = f"<a href=\"{esc_attr(av['url'])}\">{esc(av['tienda'])}</a>"
-            if es_afiliado(cfg, av["tienda"]):
-                enlace += " 🔗"
-            l.append(f"   {med[j]} {enlace} <b>{clp(av['precio'])}</b>" if j == 0
-                     else f"   {med[j]} {enlace} {clp(av['precio'])}")
-    l += ["", LINEA, "💡 Toca el juego o la tienda para ir a comprar"]
+            enlace = f"<a href=\"{esc_attr(av['url'])}\">{esc(av['tienda'])}</a>" + (" 🔗" if es_afiliado(cfg, av["tienda"]) else "")
+            partes.append(f"<b>{clp(av['precio'])}</b> en {enlace}" if j == 0 else f"{enlace} {clp(av['precio'])}")
+        l.append(SANGRIA + " · ".join(partes))
+    l += ["", "💡 Toca el juego o la tienda para ir a comprar"]
     return {"texto": "\n".join(l), "botones": pie(cfg)}
 
 
@@ -976,7 +1007,7 @@ def enviar(post, sonido):
               "disable_notification": not sonido}
     if post.get("preview"):
         cuerpo["link_preview_options"] = {"url": post["preview"], "prefer_large_media": True,
-                                          "show_above_text": True}
+                                          "show_above_text": False}
     else:
         cuerpo["link_preview_options"] = {"is_disabled": True}
     if post.get("botones"):

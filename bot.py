@@ -256,6 +256,7 @@ META_ALGOLIA = {
     "popularidad": ("popularityRank",),
     "tendencia": ("trendingRank",),
     "lanzamiento": ("releaseDate", "releaseDateDisplay"),
+    "imagen": ("productImage", "horizontalHeaderImage"),   # para la vista previa del canal
 }
 
 
