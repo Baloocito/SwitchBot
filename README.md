@@ -113,6 +113,13 @@ conocidas (Nintendo, PowerA, HORI, 8BitDo, PDP, Turtle Beach…); los genéricos
   con su historial o con las otras tiendas. Máximo 3 por revisión.
 - Todavía no sale en el canal: primero se junta historial para decidir si vale la pena.
 
+## Consolas (en seguimiento)
+
+Una vez al día el bot busca las consolas Nintendo en todas las tiendas: Switch 2, Switch OLED,
+Switch y Switch Lite, solas o con juego (sin usadas ni reacondicionadas). El informe diario trae
+la más barata de cada versión; si una baja 8 % o más (`juegos.json` → `consolas.baja_pct`) te
+avisa al momento. Pensado para tener historial real antes de Black Friday.
+
 ## Canal público de ofertas
 
 `canal.py` toma lo que recolecta `bot.py` y publica en un canal de Telegram solo lo que vale la pena,

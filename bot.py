@@ -1504,22 +1504,23 @@ def _leer_una_tienda(tienda, juegos, state):
                 if precio_valido(p.get("precio")) and clasificar_memoria(p["titulo"], p["precio"]):
                     mem.setdefault(p["url"], p)
         cache["memorias"] = mem
-    # accesorios (una vez al dia, con el mismo limite de tiempo)
-    terminos_acc = state.get("_accesorios") or []
-    if terminos_acc and respondio:
-        acc = {}
-        fuentes = [cache.get("shopify")] if cache.get("metodo") == "shopify" else []
-        if not fuentes:
-            for t in terminos_acc:
+    # categorias extra en seguimiento (accesorios, consolas): una vez al dia, con limite de tiempo
+    for cat, terminos_cat in (state.get("_extras") or {}).items():
+        if not terminos_cat or not respondio:
+            continue
+        encontrados = {}
+        fuentes = [cache.get("shopify")] if cache.get("metodo") == "shopify" else [cache.get("catalogo")]
+        if cache.get("metodo") != "shopify":
+            for t in terminos_cat:
                 if minutos() > LIMITE_TIENDAS_MIN:
                     break
                 fuentes.append(buscar_en_tienda(tienda, t, state, cache) or [])
                 time.sleep(PAUSA)
         for prods in fuentes:
             for p in prods or []:
-                if precio_valido(p.get("precio")) and clasificar_accesorio(p["titulo"], p["precio"], p.get("url")):
-                    acc.setdefault(p["url"], p)
-        cache["accesorios"] = acc
+                if precio_valido(p.get("precio")) and CLASIFICADORES[cat](p["titulo"], p["precio"], p.get("url")):
+                    encontrados.setdefault(p["url"], p)
+        cache["extra_" + cat] = encontrados
     return respondio, hallados, cache
 
 
@@ -1557,25 +1558,30 @@ def leer_tiendas(cfg, state, alertas):
     mem_cfg = cfg.get("memorias") or {}
     state["_memorias"] = mem_cfg.get("buscar", MEMORIAS_BUSCAR) if mem_cfg.get("activa", True) else []
     MEMORIAS_LISTADOS.clear()
-    ACCESORIOS_LISTADOS.clear()
-    acc_cfg = cfg.get("accesorios") or {}
-    toca_acc = acc_cfg.get("activa", True) is not False and state.get("accesorios_fecha") != hoy_chile()
-    state["_accesorios"] = acc_cfg.get("buscar", ACCESORIOS_BUSCAR) if toca_acc else []
+    extras = {}
+    for cat, (listados, terminos_def) in EXTRAS.items():
+        listados.clear()
+        conf = cfg.get(cat) or {}
+        if conf.get("activa", True) is not False and state.get(f"{cat}_fecha") != hoy_chile():
+            extras[cat] = conf.get("buscar", terminos_def)
+    state["_extras"] = extras
     t0 = time.time()
     with ThreadPoolExecutor(max_workers=max(1, len(tiendas))) as ex:
         resultados = list(ex.map(lambda t: (t, *_leer_seguro(t, juegos, state)), tiendas))
     state.pop("_descubrir", None)
     state.pop("_memorias", None)
-    state.pop("_accesorios", None)
+    state.pop("_extras", None)
     for tienda, respondio, _, cache in resultados:
         for p in (cache.get("memorias") or {}).values():
             p["externo"] = es_externo(p, tienda)
             MEMORIAS_LISTADOS.append((tienda["nombre"], p))
-        for p in (cache.get("accesorios") or {}).values():
-            p["externo"] = es_externo(p, tienda)
-            ACCESORIOS_LISTADOS.append((tienda["nombre"], p))
-    if toca_acc and ACCESORIOS_LISTADOS:
-        state["accesorios_fecha"] = hoy_chile()
+        for cat in extras:
+            for p in (cache.get("extra_" + cat) or {}).values():
+                p["externo"] = es_externo(p, tienda)
+                EXTRAS[cat][0].append((tienda["nombre"], p))
+    for cat in extras:
+        if EXTRAS[cat][0]:
+            state[f"{cat}_fecha"] = hoy_chile()
     log(f"  tiendas leidas en {time.time() - t0:.0f} s")
     for tienda, _, _, cache in resultados:
         if cache.get("seg"):
@@ -2127,6 +2133,152 @@ def lineas_accesorios_informe(state):
 
 def corto_txt(t, n):
     return t if len(t) <= n else t[: n - 1].rstrip() + "…"
+
+
+# --------------------------------------------------------------- consolas
+#
+# Seguimiento de consolas Nintendo (Switch 2, OLED, Switch, Lite; solas o con juego). Solo
+# informa a tu chat: informe diario y alerta si una baja de verdad. Pensado para Black Friday.
+
+CONSOLAS_BUSCAR = ["consola nintendo switch", "nintendo switch 2", "switch oled", "switch lite"]
+CONSOLAS_LISTADOS = []
+CONSOLA_PRECIO_MIN = 120000
+EXCLUIR_CONSOLA = {"estuche", "funda", "mica", "micas", "vidrio", "protector", "carcasa", "skin", "sticker",
+                   "repuesto", "reparacion", "usado", "usada", "reacondicionado", "reacondicionada",
+                   "seminuevo", "seminueva", "caja", "soporte", "bolso", "cargador", "cable", "flex"}
+CONSOLA_BAJA_PCT = 8        # descuento confirmado (o baja desde la revision anterior) para avisarte
+
+
+def clasificar_consola(titulo, precio=None, url=None):
+    """'Consola Nintendo Switch 2 + Mario Kart World' -> {'modelo': 'Switch 2', 'bundle': True}."""
+    t = norm(titulo)
+    w = set(t.split())
+    if w & EXCLUIR_CONSOLA or (precio is not None and precio < CONSOLA_PRECIO_MIN):
+        return None
+    if not (w & PLATAFORMA):
+        return None
+    es_consola = "consola" in w or (not (w & {"juego", "videojuego"}) and
+                                    re.search(r"^(nintendo )?switch( 2| oled| lite)?\b", t))
+    if not es_consola:
+        return None
+    if PLAT2_RE.search(t):
+        modelo = "Switch 2"
+    elif "oled" in w:
+        modelo = "Switch OLED"
+    elif "lite" in w:
+        modelo = "Switch Lite"
+    else:
+        modelo = "Switch"
+    bundle = "+" in str(titulo) or bool(re.search(r"\b(bundle|pack|incluye|juego|edicion|edition)\b", t))
+    return {"modelo": modelo, "bundle": bundle}
+
+
+def clave_consola(titulo, m):
+    t = norm(limpiar_titulo(titulo))
+    ruido = RUIDO | STOP | {"consola", "oled", "lite", "2", "con", "incluye", "bundle", "pack", "color",
+                            "edicion", "edition", "modelo", "version", "nueva", "nuevo", "set", "y"}
+    extra = sorted({x for x in t.split() if x not in ruido and len(x) > 1})[:6] if m["bundle"] else []
+    return f"{m['modelo']}|{'bundle' if m['bundle'] else 'sola'}|{' '.join(extra)}"
+
+
+def revisar_consolas(cfg, state, hist, alertas):
+    conf = cfg.get("consolas") or {}
+    if conf.get("activa", True) is False or not CONSOLAS_LISTADOS:
+        return
+    hoy = hoy_chile()
+    grupos = {}
+    for tienda, p in CONSOLAS_LISTADOS:
+        if p.get("externo"):
+            continue
+        m = clasificar_consola(p["titulo"], p["precio"], p.get("url"))
+        if not m:
+            continue
+        clave = clave_consola(p["titulo"], m)
+        g = grupos.setdefault(clave, {"m": m, "por_tienda": {}, "nombre": re.sub(r"\s+", " ", p["titulo"]).strip()[:80]})
+        prev = g["por_tienda"].get(tienda)
+        if not prev or p["precio"] < prev["precio"]:
+            g["por_tienda"][tienda] = {"tienda": tienda, "precio": p["precio"], "url": p["url"],
+                                       "titulo": p["titulo"], "normal": p.get("normal")}
+    items = state.setdefault("consolas", {})
+    hist_c = hist.setdefault("consolas", {})
+    avisados = 0
+    umbral = conf.get("baja_pct", CONSOLA_BAJA_PCT)
+    for clave, g in grupos.items():
+        m = g["m"]
+        avisos = sorted(g["por_tienda"].values(), key=lambda a: a["precio"])
+        mejor = avisos[0]
+        precio = mejor["precio"]
+        serie = hist_c.setdefault(clave, {})
+        est = estadisticas(serie, hoy)
+        registrar(serie, hoy, precio, mejor["tienda"])
+        otras = [a["precio"] for a in avisos[1:] if a["precio"] <= 1.6 * precio]
+        if est.get("tipico"):
+            ref, ref_tipo = est["tipico"], "tipico"
+        elif otras:
+            ref, ref_tipo = _mediana(otras), "mercado"
+        else:
+            ref, ref_tipo = None, None
+        pct = 100 * (1 - precio / ref) if ref else 0
+        s = items.setdefault(clave, {})
+        anterior = s.get("ultimo")
+        s.update({"nombre": g["nombre"], "modelo": m["modelo"], "bundle": m["bundle"], "precio": precio,
+                  "tienda": mejor["tienda"], "url": mejor["url"], "ref": ref, "ref_tipo": ref_tipo,
+                  "pct": round(pct, 1), "min_hist": est.get("min"), "dias": est["dias"], "ultimo": precio,
+                  "visto": ahora_iso(), "avisos": [{k: a[k] for k in ("tienda", "precio", "url")} for a in avisos[:4]]})
+        motivos = []
+        if ref and pct >= umbral:
+            motivos.append("descuento")
+        if anterior and 100 * (1 - precio / anterior) >= umbral:
+            motivos.append("baja")
+        if motivos and avisados < 3 and decidir(s, precio, motivos, nuevo=anterior is None and ref_tipo != "mercado"):
+            avisados += 1
+            agregar_alerta(alertas, "consola", "🕹️ Consolas", linea_consola(s, motivos, anterior),
+                           puntaje(max(pct, 10), motivos), extra="compra")
+    corte = _sumar_dias(hoy, -21)
+    for k in [k for k, s in items.items() if (s.get("visto") or "")[:10] < corte]:
+        del items[k]
+    log(f"  consolas: {len(CONSOLAS_LISTADOS)} avisos, {len(grupos)} versiones, {avisados} alertas")
+
+
+def linea_consola(s, motivos, anterior):
+    l = [f"🕹️ <b>CONSOLA · {s['modelo']}</b>" + (" con juego" if s["bundle"] else ""),
+         f"<a href=\"{esc_attr(s['url'])}\">{esc(s['nombre'])}</a>",
+         f"💰 <b>{clp(s['precio'])}</b> en {esc(s['tienda'])}"
+         + (f" · −{round(s['pct'])}% frente a {'su precio típico' if s['ref_tipo'] == 'tipico' else 'las otras tiendas'}"
+            f" ({clp(s['ref'])})" if "descuento" in motivos else "")]
+    if "baja" in motivos and anterior:
+        l.append(f"📉 Bajó desde {clp(anterior)}")
+    for a in s["avisos"][1:3]:
+        l.append(f"   · {esc(a['tienda'])} {clp(a['precio'])}")
+    l.append("🧪 En seguimiento: todavía no se publica en el canal")
+    return "\n".join(l)
+
+
+def lineas_consolas_informe(state):
+    cons = [c for c in (state.get("consolas") or {}).values()
+            if (c.get("visto") or "")[:10] >= _sumar_dias(hoy_chile(), -2)]
+    if not cons:
+        return []
+    l = ["", "🕹️ <b>CONSOLAS</b> (la más barata de cada versión)"]
+    for modelo in ("Switch 2", "Switch OLED", "Switch", "Switch Lite"):
+        for bundle in (False, True):
+            xs = sorted((c for c in cons if c["modelo"] == modelo and c["bundle"] == bundle), key=lambda c: c["precio"])
+            if not xs:
+                continue
+            c = xs[0]
+            otra = next((a for a in c["avisos"][1:]), None)
+            l.append(f"• {modelo}{' con juego' if bundle else ''}: <a href=\"{esc_attr(c['url'])}\">{clp(c['precio'])}</a>"
+                     f" en {esc(c['tienda'])}" + (f" · −{round(c['pct'])}%" if c.get("pct", 0) >= 3 else "")
+                     + (f" (sigue {esc(otra['tienda'])} {clp(otra['precio'])})" if otra else ""))
+    dias = max((c.get("dias") or 0) for c in cons)
+    l.append(f"Historial: {dias} día(s) · {len(cons)} versiones en seguimiento")
+    return l
+
+
+# categorias extra que se buscan una vez al dia en todas las tiendas
+EXTRAS = {"accesorios": (ACCESORIOS_LISTADOS, ACCESORIOS_BUSCAR),
+          "consolas": (CONSOLAS_LISTADOS, CONSOLAS_BUSCAR)}
+CLASIFICADORES = {"accesorios": clasificar_accesorio, "consolas": clasificar_consola}
 
 
 # ----------------------------------------------------------- mercadolibre
@@ -2867,7 +3019,7 @@ def armar_mensajes(alertas, state=None, hist=None):
                     items.append({"nivel": nivel, "texto": texto, "score": a["score"], "s": e, "tipo": "digital",
                                   "boton": boton_de(e, "digital") if e.get("id") else None})
                     continue
-        nivel = a["extra"] if a["tipo"] in ("memoria", "accesorio") and a.get("extra") in NIVELES else "bueno"
+        nivel = a["extra"] if a["tipo"] in ("memoria", "accesorio", "consola") and a.get("extra") in NIVELES else "bueno"
         items.append({"nivel": nivel, "texto": a["linea"], "score": a["score"], "tipo": a["tipo"]})
     if not items and not avisos:
         return []
@@ -3104,7 +3256,7 @@ def lineas_evento(clave, s, hist):
 # ---------------------------------------------------------------- clasificar
 
 def es_urgente(it):
-    if it["tipo"] in ("memoria", "accesorio") or it.get("extra") in ("📦 se está agotando", "📅 preventa abierta"):
+    if it["tipo"] in ("memoria", "accesorio", "consola") or it.get("extra") in ("📦 se está agotando", "📅 preventa abierta"):
         return True                     # no se guardan para el resumen: van al momento
     return it["nivel"] in ("objetivo", "compra") or any(
         x in (it.get("extra") or "") for x in ("⭐", "🏆"))
@@ -3117,7 +3269,7 @@ def render_alertas(alertas, state, hist):
         if a["tipo"] == "aviso":
             avisos.append(a["linea"])
             continue
-        if a["tipo"] in ("memoria", "accesorio"):
+        if a["tipo"] in ("memoria", "accesorio", "consola"):
             nivel = a["extra"] if a.get("extra") in NIVELES else "bueno"
             items.append({"nivel": nivel, "texto": a["linea"], "score": a["score"], "tipo": a["tipo"],
                           "extra": None, "ref": None, "boton": None})
@@ -3326,6 +3478,7 @@ def armar_resumen(state, hist, cfg, revisiones_hoy):
                 l.append(f"• {nombre}: <a href=\"{esc_attr(m['url'])}\">{esc(m['nombre'])}</a> — "
                          f"{clp(m['precio'])} en {esc(m['tienda'])} ({clp(m['por_gb'])}/GB)")
 
+    l += lineas_consolas_informe(state)
     l += lineas_accesorios_informe(state)
 
     # objetivos
@@ -3418,6 +3571,10 @@ def ciclo(cfg, state, hist, forzar=False, solo_resumen=False):
             revisar_memorias(cfg, state, hist, alertas)
         except Exception as e:  # noqa: BLE001 - las memorias nunca deben botar la revision
             log(f"  memorias: error {type(e).__name__}: {e}")
+        try:
+            revisar_consolas(cfg, state, hist, alertas)
+        except Exception as e:  # noqa: BLE001
+            log(f"  consolas: error {type(e).__name__}: {e}")
         try:
             revisar_accesorios(cfg, state, hist, alertas)
         except Exception as e:  # noqa: BLE001

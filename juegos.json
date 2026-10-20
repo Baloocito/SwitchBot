@@ -620,5 +620,10 @@
     "activa": true,
     "remate_pct": 35,
     "_ayuda": "Seguimiento de accesorios de marca (Nintendo, PowerA, HORI, 8BitDo...). Se buscan una vez al dia. Te avisa al momento si un accesorio baja remate_pct % o mas (confirmado con historial u otras tiendas); el resto va al informe diario. Todavia no se publica en el canal."
+  },
+  "consolas": {
+    "activa": true,
+    "baja_pct": 8,
+    "_ayuda": "Seguimiento de consolas Nintendo (Switch 2, OLED, Switch, Lite; solas o con juego), una vez al dia. Te avisa al momento si una baja baja_pct % o mas (frente a su precio tipico, a las otras tiendas o a la revision anterior). Todavia no se publica en el canal."
   }
 }
