@@ -127,8 +127,9 @@ a horas fijas y sin repetir. Tu chat personal sigue recibiendo todo, igual que a
 
 | Hora (Chile) | Post | Días |
 |---|---|---|
-| 09:00 | Top 5 del día | lun–sáb |
-| 13:30 | Pack temático (cambia según el día) | lun–sáb |
+| 09:00 | Top 5 del día | todos |
+| 13:30 | Pack temático (cambia según el día) | todos |
+| 16:30 | Relleno útil: imprescindibles, memorias o lanzamientos | todos |
 | 18:30 | Físicos en Chile | todos |
 | 21:00 | Última llamada (terminan hoy o mañana) | todos |
 | 12:00 | Top de la semana + encuesta | dom |

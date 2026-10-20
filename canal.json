@@ -2,7 +2,7 @@
   "_ayuda": "Curaduria del canal. Todo se puede editar sin tocar codigo. Las listas de juegos y editoras comparan en minusculas y sin tildes; basta con una parte del nombre ('capcom' calza con 'CAPCOM Co., Ltd.').",
   "ajustes": {
     "zona_horaria": "America/Santiago",
-    "max_posts_dia": 7,
+    "max_posts_dia": 9,
     "max_bombazos_dia": 2,
     "min_minutos_entre_posts": 90,
     "silencio_desde": "23:00",
@@ -35,19 +35,32 @@
     "_ayuda_confianza": "minimo_dias: historial necesario para decir 'mínimo' en el canal. tienda_nueva_dias: una tienda recién agregada no genera bombazos durante esos días. Las tiendas que cobran 2,5 veces o más que la más barata no se comparan (suele ser otra edición).",
     "medir_clics": true,
     "medir_url": "https://switchbot.xiombbo.workers.dev",
-    "_ayuda_medir": "Los links del canal pasan por el Worker (/r) para contar clics por juego, tienda y tipo de post. medir_clics: false lo apaga."
+    "_ayuda_medir": "Los links del canal pasan por el Worker (/r) para contar clics por juego, tienda y tipo de post. medir_clics: false lo apaga.",
+    "slots_con_relleno": [
+      "top",
+      "pack",
+      "tarde",
+      "fisicos",
+      "ultima"
+    ]
   },
   "horarios": [
     {
       "slot": "top",
       "hora": "09:00",
-      "dias": "lun-sab",
+      "dias": "todos",
       "sonido": true
     },
     {
       "slot": "pack",
       "hora": "13:30",
-      "dias": "lun-sab",
+      "dias": "todos",
+      "sonido": false
+    },
+    {
+      "slot": "tarde",
+      "hora": "16:30",
+      "dias": "todos",
       "sonido": false
     },
     {

@@ -44,7 +44,7 @@ DECISIONES_FILE = BASE / "canal_decisiones.json"   # lo escribe el Worker con lo
 NOMBRE_SLOT = {"top": "Top 5 del día", "pack": "Pack del día", "fisicos": "Físicos en Chile",
                "ultima": "Última llamada", "semanal": "Top de la semana", "bombazo": "Bombazo",
                "proximos": "Lo que viene", "memorias": "Memorias microSD",
-               "clasicos": "Los imprescindibles"}
+               "clasicos": "Los imprescindibles", "tarde": "Post de la tarde"}
 OTROS = "otros juegos"
 DIAS = ["lun", "mar", "mie", "jue", "vie", "sab", "dom"]
 VENTANA_MIN = 90            # minutos despues de la hora del slot en que todavia se publica
@@ -536,7 +536,7 @@ def bloque(cfg, o, medalla):
     if o["minimo"]:
         linea += " · 📉 mínimo"
     if quedan(o):
-        q = quedan(o)[2:]
+        q = quedan(o)[2:].replace("Hasta el ", "hasta ")
         linea += " · " + q[:1].lower() + q[1:]
     l = [f"{medalla} <a href=\"{esc_attr(url)}\"><b>{esc(corto(o['nombre'], 44))}</b></a>{plat(o)}", linea]
     f = o.get("fisico")
@@ -949,14 +949,19 @@ def slot_clasicos(cfg, est, cands, t):
     return {"texto": "\n".join(l), "botones": pie(cfg)}, []
 
 
-SLOTS = {"top": slot_top, "pack": slot_pack, "fisicos": slot_fisicos, "proximos": slot_proximos,
+def slot_tarde(cfg, est, cands, t):
+    """Post de la tarde: siempre un relleno util (imprescindibles, memorias o lanzamientos)."""
+    return None, []
+
+
+SLOTS = {"tarde": slot_tarde, "top": slot_top, "pack": slot_pack, "fisicos": slot_fisicos, "proximos": slot_proximos,
          "ultima": slot_ultima, "semanal": slot_semanal, "memorias": slot_memorias,
          "clasicos": slot_clasicos}
 
 # Si un horario no tiene ofertas nuevas, se publica uno de estos (el que lleve mas dias sin salir),
 # para que el canal nunca quede mudo. canal.json -> ajustes.relleno lo cambia.
 RELLENO = ["clasicos", "memorias", "proximos"]
-RELLENO_DIAS_MIN = 2              # el mismo relleno no se repite antes de 2 dias
+RELLENO_DIAS_MIN = 1              # el mismo relleno no se repite el mismo dia
 
 
 # --------------------------------------------------------------- envio
@@ -1252,8 +1257,9 @@ TEXTO_BIENVENIDA = """👋 <b>Bienvenido a {nombre}</b>
 Las mejores ofertas de Nintendo Switch 1 y 2 en Chile, filtradas y en pesos. Sin relleno: solo lo que vale la pena.
 
 🕘 <b>Horarios</b>
-09:00 ☕ Top 5 del día (lun–sáb)
-13:30 🍔 Pack temático (lun–sáb)
+09:00 ☕ Top 5 del día
+13:30 🍔 Pack temático
+16:30 🎯 Imprescindibles, memorias o lanzamientos
 18:30 📦 Físicos en tiendas chilenas
 21:00 ⏳ Última llamada
 Mié 20:00 💾 Memorias microSD: la más barata de cada tamaño
@@ -1299,7 +1305,7 @@ def correr_slot(cfg, est, cands, t, slot, sonido, forzar=False):
         log(f"  {slot}: ya se publicó hoy")
         return
     post, items = SLOTS[slot](cfg, est, cands, t)
-    if not post and slot in cfg["ajustes"].get("slots_con_relleno", ["top", "pack", "fisicos"]):
+    if not post and slot in cfg["ajustes"].get("slots_con_relleno", ["top", "pack", "tarde", "fisicos", "ultima"]):
         post, items, usado = relleno(cfg, est, cands, t)
         if post:
             log(f"  {slot}: sin ofertas nuevas, publico relleno '{usado}'")
@@ -1322,9 +1328,12 @@ def relleno(cfg, est, cands, t):
     def dias_sin(r):
         f = usados.get(r)
         return (hoy - datetime.fromisoformat(f).date()).days if f else 999
+    recientes = set()
+    for d in (hoy.isoformat(), (hoy - timedelta(days=1)).isoformat()):
+        recientes |= set(((est.get("dias") or {}).get(d) or {}).get("slots") or [])
     for r in sorted(opciones, key=lambda r: -dias_sin(r)):
-        if dias_sin(r) < RELLENO_DIAS_MIN or r not in SLOTS:
-            continue
+        if dias_sin(r) < RELLENO_DIAS_MIN or r not in SLOTS or r in recientes:
+            continue                  # (tampoco si salio hoy o ayer como post propio: memorias, proximos)
         post, items = SLOTS[r](cfg, est, cands, t)
         if post:
             if not os.environ.get("DRY_RUN"):

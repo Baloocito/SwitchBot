@@ -13,7 +13,7 @@ on:
       slot:
         description: "auto = lo que toque ahora · o forzar uno"
         type: choice
-        options: [auto, top, pack, fisicos, ultima, semanal, proximos, memorias, bombazos, cola, bienvenida]
+        options: [auto, top, pack, tarde, fisicos, ultima, semanal, proximos, memorias, bombazos, cola, bienvenida]
         default: auto
       prueba:
         description: "Mandar a tu chat personal en vez del canal (con la revisión previa activa, ya te llega todo antes)"
