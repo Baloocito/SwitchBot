@@ -1559,8 +1559,8 @@ def leer_tiendas(cfg, state, alertas):
     state["_memorias"] = mem_cfg.get("buscar", MEMORIAS_BUSCAR) if mem_cfg.get("activa", True) else []
     MEMORIAS_LISTADOS.clear()
     extras = {}
-    for cat, (listados, terminos_def) in EXTRAS.items():
-        listados.clear()
+    for cat, (lista_cat, terminos_def) in EXTRAS.items():
+        lista_cat.clear()
         conf = cfg.get(cat) or {}
         if conf.get("activa", True) is not False and state.get(f"{cat}_fecha") != hoy_chile():
             extras[cat] = conf.get("buscar", terminos_def)

@@ -101,6 +101,20 @@ jobs:
           git add revision.log && git commit -qm "Log ${{ github.run_id }} (${{ job.status }})"
           git push -fq "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" logs
 
+      # Si la revision se cae, te avisa al chat con el error (antes solo se veia "canal en pausa")
+      - name: Avisar si fallo
+        if: ${{ failure() && inputs.modo != 'diagnostico' }}
+        continue-on-error: true
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          ERR=$(grep -E "Error|error|Traceback" /tmp/revision.log 2>/dev/null | tail -2 | cut -c1-300)
+          TXT="⚠️ La revisión de precios falló y no se guardó. Lo reviso en el registro (rama logs).
+          ${ERR}"
+          curl -s -o /dev/null "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" --data-urlencode "text=${TXT}"
+
       - name: Guardar estado
         if: ${{ inputs.modo != 'diagnostico' }}
         run: |
