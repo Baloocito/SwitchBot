@@ -15,6 +15,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:cfeae26fe0",
+        "text": "⚙️ Cyberpunk Speed Assassin · US$4.89"
+      },
+      "con_fisico": false,
+      "id": "cfeae26fe0",
+      "nivel": "compra",
+      "nombre": "Cyberpunk Speed Assassin",
+      "pct": 55.1,
+      "texto": "🟢 <b>COMPRA YA</b> · −55%\n<b>Cyberpunk Speed Assassin</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$4.89</b> ≈ $4.805 en 🇨🇦 Canadá\n   Precio en la tienda: CA$6,90 CAD\n💡 Oferta de −55% en la eShop\n🏷️ Normal US$10.88 → ahorras US$5.99 · ⏳ termina el 3 nov (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cyberpunk-speed-assassin-switch/\">US$4.89</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/cyberpunk-speed-assassin-switch/\">US$4.94</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cyberpunk-speed-assassin-switch/\">US$4.96</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cyberpunk-speed-assassin-switch/\">US$5.42</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/cyberpunk-speed-assassin-switch/\">US$5.49</a>\n   El más caro: 🇨🇴 US$6.92\n📈 Mínimo US$4.89 (20 oct en 🇨🇦 Canadá)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/cyberpunk-speed-assassin-switch/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:2c152fec19",
         "text": "⚙️ VA-11 Hall-A: Cyberpunk Barte… · $39.990"
       },
@@ -27,5 +40,5 @@
     }
   ],
   "juego": "Cyberpunk 2077",
-  "revision": "2026-10-20T11:41:30Z"
+  "revision": "2026-10-20T18:16:14Z"
 }

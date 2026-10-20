@@ -2,6 +2,19 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:418d4e8ae4",
+        "text": "⚙️ Hitman: Blood Money — Reprisal · US$10.68"
+      },
+      "con_fisico": true,
+      "id": "418d4e8ae4",
+      "nivel": "compra",
+      "nombre": "Hitman: Blood Money — Reprisal",
+      "pct": 50.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Hitman: Blood Money — Reprisal</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$10.68</b> ≈ $10.495 en 🇨🇱 Chile\n   Precio en la tienda: $10.499 CLP\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$21.37 → ahorras US$10.69 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/hitman-blood-money-reprisal-switch/\">US$10.68</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/hitman-blood-money-reprisal-switch/\">US$11.62</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/hitman-blood-money-reprisal-switch/\">US$12.40</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/hitman-blood-money-reprisal-switch/\">US$12.96</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/hitman-blood-money-reprisal-switch/\">US$14.18</a>\n   El más caro: 🇧🇷 US$15.25\n📦 Físico: $93.990 en Lider → el digital te ahorra $83.495\n📈 Mínimo US$10.68 (20 oct en 🇨🇱 Chile)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/hitman-blood-money-reprisal-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:fb77a43d11",
         "text": "⚙️ Hitman: Blood Money — Reprisal · $93.990"
       },
@@ -9,7 +22,7 @@
       "nivel": "regular",
       "nombre": "Hitman: Blood Money — Reprisal",
       "pct": 8.2,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Hitman: Blood Money — Reprisal (limited)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$93.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $8.354 frente al «antes» que marca la tienda ($102.344)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $93.990 (16 oct, Lider) · típico $93.990 · máximo $94.990\n   ██▁▁▁▁▁  últimos 7 días\n🎮 Digital: US$21.37 ≈ $21.001 en 🇨🇱 Chile\n   ➜ El digital es $72.989 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-limited-run-hitman-blood-money-nintendo-switch-/00081014857643\">Ir a comprar en Lider</a>",
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Hitman: Blood Money — Reprisal (limited)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$93.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $8.354 frente al «antes» que marca la tienda ($102.344)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $93.990 (16 oct, Lider) · típico $93.990 · máximo $94.990\n   ██▁▁▁▁▁  últimos 7 días\n🎮 Digital: US$10.68 ≈ $10.495 en 🇨🇱 Chile (−50%)\n   ➜ El digital es $83.495 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-limited-run-hitman-blood-money-nintendo-switch-/00081014857643\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -26,5 +39,5 @@
     }
   ],
   "juego": "Hitman",
-  "revision": "2026-10-20T11:41:30Z"
+  "revision": "2026-10-20T18:16:14Z"
 }

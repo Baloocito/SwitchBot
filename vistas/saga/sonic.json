@@ -2,15 +2,81 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:d5d3cc617f",
-        "text": "⚙️ Sonic Racing: CrossWorlds S2 · $69.900"
+        "callback_data": "a:2b0a53aa90",
+        "text": "⚙️ Sonic Origins · US$7.91"
       },
-      "id": "d5d3cc617f",
-      "nivel": "regular",
-      "nombre": "Sonic Racing: CrossWorlds",
-      "pct": 14.7,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −15%\n<b>Sonic Racing: CrossWorlds</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$69.900</b> en TodoJuegos\n💡 Apenas 15% bajo la referencia\n   Ahorras $12.090 frente a la otra tienda ($81.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NS2/Sonic-Racing--CrossWorlds-Year-One-Edition/?ref=buscador\">$69.900 TodoJuegos</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-sonic-racing-crossworlds-nintendo-switch-2/00001008677048\">$81.990 Lider</a> 🏪 nocnoc (+$12.090)\n📈 Mínimo $69.900 (19 oct, TodoJuegos) · máximo $81.990\n   ██▁▁  últimos 4 días\n🎮 Digital: US$33.25 ≈ $32.675 en 🇧🇷 Brasil\n   ➜ El digital es $37.225 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 4 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Sonic-Racing--CrossWorlds-Year-One-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
-      "tipo": "fisico"
+      "con_fisico": true,
+      "id": "2b0a53aa90",
+      "nivel": "compra",
+      "nombre": "Sonic Origins",
+      "pct": 70.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>Sonic Origins</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$7.91</b> ≈ $7.773 en 🇨🇱 Chile\n   Precio en la tienda: $7.770 CLP\n💡 Oferta de −70% en la eShop\n🏷️ Normal US$26.36 → ahorras US$18.45 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-origins-switch/\">US$7.91</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sonic-origins-switch/\">US$8.28</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sonic-origins-switch/\">US$8.50</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sonic-origins-switch/\">US$8.61</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/sonic-origins-switch/\">US$8.99</a>\n   El más caro: 🇨🇴 US$11.15\n📦 Físico: $49.990 en Falabella → el digital te ahorra $42.217\n📈 Mínimo US$7.91 (20 oct en 🇨🇱 Chile)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-origins-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:f9996d5fbf",
+        "text": "⚙️ SONIC SUPERSTARS · US$16.15"
+      },
+      "con_fisico": true,
+      "id": "f9996d5fbf",
+      "nivel": "compra",
+      "nombre": "SONIC SUPERSTARS",
+      "pct": 70.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>SONIC SUPERSTARS</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$16.15</b> ≈ $15.871 en 🇨🇱 Chile\n   Precio en la tienda: $15.870 CLP\n💡 Oferta de −70% en la eShop\n🏷️ Normal US$53.83 → ahorras US$37.68 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-superstars-switch/\">US$16.15</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sonic-superstars-switch/\">US$16.57</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sonic-superstars-switch/\">US$17.01</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sonic-superstars-switch/\">US$17.17</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/sonic-superstars-switch/\">US$17.99</a>\n   El más caro: 🇨🇴 US$22.21\n📦 Físico: $34.900 en TodoJuegos → el digital te ahorra $19.029\n📈 Mínimo US$16.15 (20 oct en 🇨🇱 Chile)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-superstars-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:a147475980",
+        "text": "⚙️ Sonic Mania · US$7.12"
+      },
+      "con_fisico": true,
+      "id": "a147475980",
+      "nivel": "compra",
+      "nombre": "Sonic Mania",
+      "pct": 60.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Sonic Mania</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$7.12</b> ≈ $6.997 en 🇨🇱 Chile\n   Precio en la tienda: $7.000 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$17.81 → ahorras US$10.69 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-mania-switch/\">US$7.12</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sonic-mania-switch/\">US$7.35</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sonic-mania-switch/\">US$7.53</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sonic-mania-switch/\">US$7.65</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/sonic-mania-switch/\">US$7.99</a>\n   El más caro: 🇨🇴 US$9.89\n📦 Físico: $34.990 en Paris → el digital te ahorra $27.993\n📈 Mínimo US$7.12 (20 oct en 🇨🇱 Chile)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-mania-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:5f9faae92b",
+        "text": "⚙️ SONIC FORCES · US$7.91"
+      },
+      "con_fisico": true,
+      "id": "5f9faae92b",
+      "nivel": "compra",
+      "nombre": "SONIC FORCES",
+      "pct": 50.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>SONIC FORCES</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$7.91</b> ≈ $7.773 en 🇧🇷 Brasil\n   Precio en la tienda: R$39,95 BRL\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$15.82 → ahorras US$7.91 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sonic-forces-switch/\">US$7.91</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-forces-switch/\">US$8.90</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sonic-forces-switch/\">US$9.19</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sonic-forces-switch/\">US$9.57</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/sonic-forces-switch/\">US$9.99</a>\n   El más caro: 🇨🇴 US$12.36\n📦 Físico: $22.900 en TodoJuegos → el digital te ahorra $15.127\n📈 Mínimo US$7.91 (20 oct en 🇧🇷 Brasil)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/sonic-forces-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:603f0faa2c",
+        "text": "⚙️ Sonic Frontiers · US$21.67"
+      },
+      "con_fisico": true,
+      "id": "603f0faa2c",
+      "nivel": "compra",
+      "nombre": "Sonic Frontiers",
+      "pct": 40.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −40%\n<b>Sonic Frontiers</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$21.67</b> ≈ $21.295 en 🇨🇱 Chile\n   Precio en la tienda: $21.300 CLP\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$36.12 → ahorras US$14.45 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-frontiers-switch/\">US$21.67</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/sonic-frontiers-switch/\">US$22.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sonic-frontiers-switch/\">US$22.74</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sonic-frontiers-switch/\">US$22.76</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sonic-frontiers-switch/\">US$23.70</a>\n   El más caro: 🇨🇴 US$28.35\n📦 Físico: $34.990 en 8 Bits → el digital te ahorra $13.695\n📈 Mínimo US$21.67 (20 oct en 🇨🇱 Chile)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-frontiers-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:8947d15f94",
+        "text": "⚙️ Sonic Frontiers - Definitive … S2 · US$27.17"
+      },
+      "con_fisico": true,
+      "id": "8947d15f94",
+      "nivel": "compra",
+      "nombre": "Sonic Frontiers - Definitive Edition",
+      "pct": 40.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −40%\n<b>Sonic Frontiers - Definitive Edition</b>\n🕹️ Switch 2 · 🎮 Digital (eShop)\n💰 <b>US$27.17</b> ≈ $26.700 en 🇨🇱 Chile\n   Precio en la tienda: $26.700 CLP\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$45.28 → ahorras US$18.11 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-frontiers-definitive-edition-switch-2/\">US$27.17</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sonic-frontiers-definitive-edition-switch-2/\">US$27.65</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sonic-frontiers-definitive-edition-switch-2/\">US$28.50</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/sonic-frontiers-definitive-edition-switch-2/\">US$28.76</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sonic-frontiers-definitive-edition-switch-2/\">US$29.81</a>\n   El más caro: 🇨🇴 US$34.97\n📦 Físico: $54.900 en TodoJuegos → el digital te ahorra $28.200\n📈 Mínimo US$27.17 (20 oct en 🇨🇱 Chile)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-frontiers-definitive-edition-switch-2/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
     },
     {
       "boton": {
@@ -45,7 +111,7 @@
       "nivel": "normal",
       "nombre": "SONIC FORCES",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>SONIC FORCES (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (14 oct, 8 Bits) · típico $29.990 · máximo $29.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🎮 Digital: US$15.82 ≈ $15.547 en 🇧🇷 Brasil\n   ➜ El digital es $14.443 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-sonic-forces-nsw\">Ir a comprar en 8 Bits</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>SONIC FORCES (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (14 oct, 8 Bits) · típico $29.990 · máximo $29.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🎮 Digital: US$7.91 ≈ $7.773 en 🇧🇷 Brasil (−50%)\n   ➜ El digital es $22.217 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-sonic-forces-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -57,7 +123,7 @@
       "nivel": "normal",
       "nombre": "Sonic Frontiers - Definitive Edition",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Frontiers - Definitive Edition</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$54.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.900 (19 oct, TodoJuegos) · máximo $54.900\n   ▄▄  últimos 2 días\n🎮 Digital: US$45.28 ≈ $44.497 en 🇨🇱 Chile\n   ➜ El digital es $10.403 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Sonic-Frontiers-Definitive-Edition--Europeo-/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Frontiers - Definitive Edition</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$54.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.900 (19 oct, TodoJuegos) · máximo $54.900\n   ▄▄  últimos 2 días\n🎮 Digital: US$27.17 ≈ $26.700 en 🇨🇱 Chile (−40%)\n   ➜ El digital es $28.200 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Sonic-Frontiers-Definitive-Edition--Europeo-/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
     },
     {
@@ -69,7 +135,7 @@
       "nivel": "normal",
       "nombre": "Sonic Frontiers",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Frontiers (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $34.990 (14 oct, 8 Bits) · típico $34.990 · máximo $34.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🎮 Digital: US$36.12 ≈ $35.496 en 🇨🇱 Chile\n   ➜ El físico te ahorra $506 y además se puede revender\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-sonic-frontiers-nsw\">Ir a comprar en 8 Bits</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Frontiers (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $34.990 (14 oct, 8 Bits) · típico $34.990 · máximo $34.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🎮 Digital: US$21.67 ≈ $21.295 en 🇨🇱 Chile (−40%)\n   ➜ El digital es $13.695 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-sonic-frontiers-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -83,8 +149,20 @@
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Modern Collection</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.900 (19 oct, TodoJuegos) · máximo $59.900\n   ▄▄  últimos 2 días\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Sonic-Modern-Collection/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:d5d3cc617f",
+        "text": "⚙️ Sonic Racing: CrossWorlds S2 · $69.900"
+      },
+      "id": "d5d3cc617f",
+      "nivel": "normal",
+      "nombre": "Sonic Racing: CrossWorlds",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sonic Racing: CrossWorlds</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$69.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.900 (19 oct, TodoJuegos) · máximo $81.990\n   ██▁▁  últimos 4 días\n🎮 Digital: US$33.25 ≈ $32.675 en 🇧🇷 Brasil\n   ➜ El digital es $37.225 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 4 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Sonic-Racing--CrossWorlds-Year-One-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
     }
   ],
   "juego": "Sonic",
-  "revision": "2026-10-20T11:41:30Z"
+  "revision": "2026-10-20T18:16:14Z"
 }

@@ -2,29 +2,31 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:0aa9b4489e",
-        "text": "⚙️ Contra: Operation Galuga · $64.990"
+        "callback_data": "a:7549d8bc39",
+        "text": "⚙️ Contra Anniversary Collection · US$5.69"
       },
-      "id": "0aa9b4489e",
-      "nivel": "normal",
-      "nombre": "Contra: Operation Galuga",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Contra: Operation Galuga</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$64.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $74.990» (−13%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/143350675/Contra-Operation-Galuga-Nintendo-Switch-SniperCL\">$64.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/contra-operation-galuga-nintendo-switch-sniper-MK3XCZOJ0D.html\">$64.990 Paris</a> 🏪 SNIPERCL (+$0)\n📈 Mínimo $64.990 (17 oct, Falabella) · máximo $64.990\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$27.50 ≈ $26.996 en 🇨🇱 Chile\n   ➜ El digital es $37.994 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 3 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/143350675/Contra-Operation-Galuga-Nintendo-Switch-SniperCL\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
+      "con_fisico": true,
+      "id": "7549d8bc39",
+      "nivel": "compra",
+      "nombre": "Contra Anniversary Collection",
+      "pct": 60.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Contra Anniversary Collection</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$5.69</b> ≈ $5.592 en 🇨🇱 Chile\n   Precio en la tienda: $5.596 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$14.24 → ahorras US$8.55 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/contra-anniversary-collection-switch/\">US$5.69</a> ← el más barato\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/contra-anniversary-collection-switch/\">US$6.29</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/contra-anniversary-collection-switch/\">US$6.61</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/contra-anniversary-collection-switch/\">US$7.37</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/contra-anniversary-collection-switch/\">US$7.99</a>\n   El más caro: 🇲🇽 US$8.65\n📦 Físico: $96.990 en Lider → el digital te ahorra $91.398\n📈 Mínimo US$5.69 (20 oct en 🇨🇱 Chile)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/contra-anniversary-collection-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
     },
     {
       "boton": {
-        "callback_data": "a:a53189648e",
-        "text": "⚙️ CONTRA: ROGUE CORPS · $37.720"
+        "callback_data": "a:b22e1196a1",
+        "text": "⚙️ Contra: Operation Galuga · US$13.74"
       },
-      "id": "a53189648e",
-      "nivel": "normal",
-      "nombre": "CONTRA: ROGUE CORPS",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>CONTRA: ROGUE CORPS</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$37.720</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Está a su precio de siempre\n🏷️ La tienda dice «antes $47.720», pero las demás lo venden cerca de $37.720: ese descuento está inflado\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148486358/Contra-Rogue-Corps-Juego-Fisico-Nintendo-Switch-Sniper\">$37.720 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/contra-rogue-corps-juego-fisico-nintendo-switch-sniper/00124598285530\">$37.720 Lider</a> 🏪 SNIPER (+$0)\n   🥉 <a href=\"https://sniper.cl/products/contra-rogue-corps-juego-fisico-nintendo-switch-sniper\">$37.720 Sniper</a> (+$0)\n📈 Mínimo $37.720 (14 oct, Falabella) · máximo $37.720\n   ▄▄▄▄▄▄  últimos 6 días\n🎮 Digital: US$28.51 ≈ $27.987 en 🇨🇱 Chile\n   ➜ El digital es $9.733 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 6 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148486358/Contra-Rogue-Corps-Juego-Fisico-Nintendo-Switch-Sniper\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
+      "con_fisico": true,
+      "id": "b22e1196a1",
+      "nivel": "compra",
+      "nombre": "Contra: Operation Galuga",
+      "pct": 50.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Contra: Operation Galuga</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$13.74</b> ≈ $13.502 en 🇨🇱 Chile\n   Precio en la tienda: $13.499 CLP\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$27.47 → ahorras US$13.73 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/contra-operation-galuga-switch/\">US$13.74</a> ← el más barato\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/contra-operation-galuga-switch/\">US$18.89</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/contra-operation-galuga-switch/\">US$18.95</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/contra-operation-galuga-switch/\">US$18.97</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/contra-operation-galuga-switch/\">US$19.75</a>\n   El más caro: 🇵🇪 US$21.64\n📦 Físico: $64.990 en Falabella → el digital te ahorra $51.488\n📈 Mínimo US$13.74 (20 oct en 🇨🇱 Chile)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/contra-operation-galuga-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
     }
   ],
   "juego": "Contra",
-  "revision": "2026-10-19T22:48:23Z"
+  "revision": "2026-10-20T18:16:14Z"
 }

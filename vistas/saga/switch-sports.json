@@ -26,6 +26,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:ef54734aa8",
+        "text": "⚙️ Sports Motion Controls · $75.990"
+      },
+      "id": "ef54734aa8",
+      "nivel": "bueno",
+      "nombre": "Sports Motion Controls",
+      "pct": 26.2,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −26%\n<b>Sports Motion Controls</b>\n🕹️ Switch 1 · 📦 Físico · Switch Sports\n💰 <b>$75.990</b> en Lider 🏪 <i>vende VYSE GLOBAL</i>\n💡 −26% según la tienda (sin otra tienda para confirmarlo)\n   Ahorras $27.000 frente al «antes» que marca la tienda ($102.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $75.990 (14 oct, Lider) · típico $75.990 · máximo $75.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/juego-nintendo-switch-sports-nintendo-switch-motion-controls/00290000054345\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:4a665be29f",
         "text": "⚙️ Looney Tunes Wacky World of S… · $49.990"
       },
@@ -123,13 +135,13 @@
     {
       "boton": {
         "callback_data": "a:ee50c1b303",
-        "text": "⚙️ Nintendo Switch Sports Resort S2 · $64.990"
+        "text": "⚙️ Nintendo Switch Sports Resort S2 · $63.990"
       },
       "id": "ee50c1b303",
       "nivel": "regular",
       "nombre": "Nintendo Switch Sports Resort",
-      "pct": 7.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Nintendo Switch Sports Resort</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$64.990</b> en 8 Bits\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.910 frente a la otra tienda ($69.900)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/nintendo-switch-sports-resort-nintendo-switch-2\">$64.990 8 Bits</a>\n   🥈 <a href=\"https://www.todojuegos.cl/Productos/NS2/Nintendo-Switch-Sports-Resort/?ref=buscador\">$69.900 TodoJuegos</a> (+$4.910)\n📈 Mínimo $64.990 (16 oct, 8 Bits) · máximo $64.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$49.64 ≈ $48.782 en 🇨🇦 Canadá\n   ➜ El digital es $16.208 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 5 días de historial\n🛒 <a href=\"https://8-bits.cl/products/nintendo-switch-sports-resort-nintendo-switch-2\">Ir a comprar en 8 Bits</a>",
+      "pct": 5.1,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −5%\n<b>Nintendo Switch Sports Resort</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$63.990</b> en Falabella\n💡 Apenas 5% bajo la referencia\n   Ahorras $3.455 frente al promedio de las otras tiendas ($67.445)\n🏷️ La tienda marca «antes $70.990» (−10%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/80872523/nintendo-switch-2-sports-resort\">$63.990 Falabella</a>\n   🥈 <a href=\"https://8-bits.cl/products/nintendo-switch-sports-resort-nintendo-switch-2\">$64.990 8 Bits</a> (+$1.000)\n   🥉 <a href=\"https://www.todojuegos.cl/Productos/NS2/Nintendo-Switch-Sports-Resort/?ref=buscador\">$69.900 TodoJuegos</a> (+$5.910)\n📈 Mínimo $63.990 (20 oct, Falabella) · máximo $64.990\n   ████▁  últimos 5 días\n🎮 Digital: US$49.64 ≈ $48.782 en 🇨🇦 Canadá\n   ➜ El digital es $15.208 más barato, pero no se puede revender\n🔎 Confianza media: 3 tiendas y 5 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/80872523/nintendo-switch-2-sports-resort\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -206,5 +218,5 @@
     }
   ],
   "juego": "Switch Sports",
-  "revision": "2026-10-20T11:41:30Z"
+  "revision": "2026-10-20T18:16:14Z"
 }

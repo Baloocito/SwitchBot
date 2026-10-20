@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:e5b3564dee",
+        "text": "⚙️ Nintendo Ring Fit Adventure · $180.990"
+      },
+      "id": "e5b3564dee",
+      "nivel": "regular",
+      "nombre": "Nintendo Ring Fit Adventure",
+      "pct": 10.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −10%\n<b>Nintendo Ring Fit Adventure</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$180.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 10% bajo la referencia\n   Ahorras $20.078 frente al «antes» que marca la tienda ($201.068)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $180.990 (20 oct, Lider) · máximo $180.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/juego-nintendo-ring-fit-adventure-para-nintendo-switch/00075847514709\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:55d13c1dfb",
         "text": "⚙️ Set Proteccion Ring Fit · $4.510"
       },
@@ -14,5 +26,5 @@
     }
   ],
   "juego": "Ring Fit",
-  "revision": "2026-10-20T11:41:30Z"
+  "revision": "2026-10-20T18:16:14Z"
 }

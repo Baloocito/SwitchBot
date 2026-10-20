@@ -2,6 +2,19 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:6b418d0e35",
+        "text": "⚙️ STAR WARS: Dark Forces Remast… · US$13.82"
+      },
+      "con_fisico": true,
+      "id": "6b418d0e35",
+      "nivel": "compra",
+      "nombre": "STAR WARS: Dark Forces Remaster",
+      "pct": 50.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>STAR WARS: Dark Forces Remaster</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$13.82</b> ≈ $13.581 en 🇨🇦 Canadá\n   Precio en la tienda: CA$19,49 CAD\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$27.65 → ahorras US$13.83 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/star-wars-dark-forces-remaster-switch/\">US$13.82</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/star-wars-dark-forces-remaster-switch/\">US$13.82</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/star-wars-dark-forces-remaster-switch/\">US$14.75</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/star-wars-dark-forces-remaster-switch/\">US$14.80</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/star-wars-dark-forces-remaster-switch/\">US$14.99</a>\n   El más caro: 🇨🇴 US$18.43\n📦 Físico: $54.990 en Sniper → el digital te ahorra $41.409\n📈 Mínimo US$13.82 (20 oct en 🇨🇦 Canadá)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/star-wars-dark-forces-remaster-switch/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:8bc378b02e",
         "text": "⚙️ Monopoly: Star Wars Heroes vs… · $39.900"
       },
@@ -45,10 +58,10 @@
       "nivel": "normal",
       "nombre": "STAR WARS: Dark Forces Remaster",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>STAR WARS: Dark Forces Remaster</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en Sniper\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.990 (19 oct, Sniper) · máximo $54.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$27.65 ≈ $27.172 en 🇨🇦 Canadá\n   ➜ El digital es $27.818 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://sniper.cl/products/star-wars-dark-forces-remaster-n-switch\">Ir a comprar en Sniper</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>STAR WARS: Dark Forces Remaster</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en Sniper\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.990 (19 oct, Sniper) · máximo $54.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$13.82 ≈ $13.581 en 🇨🇦 Canadá (−50%)\n   ➜ El digital es $41.409 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://sniper.cl/products/star-wars-dark-forces-remaster-n-switch\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     }
   ],
   "juego": "Star Wars",
-  "revision": "2026-10-20T11:41:30Z"
+  "revision": "2026-10-20T18:16:14Z"
 }

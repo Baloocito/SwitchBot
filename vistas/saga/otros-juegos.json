@@ -62,7 +62,7 @@
       "nivel": "compra",
       "nombre": "Star Renegades",
       "pct": 80.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Star Renegades</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.01</b> ≈ $3.941 en 🇨🇱 Chile\n   Precio en la tienda: $3.939 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$20.05 → ahorras US$16.04 · ⏳ termina el 1 nov (en 13 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">US$4.01</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/star-renegades-switch/\">US$4.46</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/star-renegades-switch/\">US$4.91</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/star-renegades-switch/\">US$4.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/star-renegades-switch/\">US$5.26</a>\n   El más caro: 🇨🇴 US$7.12\n📦 Físico: $27.900 en Paris → el digital te ahorra $23.959\n📈 Mínimo US$4.00 (16 oct en 🇨🇱 Chile)\n   █▁████  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Star Renegades</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.01</b> ≈ $3.941 en 🇨🇱 Chile\n   Precio en la tienda: $3.939 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$20.05 → ahorras US$16.04 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">US$4.01</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/star-renegades-switch/\">US$4.46</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/star-renegades-switch/\">US$4.91</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/star-renegades-switch/\">US$4.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/star-renegades-switch/\">US$5.26</a>\n   El más caro: 🇨🇴 US$7.12\n📦 Físico: $27.900 en Paris → el digital te ahorra $23.959\n📈 Mínimo US$4.00 (16 oct en 🇨🇱 Chile)\n   █▁████  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/star-renegades-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -314,6 +314,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:25af9e19e4",
+        "text": "⚙️ Possessor(s) S2 · US$2.35"
+      },
+      "con_fisico": false,
+      "id": "25af9e19e4",
+      "nivel": "compra",
+      "nombre": "Possessor(s)",
+      "pct": 65.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −65%\n<b>Possessor(s)</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.35</b> ≈ $2.309 en 🇨🇱 Chile\n   Precio en la tienda: $2.309 CLP\n💡 Oferta de −65% en la eShop\n🏷️ Normal US$6.72 → ahorras US$4.37 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/possessor-s-switch-2/\">US$2.35</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/possessor-s-switch-2/\">US$2.60</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/possessor-s-switch-2/\">US$2.64</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/possessor-s-switch-2/\">US$2.66</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/possessor-s-switch-2/\">US$2.83</a>\n   El más caro: 🇺🇸 US$3.49\n📈 Mínimo US$2.35 (20 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/possessor-s-switch-2/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:9879eb0973",
         "text": "⚙️ BioShock Infinite: The Comple… · US$6.51"
       },
@@ -335,7 +348,7 @@
       "nivel": "compra",
       "nombre": "Cassette Beasts",
       "pct": 60.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Cassette Beasts</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.27</b> ≈ $4.196 en 🇨🇱 Chile\n   Precio en la tienda: $4.200 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$10.68 → ahorras US$6.41 · ⏳ termina el 1 nov (en 13 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cassette-beasts-switch/\">US$4.27</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cassette-beasts-switch/\">US$4.75</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/cassette-beasts-switch/\">US$4.94</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cassette-beasts-switch/\">US$5.00</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/cassette-beasts-switch/\">US$5.99</a>\n   El más caro: 🇺🇸 US$7.99\n📈 Mínimo US$4.26 (16 oct en 🇨🇱 Chile)\n   █▁▄██▄  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/cassette-beasts-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Cassette Beasts</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.27</b> ≈ $4.196 en 🇨🇱 Chile\n   Precio en la tienda: $4.200 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$10.68 → ahorras US$6.41 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cassette-beasts-switch/\">US$4.27</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cassette-beasts-switch/\">US$4.75</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/cassette-beasts-switch/\">US$4.94</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cassette-beasts-switch/\">US$5.00</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/cassette-beasts-switch/\">US$5.99</a>\n   El más caro: 🇺🇸 US$7.99\n📈 Mínimo US$4.26 (16 oct en 🇨🇱 Chile)\n   █▁▄██▄  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/cassette-beasts-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -349,6 +362,32 @@
       "nombre": "WWE 2K26 Standard Edition",
       "pct": 60.0,
       "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>WWE 2K26 Standard Edition</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$25.53</b> ≈ $25.089 en 🇨🇦 Canadá\n   Precio en la tienda: CA$35,99 CAD\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$63.82 → ahorras US$38.29 · ⏳ termina el 7 nov (en 18 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/wwe-2k26-standard-edition-switch-2/\">US$25.53</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/wwe-2k26-standard-edition-switch-2/\">US$27.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/wwe-2k26-standard-edition-switch-2/\">US$28.17</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/wwe-2k26-standard-edition-switch-2/\">US$28.49</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/wwe-2k26-standard-edition-switch-2/\">US$30.10</a>\n   El más caro: 🇨🇴 US$37.80\n📦 Físico: $99.990 en Sniper → el digital te ahorra $74.901\n📈 Mínimo US$25.36 (16 oct en 🇨🇦 Canadá)\n   ▁▄▄▆█  últimos 5 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/wwe-2k26-standard-edition-switch-2/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:56b2a292eb",
+        "text": "⚙️ Darwin's Paradox! S2 · US$9.50"
+      },
+      "con_fisico": false,
+      "id": "56b2a292eb",
+      "nivel": "compra",
+      "nombre": "Darwin's Paradox!",
+      "pct": 60.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Darwin's Paradox!</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$9.50</b> ≈ $9.336 en 🇨🇦 Canadá\n   Precio en la tienda: CA$13,39 CAD\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$23.75 → ahorras US$14.25 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/darwins-paradox-switch-2/\">US$9.50</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/darwins-paradox-switch-2/\">US$9.59</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/darwins-paradox-switch-2/\">US$9.81</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/darwins-paradox-switch-2/\">US$9.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/darwins-paradox-switch-2/\">US$11.29</a>\n   El más caro: 🇨🇴 US$12.59\n📈 Mínimo US$9.50 (20 oct en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/darwins-paradox-switch-2/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:84bf7e9908",
+        "text": "⚙️ SnowRunner S2 · US$15.31"
+      },
+      "con_fisico": true,
+      "id": "84bf7e9908",
+      "nivel": "compra",
+      "nombre": "SnowRunner",
+      "pct": 60.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>SnowRunner</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$15.31</b> ≈ $15.045 en 🇨🇦 Canadá\n   Precio en la tienda: CA$21,59 CAD\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$38.29 → ahorras US$22.98 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/snowrunner-switch-2/\">US$15.31</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/snowrunner-switch-2/\">US$15.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/snowrunner-switch-2/\">US$17.03</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/snowrunner-switch-2/\">US$17.10</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/snowrunner-switch-2/\">US$17.43</a>\n   El más caro: 🇨🇴 US$20.79\n📦 Físico: $44.990 en Falabella → el digital te ahorra $29.945\n📈 Mínimo US$15.31 (20 oct en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/snowrunner-switch-2/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
     },
     {
@@ -490,7 +529,7 @@
       "nivel": "compra",
       "nombre": "Townscaper",
       "pct": 44.5,
-      "texto": "🟢 <b>COMPRA YA</b> · −44%\n<b>Townscaper</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.03</b> ≈ $1.995 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −44% en la eShop\n🏷️ Normal US$3.66 → ahorras US$1.63 · ⏳ termina el 1 nov (en 13 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/townscaper-switch/\">US$2.03</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/townscaper-switch/\">US$2.18</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/townscaper-switch/\">US$2.26</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/townscaper-switch/\">US$2.39</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/townscaper-switch/\">US$2.42</a>\n   El más caro: 🇨🇴 US$2.71\n📈 Mínimo US$2.02 (16 oct en 🇨🇱 Chile)\n   █▁████  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/townscaper-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −44%\n<b>Townscaper</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.03</b> ≈ $1.995 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −44% en la eShop\n🏷️ Normal US$3.66 → ahorras US$1.63 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/townscaper-switch/\">US$2.03</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/townscaper-switch/\">US$2.18</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/townscaper-switch/\">US$2.26</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/townscaper-switch/\">US$2.39</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/townscaper-switch/\">US$2.42</a>\n   El más caro: 🇨🇴 US$2.71\n📈 Mínimo US$2.02 (16 oct en 🇨🇱 Chile)\n   █▁████  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/townscaper-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -556,6 +595,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:ad2af48d9c",
+        "text": "⚙️ FATAL FRAME II: Crimson Butte… S2 · US$30.88"
+      },
+      "con_fisico": true,
+      "id": "ad2af48d9c",
+      "nivel": "bueno",
+      "nombre": "FATAL FRAME II: Crimson Butterfly REMAKE",
+      "pct": 35.0,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −35%\n<b>FATAL FRAME II: Crimson Butterfly REMAKE</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$30.88</b> ≈ $30.346 en 🇨🇦 Canadá\n   Precio en la tienda: CA$43,54 CAD\n💡 Oferta de −35% en la eShop\n🏷️ Normal US$47.51 → ahorras US$16.63 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/fatal-frame-ii-crimson-butterfly-remake-switch-2/\">US$30.88</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/fatal-frame-ii-crimson-butterfly-remake-switch-2/\">US$32.49</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/fatal-frame-ii-crimson-butterfly-remake-switch-2/\">US$36.81</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/fatal-frame-ii-crimson-butterfly-remake-switch-2/\">US$38.56</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/fatal-frame-ii-crimson-butterfly-remake-switch-2/\">US$41.09</a>\n   El más caro: 🇨🇴 US$49.80\n📦 Físico: $84.990 en Sniper → el digital te ahorra $54.644\n📈 Mínimo US$30.88 (20 oct en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/fatal-frame-ii-crimson-butterfly-remake-switch-2/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:dd7df264ff",
         "text": "⚙️ Undertale · US$7.66"
       },
@@ -564,7 +616,7 @@
       "nivel": "bueno",
       "nombre": "Undertale",
       "pct": 34.0,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −34%\n<b>Undertale</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$7.66</b> ≈ $7.528 en 🇨🇱 Chile\n   Precio en la tienda: $7.524 CLP\n💡 Oferta de −34% en la eShop\n🏷️ Normal US$11.60 → ahorras US$3.94 · ⏳ termina el 1 nov (en 13 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/undertale-switch/\">US$7.66</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/undertale-switch/\">US$8.89</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/undertale-switch/\">US$9.89</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/undertale-switch/\">US$10.33</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/undertale-switch/\">US$10.35</a>\n   El más caro: 🇨🇴 US$11.85\n📦 Físico: $49.990 en 8 Bits → el digital te ahorra $42.462\n📈 Mínimo US$7.63 (16 oct en 🇨🇱 Chile)\n   █▁████  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/undertale-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟡 <b>BUEN PRECIO</b> · −34%\n<b>Undertale</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$7.66</b> ≈ $7.528 en 🇨🇱 Chile\n   Precio en la tienda: $7.524 CLP\n💡 Oferta de −34% en la eShop\n🏷️ Normal US$11.60 → ahorras US$3.94 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/undertale-switch/\">US$7.66</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/undertale-switch/\">US$8.89</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/undertale-switch/\">US$9.89</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/undertale-switch/\">US$10.33</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/undertale-switch/\">US$10.35</a>\n   El más caro: 🇨🇴 US$11.85\n📦 Físico: $49.990 en 8 Bits → el digital te ahorra $42.462\n📈 Mínimo US$7.63 (16 oct en 🇨🇱 Chile)\n   █▁████  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/undertale-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -621,15 +673,29 @@
     },
     {
       "boton": {
-        "callback_data": "a:e64c5172bb",
-        "text": "⚙️ Cult of the Lamb Standard Edi… · $39.990"
+        "callback_data": "a:773c16b504",
+        "text": "⚙️ Goat Simulator 3 S2 · US$16.38"
       },
-      "id": "e64c5172bb",
+      "con_fisico": true,
+      "id": "773c16b504",
       "nivel": "bueno",
-      "nombre": "Cult of the Lamb Standard Edition",
-      "pct": 27.3,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −27%\n<b>Cult of the Lamb Standard Edition</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$39.990</b> en 8 Bits\n💡 27% bajo el resto de las tiendas\n   Ahorras $15.000 frente al promedio de las otras tiendas ($54.990)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/cult-of-the-lamb-nsw\">$39.990 8 Bits</a>\n   🥈 <a href=\"https://sniper.cl/products/cult-of-the-lamb-switch-fisico-sniper\">$44.990 Sniper</a> (+$5.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/147896694/Cult-of-the-Lamb-Standard-Edition-Switch-FISICO\">$54.990 Falabella</a> 🏪 Tienda Retrogamers (+$15.000)\n   ▫️ <a href=\"https://www.paris.cl/cult-of-the-lamb-nintendo-switch-MKH9QGOD8W.html\">$55.000 Paris</a> 🏪 Tienda RetroGamers (+$15.010)\n📈 Mínimo $39.990 (15 oct, 8 Bits) · máximo $39.990\n   ▄▄▄▄▄▄  últimos 6 días\n💼 <b>Margen</b>: la otra tienda lo vende a $44.990 → ~$5.000 (11%) de diferencia\n🔎 Confianza media: 4 tiendas y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/cult-of-the-lamb-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
+      "nombre": "Goat Simulator 3",
+      "pct": 30.0,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −30%\n<b>Goat Simulator 3</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$16.38</b> ≈ $16.097 en 🇨🇱 Chile\n   Precio en la tienda: $16.099 CLP\n💡 Oferta de −30% en la eShop\n🏷️ Normal US$23.40 → ahorras US$7.02 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/goat-simulator-3-switch-2/\">US$16.38</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/goat-simulator-3-switch-2/\">US$18.10</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/goat-simulator-3-switch-2/\">US$19.36</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/goat-simulator-3-switch-2/\">US$20.06</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/goat-simulator-3-switch-2/\">US$20.99</a>\n   El más caro: 🇧🇷 US$22.17\n📦 Físico: $44.990 en Falabella → el digital te ahorra $28.893\n📈 Mínimo US$16.38 (20 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/goat-simulator-3-switch-2/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:c0c5991970",
+        "text": "⚙️ PowerWash Simulator 2 S2 · US$9.16"
+      },
+      "con_fisico": false,
+      "id": "c0c5991970",
+      "nivel": "bueno",
+      "nombre": "PowerWash Simulator 2",
+      "pct": 25.0,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −25%\n<b>PowerWash Simulator 2</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$9.16</b> ≈ $9.002 en 🇨🇱 Chile\n   Precio en la tienda: $9.000 CLP\n💡 Oferta de −25% en la eShop\n🏷️ Normal US$12.21 → ahorras US$3.05 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/powerwash-simulator-2-switch-2/\">US$9.16</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/powerwash-simulator-2-switch-2/\">US$11.12</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/powerwash-simulator-2-switch-2/\">US$11.51</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/powerwash-simulator-2-switch-2/\">US$11.55</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/powerwash-simulator-2-switch-2/\">US$13.89</a>\n   El más caro: 🇺🇸 US$18.74\n📈 Mínimo US$9.16 (20 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/powerwash-simulator-2-switch-2/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
     },
     {
       "boton": {
@@ -653,8 +719,33 @@
       "nivel": "bueno",
       "nombre": "Cuphead",
       "pct": 22.6,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −23%\n<b>Cuphead</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$32.900</b> en TodoJuegos\n💡 23% bajo el resto de las tiendas\n   Ahorras $9.590 frente al promedio de las otras tiendas ($42.490)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Cuphead/?ref=buscador\">$32.900 TodoJuegos</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/cuphead-switch/00081194903542\">$39.990 Lider</a> 🏪 Rivertec SPA (+$7.090)\n   🥉 <a href=\"https://sniper.cl/products/cuphead-switch-fisico-americano-sniper\">$39.990 Sniper</a> (+$7.090)\n   ▫️ <a href=\"https://www.paris.cl/cuphead-nintendo-switch-MKLBWQ251R.html\">$44.990 Paris</a> 🏪 RIVERTEC (+$12.090)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/158498313/cuphead-nintendo-switch\">$54.990 Falabella</a> 🏪 Tienda Retrogamers (+$22.090)\n📈 Mínimo $32.900 (19 oct, TodoJuegos) · típico $39.990 · máximo $39.990\n   █████▁▁  últimos 7 días\n🎮 Digital: US$9.88 ≈ $9.709 en 🇧🇷 Brasil\n   ➜ El digital es $23.191 más barato, pero no se puede revender\n💼 <b>Margen</b>: la otra tienda lo vende a $39.990 → ~$7.090 (18%) de diferencia\n🔎 Confianza alta: 5 tiendas y 7 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Cuphead/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "texto": "🟡 <b>BUEN PRECIO</b> · −23%\n<b>Cuphead</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$32.900</b> en TodoJuegos\n💡 23% bajo el resto de las tiendas\n   Ahorras $9.590 frente al promedio de las otras tiendas ($42.490)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Cuphead/?ref=buscador\">$32.900 TodoJuegos</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/cuphead-nintendo-switch/00085007667037\">$39.990 Lider</a> 🏪 SNIPERCL (+$7.090)\n   🥉 <a href=\"https://sniper.cl/products/cuphead-switch-fisico-americano-sniper\">$39.990 Sniper</a> (+$7.090)\n   ▫️ <a href=\"https://www.paris.cl/cuphead-nintendo-switch-MKLBWQ251R.html\">$44.990 Paris</a> 🏪 RIVERTEC (+$12.090)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/158498313/cuphead-nintendo-switch\">$54.990 Falabella</a> 🏪 Tienda Retrogamers (+$22.090)\n📈 Mínimo $32.900 (19 oct, TodoJuegos) · típico $39.990 · máximo $39.990\n   █████▁▁  últimos 7 días\n🎮 Digital: US$9.88 ≈ $9.709 en 🇧🇷 Brasil\n   ➜ El digital es $23.191 más barato, pero no se puede revender\n💼 <b>Margen</b>: la otra tienda lo vende a $39.990 → ~$7.090 (18%) de diferencia\n🔎 Confianza alta: 5 tiendas y 7 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Cuphead/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:e64c5172bb",
+        "text": "⚙️ Cult of the Lamb Standard Edi… · $39.990"
+      },
+      "id": "e64c5172bb",
+      "nivel": "bueno",
+      "nombre": "Cult of the Lamb Standard Edition",
+      "pct": 20.0,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −20%\n<b>Cult of the Lamb Standard Edition</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$39.990</b> en 8 Bits\n💡 20% bajo el resto de las tiendas\n   Ahorras $10.000 frente al promedio de las otras tiendas ($49.990)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/cult-of-the-lamb-nsw\">$39.990 8 Bits</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-cult-of-the-lamb-standard-edition/00081230301931\">$43.990 Lider</a> 🏪 nocnoc (+$4.000)\n   🥉 <a href=\"https://sniper.cl/products/cult-of-the-lamb-switch-fisico-sniper\">$44.990 Sniper</a> (+$5.000)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/147896694/Cult-of-the-Lamb-Standard-Edition-Switch-FISICO\">$54.990 Falabella</a> 🏪 Tienda Retrogamers (+$15.000)\n   ▫️ <a href=\"https://www.paris.cl/cult-of-the-lamb-nintendo-switch-MKH9QGOD8W.html\">$55.000 Paris</a> 🏪 Tienda RetroGamers (+$15.010)\n📈 Mínimo $39.990 (15 oct, 8 Bits) · máximo $39.990\n   ▄▄▄▄▄▄  últimos 6 días\n💼 <b>Margen</b>: la otra tienda lo vende a $44.990 → ~$5.000 (11%) de diferencia\n🔎 Confianza media: 5 tiendas y 6 días de historial\n🛒 <a href=\"https://8-bits.cl/products/cult-of-the-lamb-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:5e9f07f0f3",
+        "text": "⚙️ Balatro S2 · US$7.18"
+      },
+      "con_fisico": true,
+      "id": "5e9f07f0f3",
+      "nivel": "regular",
+      "nombre": "Balatro",
+      "pct": 15.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −15%\n<b>Balatro</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$7.18</b> ≈ $7.056 en 🇨🇱 Chile\n   Precio en la tienda: $7.055 CLP\n💡 Oferta chica de −15%\n🏷️ Normal US$8.45 → ahorras US$1.27 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/balatro-switch-2/\">US$7.18</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/balatro-switch-2/\">US$7.57</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/balatro-switch-2/\">US$8.25</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/balatro-switch-2/\">US$8.27</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/balatro-switch-2/\">US$10.04</a>\n   El más caro: 🇺🇸 US$12.74\n📦 Físico: $60.990 en Lider → el digital te ahorra $53.934\n📈 Mínimo US$7.18 (20 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/balatro-switch-2/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
     },
     {
       "boton": {
@@ -671,5 +762,5 @@
     }
   ],
   "juego": "🔍 Otros juegos",
-  "revision": "2026-10-20T11:41:30Z"
+  "revision": "2026-10-20T18:16:14Z"
 }

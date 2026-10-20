@@ -14,6 +14,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:701f57f4ba",
+        "text": "⚙️ LEGO Brawls · $54.990"
+      },
+      "id": "701f57f4ba",
+      "nivel": "normal",
+      "nombre": "LEGO Brawls",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>LEGO Brawls</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en Sniper\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $52.890 (19 oct, Falabella) · máximo $52.890\n   ▄▄  últimos 2 días\n🎮 Digital: US$16.28 ≈ $15.999 en 🇨🇱 Chile\n   ➜ El digital es $38.991 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://sniper.cl/products/lego-brawls-switch-sniper\">Ir a comprar en Sniper</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:784ef5f3e3",
         "text": "⚙️ LEGO Harry Potter Collection · $44.990"
       },
@@ -74,5 +86,5 @@
     }
   ],
   "juego": "LEGO",
-  "revision": "2026-10-20T11:41:30Z"
+  "revision": "2026-10-20T18:16:14Z"
 }

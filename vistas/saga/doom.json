@@ -2,6 +2,32 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:512634e2eb",
+        "text": "⚙️ DOOM 3 · US$3.49"
+      },
+      "con_fisico": false,
+      "id": "512634e2eb",
+      "nivel": "compra",
+      "nombre": "DOOM 3",
+      "pct": 60.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>DOOM 3</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$3.49</b> ≈ $3.430 en 🇨🇱 Chile\n   Precio en la tienda: $3.431 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$8.73 → ahorras US$5.24 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-3-switch/\">US$3.49</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/doom-3-switch/\">US$3.68</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-3-switch/\">US$3.96</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/doom-3-switch/\">US$3.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/doom-3-switch/\">US$4.34</a>\n   El más caro: 🇨🇴 US$5.67\n📈 Mínimo US$3.49 (20 oct en 🇨🇱 Chile)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-3-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:c3ea552940",
+        "text": "⚙️ DOOM + DOOM II · US$3.49"
+      },
+      "con_fisico": true,
+      "id": "c3ea552940",
+      "nivel": "compra",
+      "nombre": "DOOM + DOOM II",
+      "pct": 60.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>DOOM + DOOM II</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$3.49</b> ≈ $3.430 en 🇨🇱 Chile\n   Precio en la tienda: $3.431 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$8.73 → ahorras US$5.24 · ⏳ termina el 1 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-plus-doom-ii-switch/\">US$3.49</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/doom-plus-doom-ii-switch/\">US$3.68</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-plus-doom-ii-switch/\">US$3.96</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/doom-plus-doom-ii-switch/\">US$3.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/doom-plus-doom-ii-switch/\">US$4.34</a>\n   El más caro: 🇨🇴 US$5.67\n📦 Físico: $77.990 en Lider → el digital te ahorra $74.560\n📈 Mínimo US$3.49 (20 oct en 🇨🇱 Chile)\n   ██████▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-plus-doom-ii-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:16b42584bd",
         "text": "⚙️ DOOM 64 · $44.990"
       },
@@ -9,7 +35,7 @@
       "nivel": "regular",
       "nombre": "DOOM 64",
       "pct": 8.2,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>DOOM 64</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$44.990</b> en 8 Bits\n💡 Apenas 8% bajo la referencia\n   Ahorras $4.000 frente a la otra tienda ($48.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/doom-64-nsw\">$44.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/147898306/DOOM-64-Switch-FISICO\">$48.990 Falabella</a> 🏪 Tienda Retrogamers (+$4.000)\n📈 Mínimo $44.990 (14 oct, 8 Bits) · típico $44.990 · máximo $44.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🎮 Digital: US$4.07 ≈ $4.000 en 🇨🇱 Chile\n   ➜ El digital es $40.990 más barato, pero no se puede revender\n🛒 <a href=\"https://listado.mercadolibre.cl/doom-64-nintendo-switch\">MercadoLibre</a>: nuevo ~$52.990 (5 avisos)\n💰 <b>Reventa</b>: lo compras a $44.990 y nuevo se vende a ~$52.990 (+$8.000 antes de comisiones)\n🔎 Confianza media: 2 tiendas y 7 días de historial\n🛒 <a href=\"https://8-bits.cl/products/doom-64-nsw\">Ir a comprar en 8 Bits</a>",
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>DOOM 64</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$44.990</b> en 8 Bits\n💡 Apenas 8% bajo la referencia\n   Ahorras $4.000 frente a la otra tienda ($48.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/doom-64-nsw\">$44.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/147898306/DOOM-64-Switch-FISICO\">$48.990 Falabella</a> 🏪 Tienda Retrogamers (+$4.000)\n📈 Mínimo $44.990 (14 oct, 8 Bits) · típico $44.990 · máximo $44.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🎮 Digital: US$2.04 ≈ $2.005 en 🇨🇱 Chile (−50%)\n   ➜ El digital es $42.985 más barato, pero no se puede revender\n🛒 <a href=\"https://listado.mercadolibre.cl/doom-64-nintendo-switch\">MercadoLibre</a>: nuevo ~$52.990 (5 avisos)\n💰 <b>Reventa</b>: lo compras a $44.990 y nuevo se vende a ~$52.990 (+$8.000 antes de comisiones)\n🔎 Confianza media: 2 tiendas y 7 días de historial\n🛒 <a href=\"https://8-bits.cl/products/doom-64-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -21,7 +47,7 @@
       "nivel": "normal",
       "nombre": "DOOM 64",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DOOM 64 (limited)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$55.000</b> en Paris 🏪 <i>vende Tienda RetroGamers </i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $55.000 (19 oct, Paris) · máximo $55.000\n   ▄▄  últimos 2 días\n🎮 Digital: US$4.07 ≈ $4.000 en 🇨🇱 Chile\n   ➜ El digital es $51.000 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.paris.cl/doom-64-limited-run-nintendo-switch-MKWRUTTP57.html\">Ir a comprar en Paris</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DOOM 64 (limited)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$55.000</b> en Paris 🏪 <i>vende Tienda RetroGamers </i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $55.000 (19 oct, Paris) · máximo $55.000\n   ▄▄  últimos 2 días\n🎮 Digital: US$2.04 ≈ $2.005 en 🇨🇱 Chile (−50%)\n   ➜ El digital es $52.995 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.paris.cl/doom-64-limited-run-nintendo-switch-MKWRUTTP57.html\">Ir a comprar en Paris</a>",
       "tipo": "fisico"
     },
     {
@@ -33,10 +59,10 @@
       "nivel": "normal",
       "nombre": "DOOM",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DOOM</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $79.990» (−13%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148490815/doom-the-classics-collection-switch-fisico-sniper\">$69.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://sniper.cl/products/doom-the-classics-collection-switch-fisico-sniper\">$69.990 Sniper</a> (+$0)\n📈 Mínimo $69.990 (14 oct, Falabella) · típico $69.990 · máximo $69.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🎮 Digital: US$19.33 ≈ $18.996 en 🇨🇱 Chile\n   ➜ El digital es $50.994 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 7 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148490815/doom-the-classics-collection-switch-fisico-sniper\">Ir a comprar en Falabella</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DOOM</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $72.990» (−4%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/123779323/Doom-The-Classics-Collection-Switch-Fisico-Sniper\">$69.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://sniper.cl/products/doom-the-classics-collection-switch-fisico-sniper\">$69.990 Sniper</a> (+$0)\n📈 Mínimo $69.990 (14 oct, Falabella) · típico $69.990 · máximo $69.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🎮 Digital: US$19.33 ≈ $18.996 en 🇨🇱 Chile\n   ➜ El digital es $50.994 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 7 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/123779323/Doom-The-Classics-Collection-Switch-Fisico-Sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     }
   ],
   "juego": "Doom",
-  "revision": "2026-10-20T11:41:30Z"
+  "revision": "2026-10-20T18:16:14Z"
 }
