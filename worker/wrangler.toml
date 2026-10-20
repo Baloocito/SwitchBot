@@ -16,3 +16,9 @@ id = "3c689635ae674fa290ef1ada8edc3028"
 
 [triggers]
 crons = ["5,35 * * * *"]
+
+# Metricas: clics de los links del canal y comisiones anotadas con /comision
+[[d1_databases]]
+binding = "METRICAS"
+database_name = "switchbot-metricas"
+database_id = "d9efb07f-8076-4ae5-894f-76587c0e8194"

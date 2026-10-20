@@ -240,6 +240,17 @@ incluir `worker/*`. Deploy command: `npx wrangler deploy` (el que viene por defe
 `wrangler.toml` define el KV `ML` y el reloj (`5,35 * * * *`). Las variables y secretos siguen
 en el panel (`keep_vars = true`), y un despliegue nunca borra secretos.
 
+## Métricas
+
+- **Clics:** los links del canal pasan por el Worker (`/r`), que cuenta el clic y redirige a la
+  tienda al instante. Se guarda juego, tienda, tipo de post, hora y si tocaron el nombre, la tienda,
+  "Comprar" o "WhatsApp". Las vistas previas de Telegram/WhatsApp y los robots no cuentan.
+  Se guardan en la base D1 `switchbot-metricas` (binding `METRICAS`, ya en `wrangler.toml`).
+  `canal.json` → `medir_clics: false` lo apaga.
+- **Comisiones:** no hay API de los programas de afiliados; se anotan con `/comision 5000 mercadolibre`.
+- **Ver:** `/metricas` (7 días) o `/metricas 30`, y la sección CANAL del informe diario
+  (miembros vs ayer y vs semana, clics, más clickeados, mejor tipo de post, tiendas, comisiones).
+
 ## Diagnóstico
 
 Para ver qué encuentra el bot en cada tienda, entra a **Actions → Alertas de ofertas Switch → Run workflow**,

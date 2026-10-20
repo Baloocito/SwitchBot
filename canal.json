@@ -32,7 +32,10 @@
     "_ayuda_canal_url": "Link público del canal que va en los botones de compartir y en la bienvenida.",
     "minimo_dias": 30,
     "tienda_nueva_dias": 7,
-    "_ayuda_confianza": "minimo_dias: historial necesario para decir 'mínimo' en el canal. tienda_nueva_dias: una tienda recién agregada no genera bombazos durante esos días. Las tiendas que cobran 2,5 veces o más que la más barata no se comparan (suele ser otra edición)."
+    "_ayuda_confianza": "minimo_dias: historial necesario para decir 'mínimo' en el canal. tienda_nueva_dias: una tienda recién agregada no genera bombazos durante esos días. Las tiendas que cobran 2,5 veces o más que la más barata no se comparan (suele ser otra edición).",
+    "medir_clics": true,
+    "medir_url": "https://switchbot.xiombbo.workers.dev",
+    "_ayuda_medir": "Los links del canal pasan por el Worker (/r) para contar clics por juego, tienda y tipo de post. medir_clics: false lo apaga."
   },
   "horarios": [
     {

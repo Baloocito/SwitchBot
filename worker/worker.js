@@ -15,7 +15,7 @@
 
 const GH = "https://api.github.com";
 const WORKFLOW = "alertas.yml";
-const VERSION = "2026-10-19b";
+const VERSION = "2026-10-20 metricas";
 const TG_MAX = 3900;
 
 const SEP = "━━━━━━━━━━━━━━";
@@ -42,6 +42,8 @@ ${"━━━━━━━━━━━━━━"}
 
 <b>Panel</b>
 /estado — cómo están el bot, las tiendas y el canal
+/metricas — suscriptores, clics por juego/tienda/post y comisiones
+/comision 5000 mercadolibre — anotar una comisión (sin número: ver el mes)
 /canal — estado del canal y controles (pausa, seguir, revisión on/off)
 /resumen — informe diario de negocio (hora, ahora, off)
 
@@ -83,6 +85,8 @@ ${"━━━━━━━━━━━━━━"}
 
 const COMANDOS_MENU = [
   ["estado", "Estado del bot, tiendas y canal"],
+  ["metricas", "Suscriptores, clics y comisiones"],
+  ["comision", "Anotar una comisión de afiliado"],
   ["canal", "Canal: estado, pausa, revisión"],
   ["precios", "Precios actuales (opcional: juego)"],
   ["ofertas", "Juegos con descuento hoy"],
@@ -111,8 +115,17 @@ export default {
     ctx.waitUntil(reloj(env, new Date(event.scheduledTime)));
   },
 
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
+
+    if (request.method === "GET" && url.pathname === "/r") return redirigir(request, env, url, ctx);
+    if (request.method === "GET" && url.pathname === "/metricas/datos") {
+      if (!env.WEBHOOK_SECRET || request.headers.get("X-Proxy-Key") !== env.WEBHOOK_SECRET) {
+        return new Response("No autorizado.", { status: 403 });
+      }
+      const datos = await metricas(env, Number(url.searchParams.get("dias") || 7));
+      return new Response(JSON.stringify(datos), { headers: { "content-type": "application/json" } });
+    }
 
     if (request.method === "GET" && url.pathname === "/proxy") return proxy(request, env, url);
     if (request.method === "GET" && url.pathname.startsWith("/ml/")) return rutaML(request, env, url);
@@ -442,6 +455,12 @@ async function manejar(env, chatId, texto) {
       return send(env, chatId, await cmdConfig(env));
     case "estado":
       return send(env, chatId, await cmdEstado(env));
+    case "metricas":
+    case "métricas":
+      return send(env, chatId, await cmdMetricas(env, args));
+    case "comision":
+    case "comisiones":
+      return send(env, chatId, await cmdComision(env, args));
     case "canal":
       return send(env, chatId, await cmdCanal(env, args));
     case "precios":
@@ -488,6 +507,111 @@ async function manejar(env, chatId, texto) {
     default:
       return send(env, chatId, marco("❓ <b>COMANDO DESCONOCIDO</b>", null, [`No conozco /${esc(cmd)}.`, "Todos los comandos: /ayuda"]));
   }
+}
+
+// ------------------------------------------------------------- metricas
+// Los links del canal pasan por /r: se cuenta el clic (D1 "METRICAS") y se redirige a la tienda.
+// Las visitas de robots (vistas previas de Telegram, WhatsApp, buscadores) se guardan marcadas
+// y no cuentan como clics.
+
+const DESTINOS_OK = ["nintendo.com", "mercadolibre.cl", "mercadolibre.com", "wa.me", "t.me", "whatsapp.com"];
+const ROBOT_RE = /bot|crawl|spider|preview|facebookexternalhit|whatsapp|telegram|slack|discord|curl|python|wget|headless/i;
+
+function destinoPermitido(env, u) {
+  let h;
+  try { const x = new URL(u); if (x.protocol !== "https:") return false; h = x.hostname; } catch { return false; }
+  const extra = String(env.PROXY_DOMINIOS || "").split(",").map((d) => d.trim()).filter(Boolean);
+  return h.endsWith(".cl") || [...DESTINOS_OK, ...extra].some((d) => h === d || h.endsWith("." + d));
+}
+
+async function redirigir(request, env, url, ctx) {
+  const destino = url.searchParams.get("u") || "";
+  if (!destinoPermitido(env, destino)) return new Response("Link no válido.", { status: 400 });
+  if (env.METRICAS) {
+    const ahora = new Date();
+    const chile = new Date(ahora.toLocaleString("en-US", { timeZone: "America/Santiago" }));
+    const dia = `${chile.getFullYear()}-${String(chile.getMonth() + 1).padStart(2, "0")}-${String(chile.getDate()).padStart(2, "0")}`;
+    const p = (k) => (url.searchParams.get(k) || "").slice(0, 120);
+    const robot = ROBOT_RE.test(request.headers.get("user-agent") || "") ? 1 : 0;
+    const guardar = env.METRICAS.prepare(
+      "INSERT INTO clics (ts, dia, hora, post, slot, item, tienda, tipo, destino, robot) VALUES (?,?,?,?,?,?,?,?,?,?)")
+      .bind(ahora.toISOString(), dia, chile.getHours(), p("p"), p("s"), p("i"), p("t"), p("k"),
+        new URL(destino).hostname, robot).run().catch(() => null);
+    if (ctx && ctx.waitUntil) ctx.waitUntil(guardar); else await guardar;
+  }
+  return Response.redirect(destino, 302);
+}
+
+async function metricas(env, dias = 7) {
+  if (!env.METRICAS) return { ok: false, error: "Falta conectar la base METRICAS al Worker" };
+  const desde = new Date(Date.now() - dias * 86400000).toISOString().slice(0, 10);
+  const q = (sql, ...b) => env.METRICAS.prepare(sql).bind(...b).all().then((r) => r.results || []).catch(() => []);
+  const base = "FROM clics WHERE robot = 0 AND dia >= ?";
+  const [porDia, items, tiendas, slots, tipos, horas, comMes, comTot] = await Promise.all([
+    q(`SELECT dia, COUNT(*) n ${base} GROUP BY dia ORDER BY dia`, desde),
+    q(`SELECT item, COUNT(*) n ${base} AND item != '' AND tipo != 'whatsapp' GROUP BY item ORDER BY n DESC LIMIT 8`, desde),
+    q(`SELECT tienda, COUNT(*) n ${base} AND tienda != '' GROUP BY tienda ORDER BY n DESC`, desde),
+    q(`SELECT slot, COUNT(*) n, COUNT(DISTINCT post) posts ${base} AND slot != '' AND tipo != 'whatsapp' GROUP BY slot ORDER BY n DESC`, desde),
+    q(`SELECT tipo, COUNT(*) n ${base} GROUP BY tipo ORDER BY n DESC`, desde),
+    q(`SELECT hora, COUNT(*) n ${base} GROUP BY hora ORDER BY n DESC LIMIT 3`, desde),
+    q("SELECT COALESCE(SUM(monto),0) total, COUNT(*) n FROM comisiones WHERE dia >= ?", new Date().toISOString().slice(0, 7) + "-01"),
+    q("SELECT COALESCE(SUM(monto),0) total, COUNT(*) n FROM comisiones"),
+  ]);
+  const total = porDia.reduce((a, x) => a + x.n, 0);
+  return { ok: true, dias, total, por_dia: porDia, items, tiendas, slots, tipos, horas,
+    comisiones_mes: comMes[0] || { total: 0, n: 0 }, comisiones_total: comTot[0] || { total: 0, n: 0 } };
+}
+
+const NOMBRE_TIPO = { juego: "nombre del juego", tienda: "tienda", comprar: "botón Comprar", whatsapp: "compartir por WhatsApp" };
+
+async function cmdMetricas(env, args) {
+  const dias = Math.min(90, Math.max(1, parseInt(args, 10) || 7));
+  const [m, miembros] = await Promise.all([metricas(env, dias), miembrosCanal(env)]);
+  const titulo = `📈 <b>MÉTRICAS · últimos ${dias} días</b>`;
+  if (!m.ok) return marco(titulo, null, [esc(m.error)]);
+  const hoy = m.por_dia.length ? m.por_dia[m.por_dia.length - 1] : null;
+  const l = ["👥 <b>CANAL</b>", `Suscriptores: <b>${miembros ?? "?"}</b>`];
+  const sinShare = m.tipos.filter((t) => t.tipo !== "whatsapp").reduce((a, t) => a + t.n, 0);
+  const share = (m.tipos.find((t) => t.tipo === "whatsapp") || {}).n || 0;
+  l.push("", "🖱️ <b>CLICS</b>", `Total: <b>${sinShare}</b> a tiendas · ${share} compartidos por WhatsApp`);
+  if (miembros) l.push(`Por suscriptor: ${(sinShare / miembros).toFixed(1)} en ${dias} días`);
+  if (hoy) l.push(`Último día con clics: ${hoy.dia.slice(5)} · ${hoy.n}`);
+  if (m.items.length) {
+    l.push("", "🎮 <b>LO MÁS CLICKEADO</b>");
+    m.items.forEach((x, i) => l.push(`${i + 1}. ${esc(x.item)} — ${x.n}`));
+  }
+  if (m.tiendas.length) l.push("", "🏬 <b>POR TIENDA</b>", m.tiendas.map((x) => `${esc(x.tienda)} ${x.n}`).join(" · "));
+  if (m.slots.length) {
+    l.push("", "📰 <b>POR TIPO DE POST</b> (clics por post)");
+    m.slots.forEach((x) => l.push(`${esc(x.slot)}: ${x.n} en ${x.posts} post(s) · ${(x.n / Math.max(1, x.posts)).toFixed(1)}/post`));
+  }
+  if (m.tipos.length) l.push("", "👆 <b>DÓNDE TOCAN</b>", m.tipos.filter((x) => x.tipo !== "whatsapp")
+    .map((x) => `${NOMBRE_TIPO[x.tipo] || esc(x.tipo || "otro")} ${x.n}`).join(" · "));
+  if (m.horas.length) l.push("", "🕐 <b>HORAS CON MÁS CLICS</b>", m.horas.map((x) => `${x.hora}:00 (${x.n})`).join(" · "));
+  l.push("", "💵 <b>COMISIONES</b>", `Este mes: <b>${clp(m.comisiones_mes.total)}</b> (${m.comisiones_mes.n}) · Total: ${clp(m.comisiones_total.total)}`);
+  if (!sinShare) l.push("", "<i>Aún no hay clics medidos: se cuentan desde los posts nuevos.</i>");
+  return marco(titulo, null, l, ["/metricas 30 — último mes", "/comision 5000 mercadolibre — anotar una comisión"]);
+}
+
+async function cmdComision(env, args) {
+  const titulo = "💵 <b>COMISIONES</b>";
+  if (!env.METRICAS) return marco(titulo, null, ["Falta conectar la base METRICAS al Worker."]);
+  const m = args.match(/^\$?\s*([\d.]+)\s*(\S+)?\s*([\s\S]*)$/);
+  if (!args || !m) {
+    const mes = new Date().toISOString().slice(0, 7);
+    const r = await env.METRICAS.prepare("SELECT dia, monto, fuente, nota FROM comisiones WHERE dia >= ? ORDER BY dia DESC LIMIT 15")
+      .bind(mes + "-01").all().then((x) => x.results || []).catch(() => []);
+    const tot = r.reduce((a, x) => a + x.monto, 0);
+    return marco(titulo, `Este mes: ${clp(tot)}`, r.length ? r.map((x) => `• ${x.dia.slice(5)} · ${clp(x.monto)} · ${esc(x.fuente || "")} ${esc(x.nota || "")}`)
+      : ["Todavía no anotas comisiones este mes."], ["/comision 5000 mercadolibre — anotar", "/comision 12000 falabella memoria 256 — con nota"]);
+  }
+  const monto = parseInt(m[1].replace(/\./g, ""), 10);
+  if (!(monto > 0)) return uso("/comision", ["/comision 5000 mercadolibre"]);
+  const hoy = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Santiago" }));
+  const dia = `${hoy.getFullYear()}-${String(hoy.getMonth() + 1).padStart(2, "0")}-${String(hoy.getDate()).padStart(2, "0")}`;
+  await env.METRICAS.prepare("INSERT INTO comisiones (dia, monto, fuente, nota) VALUES (?,?,?,?)")
+    .bind(dia, monto, (m[2] || "").toLowerCase(), (m[3] || "").trim()).run();
+  return marco(titulo, null, [`✅ Anotada: ${clp(monto)}${m[2] ? " de " + esc(m[2]) : ""}.`, "Sale en /metricas y en el informe diario."]);
 }
 
 // ------------------------------------------------------------- panel de control

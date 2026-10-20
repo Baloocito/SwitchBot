@@ -3362,7 +3362,10 @@ def lineas_canal(state, ec):
         hist_m[hoy] = ec["miembros"]
         for d in sorted(hist_m)[:-60]:
             del hist_m[d]
-        delta = f" ({ec['miembros'] - previo[-1]:+d} vs ayer)" if previo else ""
+        delta = f" ({ec['miembros'] - previo[-1]:+d} vs ayer" if previo else ""
+        semana = [v for d, v in sorted(hist_m.items()) if d <= _sumar_dias(hoy, -7)]
+        if delta:
+            delta += (f", {ec['miembros'] - semana[-1]:+d} en 7 días)" if semana else ")")
         l.append(f"👥 {ec['miembros']} miembros{delta}")
     estado = "⏸️ PAUSADO (/canal seguir)" if ec["pausado"] else "▶️ publicando"
     estado += " · 👀 revisión previa" if ec["revision_previa"] else " · sin revisión previa"
@@ -3374,6 +3377,44 @@ def lineas_canal(state, ec):
         l.append(f"⏳ {ec['en_revision']} esperando tu revisión")
     if ec["sospechosos_hoy"]:
         l.append(f"🚨 {ec['sospechosos_hoy']} precio(s) sospechoso(s) frenados hoy")
+    l += lineas_metricas(ec.get("miembros"))
+    return l
+
+
+def metricas_worker(dias):
+    if not ml_disponible():
+        return None
+    try:
+        r = requests.get(os.environ["WORKER_URL"].rstrip("/") + "/metricas/datos", params={"dias": dias},
+                         headers={"X-Proxy-Key": os.environ["PROXY_KEY"]}, timeout=20)
+        d = r.json()
+        return d if d.get("ok") else None
+    except (requests.RequestException, ValueError):
+        return None
+
+
+def lineas_metricas(miembros):
+    """Clics del canal (contados por el Worker) y comisiones anotadas con /comision."""
+    m7, m1 = metricas_worker(7), metricas_worker(1)
+    if not m7:
+        return []
+    def clics(m):
+        return sum(x["n"] for x in m.get("tipos", []) if x.get("tipo") != "whatsapp")
+    def shares(m):
+        return sum(x["n"] for x in m.get("tipos", []) if x.get("tipo") == "whatsapp")
+    l = [f"🖱️ Clics: {clics(m1) if m1 else '?'} hoy · {clics(m7)} en 7 días"
+         + (f" ({clics(m7) / miembros:.1f} por miembro)" if miembros else "")
+         + (f" · 📲 {shares(m7)} compartidos" if shares(m7) else "")]
+    if m7.get("items"):
+        l.append("🔥 Más clickeados: " + " · ".join(f"{esc(x['item'][:28])} ({x['n']})" for x in m7["items"][:3]))
+    if m7.get("slots"):
+        mejor = max(m7["slots"], key=lambda x: x["n"] / max(1, x["posts"]))
+        l.append(f"📰 Mejor post: {esc(mejor['slot'])} ({mejor['n'] / max(1, mejor['posts']):.1f} clics por post)")
+    if m7.get("tiendas"):
+        l.append("🏬 " + " · ".join(f"{esc(x['tienda'])} {x['n']}" for x in m7["tiendas"][:4]))
+    com = m7.get("comisiones_mes") or {}
+    l.append(f"💵 Comisiones del mes: {clp(com.get('total') or 0)}" + (f" ({com['n']})" if com.get("n") else "")
+             + " · anótalas con /comision")
     return l
 
 

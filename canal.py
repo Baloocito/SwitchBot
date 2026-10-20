@@ -26,6 +26,7 @@ Variables de entorno:
 """
 
 import hashlib
+import html
 import os
 import re
 import sys
@@ -991,6 +992,55 @@ def tg(metodo, cuerpo):
     return r.json().get("result")
 
 
+def link_medido(cfg, destino, post, slot, item, tienda, tipo):
+    """Link que pasa por el Worker (/r) para contar el clic antes de ir a la tienda."""
+    base = (cfg["ajustes"].get("medir_url") or "").rstrip("/")
+    if not base or not destino or not cfg["ajustes"].get("medir_clics", True) or destino.startswith(base):
+        return destino
+    params = {"u": destino, "p": post, "s": slot, "i": (item or "")[:40], "t": (tienda or "")[:30], "k": tipo}
+    return base + "/r?" + "&".join(f"{k}={quote(str(v), safe='')}" for k, v in params.items() if v)
+
+
+def rastrear_post(cfg, post, slot, t):
+    """Pasa todos los links del post y sus botones por el contador de clics. El nombre del juego
+    cuenta como 'juego'; el de una tienda como 'tienda' (del ultimo juego nombrado antes)."""
+    if not (cfg["ajustes"].get("medir_url") and cfg["ajustes"].get("medir_clics", True)):
+        return post
+    clave = f"{t:%m%d}-{slot}"
+    tiendas = {x.get("nombre", "").lower(): x.get("nombre", "") for x in (load_json(CONFIG_FILE, {}) or {}).get("tiendas", [])}
+    tiendas.update({"mercadolibre": "MercadoLibre", "eshop": "eShop"})
+    ultimo = {"juego": ""}
+
+    def cambiar(m):
+        href, texto = html.unescape(m.group(1)), re.sub(r"<[^>]+>", "", m.group(2)).strip()
+        texto = html.unescape(texto)
+        if texto.lower() in tiendas:
+            nuevo = link_medido(cfg, href, clave, slot, ultimo["juego"], tiendas[texto.lower()], "tienda")
+        else:
+            ultimo["juego"] = texto
+            tienda = next((v for k, v in tiendas.items() if k and k.replace(" ", "") in href.lower().replace("-", "")), "")
+            if not tienda and "nintendo.com" in href:
+                tienda = "eShop"
+            nuevo = link_medido(cfg, href, clave, slot, texto, tienda, "juego")
+        return f'<a href="{esc_attr(nuevo)}">{m.group(2)}</a>'
+
+    texto = re.sub(r'<a href="([^"]+)">(.*?)</a>', cambiar, post["texto"], flags=re.S)
+    primero = ultimo["juego"] if slot == "bombazo" else ""
+    if slot == "bombazo":
+        mm = re.search(r"\n\n<b>(.*?)</b>", post["texto"])
+        primero = html.unescape(re.sub(r"<[^>]+>", "", mm.group(1))) if mm else ""
+    botones = []
+    for fila in post.get("botones") or []:
+        nueva = []
+        for b in fila:
+            if b.get("url"):
+                tipo = "whatsapp" if "wa.me" in b["url"] else "comprar"
+                b = {**b, "url": link_medido(cfg, b["url"], clave, slot, primero if tipo == "comprar" else "", "", tipo)}
+            nueva.append(b)
+        botones.append(nueva)
+    return {**post, "texto": texto, "botones": botones}
+
+
 def enviar(post, sonido):
     if os.environ.get("DRY_RUN"):
         log("─" * 40 + "\n" + re.sub(r"<[^>]+>", "", post["texto"]))
@@ -1133,7 +1183,7 @@ def publicar_directo(cfg, est, t, slot, post, items, sonido, grupo="publicados")
     if d["posts"] >= cfg["ajustes"]["max_posts_dia"]:
         log(f"  {slot}: tope de {d['posts']} posts diarios alcanzado")
         return False
-    res = enviar(post, sonido)
+    res = enviar(rastrear_post(cfg, post, slot, t), sonido)
     if res is None:
         return False
     if res is SIN_ENVIO:
