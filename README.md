@@ -102,6 +102,17 @@ cada tamaño (Express 256/512 GB para Switch 2; 128/256/512 GB para Switch 1), s
 conocidas, con la segunda mejor opción de otra marca. El diagnóstico muestra, tienda por tienda,
 cuántas microSD encontró, cuáles cuentan y por qué descartó las demás.
 
+## Accesorios (en seguimiento)
+
+Una vez al día el bot busca accesorios de Switch y Switch 2 en las mismas tiendas: controles,
+Joy-Con, estuches, bases y cargadores, micas, volantes y audífonos. Solo cuentan las marcas
+conocidas (Nintendo, PowerA, HORI, 8BitDo, PDP, Turtle Beach…); los genéricos se ignoran.
+
+- **Informe diario:** sección ACCESORIOS con las rebajas confirmadas y cuántos se siguen por tipo.
+- **Alerta al momento:** si uno baja 35 % o más (`juegos.json` → `accesorios.remate_pct`), confirmado
+  con su historial o con las otras tiendas. Máximo 3 por revisión.
+- Todavía no sale en el canal: primero se junta historial para decidir si vale la pena.
+
 ## Canal público de ofertas
 
 `canal.py` toma lo que recolecta `bot.py` y publica en un canal de Telegram solo lo que vale la pena,

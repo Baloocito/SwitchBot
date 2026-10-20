@@ -1503,6 +1503,22 @@ def _leer_una_tienda(tienda, juegos, state):
                 if precio_valido(p.get("precio")) and clasificar_memoria(p["titulo"], p["precio"]):
                     mem.setdefault(p["url"], p)
         cache["memorias"] = mem
+    # accesorios (una vez al dia, con el mismo limite de tiempo)
+    terminos_acc = state.get("_accesorios") or []
+    if terminos_acc and respondio:
+        acc = {}
+        fuentes = [cache.get("shopify")] if cache.get("metodo") == "shopify" else []
+        if not fuentes:
+            for t in terminos_acc:
+                if minutos() > LIMITE_TIENDAS_MIN:
+                    break
+                fuentes.append(buscar_en_tienda(tienda, t, state, cache) or [])
+                time.sleep(PAUSA)
+        for prods in fuentes:
+            for p in prods or []:
+                if precio_valido(p.get("precio")) and clasificar_accesorio(p["titulo"], p["precio"], p.get("url")):
+                    acc.setdefault(p["url"], p)
+        cache["accesorios"] = acc
     return respondio, hallados, cache
 
 
@@ -1540,15 +1556,25 @@ def leer_tiendas(cfg, state, alertas):
     mem_cfg = cfg.get("memorias") or {}
     state["_memorias"] = mem_cfg.get("buscar", MEMORIAS_BUSCAR) if mem_cfg.get("activa", True) else []
     MEMORIAS_LISTADOS.clear()
+    ACCESORIOS_LISTADOS.clear()
+    acc_cfg = cfg.get("accesorios") or {}
+    toca_acc = acc_cfg.get("activa", True) is not False and state.get("accesorios_fecha") != hoy_chile()
+    state["_accesorios"] = acc_cfg.get("buscar", ACCESORIOS_BUSCAR) if toca_acc else []
     t0 = time.time()
     with ThreadPoolExecutor(max_workers=max(1, len(tiendas))) as ex:
         resultados = list(ex.map(lambda t: (t, *_leer_seguro(t, juegos, state)), tiendas))
     state.pop("_descubrir", None)
     state.pop("_memorias", None)
+    state.pop("_accesorios", None)
     for tienda, respondio, _, cache in resultados:
         for p in (cache.get("memorias") or {}).values():
             p["externo"] = es_externo(p, tienda)
             MEMORIAS_LISTADOS.append((tienda["nombre"], p))
+        for p in (cache.get("accesorios") or {}).values():
+            p["externo"] = es_externo(p, tienda)
+            ACCESORIOS_LISTADOS.append((tienda["nombre"], p))
+    if toca_acc and ACCESORIOS_LISTADOS:
+        state["accesorios_fecha"] = hoy_chile()
     log(f"  tiendas leidas en {time.time() - t0:.0f} s")
     for tienda, _, _, cache in resultados:
         if cache.get("seg"):
@@ -1918,6 +1944,167 @@ def linea_memoria(s, motivos, anterior):
         l.append("⚠️ No sirve para juegos de Switch 2 (esa consola solo usa microSD Express)")
     l.append(f"🛒 <a href=\"{esc_attr(s['url'])}\">Ir a comprar en {esc(s['tienda'])}</a>")
     return "\n".join(l)
+
+
+# ------------------------------------------------------------- accesorios
+#
+# Seguimiento de accesorios (controles, Joy-Con, estuches, bases, micas...) de marcas conocidas.
+# Por ahora solo informa a tu chat (informe diario + alerta si hay un remate confirmado) para
+# decidir si vale la pena llevarlos al canal.
+
+ACCESORIOS_BUSCAR = ["control switch", "joy-con", "pro controller", "estuche switch",
+                     "base carga switch", "mica switch", "volante switch", "audifonos switch"]
+ACCESORIOS_LISTADOS = []    # (tienda, producto) de esta corrida, los llena leer_tiendas
+TIPOS_ACC = [               # el primero que calza manda
+    ("protector", "Mica / protector", r"\b(mica|micas|protector(es)? de pantalla|vidrio templado|screen protector)\b"),
+    ("estuche", "Estuche", r"\b(estuche|funda|bolso|carrying case|travel case)\b"),
+    ("base", "Base / cargador", r"\b(dock|base de carga|cargador|estacion de carga|charging)\b"),
+    ("volante", "Volante / grip", r"\b(volante|wheel|grip)\b"),
+    ("audio", "Audífonos", r"\b(audifonos|headset|auriculares)\b"),
+    ("joycon", "Joy-Con", r"\bjoy ?cons?\b"),
+    ("control", "Control", r"\b(pro controller|controller|control|mando|gamepad|joystick)\b"),
+]
+MARCAS_ACC = ["nintendo", "powera", "hori", "8bitdo", "pdp", "turtle beach", "razer", "hyperx",
+              "logitech", "gulikit", "belkin", "nyko", "snakebyte", "steelseries", "jbl", "otterbox"]
+NOMBRE_MARCA_ACC = {"powera": "PowerA", "hori": "HORI", "8bitdo": "8BitDo", "pdp": "PDP",
+                    "hyperx": "HyperX", "jbl": "JBL", "gulikit": "GuliKit", "steelseries": "SteelSeries"}
+EXCLUIR_ACC = {"consola", "usado", "usada", "reacondicionado", "reacondicionada", "repuesto", "reparacion",
+               "flex", "tornillo", "tornillos", "carcasa", "pin", "amiibo", "tarjeta", "microsd", "memoria",
+               "juego", "videojuego", "edition", "edicion"}
+ACC_PRECIO_MIN = 3000
+REMATE_PCT = 35             # descuento confirmado para avisarte al momento
+
+
+def clasificar_accesorio(titulo, precio=None, url=None):
+    """'Control Pro PowerA Nintendo Switch Negro' -> {'tipo': 'control', 'marca': 'PowerA',
+    'consola': 'Switch 1'}. None si no es un accesorio de Switch reconocible."""
+    t = norm(titulo)
+    w = set(t.split())
+    if not (w & PLATAFORMA) or w & EXCLUIR_ACC or (precio is not None and precio < ACC_PRECIO_MIN):
+        return None
+    tipo = next((k for k, _, rx in TIPOS_ACC if re.search(rx, t)), None)
+    if not tipo:
+        return None
+    # "Nintendo Switch" aparece en casi todo (tambien en los genericos): Nintendo cuenta como
+    # marca solo si sigue apareciendo despues de sacar el nombre de la consola.
+    sin_consola = re.sub(r"\bnintendo (switch|ns)\b", " ", t)
+    marca = next((m for m in MARCAS_ACC if contiene_palabras(sin_consola, m)), None)
+    if not marca and url:
+        u = re.sub(r"\bnintendo (switch|ns)\b", " ", norm(re.sub(r"[-_/.]+", " ", str(url))))
+        marca = next((m for m in MARCAS_ACC if contiene_palabras(u, m)), None)
+    if not marca and tipo in ("control", "joycon") and re.search(r"\b(pro controller|joy ?cons?)\b", t) \
+            and not re.search(r"\b(compatible|generico|alternativo|tipo|inalambrico para)\b", t):
+        marca = "nintendo"              # "Pro Controller" y "Joy-Con" a secas son los oficiales
+    plat = plataforma_de(titulo)
+    return {"tipo": tipo, "marca": NOMBRE_MARCA_ACC.get(marca, marca.title()) if marca else None,
+            "consola": "Switch 2" if plat == "Switch 2" else "Switch 1"}
+
+
+def clave_accesorio(titulo, m):
+    """Junta el mismo accesorio de distintas tiendas: tipo + marca + consola + palabras del modelo."""
+    t = norm(limpiar_titulo(titulo))
+    ruido = RUIDO | STOP | {"para", "compatible", "con", "oficial", "original", "color", "negro", "negra",
+                            "blanco", "blanca", "unidad", "nuevo", "2", "lite", "oled",
+                            "inalambrico", "inalambrica", "wireless", "bluetooth"}
+    palabras_ = sorted({x for x in t.split() if x not in ruido and len(x) > 1})[:6]
+    return f"{m['tipo']}|{norm(m['marca'] or 'otra')}|{m['consola']}|{' '.join(palabras_)}"
+
+
+def revisar_accesorios(cfg, state, hist, alertas):
+    conf = cfg.get("accesorios") or {}
+    if conf.get("activa", True) is False or not ACCESORIOS_LISTADOS:
+        return
+    hoy = hoy_chile()
+    grupos = {}
+    for tienda, p in ACCESORIOS_LISTADOS:
+        if p.get("externo"):
+            continue
+        m = clasificar_accesorio(p["titulo"], p["precio"], p.get("url"))
+        if not m:
+            continue
+        clave = clave_accesorio(p["titulo"], m)
+        g = grupos.setdefault(clave, {"m": m, "por_tienda": {}, "nombre": limpiar_titulo(p["titulo"])})
+        prev = g["por_tienda"].get(tienda)
+        if not prev or p["precio"] < prev["precio"]:
+            g["por_tienda"][tienda] = {"tienda": tienda, "precio": p["precio"], "url": p["url"],
+                                       "titulo": p["titulo"], "normal": p.get("normal")}
+    items = state.setdefault("accesorios", {})
+    hist_a = hist.setdefault("accesorios", {})
+    avisados = 0
+    for clave, g in grupos.items():
+        m = g["m"]
+        avisos = sorted(g["por_tienda"].values(), key=lambda a: a["precio"])
+        mejor = avisos[0]
+        precio = mejor["precio"]
+        serie = hist_a.setdefault(clave, {})
+        est = estadisticas(serie, hoy)
+        registrar(serie, hoy, precio, mejor["tienda"])
+        otras = [a["precio"] for a in avisos[1:]]
+        if est.get("tipico"):
+            ref, ref_tipo = est["tipico"], "tipico"
+        elif otras and _mediana(otras) <= 3 * precio:
+            ref, ref_tipo = _mediana(otras), "mercado"
+        else:
+            ref, ref_tipo = None, None
+        pct = 100 * (1 - precio / ref) if ref else 0
+        s = items.setdefault(clave, {})
+        anterior = s.get("ultimo")
+        s.update({"nombre": g["nombre"], "tipo": m["tipo"], "marca": m["marca"], "consola": m["consola"],
+                  "precio": precio, "tienda": mejor["tienda"], "url": mejor["url"], "ref": ref,
+                  "ref_tipo": ref_tipo, "pct": round(pct, 1), "normal_tienda": mejor.get("normal"),
+                  "min_hist": est.get("min"), "dias": est["dias"], "ultimo": precio, "visto": ahora_iso(),
+                  "avisos": [{k: a[k] for k in ("tienda", "precio", "url")} for a in avisos[:4]]})
+        if not m["marca"] or not ref or pct < conf.get("remate_pct", REMATE_PCT) or avisados >= 3:
+            continue
+        if decidir(s, precio, ["descuento"], nuevo=anterior is None and ref_tipo != "mercado"):
+            avisados += 1
+            agregar_alerta(alertas, "accesorio", "🎮 Accesorios", linea_accesorio(s), puntaje(pct, ["descuento"]),
+                           extra="compra")
+    # limpia lo que no se ve hace 21 dias
+    corte = _sumar_dias(hoy, -21)
+    for k in [k for k, s in items.items() if (s.get("visto") or "")[:10] < corte]:
+        del items[k]
+    log(f"  accesorios: {len(ACCESORIOS_LISTADOS)} avisos, {len(grupos)} modelos, {avisados} remates")
+
+
+def nombre_tipo_acc(tipo):
+    return next((n for k, n, _ in TIPOS_ACC if k == tipo), tipo)
+
+
+def linea_accesorio(s):
+    contra = "su precio típico" if s["ref_tipo"] == "tipico" else "las otras tiendas"
+    l = [f"🎮 <b>REMATE · {esc(nombre_tipo_acc(s['tipo']))}</b> · {esc(s.get('marca') or '')} · {s['consola']}",
+         f"<a href=\"{esc_attr(s['url'])}\">{esc(s['nombre'])}</a>",
+         f"💰 <b>{clp(s['precio'])}</b> en {esc(s['tienda'])} · −{round(s['pct'])}% frente a {contra} ({clp(s['ref'])})"]
+    for a in s["avisos"][1:3]:
+        l.append(f"   · {esc(a['tienda'])} {clp(a['precio'])}")
+    l.append("🧪 En seguimiento: todavía no se publica en el canal")
+    return "\n".join(l)
+
+
+def lineas_accesorios_informe(state):
+    """Seccion del informe diario: como va el seguimiento de accesorios."""
+    acc = [a for a in (state.get("accesorios") or {}).values()
+           if a.get("marca") and (a.get("visto") or "")[:10] >= _sumar_dias(hoy_chile(), -2)]
+    if not acc:
+        return []
+    l = ["", f"🎮 <b>ACCESORIOS</b> (seguimiento · {len(acc)} de marca)"]
+    rebajas = sorted((a for a in acc if a.get("ref") and a.get("pct", 0) >= 20), key=lambda a: -a["pct"])[:5]
+    for a in rebajas:
+        l.append(f"• <a href=\"{esc_attr(a['url'])}\">{esc(corto_txt(a['nombre'], 40))}</a> "
+                 f"({esc(a.get('marca') or '')}, {a['consola']}) — {clp(a['precio'])} en {esc(a['tienda'])} · −{round(a['pct'])}%")
+    if not rebajas:
+        dias = max((a.get("dias") or 0) for a in acc)
+        l.append(f"Sin rebajas confirmadas todavía · historial de {dias} día(s)")
+    por_tipo = {}
+    for a in acc:
+        por_tipo[a["tipo"]] = por_tipo.get(a["tipo"], 0) + 1
+    l.append("Siguiendo: " + " · ".join(f"{nombre_tipo_acc(k)} {n}" for k, n in sorted(por_tipo.items(), key=lambda kv: -kv[1])))
+    return l
+
+
+def corto_txt(t, n):
+    return t if len(t) <= n else t[: n - 1].rstrip() + "…"
 
 
 # ----------------------------------------------------------- mercadolibre
@@ -2658,7 +2845,7 @@ def armar_mensajes(alertas, state=None, hist=None):
                     items.append({"nivel": nivel, "texto": texto, "score": a["score"], "s": e, "tipo": "digital",
                                   "boton": boton_de(e, "digital") if e.get("id") else None})
                     continue
-        nivel = a["extra"] if a["tipo"] == "memoria" and a.get("extra") in NIVELES else "bueno"
+        nivel = a["extra"] if a["tipo"] in ("memoria", "accesorio") and a.get("extra") in NIVELES else "bueno"
         items.append({"nivel": nivel, "texto": a["linea"], "score": a["score"], "tipo": a["tipo"]})
     if not items and not avisos:
         return []
@@ -2895,7 +3082,7 @@ def lineas_evento(clave, s, hist):
 # ---------------------------------------------------------------- clasificar
 
 def es_urgente(it):
-    if it["tipo"] == "memoria" or it.get("extra") in ("📦 se está agotando", "📅 preventa abierta"):
+    if it["tipo"] in ("memoria", "accesorio") or it.get("extra") in ("📦 se está agotando", "📅 preventa abierta"):
         return True                     # no se guardan para el resumen: van al momento
     return it["nivel"] in ("objetivo", "compra") or any(
         x in (it.get("extra") or "") for x in ("⭐", "🏆"))
@@ -2908,9 +3095,9 @@ def render_alertas(alertas, state, hist):
         if a["tipo"] == "aviso":
             avisos.append(a["linea"])
             continue
-        if a["tipo"] == "memoria":
+        if a["tipo"] in ("memoria", "accesorio"):
             nivel = a["extra"] if a.get("extra") in NIVELES else "bueno"
-            items.append({"nivel": nivel, "texto": a["linea"], "score": a["score"], "tipo": "memoria",
+            items.append({"nivel": nivel, "texto": a["linea"], "score": a["score"], "tipo": a["tipo"],
                           "extra": None, "ref": None, "boton": None})
             continue
         grupo = "productos" if a["tipo"] == "fisico" else "eshop"
@@ -3117,6 +3304,8 @@ def armar_resumen(state, hist, cfg, revisiones_hoy):
                 l.append(f"• {nombre}: <a href=\"{esc_attr(m['url'])}\">{esc(m['nombre'])}</a> — "
                          f"{clp(m['precio'])} en {esc(m['tienda'])} ({clp(m['por_gb'])}/GB)")
 
+    l += lineas_accesorios_informe(state)
+
     # objetivos
     por_id = {s.get("id"): s for s in list((state.get("productos") or {}).values()) +
               list((state.get("eshop") or {}).values()) if s.get("id")}
@@ -3203,6 +3392,10 @@ def ciclo(cfg, state, hist, forzar=False, solo_resumen=False):
             revisar_memorias(cfg, state, hist, alertas)
         except Exception as e:  # noqa: BLE001 - las memorias nunca deben botar la revision
             log(f"  memorias: error {type(e).__name__}: {e}")
+        try:
+            revisar_accesorios(cfg, state, hist, alertas)
+        except Exception as e:  # noqa: BLE001
+            log(f"  accesorios: error {type(e).__name__}: {e}")
         try:
             revisar_mercadolibre(cfg, state, hoy)
         except Exception as e:  # noqa: BLE001 - MercadoLibre nunca debe botar la revision
