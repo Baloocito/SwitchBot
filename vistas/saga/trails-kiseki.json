@@ -62,14 +62,14 @@
     },
     {
       "boton": {
-        "callback_data": "a:6fdc505eeb",
-        "text": "⚙️ NIS America: Trails from Zero… · $121.990"
+        "callback_data": "a:fd0cd1aa26",
+        "text": "⚙️ NIS America – The Legend of H… · $136.990"
       },
-      "id": "6fdc505eeb",
+      "id": "fd0cd1aa26",
       "nivel": "regular",
-      "nombre": "NIS America: Trails from Zero / Trails to Azure",
-      "pct": 7.9,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>NIS America: Trails from Zero / Trails to Azure</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$121.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $10.526 frente al «antes» que marca la tienda ($132.516)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $121.990 (14 oct, Lider) · máximo $121.990\n   ▄▄▄▄▄  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nis-america-trails-from-zero-trails-to-azure-nintendo-switch-/00081010086748\">Ir a comprar en Lider</a>",
+      "nombre": "NIS America – The Legend of Heroes: Trails to Azure",
+      "pct": 8.3,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>NIS America – The Legend of Heroes: Trails to Azure</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$136.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $12.407 frente al «antes» que marca la tienda ($149.397)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $136.990 (14 oct, Lider) · típico $136.990 · máximo $136.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nis-america-the-legend-of-heroes-trails-to-azure-para-nintendo-switch/00081002303768\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -107,8 +107,20 @@
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend Of Heroes Trails From Zero &amp; Trails To Azure: Deluxe Edition</b>\n🕹️ Switch 2 · 📦 Físico · Trails / Kiseki\n💰 <b>$74.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $74.900 (19 oct, TodoJuegos) · máximo $74.900\n   ▄▄  últimos 2 días\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/The-Legend-of-Heroes-Trails-from-Zero---Trails-to-Azure--Deluxe-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:1b95acb262",
+        "text": "⚙️ The Legend of Heroes: Trails … · $65.000"
+      },
+      "id": "1b95acb262",
+      "nivel": "normal",
+      "nombre": "The Legend of Heroes: Trails to Azure",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend of Heroes: Trails to Azure</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$65.000</b> en Falabella 🏪 <i>vende Tienda Retrogamers</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $65.000 (20 oct, Falabella) · máximo $65.000\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/158910630/the-legend-of-heroes-trails-to-azure-nintendo-switch\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
     }
   ],
   "juego": "Trails / Kiseki",
-  "revision": "2026-10-20T18:16:14Z"
+  "revision": "2026-10-21T00:16:30Z"
 }

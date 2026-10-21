@@ -80,6 +80,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:4ef54c4bf9",
+        "text": "⚙️ Sonic Colors: Ultimate · $32.900"
+      },
+      "id": "4ef54c4bf9",
+      "nivel": "bueno",
+      "nombre": "Sonic Colors: Ultimate",
+      "pct": 26.9,
+      "texto": "🟡 <b>BUEN PRECIO</b> · −27%\n<b>Sonic Colors: Ultimate</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$32.900</b> en TodoJuegos\n💡 27% bajo la otra tienda (solo comparé con una tienda: revisa que no esté cara)\n   Ahorras $12.090 frente a la otra tienda ($44.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Sonic-Colors-Ultimate/?ref=buscador\">$32.900 TodoJuegos</a>\n   🥈 <a href=\"https://sniper.cl/products/sonic-colors-ultimate-switch-fisico-sniper\">$44.990 Sniper</a> (+$12.090)\n📈 Mínimo $32.900 (19 oct, TodoJuegos) · máximo $32.900\n   ▄▄  últimos 2 días\n🎮 Digital: US$35.51 ≈ $34.896 en 🇨🇱 Chile\n   ➜ El físico te ahorra $1.996 y además se puede revender\n💼 <b>Margen</b>: la otra tienda lo vende a $44.990 → ~$12.090 (27%) de diferencia\n🔎 Confianza media: 2 tiendas y 2 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Sonic-Colors-Ultimate/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:ec8edfe133",
         "text": "⚙️ Sonic Classic Collection · $59.900"
       },
@@ -164,5 +176,5 @@
     }
   ],
   "juego": "Sonic",
-  "revision": "2026-10-20T18:16:14Z"
+  "revision": "2026-10-21T00:16:30Z"
 }

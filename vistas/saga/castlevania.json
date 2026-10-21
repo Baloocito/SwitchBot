@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:e3ed744a1c",
+        "text": "⚙️ de edición limitada Castlevan… · $82.990"
+      },
+      "id": "e3ed744a1c",
+      "nivel": "regular",
+      "nombre": "de edición limitada Castlevania Dominus",
+      "pct": 9.9,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −10%\n<b>de edición limitada Castlevania Dominus</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$82.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 10% bajo la referencia\n   Ahorras $9.132 frente al «antes» que marca la tienda ($92.122)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $82.990 (19 oct, Lider) · máximo $85.990\n   ██▁▁  últimos 4 días\n🔎 Confianza baja: una sola tienda y 4 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-de-edicion-limitada-castlevania-dominus-para-nintendo-switch/00081014857645\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:aea9c6abdf",
         "text": "⚙️ Colección Edición Limitada Ca… · $132.990"
       },
@@ -98,5 +110,5 @@
     }
   ],
   "juego": "Castlevania",
-  "revision": "2026-10-20T18:16:14Z"
+  "revision": "2026-10-21T00:16:30Z"
 }
