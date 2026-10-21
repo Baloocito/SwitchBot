@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 532,
-  "pendientes": 1,
+  "fisicos": 527,
+  "pendientes": 3,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-21T06:16:08Z",
+  "revision": "2026-10-21T12:16:17Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -69,11 +69,10 @@
     },
     {
       "juego": "Atelier",
-      "linea": "🟢 <b>Atelier</b> — 📦 13 desde $39.990\n   🟢 Atelier Ryza 3 - Sniper −11%",
+      "linea": "🟢 <b>Atelier</b> — 📦 12 desde $39.990\n   🟢 Atelier Ryza 3 - Sniper −11%",
       "nombres": [
         "atelier dusk trilogy deluxe pack",
         "atelier lulua the scion of arland",
-        "atelier marie remake el alquimista de salburg",
         "atelier mysterious trilogy sniper",
         "atelier resleriana the red alchemist the white guardian",
         "atelier ryza 2 lost legends the secret fairy dx",
@@ -142,15 +141,14 @@
     },
     {
       "juego": "Castlevania",
-      "linea": "🟢 <b>Castlevania</b> — 📦 9 desde $44.900\n   🟢 Castlevania Advance Collection",
+      "linea": "🟢 <b>Castlevania</b> — 📦 8 desde $44.900\n   🟢 Colección Edición Limitada Castlevania Anniversary",
       "nombres": [
         "castlevania advance collection",
         "castlevania anniversary collection",
         "castlevania belmonts curse",
         "castlevania dominus collection",
         "castlevania dominus dawn of sorrow",
-        "coleccion edicion limitada castlevania anniversary",
-        "de edicion limitada castlevania dominus"
+        "coleccion edicion limitada castlevania anniversary"
       ],
       "orden": 1,
       "slug": "castlevania"
@@ -214,8 +212,9 @@
     },
     {
       "juego": "Cyberpunk 2077",
-      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 1 desde $39.990 · 🎮 2 desde US$4.91\n   🟢 Cyberpunk 2077: Ultimate Edition −60%",
+      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990 · 🎮 2 desde US$4.91\n   🟢 Cyberpunk 2077: Ultimate Edition −60%",
       "nombres": [
+        "cd de projekt cyberpunk 2077",
         "cyberpunk 2077 ultimate edition",
         "cyberpunk speed assassin",
         "va 11 hall a cyberpunk bartender action"
@@ -225,10 +224,10 @@
     },
     {
       "juego": "Danganronpa",
-      "linea": "🟢 <b>Danganronpa</b> — 📦 3 desde $54.990\n   🟢 Danganronpa Decadence",
+      "linea": "🟢 <b>Danganronpa</b> — 📦 3 desde $54.990\n   🟢 Danganronpa Decadence - Sniper",
       "nombres": [
         "danganronpa 2x2",
-        "danganronpa decadence"
+        "danganronpa decadence sniper"
       ],
       "orden": 1,
       "slug": "danganronpa"
@@ -420,8 +419,9 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 2 desde $89.990 · 🎮 1 desde US$10.70\n   🟢 Hitman: Blood Money — Reprisal −50%",
+      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $74.990 · 🎮 1 desde US$10.70\n   🟢 Hitman: Blood Money — Reprisal −50%",
       "nombres": [
+        "game solutions 2 go hitman world of assassination",
         "hitman blood money reprisal",
         "hitman world of assassination signature edition"
       ],
@@ -469,8 +469,9 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Ubisoft Just Dance 2019",
+      "linea": "🟢 <b>Just Dance</b> — 📦 17 desde $19.900\n   🟢 Just Dance 2026 Limited Edition",
       "nombres": [
+        "just dance 20 1 mes de prueba gratuita",
         "just dance 2017",
         "just dance 2018",
         "just dance 2021",
@@ -577,7 +578,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 22 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −17%",
+      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −17%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -591,7 +592,6 @@
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
-        "mario y sonic en los olimpicos tokyo 2020",
         "paper mario the origami king",
         "paper mario the thousand year door",
         "super mario party",
@@ -622,8 +622,9 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 🎮 1 desde US$14.78\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 📦 2 desde $34.900 · 🎮 1 desde US$14.78\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
+        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -647,7 +648,7 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 Metal Gear Solid : Master Collection Vol.1 −20%",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 6 desde $39.900\n   🟢 Metal Gear Solid : Master Collection Vol.1 −20%",
       "nombres": [
         "konami metal gear solid master collection vol 2",
         "metal gear solid master collection vol 1",
@@ -764,7 +765,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 5 desde $24.990 · 🎮 115 desde US$1.98\n   🟢 SteamWorld Dig 2 −85%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $24.990 · 🎮 118 desde US$1.98\n   🟢 SteamWorld Dig 2 −85%",
       "nombres": [
         "ace angler fishing spirits",
         "ace combat7 skies unknown deluxe edition",
@@ -776,6 +777,7 @@
         "bioshock 2 remastered",
         "bioshock infinite the complete edition",
         "bioshock the collection",
+        "bleak sword dx",
         "capcom beat em up bundle",
         "capcom fighting collection",
         "capcom fighting collection 2",
@@ -789,7 +791,7 @@
         "deltarune",
         "dicey dungeons",
         "digimon story time stranger",
-        "dorfromantik",
+        "dragon ball fighterz",
         "etrian odyssey hd",
         "etrian odyssey iii hd",
         "fatal frame ii crimson butterfly remake",
@@ -809,6 +811,7 @@
         "jojos bizarre adventure all star battle r",
         "jujutsu kaisen cursed clash",
         "killer frequency",
+        "king of seas",
         "labyrinth of galleria the moon society",
         "little nightmares complete edition",
         "minishoot adventures",
@@ -858,6 +861,8 @@
         "the dark pictures anthology little hope",
         "the dark pictures anthology man of medan",
         "the elder scrolls v skyrim anniversary edition",
+        "the mummy demastered",
+        "the settlers new allies",
         "the walking dead the complete first season",
         "tony hawks pro skater 1 2",
         "tormented souls",
@@ -921,9 +926,8 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 8 desde $39.990\n   🟢 Pokémon: Let’s Go, Pikachu!",
+      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokémon: Let’s Go, Pikachu!",
       "nombres": [
-        "pokemon legends arceus",
         "pokemon legends za 2",
         "pokemon lets go pikachu",
         "pokemon scarlet",
@@ -977,7 +981,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $39.900 · 🎮 5 desde US$6.27\n   🟢 Resident Evil Revelations −60%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $39.900 · 🎮 5 desde US$6.27\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 2 deluxe edition",
@@ -1122,11 +1126,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $30.990 · 🎮 1 desde US$13.83\n   🟢 STAR WARS: Dark Forces Remaster −50%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $39.900 · 🎮 1 desde US$13.83\n   🟢 STAR WARS: Dark Forces Remaster −50%",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars jedi knight collection europeo",
         "star wars racer commando rojo"
       ],
       "orden": 1,
@@ -1217,9 +1220,8 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 7 desde $39.900 · 🎮 2 desde US$1.98\n   🟢 Tales of Autumn −85%",
+      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $39.900 · 🎮 2 desde US$1.98\n   🟢 Tales of Autumn −85%",
       "nombres": [
-        "bandai namco tales of xillia",
         "tales of arise beyond the dawn edition",
         "tales of autumn",
         "tales of berseria remastered",
@@ -1243,11 +1245,12 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $29.990\n   🟢 Legend of Heroes Trails of Cold Steel III - Sniper −50%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $59.900\n   🟢 Trails in the Sky 2nd Chapter −34%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
+        "nis america the legend of heroes trails",
         "nis america the legend of heroes trails to azure",
         "nis america trails from zero trails to azure",
         "the legend of heroes trails from zero trails to azure deluxe edition",
@@ -1347,5 +1350,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 633
+  "total": 635
 }

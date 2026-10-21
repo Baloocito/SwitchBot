@@ -2,18 +2,6 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:900b561cb8",
-        "text": "⚙️ Hades II · $80.990"
-      },
-      "id": "900b561cb8",
-      "nivel": "compra",
-      "nombre": "Hades II",
-      "pct": 0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Hades II</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$80.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $87.989» (−8%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $80.990 (14 oct, Lider) · típico $80.990 · máximo $80.990\n   ▄▄▄▄▄▄▄▄  últimos 8 días\n🎮 Digital: US$19.35 ≈ $18.987 en 🇨🇱 Chile\n   ➜ El digital es $62.003 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 8 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-hades-ii-version-europea/00004549631323\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:c862cde6ac",
         "text": "⚙️ Hades II S2 · $44.990"
       },
@@ -47,8 +35,20 @@
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Hades</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$49.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.900 (19 oct, TodoJuegos) · máximo $49.900\n   ▄▄▄  últimos 3 días\n🎮 Digital: US$16.15 ≈ $15.847 en 🇨🇱 Chile\n   ➜ El digital es $34.053 más barato, pero no se puede revender\n🛒 <a href=\"https://listado.mercadolibre.cl/hades-switch-2\">MercadoLibre</a>: nuevo ~$59.445 (6 avisos)\n💰 <b>Reventa</b>: lo compras a $49.900 y nuevo se vende a ~$59.445 (+$9.545 antes de comisiones)\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Hades-2/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:900b561cb8",
+        "text": "⚙️ Hades II · $81.990"
+      },
+      "id": "900b561cb8",
+      "nivel": "normal",
+      "nombre": "Hades II",
+      "pct": -1.2,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Hades II</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$81.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $89.069» (−8%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $80.990 (14 oct, Lider) · típico $80.990 · máximo $80.990\n   ▄▄▄▄▄▄▄▄  últimos 8 días\n🎮 Digital: US$19.35 ≈ $18.987 en 🇨🇱 Chile\n   ➜ El digital es $63.003 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 8 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-hades-ii-version-europea/00004549631323\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
     }
   ],
   "juego": "Hades",
-  "revision": "2026-10-21T06:16:08Z"
+  "revision": "2026-10-21T12:16:17Z"
 }
