@@ -51,6 +51,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:6e5ab16cc3",
+        "text": "⚙️ Star Wars: Heritage Pack · $34.900"
+      },
+      "id": "6e5ab16cc3",
+      "nivel": "normal",
+      "nombre": "Star Wars: Heritage Pack",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Star Wars: Heritage Pack</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $34.900 (19 oct, TodoJuegos) · máximo $34.900\n   ▄▄▄  últimos 3 días\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Star-Wars--Heritage-Pack/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:8d4fa02a90",
         "text": "⚙️ STAR WARS: Dark Forces Remast… · $54.990"
       },
@@ -63,5 +75,5 @@
     }
   ],
   "juego": "Star Wars",
-  "revision": "2026-10-21T12:16:17Z"
+  "revision": "2026-10-21T18:16:35Z"
 }

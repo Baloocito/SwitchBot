@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:3d1223dee4",
+        "text": "⚙️ Legend of Heroes Trails of Co… · $29.990"
+      },
+      "id": "3d1223dee4",
+      "nivel": "compra",
+      "nombre": "Legend of Heroes Trails of Cold Steel III - Sniper",
+      "pct": 50.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Legend of Heroes Trails of Cold Steel III - Sniper</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$29.990</b> en Lider 🏪 <i>vende SNIPERCL</i>\n💡 Es el precio más bajo que he visto\n   Ahorras $30.000 frente a su precio típico ($59.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.lider.cl/ip/videojuegos/the-legend-of-heroes-trails-of-cold-steel-iii-nintendo-switch/00081010086264\">$29.990 Lider</a> 🏪 SNIPERCL\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/122915565/Legend-of-Heroes-Trails-of-Cold-Steel-III-Switch-Sniper\">$59.990 Falabella</a> 🏪 Sniper (+$30.000)\n📈 Mínimo $29.990 (19 oct, Lider) · típico $59.990 · máximo $59.990\n   █████▁▁▁  últimos 8 días\n📉 Precio bajó 50% en las últimas 2 semanas\n🔎 Confianza media: 2 tiendas y 8 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/the-legend-of-heroes-trails-of-cold-steel-iii-nintendo-switch/00081010086264\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:2e62f61123",
         "text": "⚙️ Trails in the Sky 2nd Chapter · $69.900"
       },
@@ -122,18 +134,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:3d1223dee4",
-        "text": "⚙️ Legend of Heroes Trails of Co… · $59.990"
-      },
-      "id": "3d1223dee4",
-      "nivel": "normal",
-      "nombre": "Legend of Heroes Trails of Cold Steel III - Sniper",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Legend of Heroes Trails of Cold Steel III - Sniper</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$59.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $64.990» (−8%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (19 oct, Lider) · típico $59.990 · máximo $59.990\n   █████▁▁▁  últimos 8 días\n🔎 Confianza media: 1 tienda y 8 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/122915565/Legend-of-Heroes-Trails-of-Cold-Steel-III-Switch-Sniper\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:599ab4ca52",
         "text": "⚙️ The Legend Of Heroes Trails F… S2 · $74.900"
       },
@@ -146,5 +146,5 @@
     }
   ],
   "juego": "Trails / Kiseki",
-  "revision": "2026-10-21T12:16:17Z"
+  "revision": "2026-10-21T18:16:35Z"
 }

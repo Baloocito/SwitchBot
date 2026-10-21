@@ -26,6 +26,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:753959a37e",
+        "text": "⚙️ BANDAI NAMCO We Love Katamari… · $51.990"
+      },
+      "id": "753959a37e",
+      "nivel": "regular",
+      "nombre": "BANDAI NAMCO We Love Katamari REROLL",
+      "pct": 8.9,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>BANDAI NAMCO We Love Katamari REROLL</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$51.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 9% bajo la referencia\n   Ahorras $5.048 frente al «antes» que marca la tienda ($57.038)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $51.990 (14 oct, Lider) · máximo $52.990\n   ▁▁▁▁█▁  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-we-love-katamari-reroll-nintendo-switch/00072267484070\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:7101826c63",
         "text": "⚙️ Bandai Katamari Damacy Encore · $43.990"
       },
@@ -38,5 +50,5 @@
     }
   ],
   "juego": "Katamari",
-  "revision": "2026-10-21T12:16:17Z"
+  "revision": "2026-10-21T18:16:35Z"
 }

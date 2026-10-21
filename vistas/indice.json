@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 527,
-  "pendientes": 3,
+  "fisicos": 528,
+  "pendientes": 4,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-21T12:16:17Z",
+  "revision": "2026-10-21T18:16:35Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -107,12 +107,11 @@
     },
     {
       "juego": "Borderlands",
-      "linea": "🟢 <b>Borderlands</b> — 📦 4 desde $24.990 · 🎮 4 desde US$4.26\n   🟢 Borderlands: Game of the Year Edition −80%",
+      "linea": "🟢 <b>Borderlands</b> — 📦 3 desde $24.990 · 🎮 4 desde US$4.26\n   🟢 Borderlands: Game of the Year Edition −80%",
       "nombres": [
         "borderlands 3 ultimate edition",
         "borderlands game of the year edition",
         "borderlands the handsome collection",
-        "coleccion legendaria borderlands 2k",
         "new tales from the borderlands"
       ],
       "orden": 1,
@@ -155,7 +154,7 @@
     },
     {
       "juego": "Celeste",
-      "linea": "🟢 <b>Celeste</b> — 📦 1 desde $79.990\n   🟢 Celeste",
+      "linea": "🟢 <b>Celeste</b> — 📦 2 desde $79.990\n   🟢 Celeste",
       "nombres": [
         "celeste"
       ],
@@ -492,9 +491,10 @@
     },
     {
       "juego": "Katamari",
-      "linea": "🟢 <b>Katamari</b> — 📦 3 desde $34.990\n   🟢 Once Upon A KATAMARI −9%",
+      "linea": "🟢 <b>Katamari</b> — 📦 4 desde $34.990\n   🟢 Once Upon A KATAMARI −9%",
       "nombres": [
         "bandai katamari damacy encore",
+        "bandai namco we love katamari reroll",
         "once upon a katamari",
         "we love katamari reroll royal reverie"
       ],
@@ -578,7 +578,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −17%",
+      "linea": "🟢 <b>Mario</b> — 📦 20 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −17%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -596,19 +596,18 @@
         "paper mario the thousand year door",
         "super mario party",
         "super mario party jamboree",
-        "super mario party jamboree jamboree tv",
-        "ubisoft mario rabbids chispas de esperanza"
+        "super mario party jamboree jamboree tv"
       ],
       "orden": 1,
       "slug": "mario"
     },
     {
       "juego": "Mario Kart World",
-      "linea": "⚪ <b>Mario Kart World</b> — 📦 1 desde $135.990",
+      "linea": "🟠 <b>Mario Kart World</b> — 📦 1 desde $82.900",
       "nombres": [
         "mario kart world"
       ],
-      "orden": 4,
+      "orden": 3,
       "slug": "mario-kart-world"
     },
     {
@@ -622,7 +621,7 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 📦 2 desde $34.900 · 🎮 1 desde US$14.78\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$14.78\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
         "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
@@ -756,7 +755,7 @@
     },
     {
       "juego": "One Piece",
-      "linea": "🟢 <b>One Piece</b> — 📦 1 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
+      "linea": "🟢 <b>One Piece</b> — 📦 2 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
       "nombres": [
         "one piece odyssey deluxe edition"
       ],
@@ -765,7 +764,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $24.990 · 🎮 118 desde US$1.98\n   🟢 SteamWorld Dig 2 −85%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 5 desde $24.990 · 🎮 113 desde US$1.98\n   🟢 SteamWorld Dig 2 −85%",
       "nombres": [
         "ace angler fishing spirits",
         "ace combat7 skies unknown deluxe edition",
@@ -783,7 +782,6 @@
         "capcom fighting collection 2",
         "carrion",
         "cassette beasts",
-        "cook serve delicious 3",
         "crash team racing nitro fueled",
         "cult of the lamb",
         "darwins paradox",
@@ -791,15 +789,12 @@
         "deltarune",
         "dicey dungeons",
         "digimon story time stranger",
-        "dragon ball fighterz",
-        "etrian odyssey hd",
         "etrian odyssey iii hd",
         "fatal frame ii crimson butterfly remake",
         "fatal frame mask of the lunar eclipse",
         "ghosts n goblins resurrection",
         "goat simulator 3",
         "god eater 3",
-        "going under",
         "gradius origins",
         "grounded",
         "guilty gear strive nintendo switch edition",
@@ -819,7 +814,6 @@
         "moonlighter",
         "namco museum archives vol 2",
         "nba 2k27",
-        "ni no kuni ii revenant kingdom princes edition",
         "night in the woods",
         "nine sols",
         "olliolli world",
@@ -849,7 +843,6 @@
         "spelunky 2",
         "spy anya operation memories",
         "steamworld dig 2",
-        "stories untold",
         "super bomberman r 2",
         "super crazy rhythm castle",
         "super mario rpg",
@@ -1069,7 +1062,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 7 desde $29.990 · 🎮 6 desde US$7.13\n   🟢 Sonic Origins −70%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $29.990 · 🎮 6 desde US$7.13\n   🟢 Sonic Origins −70%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1080,7 +1073,8 @@
         "sonic modern collection",
         "sonic origins",
         "sonic racing crossworlds",
-        "sonic superstars"
+        "sonic superstars",
+        "sonic x shadow generations"
       ],
       "orden": 1,
       "slug": "sonic"
@@ -1126,10 +1120,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $39.900 · 🎮 1 desde US$13.83\n   🟢 STAR WARS: Dark Forces Remaster −50%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900 · 🎮 1 desde US$13.83\n   🟢 STAR WARS: Dark Forces Remaster −50%",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
+        "star wars heritage pack",
         "star wars racer commando rojo"
       ],
       "orden": 1,
@@ -1245,7 +1240,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $59.900\n   🟢 Trails in the Sky 2nd Chapter −34%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $29.990\n   🟢 Legend of Heroes Trails of Cold Steel III - Sniper −50%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
@@ -1336,10 +1331,9 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −37%",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −37%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
-        "oled zelda tears of the kingdom japan specs",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
@@ -1350,5 +1344,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 635
+  "total": 634
 }
