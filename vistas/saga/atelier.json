@@ -134,6 +134,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:f36dbb20bf",
+        "text": "⚙️ Atelier Marie Remake: El alqu… · $130.990"
+      },
+      "id": "f36dbb20bf",
+      "nivel": "regular",
+      "nombre": "Atelier Marie Remake: El alquimista de Salburg",
+      "pct": 10.3,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −10%\n<b>Atelier Marie Remake: El alquimista de Salburg</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$130.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 10% bajo la referencia\n   Ahorras $15.016 frente al «antes» que marca la tienda ($146.006)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $130.990 (20 oct, Lider) · máximo $130.990\n   ▄▄  últimos 2 días\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-atelier-marie-remake-el-alquimista-de-salburg-nintendo-switch/00471078215907\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:4722f727de",
         "text": "⚙️ Atelier Resleriana: The Red A… · $99.990"
       },
@@ -146,5 +158,5 @@
     }
   ],
   "juego": "Atelier",
-  "revision": "2026-10-21T18:16:35Z"
+  "revision": "2026-10-22T00:16:35Z"
 }

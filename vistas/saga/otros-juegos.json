@@ -166,7 +166,7 @@
       "nivel": "compra",
       "nombre": "BioShock: The Collection",
       "pct": 80.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>BioShock: The Collection</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$8.15</b> ≈ $7.997 en 🇨🇱 Chile\n   Precio en la tienda: $7.998 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$40.75 → ahorras US$32.60 · ⏳ termina el 7 nov (en 17 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/bioshock-the-collection-switch/\">US$8.15</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/bioshock-the-collection-switch/\">US$8.53</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/bioshock-the-collection-switch/\">US$9.54</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/bioshock-the-collection-switch/\">US$9.95</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/bioshock-the-collection-switch/\">US$9.99</a>\n   El más caro: 🇨🇴 US$13.18\n📦 Físico: $44.990 en Falabella → el digital te ahorra $36.993\n📈 Mínimo US$8.12 (16 oct en 🇨🇱 Chile)\n   ▁▆▆█▆█  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/bioshock-the-collection-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>BioShock: The Collection</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$8.15</b> ≈ $7.997 en 🇨🇱 Chile\n   Precio en la tienda: $7.998 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$40.75 → ahorras US$32.60 · ⏳ termina el 7 nov (en 17 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/bioshock-the-collection-switch/\">US$8.15</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/bioshock-the-collection-switch/\">US$8.53</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/bioshock-the-collection-switch/\">US$9.54</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/bioshock-the-collection-switch/\">US$9.95</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/bioshock-the-collection-switch/\">US$9.99</a>\n   El más caro: 🇨🇴 US$13.18\n📦 Físico: $44.990 en Paris → el digital te ahorra $36.993\n📈 Mínimo US$8.12 (16 oct en 🇨🇱 Chile)\n   ▁▆▆█▆█  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/bioshock-the-collection-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -678,6 +678,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:a3eda90642",
+        "text": "⚙️ Dead by Daylight · US$6.42"
+      },
+      "con_fisico": true,
+      "id": "a3eda90642",
+      "nivel": "compra",
+      "nombre": "Dead by Daylight",
+      "pct": 65.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −65%\n<b>Dead by Daylight</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.42</b> ≈ $6.300 en 🇨🇱 Chile\n   Precio en la tienda: $6.298 CLP\n💡 Oferta de −65% en la eShop\n🏷️ Normal US$18.34 → ahorras US$11.92 · ⏳ termina el 5 nov (en 15 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/dead-by-daylight-switch/\">US$6.42</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/dead-by-daylight-switch/\">US$7.32</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/dead-by-daylight-switch/\">US$7.94</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/dead-by-daylight-switch/\">US$9.39</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/dead-by-daylight-switch/\">US$9.71</a>\n   El más caro: 🇺🇸 US$10.50\n📦 Físico: $44.990 en Falabella → el digital te ahorra $38.690\n📈 Mínimo US$6.42 (21 oct en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/dead-by-daylight-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:4b01fd1f5e",
         "text": "⚙️ Super Meat Boy · US$2.44"
       },
@@ -1023,7 +1036,7 @@
       "nivel": "compra",
       "nombre": "Turnip Boy Robs a Bank",
       "pct": 50.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Turnip Boy Robs a Bank</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.37</b> ≈ $6.251 en 🇲🇽 México\n   Precio en la tienda: MX$117,50 MXN\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$12.74 → ahorras US$6.37 · ⏳ termina el 27 oct (en 6 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/turnip-boy-robs-a-bank-switch/\">US$6.47</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/turnip-boy-robs-a-bank-switch/\">US$6.75</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/turnip-boy-robs-a-bank-switch/\">US$7.27</a>\n   El más caro: 🇨🇴 US$8.72\n📦 Físico: $49.990 en Falabella → el digital te ahorra $43.739\n📈 Mínimo US$6.34 (16 oct en 🇨🇱 Chile)\n   ▆▁▆▆█▆█  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">Ver en la eShop de México</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Turnip Boy Robs a Bank</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.37</b> ≈ $6.251 en 🇲🇽 México\n   Precio en la tienda: MX$117,50 MXN\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$12.74 → ahorras US$6.37 · ⏳ termina el 27 oct (en 6 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/turnip-boy-robs-a-bank-switch/\">US$6.37</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/turnip-boy-robs-a-bank-switch/\">US$6.47</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/turnip-boy-robs-a-bank-switch/\">US$6.75</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/turnip-boy-robs-a-bank-switch/\">US$7.27</a>\n   El más caro: 🇨🇴 US$8.72\n📦 Físico: $49.990 en Falabella → el digital te ahorra $43.739\n📈 Mínimo US$6.34 (16 oct en 🇨🇱 Chile)\n   ▆▁▆▆█▆█  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/turnip-boy-robs-a-bank-switch/\">Ver en la eShop de México</a>",
       "tipo": "digital"
     },
     {
@@ -1454,18 +1467,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:3dd57f2150",
-        "text": "⚙️ Cult of the Lamb · $39.990"
-      },
-      "id": "3dd57f2150",
-      "nivel": "bueno",
-      "nombre": "Cult of the Lamb",
-      "pct": 20.0,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −20%\n<b>Cult of the Lamb</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$39.990</b> en 8 Bits\n💡 20% bajo el resto de las tiendas\n   Ahorras $10.005 frente al promedio de las otras tiendas ($49.995)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/cult-of-the-lamb-nsw\">$39.990 8 Bits</a>\n   🥈 <a href=\"https://sniper.cl/products/cult-of-the-lamb-switch-fisico-sniper\">$44.990 Sniper</a> (+$5.000)\n   🥉 <a href=\"https://www.paris.cl/cult-of-the-lamb-nintendo-switch-MKH9QGOD8W.html\">$55.000 Paris</a> 🏪 Tienda RetroGamers (+$15.010)\n📈 Mínimo $39.990 (20 oct, 8 Bits) · máximo $39.990\n   ▄▄  últimos 2 días\n🎮 Digital: US$5.30 ≈ $5.201 en 🇨🇱 Chile (−60%)\n   ➜ El digital es $34.789 más barato, pero no se puede revender\n💼 <b>Margen</b>: la otra tienda lo vende a $44.990 → ~$5.000 (11%) de diferencia\n🔎 Confianza media: 3 tiendas y 2 días de historial\n🛒 <a href=\"https://8-bits.cl/products/cult-of-the-lamb-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:f9bdbbe162",
         "text": "⚙️ DELTARUNE · US$15.41"
       },
@@ -1531,5 +1532,5 @@
     }
   ],
   "juego": "🔍 Otros juegos",
-  "revision": "2026-10-21T18:16:35Z"
+  "revision": "2026-10-22T00:16:35Z"
 }

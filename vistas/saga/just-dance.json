@@ -110,18 +110,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:888805f5ae",
-        "text": "⚙️ Just Dance 20 +1 mes de prueb… · $56.990"
-      },
-      "id": "888805f5ae",
-      "nivel": "regular",
-      "nombre": "Just Dance 20 +1 mes de prueba gratuita",
-      "pct": 6.0,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −6%\n<b>Just Dance 20 +1 mes de prueba gratuita</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$56.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 6% bajo la referencia\n   Ahorras $3.639 frente al «antes» que marca la tienda ($60.629)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.990 (17 oct, Lider) · máximo $56.990\n   ▁▁▁▁█  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-just-dance-20-1-mes-de-prueba-gratuita/00088725609092\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:175e009239",
         "text": "⚙️ Just Dance 2022 · $49.990"
       },
@@ -206,5 +194,5 @@
     }
   ],
   "juego": "Just Dance",
-  "revision": "2026-10-21T18:16:35Z"
+  "revision": "2026-10-22T00:16:35Z"
 }
