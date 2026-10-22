@@ -459,8 +459,12 @@ def legible(nombre):
     return " ".join(out)
 
 
+SUFIJO_S2 = re.compile(r"\s*[–—-]\s*Nintendo Switch 2 Edition\s*$", re.I)
+SUFIJO_TIENDA = re.compile(r"\s+(for|para)\s+(the\s+)?Nintendo Switch( 2)?\s*$", re.I)
+
+
 def corto(nombre, n=48):
-    nombre = legible(nombre)
+    nombre = SUFIJO_TIENDA.sub("", legible(nombre))
     return nombre if len(nombre) <= n else nombre[:n - 1].rstrip(" :-–") + "…"
 
 
@@ -822,7 +826,18 @@ def proximos(cfg, state, t, dias=60):
             continue
         out[k] = {"nombre": s_["nombre"], "fecha": None, "plataforma": s_.get("plataforma"),
                   "url": s_["url"], "digital": None, "fisico": s_}
-    return sorted(out.values(), key=lambda x: (x["fecha"] or "9999", x["nombre"]))
+    # el mismo juego en Switch y Switch 2 (dos fichas en la eShop) va en una sola linea
+    juntos = {}
+    for x in sorted(out.values(), key=lambda x: (x["fecha"] or "9999", x["nombre"])):
+        k = (norm(SUFIJO_S2.sub("", x["nombre"])), x["fecha"])
+        if k in juntos:
+            y = juntos[k]
+            y["ambas"] = y.get("ambas") or y.get("plataforma") != x.get("plataforma")
+            if x.get("fisico") and not y.get("fisico"):
+                y["fisico"] = x["fisico"]
+            continue
+        juntos[k] = {**x, "nombre": SUFIJO_S2.sub("", x["nombre"]).strip()}
+    return list(juntos.values())
 
 
 def slot_proximos(cfg, est, cands, t):
@@ -833,7 +848,7 @@ def slot_proximos(cfg, est, cands, t):
     for x in items:
         cuando = f"🗓️ {fecha_corta(x['fecha'])}" if x["fecha"] else "🗓️ fecha por confirmar"
         l += ["", f"{cuando} · <a href=\"{esc_attr(x['url'])}\"><b>{esc(corto(x['nombre'], 44))}</b></a>"
-              + (" (S2)" if x.get("plataforma") == "Switch 2" else "")]
+              + (" (Switch y S2)" if x.get("ambas") else " (S2)" if x.get("plataforma") == "Switch 2" else "")]
         precios = []
         if x["digital"]:
             precios.append(f"🎮 eShop {clp(x['digital'])}")
@@ -1331,6 +1346,8 @@ def relleno(cfg, est, cands, t):
     recientes = set()
     for d in (hoy.isoformat(), (hoy - timedelta(days=1)).isoformat()):
         recientes |= set(((est.get("dias") or {}).get(d) or {}).get("slots") or [])
+    # tampoco lo que tiene su propio horario hoy (ej. memorias los miercoles): saldria repetido
+    recientes |= {h["slot"] for h in cfg["horarios"] if toca_hoy(h["dias"], t)}
     for r in sorted(opciones, key=lambda r: -dias_sin(r)):
         if dias_sin(r) < RELLENO_DIAS_MIN or r not in SLOTS or r in recientes:
             continue                  # (tampoco si salio hoy o ayer como post propio: memorias, proximos)
