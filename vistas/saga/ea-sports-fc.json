@@ -50,6 +50,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:913b0854d4",
+        "text": "⚙️ FIFA 21 – Electronic Arts · $117.990"
+      },
+      "id": "913b0854d4",
+      "nivel": "compra",
+      "nombre": "FIFA 21 – Electronic Arts",
+      "pct": 0,
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>FIFA 21 – Electronic Arts</b>\n🕹️ Switch 1 · 📦 Físico · EA Sports FC\n💰 <b>$117.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $128.383» (−8%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $117.990 (16 oct, Lider) · típico $117.990 · máximo $118.990\n   ██▁▁▁▁▁▁  últimos 8 días\n🔎 Confianza media: 1 tienda y 8 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/fifa-21-para-nintendo-switch-electronic-arts/00503094912350\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:2e1afd3671",
         "text": "⚙️ EA SPORTS FC 25 · $62.990"
       },
@@ -86,5 +98,5 @@
     }
   ],
   "juego": "EA Sports FC",
-  "revision": "2026-10-22T12:17:39Z"
+  "revision": "2026-10-22T18:16:59Z"
 }
