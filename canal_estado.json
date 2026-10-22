@@ -57,9 +57,10 @@
     },
     "2026-10-22": {
       "bombazos": 0,
-      "posts": 1,
+      "posts": 2,
       "slots": [
-        "top"
+        "top",
+        "proximos"
       ]
     }
   },
@@ -287,6 +288,12 @@
       ],
       "message_id": 30,
       "slot": "top"
+    },
+    {
+      "fecha": "2026-10-22T12:05-03:00",
+      "ids": [],
+      "message_id": 31,
+      "slot": "proximos"
     }
   ],
   "publicados": {
@@ -644,5 +651,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-10-22T09:05:37.442065-03:00"
+  "ultimo_post": "2026-10-22T12:05:35.345588-03:00"
 }
