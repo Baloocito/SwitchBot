@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 531,
-  "pendientes": 1,
+  "fisicos": 519,
+  "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-22T06:14:41Z",
+  "revision": "2026-10-22T12:17:39Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -38,9 +38,8 @@
     },
     {
       "juego": "Animal Crossing",
-      "linea": "🟢 <b>Animal Crossing</b> — 📦 4 desde $37.990\n   🟢 Animal Crossing: New Horizons −7%",
+      "linea": "🟢 <b>Animal Crossing</b> — 📦 3 desde $37.990\n   🟢 Animal Crossing: New Horizons −7%",
       "nombres": [
-        "animal crossing",
         "animal crossing new horizons",
         "joypad color verde azul de animal crossing"
       ],
@@ -155,7 +154,7 @@
     },
     {
       "juego": "Celeste",
-      "linea": "🟢 <b>Celeste</b> — 📦 2 desde $79.990\n   🟢 Celeste",
+      "linea": "🟢 <b>Celeste</b> — 📦 1 desde $79.990\n   🟢 Celeste",
       "nombres": [
         "celeste"
       ],
@@ -176,7 +175,7 @@
     },
     {
       "juego": "Civilization",
-      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $54.990 · 🎮 3 desde US$4.29\n   🟢 Sid Meier’s Civilization VI −80%",
+      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $55.990 · 🎮 3 desde US$4.29\n   🟢 Sid Meier’s Civilization VI −80%",
       "nombres": [
         "civilization vii edicion",
         "sid meiers civilization vi",
@@ -189,17 +188,18 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 🎮 2 desde US$5.74\n   🟢 Contra Anniversary Collection −60%",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720 · 🎮 2 desde US$5.74\n   🟢 Contra Anniversary Collection −60%",
       "nombres": [
         "contra anniversary collection",
-        "contra operation galuga"
+        "contra operation galuga",
+        "contra rogue corps"
       ],
       "orden": 1,
       "slug": "contra"
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000 · 🎮 3 desde US$12.45\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 6 desde $28.000 · 🎮 3 desde US$12.45\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
       "nombres": [
         "crash bandicoot 4 its about time",
         "crash bandicoot n sane trilogy",
@@ -284,7 +284,7 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟢 <b>Doom</b> — 📦 5 desde $44.990 · 🎮 2 desde US$3.52\n   🟢 DOOM 3 −60%",
+      "linea": "🟢 <b>Doom</b> — 📦 4 desde $44.990 · 🎮 2 desde US$3.52\n   🟢 DOOM 3 −60%",
       "nombres": [
         "doom",
         "doom 3",
@@ -334,13 +334,12 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $35.990\n   🟢 EA SPORTS FC 27 −30%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 7 desde $35.990\n   🟢 EA SPORTS FC 27 −30%",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
         "ea sports fc 26",
-        "ea sports fc 27",
-        "fifa 21 electronic arts"
+        "ea sports fc 27"
       ],
       "orden": 1,
       "slug": "ea-sports-fc"
@@ -420,9 +419,8 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $74.990 · 🎮 1 desde US$10.77\n   🟢 Hitman: Blood Money — Reprisal −50%",
+      "linea": "🟢 <b>Hitman</b> — 📦 2 desde $89.990 · 🎮 1 desde US$10.77\n   🟢 Hitman: Blood Money — Reprisal −50%",
       "nombres": [
-        "game solutions 2 go hitman world of assassination",
         "hitman blood money reprisal",
         "hitman world of assassination signature edition"
       ],
@@ -470,8 +468,9 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2026 Limited Edition",
+      "linea": "🟢 <b>Just Dance</b> — 📦 17 desde $19.900\n   🟢 Just Dance 2026 Limited Edition",
       "nombres": [
+        "just dance 20 1 mes de prueba gratuita",
         "just dance 2017",
         "just dance 2018",
         "just dance 2021",
@@ -624,8 +623,9 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 🎮 1 desde US$14.78\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$14.78\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
+        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -737,7 +737,7 @@
     },
     {
       "juego": "Octopath Traveler",
-      "linea": "🟢 <b>Octopath Traveler</b> — 📦 6 desde $44.990\n   🟢 OCTOPATH TRAVELER 0 −14%",
+      "linea": "🟢 <b>Octopath Traveler</b> — 📦 6 desde $44.990\n   🟢 Octopath Traveler −10%",
       "nombres": [
         "octopath traveler",
         "octopath traveler 0",
@@ -757,7 +757,7 @@
     },
     {
       "juego": "One Piece",
-      "linea": "🟢 <b>One Piece</b> — 📦 2 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
+      "linea": "🟢 <b>One Piece</b> — 📦 1 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
       "nombres": [
         "one piece odyssey deluxe edition"
       ],
@@ -766,7 +766,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $24.990 · 🎮 114 desde US$1.99\n   🟢 SteamWorld Dig 2 −85%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $24.990 · 🎮 118 desde US$1.99\n   🟢 SteamWorld Dig 2 −85%",
       "nombres": [
         "ace angler fishing spirits",
         "ace combat7 skies unknown deluxe edition",
@@ -784,6 +784,7 @@
         "capcom fighting collection 2",
         "carrion",
         "cassette beasts",
+        "cook serve delicious 3",
         "crash team racing nitro fueled",
         "cult of the lamb",
         "darwins paradox",
@@ -792,15 +793,16 @@
         "deltarune",
         "dicey dungeons",
         "digimon story time stranger",
+        "etrian odyssey hd",
         "etrian odyssey iii hd",
         "fatal frame ii crimson butterfly remake",
         "fatal frame mask of the lunar eclipse",
         "ghosts n goblins resurrection",
         "goat simulator 3",
         "god eater 3",
+        "going under",
         "gradius origins",
         "grounded",
-        "guilty gear strive nintendo switch edition",
         "gundam breaker 4",
         "hack g u last recode",
         "hotline miami collection",
@@ -817,6 +819,7 @@
         "moonlighter",
         "namco museum archives vol 2",
         "nba 2k27",
+        "ni no kuni ii revenant kingdom princes edition",
         "night in the woods",
         "nine sols",
         "olliolli world",
@@ -837,15 +840,16 @@
         "red dead redemption nintendo switch 2 edition",
         "return of the obra dinn",
         "risk of rain 2",
-        "river city rival showdown",
         "rogue heroes ruins of tasos",
         "sd gundam battle alliance",
         "shadow labyrinth",
+        "shadow labyrinth nintendo switch 2 edition",
         "shotgun king the final checkmate",
         "snowrunner",
         "spelunky 2",
         "spy anya operation memories",
         "steamworld dig 2",
+        "stories untold",
         "super bomberman r 2",
         "super crazy rhythm castle",
         "super mario rpg",
@@ -977,7 +981,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $39.900 · 🎮 5 desde US$6.31\n   🟢 Resident Evil Revelations −60%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $39.900 · 🎮 5 desde US$6.31\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 2 deluxe edition",
@@ -1242,12 +1246,11 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $29.990\n   🟢 Legend of Heroes Trails of Cold Steel III - Sniper −50%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $29.990\n   🟢 Legend of Heroes Trails of Cold Steel III - Sniper −50%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
-        "nis america the legend of heroes trails",
         "nis america the legend of heroes trails to azure",
         "nis america trails from zero trails to azure",
         "the legend of heroes trails from zero trails to azure deluxe edition",
@@ -1333,7 +1336,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −37%",
+      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −22%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda breath of the wild",
@@ -1346,5 +1349,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 639
+  "total": 636
 }
