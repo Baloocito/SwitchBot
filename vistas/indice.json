@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-23T06:16:01Z",
+  "revision": "2026-10-23T12:16:41Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -187,7 +187,7 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 2 desde $37.720 · 🎮 2 desde US$5.70\n   🟢 Contra Anniversary Collection −60%",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720 · 🎮 2 desde US$5.70\n   🟢 Contra Anniversary Collection −60%",
       "nombres": [
         "contra anniversary collection",
         "contra operation galuga",
@@ -270,6 +270,15 @@
       "slug": "digimon-story-time-stranger"
     },
     {
+      "juego": "Disco Elysium",
+      "linea": "🟢 <b>Disco Elysium</b> — 🎮 1 desde US$7.34\n   🟢 Disco Elysium - The Final Cut −75%",
+      "nombres": [
+        "disco elysium the final cut"
+      ],
+      "orden": 1,
+      "slug": "disco-elysium"
+    },
+    {
       "juego": "Donkey Kong",
       "linea": "🟢 <b>Donkey Kong</b> — 📦 4 desde $44.000\n   🟢 Donkey Kong Bananza −12%",
       "nombres": [
@@ -331,12 +340,13 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 7 desde $35.990\n   🟢 EA SPORTS FC 27 −29%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $35.990\n   🟢 EA SPORTS FC 27 −29%",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
         "ea sports fc 26",
-        "ea sports fc 27"
+        "ea sports fc 27",
+        "fifa 21 electronic arts"
       ],
       "orden": 1,
       "slug": "ea-sports-fc"
@@ -416,7 +426,7 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $74.990 · 🎮 2 desde US$10.70\n   🟢 Hitman: Blood Money — Reprisal −50%",
+      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $75.990 · 🎮 2 desde US$10.70\n   🟢 Hitman: Blood Money — Reprisal −50%",
       "nombres": [
         "game solutions 2 go hitman world of assassination",
         "hitman absolution nintendo switch 2 edition",
@@ -467,10 +477,11 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2026 Limited Edition",
+      "linea": "🟢 <b>Just Dance</b> — 📦 18 desde $19.900\n   🟢 Just Dance 2026 Limited Edition",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
+        "just dance 2020 ubisoft",
         "just dance 2021",
         "just dance 2022",
         "just dance 2024 edition",
@@ -478,6 +489,7 @@
         "just dance 2026 limited edition",
         "just dance decades of hits limited edition",
         "pulseras para just dance y zumba",
+        "ubisoft just dance 2018",
         "ubisoft just dance 2019",
         "ubisoft just dance 2020",
         "ubisoft just dance 2021",
@@ -489,9 +501,10 @@
     },
     {
       "juego": "Katamari",
-      "linea": "🟢 <b>Katamari</b> — 📦 3 desde $34.990\n   🟢 Once Upon A KATAMARI −9%",
+      "linea": "🟢 <b>Katamari</b> — 📦 4 desde $34.990\n   🟢 Once Upon A KATAMARI −9%",
       "nombres": [
         "bandai katamari damacy encore",
+        "bandai namco we love katamari reroll",
         "once upon a katamari",
         "we love katamari reroll royal reverie"
       ],
@@ -577,7 +590,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −17%",
+      "linea": "🟢 <b>Mario</b> — 📦 23 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −17%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -591,8 +604,10 @@
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
+        "mario y sonic en los olimpicos tokyo 2020",
         "paper mario the origami king",
         "paper mario the thousand year door",
+        "purtch con azul neon y rojo neon mario kart 8",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv",
@@ -689,14 +704,13 @@
     },
     {
       "juego": "Monster Hunter",
-      "linea": "🟢 <b>Monster Hunter</b> — 📦 8 desde $17.990 · 🎮 1 desde US$26.15\n   🟢 Monster Hunter Stories 2: Wings of Ruin −50%",
+      "linea": "🟢 <b>Monster Hunter</b> — 📦 7 desde $17.990 · 🎮 1 desde US$26.15\n   🟢 Monster Hunter Stories 2: Wings of Ruin −50%",
       "nombres": [
         "monster hunter generations ultimate",
         "monster hunter rise",
         "monster hunter stories",
         "monster hunter stories 2 wings of ruin",
-        "monster hunter wilds",
-        "nintendo hw monster hunter"
+        "monster hunter wilds"
       ],
       "orden": 1,
       "slug": "monster-hunter"
@@ -774,7 +788,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $34.900 · 🎮 113 desde US$1.99\n   🟢 SteamWorld Dig 2 −85%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $34.900 · 🎮 117 desde US$1.99\n   🟢 SteamWorld Dig 2 −85%",
       "nombres": [
         "ace angler fishing spirits",
         "ace combat7 skies unknown deluxe edition",
@@ -805,8 +819,10 @@
         "etrian odyssey iii hd",
         "fatal frame ii crimson butterfly remake",
         "fatal frame mask of the lunar eclipse",
+        "ghost trick phantom detective",
         "ghosts n goblins resurrection",
         "goat simulator 3",
+        "god eater 3",
         "gradius origins",
         "grounded",
         "gundam breaker 4",
@@ -818,6 +834,7 @@
         "jojos bizarre adventure all star battle r",
         "jujutsu kaisen cursed clash",
         "killer frequency",
+        "labyrinth of galleria the moon society",
         "little nightmares complete edition",
         "minishoot adventures",
         "minishoot adventures nintendo switch 2 edition",
@@ -846,6 +863,7 @@
         "return of the obra dinn",
         "risk of rain 2",
         "rogue heroes ruins of tasos",
+        "sd gundam battle alliance",
         "shadow labyrinth",
         "shadow labyrinth nintendo switch 2 edition",
         "shotgun king the final checkmate",
@@ -929,9 +947,8 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 8 desde $39.990\n   🟢 Pokémon: Let’s Go, Pikachu!",
+      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokémon: Let’s Go, Pikachu!",
       "nombres": [
-        "pokemon legends arceus",
         "pokemon legends za 2",
         "pokemon lets go pikachu",
         "pokemon scarlet",
@@ -1043,7 +1060,7 @@
     },
     {
       "juego": "Shantae",
-      "linea": "🟢 <b>Shantae</b> — 📦 3 desde $44.990\n   🟢 Shantae −5%",
+      "linea": "🟢 <b>Shantae</b> — 📦 3 desde $44.990\n   🟢 Shantae: Half-Genie Hero",
       "nombres": [
         "shantae",
         "shantae half genie hero",
@@ -1075,7 +1092,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $29.990 · 🎮 6 desde US$7.14\n   🟢 Sonic Origins −70%",
+      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $29.990 · 🎮 6 desde US$7.14\n   🟢 Sonic Origins −70%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1366,5 +1383,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 648
+  "total": 656
 }
