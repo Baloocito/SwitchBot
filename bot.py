@@ -355,38 +355,82 @@ def precios_eshop_regiones(nsuids, regiones, rates):
 FILTROS_OFERTA = ('topLevelFilters:"Deals"', "price.discounted:true", 'availability:"On sale"')
 
 
-def buscar_ofertas_eshop(maximo=3000):
-    """Todos los juegos con descuento en la eShop de EE. UU. (no solo tus sagas).
-    Prueba varios filtros porque Nintendo los cambia de vez en cuando."""
+PREFIJOS_ESHOP = ("7001", "7007")    # 7001 = juegos, 7007 = paquetes ("Paquete" en la eShop)
+
+
+def _hit_oferta(h):
+    nsuid = str(h.get("nsuid") or "")
+    if not nsuid.startswith(PREFIJOS_ESHOP):
+        return None
+    url = h.get("url") or ""
+    precio = h.get("price") if isinstance(h.get("price"), dict) else {}
+    return {"titulo": re.sub(r"[™®©]", "", h.get("title", nsuid)).strip(),
+            "nsuid": nsuid, "url": urljoin(NINTENDO_WEB, url) if url else "",
+            "plataforma": "Switch 2" if h.get("platformCode") == "NINTENDO_SWITCH_2" else "Switch",
+            "paquete": nsuid.startswith("7007"),
+            "normal_usd": precio.get("regPrice"),
+            **meta_algolia(h)}
+
+
+def _algolia(filtro, page=0, por_pagina=500, facetas=None):
+    params = {"query": "", "filters": filtro, "hitsPerPage": por_pagina, "page": page}
+    if facetas:
+        params["facets"] = json.dumps(facetas)
+        params["maxValuesPerFacet"] = 100
+    r = get(ALGOLIA_URL, headers={**HEADERS, **ALGOLIA_HEADERS}, params=params)
+    return r.json() if r.status_code == 200 else None
+
+
+def buscar_ofertas_eshop(maximo=8000):
+    """Todos los juegos (y paquetes) con descuento en la eShop de EE. UU.
+    El buscador de Nintendo entrega como maximo 1000 resultados por consulta, y una venta
+    grande tiene 5000+; por eso se parte la busqueda por rango de precio y por consola."""
     for filtro in FILTROS_OFERTA:
-        out, page = [], 0
         try:
-            while len(out) < maximo:
-                r = get(ALGOLIA_URL, headers={**HEADERS, **ALGOLIA_HEADERS},
-                        params={"query": "", "filters": filtro, "hitsPerPage": 500, "page": page})
-                if r.status_code != 200:
-                    break
-                data = r.json()
-                for h in data.get("hits", []):
-                    nsuid = str(h.get("nsuid") or "")
-                    if not nsuid.startswith("7001"):
-                        continue
-                    url = h.get("url") or ""
-                    out.append({"titulo": re.sub(r"[™®©]", "", h.get("title", nsuid)).strip(),
-                                "nsuid": nsuid, "url": urljoin(NINTENDO_WEB, url) if url else "",
-                                "plataforma": "Switch 2" if h.get("platformCode") == "NINTENDO_SWITCH_2" else "Switch",
-                                **meta_algolia(h)})
-                page += 1
-                if page >= (data.get("nbPages") or 0):
-                    break
-                time.sleep(0.3)
+            resumen = _algolia(filtro, por_pagina=0, facetas=["priceRange", "platformCode"])
         except (requests.RequestException, ValueError) as e:
             log(f"  eShop ofertas [{filtro}]: {e}")
             continue
+        if not resumen or not resumen.get("nbHits"):
+            log(f"  eShop ofertas: filtro {filtro} sin resultados")
+            continue
+        total = resumen["nbHits"]
+        fac = resumen.get("facets") or {}
+        rangos = fac.get("priceRange") or {}
+        consolas = list((fac.get("platformCode") or {}).keys())
+        partes = []
+        if total <= 1000 or not rangos:
+            partes = [filtro]
+        else:
+            for rango, n in rangos.items():
+                f = f'{filtro} AND priceRange:"{rango}"'
+                if n > 1000 and consolas:
+                    partes += [f'{f} AND platformCode:"{c}"' for c in consolas]
+                else:
+                    partes.append(f)
+        vistos, out = set(), []
+        for f in partes:
+            page = 0
+            while len(out) < maximo:
+                try:
+                    data = _algolia(f, page)
+                except (requests.RequestException, ValueError) as e:
+                    log(f"  eShop ofertas [{f}]: {e}")
+                    break
+                if not data:
+                    break
+                for h in data.get("hits", []):
+                    x = _hit_oferta(h)
+                    if x and x["nsuid"] not in vistos:
+                        vistos.add(x["nsuid"])
+                        out.append(x)
+                page += 1
+                if page >= min(data.get("nbPages") or 0, 2):    # 2 x 500 = el maximo de 1000
+                    break
+                time.sleep(0.3)
         if out:
-            log(f"  eShop ofertas: filtro {filtro} -> {len(out)} juegos")
+            log(f"  eShop ofertas: {total} en oferta segun Nintendo, {len(out)} leidos en {len(partes)} consultas")
             return out
-        log(f"  eShop ofertas: filtro {filtro} sin resultados")
     return []
 
 
@@ -1336,11 +1380,19 @@ def revisar_eshop(cfg, state, hist, alertas):
             time.sleep(0.3)
     if aj.get("descubrir", True):
         nuevos = 0
+        ccfg_pre = cfg_canal()
+        relleno_pre = 0
         for h in buscar_ofertas_eshop():
-            if h["nsuid"] not in encontrados:
-                encontrados[h["nsuid"]] = (JUEGO_OTROS, h)
-                nuevos += 1
-        log(f"  eShop: {nuevos} juegos en oferta descubiertos fuera de tu lista")
+            if h["nsuid"] in encontrados:
+                continue
+            # el relleno obvio (por nombre, editora o precio normal) se descarta antes de pedir
+            # precios en 7 paises: asi una venta de 5000 juegos no alarga la revision
+            if ccfg_pre and es_basura_descubierta(ccfg_pre, h, h.get("normal_usd")):
+                relleno_pre += 1
+                continue
+            encontrados[h["nsuid"]] = (JUEGO_OTROS, h)
+            nuevos += 1
+        log(f"  eShop: {nuevos} juegos en oferta descubiertos fuera de tu lista ({relleno_pre} de relleno descartados)")
     log(f"  eShop: {len(encontrados)} juegos encontrados")
     if not encontrados:
         return
