@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:045c126820",
+        "text": "⚙️ Stardew Valley · $34.900"
+      },
+      "id": "045c126820",
+      "nivel": "compra",
+      "nombre": "Stardew Valley",
+      "pct": 29.4,
+      "texto": "🟢 <b>COMPRA YA</b> · −29%\n<b>Stardew Valley</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.900</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $14.545 frente a su precio típico ($49.445)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $34.900 (19 oct, TodoJuegos) · típico $34.900 · máximo $66.990\n   ██▇▇▁▁▁▁▁  últimos 9 días\n🎮 Digital: US$4.96 ≈ $4.866 en 🇧🇷 Brasil\n   ➜ El digital es $30.034 más barato, pero no se puede revender\n📉 Precio bajó 47% en las últimas 2 semanas\n🛒 <a href=\"https://listado.mercadolibre.cl/stardew-valley-nintendo-switch\">MercadoLibre</a>: nuevo ~$33.337 (3 avisos)\n🔎 Confianza media: 1 tienda y 9 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Stardew-Valley/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:065209db7b",
         "text": "⚙️ Stardew Valley: S2 · $49.900"
       },
@@ -14,5 +26,5 @@
     }
   ],
   "juego": "Stardew Valley",
-  "revision": "2026-10-23T18:16:10Z"
+  "revision": "2026-10-23T19:33:05Z"
 }
