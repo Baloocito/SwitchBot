@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 624,
+  "fisicos": 635,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-23T19:33:05Z",
+  "revision": "2026-10-23T19:46:06Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -68,10 +68,11 @@
     },
     {
       "juego": "Atelier",
-      "linea": "🟢 <b>Atelier</b> — 📦 12 desde $39.990\n   🟢 Atelier Ryza 3 - Sniper −11%",
+      "linea": "🟢 <b>Atelier</b> — 📦 13 desde $39.990\n   🟢 Atelier Ryza 3 - Sniper −11%",
       "nombres": [
         "atelier dusk trilogy deluxe pack",
         "atelier lulua the scion of arland",
+        "atelier marie remake el alquimista de salburg",
         "atelier mysterious trilogy sniper",
         "atelier resleriana the red alchemist the white guardian",
         "atelier ryza 2 lost legends the secret fairy dx",
@@ -589,7 +590,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −17%",
+      "linea": "🟢 <b>Mario</b> — 📦 22 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −17%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -603,6 +604,7 @@
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
+        "mario y sonic en los olimpicos tokyo 2020",
         "paper mario the origami king",
         "paper mario the thousand year door",
         "purtch con azul neon y rojo neon mario kart 8",
@@ -785,7 +787,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $39.900 · 🎮 222 desde US$1.99\n   🟢 SteamWorld Dig 2 −85%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $34.900 · 🎮 230 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "ace angler fishing spirits",
         "ace attorney anthology",
@@ -795,10 +797,12 @@
         "animal well",
         "aokana four rhythms across the blue",
         "arcade classics anniversary collection",
+        "arcade spirits the new challengers",
         "assassins creed shadows",
         "b project ryusei fantasia",
         "balatro",
         "baten kaitos i ii hd remaster",
+        "batora lost haven",
         "before we leave",
         "bioshock 2 remastered",
         "bioshock infinite the complete edition",
@@ -820,6 +824,7 @@
         "cook serve delicious trilogy",
         "crash bandicoot crashiversary bundle",
         "crash team racing nitro fueled",
+        "crossing souls",
         "cult of the lamb",
         "darwins paradox",
         "dawn of the monsters",
@@ -843,6 +848,7 @@
         "fatal frame mask of the lunar eclipse digital deluxe edition",
         "fate samurai remnant digital deluxe edition",
         "ghost trick phantom detective",
+        "ghostpia season one",
         "ghosts n goblins resurrection",
         "goat simulator 3",
         "god eater 3",
@@ -864,6 +870,7 @@
         "jujutsu kaisen cursed clash ultimate edition",
         "killer frequency",
         "king of seas",
+        "knight vs giant the broken excalibur",
         "konosuba gods blessing on this wonderful world love for these clothes of desire",
         "labyrinth of galleria the moon society",
         "labyrinth of zangetsu",
@@ -883,6 +890,7 @@
         "monster hunter stories 3 twisted reflection premium deluxe edition",
         "monster hunter stories deluxe collection",
         "moonlighter",
+        "mosaic",
         "moving out moving out 2 bundle",
         "my hero ones justice 2 ultimate edition",
         "namco museum archives vol 2",
@@ -891,6 +899,7 @@
         "nba 2k27",
         "nexomon nexomon extinction complete collection",
         "ni no kuni ii revenant kingdom princes edition",
+        "night call",
         "night in the woods",
         "nine sols",
         "ninja five o",
@@ -947,6 +956,7 @@
         "spidersaurs",
         "spy anya operation memories",
         "star renegades",
+        "stardew valley",
         "steamworld dig 2",
         "stories untold",
         "subnautica",
@@ -969,6 +979,7 @@
         "the elder scrolls v skyrim anniversary edition",
         "the knight witch",
         "the mummy demastered",
+        "the serpent rogue",
         "the settlers new allies",
         "the settlers new allies deluxe edition",
         "the walking dead the complete first season",
@@ -1044,9 +1055,8 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 10 desde $35.000\n   🟢 Pokémon Brilliant Diamond",
+      "linea": "🟢 <b>Pokémon</b> — 📦 9 desde $35.000\n   🟢 Pokémon: Let’s Go, Pikachu!",
       "nombres": [
-        "pokemon brilliant diamond",
         "pokemon legends arceus",
         "pokemon legends za 2",
         "pokemon lets go pikachu",
@@ -1192,10 +1202,9 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 10 desde $29.990 · 🎮 6 desde US$7.14\n   🟢 Sonic Origins −70%",
+      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $29.990 · 🎮 6 desde US$7.14\n   🟢 Sonic Origins −70%",
       "nombres": [
         "sonic classic collection",
-        "sonic colors ultimate",
         "sonic double pack",
         "sonic forces",
         "sonic frontiers",
@@ -1271,11 +1280,11 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $34.900\n   🟢 Stardew Valley −29%",
+      "linea": "⚪ <b>Stardew Valley</b> — 📦 1 desde $49.900",
       "nombres": [
         "stardew valley"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "stardew-valley"
     },
     {
@@ -1317,8 +1326,9 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
+        "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
       ],
@@ -1352,7 +1362,7 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 7 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
+      "linea": "🟢 <b>Tales of</b> — 📦 8 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
       "nombres": [
         "bandai namco tales of xillia",
         "tales of arise beyond the dawn edition",
@@ -1362,6 +1372,7 @@
         "tales of symphonia remastered",
         "tales of the shire a the lord of the rings game",
         "tales of the shire a the lord of the rings game nintendo switch 2 edition",
+        "tales of vesperia definitive edition",
         "tales of xillia remastered",
         "the adventures of elliot the millennium tales"
       ],
@@ -1380,7 +1391,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $59.900\n   🟢 Trails in the Sky 2nd Chapter −34%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $29.990\n   🟢 Legend of Heroes Trails of Cold Steel III - Sniper −50%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
@@ -1484,5 +1495,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 765
+  "total": 775
 }

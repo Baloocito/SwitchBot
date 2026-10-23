@@ -170,6 +170,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:47674ba503",
+        "text": "⚙️ Mario y Sonic en los Olímpico… · $92.990"
+      },
+      "id": "47674ba503",
+      "nivel": "regular",
+      "nombre": "Mario y Sonic en los Olímpicos Tokyo 2020",
+      "pct": 7.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Mario y Sonic en los Olímpicos Tokyo 2020</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$92.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $7.049 frente al «antes» que marca la tienda ($100.039)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $90.990 (19 oct, Lider) · máximo $92.990\n   ▁▁▁▅█  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/mario-y-sonic-en-los-juegos-olimpicos-tokyo-2020-nintendo-switch/00004549642491\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:041e9a584c",
         "text": "⚙️ PURTCH con azul neón y rojo n… · $749.990"
       },
@@ -254,5 +266,5 @@
     }
   ],
   "juego": "Mario",
-  "revision": "2026-10-23T19:33:05Z"
+  "revision": "2026-10-23T19:46:06Z"
 }

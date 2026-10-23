@@ -114,6 +114,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:4880c33d03",
+        "text": "⚙️ Tales of Vesperia: Definitive… · $75.990"
+      },
+      "id": "4880c33d03",
+      "nivel": "regular",
+      "nombre": "Tales of Vesperia: Definitive Edition",
+      "pct": 8.3,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Tales of Vesperia: Definitive Edition</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$75.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $6.922 frente al «antes» que marca la tienda ($82.912)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $74.990 (16 oct, Lider) · máximo $75.990\n   █▁▁▁█  últimos 5 días\n🎮 Digital: US$46.38 ≈ $45.502 en 🇨🇦 Canadá\n   ➜ El digital es $30.488 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-tales-of-vesperia-definitive-switch/00072267484004\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:c3762acf57",
         "text": "⚙️ Tales of ARISE - Beyond the D… S2 · $59.900"
       },
@@ -138,5 +150,5 @@
     }
   ],
   "juego": "Tales of",
-  "revision": "2026-10-23T19:33:05Z"
+  "revision": "2026-10-23T19:46:06Z"
 }
