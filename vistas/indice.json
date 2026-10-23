@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 534,
+  "fisicos": 538,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-22T18:16:59Z",
+  "revision": "2026-10-23T00:16:06Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -95,7 +95,7 @@
     },
     {
       "juego": "Bayonetta",
-      "linea": "🟢 <b>Bayonetta</b> — 📦 3 desde $39.990\n   🟢 Bayonetta −8%",
+      "linea": "🟢 <b>Bayonetta</b> — 📦 5 desde $39.990\n   🟢 Bayonetta −8%",
       "nombres": [
         "bayonetta",
         "bayonetta 3",
@@ -283,7 +283,7 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟢 <b>Doom</b> — 📦 5 desde $44.990 · 🎮 2 desde US$3.52\n   🟢 DOOM 3 −60%",
+      "linea": "🟢 <b>Doom</b> — 📦 4 desde $44.990 · 🎮 2 desde US$3.52\n   🟢 DOOM 3 −60%",
       "nombres": [
         "doom",
         "doom 3",
@@ -470,7 +470,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2026 Limited Edition",
+      "linea": "🟢 <b>Just Dance</b> — 📦 17 desde $19.900\n   🟢 Just Dance 2026 Limited Edition",
       "nombres": [
         "just dance 20 1 mes de prueba gratuita",
         "just dance 2017",
@@ -482,6 +482,7 @@
         "just dance 2026 limited edition",
         "just dance decades of hits limited edition",
         "pulseras para just dance y zumba",
+        "ubisoft just dance 2019",
         "ubisoft just dance 2020",
         "ubisoft just dance 2021",
         "ubisoft just dance 2022",
@@ -526,10 +527,9 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $18.000 · 🎮 2 desde US$20.52\n   🟢 LEGO Party! −33%",
+      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $18.000 · 🎮 2 desde US$20.52\n   🟢 LEGO Party! −33%",
       "nombres": [
         "lego dc super villains",
-        "lego horizon adventures",
         "lego party",
         "lego party nintendo switch 2 edition",
         "lego worlds",
@@ -598,7 +598,7 @@
         "mario vs donkey kong",
         "paper mario the origami king",
         "paper mario the thousand year door",
-        "super mario galaxy 2",
+        "purtch con azul neon y rojo neon mario kart 8",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv"
@@ -694,13 +694,14 @@
     },
     {
       "juego": "Monster Hunter",
-      "linea": "🟢 <b>Monster Hunter</b> — 📦 7 desde $17.990 · 🎮 1 desde US$26.31\n   🟢 Monster Hunter Stories 2: Wings of Ruin −50%",
+      "linea": "🟢 <b>Monster Hunter</b> — 📦 8 desde $17.990 · 🎮 1 desde US$26.31\n   🟢 Monster Hunter Stories 2: Wings of Ruin −50%",
       "nombres": [
         "monster hunter generations ultimate",
         "monster hunter rise",
         "monster hunter stories",
         "monster hunter stories 2 wings of ruin",
-        "monster hunter wilds"
+        "monster hunter wilds",
+        "nintendo hw monster hunter"
       ],
       "orden": 1,
       "slug": "monster-hunter"
@@ -812,7 +813,6 @@
         "ghosts n goblins resurrection",
         "goat simulator 3",
         "god eater 3",
-        "going under",
         "gradius origins",
         "grounded",
         "gundam breaker 4",
@@ -820,6 +820,7 @@
         "hotline miami collection",
         "human fall flat",
         "inscryption",
+        "into the breach",
         "jojos bizarre adventure all star battle r",
         "jujutsu kaisen cursed clash",
         "killer frequency",
@@ -858,9 +859,9 @@
         "snowrunner",
         "spelunky 2",
         "spy anya operation memories",
-        "stardew valley",
         "steamworld dig 2",
         "stories untold",
+        "subnautica",
         "subnautica nintendo switch 2 edition",
         "super bomberman r 2",
         "super crazy rhythm castle",
@@ -873,7 +874,6 @@
         "the dark pictures anthology little hope",
         "the dark pictures anthology man of medan",
         "the elder scrolls v skyrim anniversary edition",
-        "the settlers new allies",
         "the walking dead the complete first season",
         "tony hawks pro skater 1 2",
         "tormented souls",
@@ -1081,7 +1081,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $29.990 · 🎮 6 desde US$7.18\n   🟢 Sonic Origins −70%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $29.990 · 🎮 6 desde US$7.18\n   🟢 Sonic Origins −70%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1159,11 +1159,11 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "⚪ <b>Stardew Valley</b> — 📦 1 desde $49.900",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $34.900\n   🟢 Stardew Valley −46%",
       "nombres": [
         "stardew valley"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "stardew-valley"
     },
     {
@@ -1241,8 +1241,10 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
+      "linea": "🟢 <b>Tales of</b> — 📦 8 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
       "nombres": [
+        "bandai namco tales of xillia",
+        "iam8bit tales of the shire",
         "tales of arise beyond the dawn edition",
         "tales of autumn",
         "tales of berseria remastered",
@@ -1268,7 +1270,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $59.900\n   🟢 Trails in the Sky 2nd Chapter −34%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $29.990\n   🟢 Legend of Heroes Trails of Cold Steel III - Sniper −50%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
@@ -1358,7 +1360,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −38%",
+      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −22%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda breath of the wild",
@@ -1371,5 +1373,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 653
+  "total": 656
 }

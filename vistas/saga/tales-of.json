@@ -10,7 +10,7 @@
       "nivel": "compra",
       "nombre": "Tales of Autumn",
       "pct": 84.7,
-      "texto": "🟢 <b>COMPRA YA</b> · −85%\n<b>Tales of Autumn</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$1.99</b> ≈ $1.940 en 🇺🇸 EE. UU.\n💡 Oferta de −85% en la eShop\n🏷️ Normal US$12.99 → ahorras US$11.00 · ⏳ termina el 31 oct (en 9 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/tales-of-autumn-switch/\">US$1.99</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/tales-of-autumn-switch/\">US$1.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/tales-of-autumn-switch/\">US$2.04</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/tales-of-autumn-switch/\">US$2.18</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/tales-of-autumn-switch/\">US$2.31</a>\n   El más caro: 🇨🇴 US$2.99\n📈 Mínimo US$1.97 (17 oct en 🇨🇦 Canadá)\n   ███▁▁▁▁▁▁  últimos 9 días\n🛒 <a href=\"https://www.nintendo.com/us/store/products/tales-of-autumn-switch/\">Ver en la eShop de EE. UU.</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −85%\n<b>Tales of Autumn</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$1.99</b> ≈ $1.940 en 🇺🇸 EE. UU.\n💡 Oferta de −85% en la eShop\n🏷️ Normal US$12.99 → ahorras US$11.00 · ⏳ termina el 31 oct (en 9 días)\n🌎 <b>Por país</b>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/tales-of-autumn-switch/\">US$1.99</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/tales-of-autumn-switch/\">US$1.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/tales-of-autumn-switch/\">US$2.04</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/tales-of-autumn-switch/\">US$2.18</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/tales-of-autumn-switch/\">US$2.31</a>\n   El más caro: 🇨🇴 US$2.99\n📈 Mínimo US$1.97 (17 oct en 🇨🇦 Canadá)\n   ███▁▁▁▁▁▁  últimos 9 días\n🛒 <a href=\"https://www.nintendo.com/us/store/products/tales-of-autumn-switch/\">Ver en la eShop de EE. UU.</a>",
       "tipo": "digital"
     },
     {
@@ -114,6 +114,30 @@
     },
     {
       "boton": {
+        "callback_data": "a:eeb817b3f1",
+        "text": "⚙️ iam8bit Tales of the Shire · $67.990"
+      },
+      "id": "eeb817b3f1",
+      "nivel": "regular",
+      "nombre": "iam8bit Tales of the Shire",
+      "pct": 8.4,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>iam8bit Tales of the Shire</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$67.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $6.216 frente al «antes» que marca la tienda ($74.206)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $65.990 (19 oct, Lider) · máximo $67.990\n   ▅▅▅▁█  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-iam8bit-tales-of-the-shire-switch/00085006128263\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:cf80bba9f1",
+        "text": "⚙️ Bandai Namco Tales of Xillia · $60.990"
+      },
+      "id": "cf80bba9f1",
+      "nivel": "regular",
+      "nombre": "Bandai Namco Tales of Xillia",
+      "pct": 7.4,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Bandai Namco Tales of Xillia</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$60.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.839 frente al «antes» que marca la tienda ($65.829)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.990 (14 oct, Lider) · típico $59.990 · máximo $60.990\n   ▁▁▁▁▁▁█  últimos 7 días\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-tales-of-xillia-para-nintendo-switch/00072267484101\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:c3762acf57",
         "text": "⚙️ Tales of ARISE - Beyond the D… S2 · $59.900"
       },
@@ -126,5 +150,5 @@
     }
   ],
   "juego": "Tales of",
-  "revision": "2026-10-22T18:16:59Z"
+  "revision": "2026-10-23T00:16:06Z"
 }
