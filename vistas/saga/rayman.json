@@ -14,6 +14,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:45ad31c4fa",
+        "text": "⚙️ Ubisoft Rayman Legends Edició… · $54.990"
+      },
+      "id": "45ad31c4fa",
+      "nivel": "regular",
+      "nombre": "Ubisoft Rayman Legends Edición Definitiva",
+      "pct": 7.6,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Ubisoft Rayman Legends Edición Definitiva</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $4.527 frente al «antes» que marca la tienda ($59.517)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $53.990 (20 oct, Lider) · máximo $54.990\n   ▁▁██  últimos 4 días\n🔎 Confianza baja: una sola tienda y 4 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/nintendo-switch-juego-ubisoft-rayman-legends-edicion-definitiva/00330721601401\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:253e076eca",
         "text": "⚙️ Rayman Edición 30º Aniversari… · $52.990"
       },
@@ -50,5 +62,5 @@
     }
   ],
   "juego": "Rayman",
-  "revision": "2026-10-23T12:16:41Z"
+  "revision": "2026-10-23T18:16:10Z"
 }

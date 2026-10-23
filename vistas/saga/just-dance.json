@@ -110,6 +110,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:789e95764e",
+        "text": "⚙️ Just Dance 2020 – Ubisoft · $74.990"
+      },
+      "id": "789e95764e",
+      "nivel": "normal",
+      "nombre": "Just Dance 2020 – Ubisoft",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Just Dance 2020 – Ubisoft</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$74.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $74.990 (23 oct, Lider) · máximo $74.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/just-dance-2020-para-nintendo-switch-ubisoft/00330721612553\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:175e009239",
         "text": "⚙️ Just Dance 2022 · $49.990"
       },
@@ -170,18 +182,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:789e95764e",
-        "text": "⚙️ Just Dance 2020 – Ubisoft · $74.990"
-      },
-      "id": "789e95764e",
-      "nivel": "normal",
-      "nombre": "Just Dance 2020 – Ubisoft",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Just Dance 2020 – Ubisoft</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$74.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $74.990 (23 oct, Lider) · máximo $74.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/just-dance-2020-para-nintendo-switch-ubisoft/00330721612553\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:f2a202389c",
         "text": "⚙️ Ubisoft Just Dance 2019 · $107.990"
       },
@@ -218,5 +218,5 @@
     }
   ],
   "juego": "Just Dance",
-  "revision": "2026-10-23T12:16:41Z"
+  "revision": "2026-10-23T18:16:10Z"
 }

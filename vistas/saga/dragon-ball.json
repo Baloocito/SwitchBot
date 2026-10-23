@@ -115,6 +115,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:53438455ce",
+        "text": "⚙️ DRAGON BALL: THE BREAKERS · $27.990"
+      },
+      "id": "53438455ce",
+      "nivel": "regular",
+      "nombre": "DRAGON BALL: THE BREAKERS",
+      "pct": 5.0,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −5%\n<b>DRAGON BALL: THE BREAKERS</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$27.990</b> en MegaGames\n💡 Apenas 5% bajo la referencia\n   Ahorras $1.460 frente a la otra tienda ($29.450)\n🏷️ La tienda dice «antes $40.990», pero las demás lo venden cerca de $29.450: ese descuento está inflado\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/dragon-ball-the-breakers-nsw/\">$27.990 MegaGames</a>\n   🥈 <a href=\"https://sniper.cl/products/dragon-ball-the-breakers-special-edition-switch-sniper\">$29.450 Sniper</a> (+$1.460)\n📈 Mínimo $27.990 (19 oct, MegaGames) · máximo $27.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$2.22 ≈ $2.178 en 🇨🇱 Chile (−85%)\n   ➜ El digital es $25.812 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 5 días de historial\n🛒 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/dragon-ball-the-breakers-nsw/\">Ir a comprar en MegaGames</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:a08a9bb158",
         "text": "⚙️ Dragon Ball Z Kakarot · $39.990"
       },
@@ -139,5 +151,5 @@
     }
   ],
   "juego": "Dragon Ball",
-  "revision": "2026-10-23T12:16:41Z"
+  "revision": "2026-10-23T18:16:10Z"
 }

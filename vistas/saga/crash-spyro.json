@@ -77,18 +77,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:5c04543e69",
-        "text": "⚙️ Spyro Reignited Trilogy · $60.990"
-      },
-      "id": "5c04543e69",
-      "nivel": "regular",
-      "nombre": "Spyro Reignited Trilogy",
-      "pct": 7.4,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>Spyro Reignited Trilogy (asia)</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$60.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.864 frente al «antes» que marca la tienda ($65.854)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $60.990 (14 oct, Lider) · máximo $60.990\n   ▄▄▄▄▄  últimos 5 días\n🎮 Digital: US$12.48 ≈ $12.244 en 🇨🇦 Canadá (−65%)\n   ➜ El digital es $48.746 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nsw-spyro-reignited-trilogy-asia-/00503091728665\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:d633fa2fdc",
         "text": "⚙️ Crash Bandicoot N. Sane Trilo… · $28.000"
       },
@@ -125,5 +113,5 @@
     }
   ],
   "juego": "Crash / Spyro",
-  "revision": "2026-10-23T12:16:41Z"
+  "revision": "2026-10-23T18:16:10Z"
 }

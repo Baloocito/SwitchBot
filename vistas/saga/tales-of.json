@@ -114,18 +114,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:eeb817b3f1",
-        "text": "⚙️ iam8bit Tales of the Shire · $67.990"
-      },
-      "id": "eeb817b3f1",
-      "nivel": "regular",
-      "nombre": "iam8bit Tales of the Shire",
-      "pct": 8.4,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>iam8bit Tales of the Shire</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$67.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $6.216 frente al «antes» que marca la tienda ($74.206)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $65.990 (19 oct, Lider) · máximo $67.990\n   ▅▅▅▁██  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-iam8bit-tales-of-the-shire-switch/00085006128263\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:c3762acf57",
         "text": "⚙️ Tales of ARISE - Beyond the D… S2 · $59.900"
       },
@@ -150,5 +138,5 @@
     }
   ],
   "juego": "Tales of",
-  "revision": "2026-10-23T12:16:41Z"
+  "revision": "2026-10-23T18:16:10Z"
 }
