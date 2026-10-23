@@ -381,13 +381,40 @@ def _algolia(filtro, page=0, por_pagina=500, facetas=None):
     return r.json() if r.status_code == 200 else None
 
 
-def buscar_ofertas_eshop(maximo=8000):
+FACETAS_PARTIR = ["priceRange", "platformCode", "contentRatingCode", "gameGenreLabels", "playerCount",
+                  "availability"]
+
+
+def _partir(filtro, total, usadas, partes, profundidad=0):
+    """Divide una consulta de mas de 1000 resultados usando las facetas del buscador."""
+    if total <= 1000 or profundidad >= 4:
+        partes.append(filtro)
+        return
+    libres = [f for f in FACETAS_PARTIR if f not in usadas]
+    try:
+        res = _algolia(filtro, por_pagina=0, facetas=libres) or {}
+    except (requests.RequestException, ValueError):
+        res = {}
+    fac = res.get("facets") or {}
+    # la faceta que deja el grupo mas grande mas chico
+    # solo facetas que cubren (casi) todo el grupo: si no, los juegos sin ese dato se perderian
+    utiles = [f for f in libres if fac.get(f) and len(fac[f]) > 1 and sum(fac[f].values()) >= 0.97 * total]
+    mejor = min(utiles, key=lambda f: max(fac[f].values()), default=None)
+    if not mejor:
+        partes.append(filtro)
+        return
+    for valor, n in fac[mejor].items():
+        valor_esc = str(valor).replace('"', '\\"')
+        _partir(f'{filtro} AND {mejor}:"{valor_esc}"', n, usadas | {mejor}, partes, profundidad + 1)
+
+
+def buscar_ofertas_eshop(maximo=9000):
     """Todos los juegos (y paquetes) con descuento en la eShop de EE. UU.
     El buscador de Nintendo entrega como maximo 1000 resultados por consulta, y una venta
-    grande tiene 5000+; por eso se parte la busqueda por rango de precio y por consola."""
+    grande tiene 5000+; por eso se parte la busqueda (precio, consola, clasificacion, genero...)."""
     for filtro in FILTROS_OFERTA:
         try:
-            resumen = _algolia(filtro, por_pagina=0, facetas=["priceRange", "platformCode"])
+            resumen = _algolia(filtro, por_pagina=0)
         except (requests.RequestException, ValueError) as e:
             log(f"  eShop ofertas [{filtro}]: {e}")
             continue
@@ -395,19 +422,8 @@ def buscar_ofertas_eshop(maximo=8000):
             log(f"  eShop ofertas: filtro {filtro} sin resultados")
             continue
         total = resumen["nbHits"]
-        fac = resumen.get("facets") or {}
-        rangos = fac.get("priceRange") or {}
-        consolas = list((fac.get("platformCode") or {}).keys())
         partes = []
-        if total <= 1000 or not rangos:
-            partes = [filtro]
-        else:
-            for rango, n in rangos.items():
-                f = f'{filtro} AND priceRange:"{rango}"'
-                if n > 1000 and consolas:
-                    partes += [f'{f} AND platformCode:"{c}"' for c in consolas]
-                else:
-                    partes.append(f)
+        _partir(filtro, total, set(), partes)
         vistos, out = set(), []
         for f in partes:
             page = 0
@@ -427,7 +443,7 @@ def buscar_ofertas_eshop(maximo=8000):
                 page += 1
                 if page >= min(data.get("nbPages") or 0, 2):    # 2 x 500 = el maximo de 1000
                     break
-                time.sleep(0.3)
+                time.sleep(0.2)
         if out:
             log(f"  eShop ofertas: {total} en oferta segun Nintendo, {len(out)} leidos en {len(partes)} consultas")
             return out
