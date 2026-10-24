@@ -50,6 +50,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:2e1afd3671",
+        "text": "⚙️ EA SPORTS FC 25 · $62.990"
+      },
+      "id": "2e1afd3671",
+      "nivel": "regular",
+      "nombre": "EA SPORTS FC 25",
+      "pct": 6.7,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −7%\n<b>EA SPORTS FC 25</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$62.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 7% bajo la referencia\n   Ahorras $4.539 frente al «antes» que marca la tienda ($67.529)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $52.990 (18 oct, Lider) · máximo $62.990\n   ▁▅███  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-ea-sports-fc-25-para-nintendo-switch/00001463374815\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:b04c62d710",
         "text": "⚙️ EA SPORTS FC 27 S2 · $629.990"
       },
@@ -86,5 +98,5 @@
     }
   ],
   "juego": "EA Sports FC",
-  "revision": "2026-10-24T09:17:24Z"
+  "revision": "2026-10-24T15:16:25Z"
 }

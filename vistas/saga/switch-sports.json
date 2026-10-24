@@ -26,18 +26,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:ef54734aa8",
-        "text": "⚙️ Sports Motion Controls · $73.990"
-      },
-      "id": "ef54734aa8",
-      "nivel": "compra",
-      "nombre": "Sports Motion Controls",
-      "pct": 2.6,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Sports Motion Controls</b>\n🕹️ Switch 1 · 📦 Físico · Switch Sports\n💰 <b>$73.990</b> en Lider 🏪 <i>vende VYSE GLOBAL</i>\n💡 Es el precio más bajo que he visto\n   Ahorras $2.000 frente a su precio típico ($75.990)\n🏷️ La tienda marca «antes $99.990» (−26%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $73.990 (23 oct, Lider) · típico $75.990 · máximo $75.990\n   █████████▁▁  últimos 11 días\n🔎 Confianza media: 1 tienda y 11 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/juego-nintendo-switch-sports-nintendo-switch-motion-controls/00290000054345\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:7ec9c9ec97",
         "text": "⚙️ Instant Sports Winter Games -… · $39.720"
       },
@@ -158,6 +146,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:ef54734aa8",
+        "text": "⚙️ Sports Motion Controls · $75.990"
+      },
+      "id": "ef54734aa8",
+      "nivel": "normal",
+      "nombre": "Sports Motion Controls",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sports Motion Controls</b>\n🕹️ Switch 1 · 📦 Físico · Switch Sports\n💰 <b>$75.990</b> en Lider 🏪 <i>vende VYSE GLOBAL</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $102.990» (−26%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $73.990 (23 oct, Lider) · típico $75.990 · máximo $75.990\n   █████████▁▁  últimos 11 días\n🔎 Confianza media: 1 tienda y 11 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/juego-nintendo-switch-sports-nintendo-switch-motion-controls/00290000054345\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:84c6cada45",
         "text": "⚙️ Instant Sports: de Invierno · $66.990"
       },
@@ -166,18 +166,6 @@
       "nombre": "Instant Sports: de Invierno",
       "pct": -1.5,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Instant Sports: de Invierno</b>\n🕹️ Switch 1 · 📦 Físico · Switch Sports\n💰 <b>$66.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $74.976» (−11%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $65.990 (16 oct, Lider) · típico $65.990 · máximo $67.990\n   ██▁▁▁▁▁▁▁▅▅  últimos 11 días\n🔎 Confianza media: 1 tienda y 11 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/instant-sports-juegos-de-invierno-para-nintendo-switch/00081933502117\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:ecc55236e3",
-        "text": "⚙️ Instant Sports de Just For Ga… · $67.990"
-      },
-      "id": "ecc55236e3",
-      "nivel": "normal",
-      "nombre": "Instant Sports de Just For Games",
-      "pct": -1.5,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Instant Sports de Just For Games</b>\n🕹️ Switch 1 · 📦 Físico · Switch Sports\n💰 <b>$67.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $72.619» (−6%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $66.990 (15 oct, Lider) · típico $66.990 · máximo $67.990\n   █▁▁▁▁▁▁▁▁▁  últimos 10 días\n🔎 Confianza media: 1 tienda y 10 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-instant-sports-de-just-for-games-para-nintendo-switch/00370066452560\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -230,5 +218,5 @@
     }
   ],
   "juego": "Switch Sports",
-  "revision": "2026-10-24T09:17:24Z"
+  "revision": "2026-10-24T15:16:25Z"
 }

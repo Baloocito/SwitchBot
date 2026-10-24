@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 565,
-  "pendientes": 4,
+  "fisicos": 563,
+  "pendientes": 5,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-24T09:17:24Z",
+  "revision": "2026-10-24T15:16:25Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -187,22 +187,22 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 🎮 2 desde US$5.68\n   🟢 Contra Anniversary Collection −60%",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720 · 🎮 2 desde US$5.68\n   🟢 Contra Anniversary Collection −60%",
       "nombres": [
         "contra anniversary collection",
-        "contra operation galuga"
+        "contra operation galuga",
+        "contra rogue corps"
       ],
       "orden": 1,
       "slug": "contra"
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000 · 🎮 3 desde US$12.49\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000 · 🎮 3 desde US$12.49\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
       "nombres": [
         "crash bandicoot 4 its about time",
         "crash bandicoot n sane trilogy",
         "koch media crash bandicoot 4",
-        "pewesv crash bandicoot 4",
         "spyro reignited trilogy"
       ],
       "orden": 1,
@@ -221,10 +221,10 @@
     },
     {
       "juego": "Danganronpa",
-      "linea": "🟢 <b>Danganronpa</b> — 📦 3 desde $54.990\n   🟢 Danganronpa Decadence - Sniper",
+      "linea": "🟢 <b>Danganronpa</b> — 📦 3 desde $54.990\n   🟢 Danganronpa Decadence",
       "nombres": [
         "danganronpa 2x2",
-        "danganronpa decadence sniper"
+        "danganronpa decadence"
       ],
       "orden": 1,
       "slug": "danganronpa"
@@ -278,8 +278,9 @@
     },
     {
       "juego": "Donkey Kong",
-      "linea": "🟢 <b>Donkey Kong</b> — 📦 4 desde $44.000\n   🟢 Donkey Kong Bananza −7%",
+      "linea": "🟢 <b>Donkey Kong</b> — 📦 5 desde $44.000\n   🟢 Donkey Kong Bananza −7%",
       "nombres": [
+        "controlador inalambrico turtle beach rematch donkey kong",
         "donkey kong bananza",
         "donkey kong country returns hd",
         "donkey kong country tropical freeze"
@@ -338,9 +339,10 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 7 desde $35.990\n   🟢 EA SPORTS FC 27 −17%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $35.990\n   🟢 EA SPORTS FC 27 −17%",
       "nombres": [
         "ea sports fc 24",
+        "ea sports fc 25",
         "ea sports fc 26",
         "ea sports fc 27",
         "fifa 21 electronic arts"
@@ -497,9 +499,10 @@
     },
     {
       "juego": "Katamari",
-      "linea": "🟢 <b>Katamari</b> — 📦 3 desde $34.990\n   🟢 Once Upon A KATAMARI",
+      "linea": "🟢 <b>Katamari</b> — 📦 4 desde $34.990\n   🟢 Once Upon A KATAMARI",
       "nombres": [
         "bandai katamari damacy encore",
+        "bandai namco we love katamari reroll",
         "once upon a katamari",
         "we love katamari reroll royal reverie"
       ],
@@ -575,8 +578,9 @@
     },
     {
       "juego": "Luigi's Mansion",
-      "linea": "🟢 <b>Luigi's Mansion</b> — 📦 2 desde $55.000\n   🟢 Luigi s Mansion 3",
+      "linea": "🟢 <b>Luigi's Mansion</b> — 📦 3 desde $49.990\n   🟢 Luigi Mansion 2 HD",
       "nombres": [
+        "luigi mansion 2 hd",
         "luigi s mansion 2 hd",
         "luigi s mansion 3"
       ],
@@ -585,7 +589,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −9%",
+      "linea": "🟢 <b>Mario</b> — 📦 20 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −9%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -601,7 +605,6 @@
         "mario vs donkey kong",
         "paper mario the origami king",
         "paper mario the thousand year door",
-        "purtch con azul neon y rojo neon mario kart 8",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv"
@@ -772,7 +775,7 @@
     },
     {
       "juego": "One Piece",
-      "linea": "🟢 <b>One Piece</b> — 📦 1 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
+      "linea": "🟢 <b>One Piece</b> — 📦 2 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
       "nombres": [
         "one piece odyssey deluxe edition"
       ],
@@ -1148,7 +1151,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $29.990 · 🎮 6 desde US$7.11\n   🟢 Sonic Origins −70%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $29.990 · 🎮 6 desde US$7.11\n   🟢 Sonic Origins −70%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1272,9 +1275,8 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
-        "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
       ],
@@ -1283,14 +1285,13 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 19 desde $29.990\n   🟢 Instant Sports Tennis - Sniper −8%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 18 desde $29.990\n   🟢 Instant Sports Tennis - Sniper −8%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
         "funbox media junior league sports 3 en 1",
         "game merge games instant sports all stars",
         "instant sports de invierno",
-        "instant sports de just for games",
         "instant sports tennis sniper",
         "instant sports winter games sniper",
         "junior league sports coleccion 3 en 1",
@@ -1338,7 +1339,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $29.990\n   🟢 Legend of Heroes Trails of Cold Steel III - Sniper −33%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $59.900\n   🟢 Trails in the Sky 2nd Chapter −20%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",

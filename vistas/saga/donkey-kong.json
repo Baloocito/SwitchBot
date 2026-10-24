@@ -38,6 +38,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:79e193aed6",
+        "text": "⚙️ Controlador inalámbrico Turtl… · $105.990"
+      },
+      "id": "79e193aed6",
+      "nivel": "regular",
+      "nombre": "Controlador inalámbrico Turtle Beach Rematch Donkey Kong",
+      "pct": 9.7,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −10%\n<b>Controlador inalámbrico Turtle Beach Rematch Donkey Kong</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$105.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 10% bajo la referencia\n   Ahorras $11.322 frente al «antes» que marca la tienda ($117.312)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $55.990 (14 oct, Lider) · máximo $105.990\n   ▁█████  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/controlador-inalambrico-nintendo-switch-turtle-beach-rematch-donkey-kong/00084045440082\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:eec860fd86",
         "text": "⚙️ Donkey Kong Country: Tropical… · $44.000"
       },
@@ -50,5 +62,5 @@
     }
   ],
   "juego": "Donkey Kong",
-  "revision": "2026-10-24T09:17:24Z"
+  "revision": "2026-10-24T15:16:25Z"
 }

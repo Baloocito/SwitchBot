@@ -10,7 +10,7 @@
       "nivel": "compra",
       "nombre": "Sonic Origins",
       "pct": 70.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>Sonic Origins</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$7.89</b> ≈ $7.769 en 🇨🇱 Chile\n   Precio en la tienda: $7.770 CLP\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$26.30 → ahorras US$18.41 · ⏳ termina el 1 nov (en 8 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-origins-switch/\">US$7.89</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sonic-origins-switch/\">US$8.17</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sonic-origins-switch/\">US$8.56</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sonic-origins-switch/\">US$8.63</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/sonic-origins-switch/\">US$8.99</a>\n   El más caro: 🇨🇴 US$11.13\n📦 Físico: $44.990 en Lider → el digital te ahorra $37.221\n📈 Mínimo US$7.89 (23 oct en 🇨🇱 Chile)\n   ██████▁▁▁▁▁  últimos 11 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-origins-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>Sonic Origins</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$7.89</b> ≈ $7.769 en 🇨🇱 Chile\n   Precio en la tienda: $7.770 CLP\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$26.30 → ahorras US$18.41 · ⏳ termina el 1 nov (en 8 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-origins-switch/\">US$7.89</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sonic-origins-switch/\">US$8.17</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sonic-origins-switch/\">US$8.56</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sonic-origins-switch/\">US$8.63</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/sonic-origins-switch/\">US$8.99</a>\n   El más caro: 🇨🇴 US$11.13\n📦 Físico: $49.990 en Falabella → el digital te ahorra $42.221\n📈 Mínimo US$7.89 (23 oct en 🇨🇱 Chile)\n   ██████▁▁▁▁▁  últimos 11 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sonic-origins-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -128,18 +128,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:223d9c0552",
-        "text": "⚙️ Sonic Origins · $44.990"
-      },
-      "id": "223d9c0552",
-      "nivel": "regular",
-      "nombre": "Sonic Origins",
-      "pct": 7.7,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Sonic Origins</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$44.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $3.734 frente al «antes» que marca la tienda ($48.724)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $43.990 (20 oct, Lider) · máximo $44.990\n   █▁▁█  últimos 4 días\n🎮 Digital: US$7.89 ≈ $7.769 en 🇨🇱 Chile (−70%)\n   ➜ El digital es $37.221 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 4 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/sonic-origins-plus-switch/00001008677031\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:ec8edfe133",
         "text": "⚙️ Sonic Classic Collection · $59.900"
       },
@@ -188,5 +176,5 @@
     }
   ],
   "juego": "Sonic",
-  "revision": "2026-10-24T09:17:24Z"
+  "revision": "2026-10-24T15:16:25Z"
 }
