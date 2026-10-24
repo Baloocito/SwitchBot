@@ -144,18 +144,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:ae03a45665",
-        "text": "⚙️ Star Wars Outlaws - Edición d… S2 · $64.990"
-      },
-      "id": "ae03a45665",
-      "nivel": "normal",
-      "nombre": "Star Wars Outlaws - Edición dorada",
-      "pct": 4.0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Star Wars Outlaws - Edición dorada</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$64.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n   Ahorras $2.709 frente al «antes» que marca la tienda ($67.699)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $64.990 (24 oct, Lider) · máximo $64.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/star-wars-outlaws-edicion-dorada-nintendo-switch-2/00088725611691\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:8bc378b02e",
         "text": "⚙️ Monopoly: Star Wars Heroes vs… · $39.900"
       },
@@ -192,5 +180,5 @@
     }
   ],
   "juego": "Star Wars",
-  "revision": "2026-10-24T15:16:25Z"
+  "revision": "2026-10-24T21:17:33Z"
 }

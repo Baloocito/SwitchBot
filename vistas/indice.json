@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 563,
+  "fisicos": 571,
   "pendientes": 5,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-24T15:16:25Z",
+  "revision": "2026-10-24T21:17:33Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -198,11 +198,12 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000 · 🎮 3 desde US$12.49\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 6 desde $28.000 · 🎮 3 desde US$12.49\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
       "nombres": [
         "crash bandicoot 4 its about time",
         "crash bandicoot n sane trilogy",
         "koch media crash bandicoot 4",
+        "pewesv crash bandicoot 4",
         "spyro reignited trilogy"
       ],
       "orden": 1,
@@ -210,8 +211,9 @@
     },
     {
       "juego": "Cyberpunk 2077",
-      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 1 desde $39.990 · 🎮 2 desde US$4.93\n   🟢 Cyberpunk 2077: Ultimate Edition −60%",
+      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990 · 🎮 2 desde US$4.93\n   🟢 Cyberpunk 2077: Ultimate Edition −60%",
       "nombres": [
+        "cd de projekt cyberpunk 2077",
         "cyberpunk 2077 ultimate edition",
         "cyberpunk speed assassin",
         "va 11 hall a cyberpunk bartender action"
@@ -499,9 +501,8 @@
     },
     {
       "juego": "Katamari",
-      "linea": "🟢 <b>Katamari</b> — 📦 4 desde $34.990\n   🟢 Once Upon A KATAMARI",
+      "linea": "🟢 <b>Katamari</b> — 📦 3 desde $34.990\n   🟢 Once Upon A KATAMARI",
       "nombres": [
-        "bandai katamari damacy encore",
         "bandai namco we love katamari reroll",
         "once upon a katamari",
         "we love katamari reroll royal reverie"
@@ -578,9 +579,8 @@
     },
     {
       "juego": "Luigi's Mansion",
-      "linea": "🟢 <b>Luigi's Mansion</b> — 📦 3 desde $49.990\n   🟢 Luigi Mansion 2 HD",
+      "linea": "🟢 <b>Luigi's Mansion</b> — 📦 2 desde $55.000\n   🟢 Luigi s Mansion 3",
       "nombres": [
-        "luigi mansion 2 hd",
         "luigi s mansion 2 hd",
         "luigi s mansion 3"
       ],
@@ -632,9 +632,8 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$14.72\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 🎮 1 desde US$14.72\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
-        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -793,7 +792,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $49.990 · 🎮 171 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $39.990 · 🎮 176 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "ace angler fishing spirits",
         "ace attorney anthology",
@@ -816,6 +815,7 @@
         "bleak sword dx",
         "borderlands collection pandoras box",
         "bravery and greed",
+        "camper van make it home",
         "capcom beat em up bundle",
         "capcom fighting collection",
         "capcom fighting collection 1 2 bundle",
@@ -842,6 +842,7 @@
         "etrian odyssey iii hd",
         "fatal frame ii crimson butterfly remake",
         "fatal frame mask of the lunar eclipse",
+        "firegirl hack n splash rescue dx",
         "ghost trick phantom detective",
         "ghostpia season one",
         "ghosts n goblins resurrection",
@@ -864,6 +865,7 @@
         "knight vs giant the broken excalibur",
         "labyrinth of galleria the moon society",
         "labyrinth of zangetsu",
+        "laika aged through blood",
         "little big workshop",
         "little nightmares complete edition",
         "little nightmares enhanced edition complete edition",
@@ -893,6 +895,7 @@
         "pentiment",
         "persona 3 portable persona 4 golden bundle",
         "pga tour 2k25",
+        "planet of lana",
         "plateup",
         "possessor s",
         "powerwash simulator",
@@ -918,6 +921,7 @@
         "spidersaurs",
         "spy anya operation memories",
         "star renegades",
+        "steamworld dig",
         "steamworld dig 2",
         "stories untold",
         "subnautica",
@@ -1209,7 +1213,7 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $39.900 · 🎮 10 desde US$5.69\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $39.900 · 🎮 10 desde US$5.69\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars battlefront classic collection",
@@ -1220,7 +1224,6 @@
         "star wars jedi knight jedi academy",
         "star wars knights of the old republic",
         "star wars knights of the old republic ii the sith lords",
-        "star wars outlaws edicion dorada",
         "star wars racer commando rojo",
         "star wars republic commando",
         "star wars the force unleashed"
@@ -1275,8 +1278,9 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
+        "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
       ],
@@ -1310,8 +1314,9 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 8 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
+      "linea": "🟢 <b>Tales of</b> — 📦 9 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
       "nombres": [
+        "bandai namco tales of berseria remasterizado",
         "bandai namco tales of xillia",
         "iam8bit tales of the shire",
         "tales of arise beyond the dawn edition",
@@ -1339,7 +1344,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $59.900\n   🟢 Trails in the Sky 2nd Chapter −20%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $29.990\n   🟢 Legend of Heroes Trails of Cold Steel III - Sniper −33%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
@@ -1429,7 +1434,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −22%",
+      "linea": "🟢 <b>Zelda</b> — 📦 12 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −39%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "oled zelda tears of the kingdom japan specs",
@@ -1443,5 +1448,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 708
+  "total": 715
 }
