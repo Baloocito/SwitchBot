@@ -2361,7 +2361,7 @@ AUDIFONOS_LISTADOS = []
 MARCAS_AUD = {"hyperx": "HyperX", "logitech": "Logitech G", "razer": "Razer", "steelseries": "SteelSeries",
               "corsair": "Corsair", "turtle beach": "Turtle Beach", "astro": "Astro", "redragon": "Redragon",
               "jbl": "JBL", "sony": "Sony", "asus": "ASUS ROG", "cooler master": "Cooler Master",
-              "hp": "HyperX", "audio technica": "Audio-Technica", "epos": "EPOS", "trust": "Trust"}
+              "audio technica": "Audio-Technica", "epos": "EPOS", "trust": "Trust"}
 EXCLUIR_AUD = {"almohadillas", "almohadilla", "repuesto", "cable", "soporte", "adaptador", "usado", "usada",
                "reacondicionado", "reacondicionada", "funda", "estuche", "stand", "atril", "mouse", "teclado",
                "combo", "kit", "parlante", "parlantes"}
