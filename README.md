@@ -120,6 +120,16 @@ Switch y Switch Lite, solas o con juego (sin usadas ni reacondicionadas). El inf
 la más barata de cada versión; si una baja 8 % o más (`juegos.json` → `consolas.baja_pct`) te
 avisa al momento. Pensado para tener historial real antes de Black Friday.
 
+## Audífonos gamer y tus seguimientos (solo tu chat)
+
+- **Audífonos gamer:** una vez al día, en las tiendas y en MercadoLibre (vendedores seguros), los
+  audífonos de marcas conocidas (HyperX, Logitech G, Razer, SteelSeries, Corsair, Turtle Beach,
+  Redragon, JBL Quantum, Sony INZONE, ASUS ROG…). Informe diario con las rebajas y alerta si uno
+  baja 25 % o más (`juegos.json` → `audifonos`).
+- **Tus seguimientos** (`juegos.json` → `seguimientos`): productos que sigues para ti, buscados en
+  cada revisión, separados por versión (ej. Redragon Zeus X, Pro inalámbrico, 2). Te avisa si
+  bajan, si marcan su precio más bajo o si llegan a tu `objetivo_clp`. Nunca van al canal.
+
 ## Canal público de ofertas
 
 `canal.py` toma lo que recolecta `bot.py` y publica en un canal de Telegram solo lo que vale la pena,

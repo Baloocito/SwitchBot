@@ -1629,6 +1629,12 @@ def leer_tiendas(cfg, state, alertas):
     extras = {}
     for cat, (lista_cat, terminos_def) in EXTRAS.items():
         lista_cat.clear()
+        if cat == "seguimientos":       # tus seguimientos: en cada revision, no una vez al dia
+            SEGUIMIENTOS_CFG[:] = [x for x in cfg.get("seguimientos") or [] if x.get("activa", True) is not False]
+            terms = [t for x in SEGUIMIENTOS_CFG for t in terminos(x)]
+            if terms:
+                extras[cat] = terms
+            continue
         conf = cfg.get(cat) or {}
         if conf.get("activa", True) is not False and state.get(f"{cat}_fecha") != hoy_chile():
             extras[cat] = conf.get("buscar", terminos_def)
@@ -1648,7 +1654,7 @@ def leer_tiendas(cfg, state, alertas):
                 p["externo"] = es_externo(p, tienda)
                 EXTRAS[cat][0].append((tienda["nombre"], p))
     for cat in extras:
-        if EXTRAS[cat][0]:
+        if EXTRAS[cat][0] and cat != "seguimientos":
             state[f"{cat}_fecha"] = hoy_chile()
     log(f"  tiendas leidas en {time.time() - t0:.0f} s")
     for tienda, _, _, cache in resultados:
@@ -2343,10 +2349,297 @@ def lineas_consolas_informe(state):
     return l
 
 
+# ------------------------------------------------------------ audifonos gamer
+#
+# Audifonos gamer de marcas conocidas (todas las plataformas). Solo para tu chat: informe
+# diario y alerta si uno baja de verdad.
+
+AUDIFONOS_BUSCAR = ["audifonos gamer", "headset gamer", "audifonos gamer inalambricos"]
+AUDIFONOS_ML = ["audifonos gamer hyperx", "audifonos gamer logitech g", "audifonos gamer razer",
+                "audifonos gamer steelseries", "audifonos gamer corsair", "audifonos redragon zeus"]
+AUDIFONOS_LISTADOS = []
+MARCAS_AUD = {"hyperx": "HyperX", "logitech": "Logitech G", "razer": "Razer", "steelseries": "SteelSeries",
+              "corsair": "Corsair", "turtle beach": "Turtle Beach", "astro": "Astro", "redragon": "Redragon",
+              "jbl": "JBL", "sony": "Sony", "asus": "ASUS ROG", "cooler master": "Cooler Master",
+              "hp": "HyperX", "audio technica": "Audio-Technica", "epos": "EPOS", "trust": "Trust"}
+EXCLUIR_AUD = {"almohadillas", "almohadilla", "repuesto", "cable", "soporte", "adaptador", "usado", "usada",
+               "reacondicionado", "reacondicionada", "funda", "estuche", "stand", "atril", "mouse", "teclado",
+               "combo", "kit", "parlante", "parlantes"}
+AUD_RE = re.compile(r"\b(audifonos?|headsets?|auriculares?|headphones?|cascos?)\b")
+AUD_PRECIO_MIN = 12000
+AUD_BAJA_PCT = 25
+
+
+def clasificar_audifono(titulo, precio=None, url=None):
+    """'Audifonos Gamer HyperX Cloud II 7.1' -> {'marca': 'HyperX', 'inalambrico': False}."""
+    t = norm(titulo)
+    w = set(t.split())
+    if not AUD_RE.search(t) or w & EXCLUIR_AUD or (precio is not None and precio < AUD_PRECIO_MIN):
+        return None
+    marca = next((m for m in MARCAS_AUD if contiene_palabras(t, m)), None)
+    if not marca and url:
+        u = norm(re.sub(r"[-_/.]+", " ", str(url)))
+        marca = next((m for m in MARCAS_AUD if contiene_palabras(u, m)), None)
+    if not marca:
+        return None                      # sin marca conocida no se sigue (genericos)
+    if marca == "jbl" and "quantum" not in w:
+        return None                      # JBL: solo la linea gamer
+    if marca == "sony" and "inzone" not in w:
+        return None
+    if marca == "asus" and "rog" not in w:
+        return None
+    return {"marca": MARCAS_AUD[marca],
+            "inalambrico": bool(w & {"inalambrico", "inalambricos", "wireless", "bluetooth", "lightspeed"})}
+
+
+def clave_audifono(titulo, m):
+    t = norm(titulo)
+    ruido = STOP | {"audifonos", "audifono", "headset", "headsets", "auriculares", "auricular", "gamer",
+                    "gaming", "para", "pc", "ps4", "ps5", "xbox", "switch", "nintendo", "con", "microfono",
+                    "inalambrico", "inalambricos", "wireless", "negro", "negra", "blanco", "blanca", "color",
+                    "rojo", "azul", "rosado", "nuevo", "original", "sonido", "envolvente", "surround", "y"}
+    ruido |= set(norm(m["marca"]).split()) | set(MARCAS_AUD)
+    modelo = [x for x in t.split() if x not in ruido and len(x) > 1][:4]
+    return f"{norm(m['marca'])}|{'inal' if m['inalambrico'] else 'cable'}|{' '.join(sorted(modelo))}"
+
+
+# ------------------------------------------------------------ tus seguimientos
+#
+# Productos que tu sigues para ti (juegos.json -> seguimientos), ej. los Redragon Zeus.
+# Se buscan en cada revision, en las tiendas y en MercadoLibre (solo vendedores seguros).
+# Nunca van al canal.
+
+SEGUIMIENTOS_CFG = []
+SEGUIMIENTOS_LISTADOS = []
+PALABRAS_VARIANTE = {"x", "pro", "2", "3", "elite", "max", "plus", "lite", "mini", "wireless",
+                     "inalambrico", "inalambricos"}
+
+
+def item_seguimiento(titulo):
+    """El seguimiento de juegos.json al que corresponde el titulo (o None)."""
+    for x in SEGUIMIENTOS_CFG:
+        if coincide_simple(titulo, x):
+            return x
+    return None
+
+
+def coincide_simple(titulo, x):
+    w = palabras(titulo)
+    if w & {norm(e) for e in x.get("excluir") or []}:
+        return False
+    return any(palabras(t) <= w for t in terminos(x))
+
+
+def clasificar_seguimiento(titulo, precio=None, url=None):
+    if precio is not None and precio < 3000:
+        return None
+    if USADO_RE.search(norm(titulo)):
+        return None
+    x = item_seguimiento(titulo)
+    return {"item": x["nombre"]} if x else None
+
+
+def variante_seguimiento(titulo, x):
+    w = norm(titulo).split()
+    base = palabras(terminos(x)[0])     # el primer termino es el nombre base (ej. "redragon zeus")
+    v = [p for p in w if p in PALABRAS_VARIANTE and p not in base]
+    if "inalambrico" in v or "inalambricos" in v:
+        v = [p for p in v if p not in ("inalambrico", "inalambricos")] + ["wireless"]
+    return " ".join(sorted(set(v))) or "base"
+
+
+def leer_ml_extra(state, cat, consultas, lista, clasificador):
+    """Suma a la lista los avisos nuevos de vendedores seguros de MercadoLibre."""
+    if not ml_disponible() or not consultas:
+        return 0
+    n, vistos = 0, set()
+    for q in consultas:
+        if minutos() > LIMITE_ML_MIN:
+            break
+        try:
+            res = ml_buscar(q)
+        except (requests.RequestException, ValueError):
+            break
+        for it in res.get("items") or []:
+            if it.get("condicion") == "used" or not it.get("seguro") or it.get("moneda") != "CLP" \
+                    or not precio_valido(it.get("precio")) or it.get("url") in vistos:
+                continue
+            titulo = it.get("titulo") or ""
+            if not clasificador(titulo, it["precio"], it.get("url")):
+                continue
+            vistos.add(it.get("url"))
+            vend = it.get("vendedor") or "tienda oficial"
+            lista.append(("MercadoLibre", {"titulo": f"{titulo} ({vend})", "precio": it["precio"],
+                                           "url": it.get("url"), "normal": None}))
+            n += 1
+        time.sleep(0.5)
+    if n:
+        log(f"  {cat} ML: {n} avisos de vendedores seguros")
+    return n
+
+
+def _agrupar_simple(lista, clave_fn):
+    grupos = {}
+    for tienda, p in lista:
+        if p.get("externo"):
+            continue
+        r = clave_fn(p)
+        if not r:
+            continue
+        clave, nombre = r
+        g = grupos.setdefault(clave, {"nombre": nombre, "por_tienda": {}})
+        prev = g["por_tienda"].get(tienda)
+        if not prev or p["precio"] < prev["precio"]:
+            g["por_tienda"][tienda] = {"tienda": tienda, "precio": p["precio"], "url": p["url"], "titulo": p["titulo"]}
+    return grupos
+
+
+def revisar_audifonos(cfg, state, hist, alertas):
+    conf = cfg.get("audifonos") or {}
+    if conf.get("activa", True) is False:
+        return
+    if AUDIFONOS_LISTADOS or state.get("audifonos_ml_fecha") != hoy_chile():
+        if leer_ml_extra(state, "audifonos", conf.get("mercadolibre_buscar", AUDIFONOS_ML),
+                         AUDIFONOS_LISTADOS, clasificar_audifono) is not None:
+            state["audifonos_ml_fecha"] = hoy_chile()
+    if not AUDIFONOS_LISTADOS:
+        return
+    def clave(p):
+        m = clasificar_audifono(p["titulo"], p["precio"], p.get("url"))
+        return (clave_audifono(p["titulo"], m), re.sub(r"\s+", " ", p["titulo"]).strip()[:70]) if m else None
+    grupos = _agrupar_simple(AUDIFONOS_LISTADOS, clave)
+    items = state.setdefault("audifonos", {})
+    hist_a = hist.setdefault("audifonos", {})
+    hoy, avisados = hoy_chile(), 0
+    for k, g in grupos.items():
+        avisos = sorted(g["por_tienda"].values(), key=lambda a: a["precio"])
+        precio, mejor = avisos[0]["precio"], avisos[0]
+        serie = hist_a.setdefault(k, {})
+        est = estadisticas(serie, hoy)
+        registrar(serie, hoy, precio, mejor["tienda"])
+        otras = [a["precio"] for a in avisos[1:] if a["precio"] <= 2 * precio]
+        ref, ref_tipo = (est["tipico"], "tipico") if est.get("tipico") else \
+            ((_mediana(otras), "mercado") if otras else (None, None))
+        pct = 100 * (1 - precio / ref) if ref else 0
+        s = items.setdefault(k, {})
+        anterior = s.get("ultimo")
+        s.update({"nombre": g["nombre"], "marca": k.split("|")[0], "precio": precio, "tienda": mejor["tienda"],
+                  "url": mejor["url"], "ref": ref, "ref_tipo": ref_tipo, "pct": round(pct, 1),
+                  "min_hist": est.get("min"), "dias": est["dias"], "ultimo": precio, "visto": ahora_iso(),
+                  "avisos": [{x: a[x] for x in ("tienda", "precio", "url")} for a in avisos[:4]]})
+        if ref and pct >= conf.get("baja_pct", AUD_BAJA_PCT) and avisados < 3 and \
+                decidir(s, precio, ["descuento"], nuevo=anterior is None and ref_tipo != "mercado"):
+            avisados += 1
+            otras_txt = "\n".join(f"   · {esc(a['tienda'])} {clp(a['precio'])}" for a in s["avisos"][1:3])
+            agregar_alerta(alertas, "consola", "🎧 Audífonos", (
+                f"🎧 <b>AUDÍFONOS GAMER</b>\n<a href=\"{esc_attr(s['url'])}\">{esc(s['nombre'])}</a>\n"
+                f"💰 <b>{clp(precio)}</b> en {esc(s['tienda'])} · −{round(pct)}% frente a "
+                f"{'su precio típico' if ref_tipo == 'tipico' else 'las otras tiendas'} ({clp(ref)})"
+                + (f"\n{otras_txt}" if otras_txt else "")), puntaje(pct, ["descuento"]), extra="compra")
+    corte = _sumar_dias(hoy, -21)
+    for k in [k for k, s in items.items() if (s.get("visto") or "")[:10] < corte]:
+        del items[k]
+    log(f"  audífonos: {len(AUDIFONOS_LISTADOS)} avisos, {len(grupos)} modelos, {avisados} alertas")
+
+
+def lineas_audifonos_informe(state):
+    aud = [a for a in (state.get("audifonos") or {}).values()
+           if (a.get("visto") or "")[:10] >= _sumar_dias(hoy_chile(), -2)]
+    if not aud:
+        return []
+    l = ["", f"🎧 <b>AUDÍFONOS GAMER</b> ({len(aud)} modelos de marca)"]
+    rebajas = sorted((a for a in aud if a.get("ref") and a.get("pct", 0) >= 15), key=lambda a: -a["pct"])[:5]
+    for a in rebajas:
+        l.append(f"• <a href=\"{esc_attr(a['url'])}\">{esc(corto_txt(a['nombre'], 42))}</a> — "
+                 f"{clp(a['precio'])} en {esc(a['tienda'])} · −{round(a['pct'])}%")
+    if not rebajas:
+        l.append(f"Sin rebajas confirmadas todavía · historial de {max((a.get('dias') or 0) for a in aud)} día(s)")
+    return l
+
+
+def revisar_seguimientos(cfg, state, hist, alertas):
+    if not SEGUIMIENTOS_CFG:
+        return
+    consultas = [t for x in SEGUIMIENTOS_CFG if x.get("mercadolibre", True) is not False for t in terminos(x)]
+    leer_ml_extra(state, "seguimientos", consultas, SEGUIMIENTOS_LISTADOS, clasificar_seguimiento)
+    def clave(p):
+        x = item_seguimiento(p["titulo"])
+        if not x or not clasificar_seguimiento(p["titulo"], p["precio"]):
+            return None
+        return f"{x['nombre']}|{variante_seguimiento(p['titulo'], x)}", re.sub(r"\s+", " ", p["titulo"]).strip()[:70]
+    grupos = _agrupar_simple(SEGUIMIENTOS_LISTADOS, clave)
+    items = state.setdefault("seguimientos", {})
+    hist_s = hist.setdefault("seguimientos", {})
+    hoy = hoy_chile()
+    objetivos = {x["nombre"]: x.get("objetivo_clp") for x in SEGUIMIENTOS_CFG}
+    for k, g in grupos.items():
+        avisos = sorted(g["por_tienda"].values(), key=lambda a: a["precio"])
+        precio, mejor = avisos[0]["precio"], avisos[0]
+        serie = hist_s.setdefault(k, {})
+        est = estadisticas(serie, hoy)
+        registrar(serie, hoy, precio, mejor["tienda"])
+        s = items.setdefault(k, {})
+        anterior = s.get("ultimo")
+        item, variante = k.split("|", 1)
+        s.update({"item": item, "variante": variante, "nombre": g["nombre"], "precio": precio,
+                  "tienda": mejor["tienda"], "url": mejor["url"], "min_hist": est.get("min"),
+                  "min_fecha": est.get("min_fecha"), "dias": est["dias"], "ultimo": precio, "visto": ahora_iso(),
+                  "avisos": [{x: a[x] for x in ("tienda", "precio", "url")} for a in avisos[:4]]})
+        motivos = []
+        obj = objetivos.get(item)
+        if obj and precio <= obj:
+            motivos.append("objetivo")
+        if anterior and precio < anterior * 0.97:
+            motivos.append("baja")
+        if est.get("min") and est["dias"] >= 2 and precio < est["min"] * 0.99:
+            motivos.append("minimo")
+        if motivos and decidir(s, precio, motivos, nuevo=False):
+            l = [f"👀 <b>TU SEGUIMIENTO · {esc(item)}</b>" + (f" · {esc(nombre_variante(variante))}" if variante != "base" else ""),
+                 f"<a href=\"{esc_attr(s['url'])}\">{esc(s['nombre'])}</a>",
+                 f"💰 <b>{clp(precio)}</b> en {esc(s['tienda'])}"]
+            if "objetivo" in motivos:
+                l.append(f"🎯 Llegó a tu objetivo ({clp(obj)})")
+            if "minimo" in motivos:
+                l.append("🏆 El precio más bajo que he visto")
+            elif "baja" in motivos and anterior:
+                l.append(f"📉 Bajó desde {clp(anterior)}")
+            for a in s["avisos"][1:3]:
+                l.append(f"   · {esc(a['tienda'])} {clp(a['precio'])}")
+            agregar_alerta(alertas, "consola", "👀 Seguimientos", "\n".join(l), 90, extra="compra")
+    log(f"  seguimientos: {len(SEGUIMIENTOS_LISTADOS)} avisos, {len(grupos)} versiones")
+
+
+def nombre_variante(v):
+    if v == "base":
+        return "modelo base"
+    return " ".join(w.upper() if len(w) == 1 else ("inalámbrico" if w == "wireless" else w.capitalize())
+                    for w in v.split())
+
+
+def lineas_seguimientos_informe(state):
+    segs = [s for s in (state.get("seguimientos") or {}).values()
+            if (s.get("visto") or "")[:10] >= _sumar_dias(hoy_chile(), -2)]
+    if not segs:
+        return []
+    l = ["", "👀 <b>TUS SEGUIMIENTOS</b>"]
+    for item in sorted({s["item"] for s in segs}):
+        l.append(f"<b>{esc(item)}</b>")
+        for s in sorted((x for x in segs if x["item"] == item), key=lambda x: x["precio"])[:5]:
+            otra = s["avisos"][1] if len(s["avisos"]) > 1 else None
+            l.append(f"• {esc(nombre_variante(s['variante']))}: "
+                     f"<a href=\"{esc_attr(s['url'])}\">{clp(s['precio'])}</a> en {esc(s['tienda'])}"
+                     + (f" (sigue {esc(otra['tienda'])} {clp(otra['precio'])})" if otra else "")
+                     + (f" · mín {clp(s['min_hist'])}" if s.get("min_hist") and s["min_hist"] < s["precio"] else ""))
+    return l
+
+
 # categorias extra que se buscan una vez al dia en todas las tiendas
 EXTRAS = {"accesorios": (ACCESORIOS_LISTADOS, ACCESORIOS_BUSCAR),
-          "consolas": (CONSOLAS_LISTADOS, CONSOLAS_BUSCAR)}
-CLASIFICADORES = {"accesorios": clasificar_accesorio, "consolas": clasificar_consola}
+          "consolas": (CONSOLAS_LISTADOS, CONSOLAS_BUSCAR),
+          "audifonos": (AUDIFONOS_LISTADOS, AUDIFONOS_BUSCAR),
+          "seguimientos": (SEGUIMIENTOS_LISTADOS, [])}
+CLASIFICADORES = {"accesorios": clasificar_accesorio, "consolas": clasificar_consola,
+                  "audifonos": clasificar_audifono, "seguimientos": clasificar_seguimiento}
 
 
 # ----------------------------------------------------------- mercadolibre
@@ -3587,7 +3880,9 @@ def armar_resumen(state, hist, cfg, revisiones_hoy):
                 l.append(f"• {nombre}: <a href=\"{esc_attr(m['url'])}\">{esc(m['nombre'])}</a> — "
                          f"{clp(m['precio'])} en {esc(m['tienda'])} ({clp(m['por_gb'])}/GB)")
 
+    l += lineas_seguimientos_informe(state)
     l += lineas_consolas_informe(state)
+    l += lineas_audifonos_informe(state)
     l += lineas_accesorios_informe(state)
 
     # objetivos
@@ -3680,6 +3975,11 @@ def ciclo(cfg, state, hist, forzar=False, solo_resumen=False):
             revisar_memorias(cfg, state, hist, alertas)
         except Exception as e:  # noqa: BLE001 - las memorias nunca deben botar la revision
             log(f"  memorias: error {type(e).__name__}: {e}")
+        for nombre_f, fn in (("seguimientos", revisar_seguimientos), ("audífonos", revisar_audifonos)):
+            try:
+                fn(cfg, state, hist, alertas)
+            except Exception as e:  # noqa: BLE001
+                log(f"  {nombre_f}: error {type(e).__name__}: {e}")
         try:
             revisar_consolas(cfg, state, hist, alertas)
         except Exception as e:  # noqa: BLE001

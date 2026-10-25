@@ -625,5 +625,30 @@
     "activa": true,
     "baja_pct": 8,
     "_ayuda": "Seguimiento de consolas Nintendo (Switch 2, OLED, Switch, Lite; solas o con juego), una vez al dia. Te avisa al momento si una baja baja_pct % o mas (frente a su precio tipico, a las otras tiendas o a la revision anterior). Todavia no se publica en el canal."
-  }
+  },
+  "audifonos": {
+    "activa": true,
+    "baja_pct": 25,
+    "_ayuda": "Audífonos gamer de marcas conocidas (HyperX, Logitech G, Razer, SteelSeries, Corsair, Turtle Beach, Redragon...). Una vez al día en tiendas y MercadoLibre (vendedores seguros). Solo a tu chat."
+  },
+  "seguimientos": [
+    {
+      "nombre": "Redragon Zeus",
+      "buscar": [
+        "redragon zeus",
+        "zeus h510",
+        "zeus x"
+      ],
+      "excluir": [
+        "almohadillas",
+        "almohadilla",
+        "repuesto",
+        "cable",
+        "funda",
+        "usado"
+      ],
+      "objetivo_clp": null,
+      "_ayuda": "Tu seguimiento personal: se busca en cada revisión. Pon objetivo_clp (ej. 30000) para que te avise al llegar a ese precio."
+    }
+  ]
 }
