@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-25T19:17:38Z",
+  "revision": "2026-10-25T19:54:27Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -788,7 +788,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $39.990 · 🎮 177 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $49.990 · 🎮 177 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "ace angler fishing spirits",
         "ace attorney anthology",
@@ -1062,7 +1062,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $39.900 · 🎮 5 desde US$6.25\n   🟢 Resident Evil Revelations −60%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $39.900 · 🎮 5 desde US$6.25\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 2 deluxe edition",
@@ -1284,7 +1284,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 17 desde $29.990\n   🟢 Nintendo Switch Sports Resort −6%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 18 desde $29.990\n   🟢 Nintendo Switch Sports Resort −6%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1301,6 +1301,7 @@
         "nintendo switch sports",
         "nintendo switch sports resort",
         "sports camp a 35 game adventure",
+        "sports motion controls",
         "sports party"
       ],
       "orden": 1,
@@ -1308,7 +1309,7 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 7 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
+      "linea": "🟢 <b>Tales of</b> — 📦 8 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
       "nombres": [
         "iam8bit tales of the shire",
         "tales of arise beyond the dawn edition",
@@ -1318,6 +1319,7 @@
         "tales of symphonia remastered",
         "tales of the shire a the lord of the rings game",
         "tales of the shire a the lord of the rings game nintendo switch 2 edition",
+        "tales of vesperia definitive edition",
         "tales of xillia remastered",
         "the adventures of elliot the millennium tales"
       ],
@@ -1427,9 +1429,10 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −22%",
+      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −22%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
+        "oled zelda tears of the kingdom japan specs",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
@@ -1440,5 +1443,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 704
+  "total": 705
 }

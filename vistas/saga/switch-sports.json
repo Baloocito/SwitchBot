@@ -158,6 +158,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:ef54734aa8",
+        "text": "⚙️ Sports Motion Controls · $75.990"
+      },
+      "id": "ef54734aa8",
+      "nivel": "normal",
+      "nombre": "Sports Motion Controls",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Sports Motion Controls</b>\n🕹️ Switch 1 · 📦 Físico · Switch Sports\n💰 <b>$75.990</b> en Lider 🏪 <i>vende VYSE GLOBAL</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $102.990» (−26%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $73.990 (23 oct, Lider) · típico $75.990 · máximo $75.990\n   █████████▁▁█  últimos 12 días\n🔎 Confianza media: 1 tienda y 12 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/juego-nintendo-switch-sports-nintendo-switch-motion-controls/00290000054345\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:84c6cada45",
         "text": "⚙️ Instant Sports: de Invierno · $66.990"
       },
@@ -206,5 +218,5 @@
     }
   ],
   "juego": "Switch Sports",
-  "revision": "2026-10-25T19:17:38Z"
+  "revision": "2026-10-25T19:54:27Z"
 }
