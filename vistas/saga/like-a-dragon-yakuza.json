@@ -127,6 +127,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:569637fe61",
+        "text": "⚙️ Yakuza Kiwami S2 · $75.990"
+      },
+      "id": "569637fe61",
+      "nivel": "normal",
+      "nombre": "Yakuza Kiwami",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Yakuza Kiwami</b>\n🕹️ Switch 2 · 📦 Físico · Like a Dragon / Yakuza\n💰 <b>$75.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $75.990 (25 oct, Lider) · máximo $75.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$13.20 ≈ $12.998 en 🇨🇱 Chile (−50%)\n   ➜ El digital es $62.992 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-sega-yakuza-kiwami-para-nintendo-switch-2/00001008677044\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:f724bee8f9",
         "text": "⚙️ Yakuza Kiwami · $103.990"
       },
@@ -139,5 +151,5 @@
     }
   ],
   "juego": "Like a Dragon / Yakuza",
-  "revision": "2026-10-25T03:18:36Z"
+  "revision": "2026-10-25T06:30:30Z"
 }

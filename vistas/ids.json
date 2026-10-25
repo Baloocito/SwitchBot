@@ -1748,7 +1748,7 @@
     "moneda": "CLP",
     "nombre": "UGREEN KVM DisplayPort 8K@60Hz para 2 monitores y 4 USB 3.0",
     "plataforma": "Switch",
-    "precio": 141990.0,
+    "precio": 149990.0,
     "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -1906,9 +1906,9 @@
     "plataforma": "Switch",
     "precio": 69990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/145291436/Lost-Ruins-Nintendo-Switch-SniperCL"
+    "url": "https://sniper.cl/products/lost-ruins-nintendo-switch-snipercl"
   },
   "07be73e2d4": {
     "clave": "terra trilogy|Switch",
@@ -5570,7 +5570,7 @@
     "moneda": "CLP",
     "nombre": "Trilogía GTA Definitiva",
     "plataforma": "Switch",
-    "precio": 67990.0,
+    "precio": 69990.0,
     "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -7282,7 +7282,7 @@
   "1adb1837a2": {
     "clave": "base afmvv 4k 120hz hdmi usb ventilador refrigeracion|Switch 2",
     "juego": "🔍 Otros juegos",
-    "min": 43990.0,
+    "min": 42990.0,
     "moneda": "CLP",
     "nombre": "Base AFMVV 4K@120Hz HDMI USB con Ventilador de Refrigeración",
     "plataforma": "Switch 2",
@@ -10497,7 +10497,7 @@
     "moneda": "CLP",
     "nombre": "Xenoblade Chronicles 2",
     "plataforma": "Switch",
-    "precio": 118990.0,
+    "precio": 123990.0,
     "saga": "xenoblade",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -12577,7 +12577,7 @@
     "moneda": "CLP",
     "nombre": "EA SPORTS FC 25",
     "plataforma": "Switch",
-    "precio": 62990.0,
+    "precio": 68990.0,
     "saga": "ea-sports-fc",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -16230,7 +16230,7 @@
     "moneda": "CLP",
     "nombre": "KVM UGREEN para 3 monitores y 2 PCs, 8K@60Hz, USB 3.0",
     "plataforma": "Switch",
-    "precio": 177990.0,
+    "precio": 196990.0,
     "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -16776,7 +16776,7 @@
     "moneda": "CLP",
     "nombre": "Edición Premium Wunderling DX",
     "plataforma": "Switch",
-    "precio": 95990.0,
+    "precio": 98990.0,
     "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -16984,7 +16984,7 @@
     "moneda": "CLP",
     "nombre": "Controlador de Turtle Beach RGB",
     "plataforma": "Switch 2",
-    "precio": 62990.0,
+    "precio": 64990.0,
     "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -17502,7 +17502,7 @@
     "juego": "🔍 Otros juegos",
     "min": 44990.0,
     "moneda": "CLP",
-    "nombre": "MICROÏDS Garfield Fiesta de Lasaña",
+    "nombre": "Microïds Garfield Fiesta de Lasaña",
     "plataforma": "Switch",
     "precio": 46990.0,
     "saga": "otros-juegos",
@@ -18754,9 +18754,9 @@
     "plataforma": "Switch",
     "precio": 69990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/turok-trilogy-bundle-eu-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/149687520/Turok-Trilogy-Bundle-EU-Nintendo-Switch"
   },
   "43e86c20cd": {
     "clave": "70010000054022",
@@ -21176,6 +21176,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/lost-lands-ice-spell-switch/"
   },
+  "4de70bb63e": {
+    "clave": "jitsu squad|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": 59990.0,
+    "moneda": "CLP",
+    "nombre": "Jitsu Squad",
+    "plataforma": "Switch",
+    "precio": 61990.0,
+    "saga": "otros-juegos",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-jitsu-squad-inin/00085001075865"
+  },
   "4df27d2a6d": {
     "clave": "70010000054521",
     "juego": "🔍 Otros juegos",
@@ -21963,7 +21976,7 @@
     "moneda": "CLP",
     "nombre": "Halloween & Ash vs Evil Dead",
     "plataforma": "Switch",
-    "precio": 43990.0,
+    "precio": 44990.0,
     "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -23489,6 +23502,19 @@
     "tienda": "eShop BR",
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/gonner-switch/"
+  },
+  "569637fe61": {
+    "clave": "yakuza kiwami|Switch 2",
+    "juego": "Like a Dragon / Yakuza",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "Yakuza Kiwami",
+    "plataforma": "Switch 2",
+    "precio": 75990.0,
+    "saga": "like-a-dragon-yakuza",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/videojuego-sega-yakuza-kiwami-para-nintendo-switch-2/00001008677044"
   },
   "569b2838f5": {
     "clave": "pokemon shield|Switch|usado",
@@ -25068,7 +25094,7 @@
     "juego": "🔍 Otros juegos",
     "min": 44990.0,
     "moneda": "CLP",
-    "nombre": "Disney Tsum Tsum Festival",
+    "nombre": "Disney TSUM TSUM FESTIVAL",
     "plataforma": "Switch",
     "precio": 44990.0,
     "saga": "otros-juegos",
@@ -25252,7 +25278,7 @@
     "moneda": "CLP",
     "nombre": "Camara",
     "plataforma": "Switch 2",
-    "precio": 62990.0,
+    "precio": 47990.0,
     "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -27406,7 +27432,7 @@
   "6484a2542f": {
     "clave": "bandai namco tale berseria remasterizado|Switch",
     "juego": "Tales of",
-    "min": null,
+    "min": 57990.0,
     "moneda": "CLP",
     "nombre": "Bandai Namco Tales of Berseria Remasterizado",
     "plataforma": "Switch",
@@ -29349,9 +29375,9 @@
     "plataforma": "Switch",
     "precio": 54990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/arc-of-alchemist-switch-sniper"
+    "url": "https://www.falabella.com/falabella-cl/product/110683568/Arc-Of-Alchemist-Switch-Sniper"
   },
   "6bcabb6c90": {
     "clave": "hollow knight|Switch",
@@ -30584,9 +30610,9 @@
     "plataforma": "Switch",
     "precio": 89990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/demon-slayer-the-hinokami-chronicles-2-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/146690865/demon-slayer-the-hinokami-chronicles-2-nintendo-switch"
   },
   "7091df976c": {
     "clave": "70010000027523",
@@ -31288,7 +31314,7 @@
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/148486192/Override-2-Nintendo-Switch-Sniper"
+    "url": "https://www.falabella.com/falabella-cl/product/112748689/Override-2-Switch-Fisico-Sniper"
   },
   "7345675d11": {
     "clave": "70010000027080",
@@ -31345,7 +31371,7 @@
   "73953a64c9": {
     "clave": "bubsy 4d|Switch",
     "juego": "🔍 Otros juegos",
-    "min": 74990.0,
+    "min": 61990.0,
     "moneda": "CLP",
     "nombre": "Bubsy 4D",
     "plataforma": "Switch",
@@ -37591,9 +37617,9 @@
     "plataforma": "Switch",
     "precio": 59990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/ninja-gaiden-ragebound-switch-snipercl-1"
+    "url": "https://www.falabella.com/falabella-cl/product/147945273/Ninja-Gaiden:-Ragebound-Switch-SniperCL"
   },
   "8ac33fdb83": {
     "clave": "70010000064672",
@@ -41933,9 +41959,9 @@
     "plataforma": "Switch",
     "precio": 69990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/150698613/mandragora-whispers-of-the-witch-tree-nintendo-switch"
+    "url": "https://sniper.cl/products/mandragora-whispers-of-the-witch-tree-nintendo-switch"
   },
   "9b1856af92": {
     "clave": "70010000115567",
@@ -43723,13 +43749,13 @@
     "juego": "🔍 Otros juegos",
     "min": 39720.0,
     "moneda": "CLP",
-    "nombre": "Aeterno Blade II",
+    "nombre": "Aeterno Blade Ii - Sniper",
     "plataforma": "Switch",
     "precio": 39720.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/150637677/aeterno-blade-ii-switch-fisico"
+    "url": "https://sniper.cl/products/aeterno-blade-ii-switch-fisico-sniper"
   },
   "a27a1425e4": {
     "clave": "usb 3 0 2x4 selector entre 2 pc negro us216|Switch",
@@ -46143,11 +46169,11 @@
     "moneda": "CLP",
     "nombre": "Ubisoft Just Dance 2020",
     "plataforma": "Switch",
-    "precio": 60990.0,
+    "precio": 57990.0,
     "saga": "just-dance",
     "tienda": "Lider",
     "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2020-nintendo-switch/00330721612554"
+    "url": "https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2020-nintendo-switch/00330721612555"
   },
   "ad583511cf": {
     "clave": "castlevania dominus collection|Switch|import",
@@ -49931,6 +49957,19 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/omochapon-switch/"
+  },
+  "ba4ff259f5": {
+    "clave": "ghost song|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": 49990.0,
+    "moneda": "CLP",
+    "nombre": "Ghost Song - Sniper",
+    "plataforma": "Switch",
+    "precio": 49990.0,
+    "saga": "otros-juegos",
+    "tienda": "Falabella",
+    "tipo": "fisico",
+    "url": "https://www.falabella.com/falabella-cl/product/124239426/Ghost-Song-Switch-Fisico-Sniper"
   },
   "ba519d8564": {
     "clave": "70010000081356",
@@ -54149,7 +54188,7 @@
     "juego": "🔍 Otros juegos",
     "min": 29900.0,
     "moneda": "CLP",
-    "nombre": "STAR WARS JEDI KNIGHT COLLECTION",
+    "nombre": "Star Wars Jedi Knight Collection",
     "plataforma": "Switch",
     "precio": 29900.0,
     "saga": "otros-juegos",
@@ -55730,6 +55769,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/castlevania-belmonts-curse-switch/"
   },
+  "d0677d5ecf": {
+    "clave": "transformer battleground|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": 45000.0,
+    "moneda": "CLP",
+    "nombre": "Transformers: Battlegrounds",
+    "plataforma": "Switch",
+    "precio": 45000.0,
+    "saga": "otros-juegos",
+    "tienda": "Falabella",
+    "tipo": "fisico",
+    "url": "https://www.falabella.com/falabella-cl/product/158895116/transformers-battlegrounds-nintendo-switch"
+  },
   "d07678d909": {
     "clave": "born bread|Switch",
     "juego": "🔍 Otros juegos",
@@ -57286,9 +57338,9 @@
     "plataforma": "Switch",
     "precio": 49990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/148479125/Turnip-Boy-Robs-a-Bank-Switch"
+    "url": "https://sniper.cl/products/turnip-boy-robs-a-bank-switch"
   },
   "d610270588": {
     "clave": "70010000020339",
@@ -57752,7 +57804,7 @@
     "moneda": "CLP",
     "nombre": "Monster Crown Soedesco",
     "plataforma": "Switch",
-    "precio": 49990.0,
+    "precio": 48990.0,
     "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -58545,11 +58597,11 @@
     "moneda": "CLP",
     "nombre": "Sniper Elite V2 Remastered",
     "plataforma": "Switch",
-    "precio": 44990.0,
+    "precio": 40000.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/sniper-elite-v2-remastered-switch-fisico-sniper"
+    "url": "https://www.falabella.com/falabella-cl/product/158668507/sniper-elite-v2-remastered-nintendo-switch"
   },
   "dab49e2523": {
     "clave": "taiko no tatsujin drum controller n|Switch",
@@ -59414,7 +59466,7 @@
     "juego": "🔍 Otros juegos",
     "min": 19990.0,
     "moneda": "CLP",
-    "nombre": "Fae Farm - Sniper",
+    "nombre": "Fae Farm",
     "plataforma": "Switch",
     "precio": 19990.0,
     "saga": "otros-juegos",
@@ -60599,7 +60651,7 @@
     "moneda": "CLP",
     "nombre": "Ethernet UGREEN de 10 Puertos PoE+ 60W con 2 Puertos Gigabit Uplink",
     "plataforma": "Switch",
-    "precio": 78990.0,
+    "precio": 80990.0,
     "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -64135,11 +64187,11 @@
     "moneda": "CLP",
     "nombre": "Ubisoft Just Dance 2021",
     "plataforma": "Switch",
-    "precio": 54990.0,
+    "precio": 58990.0,
     "saga": "just-dance",
     "tienda": "Lider",
     "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2021-para-nintendo-switch/00330721616410"
+    "url": "https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2021-para-nintendo-switch/00330721616405"
   },
   "eeead4e8d9": {
     "clave": "resident evil 7 biohazard gold edition|Switch 2",
@@ -66176,11 +66228,11 @@
     "moneda": "CLP",
     "nombre": "Tomb Raider IV-VI Remastered",
     "plataforma": "Switch",
-    "precio": 54990.0,
+    "precio": 50000.0,
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/155640957/tomb-raider-iv-v-vi-remastered-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/158895035/tomb-raider-iv-vi-remastered-nintendo-switch"
   },
   "f8aafb8b95": {
     "clave": "70010000053641",
