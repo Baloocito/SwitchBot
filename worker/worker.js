@@ -15,7 +15,7 @@
 
 const GH = "https://api.github.com";
 const WORKFLOW = "alertas.yml";
-const VERSION = "2026-10-20 metricas";
+const VERSION = "2026-10-25 memoria-audio";
 const TG_MAX = 3900;
 
 const SEP = "━━━━━━━━━━━━━━";
@@ -43,6 +43,12 @@ ${"━━━━━━━━━━━━━━"}
 <b>Panel</b>
 /estado — cómo están el bot, las tiendas y el canal
 /metricas — suscriptores, clics por juego/tienda/post y comisiones
+
+<b>Otros productos</b>
+/memoria — microSD más baratas (/memoria express · /memoria 256)
+/audio — audífonos gamer (/audio hyperx · /audio zeus)
+/consolas — Switch 2, OLED, Lite y packs
+/seguimiento — tus seguimientos personales
 /comision 5000 mercadolibre — anotar una comisión (sin número: ver el mes)
 /canal — estado del canal y controles (pausa, seguir, revisión on/off)
 /resumen — informe diario de negocio (hora, ahora, off)
@@ -86,6 +92,10 @@ ${"━━━━━━━━━━━━━━"}
 const COMANDOS_MENU = [
   ["estado", "Estado del bot, tiendas y canal"],
   ["metricas", "Suscriptores, clics y comisiones"],
+  ["memoria", "Precios de microSD (Switch 1 y 2)"],
+  ["audio", "Precios de audífonos gamer"],
+  ["consolas", "Precios de consolas Nintendo"],
+  ["seguimiento", "Tus seguimientos (ej. Redragon Zeus)"],
   ["comision", "Anotar una comisión de afiliado"],
   ["canal", "Canal: estado, pausa, revisión"],
   ["precios", "Precios actuales (opcional: juego)"],
@@ -455,6 +465,19 @@ async function manejar(env, chatId, texto) {
       return send(env, chatId, await cmdConfig(env));
     case "estado":
       return send(env, chatId, await cmdEstado(env));
+    case "memoria":
+    case "memorias":
+    case "microsd":
+      return send(env, chatId, await cmdMemoria(env, args));
+    case "audio":
+    case "audifonos":
+      return send(env, chatId, await cmdAudio(env, args));
+    case "consolas":
+    case "consola":
+      return send(env, chatId, await cmdConsolas(env, args));
+    case "seguimiento":
+    case "seguimientos":
+      return send(env, chatId, await cmdSeguimiento(env));
     case "metricas":
     case "métricas":
       return send(env, chatId, await cmdMetricas(env, args));
@@ -507,6 +530,108 @@ async function manejar(env, chatId, texto) {
     default:
       return send(env, chatId, marco("❓ <b>COMANDO DESCONOCIDO</b>", null, [`No conozco /${esc(cmd)}.`, "Todos los comandos: /ayuda"]));
   }
+}
+
+// ------------------------------------------------------------- otros productos
+// Lee vistas/extras.json (lo escribe el bot en cada revision).
+
+async function extras(env) {
+  const { data } = await leer(env, "vistas/extras.json");
+  return data;
+}
+const linkP = (x, txt) => `<a href="${escAttr(x.url || "")}">${txt}</a>`;
+const sigue = (x) => (x.avisos && x.avisos[1]) ? ` · sigue ${esc(x.avisos[1].tienda)} ${clp(x.avisos[1].precio)}` : "";
+const rebaja = (x) => (x.pct && x.pct >= 5 && x.ref_tipo) ? ` · −${Math.round(x.pct)}%` : "";
+const sinExtras = (t) => marco(t, null, ["Todavía no hay datos: aparecen después de la próxima revisión."]);
+
+async function cmdMemoria(env, args) {
+  const titulo = "💾 <b>MEMORIAS microSD</b>";
+  const d = await extras(env);
+  if (!d || !(d.memorias || []).length) return sinExtras(titulo);
+  const a = norm(args);
+  let mem = d.memorias;
+  if (a.includes("express") || a.includes("switch 2") || a === "2") mem = mem.filter((m) => m.tipo === "express");
+  else if (a.includes("normal") || a.includes("switch 1") || a === "1") mem = mem.filter((m) => m.tipo === "normal");
+  const gb = parseInt(a, 10);
+  if (gb >= 32) mem = mem.filter((m) => m.gb === gb);
+  const l = [];
+  for (const [tipo, nombre] of [["express", "🎮 <b>SWITCH 2 · Express</b> (para juegos de Switch 2)"], ["normal", "🕹️ <b>SWITCH 1 · normal</b>"]]) {
+    const xs = mem.filter((m) => m.tipo === tipo);
+    if (!xs.length) continue;
+    l.push("", nombre);
+    const porGb = {};
+    for (const m of xs) if (!porGb[m.gb] || m.precio < porGb[m.gb].precio) porGb[m.gb] = m;
+    for (const m of Object.values(porGb).sort((x, y) => x.gb - y.gb)) {
+      l.push(`• ${m.gb >= 1024 ? m.gb / 1024 + " TB" : m.gb + " GB"} ${esc(m.marca)}: ${linkP(m, "<b>" + clp(m.precio) + "</b>")} en ${esc(m.tienda)}`
+        + ` (${clp(m.por_gb)}/GB)${rebaja(m)}${sigue(m)}`);
+    }
+  }
+  if (!l.length) return marco(titulo, null, ["No encontré memorias con ese filtro."], ["/memoria — todas", "/memoria express · /memoria 256"]);
+  return marco(titulo, "La más barata de cada tamaño", l.slice(1), ["/memoria express · /memoria normal · /memoria 256"]);
+}
+
+async function cmdAudio(env, args) {
+  const titulo = "🎧 <b>AUDÍFONOS GAMER</b>";
+  const d = await extras(env);
+  if (!d || !(d.audifonos || []).length) return sinExtras(titulo);
+  const a = norm(args);
+  let xs = d.audifonos;
+  if (a) xs = xs.filter((x) => norm(`${x.marca} ${x.nombre}`).includes(a));
+  if (!xs.length) return marco(titulo, null, [`No encontré audífonos con "${esc(args)}".`], ["/audio — todos", "/audio hyperx · /audio zeus"]);
+  const l = [];
+  const rebajas = xs.filter((x) => x.pct >= 15 && x.ref_tipo).sort((x, y) => y.pct - x.pct).slice(0, 5);
+  if (rebajas.length && !a) {
+    l.push("🔥 <b>REBAJAS</b>");
+    rebajas.forEach((x) => l.push(`• ${linkP(x, esc(x.nombre.slice(0, 45)))} — <b>${clp(x.precio)}</b> en ${esc(x.tienda)}${rebaja(x)}`));
+    l.push("");
+  }
+  if (a) {
+    l.push(...xs.slice(0, 12).map((x) => `• ${linkP(x, esc(x.nombre.slice(0, 45)))} — <b>${clp(x.precio)}</b> en ${esc(x.tienda)}${rebaja(x)}${sigue(x)}`));
+  } else {
+    l.push("💰 <b>EL MÁS BARATO DE CADA MARCA</b>");
+    const porMarca = {};
+    for (const x of xs) if (!porMarca[x.marca] || x.precio < porMarca[x.marca].precio) porMarca[x.marca] = x;
+    Object.values(porMarca).sort((x, y) => x.precio - y.precio)
+      .forEach((x) => l.push(`• ${esc(x.marca)}: ${linkP(x, esc(x.nombre.slice(0, 38)))} — <b>${clp(x.precio)}</b> en ${esc(x.tienda)}`));
+  }
+  return marco(titulo, `${xs.length} modelos de marca`, l, ["/audio hyperx · /audio logitech · /audio zeus"]);
+}
+
+async function cmdConsolas(env, args) {
+  const titulo = "🕹️ <b>CONSOLAS NINTENDO</b>";
+  const d = await extras(env);
+  if (!d || !(d.consolas || []).length) return sinExtras(titulo);
+  const l = [];
+  for (const modelo of ["Switch 2", "Switch OLED", "Switch", "Switch Lite"]) {
+    for (const bundle of [false, true]) {
+      const xs = d.consolas.filter((c) => c.modelo === modelo && !!c.bundle === bundle);
+      if (!xs.length) continue;
+      const c = xs[0];
+      l.push(`• <b>${modelo}${bundle ? " con juego" : ""}</b>: ${linkP(c, "<b>" + clp(c.precio) + "</b>")} en ${esc(c.tienda)}${rebaja(c)}${sigue(c)}`);
+    }
+  }
+  return marco(titulo, "La más barata de cada versión", l);
+}
+
+async function cmdSeguimiento(env) {
+  const titulo = "👀 <b>TUS SEGUIMIENTOS</b>";
+  const d = await extras(env);
+  if (!d || !(d.seguimientos || []).length) {
+    return marco(titulo, null, ["Todavía no hay datos.", "Se configuran en juegos.json → seguimientos (ahora: Redragon Zeus)."]);
+  }
+  const l = [];
+  const items = [...new Set(d.seguimientos.map((s) => s.item))];
+  for (const it of items) {
+    l.push(`<b>${esc(it)}</b>`);
+    for (const s of d.seguimientos.filter((x) => x.item === it)) {
+      const v = s.variante === "base" ? "modelo base" : s.variante.split(" ").map((w) => w.length === 1 ? w.toUpperCase()
+        : w === "wireless" ? "inalámbrico" : w[0].toUpperCase() + w.slice(1)).join(" ");
+      l.push(`• ${esc(v)}: ${linkP(s, "<b>" + clp(s.precio) + "</b>")} en ${esc(s.tienda)}${sigue(s)}`
+        + (s.min_hist && s.min_hist < s.precio ? ` · mín ${clp(s.min_hist)}` : ""));
+    }
+    l.push("");
+  }
+  return marco(titulo, "Se revisan en cada revisión de precios", l);
 }
 
 // ------------------------------------------------------------- metricas

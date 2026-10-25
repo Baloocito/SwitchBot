@@ -2374,8 +2374,9 @@ def clasificar_audifono(titulo, precio=None, url=None):
     """'Audifonos Gamer HyperX Cloud II 7.1' -> {'marca': 'HyperX', 'inalambrico': False}."""
     t = norm(titulo)
     w = set(t.split())
-    if not AUD_RE.search(t) or w & EXCLUIR_AUD or (precio is not None and precio < AUD_PRECIO_MIN):
-        return None
+    if not AUD_RE.search(t) or w & EXCLUIR_AUD or (precio is not None and precio < AUD_PRECIO_MIN) \
+            or USADO_RE.search(t):
+        return None                      # tambien "open box" y reacondicionados
     marca = next((m for m in MARCAS_AUD if contiene_palabras(t, m)), None)
     if not marca and url:
         u = norm(re.sub(r"[-_/.]+", " ", str(url)))
@@ -2523,7 +2524,8 @@ def revisar_audifonos(cfg, state, hist, alertas):
         pct = 100 * (1 - precio / ref) if ref else 0
         s = items.setdefault(k, {})
         anterior = s.get("ultimo")
-        s.update({"nombre": g["nombre"], "marca": k.split("|")[0], "precio": precio, "tienda": mejor["tienda"],
+        m_aud = clasificar_audifono(mejor["titulo"]) or {}
+        s.update({"nombre": g["nombre"], "marca": m_aud.get("marca") or k.split("|")[0], "precio": precio, "tienda": mejor["tienda"],
                   "url": mejor["url"], "ref": ref, "ref_tipo": ref_tipo, "pct": round(pct, 1),
                   "min_hist": est.get("min"), "dias": est["dias"], "ultimo": precio, "visto": ahora_iso(),
                   "avisos": [{x: a[x] for x in ("tienda", "precio", "url")} for a in avisos[:4]]})
@@ -3812,6 +3814,34 @@ def guardar_estado_vista(state, cfg):
         })
     except Exception as e:  # noqa: BLE001
         log(f"  estado: error {type(e).__name__}: {e}")
+    try:
+        guardar_vista_extras(state)
+    except Exception as e:  # noqa: BLE001
+        log(f"  vista extras: error {type(e).__name__}: {e}")
+
+
+def guardar_vista_extras(state):
+    """vistas/extras.json: memorias, audifonos, consolas y tus seguimientos para /memoria,
+    /audio, /consolas y /seguimiento (el Worker no lee state.json, que es muy grande)."""
+    corte = _sumar_dias(hoy_chile(), -3)
+    def vigentes(grupo):
+        return [x for x in (state.get(grupo) or {}).values() if (x.get("visto") or "")[:10] >= corte]
+    def corta(x, campos):
+        return {k: x.get(k) for k in campos} | {"avisos": (x.get("avisos") or [])[:3]}
+    mem = [corta(m, ("nombre", "tipo", "gb", "marca", "precio", "tienda", "url", "por_gb", "pct", "ref_tipo",
+                     "min_hist")) for m in vigentes("memorias") if m.get("marca")]
+    aud = [corta(a, ("nombre", "marca", "precio", "tienda", "url", "pct", "ref_tipo", "min_hist"))
+           for a in vigentes("audifonos")]
+    con = [corta(c, ("nombre", "modelo", "bundle", "precio", "tienda", "url", "pct", "min_hist"))
+           for c in vigentes("consolas")]
+    seg = [corta(s, ("item", "variante", "nombre", "precio", "tienda", "url", "min_hist"))
+           for s in vigentes("seguimientos")]
+    save_json(VISTAS_DIR / "extras.json", {
+        "revision": state.get("ultima_revision"),
+        "memorias": sorted(mem, key=lambda m: (m["tipo"], m["gb"] or 0, m["precio"])),
+        "audifonos": sorted(aud, key=lambda a: a["precio"])[:120],
+        "consolas": sorted(con, key=lambda c: (c["modelo"] or "", c["precio"])),
+        "seguimientos": sorted(seg, key=lambda s: (s["item"] or "", s["precio"]))})
 
 
 def armar_resumen(state, hist, cfg, revisiones_hoy):
