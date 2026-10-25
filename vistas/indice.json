@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 565,
+  "fisicos": 562,
   "pendientes": 1,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-25T13:18:09Z",
+  "revision": "2026-10-25T19:17:38Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -68,11 +68,10 @@
     },
     {
       "juego": "Atelier",
-      "linea": "🟢 <b>Atelier</b> — 📦 13 desde $39.990\n   🟢 Atelier Dusk Trilogy Deluxe Pack",
+      "linea": "🟢 <b>Atelier</b> — 📦 12 desde $39.990\n   🟢 Atelier Dusk Trilogy Deluxe Pack",
       "nombres": [
         "atelier dusk trilogy deluxe pack",
         "atelier lulua the scion of arland",
-        "atelier marie remake el alquimista de salburg",
         "atelier mysterious trilogy sniper",
         "atelier resleriana the red alchemist the white guardian",
         "atelier ryza 2 lost legends the secret fairy dx",
@@ -476,7 +475,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2026 Limited Edition −15%",
+      "linea": "🟢 <b>Just Dance</b> — 📦 15 desde $19.900\n   🟢 Just Dance 2026 Limited Edition −15%",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -486,7 +485,6 @@
         "just dance 2025",
         "just dance 2026 limited edition",
         "just dance decades of hits limited edition",
-        "pulseras para just dance y zumba",
         "ubisoft just dance 2019",
         "ubisoft just dance 2020",
         "ubisoft just dance 2021",
@@ -586,7 +584,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario Golf: Super Rush",
+      "linea": "🟢 <b>Mario</b> — 📦 20 desde $29.990\n   🟢 Mario Golf: Super Rush",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -602,7 +600,6 @@
         "mario vs donkey kong",
         "paper mario the origami king",
         "paper mario the thousand year door",
-        "paquete mario choose one de con",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv"
@@ -773,7 +770,7 @@
     },
     {
       "juego": "One Piece",
-      "linea": "🟢 <b>One Piece</b> — 📦 2 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
+      "linea": "🟢 <b>One Piece</b> — 📦 1 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
       "nombres": [
         "one piece odyssey deluxe edition"
       ],
@@ -791,7 +788,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $49.990 · 🎮 176 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $39.990 · 🎮 177 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "ace angler fishing spirits",
         "ace attorney anthology",
@@ -876,6 +873,7 @@
         "moonlighter",
         "mosaic",
         "moving out moving out 2 bundle",
+        "mutazione",
         "namco museum archives vol 2",
         "narita boy",
         "nba 2k27",
@@ -1064,7 +1062,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $39.900 · 🎮 5 desde US$6.25\n   🟢 Resident Evil Revelations −60%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $39.900 · 🎮 5 desde US$6.25\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 2 deluxe edition",
@@ -1231,11 +1229,11 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $34.900\n   🟢 Stardew Valley",
+      "linea": "⚪ <b>Stardew Valley</b> — 📦 1 desde $49.900",
       "nombres": [
         "stardew valley"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "stardew-valley"
     },
     {
@@ -1276,9 +1274,8 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
-        "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
       ],
@@ -1311,10 +1308,8 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 9 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
+      "linea": "🟢 <b>Tales of</b> — 📦 7 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
       "nombres": [
-        "bandai namco tales of berseria remasterizado",
-        "bandai namco tales of xillia",
         "iam8bit tales of the shire",
         "tales of arise beyond the dawn edition",
         "tales of autumn",
@@ -1432,10 +1427,9 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −22%",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −22%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
-        "oled zelda tears of the kingdom japan specs",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
@@ -1446,5 +1440,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 710
+  "total": 704
 }
