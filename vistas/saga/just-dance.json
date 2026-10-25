@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:07c367ab55",
+        "text": "⚙️ Just Dance 2026 Limited Editi… · $38.990"
+      },
+      "id": "07c367ab55",
+      "nivel": "compra",
+      "nombre": "Just Dance 2026 Limited Edition",
+      "pct": 15.2,
+      "texto": "🟢 <b>COMPRA YA</b> · −15%\n<b>Just Dance 2026 Limited Edition</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$38.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Es el precio más bajo que he visto\n   Ahorras $7.000 frente a su precio típico ($45.990)\n🏷️ La tienda marca «antes $41.344» (−6%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $38.990 (25 oct, Lider) · típico $45.990 · máximo $47.990\n   ▆▆▆▆▆▆▆▆▆▆█▁  últimos 12 días\n📉 Precio bajó 15% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 12 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/just-dance-2026-limited-edition-nintendo-switch/00088725611701\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:543eae92ad",
         "text": "⚙️ Just Dance 2017 · $29.990"
       },
@@ -39,25 +51,13 @@
     {
       "boton": {
         "callback_data": "a:ad46e39201",
-        "text": "⚙️ Ubisoft Just Dance 2020 · $57.990"
+        "text": "⚙️ Ubisoft Just Dance 2020 · $56.990"
       },
       "id": "ad46e39201",
       "nivel": "regular",
       "nombre": "Ubisoft Just Dance 2020",
-      "pct": 8.7,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>Ubisoft Just Dance 2020</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$57.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 9% bajo la referencia\n   Ahorras $5.505 frente al «antes» que marca la tienda ($63.495)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $55.990 (23 oct, Lider) · máximo $64.990\n   █▃▃▁▁▃  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2020-nintendo-switch/00330721612555\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:70e9feb42b",
-        "text": "⚙️ Ubisoft Just Dance 2022 · $61.990"
-      },
-      "id": "70e9feb42b",
-      "nivel": "regular",
-      "nombre": "Ubisoft Just Dance 2022",
-      "pct": 8.4,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Ubisoft Just Dance 2022</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$61.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $5.679 frente al «antes» que marca la tienda ($67.669)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $57.990 (19 oct, Lider) · típico $58.990 · máximo $61.990\n   ▁▁▁▃▃██  últimos 7 días\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2022-para-nintendo-switch/00055957112469\">Ir a comprar en Lider</a>",
+      "pct": 10.2,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −10%\n<b>Ubisoft Just Dance 2020</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$56.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 10% bajo la referencia\n   Ahorras $6.505 frente al «antes» que marca la tienda ($63.495)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $55.990 (23 oct, Lider) · máximo $64.990\n   █▃▃▁▁▂  últimos 6 días\n🔎 Confianza baja: una sola tienda y 6 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2020-nintendo-switch/00330721612555\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -122,14 +122,14 @@
     },
     {
       "boton": {
-        "callback_data": "a:894d0bf841",
-        "text": "⚙️ Just Dance 2018 · $154.990"
+        "callback_data": "a:70e9feb42b",
+        "text": "⚙️ Ubisoft Just Dance 2022 · $60.990"
       },
-      "id": "894d0bf841",
+      "id": "70e9feb42b",
       "nivel": "normal",
-      "nombre": "Just Dance 2018",
-      "pct": -1.3,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Just Dance 2018</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$154.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $168.598» (−8%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $149.990 (14 oct, Lider) · típico $152.990 · máximo $154.990\n   ▁▁▁▁▁▅▅▅▅███  últimos 12 días\n🔎 Confianza media: 1 tienda y 12 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/just-dance-2018-nintendo-switch-/00330721601819\">Ir a comprar en Lider</a>",
+      "nombre": "Ubisoft Just Dance 2022",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Ubisoft Just Dance 2022</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$60.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $57.990 (19 oct, Lider) · típico $58.990 · máximo $61.990\n   ▁▁▁▃▃█▆  últimos 7 días\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2022-para-nintendo-switch/00055957112469\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -146,18 +146,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:f2a202389c",
-        "text": "⚙️ Ubisoft Just Dance 2019 · $107.990"
-      },
-      "id": "f2a202389c",
-      "nivel": "normal",
-      "nombre": "Ubisoft Just Dance 2019",
-      "pct": -1.9,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Ubisoft Just Dance 2019</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$107.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $117.312» (−8%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $105.990 (14 oct, Lider) · típico $105.990 · máximo $107.990\n   ▁▁▁▁▁▁▁▁▁███  últimos 12 días\n🔎 Confianza media: 1 tienda y 12 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2019-para-nintendo-switch/00330721608123\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:030a648672",
         "text": "⚙️ Pulseras Para Just Dance Y Zu… · $29.990"
       },
@@ -170,29 +158,41 @@
     },
     {
       "boton": {
-        "callback_data": "a:07c367ab55",
-        "text": "⚙️ Just Dance 2026 Limited Editi… · $47.990"
-      },
-      "id": "07c367ab55",
-      "nivel": "normal",
-      "nombre": "Just Dance 2026 Limited Edition",
-      "pct": -4.3,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Just Dance 2026 Limited Edition</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$47.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $45.990 (14 oct, Lider) · típico $45.990 · máximo $47.990\n   ▁▁▁▁▁▁▁▁▁▁██  últimos 12 días\n🔎 Confianza media: 1 tienda y 12 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/just-dance-2026-limited-edition-nintendo-switch/00088725611701\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:eee5485a73",
-        "text": "⚙️ Ubisoft Just Dance 2021 · $58.990"
+        "text": "⚙️ Ubisoft Just Dance 2021 · $53.990"
       },
       "id": "eee5485a73",
       "nivel": "normal",
       "nombre": "Ubisoft Just Dance 2021",
-      "pct": -13.5,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Ubisoft Just Dance 2021</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$58.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $63.675» (−7%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $51.990 (14 oct, Lider) · típico $51.990 · máximo $55.990\n   ▁▁█▁▁▁▁▁▃▃▆▆  últimos 12 días\n📈 Precio subió 13% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 12 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2021-para-nintendo-switch/00330721616405\">Ir a comprar en Lider</a>",
+      "pct": -3.8,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Ubisoft Just Dance 2021</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$53.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $58.794» (−8%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $51.990 (14 oct, Lider) · típico $51.990 · máximo $55.990\n   ▁▁█▁▁▁▁▁▃▃▆▅  últimos 12 días\n🔎 Confianza media: 1 tienda y 12 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2021-para-nintendo-switch/00330721616410\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:f2a202389c",
+        "text": "⚙️ Ubisoft Just Dance 2019 · $111.990"
+      },
+      "id": "f2a202389c",
+      "nivel": "normal",
+      "nombre": "Ubisoft Just Dance 2019",
+      "pct": -5.7,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Ubisoft Just Dance 2019</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$111.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $120.417» (−7%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $105.990 (14 oct, Lider) · típico $105.990 · máximo $107.990\n   ▁▁▁▁▁▁▁▁▁███  últimos 12 días\n🔎 Confianza media: 1 tienda y 12 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-ubisoft-just-dance-2019-para-nintendo-switch/00330721608123\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:894d0bf841",
+        "text": "⚙️ Just Dance 2018 · $165.990"
+      },
+      "id": "894d0bf841",
+      "nivel": "normal",
+      "nombre": "Just Dance 2018",
+      "pct": -8.5,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Just Dance 2018</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$165.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $149.990 (14 oct, Lider) · típico $152.990 · máximo $154.990\n   ▁▁▁▁▁▅▅▅▅███  últimos 12 días\n📈 Precio subió 11% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 12 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/just-dance-2018-nintendo-switch-/00330721601819\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     }
   ],
   "juego": "Just Dance",
-  "revision": "2026-10-25T06:30:30Z"
+  "revision": "2026-10-25T13:18:09Z"
 }

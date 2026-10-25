@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 563,
-  "pendientes": 0,
+  "fisicos": 565,
+  "pendientes": 1,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-25T06:30:30Z",
+  "revision": "2026-10-25T13:18:09Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -140,7 +140,7 @@
     },
     {
       "juego": "Castlevania",
-      "linea": "🟢 <b>Castlevania</b> — 📦 7 desde $44.900\n   🟢 Colección Edición Limitada Castlevania Anniversary",
+      "linea": "🟢 <b>Castlevania</b> — 📦 7 desde $44.900\n   🟢 Castlevania Advance Collection",
       "nombres": [
         "castlevania advance collection",
         "castlevania belmonts curse",
@@ -174,7 +174,7 @@
     },
     {
       "juego": "Civilization",
-      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $57.990 · 🎮 3 desde US$4.24\n   🟢 Sid Meier’s Civilization VI −80%",
+      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $56.990 · 🎮 3 desde US$4.24\n   🟢 Sid Meier’s Civilization VI −80%",
       "nombres": [
         "civilization vii edicion",
         "sid meiers civilization vi",
@@ -187,11 +187,10 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720 · 🎮 2 desde US$5.68\n   🟢 Contra Anniversary Collection −60%",
+      "linea": "🟢 <b>Contra</b> — 🎮 2 desde US$5.68\n   🟢 Contra Anniversary Collection −60%",
       "nombres": [
         "contra anniversary collection",
-        "contra operation galuga",
-        "contra rogue corps"
+        "contra operation galuga"
       ],
       "orden": 1,
       "slug": "contra"
@@ -321,7 +320,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990\n   🟢 DRAGON QUEST VII Reimagined −5%",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990\n   🟢 Dragon Quest Builders",
       "nombres": [
         "dragon quest",
         "dragon quest builders",
@@ -477,7 +476,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2017",
+      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2026 Limited Edition −15%",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -499,8 +498,9 @@
     },
     {
       "juego": "Katamari",
-      "linea": "🟢 <b>Katamari</b> — 📦 2 desde $34.990\n   🟢 Once Upon A KATAMARI",
+      "linea": "🟢 <b>Katamari</b> — 📦 3 desde $34.990\n   🟢 BANDAI NAMCO We Love Katamari REROLL",
       "nombres": [
+        "bandai namco we love katamari reroll",
         "once upon a katamari",
         "we love katamari reroll royal reverie"
       ],
@@ -586,7 +586,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 20 desde $29.990\n   🟢 Mario Golf: Super Rush",
+      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario Golf: Super Rush",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -602,6 +602,7 @@
         "mario vs donkey kong",
         "paper mario the origami king",
         "paper mario the thousand year door",
+        "paquete mario choose one de con",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv"
@@ -629,8 +630,9 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 🎮 1 desde US$14.72\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$14.72\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
+        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -1062,7 +1064,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $39.900 · 🎮 5 desde US$6.25\n   🟢 Resident Evil Revelations −60%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $39.900 · 🎮 5 desde US$6.25\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 2 deluxe edition",
@@ -1229,11 +1231,11 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "⚪ <b>Stardew Valley</b> — 📦 1 desde $49.900",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $34.900\n   🟢 Stardew Valley",
       "nombres": [
         "stardew valley"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "stardew-valley"
     },
     {
@@ -1339,8 +1341,9 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $29.990\n   🟢 Legend of Heroes Trails to Azure Deluxe Ed - Sniper",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $29.990\n   🟢 Legend of Heroes Trails to Azure Deluxe Ed - Sniper",
       "nombres": [
+        "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
@@ -1384,7 +1387,7 @@
     },
     {
       "juego": "Xenoblade",
-      "linea": "🟢 <b>Xenoblade</b> — 📦 9 desde $34.990\n   🟢 Xenoblade Chronicles 2: Torna ~ The Golden Country",
+      "linea": "🟢 <b>Xenoblade</b> — 📦 8 desde $34.990\n   🟢 Xenoblade Chronicles 2: Torna ~ The Golden Country",
       "nombres": [
         "xenoblade chronicles 2",
         "xenoblade chronicles 2 torna the golden country",
@@ -1429,7 +1432,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 12 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −22%",
+      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −22%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "oled zelda tears of the kingdom japan specs",
@@ -1443,5 +1446,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 709
+  "total": 710
 }
