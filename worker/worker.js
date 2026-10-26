@@ -628,6 +628,7 @@ async function cmdSeguimiento(env) {
         : w === "wireless" ? "inalámbrico" : w[0].toUpperCase() + w.slice(1)).join(" ");
       l.push(`• ${esc(v)}: ${linkP(s, "<b>" + clp(s.precio) + "</b>")} en ${esc(s.tienda)}${sigue(s)}`
         + (s.min_hist && s.min_hist < s.precio ? ` · mín ${clp(s.min_hist)}` : ""));
+      if (s.tarjeta) l.push(`   💳 ${clp(s.tarjeta.precio)} con tarjeta ${esc(s.tarjeta.tienda)}`);
     }
     l.push("");
   }

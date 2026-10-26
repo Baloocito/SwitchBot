@@ -617,6 +617,7 @@ CLAVES_URL = ("url", "canonicalUrl", "productUrl", "link", "permalink", "href")
 CLAVES_PRECIO = ("prices", "price", "priceInfo", "offerPrice", "salePrice",
                  "bestPrice", "sellingPrice", "currentPrice", "finalPrice",
                  "internetPrice", "offers", "lowPrice")
+MARCAS_TARJETA = ("cmr", "tarjeta", "card")    # precio solo pagando con la tarjeta de la tienda
 MARCAS_IGNORAR = ("cmr", "cuota", "installment", "unit", "perunit", "shipping",
                   "despacho", "points", "puntos", "saving", "ahorro", "discount")
 MARCAS_NORMAL = ("normal", "was", "list", "regular", "old", "before", "antes",
@@ -636,6 +637,13 @@ def _recolectar_precios(v, marca, acc):
         etiqueta = marca + " " + " ".join(
             str(v.get(k, "")) for k in ("type", "label", "priceType", "@type")
         ).lower()
+        if any(m in etiqueta for m in MARCAS_TARJETA) and "tarjeta" in acc:
+            sub = {"actual": [], "normal": []}
+            for k, x in v.items():
+                if re.search(r"price|amount|value|valor|precio", k.lower()):
+                    _recolectar_precios(x, "", sub)
+            acc["tarjeta"] += sub["actual"]
+            return                      # precio con tarjeta de la tienda (CMR, Ripley...): aparte
         if any(m in etiqueta for m in MARCAS_IGNORAR):
             return
         for k, x in v.items():
@@ -680,7 +688,7 @@ def productos_en_json(nodo, url_pagina, out, vistos):
     url = next((nodo[k] for k in CLAVES_URL
                 if isinstance(nodo.get(k), str) and nodo[k].startswith(("/", "http"))), None)
     if nombre and url:
-        acc = {"actual": [], "normal": []}
+        acc = {"actual": [], "normal": [], "tarjeta": []}
         for k in CLAVES_PRECIO:
             if k in nodo:
                 _recolectar_precios(nodo[k], k.lower(), acc)
@@ -690,8 +698,10 @@ def productos_en_json(nodo, url_pagina, out, vistos):
                 vistos.add(u)
                 precio = min(acc["actual"])
                 normal = max(acc["normal"]) if acc["normal"] else None
+                tarjeta = min(acc["tarjeta"]) if acc["tarjeta"] else None
                 out.append({"titulo": html.unescape(nombre), "url": u, "precio": precio,
                             "normal": normal if normal and normal > precio else None,
+                            "tarjeta": tarjeta if tarjeta and tarjeta < precio else None,
                             "vendedor": _vendedor(nodo)})
     for v in nodo.values():
         if isinstance(v, (dict, list)):
@@ -2491,7 +2501,8 @@ def _agrupar_simple(lista, clave_fn):
         g = grupos.setdefault(clave, {"nombre": nombre, "por_tienda": {}})
         prev = g["por_tienda"].get(tienda)
         if not prev or p["precio"] < prev["precio"]:
-            g["por_tienda"][tienda] = {"tienda": tienda, "precio": p["precio"], "url": p["url"], "titulo": p["titulo"]}
+            g["por_tienda"][tienda] = {"tienda": tienda, "precio": p["precio"], "url": p["url"], "titulo": p["titulo"],
+                                       "tarjeta": p.get("tarjeta")}
     return grupos
 
 
@@ -2528,7 +2539,7 @@ def revisar_audifonos(cfg, state, hist, alertas):
         s.update({"nombre": g["nombre"], "marca": m_aud.get("marca") or k.split("|")[0], "precio": precio, "tienda": mejor["tienda"],
                   "url": mejor["url"], "ref": ref, "ref_tipo": ref_tipo, "pct": round(pct, 1),
                   "min_hist": est.get("min"), "dias": est["dias"], "ultimo": precio, "visto": ahora_iso(),
-                  "avisos": [{x: a[x] for x in ("tienda", "precio", "url")} for a in avisos[:4]]})
+                  "avisos": [{x: a.get(x) for x in ("tienda", "precio", "url", "tarjeta")} for a in avisos[:4]]})
         if ref and pct >= conf.get("baja_pct", AUD_BAJA_PCT) and avisados < 3 and \
                 decidir(s, precio, ["descuento"], nuevo=anterior is None and ref_tipo != "mercado"):
             avisados += 1
@@ -2586,7 +2597,10 @@ def revisar_seguimientos(cfg, state, hist, alertas):
         s.update({"item": item, "variante": variante, "nombre": g["nombre"], "precio": precio,
                   "tienda": mejor["tienda"], "url": mejor["url"], "min_hist": est.get("min"),
                   "min_fecha": est.get("min_fecha"), "dias": est["dias"], "ultimo": precio, "visto": ahora_iso(),
-                  "avisos": [{x: a[x] for x in ("tienda", "precio", "url")} for a in avisos[:4]]})
+                  "avisos": [{x: a.get(x) for x in ("tienda", "precio", "url", "tarjeta")} for a in avisos[:4]]})
+        tarjetas = [(a["tarjeta"], a["tienda"]) for a in avisos if a.get("tarjeta")]
+        mejor_t = min(tarjetas) if tarjetas else None
+        s["tarjeta"] = {"precio": mejor_t[0], "tienda": mejor_t[1]} if mejor_t and mejor_t[0] < precio else None
         motivos = []
         obj = objetivos.get(item)
         if obj and precio <= obj:
@@ -2595,6 +2609,12 @@ def revisar_seguimientos(cfg, state, hist, alertas):
             motivos.append("baja")
         if est.get("min") and est["dias"] >= 2 and precio < est["min"] * 0.99:
             motivos.append("minimo")
+        if s.get("tarjeta") and s.get("tarjeta_avisada") != s["tarjeta"]["precio"]:
+            s["tarjeta_avisada"] = s["tarjeta"]["precio"]
+            agregar_alerta(alertas, "consola", "👀 Seguimientos", (
+                f"👀 <b>TU SEGUIMIENTO · {esc(item)}</b>" + (f" · {esc(nombre_variante(variante))}" if variante != "base" else "")
+                + f"\n💳 <b>{clp(s['tarjeta']['precio'])}</b> pagando con la tarjeta de {esc(s['tarjeta']['tienda'])}"
+                f"\n💰 Sin tarjeta: {clp(precio)} en {esc(s['tienda'])}"), 80, extra="compra")
         if motivos and decidir(s, precio, motivos, nuevo=False):
             l = [f"👀 <b>TU SEGUIMIENTO · {esc(item)}</b>" + (f" · {esc(nombre_variante(variante))}" if variante != "base" else ""),
                  f"<a href=\"{esc_attr(s['url'])}\">{esc(s['nombre'])}</a>",
@@ -2632,6 +2652,8 @@ def lineas_seguimientos_informe(state):
                      f"<a href=\"{esc_attr(s['url'])}\">{clp(s['precio'])}</a> en {esc(s['tienda'])}"
                      + (f" (sigue {esc(otra['tienda'])} {clp(otra['precio'])})" if otra else "")
                      + (f" · mín {clp(s['min_hist'])}" if s.get("min_hist") and s["min_hist"] < s["precio"] else ""))
+            if s.get("tarjeta"):
+                l.append(f"   💳 {clp(s['tarjeta']['precio'])} con tarjeta {esc(s['tarjeta']['tienda'])}")
     return l
 
 
@@ -3834,7 +3856,7 @@ def guardar_vista_extras(state):
            for a in vigentes("audifonos")]
     con = [corta(c, ("nombre", "modelo", "bundle", "precio", "tienda", "url", "pct", "min_hist"))
            for c in vigentes("consolas")]
-    seg = [corta(s, ("item", "variante", "nombre", "precio", "tienda", "url", "min_hist"))
+    seg = [corta(s, ("item", "variante", "nombre", "precio", "tienda", "url", "min_hist", "tarjeta"))
            for s in vigentes("seguimientos")]
     save_json(VISTAS_DIR / "extras.json", {
         "revision": state.get("ultima_revision"),
