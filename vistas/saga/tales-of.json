@@ -126,6 +126,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:6484a2542f",
+        "text": "⚙️ Bandai Namco Tales of Berseri… · $58.990"
+      },
+      "id": "6484a2542f",
+      "nivel": "regular",
+      "nombre": "Bandai Namco Tales of Berseria Remasterizado",
+      "pct": 10.6,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −11%\n<b>Bandai Namco Tales of Berseria Remasterizado</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$58.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 11% bajo la referencia\n   Ahorras $7.011 frente al «antes» que marca la tienda ($66.001)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $57.990 (24 oct, Lider) · máximo $58.990\n   ▁▁█  últimos 3 días\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-tales-of-berseria-remasterizado-para-switch/00072267484108\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:eeb817b3f1",
         "text": "⚙️ iam8bit Tales of the Shire · $68.990"
       },
@@ -135,20 +147,8 @@
       "pct": -2.2,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>iam8bit Tales of the Shire</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$68.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $74.562» (−7%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $65.990 (19 oct, Lider) · típico $67.990 · máximo $68.990\n   ▃▃▃▁▆▆███  últimos 9 días\n🔎 Confianza media: 1 tienda y 9 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-iam8bit-tales-of-the-shire-switch/00085006128263\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:cf80bba9f1",
-        "text": "⚙️ Bandai Namco Tales of Xillia · $61.990"
-      },
-      "id": "cf80bba9f1",
-      "nivel": "normal",
-      "nombre": "Bandai Namco Tales of Xillia",
-      "pct": -3.3,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Bandai Namco Tales of Xillia</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$61.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $67.619» (−8%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.990 (14 oct, Lider) · típico $59.990 · máximo $62.990\n   ▁▁▁▁▁▁▃▃█▆  últimos 10 días\n🔎 Confianza media: 1 tienda y 10 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-bandai-namco-tales-of-xillia-para-nintendo-switch/00072267484101\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
     }
   ],
   "juego": "Tales of",
-  "revision": "2026-10-26T08:19:50Z"
+  "revision": "2026-10-26T14:16:43Z"
 }

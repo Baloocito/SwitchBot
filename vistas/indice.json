@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 633,
-  "pendientes": 3,
+  "fisicos": 634,
+  "pendientes": 4,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-26T08:19:50Z",
+  "revision": "2026-10-26T14:16:43Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -173,7 +173,7 @@
     },
     {
       "juego": "Civilization",
-      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $59.990 · 🎮 3 desde US$4.22\n   🟢 Sid Meier’s Civilization VI −80%",
+      "linea": "🟢 <b>Civilization</b> — 📦 3 desde $34.990 · 🎮 3 desde US$4.22\n   🟢 Sid Meier’s Civilization VI −80%",
       "nombres": [
         "civilization vii edicion",
         "sid meiers civilization vi",
@@ -186,10 +186,11 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 🎮 2 desde US$5.66\n   🟢 Contra Anniversary Collection −60%",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720 · 🎮 2 desde US$5.66\n   🟢 Contra Anniversary Collection −60%",
       "nombres": [
         "contra anniversary collection",
-        "contra operation galuga"
+        "contra operation galuga",
+        "contra rogue corps"
       ],
       "orden": 1,
       "slug": "contra"
@@ -209,9 +210,8 @@
     },
     {
       "juego": "Cyberpunk 2077",
-      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990 · 🎮 2 desde US$4.92\n   🟢 Cyberpunk 2077: Ultimate Edition −60%",
+      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 1 desde $39.990 · 🎮 2 desde US$4.92\n   🟢 Cyberpunk 2077: Ultimate Edition −60%",
       "nombres": [
-        "cd de projekt cyberpunk 2077",
         "cyberpunk 2077 ultimate edition",
         "cyberpunk speed assassin",
         "va 11 hall a cyberpunk bartender action"
@@ -302,7 +302,7 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $19.990 · 🎮 5 desde US$2.20\n   🟢 DRAGON BALL: THE BREAKERS −85%",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 6 desde $19.990 · 🎮 5 desde US$2.20\n   🟢 DRAGON BALL: THE BREAKERS −85%",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball heroes world mission",
@@ -425,9 +425,8 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $75.990 · 🎮 2 desde US$10.61\n   🟢 Hitman: Blood Money — Reprisal −50%",
+      "linea": "🟢 <b>Hitman</b> — 📦 2 desde $89.990 · 🎮 2 desde US$10.61\n   🟢 Hitman: Blood Money — Reprisal −50%",
       "nombres": [
-        "game solutions 2 go hitman world of assassination",
         "hitman absolution nintendo switch 2 edition",
         "hitman blood money reprisal",
         "hitman world of assassination signature edition"
@@ -497,9 +496,8 @@
     },
     {
       "juego": "Katamari",
-      "linea": "🟢 <b>Katamari</b> — 📦 3 desde $34.990\n   🟢 BANDAI NAMCO We Love Katamari REROLL",
+      "linea": "🟢 <b>Katamari</b> — 📦 2 desde $34.990\n   🟢 Once Upon A KATAMARI",
       "nombres": [
-        "bandai namco we love katamari reroll",
         "once upon a katamari",
         "we love katamari reroll royal reverie"
       ],
@@ -732,15 +730,6 @@
       "slug": "naruto"
     },
     {
-      "juego": "NBA 2K",
-      "linea": "🟠 <b>NBA 2K</b> — 📦 1 desde $55.990",
-      "nombres": [
-        "2k nba 2k18"
-      ],
-      "orden": 3,
-      "slug": "nba-2k"
-    },
-    {
       "juego": "NieR",
       "linea": "🟢 <b>NieR</b> — 📦 2 desde $44.900\n   🟢 NieR:Automata The End of YoRHa Edition",
       "nombres": [
@@ -790,7 +779,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $49.990 · 🎮 169 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $49.990 · 🎮 170 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "ace angler fishing spirits",
         "ace attorney anthology",
@@ -832,6 +821,7 @@
         "deaths door",
         "deltarune",
         "dicey dungeons",
+        "dredge",
         "epic chef",
         "etrian odyssey hd",
         "etrian odyssey ii hd",
@@ -1045,13 +1035,12 @@
     },
     {
       "juego": "Rayman",
-      "linea": "🟢 <b>Rayman</b> — 📦 5 desde $29.900\n   🟢 Rayman: 30th Anniversary Edition",
+      "linea": "🟢 <b>Rayman</b> — 📦 4 desde $29.900\n   🟢 Rayman: 30th Anniversary Edition",
       "nombres": [
         "rayman 30th anniversary edition",
         "rayman edicion 30o aniversario atari",
         "rayman legends definitive edition",
-        "rayman legends retold launch edition",
-        "ubisoft rayman legends edicion definitiva"
+        "rayman legends retold launch edition"
       ],
       "orden": 1,
       "slug": "rayman"
@@ -1186,7 +1175,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990\n   🟢 It Takes Two",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990\n   🟢 It Takes Two",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1308,7 +1297,7 @@
       "juego": "Tales of",
       "linea": "🟢 <b>Tales of</b> — 📦 8 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
       "nombres": [
-        "bandai namco tales of xillia",
+        "bandai namco tales of berseria remasterizado",
         "iam8bit tales of the shire",
         "tales of arise beyond the dawn edition",
         "tales of autumn",
@@ -1341,7 +1330,7 @@
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
-        "nis america trails from zero trails to azure",
+        "nis america the legend of heroes trails into reverie",
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
         "the legend of nayuta boundless trails deluxe ed sniper",
@@ -1425,7 +1414,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −12%",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −12%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "oled zelda tears of the kingdom japan specs",
@@ -1439,5 +1428,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 706
+  "total": 703
 }

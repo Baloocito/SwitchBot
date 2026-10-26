@@ -98,6 +98,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:86e904690e",
+        "text": "⚙️ de edición limitada Ys vs Tra… · $146.990"
+      },
+      "id": "86e904690e",
+      "nivel": "regular",
+      "nombre": "de edición limitada Ys vs Trails",
+      "pct": 9.7,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −10%\n<b>de edición limitada Ys vs Trails</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$146.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 10% bajo la referencia\n   Ahorras $15.865 frente al «antes» que marca la tienda ($162.855)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $146.990 (26 oct, Lider) · máximo $163.990\n   █▁  últimos 2 días\n🔎 Confianza baja: una sola tienda y 2 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-de-edicion-limitada-ys-vs-trails-para-switch/00084048650603\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:1b95acb262",
         "text": "⚙️ The Legend of Heroes: Trails … · $65.000"
       },
@@ -110,29 +122,17 @@
     },
     {
       "boton": {
-        "callback_data": "a:86e904690e",
-        "text": "⚙️ de edición limitada Ys vs Tra… · $163.990"
+        "callback_data": "a:adb2146524",
+        "text": "⚙️ NIS America The Legend of Her… · $136.990"
       },
-      "id": "86e904690e",
+      "id": "adb2146524",
       "nivel": "normal",
-      "nombre": "de edición limitada Ys vs Trails",
+      "nombre": "NIS America The Legend of Heroes: Trails into Reverie",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>de edición limitada Ys vs Trails</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$163.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $163.990 (25 oct, Lider) · máximo $163.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-de-edicion-limitada-ys-vs-trails-para-switch/00084048650603\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:6fdc505eeb",
-        "text": "⚙️ NIS America: Trails from Zero… · $127.990"
-      },
-      "id": "6fdc505eeb",
-      "nivel": "normal",
-      "nombre": "NIS America: Trails from Zero / Trails to Azure",
-      "pct": -4.9,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>NIS America: Trails from Zero / Trails to Azure</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$127.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $137.907» (−7%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $121.990 (14 oct, Lider) · típico $121.990 · máximo $124.990\n   ▁▁▁▁▁▁████  últimos 10 días\n🔎 Confianza media: 1 tienda y 10 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nis-america-trails-from-zero-trails-to-azure-nintendo-switch-/00081010086748\">Ir a comprar en Lider</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>NIS America The Legend of Heroes: Trails into Reverie</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$136.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $136.990 (26 oct, Lider) · máximo $136.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nis-america-the-legend-of-heroes-trails-into-reverie-para-nintendo-switch/00081002303832\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     }
   ],
   "juego": "Trails / Kiseki",
-  "revision": "2026-10-26T08:19:50Z"
+  "revision": "2026-10-26T14:16:43Z"
 }

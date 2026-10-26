@@ -10,7 +10,7 @@
       "nivel": "compra",
       "nombre": "Sid Meier’s Civilization VI",
       "pct": 80.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Sid Meier’s Civilization VI</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$4.22</b> ≈ $4.176 en 🇨🇱 Chile\n   Precio en la tienda: $4.180 CLP\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$21.12 → ahorras US$16.90 · ⏳ termina el 7 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sid-meiers-civilization-vi-switch/\">US$4.22</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sid-meiers-civilization-vi-switch/\">US$5.70</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/sid-meiers-civilization-vi-switch/\">US$5.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sid-meiers-civilization-vi-switch/\">US$5.99</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/sid-meiers-civilization-vi-switch/\">US$5.99</a>\n   El más caro: 🇲🇽 US$6.40\n📦 Físico: $34.990 en Falabella → el digital te ahorra $30.814\n📈 Mínimo US$4.22 (25 oct en 🇨🇱 Chile)\n   ██▁▁▁▁▁▁▁▁▁▁▁  últimos 13 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sid-meiers-civilization-vi-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Sid Meier’s Civilization VI</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$4.22</b> ≈ $4.176 en 🇨🇱 Chile\n   Precio en la tienda: $4.180 CLP\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$21.12 → ahorras US$16.90 · ⏳ termina el 7 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sid-meiers-civilization-vi-switch/\">US$4.22</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sid-meiers-civilization-vi-switch/\">US$5.70</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/sid-meiers-civilization-vi-switch/\">US$5.99</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/sid-meiers-civilization-vi-switch/\">US$5.99</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/sid-meiers-civilization-vi-switch/\">US$5.99</a>\n   El más caro: 🇲🇽 US$6.40\n📦 Físico: $34.990 en Paris → el digital te ahorra $30.814\n📈 Mínimo US$4.22 (25 oct en 🇨🇱 Chile)\n   ██▁▁▁▁▁▁▁▁▁▁▁  últimos 13 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sid-meiers-civilization-vi-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -53,17 +53,29 @@
     },
     {
       "boton": {
+        "callback_data": "a:e42c0d1b28",
+        "text": "⚙️ Sid Meier’s Civilization VI · $34.990"
+      },
+      "id": "e42c0d1b28",
+      "nivel": "compra",
+      "nombre": "Sid Meier’s Civilization VI",
+      "pct": 0,
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Sid Meier’s Civilization VI</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en Paris 🏪 <i>vende SNIPERCL</i>\n💡 Es el precio más bajo que he visto\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.paris.cl/sid-meiers-civilization-vi-nintendo-switch-sniper-MK7ZIHZUBN.html\">$34.990 Paris</a> 🏪 SNIPERCL\n   🥈 <a href=\"https://sniper.cl/products/sid-meiers-civilization-vi-nintendo-switch-sniper-1\">$34.990 Sniper</a> (+$0)\n📈 Mínimo $34.990 (19 oct, Falabella) · típico $34.990 · máximo $34.990\n   ▄▄▄▄▄▄▄▄  últimos 8 días\n🎮 Digital: US$4.22 ≈ $4.176 en 🇨🇱 Chile (−80%)\n   ➜ El digital es $30.814 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 8 días de historial\n🛒 <a href=\"https://www.paris.cl/sid-meiers-civilization-vi-nintendo-switch-sniper-MK7ZIHZUBN.html\">Ir a comprar en Paris</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:246ad826da",
-        "text": "⚙️ Civilization VII Edición S2 · $59.990"
+        "text": "⚙️ Civilization VII Edición S2 · $55.990"
       },
       "id": "246ad826da",
       "nivel": "normal",
       "nombre": "Civilization VII Edición",
-      "pct": -9.1,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Civilization VII Edición</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$59.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.990 (14 oct, Lider) · típico $54.990 · máximo $59.990\n   ▁▁▁▁▁▁▁▁▁▂▅▄█  últimos 13 días\n📈 Precio subió 9% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 13 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-civilization-vii-edicion-nintendo-switch-2/00071042565357\">Ir a comprar en Lider</a>",
+      "pct": -1.8,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Civilization VII Edición</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$55.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $61.372» (−9%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $54.990 (14 oct, Lider) · típico $54.990 · máximo $57.990\n   ▁▁▁▁▁▁▁▁▁▃█▆▃  últimos 13 días\n🔎 Confianza media: 1 tienda y 13 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-civilization-vii-edicion-nintendo-switch-2/00071042565357\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     }
   ],
   "juego": "Civilization",
-  "revision": "2026-10-26T08:19:50Z"
+  "revision": "2026-10-26T14:16:43Z"
 }
