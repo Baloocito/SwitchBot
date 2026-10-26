@@ -3,19 +3,20 @@
     {
       "avisos": [
         {
-          "precio": 13490.0,
+          "precio": 14990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/audifonos-gamer-redragon-hylas-h260-rgb-usb-sonido-stereo-20-20k-hz-rgb-negro-open-box"
+          "url": "https://bestmart.cl/products/audifonos-gamer-redragon-hylas-h260-rgb-u-negro"
         }
       ],
-      "marca": "redragon",
-      "min_hist": null,
+      "marca": "Redragon",
+      "min_hist": 13490.0,
       "nombre": "Audífonos Gamer Redragon Hylas H260 RGB USB Sonido Stereo 20 - 20k Hz ",
       "pct": 0,
-      "precio": 13490.0,
+      "precio": 14990.0,
       "ref_tipo": null,
       "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/audifonos-gamer-redragon-hylas-h260-rgb-usb-sonido-stereo-20-20k-hz-rgb-negro-open-box"
+      "url": "https://bestmart.cl/products/audifonos-gamer-redragon-hylas-h260-rgb-u-negro"
     },
     {
       "avisos": [
@@ -38,12 +39,13 @@
       "avisos": [
         {
           "precio": 29990.0,
+          "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/16842246/Audifono-Gamer-Hyperx-Cloud-Stinger-Core-2-Negro"
         }
       ],
       "marca": "hyperx",
-      "min_hist": null,
+      "min_hist": 29990.0,
       "nombre": "Audífonos Gamer Cloud Stinger Core 2 Negro",
       "pct": 0,
       "precio": 29990.0,
@@ -55,12 +57,13 @@
       "avisos": [
         {
           "precio": 29990.0,
+          "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80753979/audifonos-gaming-hyperx-cloud-stinger-2"
         }
       ],
       "marca": "hyperx",
-      "min_hist": null,
+      "min_hist": 29990.0,
       "nombre": "Audífonos Gaming Cloud Stinger 2",
       "pct": 0,
       "precio": 29990.0,
@@ -72,12 +75,13 @@
       "avisos": [
         {
           "precio": 29990.0,
+          "tarjeta": null,
           "tienda": "Sniper",
           "url": "https://sniper.cl/products/headset-turtle-beach-ear-force-p4c-sniper-game"
         }
       ],
-      "marca": "turtle beach",
-      "min_hist": null,
+      "marca": "Turtle Beach",
+      "min_hist": 29990.0,
       "nombre": "Headset Turtle Beach Ear Force P4c - Sniper Game",
       "pct": 0,
       "precio": 29990.0,
@@ -89,12 +93,13 @@
       "avisos": [
         {
           "precio": 33990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-gamer-redragon-cragblade-h541-con-microfono-negro"
         }
       ],
-      "marca": "redragon",
-      "min_hist": null,
+      "marca": "Redragon",
+      "min_hist": 33990.0,
       "nombre": "Audífonos Gamer Redragon Cragblade H541 con Micrófono Negro",
       "pct": 0,
       "precio": 33990.0,
@@ -106,12 +111,13 @@
       "avisos": [
         {
           "precio": 37990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-redragon-vibecore-h610-con-anc-gris"
         }
       ],
-      "marca": "redragon",
-      "min_hist": null,
+      "marca": "Redragon",
+      "min_hist": 37990.0,
       "nombre": "Audífonos Gamer Inalámbricos Redragon Vibecore H610 Bluetooth ANC - US",
       "pct": 0,
       "precio": 37990.0,
@@ -140,29 +146,13 @@
       "avisos": [
         {
           "precio": 39990.0,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-redragon-ire-h848-bluetooth-usb-type-c-stereo-blanco-y-azul-open-box"
-        }
-      ],
-      "marca": "redragon",
-      "min_hist": null,
-      "nombre": "Audífonos Gamer Inalámbricos Redragon IRE H848 Bluetooth USB Type-C St",
-      "pct": 0,
-      "precio": 39990.0,
-      "ref_tipo": null,
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-redragon-ire-h848-bluetooth-usb-type-c-stereo-blanco-y-azul-open-box"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 39990.0,
+          "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17214753/Aud%C3%ADfonos-Gamer-GXT-489-Multiplataforma-con-Micr%C3%B3fono-Desmontable-Trust"
         }
       ],
       "marca": "trust",
-      "min_hist": null,
+      "min_hist": 39990.0,
       "nombre": "Audífonos Gamer GXT 489 Multiplataforma con Micrófono Desmontable",
       "pct": 0,
       "precio": 39990.0,
@@ -173,13 +163,32 @@
     {
       "avisos": [
         {
+          "precio": 43990.0,
+          "tarjeta": null,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-ire-h848b-blanco-azul"
+        }
+      ],
+      "marca": "Redragon",
+      "min_hist": 39990.0,
+      "nombre": "Audífonos Gamer Inalámbricos Redragon IRE H848 Bluetooth USB Type-C St",
+      "pct": 0,
+      "precio": 43990.0,
+      "ref_tipo": null,
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-ire-h848b-blanco-azul"
+    },
+    {
+      "avisos": [
+        {
           "precio": 44990.0,
+          "tarjeta": 42990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17267593/Audifono-Headset-Blackshark-V2-X-Wired-Verde-Razer"
         }
       ],
       "marca": "razer",
-      "min_hist": null,
+      "min_hist": 44990.0,
       "nombre": "Audífono Headset Blackshark V2 X Wired Verde",
       "pct": 0,
       "precio": 44990.0,
@@ -191,12 +200,13 @@
       "avisos": [
         {
           "precio": 44990.0,
+          "tarjeta": 42990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17267596/Audifono-Headset-Blackshark-V2-X-Wired-Blanco-Razer"
         }
       ],
       "marca": "razer",
-      "min_hist": null,
+      "min_hist": 44990.0,
       "nombre": "Audífono Headset Blackshark V2 X Wired Blanco",
       "pct": 0,
       "precio": 44990.0,
@@ -225,12 +235,13 @@
       "avisos": [
         {
           "precio": 44990.0,
+          "tarjeta": 39990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17292991/Audifono-Headset-Inalambrico-H848B-Redragon"
         }
       ],
       "marca": "redragon",
-      "min_hist": null,
+      "min_hist": 44990.0,
       "nombre": "Audífono Headset Inalambrico H848B",
       "pct": 0,
       "precio": 44990.0,
@@ -242,12 +253,13 @@
       "avisos": [
         {
           "precio": 44990.0,
+          "tarjeta": 39990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17293002/Audifono-Headset-Inalambrico-H84X-Redragon"
         }
       ],
       "marca": "redragon",
-      "min_hist": null,
+      "min_hist": 44990.0,
       "nombre": "Audífono Headset Inalambrico H84X",
       "pct": 0,
       "precio": 44990.0,
@@ -259,12 +271,13 @@
       "avisos": [
         {
           "precio": 45990,
+          "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-2414136470"
         }
       ],
-      "marca": "redragon",
-      "min_hist": null,
+      "marca": "Redragon",
+      "min_hist": 45990,
       "nombre": "Audífonos Redragon Ire Pro H848 Bluetooth Usb Recargable Color Negro L",
       "pct": 0,
       "precio": 45990,
@@ -276,12 +289,13 @@
       "avisos": [
         {
           "precio": 46990.0,
+          "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80748505/audifonos-gaming-inalambricos-negro-hyperx-cloud-jet"
         }
       ],
       "marca": "hyperx",
-      "min_hist": null,
+      "min_hist": 46990.0,
       "nombre": "Audífonos Gaming Inalámbricos Negro Cloud Jet",
       "pct": 0,
       "precio": 46990.0,
@@ -293,12 +307,13 @@
       "avisos": [
         {
           "precio": 48990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-gamer-redragon-zeus-x-h510-rgb-sonido-7-1-negro"
         }
       ],
-      "marca": "redragon",
-      "min_hist": null,
+      "marca": "Redragon",
+      "min_hist": 48990.0,
       "nombre": "Audífonos Gamer Redragon Zeus X H510 USB Sonido 7.1 Virtual 50 - 20k H",
       "pct": 0,
       "precio": 48990.0,
@@ -310,12 +325,13 @@
       "avisos": [
         {
           "precio": 49990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-gamer-jbl-quantum-250-negro-multiplataforma"
         }
       ],
-      "marca": "jbl",
-      "min_hist": null,
+      "marca": "JBL",
+      "min_hist": 49990.0,
       "nombre": "Audífonos Gamer JBL Quantum 250 Negro Multiplataforma",
       "pct": 0,
       "precio": 49990.0,
@@ -327,12 +343,13 @@
       "avisos": [
         {
           "precio": 49990.0,
+          "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17187842/Blacksharkv2-X-Wired-Gaming-Headset-Razer"
         }
       ],
       "marca": "razer",
-      "min_hist": null,
+      "min_hist": 49990.0,
       "nombre": "Blacksharkv2 X Wired Gaming Headset",
       "pct": 0,
       "precio": 49990.0,
@@ -344,12 +361,13 @@
       "avisos": [
         {
           "precio": 49990.0,
+          "tarjeta": 44990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
         }
       ],
       "marca": "redragon",
-      "min_hist": null,
+      "min_hist": 49990.0,
       "nombre": "Audífono Headset H510 Rgb Zeus X",
       "pct": 0,
       "precio": 49990.0,
@@ -361,12 +379,13 @@
       "avisos": [
         {
           "precio": 49990.0,
+          "tarjeta": null,
           "tienda": "Sniper",
           "url": "https://sniper.cl/products/headset-turtle-beach-ear-force-recon-60p-sniper-game"
         }
       ],
-      "marca": "turtle beach",
-      "min_hist": null,
+      "marca": "Turtle Beach",
+      "min_hist": 49990.0,
       "nombre": "Headset Turtle Beach Ear Force Recon 60p - Sniper Game",
       "pct": 0,
       "precio": 49990.0,
@@ -378,12 +397,13 @@
       "avisos": [
         {
           "precio": 54990.0,
+          "tarjeta": 44990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17293003/Audifono-Headset-Inalambrico-H848GX-Redragon"
         }
       ],
       "marca": "redragon",
-      "min_hist": null,
+      "min_hist": 54990.0,
       "nombre": "Audífono Headset Inalambrico H848GX",
       "pct": 0,
       "precio": 54990.0,
@@ -395,12 +415,13 @@
       "avisos": [
         {
           "precio": 58990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-zeus-h510-pro-blanco"
         }
       ],
-      "marca": "redragon",
-      "min_hist": null,
+      "marca": "Redragon",
+      "min_hist": 58990.0,
       "nombre": "Audífonos Gamer Inalámbricos Redragon Zeus Pro H510-PRO Bluetooth Soni",
       "pct": 0,
       "precio": 58990.0,
@@ -412,12 +433,13 @@
       "avisos": [
         {
           "precio": 59990.0,
+          "tarjeta": 51990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17186837/Audifono-Wired-Gaming-Headset-G335-Logitech"
         }
       ],
       "marca": "logitech g",
-      "min_hist": null,
+      "min_hist": 59990.0,
       "nombre": "Audífono Wired Gaming Headset G335",
       "pct": 0,
       "precio": 59990.0,
@@ -446,12 +468,13 @@
       "avisos": [
         {
           "precio": 60990.0,
+          "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80748506/audifonos-gaming-negro-hyperx-cloud-iii"
         }
       ],
       "marca": "hyperx",
-      "min_hist": null,
+      "min_hist": 60990.0,
       "nombre": "Audífonos Gaming Negro Cloud III",
       "pct": 0,
       "precio": 60990.0,
@@ -463,12 +486,13 @@
       "avisos": [
         {
           "precio": 75990.0,
+          "tarjeta": 65990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80716017/audifono-gamer-g321-logitech"
         }
       ],
       "marca": "logitech g",
-      "min_hist": null,
+      "min_hist": 75990.0,
       "nombre": "Audífono Gamer G321",
       "pct": 0,
       "precio": 75990.0,
@@ -480,12 +504,13 @@
       "avisos": [
         {
           "precio": 79990.0,
+          "tarjeta": 69990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80820664/logitech-zone-300-audifonos-bluetooth-inalambricos"
         }
       ],
       "marca": "logitech g",
-      "min_hist": null,
+      "min_hist": 79990.0,
       "nombre": "Zone 300 Audífonos Bluetooth Inalámbricos",
       "pct": 0,
       "precio": 79990.0,
@@ -497,12 +522,13 @@
       "avisos": [
         {
           "precio": 89290,
+          "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-1975384199"
         }
       ],
-      "marca": "logitech g",
-      "min_hist": null,
+      "marca": "Logitech G",
+      "min_hist": 89290,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (FUJITECH)",
       "pct": 0,
       "precio": 89290,
@@ -513,13 +539,32 @@
     {
       "avisos": [
         {
+          "precio": 89990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-3815825254"
+        }
+      ],
+      "marca": "SteelSeries",
+      "min_hist": null,
+      "nombre": "Audífonos Gamer Steelseries Arctis Nova 1 Black Ps5 Negro (DUST2GG)",
+      "pct": 0,
+      "precio": 89990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-3815825254"
+    },
+    {
+      "avisos": [
+        {
           "precio": 104990.0,
+          "tarjeta": 99990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17267594/Audifono-Headset-Barracuda-X-Wireless-Razer"
         }
       ],
       "marca": "razer",
-      "min_hist": null,
+      "min_hist": 104990.0,
       "nombre": "Audífono Headset Barracuda X Wireless",
       "pct": 0,
       "precio": 104990.0,
@@ -531,12 +576,13 @@
       "avisos": [
         {
           "precio": 109990.0,
+          "tarjeta": 95990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80716019/audifono-gamerg325-logitech"
         }
       ],
       "marca": "logitech g",
-      "min_hist": null,
+      "min_hist": 109990.0,
       "nombre": "Audífono Gamer G325",
       "pct": 0,
       "precio": 109990.0,
@@ -548,12 +594,13 @@
       "avisos": [
         {
           "precio": 109990.0,
+          "tarjeta": 95990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80716010/audifono-gamerg325-logitech"
         }
       ],
       "marca": "logitech g",
-      "min_hist": null,
+      "min_hist": 109990.0,
       "nombre": "Audífono Gamer Inalámbrico G325",
       "pct": 0,
       "precio": 109990.0,
@@ -565,12 +612,13 @@
       "avisos": [
         {
           "precio": 119990,
+          "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-4486183542"
         }
       ],
-      "marca": "logitech g",
-      "min_hist": null,
+      "marca": "Logitech G",
+      "min_hist": 119990,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (MYSHOPSPA)",
       "pct": 0,
       "precio": 119990,
@@ -582,12 +630,13 @@
       "avisos": [
         {
           "precio": 123491,
+          "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-1569886303"
         }
       ],
-      "marca": "logitech g",
-      "min_hist": null,
+      "marca": "Logitech G",
+      "min_hist": 123491,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (EYLSTORECL)",
       "pct": 0,
       "precio": 123491,
@@ -599,12 +648,13 @@
       "avisos": [
         {
           "precio": 124990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-jbl-quantum-tws-con-cancelacion-de-ruido-negro"
         }
       ],
-      "marca": "jbl",
-      "min_hist": null,
+      "marca": "JBL",
+      "min_hist": 124990.0,
       "nombre": "Audífonos JBL Quantum TWS con cancelación de ruido - Negro",
       "pct": 0,
       "precio": 124990.0,
@@ -616,12 +666,13 @@
       "avisos": [
         {
           "precio": 129990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-jbl-quantum-650-multiplataforma"
         }
       ],
-      "marca": "jbl",
-      "min_hist": null,
+      "marca": "JBL",
+      "min_hist": 129990.0,
       "nombre": "Audífonos Gamer Inalámbricos JBL Quantum 650 Multiplataforma",
       "pct": 0,
       "precio": 129990.0,
@@ -633,12 +684,13 @@
       "avisos": [
         {
           "precio": 129990,
+          "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-4523596062"
         }
       ],
-      "marca": "logitech g",
-      "min_hist": null,
+      "marca": "Logitech G",
+      "min_hist": 129990,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (ADMINISTRADOR",
       "pct": 0,
       "precio": 129990,
@@ -650,12 +702,13 @@
       "avisos": [
         {
           "precio": 129990,
+          "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-1521995693"
         }
       ],
-      "marca": "logitech g",
-      "min_hist": null,
+      "marca": "Logitech G",
+      "min_hist": 129990,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (FUJITECH)",
       "pct": 0,
       "precio": 129990,
@@ -667,12 +720,13 @@
       "avisos": [
         {
           "precio": 161990,
+          "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
         }
       ],
-      "marca": "logitech g",
-      "min_hist": null,
+      "marca": "Logitech G",
+      "min_hist": 161990,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (DEPLOY)",
       "pct": 0,
       "precio": 161990,
@@ -701,12 +755,13 @@
       "avisos": [
         {
           "precio": 174990.0,
+          "tarjeta": 154990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17403218/RAZER-KRAKEN-V4-NASA"
         }
       ],
       "marca": "razer",
-      "min_hist": null,
+      "min_hist": 174990.0,
       "nombre": "Audífonos Gamer Kraken V4",
       "pct": 0,
       "precio": 174990.0,
@@ -718,12 +773,13 @@
       "avisos": [
         {
           "precio": 204990.0,
+          "tarjeta": 179990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80791300/audifonos-gamer-inalambrico-g522-light-logitech"
         }
       ],
       "marca": "logitech g",
-      "min_hist": null,
+      "min_hist": 204990.0,
       "nombre": "Audífonos Gamer Inalambrico G522 Light",
       "pct": 0,
       "precio": 204990.0,
@@ -735,13 +791,14 @@
       "avisos": [
         {
           "precio": 215990,
+          "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-3614449858"
         }
       ],
-      "marca": "logitech g",
+      "marca": "Logitech G",
       "min_hist": null,
-      "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (tienda",
+      "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (SIPOON",
       "pct": 0,
       "precio": 215990,
       "ref_tipo": null,
@@ -752,12 +809,13 @@
       "avisos": [
         {
           "precio": 229990.0,
+          "tarjeta": 199990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80716012/audifono-gamer-astro-a20-x-logitech"
         }
       ],
-      "marca": "astro",
-      "min_hist": null,
+      "marca": "Astro",
+      "min_hist": 229990.0,
       "nombre": "Audífono Gamer Astro A20 X",
       "pct": 0,
       "precio": 229990.0,
@@ -769,12 +827,13 @@
       "avisos": [
         {
           "precio": 237990,
+          "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-1073079908"
         }
       ],
-      "marca": "logitech g",
-      "min_hist": null,
+      "marca": "Logitech G",
+      "min_hist": 237990,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (FUJITE",
       "pct": 0,
       "precio": 237990,
@@ -802,13 +861,32 @@
     {
       "avisos": [
         {
+          "precio": 237990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-1859598391"
+        }
+      ],
+      "marca": "Logitech G",
+      "min_hist": 215990,
+      "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (tienda",
+      "pct": 0,
+      "precio": 237990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-1859598391"
+    },
+    {
+      "avisos": [
+        {
           "precio": 249990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-gaming-inalambricos-logitech-pro-x2-lightspeed-blanco"
         }
       ],
-      "marca": "logitech g",
-      "min_hist": null,
+      "marca": "Logitech G",
+      "min_hist": 249990.0,
       "nombre": "Audífonos Gaming Inalámbricos Logitech Pro X2 Lightspeed Blanco",
       "pct": 0,
       "precio": 249990.0,
@@ -820,12 +898,13 @@
       "avisos": [
         {
           "precio": 319990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-jbl-quantum-950-bluetooth-anc-spatial-sound-negro"
         }
       ],
-      "marca": "jbl",
-      "min_hist": null,
+      "marca": "JBL",
+      "min_hist": 319990.0,
       "nombre": "Audífonos Gamer Inalámbricos JBL Quantum 950 Bluetooth ANC Spatial Sou",
       "pct": 0,
       "precio": 319990.0,
@@ -889,33 +968,6 @@
     {
       "avisos": [
         {
-          "precio": 599990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-2-142747999.html"
-        },
-        {
-          "precio": 609990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17448346/HW-SWITCH-2-SYSTEM-LT2-SOLUS"
-        },
-        {
-          "precio": 609990.0,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
-        }
-      ],
-      "bundle": false,
-      "min_hist": 599990.0,
-      "modelo": "Switch 2",
-      "nombre": "Switch 2",
-      "pct": 1.6,
-      "precio": 599990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-2-142747999.html"
-    },
-    {
-      "avisos": [
-        {
           "precio": 609990.0,
           "tienda": "Lider",
           "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
@@ -939,6 +991,33 @@
       "precio": 609990.0,
       "tienda": "Lider",
       "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 609990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/17448346/HW-SWITCH-2-SYSTEM-LT2-SOLUS"
+        },
+        {
+          "precio": 609990.0,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
+        },
+        {
+          "precio": 629900.0,
+          "tienda": "TodoJuegos",
+          "url": "https://www.todojuegos.cl/Productos/NS2/Consola-Nintendo-Switch-2/?ref=buscador"
+        }
+      ],
+      "bundle": false,
+      "min_hist": 599990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Switch 2 Mkw",
+      "pct": 1.6,
+      "precio": 609990.0,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/17448346/HW-SWITCH-2-SYSTEM-LT2-SOLUS"
     },
     {
       "avisos": [
@@ -1106,7 +1185,7 @@
     {
       "avisos": [
         {
-          "precio": 399990.0,
+          "precio": 409990.0,
           "tienda": "Paris",
           "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
         }
@@ -1116,7 +1195,7 @@
       "modelo": "Switch OLED",
       "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
       "pct": 0,
-      "precio": 399990.0,
+      "precio": 409990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
     }
@@ -1135,6 +1214,12 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
+        },
+        {
+          "precio": 88990,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (MATHOGAMES CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-2937537034"
         }
       ],
       "gb": 256,
@@ -1162,10 +1247,10 @@
       "marca": "SanDisk",
       "min_hist": 69900.0,
       "nombre": "microSD Express 256 GB · SanDisk",
-      "pct": 0,
+      "pct": 0.0,
       "por_gb": 273,
       "precio": 69900.0,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "TodoJuegos",
       "tipo": "express",
       "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Sandisk-256gb/?ref=buscador"
@@ -1183,10 +1268,10 @@
       "marca": "SanDisk",
       "min_hist": 211490,
       "nombre": "microSD Express 512 GB · SanDisk",
-      "pct": 0,
+      "pct": 0.0,
       "por_gb": 430,
       "precio": 219980,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "tipo": "express",
       "url": "https://articulo.mercadolibre.cl/MLC-4300075286"
@@ -1204,10 +1289,10 @@
       "marca": "SanDisk",
       "min_hist": 14990.0,
       "nombre": "microSD 64 GB · SanDisk",
-      "pct": 0,
+      "pct": 0.0,
       "por_gb": 234,
       "precio": 14990.0,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "Falabella",
       "tipo": "normal",
       "url": "https://www.falabella.com/falabella-cl/product/3526765/Sandisk-Tarjeta-Micro-SD-64Gb-Android"
@@ -1225,10 +1310,10 @@
       "marca": "Kingston",
       "min_hist": 20990.0,
       "nombre": "microSD 64 GB · Kingston",
-      "pct": 0,
+      "pct": 0.0,
       "por_gb": 328,
       "precio": 20990.0,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "Falabella",
       "tipo": "normal",
       "url": "https://www.falabella.com/falabella-cl/product/16839128/Microsd-Select-Plus-64-GB-Kingston"
@@ -1246,10 +1331,10 @@
       "marca": "SanDisk",
       "min_hist": 22990.0,
       "nombre": "microSD 128 GB · SanDisk",
-      "pct": 0,
+      "pct": 0.0,
       "por_gb": 180,
       "precio": 22990.0,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "Falabella",
       "tipo": "normal",
       "url": "https://www.falabella.com/falabella-cl/product/4051704/Sandisk-Micro-Sd-Android-128Gb"
@@ -1273,10 +1358,10 @@
       "marca": "Kingston",
       "min_hist": 25990.0,
       "nombre": "microSD 128 GB · Kingston",
-      "pct": 3.7,
+      "pct": 0.0,
       "por_gb": 203,
       "precio": 25990.0,
-      "ref_tipo": "mercado",
+      "ref_tipo": "tipico",
       "tienda": "Paris",
       "tipo": "normal",
       "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
@@ -1294,10 +1379,10 @@
       "marca": "Kingston",
       "min_hist": 53989,
       "nombre": "microSD 256 GB · Kingston",
-      "pct": 0,
+      "pct": -1.3,
       "por_gb": 214,
       "precio": 54690,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "tipo": "normal",
       "url": "https://articulo.mercadolibre.cl/MLC-3585524520"
@@ -1324,30 +1409,37 @@
       "url": "https://articulo.mercadolibre.cl/MLC-4619519486"
     }
   ],
-  "revision": "2026-10-26T02:17:56Z",
+  "revision": "2026-10-26T08:19:50Z",
   "seguimientos": [
     {
       "avisos": [
         {
           "precio": 48990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-gamer-redragon-zeus-x-h510-rgb-sonido-7-1-negro"
         },
         {
           "precio": 49990.0,
+          "tarjeta": 44990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
         },
         {
           "precio": 52190,
+          "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-2865043080"
         }
       ],
       "item": "Redragon Zeus",
-      "min_hist": null,
+      "min_hist": 48990.0,
       "nombre": "Audífono Headset H510 Rgb Zeus X",
       "precio": 48990.0,
+      "tarjeta": {
+        "precio": 44990.0,
+        "tienda": "Falabella"
+      },
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/audifonos-gamer-redragon-zeus-x-h510-rgb-sonido-7-1-negro",
       "variante": "x"
@@ -1356,19 +1448,22 @@
       "avisos": [
         {
           "precio": 58990.0,
+          "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-zeus-h510-pro-blanco"
         },
         {
           "precio": 61990,
+          "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-4389144974"
         }
       ],
       "item": "Redragon Zeus",
-      "min_hist": null,
+      "min_hist": 58990.0,
       "nombre": "Audífonos Gamer Inalámbricos Redragon Zeus Pro H510-PRO Bluetooth Soni",
       "precio": 58990.0,
+      "tarjeta": null,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-zeus-h510-pro-blanco",
       "variante": "pro wireless"
