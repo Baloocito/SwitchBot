@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 634,
+  "fisicos": 635,
   "pendientes": 4,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-26T14:16:43Z",
+  "revision": "2026-10-26T20:17:52Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -106,11 +106,12 @@
     },
     {
       "juego": "Borderlands",
-      "linea": "🟢 <b>Borderlands</b> — 📦 3 desde $24.990 · 🎮 4 desde US$4.27\n   🟢 Borderlands: Game of the Year Edition −80%",
+      "linea": "🟢 <b>Borderlands</b> — 📦 4 desde $24.990 · 🎮 4 desde US$4.27\n   🟢 Borderlands: Game of the Year Edition −80%",
       "nombres": [
         "borderlands 3 ultimate edition",
         "borderlands game of the year edition",
         "borderlands the handsome collection",
+        "coleccion legendaria borderlands 2k",
         "new tales from the borderlands"
       ],
       "orden": 1,
@@ -173,7 +174,7 @@
     },
     {
       "juego": "Civilization",
-      "linea": "🟢 <b>Civilization</b> — 📦 3 desde $34.990 · 🎮 3 desde US$4.22\n   🟢 Sid Meier’s Civilization VI −80%",
+      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $55.990 · 🎮 3 desde US$4.22\n   🟢 Sid Meier’s Civilization VI −80%",
       "nombres": [
         "civilization vii edicion",
         "sid meiers civilization vi",
@@ -197,7 +198,7 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000 · 🎮 3 desde US$12.48\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 6 desde $28.000 · 🎮 3 desde US$12.48\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
       "nombres": [
         "crash bandicoot 4 its about time",
         "crash bandicoot n sane trilogy",
@@ -320,7 +321,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 20 desde $24.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
         "dragon quest",
         "dragon quest builders",
@@ -339,13 +340,12 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $35.990\n   🟢 EA SPORTS FC 26",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 7 desde $35.990\n   🟢 EA SPORTS FC 26",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
         "ea sports fc 26",
-        "ea sports fc 27",
-        "fifa 21 electronic arts"
+        "ea sports fc 27"
       ],
       "orden": 1,
       "slug": "ea-sports-fc"
@@ -436,7 +436,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.990\n   🟢 Hogwarts Legacy",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 2 desde $59.990\n   🟢 Hogwarts Legacy",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -779,7 +779,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $49.990 · 🎮 170 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $49.990 · 🎮 174 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "ace angler fishing spirits",
         "ace attorney anthology",
@@ -798,6 +798,7 @@
         "bioshock 2 remastered",
         "bioshock infinite the complete edition",
         "bioshock the collection",
+        "blasphemous",
         "blasphemous blasphemous 2 bundle",
         "bleak sword dx",
         "borderlands collection pandoras box",
@@ -842,6 +843,7 @@
         "human fall flat",
         "i chu chibi edition",
         "inscryption",
+        "inside",
         "into the breach",
         "jojos bizarre adventure all star battle r",
         "jujutsu kaisen cursed clash",
@@ -850,6 +852,7 @@
         "knight vs giant the broken excalibur",
         "labyrinth of galleria the moon society",
         "labyrinth of zangetsu",
+        "limbo",
         "little big workshop",
         "little nightmares complete edition",
         "little nightmares enhanced edition complete edition",
@@ -859,6 +862,7 @@
         "monster hunter stories deluxe collection",
         "moonlighter",
         "mosaic",
+        "moving out 2",
         "moving out moving out 2 bundle",
         "mutazione",
         "namco museum archives vol 2",
@@ -954,7 +958,7 @@
     },
     {
       "juego": "Overcooked",
-      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $44.990 · 🎮 1 desde US$2.40\n   🟢 Overcooked Special Edition −76%",
+      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $44.990 · 🎮 2 desde US$2.40\n   🟢 Overcooked Special Edition −76%",
       "nombres": [
         "overcooked 2",
         "overcooked all you can eat",
@@ -1214,7 +1218,7 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $34.900\n   🟢 Stardew Valley",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 1 desde $49.900\n   🟢 Stardew Valley:",
       "nombres": [
         "stardew valley"
       ],
@@ -1401,23 +1405,21 @@
     },
     {
       "juego": "Ys",
-      "linea": "🟢 <b>Ys</b> — 📦 5 desde $54.990\n   🟢 Ys Ix: Monstrom Nox - Pact Edition - Sniper",
+      "linea": "🟢 <b>Ys</b> — 📦 4 desde $54.990\n   🟢 Ys Ix: Monstrom Nox - Pact Edition - Sniper",
       "nombres": [
         "ys ix monstrom nox pact edition sniper",
         "ys ix monstrum nox",
         "ys viii lacrimosa of dana",
-        "ys x nordics",
-        "ys x proud nordics"
+        "ys x nordics"
       ],
       "orden": 1,
       "slug": "ys"
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −12%",
+      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −12%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
-        "oled zelda tears of the kingdom japan specs",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
@@ -1428,5 +1430,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 703
+  "total": 701
 }
