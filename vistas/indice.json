@@ -1,20 +1,19 @@
 {
   "evento": null,
   "fallos": {
-    "Lider": 1,
     "PC Factory": 12,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 622,
-  "pendientes": 0,
+  "fisicos": 629,
+  "pendientes": 3,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-27T08:18:11Z",
+  "revision": "2026-10-27T14:18:21Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -60,7 +59,7 @@
     },
     {
       "juego": "Astral Chain",
-      "linea": "🟠 <b>Astral Chain</b> — 📦 1 desde $97.990",
+      "linea": "🟠 <b>Astral Chain</b> — 📦 1 desde $99.990",
       "nombres": [
         "astral chain"
       ],
@@ -107,7 +106,7 @@
     },
     {
       "juego": "Borderlands",
-      "linea": "🟢 <b>Borderlands</b> — 📦 3 desde $24.990 · 🎮 4 desde US$4.27\n   🟢 Borderlands: Game of the Year Edition −80%",
+      "linea": "🟢 <b>Borderlands</b> — 📦 4 desde $24.990 · 🎮 4 desde US$4.27\n   🟢 Borderlands: Game of the Year Edition −80%",
       "nombres": [
         "borderlands 3 ultimate edition",
         "borderlands game of the year edition",
@@ -132,11 +131,11 @@
     },
     {
       "juego": "Captain Toad",
-      "linea": "⚪ <b>Captain Toad</b> — 📦 1 desde $44.990",
+      "linea": "🟢 <b>Captain Toad</b> — 📦 1 desde $39.990\n   🟢 Captain Toad: Treasure Tracker",
       "nombres": [
         "captain toad treasure tracker"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "captain-toad"
     },
     {
@@ -199,7 +198,7 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000 · 🎮 3 desde US$12.09\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 6 desde $28.000 · 🎮 3 desde US$12.09\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
       "nombres": [
         "crash bandicoot 4 its about time",
         "crash bandicoot n sane trilogy",
@@ -280,9 +279,8 @@
     },
     {
       "juego": "Donkey Kong",
-      "linea": "🟢 <b>Donkey Kong</b> — 📦 5 desde $44.000\n   🟢 Donkey Kong Bananza",
+      "linea": "🟢 <b>Donkey Kong</b> — 📦 4 desde $44.000\n   🟢 Donkey Kong Bananza",
       "nombres": [
-        "controlador inalambrico turtle beach rematch donkey kong",
         "donkey kong bananza",
         "donkey kong country returns hd",
         "donkey kong country tropical freeze"
@@ -341,12 +339,14 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 7 desde $35.990\n   🟢 EA SPORTS FC 26",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 9 desde $35.990\n   🟢 EA SPORTS FC 26",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
         "ea sports fc 26",
-        "ea sports fc 27"
+        "ea sports fc 27",
+        "fifa 21 electronic arts",
+        "fifa 22 de electronic arts"
       ],
       "orden": 1,
       "slug": "ea-sports-fc"
@@ -363,11 +363,10 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 CRISIS CORE –FINAL FANTASY VII– REUNION",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 CRISIS CORE –FINAL FANTASY VII– REUNION",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
-        "final fantasy ix",
         "final fantasy resonance",
         "final fantasy tactics the ivalice chronicles",
         "final fantasy vi",
@@ -416,7 +415,7 @@
     },
     {
       "juego": "Hades",
-      "linea": "🟢 <b>Hades</b> — 📦 3 desde $44.990\n   🟢 Hades II",
+      "linea": "🟢 <b>Hades</b> — 📦 4 desde $44.990\n   🟢 Hades II",
       "nombres": [
         "hades",
         "hades ii"
@@ -426,8 +425,9 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 1 desde $89.990 · 🎮 2 desde US$10.54\n   🟢 Hitman: Blood Money — Reprisal −50%",
+      "linea": "🟢 <b>Hitman</b> — 📦 2 desde $75.990 · 🎮 2 desde US$10.54\n   🟢 Hitman: Blood Money — Reprisal −50%",
       "nombres": [
+        "game solutions 2 go hitman world of assassination",
         "hitman absolution nintendo switch 2 edition",
         "hitman blood money reprisal",
         "hitman world of assassination signature edition"
@@ -476,7 +476,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Ubisoft Just Dance 2019 −17%",
+      "linea": "🟢 <b>Just Dance</b> — 📦 17 desde $19.900\n   🟢 Ubisoft Just Dance 2019 −17%",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -487,6 +487,7 @@
         "just dance 2025",
         "just dance 2026 limited edition",
         "just dance decades of hits limited edition",
+        "pulseras para just dance y zumba",
         "ubisoft just dance 2019",
         "ubisoft just dance 2020",
         "ubisoft just dance 2021",
@@ -498,8 +499,9 @@
     },
     {
       "juego": "Katamari",
-      "linea": "🟢 <b>Katamari</b> — 📦 2 desde $34.990\n   🟢 Once Upon A KATAMARI",
+      "linea": "🟢 <b>Katamari</b> — 📦 3 desde $34.990\n   🟢 Once Upon A KATAMARI",
       "nombres": [
+        "bandai katamari damacy encore",
         "once upon a katamari",
         "we love katamari reroll royal reverie"
       ],
@@ -589,6 +591,7 @@
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
+        "mario kart live home circuit mario set",
         "mario luigi brothership",
         "mario party superstars",
         "mario rabbids kingdom battle",
@@ -603,8 +606,7 @@
         "paper mario the thousand year door",
         "super mario party",
         "super mario party jamboree",
-        "super mario party jamboree jamboree tv",
-        "ubisoft mario rabbids chispas de esperanza"
+        "super mario party jamboree jamboree tv"
       ],
       "orden": 1,
       "slug": "mario"
@@ -629,8 +631,9 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 🎮 1 desde US$13.67\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$13.67\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
+        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -732,9 +735,10 @@
     },
     {
       "juego": "NieR",
-      "linea": "🟢 <b>NieR</b> — 📦 1 desde $44.900\n   🟢 NieR:Automata The End of YoRHa Edition",
+      "linea": "🟢 <b>NieR</b> — 📦 2 desde $44.900\n   🟢 NieR:Automata The End of YoRHa Edition",
       "nombres": [
-        "nier automata the end of yorha edition"
+        "nier automata the end of yorha edition",
+        "square enix nier automata para region eu libre"
       ],
       "orden": 1,
       "slug": "nier"
@@ -761,7 +765,7 @@
     },
     {
       "juego": "One Piece",
-      "linea": "🟢 <b>One Piece</b> — 📦 1 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
+      "linea": "🟢 <b>One Piece</b> — 📦 2 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
       "nombres": [
         "one piece odyssey deluxe edition"
       ],
@@ -779,7 +783,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $49.990 · 🎮 171 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $49.990 · 🎮 172 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "ace angler fishing spirits",
         "ace attorney anthology",
@@ -901,6 +905,7 @@
         "shadow labyrinth nintendo switch 2 edition",
         "shinsekai into the depths",
         "since memories off the starry sky",
+        "slime rancher plortable edition",
         "snowrunner",
         "spelunky 2",
         "spidersaurs",
@@ -955,10 +960,11 @@
     },
     {
       "juego": "Overcooked",
-      "linea": "🟢 <b>Overcooked</b> — 📦 2 desde $44.990 · 🎮 2 desde US$2.21\n   🟢 Overcooked Special Edition −76%",
+      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $44.990 · 🎮 2 desde US$2.21\n   🟢 Overcooked Special Edition −76%",
       "nombres": [
         "overcooked 2",
         "overcooked all you can eat",
+        "overcooked de fireshine games",
         "overcooked special edition"
       ],
       "orden": 1,
@@ -990,9 +996,8 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 9 desde $35.000\n   🟢 Pokémon Brilliant Diamond",
+      "linea": "🟢 <b>Pokémon</b> — 📦 8 desde $35.000\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
-        "pokemon brilliant diamond",
         "pokemon legends arceus",
         "pokemon legends za 2",
         "pokemon scarlet",
@@ -1047,7 +1052,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $39.900 · 🎮 5 desde US$6.11\n   🟢 Resident Evil Revelations −60%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $39.900 · 🎮 5 desde US$6.11\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 2 deluxe edition",
@@ -1072,8 +1077,9 @@
     },
     {
       "juego": "Ring Fit",
-      "linea": "🟢 <b>Ring Fit</b> — 📦 1 desde $4.510\n   🟢 Set Proteccion Ring Fit",
+      "linea": "🟢 <b>Ring Fit</b> — 📦 2 desde $4.510\n   🟢 Set Proteccion Ring Fit",
       "nombres": [
+        "nintendo ring fit adventure",
         "set proteccion ring fit"
       ],
       "orden": 1,
@@ -1213,7 +1219,7 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $34.900\n   🟢 Stardew Valley",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 1 desde $49.900\n   🟢 Stardew Valley:",
       "nombres": [
         "stardew valley"
       ],
@@ -1222,7 +1228,7 @@
     },
     {
       "juego": "Story of Seasons",
-      "linea": "🟢 <b>Story of Seasons</b> — 📦 20 desde $29.990\n   🟢 DORAEMON STORY OF SEASONS",
+      "linea": "🟢 <b>Story of Seasons</b> — 📦 21 desde $29.990\n   🟢 DORAEMON STORY OF SEASONS",
       "nombres": [
         "doraemon story of seasons",
         "harvest moon edicion especial",
@@ -1237,6 +1243,7 @@
         "natsume harvest moon edicion completa",
         "natsume harvest moon edicion especial",
         "story of seasons a wonderful life",
+        "story of seasons de xseed games",
         "story of seasons gran bazar",
         "story of seasons grand bazaar",
         "story of seasons pioneers of olive town"
@@ -1259,8 +1266,9 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
+        "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
       ],
@@ -1269,7 +1277,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 18 desde $29.990\n   🟢 Nintendo Switch Sports Resort −6%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 19 desde $29.990\n   🟢 Nintendo Switch Sports Resort −6%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1285,6 +1293,7 @@
         "merge games instant sports plus",
         "nintendo switch sports",
         "nintendo switch sports resort",
+        "outright games gigantosaurus dino sports",
         "sports camp a 35 game adventure",
         "sports motion controls",
         "sports party"
@@ -1294,9 +1303,8 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 7 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
+      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
       "nombres": [
-        "iam8bit tales of the shire",
         "tales of arise beyond the dawn edition",
         "tales of autumn",
         "tales of berseria remastered",
@@ -1322,12 +1330,13 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 10 desde $59.900\n   🟢 Legend of Heroes Trails to Azure Deluxe Ed - Sniper",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $29.990\n   🟢 Legend of Heroes Trails to Azure Deluxe Ed - Sniper",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
-        "nis america the legend of heroes trails into reverie",
+        "nis america the legend of heroes trails to azure",
+        "nis america trails from zero trails to azure",
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
         "the legend of nayuta boundless trails deluxe ed sniper",
@@ -1366,7 +1375,7 @@
     },
     {
       "juego": "Xenoblade",
-      "linea": "🟢 <b>Xenoblade</b> — 📦 8 desde $34.990\n   🟢 Xenoblade Chronicles 2: Torna ~ The Golden Country",
+      "linea": "🟢 <b>Xenoblade</b> — 📦 9 desde $34.990\n   🟢 Xenoblade Chronicles 2: Torna ~ The Golden Country",
       "nombres": [
         "xenoblade chronicles 2",
         "xenoblade chronicles 2 torna the golden country",
@@ -1398,10 +1407,11 @@
     },
     {
       "juego": "Ys",
-      "linea": "🟢 <b>Ys</b> — 📦 4 desde $54.990\n   🟢 Ys Ix: Monstrom Nox - Pact Edition - Sniper",
+      "linea": "🟢 <b>Ys</b> — 📦 5 desde $54.990\n   🟢 Ys Ix: Monstrom Nox - Pact Edition - Sniper",
       "nombres": [
         "ys ix monstrom nox pact edition sniper",
         "ys ix monstrum nox",
+        "ys memoire revelations in celceta",
         "ys viii lacrimosa of dana",
         "ys x nordics"
       ],
@@ -1410,7 +1420,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda breath of the wild",
@@ -1423,5 +1433,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 693
+  "total": 705
 }
