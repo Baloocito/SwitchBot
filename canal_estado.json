@@ -111,6 +111,11 @@
         "fisicos",
         "ultima"
       ]
+    },
+    "2026-10-27": {
+      "bombazos": 1,
+      "posts": 1,
+      "slots": []
     }
   },
   "posts": [
@@ -571,6 +576,14 @@
       ],
       "message_id": 58,
       "slot": "ultima"
+    },
+    {
+      "fecha": "2026-10-27T08:35-03:00",
+      "ids": [
+        "a147475980"
+      ],
+      "message_id": 59,
+      "slot": "bombazo"
     }
   ],
   "publicados": {
@@ -880,7 +893,7 @@
       "slot": "top"
     },
     "a147475980": {
-      "fecha": "2026-10-20",
+      "fecha": "2026-10-27",
       "precio": 7000,
       "slot": "bombazo"
     },
@@ -1187,5 +1200,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-10-26T21:05:33.916224-03:00"
+  "ultimo_post": "2026-10-27T08:35:33.341034-03:00"
 }
