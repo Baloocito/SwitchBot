@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:bfcc2e7064",
+        "text": "⚙️ Hades S2 · $44.000"
+      },
+      "id": "bfcc2e7064",
+      "nivel": "compra",
+      "nombre": "Hades",
+      "pct": 11.8,
+      "texto": "🟢 <b>COMPRA YA</b> · −12%\n<b>Hades</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$44.000</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $5.900 frente a su precio típico ($49.900)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $44.000 (27 oct, TodoJuegos) · típico $49.900 · máximo $49.900\n   ████████▁  últimos 9 días\n🎮 Digital: US$15.91 ≈ $15.844 en 🇨🇱 Chile\n   ➜ El digital es $28.156 más barato, pero no se puede revender\n📉 Precio bajó 12% en las últimas 2 semanas\n🛒 <a href=\"https://listado.mercadolibre.cl/hades-switch-2\">MercadoLibre</a>: nuevo ~$59.445 (6 avisos)\n💰 <b>Reventa</b>: lo compras a $44.000 y nuevo se vende a ~$59.445 (+$15.445 antes de comisiones)\n🔎 Confianza media: 1 tienda y 9 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Hades-2/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:c862cde6ac",
         "text": "⚙️ Hades II S2 · $44.990"
       },
@@ -10,18 +22,6 @@
       "nombre": "Hades II",
       "pct": 0,
       "texto": "🟢 <b>COMPRA YA</b>\n<b>Hades II</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$44.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $64.990» (−31%)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/149516271/hades-ii-switch-2\">$44.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://bestmart.cl/products/juego-kirby-hades-ii-nintendo-switch-2\">$54.990 Bestmart</a> (+$10.000)\n   🥉 <a href=\"https://8-bits.cl/products/hades-ii-nintendo-switch-2\">$54.990 8 Bits</a> (+$10.000)\n   ▫️ <a href=\"https://www.lider.cl/ip/videojuegos/hades-ii-nintendo-switch-2/00004549690613\">$57.990 Lider</a> 🏪 BESTMART (+$13.000)\n   ▫️ <a href=\"https://www.paris.cl/juego-hades-ii-nintendo-switch-2-MKYFABLPV2.html\">$57.990 Paris</a> 🏪 Bestmart Ltda. (+$13.000)\n📈 Mínimo $44.990 (14 oct, Falabella) · típico $44.990 · máximo $44.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 14 días\n🎮 Digital: US$19.07 ≈ $18.991 en 🇨🇱 Chile\n   ➜ El digital es $25.999 más barato, pero no se puede revender\n💼 <b>Margen</b>: la otra tienda lo vende a $54.990 → ~$10.000 (18%) de diferencia\n🔎 Confianza alta: 5 tiendas y 14 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/149516271/hades-ii-switch-2\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:bfcc2e7064",
-        "text": "⚙️ Hades S2 · $49.900"
-      },
-      "id": "bfcc2e7064",
-      "nivel": "compra",
-      "nombre": "Hades",
-      "pct": 0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Hades</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$49.900</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.900 (19 oct, TodoJuegos) · típico $49.900 · máximo $49.900\n   ▄▄▄▄▄▄▄▄▄  últimos 9 días\n🎮 Digital: US$15.91 ≈ $15.844 en 🇨🇱 Chile\n   ➜ El digital es $34.056 más barato, pero no se puede revender\n🛒 <a href=\"https://listado.mercadolibre.cl/hades-switch-2\">MercadoLibre</a>: nuevo ~$59.445 (6 avisos)\n💰 <b>Reventa</b>: lo compras a $49.900 y nuevo se vende a ~$59.445 (+$9.545 antes de comisiones)\n🔎 Confianza media: 1 tienda y 9 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Hades-2/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
     },
     {
@@ -50,5 +50,5 @@
     }
   ],
   "juego": "Hades",
-  "revision": "2026-10-27T14:18:21Z"
+  "revision": "2026-10-27T20:17:53Z"
 }
