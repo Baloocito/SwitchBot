@@ -1,11 +1,12 @@
 {
   "evento": null,
   "fallos": {
+    "Lider": 1,
     "PC Factory": 12,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 637,
+  "fisicos": 622,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +14,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-27T02:18:11Z",
+  "revision": "2026-10-27T08:18:11Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -106,7 +107,7 @@
     },
     {
       "juego": "Borderlands",
-      "linea": "🟢 <b>Borderlands</b> — 📦 4 desde $24.990 · 🎮 4 desde US$4.27\n   🟢 Borderlands: Game of the Year Edition −80%",
+      "linea": "🟢 <b>Borderlands</b> — 📦 3 desde $24.990 · 🎮 4 desde US$4.27\n   🟢 Borderlands: Game of the Year Edition −80%",
       "nombres": [
         "borderlands 3 ultimate edition",
         "borderlands game of the year edition",
@@ -131,11 +132,11 @@
     },
     {
       "juego": "Captain Toad",
-      "linea": "🟢 <b>Captain Toad</b> — 📦 1 desde $39.990\n   🟢 Captain Toad: Treasure Tracker",
+      "linea": "⚪ <b>Captain Toad</b> — 📦 1 desde $44.990",
       "nombres": [
         "captain toad treasure tracker"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "captain-toad"
     },
     {
@@ -174,7 +175,7 @@
     },
     {
       "juego": "Civilization",
-      "linea": "🟢 <b>Civilization</b> — 📦 3 desde $34.990 · 🎮 3 desde US$4.20\n   🟢 Sid Meier’s Civilization VI −80%",
+      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $55.990 · 🎮 3 desde US$4.20\n   🟢 Sid Meier’s Civilization VI −80%",
       "nombres": [
         "civilization vii edicion",
         "sid meiers civilization vi",
@@ -291,13 +292,12 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟢 <b>Doom</b> — 📦 4 desde $44.990 · 🎮 2 desde US$3.45\n   🟢 DOOM 3 −60%",
+      "linea": "🟢 <b>Doom</b> — 📦 3 desde $44.990 · 🎮 2 desde US$3.45\n   🟢 DOOM 3 −60%",
       "nombres": [
         "doom",
         "doom 3",
         "doom 64",
-        "doom doom ii",
-        "the last kids on earth and the staff of doom"
+        "doom doom ii"
       ],
       "orden": 1,
       "slug": "doom"
@@ -416,7 +416,7 @@
     },
     {
       "juego": "Hades",
-      "linea": "🟢 <b>Hades</b> — 📦 4 desde $44.990\n   🟢 Hades II",
+      "linea": "🟢 <b>Hades</b> — 📦 3 desde $44.990\n   🟢 Hades II",
       "nombres": [
         "hades",
         "hades ii"
@@ -566,7 +566,7 @@
     },
     {
       "juego": "lollipop",
-      "linea": "🟢 <b>lollipop</b> — 📦 1 desde $34.990\n   🟢 LOLLIPOP CHAINSAW RePOP −7%",
+      "linea": "🟢 <b>lollipop</b> — 📦 1 desde $34.990\n   🟢 LOLLIPOP CHAINSAW RePOP",
       "nombres": [
         "lollipop chainsaw repop"
       ],
@@ -585,11 +585,10 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 22 desde $29.990\n   🟢 Mario Golf: Super Rush",
+      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario Golf: Super Rush",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
-        "mario kart live home circuit mario set",
         "mario luigi brothership",
         "mario party superstars",
         "mario rabbids kingdom battle",
@@ -677,7 +676,7 @@
     },
     {
       "juego": "Metroid",
-      "linea": "🟢 <b>Metroid</b> — 📦 5 desde $34.990\n   🟢 Metroid Prime Remastered −7%",
+      "linea": "🟢 <b>Metroid</b> — 📦 5 desde $34.990\n   🟢 Metroid Dread",
       "nombres": [
         "metroid dread",
         "metroid prime 4 beyond",
@@ -780,7 +779,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $49.990 · 🎮 174 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $49.990 · 🎮 171 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "ace angler fishing spirits",
         "ace attorney anthology",
@@ -901,7 +900,6 @@
         "shadow labyrinth",
         "shadow labyrinth nintendo switch 2 edition",
         "shinsekai into the depths",
-        "shotgun king the final checkmate",
         "since memories off the starry sky",
         "snowrunner",
         "spelunky 2",
@@ -936,8 +934,6 @@
         "trials rising standard edition",
         "trivial pursuit live 2",
         "tunic",
-        "turnip boy commits tax evasion",
-        "turnip boy robs a bank",
         "two point campus",
         "ultra kaiju monster rancher",
         "undertale",
@@ -959,11 +955,10 @@
     },
     {
       "juego": "Overcooked",
-      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $44.990 · 🎮 2 desde US$2.21\n   🟢 Overcooked Special Edition −76%",
+      "linea": "🟢 <b>Overcooked</b> — 📦 2 desde $44.990 · 🎮 2 desde US$2.21\n   🟢 Overcooked Special Edition −76%",
       "nombres": [
         "overcooked 2",
         "overcooked all you can eat",
-        "overcooked de fireshine games",
         "overcooked special edition"
       ],
       "orden": 1,
@@ -995,8 +990,9 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 8 desde $35.000\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 9 desde $35.000\n   🟢 Pokémon Brilliant Diamond",
       "nombres": [
+        "pokemon brilliant diamond",
         "pokemon legends arceus",
         "pokemon legends za 2",
         "pokemon scarlet",
@@ -1021,7 +1017,7 @@
     },
     {
       "juego": "Pragmata",
-      "linea": "🟢 <b>Pragmata</b> — 📦 2 desde $64.000\n   🟢 PRAGMATA −10%",
+      "linea": "🟢 <b>Pragmata</b> — 📦 2 desde $64.000\n   🟢 PRAGMATA",
       "nombres": [
         "pragmata"
       ],
@@ -1067,7 +1063,7 @@
     },
     {
       "juego": "Resident Evil Requiem",
-      "linea": "🟢 <b>Resident Evil Requiem</b> — 📦 2 desde $64.900\n   🟢 Resident Evil Requiem −21%",
+      "linea": "🟢 <b>Resident Evil Requiem</b> — 📦 2 desde $64.900\n   🟢 Resident Evil Requiem",
       "nombres": [
         "resident evil requiem"
       ],
@@ -1076,9 +1072,8 @@
     },
     {
       "juego": "Ring Fit",
-      "linea": "🟢 <b>Ring Fit</b> — 📦 2 desde $4.510\n   🟢 Set Proteccion Ring Fit",
+      "linea": "🟢 <b>Ring Fit</b> — 📦 1 desde $4.510\n   🟢 Set Proteccion Ring Fit",
       "nombres": [
-        "nintendo ring fit adventure",
         "set proteccion ring fit"
       ],
       "orden": 1,
@@ -1179,7 +1174,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990\n   🟢 It Takes Two",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990\n   🟢 It Takes Two",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1218,7 +1213,7 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 1 desde $49.900\n   🟢 Stardew Valley:",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $34.900\n   🟢 Stardew Valley",
       "nombres": [
         "stardew valley"
       ],
@@ -1274,7 +1269,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 19 desde $29.990\n   🟢 Nintendo Switch Sports Resort −6%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 18 desde $29.990\n   🟢 Nintendo Switch Sports Resort −6%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1290,7 +1285,6 @@
         "merge games instant sports plus",
         "nintendo switch sports",
         "nintendo switch sports resort",
-        "outright games gigantosaurus dino sports",
         "sports camp a 35 game adventure",
         "sports motion controls",
         "sports party"
@@ -1300,9 +1294,8 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 8 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
+      "linea": "🟢 <b>Tales of</b> — 📦 7 desde $39.900 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
       "nombres": [
-        "bandai namco tales of berseria remasterizado",
         "iam8bit tales of the shire",
         "tales of arise beyond the dawn edition",
         "tales of autumn",
@@ -1329,7 +1322,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 10 desde $29.990\n   🟢 Legend of Heroes Trails to Azure Deluxe Ed - Sniper",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 10 desde $59.900\n   🟢 Legend of Heroes Trails to Azure Deluxe Ed - Sniper",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
@@ -1417,7 +1410,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Link’s Awakening −12%",
+      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda breath of the wild",
@@ -1430,5 +1423,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 703
+  "total": 693
 }

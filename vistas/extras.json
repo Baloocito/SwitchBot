@@ -129,12 +129,13 @@
       "avisos": [
         {
           "precio": 38990.0,
+          "tarjeta": 33990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/12049401/audifonos-over-ear-usb-headset-h390-logitech"
         }
       ],
       "marca": "logitech g",
-      "min_hist": null,
+      "min_hist": 38990.0,
       "nombre": "Audífonos Over-Ear USB Headset H390",
       "pct": 0,
       "precio": 38990.0,
@@ -546,7 +547,7 @@
         }
       ],
       "marca": "SteelSeries",
-      "min_hist": null,
+      "min_hist": 89990,
       "nombre": "Audífonos Gamer Steelseries Arctis Nova 1 Black Ps5 Negro (DUST2GG)",
       "pct": 0,
       "precio": 89990,
@@ -797,7 +798,7 @@
         }
       ],
       "marca": "Logitech G",
-      "min_hist": null,
+      "min_hist": 215990,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (SIPOON",
       "pct": 0,
       "precio": 215990,
@@ -926,7 +927,7 @@
       "min_hist": 309990.0,
       "modelo": "Switch",
       "nombre": "Consola Nintendo Switch Neon + Super Mario Bros. Wonder + 3 meses Nintendo Switc",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 309990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-modelo-super-mario-bros-wonder-bundle-descarga-del-juego-completo-3-meses-de-suscripcion-a-nintendo-switch-online-lt2"
@@ -943,7 +944,7 @@
       "min_hist": 349990.0,
       "modelo": "Switch",
       "nombre": "Consola Nintendo Switch Neon + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 349990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
@@ -960,7 +961,7 @@
       "min_hist": 349990.0,
       "modelo": "Switch",
       "nombre": "Consola Switch 1 1 Neon Bund",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 349990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
@@ -968,29 +969,24 @@
     {
       "avisos": [
         {
-          "precio": 609990.0,
-          "tienda": "Lider",
-          "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
+          "precio": 599990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-2-ea-sports-fc-27-626979999.html"
         },
         {
           "precio": 609990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-2-ea-sports-fc-27-bundle"
-        },
-        {
-          "precio": 609990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-2-ea-sports-fc-27-626979999.html"
         }
       ],
       "bundle": true,
       "min_hist": 599990.0,
       "modelo": "Switch 2",
-      "nombre": "Nintendo Switch 2 + EA SPORTS FC 27",
-      "pct": 0.0,
-      "precio": 609990.0,
-      "tienda": "Lider",
-      "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
+      "nombre": "Consola Nintendo Switch 2 + EA SPORTS FC 27 Bundle",
+      "pct": 1.6,
+      "precio": 599990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-2-ea-sports-fc-27-626979999.html"
     },
     {
       "avisos": [
@@ -1013,8 +1009,8 @@
       "bundle": false,
       "min_hist": 599990.0,
       "modelo": "Switch 2",
-      "nombre": "Consola Switch 2 Mkw",
-      "pct": 1.6,
+      "nombre": "Switch 2",
+      "pct": -1.7,
       "precio": 609990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/17448346/HW-SWITCH-2-SYSTEM-LT2-SOLUS"
@@ -1039,28 +1035,6 @@
     {
       "avisos": [
         {
-          "precio": 649990.0,
-          "tienda": "Lider",
-          "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-nintendo-switch-sports-resort-bundle/00004549688681"
-        },
-        {
-          "precio": 679990.0,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/consola-nintendo-switch-2-nintendo-switch-sports-resort"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 649990.0,
-      "modelo": "Switch 2",
-      "nombre": "Nintendo Switch 2 + Nintendo Switch Sports Resort Bundle",
-      "pct": 4.4,
-      "precio": 649990.0,
-      "tienda": "Lider",
-      "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-nintendo-switch-sports-resort-bundle/00004549688681"
-    },
-    {
-      "avisos": [
-        {
           "precio": 659990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-2-juego-pokemon-legends-z-a"
@@ -1070,10 +1044,27 @@
       "min_hist": 659990.0,
       "modelo": "Switch 2",
       "nombre": "Pack Consola Nintendo Switch 2 + juego Pokémon Legends: Z-A",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 659990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-2-juego-pokemon-legends-z-a"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 679990.0,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/consola-nintendo-switch-2-nintendo-switch-sports-resort"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 649990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Nintendo Switch 2 + Nintendo Switch Sports Resort",
+      "pct": 0,
+      "precio": 679990.0,
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/consola-nintendo-switch-2-nintendo-switch-sports-resort"
     },
     {
       "avisos": [
@@ -1087,7 +1078,7 @@
       "min_hist": 689990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Nintendo Switch 2 + FC27",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 689990.0,
       "tienda": "Sniper",
       "url": "https://sniper.cl/products/consola-nintendo-switch-2-fc27"
@@ -1104,7 +1095,7 @@
       "min_hist": 689990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Nintendo Switch 2 + Mario Kart World + 3 Meses Nintendo Switch Online",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 689990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-2-mario-kart-world-3-meses-nintendo-switch-online-600447999.html"
@@ -1138,7 +1129,7 @@
       "min_hist": 259990.0,
       "modelo": "Switch Lite",
       "nombre": "Consola Nintendo Switch Lite - Calipso",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 259990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-portatil-nintendo-switch-lite-calipso"
@@ -1160,7 +1151,7 @@
       "min_hist": 349990.0,
       "modelo": "Switch OLED",
       "nombre": "Consola Switch Oled White Bu",
-      "pct": 14.6,
+      "pct": 0.0,
       "precio": 349990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-blanco"
@@ -1177,7 +1168,7 @@
       "min_hist": 379990.0,
       "modelo": "Switch OLED",
       "nombre": "Consola Nintendo Switch OLED + Super Mario Bros. Wonder + 3 Meses Nintendo Switc",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 379990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nintendo-switch-online"
@@ -1194,7 +1185,7 @@
       "min_hist": 399990.0,
       "modelo": "Switch OLED",
       "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 409990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
@@ -1214,6 +1205,12 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
+        },
+        {
+          "precio": 88990,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (MATHOGAMES CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-2937537034"
         }
       ],
       "gb": 256,
@@ -1403,8 +1400,26 @@
       "url": "https://articulo.mercadolibre.cl/MLC-4619519486"
     }
   ],
-  "revision": "2026-10-27T02:18:11Z",
+  "revision": "2026-10-27T08:18:11Z",
   "seguimientos": [
+    {
+      "avisos": [
+        {
+          "precio": 46990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-4590052028"
+        }
+      ],
+      "item": "Redragon Zeus",
+      "min_hist": null,
+      "nombre": "Auriculares para juegos Redragon Zeus Lite P3, negros, H510-lt (PROGAM",
+      "precio": 46990,
+      "tarjeta": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-4590052028",
+      "variante": "lite"
+    },
     {
       "avisos": [
         {
