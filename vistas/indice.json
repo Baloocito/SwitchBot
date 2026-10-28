@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 638,
-  "pendientes": 0,
+  "fisicos": 637,
+  "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-28T02:22:26Z",
+  "revision": "2026-10-28T09:27:20Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -48,7 +48,7 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 4 desde $20.000\n   🟢 ASSASSIN’S CREED THE EZIO COLLECTION −18%",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 5 desde $20.000\n   🟢 Assassin's Creed III: Remastered −20%",
       "nombres": [
         "assassins creed iii remastered",
         "assassins creed the ezio collection",
@@ -59,11 +59,11 @@
     },
     {
       "juego": "Astral Chain",
-      "linea": "🟠 <b>Astral Chain</b> — 📦 1 desde $99.990",
+      "linea": "⚪ <b>Astral Chain</b> — 📦 1 desde $99.990",
       "nombres": [
         "astral chain"
       ],
-      "orden": 3,
+      "orden": 4,
       "slug": "astral-chain"
     },
     {
@@ -234,7 +234,7 @@
     },
     {
       "juego": "Dead Cells",
-      "linea": "🟢 <b>Dead Cells</b> — 📦 1 desde $32.900 · 🎮 1 desde US$9.34\n   🟢 Dead Cells −50%",
+      "linea": "🟢 <b>Dead Cells</b> — 📦 1 desde $34.990 · 🎮 1 desde US$9.34\n   🟢 Dead Cells −50%",
       "nombres": [
         "dead cells"
       ],
@@ -331,7 +331,7 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $35.990\n   🟢 EA SPORTS FC 27 −15%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $21.990\n   🟢 EA SPORTS FC 26 −39%",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
@@ -428,7 +428,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.000\n   🟢 Hogwarts Legacy −21%",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 2 desde $59.000\n   🟢 Hogwarts Legacy −21%",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -467,10 +467,12 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
+      "linea": "🟢 <b>Just Dance</b> — 📦 18 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
       "nombres": [
+        "just dance 20 1 mes de prueba gratuita",
         "just dance 2017",
         "just dance 2018",
+        "just dance 2020 ubisoft",
         "just dance 2021",
         "just dance 2022",
         "just dance 2024 edition",
@@ -522,9 +524,10 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $18.000 · 🎮 2 desde US$20.21\n   🟢 LEGO DC Super-Villains −21%",
+      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $16.000 · 🎮 2 desde US$20.21\n   🟢 LEGO DC Super-Villains −21%",
       "nombres": [
         "lego dc super villains",
+        "lego horizon adventures",
         "lego party",
         "lego party nintendo switch 2 edition",
         "lego worlds",
@@ -577,7 +580,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario Tennis Fever −33%",
+      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -723,11 +726,11 @@
     },
     {
       "juego": "NBA 2K",
-      "linea": "🟠 <b>NBA 2K</b> — 📦 1 desde $113.990",
+      "linea": "⚪ <b>NBA 2K</b> — 📦 1 desde $109.990",
       "nombres": [
         "nba 2k playgrounds 2"
       ],
-      "orden": 3,
+      "orden": 4,
       "slug": "nba-2k"
     },
     {
@@ -1142,7 +1145,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $29.990 · 🎮 6 desde US$7.07\n   🟢 Sonic Origins −70%",
+      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $20.000 · 🎮 6 desde US$7.07\n   🟢 Sonic Origins −70%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1200,7 +1203,7 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $28.000 · 🎮 10 desde US$5.66\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $28.000 · 🎮 10 desde US$5.66\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars battlefront classic collection",
@@ -1208,6 +1211,7 @@
         "star wars dark forces remaster",
         "star wars episode i jedi power battles",
         "star wars episode i racer",
+        "star wars jedi knight collection europeo",
         "star wars jedi knight jedi academy",
         "star wars knights of the old republic",
         "star wars knights of the old republic ii the sith lords",
@@ -1220,7 +1224,7 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $29.000\n   🟢 Stardew Valley −17%",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 1 desde $49.900\n   🟢 Stardew Valley:",
       "nombres": [
         "stardew valley"
       ],
@@ -1229,10 +1233,11 @@
     },
     {
       "juego": "Story of Seasons",
-      "linea": "🟢 <b>Story of Seasons</b> — 📦 20 desde $29.990\n   🟢 DORAEMON STORY OF SEASONS",
+      "linea": "🟢 <b>Story of Seasons</b> — 📦 21 desde $29.990\n   🟢 DORAEMON STORY OF SEASONS",
       "nombres": [
         "doraemon story of seasons",
         "harvest moon edicion especial",
+        "harvest moon light of hope edicion especial completa",
         "harvest moon light of hope europeo",
         "harvest moon light of hope se complete snipercl",
         "harvest moon light of hope special edition",
@@ -1330,11 +1335,12 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
+        "nis america the legend of heroes trails into reverie",
         "nis america the legend of heroes trails to azure",
         "nis america trails from zero trails to azure",
         "the legend of heroes trails from zero trails to azure deluxe edition",
@@ -1375,7 +1381,7 @@
     },
     {
       "juego": "Xenoblade",
-      "linea": "🟢 <b>Xenoblade</b> — 📦 8 desde $34.990\n   🟢 Xenoblade Chronicles 2 −15%",
+      "linea": "🟢 <b>Xenoblade</b> — 📦 9 desde $34.990\n   🟢 Xenoblade Chronicles 2 −15%",
       "nombres": [
         "xenoblade chronicles 2",
         "xenoblade chronicles 2 torna the golden country",
@@ -1434,5 +1440,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 709
+  "total": 716
 }
