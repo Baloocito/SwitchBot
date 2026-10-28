@@ -125,12 +125,13 @@
     },
     "2026-10-28": {
       "bombazos": 0,
-      "posts": 4,
+      "posts": 5,
       "slots": [
         "top",
         "pack",
         "tarde",
-        "fisicos"
+        "fisicos",
+        "memorias"
       ]
     }
   },
@@ -688,6 +689,12 @@
       ],
       "message_id": 68,
       "slot": "fisicos"
+    },
+    {
+      "fecha": "2026-10-28T20:05-03:00",
+      "ids": [],
+      "message_id": 69,
+      "slot": "memorias"
     }
   ],
   "publicados": {
@@ -1344,5 +1351,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-10-28T18:35:33.723705-03:00"
+  "ultimo_post": "2026-10-28T20:05:35.211491-03:00"
 }
