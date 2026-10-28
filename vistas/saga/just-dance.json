@@ -122,18 +122,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:789e95764e",
-        "text": "⚙️ Just Dance 2020 – Ubisoft · $69.990"
-      },
-      "id": "789e95764e",
-      "nivel": "regular",
-      "nombre": "Just Dance 2020 – Ubisoft",
-      "pct": 8.5,
-      "texto": "🟠 <b>PRECIO REGULAR</b> · −8%\n<b>Just Dance 2020 – Ubisoft</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 8% bajo la referencia\n   Ahorras $6.463 frente al «antes» que marca la tienda ($76.453)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.990 (24 oct, Lider) · máximo $74.990\n   █▁▁▁  últimos 4 días\n🔎 Confianza baja: una sola tienda y 4 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/just-dance-2020-para-nintendo-switch-ubisoft/00330721612553\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:ad46e39201",
         "text": "⚙️ Ubisoft Just Dance 2020 · $56.990"
       },
@@ -206,5 +194,5 @@
     }
   ],
   "juego": "Just Dance",
-  "revision": "2026-10-27T20:17:53Z"
+  "revision": "2026-10-28T02:22:26Z"
 }
