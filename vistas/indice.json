@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 636,
+  "fisicos": 642,
   "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-28T16:20:00Z",
+  "revision": "2026-10-28T22:17:32Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -68,16 +68,18 @@
     },
     {
       "juego": "Atelier",
-      "linea": "🟢 <b>Atelier</b> — 📦 10 desde $39.990\n   🟢 Atelier Dusk Trilogy Deluxe Pack",
+      "linea": "🟢 <b>Atelier</b> — 📦 12 desde $39.990\n   🟢 Atelier Dusk Trilogy Deluxe Pack",
       "nombres": [
         "atelier dusk trilogy deluxe pack",
         "atelier lulua the scion of arland",
         "atelier mysterious trilogy sniper",
         "atelier resleriana the red alchemist the white guardian",
         "atelier ryza 2 lost legends the secret fairy dx",
+        "atelier ryza 3 alchemist of the end the secret key dx",
         "atelier ryza 3 sniper",
         "atelier sophie 2 el alquimista de un sueno misterioso",
-        "atelier sophie 2 the alchemist of the mysterious dream"
+        "atelier sophie 2 the alchemist of the mysterious dream",
+        "atelier yumia the alchemist of memories the envisioned land"
       ],
       "orden": 1,
       "slug": "atelier"
@@ -188,8 +190,9 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 6 desde $28.000 · 🎮 3 desde US$12.28\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000 · 🎮 3 desde US$12.28\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
       "nombres": [
+        "crash 4 bandicoot",
         "crash bandicoot 4 its about time",
         "crash bandicoot n sane trilogy",
         "koch media crash bandicoot 4",
@@ -251,7 +254,7 @@
     },
     {
       "juego": "Digimon Story Time Stranger",
-      "linea": "🟢 <b>Digimon Story Time Stranger</b> — 📦 2 desde $59.000\n   🟢 Digimon Story Time Stranger −16%",
+      "linea": "🟢 <b>Digimon Story Time Stranger</b> — 📦 1 desde $79.990\n   🟢 Digimon Story Time Stranger",
       "nombres": [
         "digimon story time stranger"
       ],
@@ -427,7 +430,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 2 desde $59.000\n   🟢 Hogwarts Legacy −21%",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.000\n   🟢 Hogwarts Legacy −21%",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -466,9 +469,8 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 18 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
+      "linea": "🟢 <b>Just Dance</b> — 📦 17 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
       "nombres": [
-        "just dance 20 1 mes de prueba gratuita",
         "just dance 2017",
         "just dance 2018",
         "just dance 2020 ubisoft",
@@ -501,9 +503,10 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 1 desde $39.720\n   🟢 KINGDOM HEARTS Melody of Memory",
+      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 2 desde $39.720\n   🟢 KINGDOM HEARTS Melody of Memory",
       "nombres": [
-        "kingdom hearts melody of memory"
+        "kingdom hearts melody of memory",
+        "square enix kingdom hearts"
       ],
       "orden": 1,
       "slug": "kingdom-hearts"
@@ -578,7 +581,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
+      "linea": "🟢 <b>Mario</b> — 📦 20 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -782,7 +785,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $19.000 · 🎮 173 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $19.000 · 🎮 175 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "ace angler fishing spirits",
         "ace attorney anthology",
@@ -880,6 +883,8 @@
         "night in the woods",
         "nine sols",
         "ninja five o",
+        "no mans sky",
+        "no mans sky nintendo switch 2 edition",
         "olliolli world",
         "onimusha 1 2 pack",
         "pac man museum",
@@ -1054,7 +1059,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $34.000 · 🎮 5 desde US$6.21\n   🟢 Resident Evil Revelations −60%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $34.000 · 🎮 5 desde US$6.21\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 2 deluxe edition",
@@ -1221,7 +1226,7 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 1 desde $49.900\n   🟢 Stardew Valley:",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $29.000\n   🟢 Stardew Valley −17%",
       "nombres": [
         "stardew valley"
       ],
@@ -1268,9 +1273,8 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $49.000\n   🟢 Super Smash Bros. Ultimate −11%",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $49.000\n   🟢 Super Smash Bros. Ultimate −11%",
       "nombres": [
-        "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
       ],
@@ -1279,7 +1283,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 17 desde $29.990\n   🟢 Nintendo Switch Sports Resort −6%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 18 desde $29.990\n   🟢 Nintendo Switch Sports Resort −6%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1296,6 +1300,7 @@
         "nintendo switch sports resort",
         "outright games gigantosaurus dino sports",
         "sports camp a 35 game adventure",
+        "sports motion controls",
         "sports party"
       ],
       "orden": 1,
@@ -1331,14 +1336,13 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
         "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
         "nis america the legend of heroes trails into reverie",
-        "nis america the legend of heroes trails to azure",
         "the legend of heroes trails from zero",
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
@@ -1423,10 +1427,9 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 13 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
+      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
-        "oled zelda tears of the kingdom japan specs",
         "pro controller edicion zelda 40th aniversario",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
@@ -1438,5 +1441,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 713
+  "total": 716
 }
