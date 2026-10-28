@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 637,
+  "fisicos": 636,
   "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-28T09:27:20Z",
+  "revision": "2026-10-28T16:20:00Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -48,7 +48,7 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 5 desde $20.000\n   🟢 Assassin's Creed III: Remastered −20%",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 4 desde $20.000\n   🟢 ASSASSIN’S CREED THE EZIO COLLECTION −18%",
       "nombres": [
         "assassins creed iii remastered",
         "assassins creed the ezio collection",
@@ -68,18 +68,16 @@
     },
     {
       "juego": "Atelier",
-      "linea": "🟢 <b>Atelier</b> — 📦 12 desde $39.990\n   🟢 Atelier Dusk Trilogy Deluxe Pack",
+      "linea": "🟢 <b>Atelier</b> — 📦 10 desde $39.990\n   🟢 Atelier Dusk Trilogy Deluxe Pack",
       "nombres": [
         "atelier dusk trilogy deluxe pack",
         "atelier lulua the scion of arland",
         "atelier mysterious trilogy sniper",
         "atelier resleriana the red alchemist the white guardian",
         "atelier ryza 2 lost legends the secret fairy dx",
-        "atelier ryza 3 alchemist of the end the secret key dx",
         "atelier ryza 3 sniper",
         "atelier sophie 2 el alquimista de un sueno misterioso",
-        "atelier sophie 2 the alchemist of the mysterious dream",
-        "atelier yumia the alchemist of memories the envisioned land"
+        "atelier sophie 2 the alchemist of the mysterious dream"
       ],
       "orden": 1,
       "slug": "atelier"
@@ -234,7 +232,7 @@
     },
     {
       "juego": "Dead Cells",
-      "linea": "🟢 <b>Dead Cells</b> — 📦 1 desde $34.990 · 🎮 1 desde US$9.34\n   🟢 Dead Cells −50%",
+      "linea": "🟢 <b>Dead Cells</b> — 📦 1 desde $32.900 · 🎮 1 desde US$9.34\n   🟢 Dead Cells −50%",
       "nombres": [
         "dead cells"
       ],
@@ -331,7 +329,7 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $21.990\n   🟢 EA SPORTS FC 26 −39%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
@@ -354,10 +352,11 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 CRISIS CORE –FINAL FANTASY VII– REUNION",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 CRISIS CORE –FINAL FANTASY VII– REUNION",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
+        "final fantasy ix",
         "final fantasy resonance",
         "final fantasy tactics the ivalice chronicles",
         "final fantasy vi",
@@ -524,10 +523,9 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $16.000 · 🎮 2 desde US$20.21\n   🟢 LEGO DC Super-Villains −21%",
+      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $18.000 · 🎮 2 desde US$20.21\n   🟢 LEGO DC Super-Villains −21%",
       "nombres": [
         "lego dc super villains",
-        "lego horizon adventures",
         "lego party",
         "lego party nintendo switch 2 edition",
         "lego worlds",
@@ -623,8 +621,9 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 🎮 1 desde US$13.88\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$13.88\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
+        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -783,7 +782,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $19.000 · 🎮 173 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $19.000 · 🎮 173 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "ace angler fishing spirits",
         "ace attorney anthology",
@@ -826,7 +825,6 @@
         "deaths door",
         "deltarune",
         "dicey dungeons",
-        "digimon story time stranger",
         "dragon ball sparking zero",
         "dragon ball xenoverse 2 for nintendo switch",
         "dredge",
@@ -1145,7 +1143,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $20.000 · 🎮 6 desde US$7.07\n   🟢 Sonic Origins −70%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $29.990 · 🎮 6 desde US$7.07\n   🟢 Sonic Origins −70%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1203,7 +1201,7 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $28.000 · 🎮 10 desde US$5.66\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $28.000 · 🎮 10 desde US$5.66\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars battlefront classic collection",
@@ -1211,7 +1209,6 @@
         "star wars dark forces remaster",
         "star wars episode i jedi power battles",
         "star wars episode i racer",
-        "star wars jedi knight collection europeo",
         "star wars jedi knight jedi academy",
         "star wars knights of the old republic",
         "star wars knights of the old republic ii the sith lords",
@@ -1282,13 +1279,12 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 19 desde $29.990\n   🟢 Nintendo Switch Sports Resort −6%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 17 desde $29.990\n   🟢 Nintendo Switch Sports Resort −6%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
         "funbox media junior league sports 3 en 1",
         "game merge games instant sports all stars",
-        "instant sports de invierno",
         "instant sports tennis sniper",
         "instant sports winter games sniper",
         "junior league sports coleccion 3 en 1",
@@ -1300,7 +1296,6 @@
         "nintendo switch sports resort",
         "outright games gigantosaurus dino sports",
         "sports camp a 35 game adventure",
-        "sports motion controls",
         "sports party"
       ],
       "orden": 1,
@@ -1308,8 +1303,9 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $29.000 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
+      "linea": "🟢 <b>Tales of</b> — 📦 7 desde $29.000 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
       "nombres": [
+        "iam8bit tales of the shire",
         "tales of arise beyond the dawn edition",
         "tales of autumn",
         "tales of berseria remastered",
@@ -1335,14 +1331,15 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
+        "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
         "nis america the legend of heroes trails into reverie",
         "nis america the legend of heroes trails to azure",
-        "nis america trails from zero trails to azure",
+        "the legend of heroes trails from zero",
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
         "the legend of nayuta boundless trails deluxe ed sniper",
@@ -1363,11 +1360,11 @@
     },
     {
       "juego": "Unicorn Overlord",
-      "linea": "🟢 <b>Unicorn Overlord</b> — 📦 1 desde $39.000\n   🟢 Unicorn Overlord",
+      "linea": "⚪ <b>Unicorn Overlord</b> — 📦 1 desde $39.990",
       "nombres": [
         "unicorn overlord"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "unicorn-overlord"
     },
     {
@@ -1426,10 +1423,11 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
+      "linea": "🟢 <b>Zelda</b> — 📦 13 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "oled zelda tears of the kingdom japan specs",
+        "pro controller edicion zelda 40th aniversario",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
@@ -1440,5 +1438,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 716
+  "total": 713
 }

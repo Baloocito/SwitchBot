@@ -1282,12 +1282,6 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
-        },
-        {
-          "precio": 88990,
-          "tienda": "MercadoLibre",
-          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (MATHOGAMES CL)",
-          "url": "https://articulo.mercadolibre.cl/MLC-2937537034"
         }
       ],
       "gb": 256,
@@ -1410,6 +1404,12 @@
     {
       "avisos": [
         {
+          "precio": 25990.0,
+          "tienda": "Paris",
+          "titulo": "Tarjeta Kingston de Memoria Micro SD 128GB",
+          "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
+        },
+        {
           "precio": 26990.0,
           "tienda": "Falabella",
           "titulo": "Microsd Select Plus 128Gb",
@@ -1420,13 +1420,13 @@
       "marca": "Kingston",
       "min_hist": 25990.0,
       "nombre": "microSD 128 GB · Kingston",
-      "pct": -3.8,
-      "por_gb": 211,
-      "precio": 26990.0,
+      "pct": 0.0,
+      "por_gb": 203,
+      "precio": 25990.0,
       "ref_tipo": "tipico",
-      "tienda": "Falabella",
+      "tienda": "Paris",
       "tipo": "normal",
-      "url": "https://www.falabella.com/falabella-cl/product/16839129/Microsd-Select-Plus-128Gb-Kingston"
+      "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
     },
     {
       "avisos": [
@@ -1471,7 +1471,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-4619519486"
     }
   ],
-  "revision": "2026-10-28T09:27:20Z",
+  "revision": "2026-10-28T16:20:00Z",
   "seguimientos": [
     {
       "avisos": [
@@ -1503,7 +1503,7 @@
           "precio": 49990.0,
           "tarjeta": 44990.0,
           "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
+          "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
         },
         {
           "precio": 52190,
@@ -1514,7 +1514,7 @@
       ],
       "item": "Redragon Zeus",
       "min_hist": 48990.0,
-      "nombre": "Audífono Headset H510W RGB Zeus X White",
+      "nombre": "Audífono Headset H510 Rgb Zeus X",
       "precio": 48990.0,
       "tarjeta": {
         "precio": 44990.0,

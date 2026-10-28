@@ -122,14 +122,26 @@
     },
     {
       "boton": {
-        "callback_data": "a:6fdc505eeb",
-        "text": "⚙️ NIS America: Trails from Zero… · $125.990"
+        "callback_data": "a:86e904690e",
+        "text": "⚙️ de edición limitada Ys vs Tra… · $146.990"
       },
-      "id": "6fdc505eeb",
+      "id": "86e904690e",
+      "nivel": "regular",
+      "nombre": "de edición limitada Ys vs Trails",
+      "pct": 9.7,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −10%\n<b>de edición limitada Ys vs Trails</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$146.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Apenas 10% bajo la referencia\n   Ahorras $15.865 frente al «antes» que marca la tienda ($162.855)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $146.990 (26 oct, Lider) · máximo $163.990\n   █▁▁  últimos 3 días\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-de-edicion-limitada-ys-vs-trails-para-switch/00084048650603\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:cc0582c2f4",
+        "text": "⚙️ The Legend of Heroes: Trails … · $169.990"
+      },
+      "id": "cc0582c2f4",
       "nivel": "normal",
-      "nombre": "NIS America: Trails from Zero / Trails to Azure",
-      "pct": -3.3,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>NIS America: Trails from Zero / Trails to Azure</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$125.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $136.661» (−8%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $121.990 (14 oct, Lider) · típico $121.990 · máximo $125.990\n   ▁▁▁▁▁▁▆▆▆▆█  últimos 11 días\n🔎 Confianza media: 1 tienda y 11 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nis-america-trails-from-zero-trails-to-azure-nintendo-switch-/00081010086748\">Ir a comprar en Lider</a>",
+      "nombre": "The Legend of Heroes: Trails From Zero",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend of Heroes: Trails From Zero</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$169.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $169.990 (28 oct, Lider) · máximo $169.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/the-legend-of-heroes-trails-from-zero-nintendo-switch-/00081002303767\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
     },
     {
@@ -146,5 +158,5 @@
     }
   ],
   "juego": "Trails / Kiseki",
-  "revision": "2026-10-28T09:27:20Z"
+  "revision": "2026-10-28T16:20:00Z"
 }
