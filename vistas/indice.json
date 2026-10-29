@@ -5,8 +5,8 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 639,
-  "pendientes": 2,
+  "fisicos": 645,
+  "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
@@ -590,7 +590,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 22 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
+      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
       "nombres": [
         "controlador inalambrico turtle beach rematch mario kart",
         "mario golf super rush",
@@ -607,7 +607,6 @@
         "mario vs donkey kong",
         "paper mario the origami king",
         "paper mario the thousand year door",
-        "purtch con azul neon y rojo neon mario kart 8",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv"
@@ -796,7 +795,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $19.000 · 🎮 177 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $19.000 · 🎮 183 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "a little to the left",
         "ace angler fishing spirits",
@@ -833,6 +832,7 @@
         "crash bandicoot crashiversary bundle",
         "crash team racing nitro fueled",
         "crossing souls",
+        "crown trick",
         "cult of the lamb",
         "darkest dungeon",
         "darkest dungeon ii",
@@ -905,6 +905,7 @@
         "pentiment",
         "persona 3 portable persona 4 golden bundle",
         "pga tour 2k25",
+        "planet alpha",
         "plateup",
         "possessor s",
         "powerwash simulator",
@@ -912,6 +913,7 @@
         "puyo puyo tetris 2s",
         "quake",
         "quake ii",
+        "raging justice",
         "raidou remastered the mystery of the soulless army",
         "red dead redemption",
         "red dead redemption nintendo switch 2 edition",
@@ -922,12 +924,14 @@
         "sd gundam battle alliance",
         "shadow labyrinth",
         "shadow labyrinth nintendo switch 2 edition",
+        "sheltered",
         "shinsekai into the depths",
         "since memories off the starry sky",
         "slime rancher plortable edition",
         "snowrunner",
         "spelunky 2",
         "spidersaurs",
+        "spiritfall",
         "spy anya operation memories",
         "star renegades",
         "stories untold",
@@ -936,6 +940,7 @@
         "super bomberman r 2",
         "super bullet break",
         "super crazy rhythm castle",
+        "super magbot",
         "super meat boy",
         "super monkey ball banana mania",
         "super robot wars y",
@@ -1220,7 +1225,7 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $28.000 · 🎮 10 desde US$5.69\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $28.000 · 🎮 10 desde US$5.69\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
       "nombres": [
         "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
@@ -1351,7 +1356,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $42.000\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
         "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
@@ -1458,5 +1463,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 725
+  "total": 729
 }
