@@ -41,6 +41,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:a20b74102d",
+        "text": "⚙️ Legendary Tales: Map of Hope · US$8.13"
+      },
+      "con_fisico": false,
+      "id": "a20b74102d",
+      "nivel": "compra",
+      "nombre": "Legendary Tales: Map of Hope",
+      "pct": 40.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −40%\n<b>Legendary Tales: Map of Hope</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Tales of\n💰 <b>US$8.13</b> ≈ $8.007 en 🇨🇦 Canadá\n   Precio en la tienda: CA$11,39 CAD\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$13.55 → ahorras US$5.42 · ⏳ termina el 9 nov (en 11 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/legendary-tales-map-of-hope-switch/\">US$8.13</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/legendary-tales-map-of-hope-switch/\">US$8.22</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/legendary-tales-map-of-hope-switch/\">US$8.39</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/legendary-tales-map-of-hope-switch/\">US$8.43</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/legendary-tales-map-of-hope-switch/\">US$8.58</a>\n   El más caro: 🇨🇴 US$10.72\n📈 Mínimo US$8.11 (27 oct en 🇨🇦 Canadá)\n   ███▁▁▁▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/legendary-tales-map-of-hope-switch/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:c08073529b",
         "text": "⚙️ Tales of Xillia Remastered · $29.000"
       },
@@ -138,5 +151,5 @@
     }
   ],
   "juego": "Tales of",
-  "revision": "2026-10-29T10:29:13Z"
+  "revision": "2026-10-29T17:10:22Z"
 }
