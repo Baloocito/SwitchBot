@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 639,
-  "pendientes": 1,
+  "fisicos": 647,
+  "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-29T04:18:34Z",
+  "revision": "2026-10-29T10:17:01Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -166,7 +166,7 @@
     },
     {
       "juego": "Civilization",
-      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $55.990 · 🎮 3 desde US$4.24\n   🟢 Sid Meier’s Civilization VI −80%",
+      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $56.990 · 🎮 3 desde US$4.24\n   🟢 Sid Meier’s Civilization VI −80%",
       "nombres": [
         "civilization vii edicion",
         "sid meiers civilization vi",
@@ -204,10 +204,11 @@
     },
     {
       "juego": "Cyberpunk 2077",
-      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 1 desde $39.990 · 🎮 2 desde US$4.92\n   🟢 Cyberpunk 2077: Ultimate Edition −60%",
+      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 1 desde $39.990 · 🎮 3 desde US$3.46\n   🟢 Sense - A Cyberpunk Ghost Story −75%",
       "nombres": [
         "cyberpunk 2077 ultimate edition",
         "cyberpunk speed assassin",
+        "sense a cyberpunk ghost story",
         "va 11 hall a cyberpunk bartender action"
       ],
       "orden": 1,
@@ -313,7 +314,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990\n   🟢 DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition −24%",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 20 desde $24.990\n   🟢 DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition −24%",
       "nombres": [
         "dragon quest",
         "dragon quest builders",
@@ -332,13 +333,14 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 9 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
         "ea sports fc 26",
         "ea sports fc 27",
-        "fifa 21 electronic arts"
+        "fifa 21 electronic arts",
+        "fifa 22 de electronic arts"
       ],
       "orden": 1,
       "slug": "ea-sports-fc"
@@ -430,7 +432,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 2 desde $59.000\n   🟢 Hogwarts Legacy −21%",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.000\n   🟢 Hogwarts Legacy −21%",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -469,10 +471,11 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
+      "linea": "🟢 <b>Just Dance</b> — 📦 17 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
+        "just dance 2020 ubisoft",
         "just dance 2021",
         "just dance 2022",
         "just dance 2024 edition",
@@ -580,7 +583,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 20 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -594,8 +597,12 @@
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
+        "new super mario bros u deluxe",
         "paper mario the origami king",
         "paper mario the thousand year door",
+        "super mario bros wonder",
+        "super mario galaxy 2",
+        "super mario odyssey",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv"
@@ -784,7 +791,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $19.000 · 🎮 176 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $19.000 · 🎮 175 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
         "a little to the left",
         "ace angler fishing spirits",
@@ -822,6 +829,7 @@
         "crash team racing nitro fueled",
         "crossing souls",
         "cult of the lamb",
+        "darkest dungeon ii",
         "darwins paradox",
         "dawn of the monsters",
         "dead by daylight",
@@ -848,8 +856,6 @@
         "gundam breaker 4",
         "hack g u last recode",
         "hotline miami collection",
-        "human fall flat",
-        "human fall flat nintendo switch 2 edition",
         "i chu chibi edition",
         "inscryption",
         "inside",
@@ -1047,12 +1053,14 @@
     },
     {
       "juego": "Rayman",
-      "linea": "🟢 <b>Rayman</b> — 📦 4 desde $24.000\n   🟢 Rayman: 30th Anniversary Edition −20%",
+      "linea": "🟢 <b>Rayman</b> — 📦 6 desde $24.000\n   🟢 Rayman: 30th Anniversary Edition −20%",
       "nombres": [
         "rayman 30th anniversary edition",
         "rayman edicion 30o aniversario atari",
         "rayman legends definitive edition",
-        "rayman legends retold launch edition"
+        "rayman legends retold launch edition",
+        "ubisoft rayman legends",
+        "ubisoft rayman legends edicion definitiva"
       ],
       "orden": 1,
       "slug": "rayman"
@@ -1206,7 +1214,7 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $28.000 · 🎮 10 desde US$5.69\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $28.000 · 🎮 10 desde US$5.69\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars battlefront classic collection",
@@ -1214,6 +1222,7 @@
         "star wars dark forces remaster",
         "star wars episode i jedi power battles",
         "star wars episode i racer",
+        "star wars jedi knight collection europeo",
         "star wars jedi knight jedi academy",
         "star wars knights of the old republic",
         "star wars knights of the old republic ii the sith lords",
@@ -1226,7 +1235,7 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 1 desde $49.900\n   🟢 Stardew Valley:",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $29.000\n   🟢 Stardew Valley −17%",
       "nombres": [
         "stardew valley"
       ],
@@ -1284,12 +1293,13 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 18 desde $29.990\n   🟢 Nintendo Switch Sports Resort −6%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 19 desde $29.990\n   🟢 Just For Games Instant Sports Summer −7%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
         "funbox media junior league sports 3 en 1",
         "game merge games instant sports all stars",
+        "instant sports de invierno",
         "instant sports tennis sniper",
         "instant sports winter games sniper",
         "junior league sports coleccion 3 en 1",
@@ -1336,13 +1346,14 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $42.000\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
         "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
         "nis america the legend of heroes trails into reverie",
+        "nis america trails from zero trails to azure",
         "the legend of heroes trails from zero",
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
@@ -1441,5 +1452,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 713
+  "total": 727
 }
