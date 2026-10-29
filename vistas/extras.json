@@ -21,23 +21,6 @@
     {
       "avisos": [
         {
-          "precio": 18990.0,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/audifonos-gamer-hp-h100"
-        }
-      ],
-      "marca": "hyperx",
-      "min_hist": null,
-      "nombre": "Audifonos Gamer HP H100",
-      "pct": 0,
-      "precio": 18990.0,
-      "ref_tipo": null,
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/audifonos-gamer-hp-h100"
-    },
-    {
-      "avisos": [
-        {
           "precio": 29990.0,
           "tarjeta": null,
           "tienda": "Falabella",
@@ -214,23 +197,6 @@
       "ref_tipo": null,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/17267596/Audifono-Headset-Blackshark-V2-X-Wired-Blanco-Razer"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 44990.0,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/audifono-gamer-redragon-zeus-x-h510-rgb-sonido-7-1-negro-open-box"
-        }
-      ],
-      "marca": "redragon",
-      "min_hist": null,
-      "nombre": "Audifono Gamer Redragon Zeus X - H510-RGB - Sonido 7.1 - Negro Open Bo",
-      "pct": 0,
-      "precio": 44990.0,
-      "ref_tipo": null,
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/audifono-gamer-redragon-zeus-x-h510-rgb-sonido-7-1-negro-open-box"
     },
     {
       "avisos": [
@@ -451,23 +417,6 @@
     {
       "avisos": [
         {
-          "precio": 59990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17292989/Audifono-Headset-Redragon-H510P-RGB-Zeus-X-Pink"
-        }
-      ],
-      "marca": "redragon",
-      "min_hist": null,
-      "nombre": "Audífono Headset H510P RGB Zeus X Pink",
-      "pct": 0,
-      "precio": 59990.0,
-      "ref_tipo": null,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17292989/Audifono-Headset-Redragon-H510P-RGB-Zeus-X-Pink"
-    },
-    {
-      "avisos": [
-        {
           "precio": 60990.0,
           "tarjeta": null,
           "tienda": "Falabella",
@@ -493,13 +442,31 @@
         }
       ],
       "marca": "Logitech G",
-      "min_hist": null,
+      "min_hist": 69990,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (PROGAMINGCL)",
       "pct": 0,
       "precio": 69990,
       "ref_tipo": null,
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-3854803164"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 72990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-3175858844"
+        }
+      ],
+      "marca": "SteelSeries",
+      "min_hist": null,
+      "nombre": "Audífonos Gamer Steelseries Arctis Nova 1 White Ps5 Blanco (GASEI S.A.",
+      "pct": 0,
+      "precio": 72990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-3175858844"
     },
     {
       "avisos": [
@@ -547,7 +514,7 @@
         }
       ],
       "marca": "Logitech G",
-      "min_hist": null,
+      "min_hist": 79990,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (DUST2GG)",
       "pct": 0,
       "precio": 79990,
@@ -565,13 +532,67 @@
         }
       ],
       "marca": "Logitech G",
-      "min_hist": null,
+      "min_hist": 80490,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (DUST2TIENDA)",
       "pct": 0,
       "precio": 80490,
       "ref_tipo": null,
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-3914443688"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 83990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-4050078892"
+        }
+      ],
+      "marca": "SteelSeries",
+      "min_hist": null,
+      "nombre": "Audífonos Gamer Steelseries Arctis Nova 1 White Color Blanco (PROGAMIN",
+      "pct": 0,
+      "precio": 83990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-4050078892"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 83990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-4283787646"
+        }
+      ],
+      "marca": "SteelSeries",
+      "min_hist": null,
+      "nombre": "Audífonos Gamer Steelseries Arctis Nova 1 White Color Blanco (DUST2TIE",
+      "pct": 0,
+      "precio": 83990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-4283787646"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 85990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-4051121690"
+        }
+      ],
+      "marca": "SteelSeries",
+      "min_hist": null,
+      "nombre": "Audífonos Gamer Steelseries Arctis Nova 1 White Color Blanco (DUST2GG)",
+      "pct": 0,
+      "precio": 85990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-4051121690"
     },
     {
       "avisos": [
@@ -727,7 +748,7 @@
         }
       ],
       "marca": "Logitech G",
-      "min_hist": 129990,
+      "min_hist": 129390,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (FUJITECH)",
       "pct": 0,
       "precio": 129390,
@@ -799,30 +820,13 @@
         }
       ],
       "marca": "Logitech G",
-      "min_hist": null,
+      "min_hist": 161990,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (tienda oficia",
       "pct": 0,
       "precio": 161990,
       "ref_tipo": null,
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 169990,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-3991552036"
-        }
-      ],
-      "marca": "logitech g",
-      "min_hist": null,
-      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (LIGHTGALLERY.",
-      "pct": 0,
-      "precio": 169990,
-      "ref_tipo": null,
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-3991552036"
     },
     {
       "avisos": [
@@ -935,23 +939,6 @@
     {
       "avisos": [
         {
-          "precio": 237990,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-1859598391"
-        }
-      ],
-      "marca": "logitech g",
-      "min_hist": null,
-      "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (LIGHTG",
-      "pct": 0,
-      "precio": 237990,
-      "ref_tipo": null,
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-1859598391"
-    },
-    {
-      "avisos": [
-        {
           "precio": 249990.0,
           "tarjeta": null,
           "tienda": "Bestmart",
@@ -1027,6 +1014,11 @@
           "precio": 349990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
+        },
+        {
+          "precio": 379990.0,
+          "tienda": "Lider",
+          "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-1-1-neon-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688539"
         }
       ],
       "bundle": false,
@@ -1040,6 +1032,11 @@
     },
     {
       "avisos": [
+        {
+          "precio": 599990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-2-ea-sports-fc-27-626979999.html"
+        },
         {
           "precio": 609990.0,
           "tienda": "Lider",
@@ -1055,10 +1052,10 @@
       "min_hist": 599990.0,
       "modelo": "Switch 2",
       "nombre": "Nintendo Switch 2 + EA SPORTS FC 27",
-      "pct": 0.0,
-      "precio": 609990.0,
-      "tienda": "Lider",
-      "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
+      "pct": 1.6,
+      "precio": 599990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-2-ea-sports-fc-27-626979999.html"
     },
     {
       "avisos": [
@@ -1099,7 +1096,7 @@
       "min_hist": 644990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Switch 2 Bundle",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 644990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
@@ -1282,6 +1279,12 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
+        },
+        {
+          "precio": 88990,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (MATHOGAMES CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-2937537034"
         }
       ],
       "gb": 256,
@@ -1471,7 +1474,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-4619519486"
     }
   ],
-  "revision": "2026-10-28T22:17:32Z",
+  "revision": "2026-10-29T04:18:34Z",
   "seguimientos": [
     {
       "avisos": [
