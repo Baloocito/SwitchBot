@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 644,
+  "fisicos": 639,
   "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-29T17:10:22Z",
+  "revision": "2026-10-29T17:26:03Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -198,7 +198,7 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000 · 🎮 3 desde US$12.28\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 6 desde $28.000 · 🎮 3 desde US$12.28\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
       "nombres": [
         "crash 4 bandicoot",
         "crash bandicoot 4 its about time",
@@ -440,7 +440,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.000\n   🟢 Hogwarts Legacy −21%",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 2 desde $59.000\n   🟢 Hogwarts Legacy −21%",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -534,9 +534,10 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $18.000 · 🎮 2 desde US$20.31\n   🟢 LEGO DC Super-Villains −21%",
+      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $16.000 · 🎮 2 desde US$20.31\n   🟢 LEGO DC Super-Villains −21%",
       "nombres": [
         "lego dc super villains",
+        "lego horizon adventures",
         "lego party",
         "lego party nintendo switch 2 edition",
         "lego worlds",
@@ -589,7 +590,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 21 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
+      "linea": "🟢 <b>Mario</b> — 📦 22 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
       "nombres": [
         "controlador inalambrico turtle beach rematch mario kart",
         "mario golf super rush",
@@ -606,6 +607,7 @@
         "mario vs donkey kong",
         "paper mario the origami king",
         "paper mario the thousand year door",
+        "purtch con azul neon y rojo neon mario kart 8",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv"
@@ -1160,7 +1162,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $29.990 · 🎮 6 desde US$7.11\n   🟢 Sonic Origins −70%",
+      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $20.000 · 🎮 6 desde US$7.11\n   🟢 Sonic Origins −70%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1220,6 +1222,7 @@
       "juego": "Star Wars",
       "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $28.000 · 🎮 10 desde US$5.69\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
       "nombres": [
+        "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
         "star wars battlefront classic collection",
         "star wars bounty hunter",
@@ -1348,7 +1351,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $42.000\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
         "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
@@ -1440,7 +1443,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 12 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
+      "linea": "🟢 <b>Zelda</b> — 📦 13 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "oled zelda tears of the kingdom japan specs",
@@ -1455,5 +1458,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 721
+  "total": 725
 }
