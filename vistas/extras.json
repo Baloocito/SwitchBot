@@ -129,24 +129,6 @@
     {
       "avisos": [
         {
-          "precio": 39990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17214753/Aud%C3%ADfonos-Gamer-GXT-489-Multiplataforma-con-Micr%C3%B3fono-Desmontable-Trust"
-        }
-      ],
-      "marca": "trust",
-      "min_hist": 39990.0,
-      "nombre": "Audífonos Gamer GXT 489 Multiplataforma con Micrófono Desmontable",
-      "pct": 0,
-      "precio": 39990.0,
-      "ref_tipo": null,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17214753/Aud%C3%ADfonos-Gamer-GXT-489-Multiplataforma-con-Micr%C3%B3fono-Desmontable-Trust"
-    },
-    {
-      "avisos": [
-        {
           "precio": 43990.0,
           "tarjeta": null,
           "tienda": "Bestmart",
@@ -849,6 +831,24 @@
     {
       "avisos": [
         {
+          "precio": 191990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-1073079908"
+        }
+      ],
+      "marca": "Logitech G",
+      "min_hist": 237990,
+      "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (FUJITE",
+      "pct": 0,
+      "precio": 191990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-1073079908"
+    },
+    {
+      "avisos": [
+        {
           "precio": 204990.0,
           "tarjeta": 179990.0,
           "tienda": "Falabella",
@@ -917,24 +917,6 @@
       "ref_tipo": null,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80716012/audifono-gamer-astro-a20-x-logitech"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 237990,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-1073079908"
-        }
-      ],
-      "marca": "Logitech G",
-      "min_hist": 237990,
-      "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (FUJITE",
-      "pct": 0,
-      "precio": 237990,
-      "ref_tipo": null,
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-1073079908"
     },
     {
       "avisos": [
@@ -1061,11 +1043,6 @@
       "avisos": [
         {
           "precio": 609990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17448346/HW-SWITCH-2-SYSTEM-LT2-SOLUS"
-        },
-        {
-          "precio": 609990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
         },
@@ -1073,6 +1050,11 @@
           "precio": 629900.0,
           "tienda": "TodoJuegos",
           "url": "https://www.todojuegos.cl/Productos/NS2/Consola-Nintendo-Switch-2/?ref=buscador"
+        },
+        {
+          "precio": 629990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/17448346/HW-SWITCH-2-SYSTEM-LT2-SOLUS"
         }
       ],
       "bundle": false,
@@ -1081,25 +1063,8 @@
       "nombre": "Switch 2",
       "pct": -1.7,
       "precio": 609990.0,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17448346/HW-SWITCH-2-SYSTEM-LT2-SOLUS"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 644990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 644990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Switch 2 Bundle",
-      "pct": 0.0,
-      "precio": 644990.0,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
     },
     {
       "avisos": [
@@ -1126,6 +1091,23 @@
     {
       "avisos": [
         {
+          "precio": 649990.0,
+          "tienda": "Lider",
+          "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-2-mario-kart-world-membresia-online/00004549688674"
+        }
+      ],
+      "bundle": true,
+      "min_hist": null,
+      "modelo": "Switch 2",
+      "nombre": "Consola Nintendo Switch 2 Mario Kart World + Membresía Online",
+      "pct": 0,
+      "precio": 649990.0,
+      "tienda": "Lider",
+      "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-2-mario-kart-world-membresia-online/00004549688674"
+    },
+    {
+      "avisos": [
+        {
           "precio": 659990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-2-juego-pokemon-legends-z-a"
@@ -1139,6 +1121,23 @@
       "precio": 659990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-2-juego-pokemon-legends-z-a"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 679990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 644990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Switch 2 Bundle",
+      "pct": -5.4,
+      "precio": 679990.0,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
     },
     {
       "avisos": [
@@ -1279,6 +1278,12 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
+        },
+        {
+          "precio": 88990,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (MATHOGAMES CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-2937537034"
         }
       ],
       "gb": 256,
@@ -1468,7 +1473,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-4619519486"
     }
   ],
-  "revision": "2026-10-30T00:24:14Z",
+  "revision": "2026-10-30T07:18:40Z",
   "seguimientos": [
     {
       "avisos": [
