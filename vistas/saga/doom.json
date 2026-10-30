@@ -28,6 +28,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:be4ebeaf72",
+        "text": "⚙️ DOOM 64 · US$2.02"
+      },
+      "con_fisico": true,
+      "id": "be4ebeaf72",
+      "nivel": "compra",
+      "nombre": "DOOM 64",
+      "pct": 50.1,
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>DOOM 64</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$2.02</b> ≈ $1.995 en 🇨🇱 Chile\n   Precio en la tienda: $2.000 CLP\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$4.05 → ahorras US$2.03 · ⏳ termina el 1 nov (en 2 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-64-switch/\">US$2.02</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-64-switch/\">US$2.33</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/doom-64-switch/\">US$2.36</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/doom-64-switch/\">US$2.49</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/doom-64-switch/\">US$2.49</a>\n   El más caro: 🇨🇴 US$3.95\n📦 Físico: $44.990 en 8 Bits → el digital te ahorra $42.995\n📈 Mínimo US$2.01 (26 oct en 🇨🇱 Chile)\n   ██████▁▁▁▁▁▁▁▁▁▁▁  últimos 17 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-64-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:16b42584bd",
         "text": "⚙️ DOOM 64 · $44.990"
       },
@@ -59,10 +72,10 @@
       "nivel": "compra",
       "nombre": "DOOM",
       "pct": 0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>DOOM</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $72.990» (−4%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/123779323/Doom-The-Classics-Collection-Switch-Fisico-Sniper\">$69.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://sniper.cl/products/doom-the-classics-collection-switch-fisico-sniper\">$69.990 Sniper</a> (+$0)\n📈 Mínimo $69.990 (14 oct, Falabella) · típico $69.990 · máximo $69.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 17 días\n🎮 Digital: US$19.24 ≈ $19.004 en 🇨🇱 Chile\n   ➜ El digital es $50.986 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 17 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/123779323/Doom-The-Classics-Collection-Switch-Fisico-Sniper\">Ir a comprar en Falabella</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>DOOM</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $79.990» (−13%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148490815/doom-the-classics-collection-switch-fisico-sniper\">$69.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://sniper.cl/products/doom-the-classics-collection-switch-fisico-sniper\">$69.990 Sniper</a> (+$0)\n📈 Mínimo $69.990 (14 oct, Falabella) · típico $69.990 · máximo $69.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 17 días\n🎮 Digital: US$19.24 ≈ $19.004 en 🇨🇱 Chile\n   ➜ El digital es $50.986 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 17 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148490815/doom-the-classics-collection-switch-fisico-sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     }
   ],
   "juego": "Doom",
-  "revision": "2026-10-30T13:18:28Z"
+  "revision": "2026-10-30T19:18:48Z"
 }

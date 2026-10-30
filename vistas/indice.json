@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 642,
-  "pendientes": 2,
+  "fisicos": 685,
+  "pendientes": 6,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-30T13:18:28Z",
+  "revision": "2026-10-30T19:18:48Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -85,9 +85,8 @@
     },
     {
       "juego": "Bayonetta",
-      "linea": "🟢 <b>Bayonetta</b> — 📦 5 desde $39.990\n   🟢 Bayonetta 3",
+      "linea": "🟢 <b>Bayonetta</b> — 📦 4 desde $39.990\n   🟢 Bayonetta 3",
       "nombres": [
-        "bayonetta",
         "bayonetta 3",
         "bayonetta origins cereza and the lost demon"
       ],
@@ -109,7 +108,7 @@
     },
     {
       "juego": "Bravely Default",
-      "linea": "🟢 <b>Bravely Default</b> — 📦 4 desde $26.990\n   🟢 BRAVELY DEFAULT FLYING FAIRY HD Remaster −11%",
+      "linea": "🟢 <b>Bravely Default</b> — 📦 4 desde $26.990\n   🟢 Bravely Default 2",
       "nombres": [
         "bravely default 2",
         "bravely default flying fairy",
@@ -165,7 +164,7 @@
     },
     {
       "juego": "Civilization",
-      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $56.990 · 🎮 3 desde US$4.23\n   🟢 Sid Meier’s Civilization VI −80%",
+      "linea": "🟢 <b>Civilization</b> — 📦 3 desde $34.990 · 🎮 3 desde US$4.23\n   🟢 Sid Meier’s Civilization VI −80%",
       "nombres": [
         "civilization vii edicion",
         "sid meiers civilization vi",
@@ -284,7 +283,7 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟢 <b>Doom</b> — 📦 3 desde $44.990 · 🎮 2 desde US$3.47\n   🟢 DOOM 3 −60%",
+      "linea": "🟢 <b>Doom</b> — 📦 3 desde $44.990 · 🎮 3 desde US$2.02\n   🟢 DOOM 3 −60%",
       "nombres": [
         "doom",
         "doom 3",
@@ -357,11 +356,10 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 CRISIS CORE –FINAL FANTASY VII– REUNION",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 CRISIS CORE –FINAL FANTASY VII– REUNION",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
-        "final fantasy ix",
         "final fantasy resonance",
         "final fantasy tactics the ivalice chronicles",
         "final fantasy vi",
@@ -433,7 +431,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 2 desde $59.000\n   🟢 Hogwarts Legacy −21%",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.000\n   🟢 Hogwarts Legacy −21%",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -514,7 +512,7 @@
     },
     {
       "juego": "Kirby",
-      "linea": "🟢 <b>Kirby</b> — 📦 5 desde $52.990\n   🟢 Kirby and the Forgotten Land + Star-Crossed World −12%",
+      "linea": "🟢 <b>Kirby</b> — 📦 5 desde $52.990\n   🟢 Kirby and the Forgotten Land",
       "nombres": [
         "kirby air riders",
         "kirby and the forgotten land",
@@ -541,7 +539,7 @@
     },
     {
       "juego": "Like a Dragon / Yakuza",
-      "linea": "🟢 <b>Like a Dragon / Yakuza</b> — 📦 7 desde $35.000 · 🎮 5 desde US$8.60\n   🟢 Yakuza Kiwami −50%",
+      "linea": "🟢 <b>Like a Dragon / Yakuza</b> — 📦 7 desde $38.000 · 🎮 5 desde US$8.60\n   🟢 Yakuza Kiwami −50%",
       "nombres": [
         "yakuza 0 directora s cut",
         "yakuza 0 directors cut",
@@ -695,7 +693,7 @@
     },
     {
       "juego": "Monster Hunter",
-      "linea": "🟢 <b>Monster Hunter</b> — 📦 7 desde $17.990 · 🎮 1 desde US$25.97\n   🟢 Monster Hunter Stories 2: Wings of Ruin −20%",
+      "linea": "🟢 <b>Monster Hunter</b> — 📦 7 desde $17.990 · 🎮 1 desde US$25.97\n   🟢 Monster Hunter Generations Ultimate",
       "nombres": [
         "monster hunter generations ultimate",
         "monster hunter rise",
@@ -789,23 +787,28 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $19.000 · 🎮 185 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $19.000 · 🎮 232 desde US$1.99\n   🟢 Batora: Lost Haven −90%",
       "nombres": [
-        "a little to the left",
+        "abomi nation",
         "ace angler fishing spirits",
         "ace attorney anthology",
         "ace combat7 skies unknown deluxe edition",
+        "aggelos",
+        "aka",
         "alice gear aegis cs concerto of simulatrix",
         "alien isolation",
         "animal well",
         "aokana four rhythms across the blue",
         "arcade classics anniversary collection",
         "arcade spirits the new challengers",
+        "arcrunner",
+        "are you smarter than a 5th grader",
         "b project ryusei fantasia",
         "balatro",
         "baten kaitos i ii hd remaster",
         "batora lost haven",
         "before we leave",
+        "beyond good evil 20th anniversary edition",
         "bioshock 2 remastered",
         "bioshock infinite the complete edition",
         "bioshock the collection",
@@ -822,6 +825,9 @@
         "carrion",
         "cassette beasts",
         "castlevania collections bundle",
+        "clock tower rewind",
+        "contra run gun bundle",
+        "contra x castlevania bundle",
         "cook serve delicious 3",
         "cook serve delicious trilogy",
         "crash bandicoot crashiversary bundle",
@@ -837,44 +843,62 @@
         "deaths door",
         "deltarune",
         "dicey dungeons",
+        "discounty",
         "dragon ball sparking zero",
         "dragon ball xenoverse 2 for nintendo switch",
         "dredge",
+        "endling extinction is forever",
         "epic chef",
+        "etrange overlord",
         "etrian odyssey hd",
         "etrian odyssey ii hd",
         "etrian odyssey iii hd",
+        "everybodys golf hot shots",
+        "fallout 4 anniversary edition",
         "fatal frame ii crimson butterfly remake",
         "fatal frame mask of the lunar eclipse",
+        "fate samurai remnant",
+        "felix the cat",
+        "genso manege",
+        "getsufumaden undying moon",
         "ghost trick phantom detective",
         "ghostpia season one",
         "ghosts n goblins resurrection",
         "goat simulator 3",
         "god eater 3",
         "going under",
+        "golf story",
         "gradius origins",
+        "grid autosport",
         "grounded",
         "gundam breaker 4",
         "hack g u last recode",
+        "hello kitty island adventure nintendo switch 2 edition",
+        "him the smile bloom",
         "hotline miami collection",
         "i chu chibi edition",
+        "inertial drift",
         "inscryption",
         "inside",
         "into the breach",
+        "jackbox naughty pack",
         "jojos bizarre adventure all star battle r",
         "jujutsu kaisen cursed clash",
         "killer frequency",
         "king of seas",
+        "kitaria fables",
         "knight vs giant the broken excalibur",
         "labyrinth of galleria the moon society",
         "labyrinth of zangetsu",
         "limbo",
         "little big workshop",
+        "little kitty big city",
         "little nightmares complete edition",
         "little nightmares enhanced edition complete edition",
         "maglam lord",
         "mega man cyber wave pack",
         "metal max xeno reborn",
+        "mobile suit gundam seed battle destiny remastered",
         "monster hunter stories deluxe collection",
         "moonlighter",
         "mosaic",
@@ -882,10 +906,15 @@
         "moving out moving out 2 bundle",
         "mutazione",
         "namco museum archives vol 2",
+        "nanoapostle",
         "narita boy",
         "nba 2k27",
+        "neighbours back from hell",
+        "nexomon",
+        "nexomon extinction",
         "nexomon nexomon extinction complete collection",
         "ni no kuni ii revenant kingdom princes edition",
+        "nickelodeon all star brawl 2",
         "night call",
         "night in the woods",
         "nine sols",
@@ -896,6 +925,7 @@
         "onimusha 1 2 pack",
         "pac man museum",
         "pac man world 2 re pac",
+        "paper cut mansion",
         "patapon 1 2 replay",
         "pentiment",
         "persona 3 portable persona 4 golden bundle",
@@ -903,6 +933,8 @@
         "planet alpha",
         "plateup",
         "possessor s",
+        "potion permit",
+        "potion permit complete edition",
         "powerwash simulator",
         "powerwash simulator 2",
         "puyo puyo tetris 2s",
@@ -922,8 +954,11 @@
         "sheltered",
         "shinsekai into the depths",
         "since memories off the starry sky",
+        "sky oceans wings for hire",
         "slime rancher plortable edition",
         "snowrunner",
+        "songbird symphony",
+        "source of madness",
         "spelunky 2",
         "spidersaurs",
         "spiritfall",
@@ -939,17 +974,23 @@
         "super meat boy",
         "super monkey ball banana mania",
         "super robot wars y",
+        "survival kids",
         "teenage mutant ninja turtles the cowabunga collection",
         "terraria",
+        "the bridge curse 2 the extrication",
         "the cosmic wheel sisterhood",
         "the dark pictures anthology little hope",
         "the dark pictures anthology man of medan",
+        "the elder scrolls iv oblivion remastered",
         "the elder scrolls v skyrim anniversary edition",
+        "the entropy centre",
         "the knight witch",
         "the mummy demastered",
         "the serpent rogue",
         "the settlers new allies",
+        "the stanley parable ultra deluxe",
         "the walking dead the complete first season",
+        "through the darkest of times",
         "tony hawks pro skater 1 2",
         "tony hawks pro skater 1 4 standard edition bundle",
         "tormented souls",
@@ -960,11 +1001,13 @@
         "tunic",
         "two point campus",
         "two point museum",
+        "ultimate chicken horse",
         "ultra kaiju monster rancher",
         "undertale",
         "valkyria chronicles",
         "vampire survivors",
         "venba",
+        "virtua fighter 5 r e v o world stage",
         "white day a labyrinth named school",
         "wolfenstein ii the new colossus",
         "worms w m d",
@@ -1199,7 +1242,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990\n   🟢 It Takes Two",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990\n   🟢 It Takes Two",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1218,7 +1261,7 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $28.000 · 🎮 10 desde US$5.67\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $28.000 · 🎮 10 desde US$5.67\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars battlefront classic collection",
@@ -1226,6 +1269,7 @@
         "star wars dark forces remaster",
         "star wars episode i jedi power battles",
         "star wars episode i racer",
+        "star wars jedi knight collection europeo",
         "star wars jedi knight jedi academy",
         "star wars knights of the old republic",
         "star wars knights of the old republic ii the sith lords",
@@ -1247,7 +1291,7 @@
     },
     {
       "juego": "Story of Seasons",
-      "linea": "🟢 <b>Story of Seasons</b> — 📦 20 desde $29.990\n   🟢 DORAEMON STORY OF SEASONS",
+      "linea": "🟢 <b>Story of Seasons</b> — 📦 19 desde $29.990\n   🟢 DORAEMON STORY OF SEASONS",
       "nombres": [
         "doraemon story of seasons",
         "harvest moon edicion especial",
@@ -1261,7 +1305,6 @@
         "natsume harvest moon edicion completa",
         "natsume harvest moon edicion especial",
         "story of seasons a wonderful life",
-        "story of seasons de xseed games",
         "story of seasons gran bazar",
         "story of seasons grand bazaar",
         "story of seasons pioneers of olive town"
@@ -1285,17 +1328,16 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $49.000\n   🟢 Super Smash Bros. Ultimate −8%",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 1 desde $99.990\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
-        "pro controller edicion super smash bros",
-        "super smash bros ultimate"
+        "pro controller edicion super smash bros"
       ],
       "orden": 1,
       "slug": "super-smash-bros"
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 18 desde $29.990\n   🟢 Instant Sports: de Invierno −8%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 19 desde $29.990\n   🟢 Instant Sports: de Invierno −16%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1313,6 +1355,7 @@
         "nintendo switch sports resort",
         "outright games gigantosaurus dino sports",
         "sports camp a 35 game adventure",
+        "sports motion controls",
         "sports party"
       ],
       "orden": 1,
@@ -1320,7 +1363,7 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $29.000 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
+      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $29.000 · 🎮 4 desde US$1.99\n   🟢 Tales of Autumn −85%",
       "nombres": [
         "tales of arise beyond the dawn edition",
         "tales of autumn",
@@ -1347,13 +1390,11 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
-        "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
-        "nis america the legend of heroes trails into reverie",
         "nis america trails from zero trails to azure",
         "the legend of heroes trails from zero",
         "the legend of heroes trails from zero trails to azure deluxe edition",
@@ -1426,11 +1467,10 @@
     },
     {
       "juego": "Ys",
-      "linea": "🟢 <b>Ys</b> — 📦 5 desde $54.990\n   🟢 Ys Ix: Monstrom Nox - Pact Edition - Sniper",
+      "linea": "🟢 <b>Ys</b> — 📦 4 desde $54.990\n   🟢 Ys Ix: Monstrom Nox - Pact Edition - Sniper",
       "nombres": [
         "ys ix monstrom nox pact edition sniper",
         "ys ix monstrum nox",
-        "ys memoire revelations in celceta",
         "ys viii lacrimosa of dana",
         "ys x nordics"
       ],
@@ -1454,5 +1494,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 724
+  "total": 767
 }

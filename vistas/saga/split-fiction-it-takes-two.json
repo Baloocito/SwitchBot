@@ -2,18 +2,6 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:1eabaf9b27",
-        "text": "⚙️ It Takes Two S2 · $58.000"
-      },
-      "id": "1eabaf9b27",
-      "nivel": "compra",
-      "nombre": "It Takes Two",
-      "pct": 0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>It Takes Two</b>\n🕹️ Switch 2 · 📦 Físico · Split Fiction / It Takes Two\n💰 <b>$58.000</b> en Paris 🏪 <i>vende Tienda RetroGamers </i>\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $58.000 (19 oct, Falabella) · típico $58.000 · máximo $189.990\n   ▇▇▇█▁▁▁▁▁▁▁▁▁▁▁▁  últimos 16 días\n🎮 Digital: US$32.30 ≈ $31.903 en 🇨🇱 Chile\n   ➜ El digital es $26.097 más barato, pero no se puede revender\n📦 <b>Se está agotando</b>: estaba en 3 tiendas, hoy en 1\n🔎 Confianza media: 1 tienda y 16 días de historial\n🛒 <a href=\"https://www.paris.cl/it-takes-two-for-nintendo-switch-MKCRQ0EZF0.html\">Ir a comprar en Paris</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:61424e2dc3",
         "text": "⚙️ It Takes Two S2 · $39.990"
       },
@@ -38,5 +26,5 @@
     }
   ],
   "juego": "Split Fiction / It Takes Two",
-  "revision": "2026-10-30T13:18:28Z"
+  "revision": "2026-10-30T19:18:48Z"
 }

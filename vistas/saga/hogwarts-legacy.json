@@ -14,6 +14,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:d24e2c2060",
+        "text": "⚙️ Hogwarts Legacy · $64.990"
+      },
+      "id": "d24e2c2060",
+      "nivel": "compra",
+      "nombre": "Hogwarts Legacy",
+      "pct": 9.1,
+      "texto": "🟢 <b>COMPRA YA</b> · −9%\n<b>Hogwarts Legacy</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$64.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n   Ahorras $6.500 frente a su precio típico ($71.490)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/hogwarts-legacy-eu-switch-fisico-sniper\">$64.990 Sniper</a>\n   🥈 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-hogwarts-legacy/00088392979483\">$73.990 Lider</a> 🏪 nocnoc (+$9.000)\n📈 Mínimo $64.990 (28 oct, Sniper) · típico $70.990 · máximo $74.990\n   ▆▆▆▆██▃▃▃▄▅▇▇▅▁▁▁  últimos 17 días\n🎮 Digital: US$48.60 ≈ $48.003 en 🇨🇱 Chile\n   ➜ El digital es $16.987 más barato, pero no se puede revender\n🔎 Confianza media: 2 tiendas y 17 días de historial\n🛒 <a href=\"https://sniper.cl/products/hogwarts-legacy-eu-switch-fisico-sniper\">Ir a comprar en Sniper</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:a8c1a8179f",
         "text": "⚙️ Hogwarts Legacy S2 · $59.990"
       },
@@ -26,5 +38,5 @@
     }
   ],
   "juego": "Hogwarts Legacy",
-  "revision": "2026-10-30T13:18:28Z"
+  "revision": "2026-10-30T19:18:48Z"
 }
