@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 648,
-  "pendientes": 0,
+  "fisicos": 642,
+  "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-30T07:18:40Z",
+  "revision": "2026-10-30T13:18:28Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -82,15 +82,6 @@
       ],
       "orden": 1,
       "slug": "atelier"
-    },
-    {
-      "juego": "Batman",
-      "linea": "🟢 <b>Batman</b> — 📦 1 desde $49.990\n   🟢 Batman: Arkham Trilogy - Sniper",
-      "nombres": [
-        "batman arkham trilogy sniper"
-      ],
-      "orden": 1,
-      "slug": "batman"
     },
     {
       "juego": "Bayonetta",
@@ -187,7 +178,7 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720 · 🎮 2 desde US$5.67\n   🟢 Contra Anniversary Collection −60%",
+      "linea": "🟢 <b>Contra</b> — 📦 2 desde $37.720 · 🎮 2 desde US$5.67\n   🟢 Contra Anniversary Collection −60%",
       "nombres": [
         "contra anniversary collection",
         "contra operation galuga",
@@ -198,7 +189,7 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000 · 🎮 3 desde US$12.25\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 6 desde $28.000 · 🎮 3 desde US$12.25\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
       "nombres": [
         "crash 4 bandicoot",
         "crash bandicoot 4 its about time",
@@ -227,7 +218,7 @@
       "linea": "🟢 <b>Danganronpa</b> — 📦 3 desde $54.990\n   🟢 Danganronpa 2x2",
       "nombres": [
         "danganronpa 2x2",
-        "danganronpa decadence"
+        "danganronpa decadence sniper"
       ],
       "orden": 1,
       "slug": "danganronpa"
@@ -342,13 +333,14 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 9 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
         "ea sports fc 26",
         "ea sports fc 27",
-        "fifa 21 electronic arts"
+        "fifa 21 electronic arts",
+        "fifa 22 de electronic arts"
       ],
       "orden": 1,
       "slug": "ea-sports-fc"
@@ -365,10 +357,11 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 CRISIS CORE –FINAL FANTASY VII– REUNION",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 CRISIS CORE –FINAL FANTASY VII– REUNION",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
+        "final fantasy ix",
         "final fantasy resonance",
         "final fantasy tactics the ivalice chronicles",
         "final fantasy vi",
@@ -393,13 +386,14 @@
     },
     {
       "juego": "Fire Emblem",
-      "linea": "🟢 <b>Fire Emblem</b> — 📦 7 desde $19.990\n   🟢 Fire Emblem Edición 30.º Aniversario",
+      "linea": "🟢 <b>Fire Emblem</b> — 📦 8 desde $19.990\n   🟢 Fire Emblem Edición 30.º Aniversario",
       "nombres": [
         "fire emblem 30th anniversary edition sniper",
         "fire emblem edicion 30 o aniversario",
         "fire emblem engage",
         "fire emblem fortunes weave",
         "fire emblem three hopes se collector sniper",
+        "fire emblem three houses",
         "fire emblem warriors",
         "fire emblem warriors three hopes"
       ],
@@ -478,7 +472,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
+      "linea": "🟢 <b>Just Dance</b> — 📦 17 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -489,6 +483,7 @@
         "just dance 2025",
         "just dance 2026 limited edition",
         "just dance decades of hits limited edition",
+        "pulseras para just dance y zumba",
         "ubisoft just dance 2019",
         "ubisoft just dance 2020",
         "ubisoft just dance 2021",
@@ -500,9 +495,8 @@
     },
     {
       "juego": "Katamari",
-      "linea": "🟢 <b>Katamari</b> — 📦 3 desde $34.990\n   🟢 BANDAI NAMCO We Love Katamari REROLL",
+      "linea": "🟢 <b>Katamari</b> — 📦 2 desde $34.990\n   🟢 Once Upon A KATAMARI",
       "nombres": [
-        "bandai namco we love katamari reroll",
         "once upon a katamari",
         "we love katamari reroll royal reverie"
       ],
@@ -588,9 +582,8 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 24 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
+      "linea": "🟢 <b>Mario</b> — 📦 23 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
       "nombres": [
-        "controlador inalambrico turtle beach rematch mario kart",
         "mario golf super rush",
         "mario kart 8 deluxe",
         "mario luigi brothership",
@@ -635,9 +628,8 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$13.85\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 🎮 1 desde US$13.85\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
-        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -739,8 +731,9 @@
     },
     {
       "juego": "NBA 2K",
-      "linea": "⚪ <b>NBA 2K</b> — 📦 1 desde $109.990",
+      "linea": "⚪ <b>NBA 2K</b> — 📦 2 desde $55.990",
       "nombres": [
+        "2k nba 2k18",
         "nba 2k playgrounds 2"
       ],
       "orden": 4,
@@ -1206,7 +1199,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990\n   🟢 It Takes Two",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990\n   🟢 It Takes Two",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1245,7 +1238,7 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $29.000\n   🟢 Stardew Valley −17%",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 1 desde $49.900\n   🟢 Stardew Valley:",
       "nombres": [
         "stardew valley"
       ],
@@ -1302,7 +1295,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 19 desde $29.990\n   🟢 Instant Sports: de Invierno −8%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 18 desde $29.990\n   🟢 Instant Sports: de Invierno −8%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1320,7 +1313,6 @@
         "nintendo switch sports resort",
         "outright games gigantosaurus dino sports",
         "sports camp a 35 game adventure",
-        "sports motion controls",
         "sports party"
       ],
       "orden": 1,
@@ -1355,13 +1347,14 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
         "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
         "nis america the legend of heroes trails into reverie",
+        "nis america trails from zero trails to azure",
         "the legend of heroes trails from zero",
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
@@ -1446,9 +1439,10 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
+      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
+        "oled zelda tears of the kingdom japan specs",
         "pro controller edicion zelda 40th aniversario",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
@@ -1460,5 +1454,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 722
+  "total": 724
 }

@@ -1071,6 +1071,23 @@
         {
           "precio": 649990.0,
           "tienda": "Lider",
+          "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-2-mario-kart-world-membresia-online/00004549688674"
+        }
+      ],
+      "bundle": true,
+      "min_hist": null,
+      "modelo": "Switch 2",
+      "nombre": "Consola Nintendo Switch 2 Mario Kart World + Membresía Online",
+      "pct": 0,
+      "precio": 649990.0,
+      "tienda": "Lider",
+      "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-2-mario-kart-world-membresia-online/00004549688674"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 649990.0,
+          "tienda": "Lider",
           "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-nintendo-switch-sports-resort-bundle/00004549688681"
         },
         {
@@ -1087,23 +1104,6 @@
       "precio": 649990.0,
       "tienda": "Lider",
       "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-nintendo-switch-sports-resort-bundle/00004549688681"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 649990.0,
-          "tienda": "Lider",
-          "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-2-mario-kart-world-membresia-online/00004549688674"
-        }
-      ],
-      "bundle": true,
-      "min_hist": null,
-      "modelo": "Switch 2",
-      "nombre": "Consola Nintendo Switch 2 Mario Kart World + Membresía Online",
-      "pct": 0,
-      "precio": 649990.0,
-      "tienda": "Lider",
-      "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-2-mario-kart-world-membresia-online/00004549688674"
     },
     {
       "avisos": [
@@ -1278,12 +1278,6 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
-        },
-        {
-          "precio": 88990,
-          "tienda": "MercadoLibre",
-          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (MATHOGAMES CL)",
-          "url": "https://articulo.mercadolibre.cl/MLC-2937537034"
         }
       ],
       "gb": 256,
@@ -1473,7 +1467,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-4619519486"
     }
   ],
-  "revision": "2026-10-30T07:18:40Z",
+  "revision": "2026-10-30T13:18:28Z",
   "seguimientos": [
     {
       "avisos": [
