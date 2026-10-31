@@ -89,6 +89,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:41f137d44c",
+        "text": "⚙️ Koch Media Crash Bandicoot 4 · $70.990"
+      },
+      "id": "41f137d44c",
+      "nivel": "normal",
+      "nombre": "Koch Media Crash Bandicoot 4",
+      "pct": -1.4,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Koch Media Crash Bandicoot 4</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$70.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $68.990 (16 oct, Lider) · típico $70.490 · máximo $71.990\n   ▁▁▁▁▁▁▁▃█▆▆▆▆▆▆▆  últimos 16 días\n🔎 Confianza media: 1 tienda y 16 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-koch-media-crash-bandicoot-4-para-switch/00503091729418\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:40c71fcb59",
         "text": "⚙️ Pewesv Crash Bandicoot 4 · $72.990"
       },
@@ -98,20 +110,8 @@
       "pct": -4.3,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Pewesv Crash Bandicoot 4</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$72.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $67.990 (15 oct, Lider) · típico $71.490 · máximo $75.990\n   ▃▁▁▁▁▁▁▁▁██████▅▅▅  últimos 18 días\n🔎 Confianza media: 1 tienda y 18 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-pewesv-crash-bandicoot-4-para-nintendo-switch/00478751025125\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:41f137d44c",
-        "text": "⚙️ Koch Media Crash Bandicoot 4 · $76.990"
-      },
-      "id": "41f137d44c",
-      "nivel": "normal",
-      "nombre": "Koch Media Crash Bandicoot 4",
-      "pct": -10.0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Koch Media Crash Bandicoot 4</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$76.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $68.990 (16 oct, Lider) · típico $70.490 · máximo $76.990\n   ▁▁▁▁▁▁▁▂▄▃▃▃▃▃▃█  últimos 16 días\n📈 Precio subió 12% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 16 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-koch-media-crash-bandicoot-4-para-switch/00503091729418\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
     }
   ],
   "juego": "Crash / Spyro",
-  "revision": "2026-10-31T07:17:43Z"
+  "revision": "2026-10-31T13:17:01Z"
 }
