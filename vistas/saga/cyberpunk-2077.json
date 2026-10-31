@@ -41,6 +41,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:f8d895e123",
+        "text": "⚙️ Keylocker | Turn Based Cyberp… · US$7.08"
+      },
+      "con_fisico": false,
+      "id": "f8d895e123",
+      "nivel": "compra",
+      "nombre": "Keylocker | Turn Based Cyberpunk Action",
+      "pct": 40.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −40%\n<b>Keylocker | Turn Based Cyberpunk Action</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Cyberpunk 2077\n💰 <b>US$7.08</b> ≈ $6.982 en 🇨🇱 Chile\n   Precio en la tienda: $6.980 CLP\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$11.80 → ahorras US$4.72 · ⏳ termina el 22 nov (en 22 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$7.08</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$7.46</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$7.58</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$7.78</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/keylocker-turn-based-cyberpunk-action-switch/\">US$9.23</a>\n   El más caro: 🇨🇦 US$12.02\n📈 Mínimo US$7.08 (31 oct en 🇨🇱 Chile)\n   █████████████████▁  últimos 18 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/keylocker-turn-based-cyberpunk-action-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:2c152fec19",
         "text": "⚙️ VA-11 Hall-A: Cyberpunk Barte… · $39.990"
       },
@@ -53,5 +66,5 @@
     }
   ],
   "juego": "Cyberpunk 2077",
-  "revision": "2026-10-31T13:17:01Z"
+  "revision": "2026-10-31T19:18:47Z"
 }
