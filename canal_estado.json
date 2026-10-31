@@ -150,9 +150,10 @@
     },
     "2026-10-31": {
       "bombazos": 1,
-      "posts": 2,
+      "posts": 3,
       "slots": [
-        "top"
+        "top",
+        "pack"
       ]
     }
   },
@@ -854,6 +855,12 @@
       ],
       "message_id": 83,
       "slot": "top"
+    },
+    {
+      "fecha": "2026-10-31T13:35-03:00",
+      "ids": [],
+      "message_id": 84,
+      "slot": "pack"
     }
   ],
   "publicados": {
@@ -1406,7 +1413,7 @@
   "relleno": {
     "clasicos": "2026-10-29",
     "memorias": "2026-10-30",
-    "proximos": "2026-10-26"
+    "proximos": "2026-10-31"
   },
   "relleno_juegos": {
     "041f612f9b": "2026-10-29",
@@ -1614,5 +1621,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-10-31T09:05:34.100327-03:00"
+  "ultimo_post": "2026-10-31T13:35:32.948356-03:00"
 }
