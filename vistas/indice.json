@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 661,
+  "fisicos": 663,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-10-31T19:18:47Z",
+  "revision": "2026-11-01T01:16:37Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -177,10 +177,11 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 🎮 2 desde US$5.67\n   🟢 Contra Anniversary Collection −60%",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720 · 🎮 2 desde US$5.67\n   🟢 Contra Anniversary Collection −60%",
       "nombres": [
         "contra anniversary collection",
-        "contra operation galuga"
+        "contra operation galuga",
+        "contra rogue corps"
       ],
       "orden": 1,
       "slug": "contra"
@@ -283,12 +284,13 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟢 <b>Doom</b> — 📦 3 desde $44.990 · 🎮 3 desde US$2.03\n   🟢 DOOM 3 −60%",
+      "linea": "🟢 <b>Doom</b> — 📦 5 desde $44.990 · 🎮 3 desde US$2.03\n   🟢 DOOM 3 −60%",
       "nombres": [
         "doom",
         "doom 3",
         "doom 64",
-        "doom doom ii"
+        "doom doom ii",
+        "the last kids on earth and the staff of doom"
       ],
       "orden": 1,
       "slug": "doom"
@@ -411,7 +413,7 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 2 desde $75.990 · 🎮 2 desde US$10.65\n   🟢 Hitman: Blood Money — Reprisal −50%",
+      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $75.990 · 🎮 2 desde US$10.65\n   🟢 Hitman: Blood Money — Reprisal −50%",
       "nombres": [
         "game solutions 2 go hitman world of assassination",
         "hitman absolution nintendo switch 2 edition",
@@ -423,7 +425,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.000\n   🟢 Hogwarts Legacy −21%",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 2 desde $59.000\n   🟢 Hogwarts Legacy −21%",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -462,11 +464,10 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 17 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
+      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
-        "just dance 2020 ubisoft",
         "just dance 2021",
         "just dance 2022",
         "just dance 2024 edition",
@@ -573,7 +574,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 23 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
+      "linea": "🟢 <b>Mario</b> — 📦 22 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -618,8 +619,9 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 🎮 1 desde US$13.76\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$13.76\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
+        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -1340,9 +1342,8 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $29.000 · 🎮 3 desde US$13.79\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
+      "linea": "🟢 <b>Tales of</b> — 📦 4 desde $29.000 · 🎮 3 desde US$13.79\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
-        "iam8bit tales of the shire",
         "tales of arise beyond the dawn edition",
         "tales of berseria remastered",
         "tales of graces f remastered",
@@ -1472,5 +1473,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 753
+  "total": 754
 }
