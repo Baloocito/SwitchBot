@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 469,
+  "fisicos": 482,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-01T07:19:47Z",
+  "revision": "2026-11-01T13:15:51Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -82,6 +82,15 @@
       ],
       "orden": 1,
       "slug": "atelier"
+    },
+    {
+      "juego": "Batman",
+      "linea": "🟢 <b>Batman</b> — 📦 1 desde $49.990\n   🟢 Batman: Arkham Trilogy - Sniper",
+      "nombres": [
+        "batman arkham trilogy sniper"
+      ],
+      "orden": 1,
+      "slug": "batman"
     },
     {
       "juego": "Bayonetta",
@@ -231,7 +240,7 @@
     },
     {
       "juego": "Digimon Story Time Stranger",
-      "linea": "🟢 <b>Digimon Story Time Stranger</b> — 📦 2 desde $79.990\n   🟢 Digimon Story Time Stranger",
+      "linea": "🟢 <b>Digimon Story Time Stranger</b> — 📦 1 desde $79.990\n   🟢 Digimon Story Time Stranger",
       "nombres": [
         "digimon story time stranger"
       ],
@@ -260,10 +269,11 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟢 <b>Doom</b> — 📦 4 desde $44.990\n   🟢 DOOM 64",
+      "linea": "🟢 <b>Doom</b> — 📦 5 desde $44.990\n   🟢 DOOM 64",
       "nombres": [
         "doom",
         "doom 64",
+        "doom doom ii",
         "the last kids on earth and the staff of doom"
       ],
       "orden": 1,
@@ -728,7 +738,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $19.000 · 🎮 62 desde US$1.99\n   🟢 Night Call −85%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $19.000 · 🎮 72 desde US$1.99\n   🟢 The Talos Principle: Deluxe Edition −87%",
       "nombres": [
         "ace attorney anthology",
         "atomicrops",
@@ -739,6 +749,7 @@
         "blasphemous",
         "bloodstained ritual of the night",
         "borderlands collection pandoras box",
+        "broforce",
         "capcom beat em up bundle",
         "capcom fighting collection",
         "capcom fighting collection 1 2 bundle",
@@ -752,22 +763,27 @@
         "dragon ball sparking zero",
         "dragon ball xenoverse 2 for nintendo switch",
         "dredge",
+        "enter the gungeon",
         "etrange overlord",
-        "farming simulator 23 nintendo switch edition",
+        "exit the gungeon",
         "ghost trick phantom detective",
         "ghosts n goblins resurrection",
         "golf story",
         "gonner2",
+        "gris",
         "inside",
         "into the breach",
+        "katana zero",
         "kathy rain directors cut",
         "limbo",
+        "loop hero",
         "mega man cyber wave pack",
         "monster hunter stories deluxe collection",
         "moonlighter",
         "mosaic",
         "moving out 2",
         "mutazione",
+        "my friend pedro",
         "nba 2k27",
         "nickelodeon all star brawl 2",
         "night call",
@@ -776,19 +792,23 @@
         "olliolli world",
         "onimusha 1 2 pack",
         "pga tour 2k25",
+        "pikuniku",
         "plateup",
         "red dead redemption",
         "red dead redemption nintendo switch 2 edition",
         "return of the obra dinn",
+        "return to monkey island",
         "risk of rain 2",
         "shinsekai into the depths",
-        "skate story",
         "slime rancher plortable edition",
         "star renegades",
         "tails noir",
         "terraria",
+        "the messenger",
+        "the plucky squire",
+        "the swords of ditto mormos curse",
+        "the talos principle deluxe edition",
         "townscaper",
-        "two point museum",
         "undertale",
         "uurnog uurnlimited",
         "west of dead",
@@ -889,7 +909,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $34.000 · 🎮 5 desde US$6.15\n   🟢 Resident Evil Revelations −60%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $34.000 · 🎮 5 desde US$6.15\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 2 deluxe edition",
@@ -993,8 +1013,9 @@
     },
     {
       "juego": "Soul Reaver",
-      "linea": "🟢 <b>Soul Reaver</b> — 📦 2 desde $36.990 · 🎮 1 desde US$12.79\n   🟢 Legacy of Kain Soul Reaver 1&amp;2 Remastered −55%",
+      "linea": "🟢 <b>Soul Reaver</b> — 📦 3 desde $36.990 · 🎮 1 desde US$12.79\n   🟢 Legacy of Kain Soul Reaver 1&amp;2 Remastered −55%",
       "nombres": [
+        "aspyr legacy of kain soul reaver",
         "legacy of kain soul reaver 1 2 remastered"
       ],
       "orden": 1,
@@ -1163,11 +1184,12 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 14 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
+        "nis america the legend of heroes trails into reverie",
         "nis america the legend of heroes trails to azure",
         "nis america trails beyond horizon edicion de lujo",
         "nis america trails from zero trails to azure",
@@ -1269,5 +1291,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 556
+  "total": 568
 }
