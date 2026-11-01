@@ -153,9 +153,10 @@
     },
     "2026-11-01": {
       "bombazos": 0,
-      "posts": 1,
+      "posts": 2,
       "slots": [
-        "top"
+        "top",
+        "semanal"
       ]
     }
   },
@@ -903,6 +904,12 @@
       ],
       "message_id": 88,
       "slot": "top"
+    },
+    {
+      "fecha": "2026-11-01T12:05-03:00",
+      "ids": [],
+      "message_id": 89,
+      "slot": "semanal"
     }
   ],
   "publicados": {
@@ -1713,5 +1720,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-01T09:05:32.829559-03:00"
+  "ultimo_post": "2026-11-01T12:05:35.564651-03:00"
 }
