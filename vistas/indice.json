@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 663,
+  "fisicos": 469,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-01T01:16:37Z",
+  "revision": "2026-11-01T07:19:47Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -176,26 +176,14 @@
       "slug": "civilization"
     },
     {
-      "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720 · 🎮 2 desde US$5.67\n   🟢 Contra Anniversary Collection −60%",
-      "nombres": [
-        "contra anniversary collection",
-        "contra operation galuga",
-        "contra rogue corps"
-      ],
-      "orden": 1,
-      "slug": "contra"
-    },
-    {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000 · 🎮 3 desde US$12.17\n   🟢 Crash Bandicoot 4: It’s About Time −67%",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 6 desde $28.000\n   🟢 Crash Bandicoot N. Sane Trilogy −20%",
       "nombres": [
         "crash 4 bandicoot",
         "crash bandicoot 4 its about time",
         "crash bandicoot n sane trilogy",
         "koch media crash bandicoot 4",
-        "pewesv crash bandicoot 4",
-        "spyro reignited trilogy"
+        "pewesv crash bandicoot 4"
       ],
       "orden": 1,
       "slug": "crash-spyro"
@@ -225,10 +213,9 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990 · 🎮 2 desde US$10.19\n   🟢 DAVE THE DIVER −45%",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER −18%",
       "nombres": [
-        "dave the diver",
-        "dave the diver nintendo switch 2 edition"
+        "dave the diver"
       ],
       "orden": 1,
       "slug": "dave-the-diver"
@@ -241,16 +228,6 @@
       ],
       "orden": 1,
       "slug": "dead-cells"
-    },
-    {
-      "juego": "Diablo",
-      "linea": "🟢 <b>Diablo</b> — 🎮 2 desde US$12.17\n   🟢 Diablo III: Eternal Collection −67%",
-      "nombres": [
-        "diablo iii eternal collection",
-        "diablo iv age of hatred collection"
-      ],
-      "orden": 1,
-      "slug": "diablo"
     },
     {
       "juego": "Digimon Story Time Stranger",
@@ -272,9 +249,8 @@
     },
     {
       "juego": "Donkey Kong",
-      "linea": "🟢 <b>Donkey Kong</b> — 📦 5 desde $44.000\n   🟢 Donkey Kong Country Returns HD −11%",
+      "linea": "🟢 <b>Donkey Kong</b> — 📦 4 desde $44.000\n   🟢 Donkey Kong Country Returns HD −11%",
       "nombres": [
-        "controlador inalambrico turtle beach rematch donkey kong",
         "donkey kong bananza",
         "donkey kong country returns hd",
         "donkey kong country tropical freeze"
@@ -284,12 +260,10 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟢 <b>Doom</b> — 📦 5 desde $44.990 · 🎮 3 desde US$2.03\n   🟢 DOOM 3 −60%",
+      "linea": "🟢 <b>Doom</b> — 📦 4 desde $44.990\n   🟢 DOOM 64",
       "nombres": [
         "doom",
-        "doom 3",
         "doom 64",
-        "doom doom ii",
         "the last kids on earth and the staff of doom"
       ],
       "orden": 1,
@@ -297,15 +271,11 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 6 desde $19.990 · 🎮 5 desde US$2.20\n   🟢 DRAGON BALL: THE BREAKERS −85%",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 6 desde $19.990\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball heroes world mission",
-        "dragon ball sparking zero",
-        "dragon ball the breakers",
-        "dragon ball xenoverse 2 for nintendo switch",
         "dragon ball z kakarot",
-        "dragon ball z kakarot a new power awakens set",
         "dragon ball z kakarot a new power awakes set sniper",
         "dragon ball z kakarot daima edition snipercl",
         "super dragon ball heroes world mission"
@@ -413,7 +383,7 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $75.990 · 🎮 2 desde US$10.65\n   🟢 Hitman: Blood Money — Reprisal −50%",
+      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $75.990 · 🎮 1 desde US$21.29\n   🟢 HITMAN World of Assassination - Signature Edition",
       "nombres": [
         "game solutions 2 go hitman world of assassination",
         "hitman absolution nintendo switch 2 edition",
@@ -452,15 +422,6 @@
       ],
       "orden": 1,
       "slug": "hyrule-warriors"
-    },
-    {
-      "juego": "Indiana Jones",
-      "linea": "🟡 <b>Indiana Jones</b> — 🎮 1 desde US$49.00\n   🟡 Indiana Jones and the Great Circle −20%",
-      "nombres": [
-        "indiana jones and the great circle"
-      ],
-      "orden": 2,
-      "slug": "indiana-jones"
     },
     {
       "juego": "Just Dance",
@@ -533,13 +494,11 @@
     },
     {
       "juego": "Like a Dragon / Yakuza",
-      "linea": "🟢 <b>Like a Dragon / Yakuza</b> — 📦 7 desde $38.000 · 🎮 5 desde US$8.61\n   🟢 Yakuza Kiwami −50%",
+      "linea": "🟢 <b>Like a Dragon / Yakuza</b> — 📦 7 desde $38.000\n   🟢 Yakuza 0: Directorâs Cut −41%",
       "nombres": [
         "yakuza 0 directora s cut",
-        "yakuza 0 directors cut",
         "yakuza kiwami",
-        "yakuza kiwami 2",
-        "yakuza kiwami 3 dark ties"
+        "yakuza kiwami 2"
       ],
       "orden": 1,
       "slug": "like-a-dragon-yakuza"
@@ -700,7 +659,7 @@
     },
     {
       "juego": "Mortal Kombat",
-      "linea": "🟢 <b>Mortal Kombat</b> — 📦 4 desde $25.000 · 🎮 2 desde US$12.07\n   🟢 Mortal Kombat: Legacy Kollection −50%",
+      "linea": "🟢 <b>Mortal Kombat</b> — 📦 4 desde $25.000\n   🟢 Mortal Kombat 11 −16%",
       "nombres": [
         "mortal kombat 1",
         "mortal kombat 11",
@@ -711,7 +670,7 @@
     },
     {
       "juego": "Naruto",
-      "linea": "🟢 <b>Naruto</b> — 📦 3 desde $28.000 · 🎮 1 desde US$12.88\n   🟢 NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS −67%",
+      "linea": "🟢 <b>Naruto</b> — 📦 3 desde $28.000\n   🟢 NARUTO SHIPPUDEN: Ultimate Ninja Storm Trilogy −30%",
       "nombres": [
         "naruto shippuden ultimate ninja storm 4 road to boruto",
         "naruto shippuden ultimate ninja storm trilogy",
@@ -728,15 +687,6 @@
       ],
       "orden": 4,
       "slug": "nba-2k"
-    },
-    {
-      "juego": "NieR",
-      "linea": "⚪ <b>NieR</b> — 📦 1 desde $77.990",
-      "nombres": [
-        "square enix nier automata para region eu libre"
-      ],
-      "orden": 4,
-      "slug": "nier"
     },
     {
       "juego": "Octopath Traveler",
@@ -778,240 +728,89 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $19.000 · 🎮 218 desde US$1.99\n   🟢 Paper Cut Mansion −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $19.000 · 🎮 62 desde US$1.99\n   🟢 Night Call −85%",
       "nombres": [
-        "abomi nation",
-        "ace angler fishing spirits",
         "ace attorney anthology",
-        "ace combat7 skies unknown deluxe edition",
-        "aggelos",
-        "aka",
-        "alice gear aegis cs concerto of simulatrix",
-        "alien isolation",
-        "animal well",
-        "aokana four rhythms across the blue",
-        "arcade classics anniversary collection",
-        "arcade spirits the new challengers",
-        "arcrunner",
-        "are you smarter than a 5th grader",
         "atomicrops",
-        "b project ryusei fantasia",
         "bad north",
-        "balatro",
-        "baten kaitos i ii hd remaster",
-        "beyond good evil 20th anniversary edition",
         "bioshock 2 remastered",
         "bioshock infinite the complete edition",
         "bioshock the collection",
         "blasphemous",
-        "bleak sword dx",
         "bloodstained ritual of the night",
         "borderlands collection pandoras box",
         "capcom beat em up bundle",
         "capcom fighting collection",
         "capcom fighting collection 1 2 bundle",
         "capcom fighting collection 2",
-        "carrion",
         "cassette beasts",
-        "castlevania collections bundle",
-        "clock tower rewind",
-        "contra run gun bundle",
-        "contra x castlevania bundle",
-        "crash bandicoot crashiversary bundle",
-        "crash team racing nitro fueled",
-        "crossing souls",
-        "cult of the lamb",
         "dandara trials of fear edition",
         "darkest dungeon",
         "darkest dungeon ii",
-        "darwins paradox",
-        "dawn of the monsters",
         "dead by daylight",
-        "deaths door",
-        "deltarune",
         "dicey dungeons",
-        "discounty",
         "dragon ball sparking zero",
         "dragon ball xenoverse 2 for nintendo switch",
         "dredge",
-        "endling extinction is forever",
         "etrange overlord",
-        "etrian odyssey hd",
-        "etrian odyssey ii hd",
-        "etrian odyssey iii hd",
-        "everybodys golf hot shots",
-        "fallout 4 anniversary edition",
         "farming simulator 23 nintendo switch edition",
-        "fatal frame ii crimson butterfly remake",
-        "fatal frame mask of the lunar eclipse",
-        "fate samurai remnant",
-        "felix the cat",
-        "genso manege",
-        "getsufumaden undying moon",
         "ghost trick phantom detective",
-        "ghostpia season one",
         "ghosts n goblins resurrection",
-        "goat simulator 3",
-        "god eater 3",
         "golf story",
         "gonner2",
-        "gradius origins",
-        "grid autosport",
-        "grounded",
-        "gundam breaker 4",
-        "hack g u last recode",
-        "hello kitty island adventure nintendo switch 2 edition",
-        "him the smile bloom",
-        "hotline miami collection",
-        "i chu chibi edition",
-        "inertial drift",
-        "inscryption",
         "inside",
         "into the breach",
-        "jackbox naughty pack",
-        "jojos bizarre adventure all star battle r",
-        "jujutsu kaisen cursed clash",
         "kathy rain directors cut",
-        "kitaria fables",
-        "knight vs giant the broken excalibur",
-        "labyrinth of galleria the moon society",
-        "labyrinth of zangetsu",
         "limbo",
-        "little big workshop",
-        "little kitty big city",
-        "little nightmares complete edition",
-        "little nightmares enhanced edition complete edition",
-        "maglam lord",
         "mega man cyber wave pack",
-        "metal max xeno reborn",
-        "mobile suit gundam seed battle destiny remastered",
         "monster hunter stories deluxe collection",
         "moonlighter",
         "mosaic",
         "moving out 2",
         "mutazione",
-        "namco museum archives vol 2",
-        "nanoapostle",
         "nba 2k27",
-        "neighbours back from hell",
-        "nexomon",
-        "nexomon extinction",
-        "nexomon nexomon extinction complete collection",
-        "ni no kuni ii revenant kingdom princes edition",
         "nickelodeon all star brawl 2",
         "night call",
-        "night in the woods",
-        "nine sols",
-        "ninja five o",
         "no mans sky",
         "no mans sky nintendo switch 2 edition",
         "olliolli world",
         "onimusha 1 2 pack",
-        "pac man museum",
-        "pac man world 2 re pac",
-        "paper cut mansion",
-        "patapon 1 2 replay",
-        "pentiment",
-        "persona 3 portable persona 4 golden bundle",
         "pga tour 2k25",
         "plateup",
-        "possessor s",
-        "potion permit",
-        "potion permit complete edition",
-        "powerwash simulator",
-        "powerwash simulator 2",
-        "puyo puyo tetris 2s",
-        "quake",
-        "quake ii",
-        "raidou remastered the mystery of the soulless army",
         "red dead redemption",
         "red dead redemption nintendo switch 2 edition",
         "return of the obra dinn",
         "risk of rain 2",
-        "samba de amigo party central",
-        "sd gundam battle alliance",
-        "shadow labyrinth",
-        "shadow labyrinth nintendo switch 2 edition",
         "shinsekai into the depths",
-        "since memories off the starry sky",
         "skate story",
-        "sky oceans wings for hire",
         "slime rancher plortable edition",
-        "snowrunner",
-        "songbird symphony",
-        "source of madness",
-        "spelunky 2",
-        "spidersaurs",
-        "spy anya operation memories",
         "star renegades",
-        "stories untold",
-        "subnautica",
-        "subnautica nintendo switch 2 edition",
-        "super bomberman r 2",
-        "super bullet break",
-        "super crazy rhythm castle",
-        "super meat boy",
-        "super monkey ball banana mania",
-        "super robot wars y",
-        "survival kids",
         "tails noir",
-        "teenage mutant ninja turtles the cowabunga collection",
         "terraria",
-        "the bridge curse 2 the extrication",
-        "the cosmic wheel sisterhood",
-        "the dark pictures anthology little hope",
-        "the dark pictures anthology man of medan",
-        "the elder scrolls iv oblivion remastered",
-        "the elder scrolls v skyrim anniversary edition",
-        "the entropy centre",
-        "the mummy demastered",
-        "the settlers new allies",
-        "the stanley parable ultra deluxe",
-        "through the darkest of times",
-        "tony hawks pro skater 1 2",
-        "tony hawks pro skater 1 4 standard edition bundle",
-        "tormented souls",
-        "towa and the guardians of the sacred tree",
         "townscaper",
-        "trials rising standard edition",
-        "trivial pursuit live 2",
-        "tunic",
-        "two point campus",
         "two point museum",
-        "ultimate chicken horse",
-        "ultra kaiju monster rancher",
         "undertale",
         "uurnog uurnlimited",
-        "valkyria chronicles",
-        "vampire survivors",
-        "venba",
-        "virtua fighter 5 r e v o world stage",
         "west of dead",
-        "white day a labyrinth named school",
-        "wolfenstein ii the new colossus",
         "wwe 2k26 standard edition",
-        "xcom 2 collection",
-        "yu gi oh early days collection",
-        "yu gi oh legacy of the duelist link evolution",
-        "yu gi oh rush duel dawn of the battle royale"
+        "xcom 2 collection"
       ],
       "orden": 1,
       "slug": "otros-juegos"
     },
     {
       "juego": "Overcooked",
-      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $44.990 · 🎮 1 desde US$5.01\n   🟢 Overcooked! 2 −75%",
+      "linea": "🟢 <b>Overcooked</b> — 📦 2 desde $44.990 · 🎮 1 desde US$5.01\n   🟢 Overcooked! 2 −75%",
       "nombres": [
         "overcooked 2",
-        "overcooked all you can eat",
-        "overcooked de fireshine games"
+        "overcooked all you can eat"
       ],
       "orden": 1,
       "slug": "overcooked"
     },
     {
       "juego": "Persona",
-      "linea": "🟢 <b>Persona</b> — 📦 6 desde $19.990 · 🎮 2 desde US$16.09\n   🟢 Persona 5 Royal −70%",
+      "linea": "🟢 <b>Persona</b> — 📦 6 desde $19.990\n   🟢 Persona 3 Reload −29%",
       "nombres": [
         "persona 3 reload",
         "persona 4 the ultimax ultra super hold japan import",
@@ -1035,7 +834,7 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $35.000\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 8 desde $35.000\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
         "pokemon legends za 2",
         "pokemon scarlet",
@@ -1157,7 +956,7 @@
     },
     {
       "juego": "Shin Megami Tensei",
-      "linea": "🟢 <b>Shin Megami Tensei</b> — 📦 7 desde $19.000 · 🎮 1 desde US$13.35\n   🟢 Shin Megami Tensei III Nocturne HD Remaster −70%",
+      "linea": "🟢 <b>Shin Megami Tensei</b> — 📦 7 desde $19.000\n   🟢 Shin Megami Tensei V: Vengeance −24%",
       "nombres": [
         "shin megami tensei iii nocturne hd remaster",
         "shin megami tensei v fall of man premium edition con detalles",
@@ -1178,18 +977,15 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $29.990 · 🎮 6 desde US$7.04\n   🟢 Sonic Origins −70%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $29.990\n   🟢 Sonic Frontiers - Definitive Edition −38%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
         "sonic forces",
         "sonic frontiers",
         "sonic frontiers definitive edition",
-        "sonic mania",
         "sonic modern collection",
-        "sonic origins",
         "sonic racing crossworlds",
-        "sonic superstars",
         "sonic x shadow generations"
       ],
       "orden": 1,
@@ -1197,9 +993,8 @@
     },
     {
       "juego": "Soul Reaver",
-      "linea": "🟢 <b>Soul Reaver</b> — 📦 3 desde $36.990 · 🎮 1 desde US$12.79\n   🟢 Legacy of Kain Soul Reaver 1&amp;2 Remastered −55%",
+      "linea": "🟢 <b>Soul Reaver</b> — 📦 2 desde $36.990 · 🎮 1 desde US$12.79\n   🟢 Legacy of Kain Soul Reaver 1&amp;2 Remastered −55%",
       "nombres": [
-        "aspyr legacy of kain soul reaver",
         "legacy of kain soul reaver 1 2 remastered"
       ],
       "orden": 1,
@@ -1237,7 +1032,7 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $28.000 · 🎮 10 desde US$5.68\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $28.000 · 🎮 9 desde US$5.68\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars battlefront classic collection",
@@ -1245,6 +1040,7 @@
         "star wars dark forces remaster",
         "star wars episode i jedi power battles",
         "star wars episode i racer",
+        "star wars heritage pack",
         "star wars jedi knight jedi academy",
         "star wars knights of the old republic",
         "star wars knights of the old republic ii the sith lords",
@@ -1315,7 +1111,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 20 desde $29.990\n   🟢 Instant Sports: de Invierno −16%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 20 desde $29.990\n   🟢 Instant Sports: de Invierno −15%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1342,9 +1138,9 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 4 desde $29.000 · 🎮 3 desde US$13.79\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
+      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $29.000 · 🎮 2 desde US$13.79\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
-        "tales of arise beyond the dawn edition",
+        "iam8bit tales of the shire",
         "tales of berseria remastered",
         "tales of graces f remastered",
         "tales of symphonia remastered",
@@ -1367,12 +1163,11 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 14 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
-        "nis america the legend of heroes trails into reverie",
         "nis america the legend of heroes trails to azure",
         "nis america trails beyond horizon edicion de lujo",
         "nis america trails from zero trails to azure",
@@ -1459,9 +1254,10 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
+      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
+        "oled zelda tears of the kingdom japan specs",
         "pro controller edicion zelda 40th aniversario",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
@@ -1473,5 +1269,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 754
+  "total": 556
 }
