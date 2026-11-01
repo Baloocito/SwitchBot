@@ -62,18 +62,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:1b6881930b",
-        "text": "⚙️ FIFA 22 de Electronic Arts · $88.990"
-      },
-      "id": "1b6881930b",
-      "nivel": "normal",
-      "nombre": "FIFA 22 de Electronic Arts",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>FIFA 22 de Electronic Arts</b>\n🕹️ Switch 1 · 📦 Físico · EA Sports FC\n💰 <b>$88.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $88.990 (30 oct, Lider) · máximo $98.990\n   █▇▁▁▁  últimos 5 días\n🔎 Confianza baja: una sola tienda y 5 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-fifa-22-de-electronic-arts-para-nintendo-switch/00001463337846\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:913b0854d4",
         "text": "⚙️ FIFA 21 – Electronic Arts · $121.990"
       },
@@ -110,5 +98,5 @@
     }
   ],
   "juego": "EA Sports FC",
-  "revision": "2026-11-01T13:15:51Z"
+  "revision": "2026-11-01T19:17:33Z"
 }

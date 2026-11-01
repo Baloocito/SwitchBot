@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 482,
+  "fisicos": 471,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-01T13:15:51Z",
+  "revision": "2026-11-01T19:17:33Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -82,15 +82,6 @@
       ],
       "orden": 1,
       "slug": "atelier"
-    },
-    {
-      "juego": "Batman",
-      "linea": "🟢 <b>Batman</b> — 📦 1 desde $49.990\n   🟢 Batman: Arkham Trilogy - Sniper",
-      "nombres": [
-        "batman arkham trilogy sniper"
-      ],
-      "orden": 1,
-      "slug": "batman"
     },
     {
       "juego": "Bayonetta",
@@ -258,8 +249,9 @@
     },
     {
       "juego": "Donkey Kong",
-      "linea": "🟢 <b>Donkey Kong</b> — 📦 4 desde $44.000\n   🟢 Donkey Kong Country Returns HD −11%",
+      "linea": "🟢 <b>Donkey Kong</b> — 📦 5 desde $44.000\n   🟢 Donkey Kong Country Returns HD −11%",
       "nombres": [
+        "controlador inalambrico turtle beach rematch donkey kong",
         "donkey kong bananza",
         "donkey kong country returns hd",
         "donkey kong country tropical freeze"
@@ -269,11 +261,10 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟢 <b>Doom</b> — 📦 5 desde $44.990\n   🟢 DOOM 64",
+      "linea": "🟢 <b>Doom</b> — 📦 4 desde $44.990\n   🟢 DOOM 64",
       "nombres": [
         "doom",
         "doom 64",
-        "doom doom ii",
         "the last kids on earth and the staff of doom"
       ],
       "orden": 1,
@@ -295,7 +286,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 20 desde $24.990\n   🟢 DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition −24%",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990\n   🟢 DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition −24%",
       "nombres": [
         "dragon quest",
         "dragon quest builders",
@@ -314,14 +305,13 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 9 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
         "ea sports fc 26",
         "ea sports fc 27",
-        "fifa 21 electronic arts",
-        "fifa 22 de electronic arts"
+        "fifa 21 electronic arts"
       ],
       "orden": 1,
       "slug": "ea-sports-fc"
@@ -435,7 +425,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
+      "linea": "🟢 <b>Just Dance</b> — 📦 15 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -445,7 +435,6 @@
         "just dance 2025",
         "just dance 2026 limited edition",
         "just dance decades of hits limited edition",
-        "pulseras para just dance y zumba",
         "ubisoft just dance 2019",
         "ubisoft just dance 2020",
         "ubisoft just dance 2021",
@@ -490,8 +479,9 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $18.000 · 🎮 2 desde US$20.28\n   🟢 LEGO DC Super-Villains −21%",
+      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $18.000 · 🎮 3 desde US$2.22\n   🟢 LEGO Bricktales −79%",
       "nombres": [
+        "lego bricktales",
         "lego dc super villains",
         "lego party",
         "lego party nintendo switch 2 edition",
@@ -699,6 +689,15 @@
       "slug": "nba-2k"
     },
     {
+      "juego": "NieR",
+      "linea": "⚪ <b>NieR</b> — 📦 1 desde $77.990",
+      "nombres": [
+        "square enix nier automata para region eu libre"
+      ],
+      "orden": 4,
+      "slug": "nier"
+    },
+    {
       "juego": "Octopath Traveler",
       "linea": "🟢 <b>Octopath Traveler</b> — 📦 6 desde $44.990\n   🟢 OCTOPATH TRAVELER II −17%",
       "nombres": [
@@ -738,11 +737,9 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $19.000 · 🎮 72 desde US$1.99\n   🟢 The Talos Principle: Deluxe Edition −87%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $19.000 · 🎮 62 desde US$1.99\n   🟢 The Talos Principle: Deluxe Edition −87%",
       "nombres": [
         "ace attorney anthology",
-        "atomicrops",
-        "bad north",
         "bioshock 2 remastered",
         "bioshock infinite the complete edition",
         "bioshock the collection",
@@ -754,8 +751,6 @@
         "capcom fighting collection",
         "capcom fighting collection 1 2 bundle",
         "capcom fighting collection 2",
-        "cassette beasts",
-        "dandara trials of fear edition",
         "darkest dungeon",
         "darkest dungeon ii",
         "dead by daylight",
@@ -769,24 +764,20 @@
         "ghost trick phantom detective",
         "ghosts n goblins resurrection",
         "golf story",
-        "gonner2",
         "gris",
         "inside",
         "into the breach",
         "katana zero",
-        "kathy rain directors cut",
         "limbo",
         "loop hero",
         "mega man cyber wave pack",
         "monster hunter stories deluxe collection",
         "moonlighter",
-        "mosaic",
         "moving out 2",
         "mutazione",
         "my friend pedro",
         "nba 2k27",
         "nickelodeon all star brawl 2",
-        "night call",
         "no mans sky",
         "no mans sky nintendo switch 2 edition",
         "olliolli world",
@@ -801,17 +792,15 @@
         "risk of rain 2",
         "shinsekai into the depths",
         "slime rancher plortable edition",
-        "star renegades",
-        "tails noir",
+        "steamworld build",
+        "steamworld heist ii",
         "terraria",
         "the messenger",
         "the plucky squire",
         "the swords of ditto mormos curse",
         "the talos principle deluxe edition",
-        "townscaper",
-        "undertale",
-        "uurnog uurnlimited",
-        "west of dead",
+        "viewfinder",
+        "wavetale",
         "wwe 2k26 standard edition",
         "xcom 2 collection"
       ],
@@ -820,10 +809,11 @@
     },
     {
       "juego": "Overcooked",
-      "linea": "🟢 <b>Overcooked</b> — 📦 2 desde $44.990 · 🎮 1 desde US$5.01\n   🟢 Overcooked! 2 −75%",
+      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $44.990 · 🎮 1 desde US$5.01\n   🟢 Overcooked! 2 −75%",
       "nombres": [
         "overcooked 2",
-        "overcooked all you can eat"
+        "overcooked all you can eat",
+        "overcooked de fireshine games"
       ],
       "orden": 1,
       "slug": "overcooked"
@@ -1053,7 +1043,7 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $28.000 · 🎮 9 desde US$5.68\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $28.000 · 🎮 9 desde US$5.68\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars battlefront classic collection",
@@ -1061,7 +1051,6 @@
         "star wars dark forces remaster",
         "star wars episode i jedi power battles",
         "star wars episode i racer",
-        "star wars heritage pack",
         "star wars jedi knight jedi academy",
         "star wars knights of the old republic",
         "star wars knights of the old republic ii the sith lords",
@@ -1121,9 +1110,8 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $49.000\n   🟢 Super Smash Bros. Ultimate −6%",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $49.000\n   🟢 Super Smash Bros. Ultimate −6%",
       "nombres": [
-        "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
       ],
@@ -1132,7 +1120,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 20 desde $29.990\n   🟢 Instant Sports: de Invierno −15%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 19 desde $29.990\n   🟢 Instant Sports: de Invierno −15%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1151,7 +1139,6 @@
         "nintendo switch sports resort",
         "outright games gigantosaurus dino sports",
         "sports camp a 35 game adventure",
-        "sports motion controls",
         "sports party"
       ],
       "orden": 1,
@@ -1159,9 +1146,10 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $29.000 · 🎮 2 desde US$13.79\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
+      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $29.000 · 🎮 2 desde US$13.79\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
         "iam8bit tales of the shire",
+        "tales of arise beyond the dawn edition",
         "tales of berseria remastered",
         "tales of graces f remastered",
         "tales of symphonia remastered",
@@ -1184,16 +1172,13 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 14 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $42.000\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
         "nis america the legend of heroes trails into reverie",
-        "nis america the legend of heroes trails to azure",
         "nis america trails beyond horizon edicion de lujo",
-        "nis america trails from zero trails to azure",
-        "the legend of heroes trails from zero",
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
         "the legend of nayuta boundless trails deluxe ed sniper",
@@ -1291,5 +1276,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 568
+  "total": 552
 }
