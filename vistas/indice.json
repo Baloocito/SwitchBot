@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 471,
+  "fisicos": 472,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-02T01:16:32Z",
+  "revision": "2026-11-02T07:17:16Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -249,9 +249,8 @@
     },
     {
       "juego": "Donkey Kong",
-      "linea": "🟢 <b>Donkey Kong</b> — 📦 5 desde $44.000\n   🟢 Donkey Kong Country Returns HD −11%",
+      "linea": "🟢 <b>Donkey Kong</b> — 📦 4 desde $44.000\n   🟢 Donkey Kong Country Returns HD −11%",
       "nombres": [
-        "controlador inalambrico turtle beach rematch donkey kong",
         "donkey kong bananza",
         "donkey kong country returns hd",
         "donkey kong country tropical freeze"
@@ -680,21 +679,12 @@
     },
     {
       "juego": "NBA 2K",
-      "linea": "⚪ <b>NBA 2K</b> — 📦 1 desde $109.990",
+      "linea": "🟢 <b>NBA 2K</b> — 📦 1 desde $109.990\n   🟢 NBA 2K Playgrounds 2",
       "nombres": [
         "nba 2k playgrounds 2"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "nba-2k"
-    },
-    {
-      "juego": "NieR",
-      "linea": "⚪ <b>NieR</b> — 📦 1 desde $77.990",
-      "nombres": [
-        "square enix nier automata para region eu libre"
-      ],
-      "orden": 4,
-      "slug": "nier"
     },
     {
       "juego": "Octopath Traveler",
@@ -718,7 +708,7 @@
     },
     {
       "juego": "One Piece",
-      "linea": "🟢 <b>One Piece</b> — 📦 1 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
+      "linea": "🟢 <b>One Piece</b> — 📦 2 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
       "nombres": [
         "one piece odyssey deluxe edition"
       ],
@@ -899,7 +889,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $34.000 · 🎮 5 desde US$6.11\n   🟢 Resident Evil Revelations −60%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $34.000 · 🎮 5 desde US$6.11\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 2 deluxe edition",
@@ -1003,9 +993,8 @@
     },
     {
       "juego": "Soul Reaver",
-      "linea": "🟢 <b>Soul Reaver</b> — 📦 3 desde $36.990 · 🎮 1 desde US$12.73\n   🟢 Legacy of Kain Soul Reaver 1&amp;2 Remastered −55%",
+      "linea": "🟢 <b>Soul Reaver</b> — 📦 2 desde $36.990 · 🎮 1 desde US$12.73\n   🟢 Legacy of Kain Soul Reaver 1&amp;2 Remastered −55%",
       "nombres": [
-        "aspyr legacy of kain soul reaver",
         "legacy of kain soul reaver 1 2 remastered"
       ],
       "orden": 1,
@@ -1120,7 +1109,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 19 desde $29.990\n   🟢 Instant Sports: de Invierno −15%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 20 desde $29.990\n   🟢 Instant Sports: de Invierno −15%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1139,6 +1128,7 @@
         "nintendo switch sports resort",
         "outright games gigantosaurus dino sports",
         "sports camp a 35 game adventure",
+        "sports motion controls",
         "sports party"
       ],
       "orden": 1,
@@ -1260,10 +1250,9 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 12 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
-        "oled zelda tears of the kingdom japan specs",
         "pro controller edicion zelda 40th aniversario",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
@@ -1275,5 +1264,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 552
+  "total": 550
 }
