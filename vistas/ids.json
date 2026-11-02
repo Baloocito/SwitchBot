@@ -272,19 +272,6 @@
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/videojuegos/juego-biomutant-para-nintendo-switch-con-contenido-descargable-gratuito-mercenary-loadout/00081199402208"
   },
-  "01801431da": {
-    "clave": "70010000096491",
-    "juego": "🔍 Otros juegos",
-    "min": 2.99,
-    "moneda": "USD",
-    "nombre": "Squirrel Madness",
-    "plataforma": "Switch",
-    "precio": 2.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/squirrel-madness-switch/"
-  },
   "01886c35f4": {
     "clave": "70010000094234",
     "juego": "Pokémon",
@@ -344,7 +331,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY II",
     "plataforma": "Switch",
-    "precio": 9.69,
+    "precio": 5.81,
     "saga": "final-fantasy",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -597,6 +584,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/soul-dog-td-switch/"
   },
+  "02ece6322e": {
+    "clave": "70010000047951",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Patrick's Parabox",
+    "plataforma": "Switch",
+    "precio": 5.3,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/patricks-parabox-switch/"
+  },
   "02f282b7f2": {
     "clave": "70010000077245",
     "juego": "🔍 Otros juegos",
@@ -779,19 +779,6 @@
     "tipo": "fisico",
     "url": "https://www.paris.cl/pokemon-violet-nintendo-switch-MKU569OSWF.html"
   },
-  "039ba2e70c": {
-    "clave": "70010000124741",
-    "juego": "🔍 Otros juegos",
-    "min": 6.61,
-    "moneda": "USD",
-    "nombre": "Verho - Curse of Faces",
-    "plataforma": "Switch",
-    "precio": 6.62,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/verho-curse-of-faces-switch/"
-  },
   "03a1777e21": {
     "clave": "70010000013960",
     "juego": "🔍 Otros juegos",
@@ -877,7 +864,7 @@
     "moneda": "USD",
     "nombre": "Sally Face",
     "plataforma": "Switch",
-    "precio": 2.94,
+    "precio": 5.88,
     "saga": "otros-juegos",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -960,19 +947,6 @@
     "tienda": "TodoJuegos",
     "tipo": "fisico",
     "url": "https://www.todojuegos.cl/Productos/NSWI/Stardew-Valley/?ref=buscador"
-  },
-  "046dc93e24": {
-    "clave": "70010000036970",
-    "juego": "🔍 Otros juegos",
-    "min": 13.59,
-    "moneda": "USD",
-    "nombre": "RASPBERRY MASH",
-    "plataforma": "Switch",
-    "precio": 13.59,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/raspberry-mash-switch/"
   },
   "0486e2a4d5": {
     "clave": "70010000007225",
@@ -1065,6 +1039,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/shovel-knight-king-of-cards-switch/"
   },
+  "04c5de4e93": {
+    "clave": "romancing saga 2 revenge of the seven|Switch|import-japan",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "Romancing SaGa 2: Revenge of the Seven",
+    "plataforma": "Switch",
+    "precio": 49990.0,
+    "saga": "otros-juegos",
+    "tienda": "8 Bits",
+    "tipo": "fisico",
+    "url": "https://8-bits.cl/products/romancing-saga-2-revenge-of-the-seven-nsw-japan-import"
+  },
   "04d7b5e174": {
     "clave": "70010000072957",
     "juego": "Mario",
@@ -1103,19 +1090,6 @@
     "tienda": "Lider",
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/videojuegos/chicken-police-paint-it-red-para-nintendo-switch/00004549659137"
-  },
-  "04f740daf1": {
-    "clave": "70010000123973",
-    "juego": "🔍 Otros juegos",
-    "min": 8.54,
-    "moneda": "USD",
-    "nombre": "KIYO - Bunny Tyranny",
-    "plataforma": "Switch",
-    "precio": 8.58,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/kiyo-bunny-tyranny-switch/"
   },
   "04f9776a56": {
     "clave": "70010000123993",
@@ -1293,11 +1267,11 @@
     "moneda": "USD",
     "nombre": "COLLECTION of SaGa FINAL FANTASY LEGEND",
     "plataforma": "Switch",
-    "precio": 15.36,
+    "precio": 9.66,
     "saga": "final-fantasy",
-    "tienda": "eShop BR",
+    "tienda": "eShop CA",
     "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/collection-of-saga-final-fantasy-legend-switch/"
+    "url": "https://www.nintendo.com/en-ca/store/products/collection-of-saga-final-fantasy-legend-switch/"
   },
   "05fb41b1e7": {
     "clave": "70010000094987",
@@ -1376,6 +1350,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/super-meat-boy-3d-switch-2/"
+  },
+  "0675286741": {
+    "clave": "the diofield chronicle|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "The DioField Chronicle",
+    "plataforma": "Switch",
+    "precio": 29990.0,
+    "saga": "otros-juegos",
+    "tienda": "Sniper",
+    "tipo": "fisico",
+    "url": "https://sniper.cl/products/the-diofield-chronicle-switch-fisico-sniper-1"
   },
   "06927d4997": {
     "clave": "baten kaitos i ii hd remaster|Switch",
@@ -1597,19 +1584,6 @@
     "tienda": "eShop BR",
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/sonic-wings-reunion-switch/"
-  },
-  "07b6834676": {
-    "clave": "70010000090179",
-    "juego": "🔍 Otros juegos",
-    "min": 1.97,
-    "moneda": "USD",
-    "nombre": "My Cozy Room",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/my-cozy-room-switch/"
   },
   "07b852c212": {
     "clave": "70010000085197",
@@ -1936,6 +1910,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/beat-em-up-archives-qubyte-classics-switch/"
   },
+  "08fc5439ee": {
+    "clave": "70010000121077",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "STAR OCEAN THE SECOND STORY R",
+    "plataforma": "Switch 2",
+    "precio": 20.18,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/star-ocean-the-second-story-r-switch-2/"
+  },
   "09278da36f": {
     "clave": "space unbound|Switch",
     "juego": "🔍 Otros juegos",
@@ -2183,19 +2170,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/bluey-the-videogame-switch/"
   },
-  "0a0177a5dd": {
-    "clave": "70010000087033",
-    "juego": "🔍 Otros juegos",
-    "min": 1.99,
-    "moneda": "USD",
-    "nombre": "Anime Puzzle Quest: The Magical Girls Adventure",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/anime-puzzle-quest-the-magical-girls-adventure-switch/"
-  },
   "0a163c023c": {
     "clave": "70010000064117",
     "juego": "Metal Gear",
@@ -2216,7 +2190,7 @@
     "moneda": "USD",
     "nombre": "CRISIS CORE –FINAL FANTASY VII– REUNION",
     "plataforma": "Switch 2",
-    "precio": 43.3,
+    "precio": 25.98,
     "saga": "final-fantasy",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -2476,7 +2450,7 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST VII Reimagined",
     "plataforma": "Switch",
-    "precio": 56.92,
+    "precio": 37.0,
     "saga": "dragon-quest",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -2508,19 +2482,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/shiren-the-wanderer-the-mystery-dungeon-of-serpentcoil-island-switch/"
   },
-  "0bd07ce525": {
-    "clave": "70010000053184",
-    "juego": "🔍 Otros juegos",
-    "min": 6.11,
-    "moneda": "USD",
-    "nombre": "Wylde Flowers",
-    "plataforma": "Switch",
-    "precio": 6.11,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/wylde-flowers-switch/"
-  },
   "0bd1c999b3": {
     "clave": "70010000109866",
     "juego": "🔍 Otros juegos",
@@ -2541,7 +2502,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY IX",
     "plataforma": "Switch",
-    "precio": 16.09,
+    "precio": 4.83,
     "saga": "final-fantasy",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -2767,19 +2728,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/r-type-dx-music-encore-switch/"
-  },
-  "0cdbf709c1": {
-    "clave": "70010000111328",
-    "juego": "🔍 Otros juegos",
-    "min": 3.77,
-    "moneda": "USD",
-    "nombre": "Pyramid Quest 2",
-    "plataforma": "Switch",
-    "precio": 3.78,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/pyramid-quest-2-switch/"
   },
   "0ceea8afad": {
     "clave": "usado fatal twelve|Switch|usado",
@@ -3054,19 +3002,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/junior-labyrinth-switch/"
   },
-  "0de1f43451": {
-    "clave": "70010000009033",
-    "juego": "🔍 Otros juegos",
-    "min": 2.83,
-    "moneda": "USD",
-    "nombre": "Agatha Knife",
-    "plataforma": "Switch",
-    "precio": 2.84,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/agatha-knife-switch/"
-  },
   "0de8b08903": {
     "clave": "70010000032638",
     "juego": "🔍 Otros juegos",
@@ -3249,19 +3184,6 @@
     "tipo": "fisico",
     "url": "https://www.falabella.com/falabella-cl/product/159201604/them-s-fighting-herds-deluxe-edition-nintendo-switch"
   },
-  "0e701e1fed": {
-    "clave": "70010000070772",
-    "juego": "🔍 Otros juegos",
-    "min": 5.02,
-    "moneda": "USD",
-    "nombre": "Toziuha Night: Order of the Alchemists",
-    "plataforma": "Switch",
-    "precio": 5.05,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/toziuha-night-order-of-the-alchemists-switch/"
-  },
   "0e723929ef": {
     "clave": "70010000016369",
     "juego": "🔍 Otros juegos",
@@ -3274,19 +3196,6 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/solo-islands-of-the-heart-switch/"
-  },
-  "0e8da326f6": {
-    "clave": "70010000106482",
-    "juego": "🔍 Otros juegos",
-    "min": 5.67,
-    "moneda": "USD",
-    "nombre": "Concealed",
-    "plataforma": "Switch",
-    "precio": 5.7,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/concealed-switch/"
   },
   "0e8f2312c4": {
     "clave": "70010000043325",
@@ -3347,7 +3256,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY V",
     "plataforma": "Switch",
-    "precio": 14.63,
+    "precio": 8.78,
     "saga": "final-fantasy",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -3483,6 +3392,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/push-the-crate-switch/"
   },
+  "0f7eb6c507": {
+    "clave": "70010000098683",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Pixel Cross Stitch Color by Number Seasons Collection",
+    "plataforma": "Switch",
+    "precio": 3.76,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/pixel-cross-stitch-color-by-number-seasons-collection-switch/"
+  },
   "0f94fd30d2": {
     "clave": "70010000077734",
     "juego": "🔍 Otros juegos",
@@ -3534,19 +3456,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/1000xresist-switch/"
-  },
-  "0fb793e1c5": {
-    "clave": "nilight 90256ba 5 pine 12 v 20 2 unidade|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 24990.0,
-    "moneda": "CLP",
-    "nombre": "Nilight 90256BA de 5 pines, 12 V, 20 A, 2 unidades",
-    "plataforma": "Switch",
-    "precio": 27990.0,
-    "saga": "otros-juegos",
-    "tienda": "Lider",
-    "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/repuestos/switch-nilight-90256ba-de-5-pines-12-v-20-a-2-unidades/00084032390175"
   },
   "0fc665dc50": {
     "clave": "70010000066192",
@@ -3854,7 +3763,7 @@
     "moneda": "USD",
     "nombre": "Digimon Story Time Stranger",
     "plataforma": "Switch",
-    "precio": 45.92,
+    "precio": 32.14,
     "saga": "digimon-story-time-stranger",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -4146,6 +4055,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/the-inner-world-switch/"
   },
+  "1312ac2c5b": {
+    "clave": "70010000069170",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Chocobo GP",
+    "plataforma": "Switch",
+    "precio": 12.02,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/chocobo-gp-70010000069170-switch/"
+  },
   "133dc76759": {
     "clave": "70010000017883",
     "juego": "🔍 Otros juegos",
@@ -4192,7 +4114,7 @@
     "moneda": "USD",
     "nombre": "We Love Katamari REROLL+ Royal Reverie",
     "plataforma": "Switch",
-    "precio": 19.17,
+    "precio": 4.79,
     "saga": "katamari",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -4382,29 +4304,16 @@
   },
   "14135cc78a": {
     "clave": "resident evil revelations|Switch|coleccion",
-    "juego": "🔍 Otros juegos",
+    "juego": "Resident Evil",
     "min": 71990.0,
     "moneda": "CLP",
     "nombre": "Resident Evil Revelations",
     "plataforma": "Switch",
     "precio": 74990.0,
-    "saga": "otros-juegos",
+    "saga": "resident-evil",
     "tienda": "Lider",
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/mundo-gamer/juego-capcom-resident-evil-revelations-coleccion-para-nintendo-switch-edicion-estandar/00001338841001"
-  },
-  "143172f835": {
-    "clave": "70010000119646",
-    "juego": "🔍 Otros juegos",
-    "min": 10.44,
-    "moneda": "USD",
-    "nombre": "My Little Puppy",
-    "plataforma": "Switch",
-    "precio": 10.5,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/my-little-puppy-switch/"
   },
   "1438b8aae3": {
     "clave": "70010000099509",
@@ -4600,6 +4509,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/schoolboy-sim-switch/"
+  },
+  "15230ed4e5": {
+    "clave": "70070000032508",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Draknek and Friends Puzzle Bundle",
+    "plataforma": "Switch",
+    "precio": 18.22,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/draknek-and-friends-puzzle-bundle-70070000032508-switch/"
   },
   "152b42cb55": {
     "clave": "dynasty warriors 9 empires|Switch",
@@ -5173,6 +5095,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/world-war-ii-city-rebirth-tycoon-switch/"
   },
+  "173710c17d": {
+    "clave": "saga frontier 2 remastered|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "SaGa Frontier 2 Remastered",
+    "plataforma": "Switch",
+    "precio": 52990.0,
+    "saga": "otros-juegos",
+    "tienda": "8 Bits",
+    "tipo": "fisico",
+    "url": "https://8-bits.cl/products/saga-frontier-remastered-nsw"
+  },
   "1753c6089f": {
     "clave": "70010000029035",
     "juego": "Crash / Spyro",
@@ -5503,7 +5438,7 @@
     "juego": "🔍 Otros juegos",
     "min": 24990.0,
     "moneda": "CLP",
-    "nombre": "Loop8 Summer Of Gods",
+    "nombre": "Loop8 Summer Of Gods - Sniper",
     "plataforma": "Switch",
     "precio": 24990.0,
     "saga": "otros-juegos",
@@ -5531,7 +5466,7 @@
     "moneda": "USD",
     "nombre": "Infinity Strash: DRAGON QUEST The Adventure of Dai",
     "plataforma": "Switch",
-    "precio": 47.94,
+    "precio": 19.18,
     "saga": "dragon-quest",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -5789,7 +5724,7 @@
     "juego": "🔍 Otros juegos",
     "min": 34720.0,
     "moneda": "CLP",
-    "nombre": "De Blob 2 - Sniper",
+    "nombre": "De Blob 2",
     "plataforma": "Switch",
     "precio": 34720.0,
     "saga": "otros-juegos",
@@ -5848,6 +5783,19 @@
     "tienda": "eShop BR",
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/lego-bricktales-switch/"
+  },
+  "19a899feb5": {
+    "clave": "70010000113609",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "There's No Differences: Cake",
+    "plataforma": "Switch",
+    "precio": 3.58,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/theres-no-differences-cake-switch/"
   },
   "19ac3d3fcb": {
     "clave": "70010000066946",
@@ -6506,7 +6454,7 @@
     "moneda": "USD",
     "nombre": "Dragon Quest Heroes: Torneko‘s Mystery Dungeon -Classic HD-",
     "plataforma": "Switch 2",
-    "precio": 23.41,
+    "precio": 18.73,
     "saga": "pokemon-mystery-dungeon-snap",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -6551,6 +6499,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/gleylancer-switch/"
   },
+  "1d28c6d4c7": {
+    "clave": "controlador pro pdp gaming afterglow wireless|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": 41990.0,
+    "moneda": "CLP",
+    "nombre": "Controlador Pro PDP Gaming Afterglow Wireless",
+    "plataforma": "Switch",
+    "precio": 41990.0,
+    "saga": "otros-juegos",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/controlador-nintendo-switch-pro-pdp-gaming-afterglow-wireless/00070805606606"
+  },
   "1d320f1375": {
     "clave": "usado fate extella link|Switch|usado",
     "juego": "🔍 Otros juegos",
@@ -6576,6 +6537,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/once-upon-a-katamari-switch/"
+  },
+  "1d92bedd51": {
+    "clave": "captain tsubasa 2 world fighters|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+    "plataforma": "Switch",
+    "precio": 69990.0,
+    "saga": "otros-juegos",
+    "tienda": "8 Bits",
+    "tipo": "fisico",
+    "url": "https://8-bits.cl/products/captain-tsubasa-2-world-fighters-nsw"
   },
   "1d9981ece8": {
     "clave": "70010000107449",
@@ -6954,6 +6928,19 @@
     "tipo": "fisico",
     "url": "https://megagames.cl/producto/switch/juegos-nsw/friday-the-13th-the-game-nsw/"
   },
+  "1edc1c2e7e": {
+    "clave": "70010000045141",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Voice of Cards: The Forsaken Maiden",
+    "plataforma": "Switch",
+    "precio": 9.29,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/voice-of-cards-the-forsaken-maiden-switch/"
+  },
   "1f0aefd4f8": {
     "clave": "70010000091035",
     "juego": "🔍 Otros juegos",
@@ -7071,19 +7058,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/pinocchio-super-puzzles-dream-switch/"
   },
-  "1f7deef708": {
-    "clave": "70010000113351",
-    "juego": "🔍 Otros juegos",
-    "min": 4.17,
-    "moneda": "USD",
-    "nombre": "Decline's Drops",
-    "plataforma": "Switch",
-    "precio": 4.19,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/declines-drops-switch/"
-  },
   "1f83f76675": {
     "clave": "70010000055601",
     "juego": "🔍 Otros juegos",
@@ -7200,19 +7174,6 @@
     "tienda": "Sniper",
     "tipo": "fisico",
     "url": "https://sniper.cl/products/air-conflicts-collection-switch-sniper"
-  },
-  "201f6fc957": {
-    "clave": "70010000089489",
-    "juego": "🔍 Otros juegos",
-    "min": 4.99,
-    "moneda": "USD",
-    "nombre": "Footgun: Underground",
-    "plataforma": "Switch",
-    "precio": 4.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/footgun-underground-switch/"
   },
   "2023aa3748": {
     "clave": "70010000043129",
@@ -7643,19 +7604,6 @@
     "tipo": "fisico",
     "url": "https://www.falabella.com/falabella-cl/product/122915335/Legend-of-Heroes-Trails-to-Azure-Deluxe-Ed-Switch-Sniper"
   },
-  "223d9c0552": {
-    "clave": "sonic origins|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 43990.0,
-    "moneda": "CLP",
-    "nombre": "Sonic Origins",
-    "plataforma": "Switch",
-    "precio": 49990.0,
-    "saga": "otros-juegos",
-    "tienda": "Falabella",
-    "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/147762634/SWITCH-SONIC-ORIGIN-PLUS"
-  },
   "22485574bb": {
     "clave": "final fantasy resonance|Switch 2",
     "juego": "Final Fantasy",
@@ -7715,7 +7663,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY X/X-2 HD Remaster",
     "plataforma": "Switch 2",
-    "precio": 42.95,
+    "precio": 21.47,
     "saga": "final-fantasy",
     "tienda": "eShop CA",
     "tipo": "digital",
@@ -7798,19 +7746,6 @@
     "tienda": "8 Bits",
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/sea-of-stars-nsw"
-  },
-  "22e6c38e1a": {
-    "clave": "70010000013992",
-    "juego": "🔍 Otros juegos",
-    "min": 14.94,
-    "moneda": "USD",
-    "nombre": "Planescape: Torment and Icewind Dale: Enhanced Editions",
-    "plataforma": "Switch",
-    "precio": 15.03,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/planescape-torment-and-icewind-dale-enhanced-editions-switch/"
   },
   "22f6006388": {
     "clave": "70010000041425",
@@ -7954,19 +7889,6 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/atelier-ryza-3-alchemist-of-the-end-and-the-secret-key-dx-switch/"
-  },
-  "23b54328a0": {
-    "clave": "70010000097073",
-    "juego": "🔍 Otros juegos",
-    "min": 2.13,
-    "moneda": "USD",
-    "nombre": "Apocalypse Market Simulator",
-    "plataforma": "Switch",
-    "precio": 2.14,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/apocalypse-market-simulator-switch/"
   },
   "23c3ea89e8": {
     "clave": "70010000035656",
@@ -8124,6 +8046,19 @@
     "tipo": "fisico",
     "url": "https://www.todojuegos.cl/Productos/NSWI/Zelda-Links-Awakening/?ref=buscador"
   },
+  "249b93877a": {
+    "clave": "70070000041091",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Pocket Retro Adventures: Glory Hunters + Kero Kero Cowboy + Black Tower Enigma Bundle",
+    "plataforma": "Switch",
+    "precio": 14.71,
+    "saga": "otros-juegos",
+    "tienda": "eShop BR",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/pt-br/store/products/pocket-retro-adventures-glory-hunters-plus-kero-kero-cowboy-plus-black-tower-enigma-bundle-switch/"
+  },
   "24a651d512": {
     "clave": "pokemon scarlet|Switch",
     "juego": "🔍 Otros juegos",
@@ -8214,6 +8149,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/outpath-switch/"
+  },
+  "24e89772b0": {
+    "clave": "70010000045379",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "The DioField Chronicle",
+    "plataforma": "Switch",
+    "precio": 20.71,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/the-diofield-chronicle-switch/"
   },
   "2507b84430": {
     "clave": "mega man x legacy collection 2|Switch",
@@ -8552,19 +8500,6 @@
     "tienda": "8 Bits",
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/klonoa-phantasy-reverie-series-nsw-euro-import"
-  },
-  "26c161b406": {
-    "clave": "70010000083977",
-    "juego": "🔍 Otros juegos",
-    "min": 2.17,
-    "moneda": "USD",
-    "nombre": "Mortisomem",
-    "plataforma": "Switch",
-    "precio": 2.18,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/mortisomem-switch/"
   },
   "26c383f9a9": {
     "clave": "dragon ball fighterz|Switch|usado",
@@ -8982,18 +8917,18 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/superepic-the-entertainment-war-switch/"
   },
-  "2853f9f525": {
-    "clave": "70010000097168",
-    "juego": "🔍 Otros juegos",
-    "min": 7.12,
-    "moneda": "USD",
-    "nombre": "The Edge of Allegoria",
+  "2869ddbb21": {
+    "clave": "overcooked fireshine|Switch",
+    "juego": "Overcooked",
+    "min": 56990.0,
+    "moneda": "CLP",
+    "nombre": "Overcooked! de Fireshine Games",
     "plataforma": "Switch",
-    "precio": 7.15,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/the-edge-of-allegoria-switch/"
+    "precio": 56990.0,
+    "saga": "overcooked",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/videojuego-overcooked-de-fireshine-games-para-nintendo-switch/00505620881211"
   },
   "287700eda7": {
     "clave": "70010000118536",
@@ -9034,6 +8969,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/virtual-mom-job-simulator-manager-switch/"
   },
+  "2883fe90c1": {
+    "clave": "70010000067815",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Romancing SaGa 2: Revenge of the Seven",
+    "plataforma": "Switch",
+    "precio": 22.94,
+    "saga": "otros-juegos",
+    "tienda": "eShop BR",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/pt-br/store/products/romancing-saga-2-revenge-of-the-seven-switch/"
+  },
   "289f93b0a4": {
     "clave": "70010000090345",
     "juego": "🔍 Otros juegos",
@@ -9046,6 +8994,19 @@
     "tienda": "eShop MX",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/stray-children-switch/"
+  },
+  "28a26f861b": {
+    "clave": "70010000036763",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "DUNGEON ENCOUNTERS",
+    "plataforma": "Switch",
+    "precio": 6.96,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/dungeon-encounters-switch/"
   },
   "28b2e7def7": {
     "clave": "atelier dusk trilogy deluxe pack|Switch",
@@ -9091,7 +9052,7 @@
     "juego": "🔍 Otros juegos",
     "min": 34990.0,
     "moneda": "CLP",
-    "nombre": "Taiko No Tatsujin Rhythm Festival Sniper",
+    "nombre": "Taiko no Tatsujin: Rhythm Festival",
     "plataforma": "Switch",
     "precio": 34990.0,
     "saga": "otros-juegos",
@@ -9216,19 +9177,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/guayota-switch/"
   },
-  "2958c439ba": {
-    "clave": "70010000044210",
-    "juego": "🔍 Otros juegos",
-    "min": 3.61,
-    "moneda": "USD",
-    "nombre": "Mystik Belle Enchanted Edition",
-    "plataforma": "Switch",
-    "precio": 3.62,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/mystik-belle-enchanted-edition-switch/"
-  },
   "295a735b77": {
     "clave": "yomawari long night collection japan import|Switch",
     "juego": "🔍 Otros juegos",
@@ -9254,19 +9202,6 @@
     "tienda": "8 Bits",
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/wonder-boy-returns-remix-collectors-edition-nsw-euro-import"
-  },
-  "296234b3dd": {
-    "clave": "70010000057292",
-    "juego": "🔍 Otros juegos",
-    "min": 6.68,
-    "moneda": "USD",
-    "nombre": "MythForce",
-    "plataforma": "Switch",
-    "precio": 6.71,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/mythforce-switch/"
   },
   "29835e67df": {
     "clave": "70010000020983",
@@ -9397,19 +9332,6 @@
     "tienda": "8 Bits",
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/usado-rocket-league-nsw"
-  },
-  "29bb386fab": {
-    "clave": "70010000128979",
-    "juego": "🔍 Otros juegos",
-    "min": 2.78,
-    "moneda": "USD",
-    "nombre": "Squad Legends - Battle Royale",
-    "plataforma": "Switch",
-    "precio": 2.79,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/squad-legends-battle-royale-switch/"
   },
   "29d303e691": {
     "clave": "70010000099172",
@@ -9840,19 +9762,6 @@
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/fantasy-life-i-the-girl-who-steals-time-japan-import"
   },
-  "2ba94319a8": {
-    "clave": "70010000096517",
-    "juego": "🔍 Otros juegos",
-    "min": 15.36,
-    "moneda": "USD",
-    "nombre": "Mandragora: Whispers of the Witch Tree",
-    "plataforma": "Switch",
-    "precio": 15.36,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/mandragora-whispers-of-the-witch-tree-switch/"
-  },
   "2bbf077eed": {
     "clave": "70010000101398",
     "juego": "Doom",
@@ -9904,19 +9813,6 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/nintendo-switch-sports-switch/"
-  },
-  "2bde2bab41": {
-    "clave": "70010000086837",
-    "juego": "🔍 Otros juegos",
-    "min": 2.17,
-    "moneda": "USD",
-    "nombre": "Sol Dorado Heist",
-    "plataforma": "Switch",
-    "precio": 2.18,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/sol-dorado-heist-switch/"
   },
   "2be1006d80": {
     "clave": "70010000046005",
@@ -10744,7 +10640,7 @@
     "moneda": "USD",
     "nombre": "CHRONO CROSS: THE RADICAL DREAMERS EDITION",
     "plataforma": "Switch",
-    "precio": 16.96,
+    "precio": 6.78,
     "saga": "chrono-mana",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -10802,18 +10698,18 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/shakes-on-a-plane-switch/"
   },
-  "2f288919ff": {
-    "clave": "70010000099107",
+  "2f07e59bde": {
+    "clave": "70070000031760",
     "juego": "🔍 Otros juegos",
-    "min": 1.97,
+    "min": null,
     "moneda": "USD",
-    "nombre": "Myst House",
+    "nombre": "DRAGON QUEST - HD-2D Erdrick Trilogy Collection",
     "plataforma": "Switch",
-    "precio": 5.05,
+    "precio": 62.11,
     "saga": "otros-juegos",
-    "tienda": "eShop CL",
+    "tienda": "eShop CA",
     "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/myst-house-switch/"
+    "url": "https://www.nintendo.com/en-ca/store/products/dragon-quest-hd-2d-erdrick-trilogy-collection-switch/"
   },
   "2f3b30a575": {
     "clave": "70010000123739",
@@ -11413,19 +11309,6 @@
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/the-legend-of-zelda-tears-of-the-kingdom-nsw2"
   },
-  "31d5c90e2c": {
-    "clave": "70010000099488",
-    "juego": "🔍 Otros juegos",
-    "min": 2.96,
-    "moneda": "USD",
-    "nombre": "Ants Empire Colony",
-    "plataforma": "Switch",
-    "precio": 2.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/ants-empire-colony-switch/"
-  },
   "31dda9e872": {
     "clave": "dragon quest monsters the dark prince|Switch",
     "juego": "Dragon Quest",
@@ -11686,19 +11569,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/turn-to-mine-switch/"
   },
-  "32d1bd263c": {
-    "clave": "70010000053497",
-    "juego": "🔍 Otros juegos",
-    "min": 2.65,
-    "moneda": "USD",
-    "nombre": "Extinction Eclipse",
-    "plataforma": "Switch",
-    "precio": 2.66,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/extinction-eclipse-switch/"
-  },
   "32d40a7ce5": {
     "clave": "70010000024130",
     "juego": "🔍 Otros juegos",
@@ -11880,19 +11750,6 @@
     "tienda": "eShop BR",
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/piczle-cross-story-of-seasons-switch/"
-  },
-  "33b2fee23d": {
-    "clave": "70010000086798",
-    "juego": "🔍 Otros juegos",
-    "min": 1.99,
-    "moneda": "USD",
-    "nombre": "Car Parking Legends: Drive & Park Adventure",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/car-parking-legends-drive-and-park-adventure-switch/"
   },
   "33b79763b2": {
     "clave": "70010000095676",
@@ -12193,19 +12050,6 @@
     "tipo": "fisico",
     "url": "https://sniper.cl/products/digimon-survive-switch-sniper"
   },
-  "351ed488f0": {
-    "clave": "70010000060318",
-    "juego": "🔍 Otros juegos",
-    "min": 1.99,
-    "moneda": "USD",
-    "nombre": "The Companion",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/the-companion-switch/"
-  },
   "35294228b9": {
     "clave": "coleccion 30 1|Switch",
     "juego": "🔍 Otros juegos",
@@ -12304,7 +12148,7 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition",
     "plataforma": "Switch 2",
-    "precio": 36.69,
+    "precio": 18.35,
     "saga": "dragon-quest",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -12543,19 +12387,6 @@
     "tienda": "Lider",
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/videojuegos/tomodachi-life-nsw/00004549690607"
-  },
-  "3674a326d5": {
-    "clave": "70010000072062",
-    "juego": "🔍 Otros juegos",
-    "min": 4.46,
-    "moneda": "USD",
-    "nombre": "My Heart Grows Fonder",
-    "plataforma": "Switch",
-    "precio": 4.49,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/my-heart-grows-fonder-switch/"
   },
   "367a0240ea": {
     "clave": "bakugan champion vestroia|Switch",
@@ -12967,7 +12798,7 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST I & II HD-2D Remake",
     "plataforma": "Switch 2",
-    "precio": 55.16,
+    "precio": 35.85,
     "saga": "dragon-quest",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -13063,6 +12894,19 @@
     "tienda": "8 Bits",
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/endling-extinction-is-forever-nsw-japan-import"
+  },
+  "38d5016578": {
+    "clave": "70070000031761",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "DRAGON QUEST - HD-2D Erdrick Trilogy Collection",
+    "plataforma": "Switch 2",
+    "precio": 62.11,
+    "saga": "otros-juegos",
+    "tienda": "eShop CA",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/en-ca/store/products/dragon-quest-hd-2d-erdrick-trilogy-collection-switch-2/"
   },
   "38d72092f2": {
     "clave": "70070000013037",
@@ -13162,7 +13006,7 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST XI S: Echoes of an Elusive Age – Definitive Edition",
     "plataforma": "Switch",
-    "precio": 36.69,
+    "precio": 18.35,
     "saga": "dragon-quest",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -13233,12 +13077,25 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/layer-section-and-galactic-attack-s-tribute-switch/"
   },
+  "39f9f83c86": {
+    "clave": "70010000057407",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Farm Knight Adventures",
+    "plataforma": "Switch",
+    "precio": 2.63,
+    "saga": "otros-juegos",
+    "tienda": "eShop MX",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-mx/store/products/farm-knight-adventures-switch/"
+  },
   "39fcda0354": {
     "clave": "tmnt splintered fate deluxe|Switch",
     "juego": "🔍 Otros juegos",
     "min": 44990.0,
     "moneda": "CLP",
-    "nombre": "TMNT: Splintered Fate Deluxe Edition",
+    "nombre": "TMNT: Splintered Fate Deluxe Edition - SniperCL",
     "plataforma": "Switch",
     "precio": 44990.0,
     "saga": "otros-juegos",
@@ -13376,19 +13233,6 @@
     "tipo": "fisico",
     "url": "https://www.falabella.com/falabella-cl/product/152033535/reanimal-deluxe-edition-eu-nintendo-switch-2"
   },
-  "3a83e83776": {
-    "clave": "70010000012585",
-    "juego": "🔍 Otros juegos",
-    "min": 1.99,
-    "moneda": "USD",
-    "nombre": "MechaNika",
-    "plataforma": "Switch",
-    "precio": 2.0,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/mechanika-switch/"
-  },
   "3a92aad5bd": {
     "clave": "70010000006342",
     "juego": "🔍 Otros juegos",
@@ -13467,19 +13311,6 @@
     "tipo": "fisico",
     "url": "https://www.falabella.com/falabella-cl/product/158904696/taito-milestones-nintendo-switch"
   },
-  "3b210f77e2": {
-    "clave": "acaba morir curve|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 51990.0,
-    "moneda": "CLP",
-    "nombre": "El acaba de morir - Curve Digital",
-    "plataforma": "Switch",
-    "precio": 53990.0,
-    "saga": "otros-juegos",
-    "tienda": "Lider",
-    "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/el-juego-nintendo-switch-acaba-de-morir-curve-digital/00081230301625"
-  },
   "3b35e1ecda": {
     "clave": "70010000009834",
     "juego": "🔍 Otros juegos",
@@ -13505,6 +13336,19 @@
     "tienda": "Lider",
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/videojuegos/juego-live-a-live-nintendo-switch/00004549659825"
+  },
+  "3b72a35111": {
+    "clave": "70010000066554",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Wolf Simulator: RPG Survival Animal Battle",
+    "plataforma": "Switch",
+    "precio": 2.01,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/wolf-simulator-rpg-survival-animal-battle-switch/"
   },
   "3b789b1d0f": {
     "clave": "70010000028371",
@@ -13726,19 +13570,6 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/kirby-air-riders-switch-2/"
-  },
-  "3c6f20262d": {
-    "clave": "super mario galaxy 2|Switch|bundle",
-    "juego": "🔍 Otros juegos",
-    "min": 85990.0,
-    "moneda": "CLP",
-    "nombre": "Super Mario Galaxy 2",
-    "plataforma": "Switch",
-    "precio": 85990.0,
-    "saga": "otros-juegos",
-    "tienda": "Lider",
-    "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-super-mario-galaxy-1-y-2-bundle-mejorado/00290000049932"
   },
   "3c7960700a": {
     "clave": "70070000015070",
@@ -14065,6 +13896,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/zombie-slaughter-dead-zone-switch/"
   },
+  "3e485da45c": {
+    "clave": "controlador turtle beach rgb|Switch 2",
+    "juego": "🔍 Otros juegos",
+    "min": 59990.0,
+    "moneda": "CLP",
+    "nombre": "Controlador de Turtle Beach RGB",
+    "plataforma": "Switch 2",
+    "precio": 61990.0,
+    "saga": "otros-juegos",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/controlador-de-juegos-turtle-beach-nintendo-switch-2-rgb/00084045440229"
+  },
   "3e4f132992": {
     "clave": "puyo puyo tetris 2s|Switch 2",
     "juego": "🔍 Otros juegos",
@@ -14116,6 +13960,19 @@
     "tienda": "eShop BR",
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/sugoi-girls-lovely-wife-switch/"
+  },
+  "3e96033609": {
+    "clave": "hdmi bidireccional 4k 60 hz 2 entrada 1 salida|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": 20990.0,
+    "moneda": "CLP",
+    "nombre": "HDMI bidireccional 4K 60 Hz de 2 entradas y 1 salida",
+    "plataforma": "Switch",
+    "precio": 20990.0,
+    "saga": "otros-juegos",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/accesorios-computacion/switch-hdmi-bidireccional-4k-60-hz-de-2-entradas-y-1-salida/00290000234303"
   },
   "3ea2304b2b": {
     "clave": "70010000052265",
@@ -14195,19 +14052,6 @@
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/usado-astria-ascending-nsw"
   },
-  "3ee40b6deb": {
-    "clave": "70010000097556",
-    "juego": "🔍 Otros juegos",
-    "min": 2.96,
-    "moneda": "USD",
-    "nombre": "Palland",
-    "plataforma": "Switch",
-    "precio": 2.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/palland-switch/"
-  },
   "3ee60d079b": {
     "clave": "70010000063709",
     "juego": "Metroid",
@@ -14246,19 +14090,6 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/square-brain-puzzle-switch/"
-  },
-  "3f19a3e717": {
-    "clave": "70010000090501",
-    "juego": "🔍 Otros juegos",
-    "min": 10.44,
-    "moneda": "USD",
-    "nombre": "Kynseed",
-    "plataforma": "Switch",
-    "precio": 10.5,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/kynseed-switch/"
   },
   "3f1a9e04bd": {
     "clave": "70010000033375",
@@ -14364,19 +14195,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/highwater-switch/"
   },
-  "3f8c32e790": {
-    "clave": "dynasty warrior 9 empire|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 47990.0,
-    "moneda": "CLP",
-    "nombre": "Dynasty Warriors 9 Empires - Sniper",
-    "plataforma": "Switch",
-    "precio": 47990.0,
-    "saga": "otros-juegos",
-    "tienda": "Sniper",
-    "tipo": "fisico",
-    "url": "https://sniper.cl/products/dynasty-warriors-9-empires-switch-sniper"
-  },
   "3f92fefe81": {
     "clave": "70010000032086",
     "juego": "Ys",
@@ -14397,7 +14215,7 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST III HD-2D Remake",
     "plataforma": "Switch",
-    "precio": 53.18,
+    "precio": 26.59,
     "saga": "dragon-quest",
     "tienda": "eShop MX",
     "tipo": "digital",
@@ -14473,7 +14291,7 @@
     "juego": "🔍 Otros juegos",
     "min": 59990.0,
     "moneda": "CLP",
-    "nombre": "Andro Dunos 2 - Sniper",
+    "nombre": "Andro Dunos 2",
     "plataforma": "Switch",
     "precio": 59990.0,
     "saga": "otros-juegos",
@@ -14636,6 +14454,19 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/before-i-forget-switch/"
+  },
+  "409d57a709": {
+    "clave": "70010000045025",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Mini Car Racing 2",
+    "plataforma": "Switch",
+    "precio": 2.5,
+    "saga": "otros-juegos",
+    "tienda": "eShop CA",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/en-ca/store/products/mini-car-racing-2-switch/"
   },
   "409f4cfb3b": {
     "clave": "pac man world 2 re pac|Switch 2",
@@ -14975,6 +14806,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/machinarium-switch/"
   },
+  "4142c0d7e5": {
+    "clave": "inin witchspring3 re fine pegi|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": 81990.0,
+    "moneda": "CLP",
+    "nombre": "ININ WitchSpring3 Re:Fine PEGI",
+    "plataforma": "Switch",
+    "precio": 84990.0,
+    "saga": "otros-juegos",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/juego-inin-witchspring3-re-fine-nintendo-switch-pegi/00426065074230"
+  },
   "4144715be8": {
     "clave": "minecraft nintendo switch edition|Switch",
     "juego": "Minecraft",
@@ -15125,7 +14969,7 @@
     "moneda": "USD",
     "nombre": "Legend of Mana",
     "plataforma": "Switch",
-    "precio": 23.21,
+    "precio": 9.29,
     "saga": "chrono-mana",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -15736,7 +15580,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY VI",
     "plataforma": "Switch",
-    "precio": 14.63,
+    "precio": 8.78,
     "saga": "final-fantasy",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -16080,6 +15924,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/which-era-is-this-japanese-history-era-guess-quiz-switch/"
   },
+  "46d20bdf65": {
+    "clave": "pga tour 2k21 blanco|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": 47990.0,
+    "moneda": "CLP",
+    "nombre": "Pga Tour 2k21 blanco",
+    "plataforma": "Switch",
+    "precio": 40990.0,
+    "saga": "otros-juegos",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/pga-tour-2k21-nintendo-switch-juego-fisico-blanco/00071042559673"
+  },
   "46df9fdc55": {
     "clave": "dc justice league cao cosmico euro import|Switch",
     "juego": "🔍 Otros juegos",
@@ -16144,6 +16001,19 @@
     "tienda": "Sniper",
     "tipo": "fisico",
     "url": "https://sniper.cl/products/atelier-resleriana-the-red-alchemist-the-white-guardian-import-switch"
+  },
+  "472b51c609": {
+    "clave": "70010000045672",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "NHRA Championship Drag Racing: Speed for All",
+    "plataforma": "Switch",
+    "precio": 7.15,
+    "saga": "otros-juegos",
+    "tienda": "eShop CA",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/en-ca/store/products/nhra-championship-drag-racing-speed-for-all-switch/"
   },
   "472e7611eb": {
     "clave": "70010000019582",
@@ -16215,7 +16085,7 @@
     "juego": "🔍 Otros juegos",
     "min": 45000.0,
     "moneda": "CLP",
-    "nombre": "Theatrhythm Final Bar Line",
+    "nombre": "THEATRHYTHM FINAL BAR LINE",
     "plataforma": "Switch",
     "precio": 45000.0,
     "saga": "otros-juegos",
@@ -16274,6 +16144,19 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/piano-switch/"
+  },
+  "47cc37230e": {
+    "clave": "70010000062352",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "That Time I Got Reincarnated as a Slime ISEKAI Chronicles",
+    "plataforma": "Switch",
+    "precio": 7.16,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/that-time-i-got-reincarnated-as-a-slime-isekai-chronicles-switch/"
   },
   "47d990af2b": {
     "clave": "70010000033468",
@@ -16407,16 +16290,16 @@
   },
   "4880c33d03": {
     "clave": "tales of vesperia definitive edition|Switch",
-    "juego": "🔍 Otros juegos",
+    "juego": "Tales of",
     "min": 39720.0,
     "moneda": "CLP",
     "nombre": "Tales of Vesperia: Definitive Edition",
     "plataforma": "Switch",
     "precio": 39720.0,
-    "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "saga": "tales-of",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/148485927/Tales-Of-Vesperia-Definitive-Edition-Juego-Nintendo-Switch"
+    "url": "https://sniper.cl/products/tales-of-vesperia-definitive-edition-juego-nintendo-switch"
   },
   "4882218b8b": {
     "clave": "70010000102475",
@@ -16748,13 +16631,13 @@
     "juego": "🔍 Otros juegos",
     "min": 44990.0,
     "moneda": "CLP",
-    "nombre": "Fitness Boxing",
+    "nombre": "Fitness Boxing - Sniper",
     "plataforma": "Switch",
-    "precio": 45990.0,
+    "precio": 44990.0,
     "saga": "otros-juegos",
-    "tienda": "MegaGames",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://megagames.cl/producto/switch/juegos-nsw/fitness-boxing-switch/"
+    "url": "https://www.falabella.com/falabella-cl/product/112730445/Fitness-Boxing-Switch-Fisico-Sniper"
   },
   "49e6da6185": {
     "clave": "70010000012907",
@@ -17010,7 +16893,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY VIII Remastered",
     "plataforma": "Switch",
-    "precio": 15.36,
+    "precio": 6.14,
     "saga": "final-fantasy",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -17028,6 +16911,19 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/clown-is-hungry-switch/"
+  },
+  "4adc5826a4": {
+    "clave": "70010000051131",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "VARIOUS DAYLIFE",
+    "plataforma": "Switch",
+    "precio": 10.5,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/various-daylife-switch/"
   },
   "4ae357103d": {
     "clave": "fc 26|Switch 2",
@@ -17080,6 +16976,19 @@
     "tienda": "Sniper",
     "tipo": "fisico",
     "url": "https://sniper.cl/products/mon-yu-switch-fisico-sniper"
+  },
+  "4b585219f7": {
+    "clave": "70070000016082",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Voice of Cards Trilogy",
+    "plataforma": "Switch",
+    "precio": 20.18,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/voice-of-cards-trilogy-switch/"
   },
   "4b5cdc8389": {
     "clave": "70010000065063",
@@ -17465,7 +17374,7 @@
     "moneda": "USD",
     "nombre": "OCTOPATH TRAVELER 0",
     "plataforma": "Switch 2",
-    "precio": 47.33,
+    "precio": 23.67,
     "saga": "octopath-traveler",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -17640,6 +17549,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/under-the-warehouse-switch/"
   },
+  "4e0d4369d8": {
+    "clave": "70010000074831",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Super Prehistoric World Adventure",
+    "plataforma": "Switch",
+    "precio": 5.47,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/super-prehistoric-world-adventure-switch/"
+  },
   "4e131b7411": {
     "clave": "70010000038739",
     "juego": "🔍 Otros juegos",
@@ -17664,7 +17586,7 @@
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/148475144/fairy-tail-nintendo-switch-sniper"
+    "url": "https://www.falabella.com/falabella-cl/product/110418770/Fairy-Tail-Nintendo-Switch-Sniper"
   },
   "4e1c754f83": {
     "clave": "70010000015872",
@@ -17712,7 +17634,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY III",
     "plataforma": "Switch",
-    "precio": 14.63,
+    "precio": 8.78,
     "saga": "final-fantasy",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -17744,6 +17666,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/wizards-fortress-switch/"
   },
+  "4e5bedfd39": {
+    "clave": "70010000057374",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Home Deco Puzzles",
+    "plataforma": "Switch",
+    "precio": 2.5,
+    "saga": "otros-juegos",
+    "tienda": "eShop CA",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/en-ca/store/products/home-deco-puzzles-switch/"
+  },
   "4e603d1379": {
     "clave": "farming simulator 20|Switch",
     "juego": "🔍 Otros juegos",
@@ -17753,9 +17688,9 @@
     "plataforma": "Switch",
     "precio": 39711.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Lider",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/155738432/farming-simulator-20-nintendo-switch-snipercl"
+    "url": "https://www.lider.cl/ip/videojuegos/farming-simulator-20-nintendo-switch-sniper-cl/00761053530363"
   },
   "4e6f2a6650": {
     "clave": "70010000058968",
@@ -18146,6 +18081,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/evilup-switch/"
+  },
+  "4f9ecfc199": {
+    "clave": "70010000071880",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Sokobond Express",
+    "plataforma": "Switch",
+    "precio": 4.19,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/sokobond-express-switch/"
   },
   "4fb323382c": {
     "clave": "nicktoons the dice of destiny|Switch",
@@ -18687,11 +18635,11 @@
     "moneda": "CLP",
     "nombre": "Game With Balls",
     "plataforma": "Switch",
-    "precio": 39990.0,
+    "precio": 33990.0,
     "saga": "otros-juegos",
-    "tienda": "8 Bits",
+    "tienda": "Lider",
     "tipo": "fisico",
-    "url": "https://8-bits.cl/products/super-monkey-ball-banana-rumble-nsw"
+    "url": "https://www.lider.cl/ip/juegos-de-mesa/switch-pitch-ball-hoberman-paquete-de-1-paquete-varios-colores/00061655629408"
   },
   "51f4108188": {
     "clave": "70010000015880",
@@ -18849,19 +18797,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/zombie-apocalypse-survival-stories-switch/"
   },
-  "52677130b5": {
-    "clave": "70010000032988",
-    "juego": "🔍 Otros juegos",
-    "min": 4.22,
-    "moneda": "USD",
-    "nombre": "Colossus Down",
-    "plataforma": "Switch",
-    "precio": 4.22,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/colossus-down-switch/"
-  },
   "526a9045db": {
     "clave": "70010000064479",
     "juego": "🔍 Otros juegos",
@@ -18900,6 +18835,19 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/3-minutes-mystery-switch/"
+  },
+  "527b12d5b6": {
+    "clave": "70010000051139",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "HARVESTELLA",
+    "plataforma": "Switch",
+    "precio": 20.71,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/harvestella-switch/"
   },
   "5287e90720": {
     "clave": "70010000136612",
@@ -19740,7 +19688,7 @@
     "moneda": "USD",
     "nombre": "CRISIS CORE –FINAL FANTASY VII– REUNION",
     "plataforma": "Switch",
-    "precio": 43.3,
+    "precio": 25.98,
     "saga": "final-fantasy",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -20019,19 +19967,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/citizen-sleeper-2-starward-vector-nintendo-switch-2-edition-switch-2/"
   },
-  "57c6013540": {
-    "clave": "hdmi acer 2 entrada 1 salida 4k 60 hz|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 20990.0,
-    "moneda": "CLP",
-    "nombre": "HDMI Acer 2 Entradas 1 Salida 4K 60 Hz",
-    "plataforma": "Switch",
-    "precio": 20990.0,
-    "saga": "otros-juegos",
-    "tienda": "Lider",
-    "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/accesorios-computacion/switch-hdmi-acer-2-entradas-1-salida-4k-60-hz/00019513336692"
-  },
   "57e86e6236": {
     "clave": "70010000112715",
     "juego": "🔍 Otros juegos",
@@ -20148,6 +20083,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/seishin-switch/"
+  },
+  "5849d660ca": {
+    "clave": "70010000053435",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Romancing SaGa -Minstrel Song- Remastered",
+    "plataforma": "Switch",
+    "precio": 11.35,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/romancing-saga-minstrel-song-remastered-switch/"
   },
   "58501ccf91": {
     "clave": "70010000077121",
@@ -20470,9 +20418,9 @@
     "plataforma": "Switch",
     "precio": 34720.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/148485776/Child-Of-Light-Nintendo-Switch-Sniper"
+    "url": "https://sniper.cl/products/child-of-light-nintendo-switch-sniper-1"
   },
   "5939527ae5": {
     "clave": "70010000048228",
@@ -20676,7 +20624,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY TACTICS - The Ivalice Chronicles",
     "plataforma": "Switch",
-    "precio": 45.89,
+    "precio": 27.53,
     "saga": "final-fantasy",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -20837,19 +20785,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/moonshine-inc-switch/"
-  },
-  "5a87b6bb0a": {
-    "clave": "mighty morphin power rangers ritas rewind|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 72990.0,
-    "moneda": "CLP",
-    "nombre": "Mighty Morphin Power Rangers: Rita's Rewind",
-    "plataforma": "Switch",
-    "precio": 72990.0,
-    "saga": "otros-juegos",
-    "tienda": "Lider",
-    "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/juego-atari-mighty-morphin-power-rangers-rita-s-rewind-para-nintendo-switch/00505663561288"
   },
   "5a8cd6982c": {
     "clave": "70010000068857",
@@ -21337,13 +21272,13 @@
     "juego": "🔍 Otros juegos",
     "min": 47990.0,
     "moneda": "CLP",
-    "nombre": "Camara",
+    "nombre": "Cámara",
     "plataforma": "Switch 2",
-    "precio": 47990.0,
+    "precio": 69990.0,
     "saga": "otros-juegos",
-    "tienda": "Lider",
+    "tienda": "8 Bits",
     "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/camara-para-nintendo-switch-2/00004549688594"
+    "url": "https://8-bits.cl/products/camara-para-nintendo-switch-2"
   },
   "5cda2c1b49": {
     "clave": "70070000034290",
@@ -21370,19 +21305,6 @@
     "tienda": "eShop BR",
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/persona-3-portable-switch/"
-  },
-  "5cfd1b4e55": {
-    "clave": "70010000098035",
-    "juego": "🔍 Otros juegos",
-    "min": 5.17,
-    "moneda": "USD",
-    "nombre": "Weirdo",
-    "plataforma": "Switch",
-    "precio": 5.19,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/weirdo-switch/"
   },
   "5d146aba49": {
     "clave": "70010000012899",
@@ -21995,19 +21917,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/in-between-switch/"
   },
-  "5f73f4ec86": {
-    "clave": "70010000110399",
-    "juego": "🔍 Otros juegos",
-    "min": 4.76,
-    "moneda": "USD",
-    "nombre": "Soulkin",
-    "plataforma": "Switch",
-    "precio": 4.78,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/soulkin-switch/"
-  },
   "5f7bede24e": {
     "clave": "crono dawn|Switch 2",
     "juego": "🔍 Otros juegos",
@@ -22124,19 +22033,6 @@
     "tienda": "8 Bits",
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/splatoon-2-switch"
-  },
-  "5fe074be04": {
-    "clave": "pixn love donut dodo uk pal eu|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 90990.0,
-    "moneda": "CLP",
-    "nombre": "Pix'n Love Donut Dodo para UK PAL EU",
-    "plataforma": "Switch",
-    "precio": 93990.0,
-    "saga": "otros-juegos",
-    "tienda": "Lider",
-    "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/juego-pix-n-love-donut-dodo-para-nintendo-switch-uk-pal-eu/00079173975581"
   },
   "5fed4c3e3a": {
     "clave": "70010000051191",
@@ -23185,7 +23081,7 @@
     "moneda": "USD",
     "nombre": "OCTOPATH TRAVELER II",
     "plataforma": "Switch 2",
-    "precio": 52.48,
+    "precio": 31.49,
     "saga": "octopath-traveler",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -23203,19 +23099,6 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/savant-ascent-remix-switch/"
-  },
-  "66128862eb": {
-    "clave": "70010000049601",
-    "juego": "🔍 Otros juegos",
-    "min": 3.21,
-    "moneda": "USD",
-    "nombre": "Legend of Arcadieu Bundle",
-    "plataforma": "Switch",
-    "precio": 3.23,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/legend-of-arcadieu-bundle-switch/"
   },
   "661a86eccb": {
     "clave": "coleccion merge 60 1|Switch",
@@ -23555,19 +23438,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/minecraft-switch-2/"
   },
-  "67ab8ff724": {
-    "clave": "70010000087242",
-    "juego": "🔍 Otros juegos",
-    "min": 2.17,
-    "moneda": "USD",
-    "nombre": "Detective From The Crypt",
-    "plataforma": "Switch",
-    "precio": 2.18,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/detective-from-the-crypt-switch/"
-  },
   "67ae6222e8": {
     "clave": "70010000106641",
     "juego": "🔍 Otros juegos",
@@ -23646,19 +23516,6 @@
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/videojuegos/juego-deep-silver-mio-memories-in-orbit-nintendo-switch/00085003366854"
   },
-  "67dd2a7729": {
-    "clave": "70010000102976",
-    "juego": "🔍 Otros juegos",
-    "min": 1.97,
-    "moneda": "USD",
-    "nombre": "My Cozy Aquarium",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/my-cozy-aquarium-switch/"
-  },
   "680035cd3f": {
     "clave": "metal gear solid master collection vol 2 day one|Switch",
     "juego": "🔍 Otros juegos",
@@ -23684,6 +23541,19 @@
     "tienda": "eShop BR",
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/super-dev-quest-switch/"
+  },
+  "681de22896": {
+    "clave": "70070000037953",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "CRISIS CORE –FINAL FANTASY VII– REUNION –DIGITAL DELUXE EDITION–",
+    "plataforma": "Switch 2",
+    "precio": 36.33,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/crisis-core-final-fantasy-vii-reunion-digital-deluxe-edition-switch-2/"
   },
   "682f926f50": {
     "clave": "70010000000707",
@@ -24179,6 +24049,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/ghost-assassin-stealth-strike-switch/"
   },
+  "6a77af6e6d": {
+    "clave": "70010000096405",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "There's No Easter Eggs",
+    "plataforma": "Switch",
+    "precio": 3.3,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/theres-no-easter-eggs-switch/"
+  },
   "6a7b4b2d59": {
     "clave": "70010000081698",
     "juego": "🔍 Otros juegos",
@@ -24191,19 +24074,6 @@
     "tienda": "eShop BR",
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/pixel-retro-drift-arcade-car-racing-switch/"
-  },
-  "6a9c063e63": {
-    "clave": "70010000062171",
-    "juego": "🔍 Otros juegos",
-    "min": 7.98,
-    "moneda": "USD",
-    "nombre": "Sakura Dungeon",
-    "plataforma": "Switch",
-    "precio": 8.02,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/sakura-dungeon-switch/"
   },
   "6ab821417e": {
     "clave": "70010000006023",
@@ -24361,19 +24231,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/escape-from-umbra-switch/"
   },
-  "6b2ef699ce": {
-    "clave": "70010000079189",
-    "juego": "🔍 Otros juegos",
-    "min": 13.35,
-    "moneda": "USD",
-    "nombre": "MIO: Memories in Orbit",
-    "plataforma": "Switch",
-    "precio": 13.42,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/mio-memories-in-orbit-switch/"
-  },
   "6b30cb58e5": {
     "clave": "70070000022222",
     "juego": "🔍 Otros juegos",
@@ -24420,7 +24277,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY IV",
     "plataforma": "Switch",
-    "precio": 14.63,
+    "precio": 8.78,
     "saga": "final-fantasy",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -24438,19 +24295,6 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/modern-combat-blackout-switch/"
-  },
-  "6b73bb7c8f": {
-    "clave": "70010000090491",
-    "juego": "🔍 Otros juegos",
-    "min": 1.96,
-    "moneda": "USD",
-    "nombre": "Cat MeowMart: Supermarket Simulator",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/cat-meowmart-supermarket-simulator-switch/"
   },
   "6b7f5c3e56": {
     "clave": "70010000104957",
@@ -24647,6 +24491,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/mahluk-dark-demon-switch/"
   },
+  "6c71093096": {
+    "clave": "70010000041661",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Actraiser Renaissance",
+    "plataforma": "Switch",
+    "precio": 9.29,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/actraiser-renaissance-switch/"
+  },
   "6c97f4c70c": {
     "clave": "harvest moon light of hope special edition|Switch",
     "juego": "Story of Seasons",
@@ -24777,19 +24634,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/holy-potatoes-a-weapon-shop-switch/"
   },
-  "6d436c6a5d": {
-    "clave": "pilgrims|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 59990.0,
-    "moneda": "CLP",
-    "nombre": "Pilgrims",
-    "plataforma": "Switch",
-    "precio": 59990.0,
-    "saga": "otros-juegos",
-    "tienda": "Falabella",
-    "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/157589659/scott-pilgrim-ex-switch"
-  },
   "6d452b15c2": {
     "clave": "70010000092779",
     "juego": "🔍 Otros juegos",
@@ -24919,19 +24763,6 @@
     "tienda": "Sniper",
     "tipo": "fisico",
     "url": "https://sniper.cl/products/samba-de-amigo-party-central-switch-fisico-sniper"
-  },
-  "6de84a35c1": {
-    "clave": "70010000082831",
-    "juego": "🔍 Otros juegos",
-    "min": 2.02,
-    "moneda": "USD",
-    "nombre": "Ecchi Secrets",
-    "plataforma": "Switch",
-    "precio": 2.03,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/ecchi-secrets-switch/"
   },
   "6e139e9ae0": {
     "clave": "biomutant|Switch",
@@ -25089,6 +24920,19 @@
     "tipo": "fisico",
     "url": "https://sniper.cl/products/umihara-kawase-fresh-juego-fisico-nintendo-switch-sniper"
   },
+  "6ea24f1a22": {
+    "clave": "70010000116884",
+    "juego": "🔍 Otros juegos",
+    "min": 55.3,
+    "moneda": "USD",
+    "nombre": "The Adventures of Elliot: The Millennium Tales",
+    "plataforma": "Switch 2",
+    "precio": 38.5,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/the-adventures-of-elliot-the-millennium-tales-switch-2/"
+  },
   "6ebdd116e9": {
     "clave": "70010000097254",
     "juego": "🔍 Otros juegos",
@@ -25161,11 +25005,11 @@
     "moneda": "USD",
     "nombre": "Fhtagn! - Tales of the Creeping Madness",
     "plataforma": "Switch",
-    "precio": 7.15,
+    "precio": 1.99,
     "saga": "tales-of",
-    "tienda": "eShop CA",
+    "tienda": "eShop US",
     "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/fhtagn-tales-of-the-creeping-madness-switch/"
+    "url": "https://www.nintendo.com/us/store/products/fhtagn-tales-of-the-creeping-madness-switch/"
   },
   "6f4c40e0dc": {
     "clave": "70010000040742",
@@ -25179,19 +25023,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/sherlock-holmes-crimes-and-punishments-switch/"
-  },
-  "6f7c53a3da": {
-    "clave": "70010000075581",
-    "juego": "🔍 Otros juegos",
-    "min": 3.61,
-    "moneda": "USD",
-    "nombre": "Santa´s World",
-    "plataforma": "Switch",
-    "precio": 3.63,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/santa-s-world-switch/"
   },
   "6f7d420caf": {
     "clave": "hdmi anker 2 entrada 1 salida 4k 60 hz|Switch",
@@ -25323,19 +25154,6 @@
     "tipo": "fisico",
     "url": "https://www.falabella.com/falabella-cl/product/114351929/LEGO-Brawls-Switch-Sniper"
   },
-  "702661ca24": {
-    "clave": "70010000049593",
-    "juego": "🔍 Otros juegos",
-    "min": 3.61,
-    "moneda": "USD",
-    "nombre": "Magi Trials",
-    "plataforma": "Switch",
-    "precio": 3.63,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/magi-trials-switch/"
-  },
   "7028f3f850": {
     "clave": "70010000100114",
     "juego": "Atelier",
@@ -25462,9 +25280,9 @@
     "plataforma": "Switch",
     "precio": 89990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/146690865/demon-slayer-the-hinokami-chronicles-2-nintendo-switch"
+    "url": "https://sniper.cl/products/demon-slayer-the-hinokami-chronicles-2-nintendo-switch"
   },
   "70a21a36da": {
     "clave": "70010000064607",
@@ -25700,32 +25518,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/pixel-game-maker-series-isekai-quartet-adventure-action-game-switch/"
   },
-  "719cf31ff8": {
-    "clave": "70010000068227",
-    "juego": "🔍 Otros juegos",
-    "min": 1.99,
-    "moneda": "USD",
-    "nombre": "Lies as a Starting Point",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/lies-as-a-starting-point-switch/"
-  },
-  "719fe7b145": {
-    "clave": "70010000135155",
-    "juego": "🔍 Otros juegos",
-    "min": 13.54,
-    "moneda": "USD",
-    "nombre": "Isle of Reveries",
-    "plataforma": "Switch",
-    "precio": 13.56,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/isle-of-reveries-switch/"
-  },
   "71ab4a8430": {
     "clave": "70070000041092",
     "juego": "🔍 Otros juegos",
@@ -25824,7 +25616,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY VII REBIRTH",
     "plataforma": "Switch 2",
-    "precio": 42.54,
+    "precio": 6.38,
     "saga": "final-fantasy-vii-rebirth",
     "tienda": "eShop MX",
     "tipo": "digital",
@@ -25921,19 +25713,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/mokoko-x-switch/"
   },
-  "72dbab7e9a": {
-    "clave": "nba2k26|Switch 2",
-    "juego": "🔍 Otros juegos",
-    "min": 42990.0,
-    "moneda": "CLP",
-    "nombre": "NBA2K26",
-    "plataforma": "Switch 2",
-    "precio": 167990.0,
-    "saga": "otros-juegos",
-    "tienda": "Lider",
-    "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/juego-nba2k26-nintendo-switch-2/00071042565364"
-  },
   "72e8304bc3": {
     "clave": "70010000128076",
     "juego": "🔍 Otros juegos",
@@ -26008,9 +25787,9 @@
     "plataforma": "Switch",
     "precio": 49990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/override-2-nintendo-switch-sniper-1"
+    "url": "https://www.falabella.com/falabella-cl/product/148486192/Override-2-Nintendo-Switch-Sniper"
   },
   "7332f0edfb": {
     "clave": "70010000133657",
@@ -26636,19 +26415,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/zombie-night-terror-switch/"
   },
-  "769bb944d7": {
-    "clave": "70010000038069",
-    "juego": "🔍 Otros juegos",
-    "min": 2.12,
-    "moneda": "USD",
-    "nombre": "Rip Them Off",
-    "plataforma": "Switch",
-    "precio": 2.13,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/rip-them-off-switch/"
-  },
   "76a566cbac": {
     "clave": "70010000036698",
     "juego": "🔍 Otros juegos",
@@ -26740,6 +26506,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/the-abysss-last-breath-switch/"
   },
+  "7752933b23": {
+    "clave": "aspyr tomb raider 1 3 remasterizado|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": 58990.0,
+    "moneda": "CLP",
+    "nombre": "Aspyr Tomb Raider 1-3 Remasterizado",
+    "plataforma": "Switch",
+    "precio": 62990.0,
+    "saga": "otros-juegos",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/juego-aspyr-tomb-raider-1-3-remasterizado-para-nintendo-switch/00505663560959"
+  },
   "77646da361": {
     "clave": "fatal frame mask of the lunar eclipse|Switch",
     "juego": "🔍 Otros juegos",
@@ -26775,9 +26554,9 @@
     "plataforma": "Switch",
     "precio": 54990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Paris",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/blasphemous-2-switch-fisico-sniper"
+    "url": "https://www.paris.cl/blasphemous-2-nintendo-switch-MKJAPHSTPS.html"
   },
   "7794f35b24": {
     "clave": "70010000004685",
@@ -26838,11 +26617,11 @@
     "moneda": "USD",
     "nombre": "Chocobo's Mystery Dungeon EVERY BUDDY!",
     "plataforma": "Switch",
-    "precio": 30.33,
+    "precio": 15.31,
     "saga": "pokemon-mystery-dungeon-snap",
-    "tienda": "eShop BR",
+    "tienda": "eShop CA",
     "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/chocobos-mystery-dungeon-every-buddy-switch/"
+    "url": "https://www.nintendo.com/en-ca/store/products/chocobos-mystery-dungeon-every-buddy-switch/"
   },
   "77ed28c912": {
     "clave": "70010000016742",
@@ -26916,11 +26695,11 @@
     "moneda": "CLP",
     "nombre": "Super Mario Maker 2",
     "plataforma": "Switch",
-    "precio": 54990.0,
+    "precio": 56990.0,
     "saga": "otros-juegos",
-    "tienda": "8 Bits",
+    "tienda": "Paris",
     "tipo": "fisico",
-    "url": "https://8-bits.cl/products/super-mario-maker-2-nsw"
+    "url": "https://www.paris.cl/super-mario-maker-2-nintendo-switch-MKCFLPU68C.html"
   },
   "78295a6980": {
     "clave": "70010000108193",
@@ -27128,7 +26907,7 @@
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/148489050/Frogun-Switch-Fisico-Sniper"
+    "url": "https://www.falabella.com/falabella-cl/product/122938564/Frogun-Switch-Fisico-Sniper"
   },
   "7912af0f14": {
     "clave": "70010000076957",
@@ -27363,6 +27142,19 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/skel-the-heroes-hunter-trap-dungeon-switch/"
+  },
+  "79e193aed6": {
+    "clave": "controlador inalambrico turtle beach rematch donkey kong|Switch",
+    "juego": "Donkey Kong",
+    "min": 55990.0,
+    "moneda": "CLP",
+    "nombre": "Controlador inalámbrico Turtle Beach Rematch Donkey Kong",
+    "plataforma": "Switch",
+    "precio": 107990.0,
+    "saga": "donkey-kong",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/controlador-inalambrico-nintendo-switch-turtle-beach-rematch-donkey-kong/00084045440082"
   },
   "79e1e72e59": {
     "clave": "nascar rival|Switch",
@@ -27728,19 +27520,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/rain-world-switch/"
   },
-  "7b15a25153": {
-    "clave": "70010000110896",
-    "juego": "🔍 Otros juegos",
-    "min": 2.14,
-    "moneda": "USD",
-    "nombre": "Car Guys",
-    "plataforma": "Switch",
-    "precio": 2.15,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/car-guys-switch/"
-  },
   "7b1ff45bc8": {
     "clave": "70010000066988",
     "juego": "🔍 Otros juegos",
@@ -27793,6 +27572,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/safety-first-switch/"
   },
+  "7b953d93f0": {
+    "clave": "star ocean the second story r|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "STAR OCEAN THE SECOND STORY R",
+    "plataforma": "Switch",
+    "precio": 24990.0,
+    "saga": "otros-juegos",
+    "tienda": "Sniper",
+    "tipo": "fisico",
+    "url": "https://sniper.cl/products/star-ocean-the-second-story-r-switch-sniper"
+  },
   "7ba9cf263c": {
     "clave": "70010000022169",
     "juego": "🔍 Otros juegos",
@@ -27808,16 +27600,29 @@
   },
   "7baae084f8": {
     "clave": "mario sonic at olympic tokyo 2020|Switch",
-    "juego": "Mario",
+    "juego": "🔍 Otros juegos",
     "min": 59990.0,
     "moneda": "CLP",
-    "nombre": "Mario & Sonic At The Olympic Games Tokyo 2020",
+    "nombre": "Mario & Sonic at the Olympic Games Tokyo 2020",
     "plataforma": "Switch",
     "precio": 59990.0,
-    "saga": "mario",
+    "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/videojuegos/mario-sonic-at-the-olympic-games-tokyo-2020-switch/00055957110654"
+  },
+  "7bad4ff13c": {
+    "clave": "70010000034953",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "A Good Snowman is Hard to Build",
+    "plataforma": "Switch",
+    "precio": 2.01,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/a-good-snowman-is-hard-to-build-switch/"
   },
   "7baeb9d96f": {
     "clave": "70010000099744",
@@ -27917,7 +27722,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY XII THE ZODIAC AGE",
     "plataforma": "Switch",
-    "precio": 42.28,
+    "precio": 12.69,
     "saga": "final-fantasy",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -28021,7 +27826,7 @@
     "moneda": "USD",
     "nombre": "NieR:Automata The End of YoRHa Edition",
     "plataforma": "Switch",
-    "precio": 27.57,
+    "precio": 11.03,
     "saga": "nier",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -28130,19 +27935,6 @@
     "tienda": "Lider",
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/tv/switch-hdmi-ugreen-2-entradas-1-salida-8k-60hz-vrr-hdr10-/00694187626877"
-  },
-  "7d3f763b85": {
-    "clave": "70010000056949",
-    "juego": "🔍 Otros juegos",
-    "min": 1.99,
-    "moneda": "USD",
-    "nombre": "Pid",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/pid-switch/"
   },
   "7d66a32cbe": {
     "clave": "70010000100476",
@@ -28312,19 +28104,6 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/dynasty-warriors-9-empires-switch/"
-  },
-  "7dbd1d50d0": {
-    "clave": "70010000126703",
-    "juego": "🔍 Otros juegos",
-    "min": 16.07,
-    "moneda": "USD",
-    "nombre": "BioEden",
-    "plataforma": "Switch 2",
-    "precio": 16.15,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/bioeden-switch-2/"
   },
   "7dc01a3a1b": {
     "clave": "70010000001410",
@@ -28838,13 +28617,13 @@
     "juego": "🔍 Otros juegos",
     "min": 89990.0,
     "moneda": "CLP",
-    "nombre": "Hunter X Hunter Nen Impact - SniperCL",
+    "nombre": "Hunter X Hunter Nen Impact - Snipercl",
     "plataforma": "Switch",
     "precio": 89990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/146173499/Hunter-X-Hunter-Nen-Impact-Nintendo-Switch-SniperCL"
+    "url": "https://sniper.cl/products/hunter-x-hunter-nen-impact-nintendo-switch-snipercl"
   },
   "803c33f94b": {
     "clave": "70010000118631",
@@ -29119,19 +28898,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/geo-brain-boost-world-map-silhouette-quiz-switch/"
   },
-  "8192fc8883": {
-    "clave": "70010000102262",
-    "juego": "🔍 Otros juegos",
-    "min": 12.45,
-    "moneda": "USD",
-    "nombre": "Caves of Qud",
-    "plataforma": "Switch",
-    "precio": 12.51,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/caves-of-qud-switch/"
-  },
   "81bef84a28": {
     "clave": "sport party|Switch",
     "juego": "Switch Sports",
@@ -29222,6 +28988,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/sky-aces-wwii-air-combat-switch/"
+  },
+  "8240122a9c": {
+    "clave": "70010000047561",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Taiko no Tatsujin: Rhythm Festival",
+    "plataforma": "Switch",
+    "precio": 16.15,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/taiko-no-tatsujin-rhythm-festival-switch/"
   },
   "824147fc40": {
     "clave": "darksiders iii|Switch|usado",
@@ -29613,6 +29392,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/deer-and-boy-switch/"
   },
+  "83a8d982b5": {
+    "clave": "70010000036878",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "NEO: The World Ends with You",
+    "plataforma": "Switch",
+    "precio": 13.32,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/neo-the-world-ends-with-you-switch/"
+  },
   "83ac9cf078": {
     "clave": "70070000025682",
     "juego": "🔍 Otros juegos",
@@ -29677,19 +29469,6 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/combat-forces-switch/"
-  },
-  "840182f768": {
-    "clave": "70010000126092",
-    "juego": "🔍 Otros juegos",
-    "min": 4.63,
-    "moneda": "USD",
-    "nombre": "BioMenace Remastered",
-    "plataforma": "Switch",
-    "precio": 4.66,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/biomenace-remastered-switch/"
   },
   "8405d77ef8": {
     "clave": "70010000041236",
@@ -29958,7 +29737,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY TACTICS - The Ivalice Chronicles Nintendo Switch 2 Edition",
     "plataforma": "Switch 2",
-    "precio": 45.89,
+    "precio": 27.53,
     "saga": "final-fantasy",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -30015,19 +29794,6 @@
     "tienda": "Falabella",
     "tipo": "fisico",
     "url": "https://www.falabella.com/falabella-cl/product/158472557/xenoblade-chroonicles-2-nintendo-switch-2"
-  },
-  "8563747b16": {
-    "clave": "70010000091555",
-    "juego": "🔍 Otros juegos",
-    "min": 7.22,
-    "moneda": "USD",
-    "nombre": "Is this Game Trying to Kill Me?",
-    "plataforma": "Switch",
-    "precio": 7.26,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/is-this-game-trying-to-kill-me-switch/"
   },
   "856d42435c": {
     "clave": "70010000026350",
@@ -30192,11 +29958,11 @@
     "moneda": "CLP",
     "nombre": "Baby Shark: Sing & Swim Party",
     "plataforma": "Switch",
-    "precio": 34702.0,
+    "precio": 24990.0,
     "saga": "otros-juegos",
-    "tienda": "Paris",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.paris.cl/baby-shark-sing-and-swim-party-nintendo-switch-MK7IEOK992.html"
+    "url": "https://www.falabella.com/falabella-cl/product/139579839/Baby-Shark-Sing-y-Swim-Party-Nintendo-Switch"
   },
   "8610178533": {
     "clave": "harvest moon light hope europeo|Switch",
@@ -30647,11 +30413,11 @@
     "moneda": "CLP",
     "nombre": "SONIC X SHADOW GENERATIONS",
     "plataforma": "Switch 2",
-    "precio": 53990.0,
+    "precio": 54990.0,
     "saga": "sonic",
-    "tienda": "Lider",
+    "tienda": "Paris",
     "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-2-sonic-x-shadow-generations/00001008677040"
+    "url": "https://www.paris.cl/sonic-x-shadow-generations-switch-2-MKZFUBGPEY.html"
   },
   "887003fe04": {
     "clave": "tomb raider 4 6 remastered|Switch",
@@ -30671,7 +30437,7 @@
     "juego": "🔍 Otros juegos",
     "min": 44990.0,
     "moneda": "CLP",
-    "nombre": "Deadly Premonition 2: A Blessing In Disguise",
+    "nombre": "Deadly Premonition 2 A Blessing In Disguise",
     "plataforma": "Switch",
     "precio": 44990.0,
     "saga": "otros-juegos",
@@ -31147,19 +30913,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/blazing-beaks-switch/"
   },
-  "8b0957fb94": {
-    "clave": "70010000018577",
-    "juego": "🔍 Otros juegos",
-    "min": 7.47,
-    "moneda": "USD",
-    "nombre": "Neverwinter Nights: Enhanced Edition",
-    "plataforma": "Switch",
-    "precio": 7.51,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/neverwinter-nights-enhanced-edition-switch/"
-  },
   "8b0b73bba1": {
     "clave": "70010000050716",
     "juego": "🔍 Otros juegos",
@@ -31212,6 +30965,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/metal-gear-solid-4-guns-of-the-patriots-master-collection-version-switch/"
   },
+  "8b2967a541": {
+    "clave": "the diofield chronicle|Switch|import-japan",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "The DioField Chronicle",
+    "plataforma": "Switch",
+    "precio": 34990.0,
+    "saga": "otros-juegos",
+    "tienda": "8 Bits",
+    "tipo": "fisico",
+    "url": "https://8-bits.cl/products/the-diofield-chronicle-nsw-japan-import"
+  },
   "8b65067f9d": {
     "clave": "my universe puppie kitten|Switch",
     "juego": "🔍 Otros juegos",
@@ -31224,19 +30990,6 @@
     "tienda": "Sniper",
     "tipo": "fisico",
     "url": "https://sniper.cl/products/my-universe-puppies-and-kittens-switch-sniper"
-  },
-  "8b714a33df": {
-    "clave": "70070000016788",
-    "juego": "🔍 Otros juegos",
-    "min": 33.47,
-    "moneda": "USD",
-    "nombre": "Dungeons & Dragons Bundle",
-    "plataforma": "Switch",
-    "precio": 33.52,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/dungeons-and-dragons-bundle-switch/"
   },
   "8b86080834": {
     "clave": "70010000002722",
@@ -31997,7 +31750,7 @@
     "juego": "🔍 Otros juegos",
     "min": 54990.0,
     "moneda": "CLP",
-    "nombre": "Saga Emerald Beyond Sniper",
+    "nombre": "SaGa Emerald Beyond",
     "plataforma": "Switch",
     "precio": 54990.0,
     "saga": "otros-juegos",
@@ -32135,19 +31888,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/zombie-army-trilogy-switch/"
   },
-  "8fdf6488b2": {
-    "clave": "70010000044069",
-    "juego": "🔍 Otros juegos",
-    "min": 4.6,
-    "moneda": "USD",
-    "nombre": "Sakura Succubus 4",
-    "plataforma": "Switch",
-    "precio": 4.6,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/sakura-succubus-4-switch/"
-  },
   "900526cefa": {
     "clave": "read only memorie neurodiver japan import|Switch",
     "juego": "🔍 Otros juegos",
@@ -32246,7 +31986,7 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST MONSTERS: The Dark Prince",
     "plataforma": "Switch",
-    "precio": 36.69,
+    "precio": 5.5,
     "saga": "dragon-quest",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -32342,19 +32082,6 @@
     "tienda": "Falabella",
     "tipo": "fisico",
     "url": "https://www.falabella.com/falabella-cl/product/158662898/sword-art-online-hollow-realization-nintendo-switch"
-  },
-  "913b0854d4": {
-    "clave": "fifa 21 electronic art|Switch",
-    "juego": "EA Sports FC",
-    "min": 117990.0,
-    "moneda": "CLP",
-    "nombre": "FIFA 21 – Electronic Arts",
-    "plataforma": "Switch",
-    "precio": 121990.0,
-    "saga": "ea-sports-fc",
-    "tienda": "Lider",
-    "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/fifa-21-para-nintendo-switch-electronic-arts/00503094912350"
   },
   "914aaf6d53": {
     "clave": "70010000021824",
@@ -32521,9 +32248,9 @@
     "plataforma": "Switch",
     "precio": 31990.0,
     "saga": "otros-juegos",
-    "tienda": "Lider",
+    "tienda": "Paris",
     "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/remothered-broken-porcelain-nintendo-switch/00081429001546"
+    "url": "https://www.paris.cl/remothered-broken-porcelain-nintendo-switch-MK84X1MGE5.html"
   },
   "91e307b7be": {
     "clave": "70010000011556",
@@ -32603,6 +32330,19 @@
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/forever-blue-luminous-endless-ocean-nsw-japan-import"
   },
+  "924d643a25": {
+    "clave": "70010000113635",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+    "plataforma": "Switch",
+    "precio": 36.74,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/captain-tsubasa-2-world-fighters-switch/"
+  },
   "927020e801": {
     "clave": "70010000090930",
     "juego": "🔍 Otros juegos",
@@ -32615,6 +32355,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/rounds-switch/"
+  },
+  "92a36e78d7": {
+    "clave": "70010000034699",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Life is Strange: True Colors",
+    "plataforma": "Switch",
+    "precio": 13.02,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/life-is-strange-true-colors-switch/"
   },
   "92c715bae3": {
     "clave": "neighborhood bundle|Switch",
@@ -32837,19 +32590,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/funny-animal-cafe-switch/"
   },
-  "93783604af": {
-    "clave": "70010000060110",
-    "juego": "🔍 Otros juegos",
-    "min": 7.17,
-    "moneda": "USD",
-    "nombre": "Pupperazzi",
-    "plataforma": "Switch",
-    "precio": 7.17,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/pupperazzi-switch/"
-  },
   "937f030331": {
     "clave": "70010000097856",
     "juego": "🔍 Otros juegos",
@@ -32888,6 +32628,19 @@
     "tienda": "eShop MX",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/emyliveshow-dangers-and-mysteries-tale-switch/"
+  },
+  "9399b9cd8a": {
+    "clave": "70010000077231",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "SaGa Emerald Beyond",
+    "plataforma": "Switch",
+    "precio": 18.57,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/saga-emerald-beyond-switch/"
   },
   "93bb158ce8": {
     "clave": "70070000031824",
@@ -33318,6 +33071,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/necrosmith-switch/"
   },
+  "955830a489": {
+    "clave": "70070000013661",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Life is Strange Arcadia Bay Collection",
+    "plataforma": "Switch",
+    "precio": 4.94,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/life-is-strange-arcadia-bay-collection-switch/"
+  },
   "956fa1d6b0": {
     "clave": "70010000065905",
     "juego": "🔍 Otros juegos",
@@ -33382,19 +33148,6 @@
     "tienda": "Falabella",
     "tipo": "fisico",
     "url": "https://www.falabella.com/falabella-cl/product/153254924/ultra-street-fighter-2-euro-nintendo-switch"
-  },
-  "95a29c772a": {
-    "clave": "u i entertainment totally reliable delivery|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 57990.0,
-    "moneda": "CLP",
-    "nombre": "U&I Entertainment Totally Reliable Delivery",
-    "plataforma": "Switch",
-    "precio": 60990.0,
-    "saga": "otros-juegos",
-    "tienda": "Lider",
-    "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/juego-u-i-entertainment-totally-reliable-delivery-para-nintendo-switch/00081013667384"
   },
   "95ab981b3a": {
     "clave": "70010000029431",
@@ -33643,19 +33396,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/flight-attendant-simulator-onboard-tasks-switch/"
   },
-  "970cf0c963": {
-    "clave": "70010000074867",
-    "juego": "🔍 Otros juegos",
-    "min": 1.99,
-    "moneda": "USD",
-    "nombre": "nDay",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/nday-switch/"
-  },
   "97203d7cc6": {
     "clave": "70010000093679",
     "juego": "🔍 Otros juegos",
@@ -33819,7 +33559,7 @@
     "moneda": "USD",
     "nombre": "Trials of Mana",
     "plataforma": "Switch",
-    "precio": 45.89,
+    "precio": 13.77,
     "saga": "chrono-mana",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -34241,6 +33981,19 @@
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/hyrule-warriors-age-of-imprisonment-nintendo-switch-2-japan-import"
   },
+  "991d129a61": {
+    "clave": "70010000053804",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "RAINBOW HIGH: RUNWAY RUSH",
+    "plataforma": "Switch",
+    "precio": 12.52,
+    "saga": "otros-juegos",
+    "tienda": "eShop CA",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/en-ca/store/products/rainbow-high-runway-rush-switch/"
+  },
   "99205c6261": {
     "clave": "70010000064394",
     "juego": "lollipop",
@@ -34461,6 +34214,19 @@
     "tienda": "Paris",
     "tipo": "fisico",
     "url": "https://www.paris.cl/videojuego-scribblenauts-mega-pack-nintendo-switch-MK4AOM8XHI.html"
+  },
+  "99f13be9fd": {
+    "clave": "70010000056360",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "THEATRHYTHM FINAL BAR LINE",
+    "plataforma": "Switch",
+    "precio": 21.65,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/theatrhythm-final-bar-line-switch/"
   },
   "99f5b3318f": {
     "clave": "new tales from the borderlands|Switch",
@@ -34724,16 +34490,29 @@
   },
   "9b5ea912ca": {
     "clave": "hades|Switch|limitada",
-    "juego": "Hades",
+    "juego": "🔍 Otros juegos",
     "min": 107990.0,
     "moneda": "CLP",
     "nombre": "Hades",
     "plataforma": "Switch",
     "precio": 112990.0,
-    "saga": "hades",
+    "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/videojuegos/videojuego-nintendo-hades-edicion-limitada-para-nintendo-switch/00004549642742"
+  },
+  "9b60c4eebd": {
+    "clave": "70010000071635",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "SaGa Frontier 2 Remastered",
+    "plataforma": "Switch",
+    "precio": 11.45,
+    "saga": "otros-juegos",
+    "tienda": "eShop CA",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/en-ca/store/products/saga-frontier-2-remastered-switch/"
   },
   "9b626e1e81": {
     "clave": "70010000053966",
@@ -34930,32 +34709,6 @@
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-super-street-racer/00085001710269"
   },
-  "9c28295489": {
-    "clave": "wild heart s japan import|Switch 2",
-    "juego": "🔍 Otros juegos",
-    "min": 59990.0,
-    "moneda": "CLP",
-    "nombre": "Wild Hearts S (Japan Import)",
-    "plataforma": "Switch 2",
-    "precio": 59990.0,
-    "saga": "otros-juegos",
-    "tienda": "8 Bits",
-    "tipo": "fisico",
-    "url": "https://8-bits.cl/products/wild-hearts-s-nintendo-switch-2-japan-import"
-  },
-  "9c2bb713a0": {
-    "clave": "70010000043785",
-    "juego": "🔍 Otros juegos",
-    "min": 4.6,
-    "moneda": "USD",
-    "nombre": "Dating Life: Miley X Emily",
-    "plataforma": "Switch",
-    "precio": 4.6,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/dating-life-miley-x-emily-switch/"
-  },
   "9c3fd29bf2": {
     "clave": "70010000122071",
     "juego": "🔍 Otros juegos",
@@ -35085,6 +34838,19 @@
     "tienda": "8 Bits",
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/assassin-s-creed-the-ezio-collection-nsw-1"
+  },
+  "9d1bb3b7ec": {
+    "clave": "70010000123945",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "PAW Patrol: Dino World",
+    "plataforma": "Switch 2",
+    "precio": 28.63,
+    "saga": "otros-juegos",
+    "tienda": "eShop CA",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/en-ca/store/products/paw-patrol-dino-world-switch-2/"
   },
   "9d27b3f68b": {
     "clave": "melon journey bittersweet memorie limited japan import|Switch",
@@ -35254,6 +35020,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/otxo-switch/"
+  },
+  "9d8c661309": {
+    "clave": "70010000044720",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Bonfire Peaks",
+    "plataforma": "Switch",
+    "precio": 3.18,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/bonfire-peaks-switch/"
   },
   "9d91598037": {
     "clave": "70010000096449",
@@ -35476,6 +35255,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/fox-n-forests-switch/"
   },
+  "9ed5828ba5": {
+    "clave": "70010000068793",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "The Shape of Things",
+    "plataforma": "Switch",
+    "precio": 2.01,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/the-shape-of-things-switch/"
+  },
   "9efa749cee": {
     "clave": "70010000126790",
     "juego": "🔍 Otros juegos",
@@ -35606,6 +35398,19 @@
     "tipo": "fisico",
     "url": "https://sniper.cl/products/mato-anomalies-switch-fisico-sniper"
   },
+  "9f830dc058": {
+    "clave": "70010000091386",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Guns of Fury",
+    "plataforma": "Switch",
+    "precio": 5.03,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/guns-of-fury-switch/"
+  },
   "9f8964b889": {
     "clave": "70010000017617",
     "juego": "Contra",
@@ -35618,19 +35423,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/contra-rogue-corps-switch/"
-  },
-  "9f9065ebcf": {
-    "clave": "70010000050837",
-    "juego": "🔍 Otros juegos",
-    "min": 9.14,
-    "moneda": "USD",
-    "nombre": "Sifu",
-    "plataforma": "Switch",
-    "precio": 9.2,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/sifu-switch/"
   },
   "9fa46d227b": {
     "clave": "70010000104510",
@@ -35722,19 +35514,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/tcg-card-shop-simulator-switch-2/"
-  },
-  "a057667aae": {
-    "clave": "70010000079214",
-    "juego": "🔍 Otros juegos",
-    "min": 7.82,
-    "moneda": "USD",
-    "nombre": "At Your Feet",
-    "plataforma": "Switch",
-    "precio": 7.82,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/at-your-feet-switch/"
   },
   "a05b00be8e": {
     "clave": "70010000120783",
@@ -35970,6 +35749,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/japan-train-models-jr-kyushu-edition-switch/"
   },
+  "a1998f1ee2": {
+    "clave": "fantasian neo dimension|Switch|import-japan",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "FANTASIAN Neo Dimension",
+    "plataforma": "Switch",
+    "precio": 49990.0,
+    "saga": "otros-juegos",
+    "tienda": "8 Bits",
+    "tipo": "fisico",
+    "url": "https://8-bits.cl/products/fantasian-neo-dimension-nsw-japan-import"
+  },
   "a1aafbf3fc": {
     "clave": "70010000073600",
     "juego": "Shantae",
@@ -36098,7 +35890,7 @@
     "saga": "doom",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/123779323/Doom-The-Classics-Collection-Switch-Fisico-Sniper"
+    "url": "https://www.falabella.com/falabella-cl/product/148490815/doom-the-classics-collection-switch-fisico-sniper"
   },
   "a204c1fe05": {
     "clave": "70010000120309",
@@ -36321,19 +36113,6 @@
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/mysims-cozy-bundle-nsw"
   },
-  "a297edc142": {
-    "clave": "70010000022604",
-    "juego": "🔍 Otros juegos",
-    "min": 2.64,
-    "moneda": "USD",
-    "nombre": "Knight Squad",
-    "plataforma": "Switch",
-    "precio": 2.65,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/knight-squad-switch/"
-  },
   "a2a4774d0e": {
     "clave": "jujutsu kaisen cursed clash|Switch|usado",
     "juego": "🔍 Otros juegos",
@@ -36411,19 +36190,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/blasphemous-switch/"
-  },
-  "a30e495320": {
-    "clave": "70010000103259",
-    "juego": "🔍 Otros juegos",
-    "min": 13.35,
-    "moneda": "USD",
-    "nombre": "MIO: Memories in Orbit",
-    "plataforma": "Switch 2",
-    "precio": 13.42,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/mio-memories-in-orbit-switch-2/"
   },
   "a3106941f1": {
     "clave": "resident evil revelations|Switch",
@@ -36503,6 +36269,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/naruto-shippuden-ultimate-ninja-storm-3-full-burst-switch/"
   },
+  "a34d434d65": {
+    "clave": "70010000060828",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "PARANORMASIGHT: The Seven Mysteries of Honjo",
+    "plataforma": "Switch",
+    "precio": 8.33,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/paranormasight-the-seven-mysteries-of-honjo-switch/"
+  },
   "a3557abc79": {
     "clave": "front mission 1st remake|Switch",
     "juego": "🔍 Otros juegos",
@@ -36515,6 +36294,19 @@
     "tienda": "Paris",
     "tipo": "fisico",
     "url": "https://www.paris.cl/front-mission-1st-remake-nintendo-switch-MKKNBIOS7A.html"
+  },
+  "a35a8b3932": {
+    "clave": "neo the world ends with you|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "NEO: The World Ends with You",
+    "plataforma": "Switch",
+    "precio": 57990.0,
+    "saga": "otros-juegos",
+    "tienda": "Falabella",
+    "tipo": "fisico",
+    "url": "https://www.falabella.com/falabella-cl/product/114325452/Neo-The-World-Ends-With-You-Nintendo-Switch-Mundojuegos"
   },
   "a368ed02b0": {
     "clave": "70010000033056",
@@ -36536,7 +36328,7 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST",
     "plataforma": "Switch",
-    "precio": 4.58,
+    "precio": 2.75,
     "saga": "dragon-quest",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -36659,19 +36451,6 @@
     "tipo": "fisico",
     "url": "https://sniper.cl/products/fishing-star-nintendo-switch-fisico-sniper"
   },
-  "a3eacc6475": {
-    "clave": "70010000043214",
-    "juego": "🔍 Otros juegos",
-    "min": 2.79,
-    "moneda": "USD",
-    "nombre": "Ghost in the Pool",
-    "plataforma": "Switch",
-    "precio": 2.8,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/ghost-in-the-pool-switch/"
-  },
   "a3eda90642": {
     "clave": "70010000016124",
     "juego": "🔍 Otros juegos",
@@ -36684,6 +36463,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/dead-by-daylight-switch/"
+  },
+  "a3fd3b497d": {
+    "clave": "70010000029410",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Life is Strange 2",
+    "plataforma": "Switch",
+    "precio": 3.6,
+    "saga": "otros-juegos",
+    "tienda": "eShop BR",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/pt-br/store/products/life-is-strange-2-70010000029410-switch/"
   },
   "a411a77c13": {
     "clave": "70010000028411",
@@ -37290,24 +37082,11 @@
     "moneda": "USD",
     "nombre": "BRAVELY DEFAULT FLYING FAIRY HD Remaster",
     "plataforma": "Switch 2",
-    "precio": 36.69,
+    "precio": 25.69,
     "saga": "bravely-default",
     "tienda": "eShop BR",
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/bravely-default-flying-fairy-hd-remaster-switch-2/"
-  },
-  "a740a5a33b": {
-    "clave": "70010000073502",
-    "juego": "🔍 Otros juegos",
-    "min": 2.17,
-    "moneda": "USD",
-    "nombre": "Caligo",
-    "plataforma": "Switch",
-    "precio": 2.18,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/caligo-switch/"
   },
   "a777c99cb7": {
     "clave": "70010000095912",
@@ -37725,6 +37504,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/shadow-of-the-ninja-reborn-switch/"
   },
+  "a987bf04ba": {
+    "clave": "70010000062079",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "STAR OCEAN THE SECOND STORY R",
+    "plataforma": "Switch",
+    "precio": 20.18,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/star-ocean-the-second-story-r-switch/"
+  },
   "a99092cd6b": {
     "clave": "70010000103501",
     "juego": "🔍 Otros juegos",
@@ -37763,6 +37555,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/senses-midnight-switch/"
+  },
+  "a9aea784bf": {
+    "clave": "70010000095467",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "LOK Digital",
+    "plataforma": "Switch",
+    "precio": 6.28,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/lok-digital-switch/"
   },
   "a9c88623d9": {
     "clave": "70010000004642",
@@ -37901,7 +37706,7 @@
     "moneda": "USD",
     "nombre": "TRIANGLE STRATEGY",
     "plataforma": "Switch",
-    "precio": 54.99,
+    "precio": 22.0,
     "saga": "triangle-strategy",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -38059,9 +37864,9 @@
     "plataforma": "Switch 2",
     "precio": 619990.0,
     "saga": "switch-sports",
-    "tienda": "Paris",
+    "tienda": "Lider",
     "tipo": "fisico",
-    "url": "https://www.paris.cl/nintendo-switch-2-nintendo-switch-sports-resort-bundle-lt2-MKIRLP9SOM.html"
+    "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-nintendo-switch-sports-resort-bundle/00004549688681"
   },
   "ab7bb7d4c0": {
     "clave": "70010000015811",
@@ -38098,9 +37903,9 @@
     "plataforma": "Switch",
     "precio": 44990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Paris",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/146191078/Goat-Simulator-3-Nintendo-Switch-SniperCL"
+    "url": "https://www.paris.cl/goat-simulator-3-nintendo-switch-snipercl-MKZNM47O07.html"
   },
   "abaddc9f11": {
     "clave": "exit 8 platform 8 japan import|Switch",
@@ -38213,7 +38018,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY VII",
     "plataforma": "Switch",
-    "precio": 12.23,
+    "precio": 4.89,
     "saga": "final-fantasy",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -38390,13 +38195,13 @@
   },
   "ad7a25bfa2": {
     "clave": "minecraft legends|Switch",
-    "juego": "Minecraft",
+    "juego": "🔍 Otros juegos",
     "min": 59990.0,
     "moneda": "CLP",
     "nombre": "Minecraft Legends",
     "plataforma": "Switch",
     "precio": 59990.0,
-    "saga": "minecraft",
+    "saga": "otros-juegos",
     "tienda": "Sniper",
     "tipo": "fisico",
     "url": "https://sniper.cl/products/minecraft-legends-deluxe-ed-switch-fisico-sniper"
@@ -38465,6 +38270,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/bendy-lone-wolf-switch/"
+  },
+  "adbfbac94b": {
+    "clave": "70010000098265",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Romancing SaGa 2: Revenge of the Seven – Nintendo Switch 2 Edition",
+    "plataforma": "Switch 2",
+    "precio": 22.94,
+    "saga": "otros-juegos",
+    "tienda": "eShop BR",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/pt-br/store/products/romancing-saga-2-revenge-of-the-seven-nintendo-switch-2-edition-switch-2/"
   },
   "add385248b": {
     "clave": "70010000102602",
@@ -38543,19 +38361,6 @@
     "tienda": "Lider",
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/videojuegos/juego-para-nintendo-switch-yum-yum-cookstar-desafio-de-cocina/00402062864681"
-  },
-  "adf65b5f25": {
-    "clave": "70010000011748",
-    "juego": "🔍 Otros juegos",
-    "min": 4.48,
-    "moneda": "USD",
-    "nombre": "Passpartout: The Starving Artist",
-    "plataforma": "Switch",
-    "precio": 4.5,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/passpartout-the-starving-artist-switch/"
   },
   "adf81a7b5b": {
     "clave": "snooker 19 official video|Switch",
@@ -38725,19 +38530,6 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/pixel-game-maker-series-pentacore-switch/"
-  },
-  "aefb5faa14": {
-    "clave": "70010000032692",
-    "juego": "🔍 Otros juegos",
-    "min": 3.29,
-    "moneda": "USD",
-    "nombre": "Monster Blast",
-    "plataforma": "Switch",
-    "precio": 3.3,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/monster-blast-switch/"
   },
   "aefc4fe632": {
     "clave": "pang adventure buster|Switch",
@@ -39558,6 +39350,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/cute-and-cozy-farm-5-in-1-switch/"
   },
+  "b25c37da05": {
+    "clave": "70010000082741",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Shieldwall",
+    "plataforma": "Switch",
+    "precio": 9.89,
+    "saga": "otros-juegos",
+    "tienda": "eShop US",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/us/store/products/shieldwall-switch/"
+  },
   "b25e4fe8cc": {
     "clave": "jack jeanne|Switch",
     "juego": "🔍 Otros juegos",
@@ -39570,19 +39375,6 @@
     "tienda": "8 Bits",
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/jack-jeanne-nsw"
-  },
-  "b26820c072": {
-    "clave": "70010000027963",
-    "juego": "🔍 Otros juegos",
-    "min": 5.63,
-    "moneda": "USD",
-    "nombre": "Apsulov: End of Gods",
-    "plataforma": "Switch",
-    "precio": 5.63,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/apsulov-end-of-gods-switch/"
   },
   "b2784b556c": {
     "clave": "70010000038543",
@@ -39701,19 +39493,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/spot-the-difference-food-and-drink-switch/"
   },
-  "b2f2ef4708": {
-    "clave": "70010000029668",
-    "juego": "🔍 Otros juegos",
-    "min": 3.21,
-    "moneda": "USD",
-    "nombre": "Deadly Days",
-    "plataforma": "Switch",
-    "precio": 3.23,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/deadly-days-switch/"
-  },
   "b2f3e7525e": {
     "clave": "overwatch legendary|Switch",
     "juego": "🔍 Otros juegos",
@@ -39727,6 +39506,19 @@
     "tipo": "fisico",
     "url": "https://sniper.cl/products/overwatch-legendary-ed-switch-fisico-sniper"
   },
+  "b301c0f1bb": {
+    "clave": "70010000048050",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "The Centennial Case: A Shijima Story",
+    "plataforma": "Switch",
+    "precio": 16.03,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/the-centennial-case-a-shijima-story-switch/"
+  },
   "b30d04b44c": {
     "clave": "70010000096400",
     "juego": "🔍 Otros juegos",
@@ -39739,19 +39531,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/bmx-city-run-switch/"
-  },
-  "b3220db55b": {
-    "clave": "70010000066209",
-    "juego": "🔍 Otros juegos",
-    "min": 2.58,
-    "moneda": "USD",
-    "nombre": "Sable's Grimoire: Man And Elf",
-    "plataforma": "Switch",
-    "precio": 2.59,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/sables-grimoire-man-and-elf-switch/"
   },
   "b328e0b004": {
     "clave": "70010000013359",
@@ -39922,19 +39701,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/rogue-flight-switch/"
   },
-  "b3d8787775": {
-    "clave": "70010000086637",
-    "juego": "🔍 Otros juegos",
-    "min": 1.96,
-    "moneda": "USD",
-    "nombre": "Fragrant Story and Papaya's Path",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/fragrant-story-and-papayas-path-switch/"
-  },
   "b3e90f4b32": {
     "clave": "70010000096130",
     "juego": "🔍 Otros juegos",
@@ -39968,11 +39734,11 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST II: Luminaries of the Legendary Line",
     "plataforma": "Switch",
-    "precio": 6.05,
+    "precio": 3.63,
     "saga": "dragon-quest",
-    "tienda": "eShop BR",
+    "tienda": "eShop CL",
     "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/dragon-quest-ii-luminaries-of-the-legendary-line-switch/"
+    "url": "https://www.nintendo.com/es-cl/store/products/dragon-quest-ii-luminaries-of-the-legendary-line-switch/"
   },
   "b3fea56eaf": {
     "clave": "70010000119449",
@@ -40012,19 +39778,6 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/the-next-penelope-switch/"
-  },
-  "b441cac876": {
-    "clave": "70010000072059",
-    "juego": "🔍 Otros juegos",
-    "min": 4.53,
-    "moneda": "USD",
-    "nombre": "Sakura Alien 2",
-    "plataforma": "Switch",
-    "precio": 4.55,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/sakura-alien-2-switch/"
   },
   "b4422d722a": {
     "clave": "30 in 1 game collection|Switch",
@@ -40155,6 +39908,19 @@
     "tienda": "TodoJuegos",
     "tipo": "fisico",
     "url": "https://www.todojuegos.cl/Productos/NSWI/[USADO]-Shin-Megami-Tensei-V/?ref=buscador"
+  },
+  "b4b7ed8d30": {
+    "clave": "xenoblade chronicles 2 torna the golden country|Switch",
+    "juego": "Xenoblade",
+    "min": 77990.0,
+    "moneda": "CLP",
+    "nombre": "Xenoblade Chronicles 2: Torna ~ The Golden Country",
+    "plataforma": "Switch",
+    "precio": 80990.0,
+    "saga": "xenoblade",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-xenoblade-chronicles-2-torna-the-golden-country/00004549642281"
   },
   "b4c6c4bbe9": {
     "clave": "70010000112707",
@@ -40741,19 +40507,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/shadow-of-loot-box-switch/"
   },
-  "b760c0fdfc": {
-    "clave": "70010000000869",
-    "juego": "🔍 Otros juegos",
-    "min": 2.08,
-    "moneda": "USD",
-    "nombre": "Severed",
-    "plataforma": "Switch",
-    "precio": 2.09,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/severed-switch/"
-  },
   "b7697565fe": {
     "clave": "70010000098845",
     "juego": "EA Sports FC",
@@ -40837,7 +40590,7 @@
     "juego": "🔍 Otros juegos",
     "min": 49990.0,
     "moneda": "CLP",
-    "nombre": "Autobahn Police Simulator 2 Ed. - Sniper",
+    "nombre": "Autobahn Police Simulator 2",
     "plataforma": "Switch",
     "precio": 49990.0,
     "saga": "otros-juegos",
@@ -40857,6 +40610,19 @@
     "tienda": "Falabella",
     "tipo": "fisico",
     "url": "https://www.falabella.com/falabella-cl/product/143824227/Aca-Neogeo-Selection-Vol-4-Nintendo-Switch-Fisico-Sniper_cl"
+  },
+  "b7e8f1dc15": {
+    "clave": "star war racer commando combo n|Switch",
+    "juego": "Star Wars",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "Star Wars Racer And Commando Combo - N.",
+    "plataforma": "Switch",
+    "precio": 34990.0,
+    "saga": "star-wars",
+    "tienda": "Sniper",
+    "tipo": "fisico",
+    "url": "https://sniper.cl/products/star-wars-racer-and-commando-combo-n-switch"
   },
   "b80a17bfc5": {
     "clave": "yoshi crafted world|Switch",
@@ -41026,19 +40792,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/shovel-knight-showdown-switch/"
-  },
-  "b8a01e602e": {
-    "clave": "70010000090988",
-    "juego": "🔍 Otros juegos",
-    "min": 1.99,
-    "moneda": "USD",
-    "nombre": "Santa's Adventure: Christmas Gifts Rush",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/santas-adventure-christmas-gifts-rush-switch/"
   },
   "b8ad6de541": {
     "clave": "70010000028113",
@@ -41359,7 +41112,7 @@
     "moneda": "USD",
     "nombre": "Digimon Story Time Stranger",
     "plataforma": "Switch 2",
-    "precio": 45.92,
+    "precio": 32.14,
     "saga": "digimon-story-time-stranger",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -41455,19 +41208,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/cybermania-parkour-uprising-switch/"
-  },
-  "ba39b6acfd": {
-    "clave": "70010000081349",
-    "juego": "🔍 Otros juegos",
-    "min": 6.44,
-    "moneda": "USD",
-    "nombre": "Against the Storm",
-    "plataforma": "Switch",
-    "precio": 6.44,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/against-the-storm-switch/"
   },
   "ba3d6680fd": {
     "clave": "marvel vs capcom fighting collection arcade classics|Switch",
@@ -41793,19 +41533,6 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/ninja-gaiden-master-collection-deluxe-edition-switch/"
-  },
-  "bbdbea1664": {
-    "clave": "70010000020463",
-    "juego": "🔍 Otros juegos",
-    "min": 3.13,
-    "moneda": "USD",
-    "nombre": "Word Mesh",
-    "plataforma": "Switch",
-    "precio": 3.15,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/word-mesh-switch/"
   },
   "bbe1c4e691": {
     "clave": "70010000022464",
@@ -42191,24 +41918,11 @@
     "moneda": "USD",
     "nombre": "OCTOPATH TRAVELER II",
     "plataforma": "Switch",
-    "precio": 52.48,
+    "precio": 31.49,
     "saga": "octopath-traveler",
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/octopath-traveler-ii-switch/"
-  },
-  "bda8c56316": {
-    "clave": "70010000057659",
-    "juego": "🔍 Otros juegos",
-    "min": 3.61,
-    "moneda": "USD",
-    "nombre": "Sakura MMO 3",
-    "plataforma": "Switch",
-    "precio": 3.63,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/sakura-mmo-3-switch/"
   },
   "bdbd52cd5b": {
     "clave": "70010000001218",
@@ -42261,6 +41975,19 @@
     "tienda": "8 Bits",
     "tipo": "fisico",
     "url": "https://8-bits.cl/products/aokana-four-rhythms-across-the-blue-nsw"
+  },
+  "be0117c316": {
+    "clave": "romancing saga 2 revenge of the seven|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "Romancing SaGa 2: Revenge of the Seven",
+    "plataforma": "Switch",
+    "precio": 59990.0,
+    "saga": "otros-juegos",
+    "tienda": "Falabella",
+    "tipo": "fisico",
+    "url": "https://www.falabella.com/falabella-cl/product/159304174/romancing-saga-2-revenge-of-the-seven-nintendo-switch"
   },
   "be0759256e": {
     "clave": "metaphor refantazio|Switch 2",
@@ -42405,6 +42132,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/keep-the-fire-survival-simulator-switch/"
   },
+  "bea0f1d251": {
+    "clave": "70010000093621",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Tiny Lands - Deluxe Edition",
+    "plataforma": "Switch",
+    "precio": 2.01,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/tiny-lands-deluxe-edition-switch/"
+  },
   "bea7c1e9f7": {
     "clave": "70010000059140",
     "juego": "🔍 Otros juegos",
@@ -42509,6 +42249,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/castlevania-advance-collection-switch/"
   },
+  "bef4fff805": {
+    "clave": "tactics ogre reborn|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "Tactics Ogre: Reborn",
+    "plataforma": "Switch",
+    "precio": 59990.0,
+    "saga": "otros-juegos",
+    "tienda": "8 Bits",
+    "tipo": "fisico",
+    "url": "https://8-bits.cl/products/tactics-ogre-reborn-nsw"
+  },
   "bf30b2a727": {
     "clave": "70070000032240",
     "juego": "🔍 Otros juegos",
@@ -42612,19 +42365,6 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/elden-path-of-the-forgotten-switch/"
-  },
-  "bf761328aa": {
-    "clave": "70010000091013",
-    "juego": "🔍 Otros juegos",
-    "min": 2.7,
-    "moneda": "USD",
-    "nombre": "Colorizing: Animals",
-    "plataforma": "Switch",
-    "precio": 2.71,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/colorizing-animals-switch/"
   },
   "bfa816d8cb": {
     "clave": "70010000127204",
@@ -42919,7 +42659,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY XV POCKET EDITION HD",
     "plataforma": "Switch",
-    "precio": 22.97,
+    "precio": 9.19,
     "saga": "final-fantasy",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -42989,6 +42729,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/grapple-dog-switch/"
+  },
+  "c0ff55bcb0": {
+    "clave": "70010000080389",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "There's No Dinosaurs",
+    "plataforma": "Switch",
+    "precio": 3.3,
+    "saga": "otros-juegos",
+    "tienda": "eShop MX",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-mx/store/products/theres-no-dinosaurs-switch/"
   },
   "c1396d0512": {
     "clave": "70010000045621",
@@ -43094,19 +42847,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/teeto-switch/"
   },
-  "c19ec8f1e7": {
-    "clave": "70010000091902",
-    "juego": "🔍 Otros juegos",
-    "min": 2.9,
-    "moneda": "USD",
-    "nombre": "SCP Foundation: Universe Horror",
-    "plataforma": "Switch",
-    "precio": 2.91,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/scp-foundation-universe-horror-switch/"
-  },
   "c1c028c9a9": {
     "clave": "70010000138314",
     "juego": "🔍 Otros juegos",
@@ -43119,19 +42859,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/x-force-genesis-2-switch/"
-  },
-  "c1cebcd942": {
-    "clave": "70010000086341",
-    "juego": "🔍 Otros juegos",
-    "min": 1.96,
-    "moneda": "USD",
-    "nombre": "Highway Legends: Traffic Speed Racer",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/highway-legends-traffic-speed-racer-switch/"
   },
   "c1dd63d224": {
     "clave": "70010000091096",
@@ -43309,7 +43036,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY",
     "plataforma": "Switch",
-    "precio": 9.69,
+    "precio": 5.81,
     "saga": "final-fantasy",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -43421,13 +43148,13 @@
   },
   "c3762acf57": {
     "clave": "tales of arise beyond the dawn edition|Switch 2",
-    "juego": "🔍 Otros juegos",
+    "juego": "Tales of",
     "min": 45000.0,
     "moneda": "CLP",
     "nombre": "Tales of ARISE - Beyond the Dawn Edition",
     "plataforma": "Switch 2",
     "precio": 45000.0,
-    "saga": "otros-juegos",
+    "saga": "tales-of",
     "tienda": "TodoJuegos",
     "tipo": "fisico",
     "url": "https://www.todojuegos.cl/Productos/NS2/Tales-of-Arise--Beyond-the-Dawn-Edition/?ref=buscador"
@@ -43770,6 +43497,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/coffee-talk-tokyo-switch/"
   },
+  "c50654ffc6": {
+    "clave": "life is strange true colors|Switch",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "Life is Strange: True Colors",
+    "plataforma": "Switch",
+    "precio": 44990.0,
+    "saga": "otros-juegos",
+    "tienda": "Falabella",
+    "tipo": "fisico",
+    "url": "https://www.falabella.com/falabella-cl/product/148332031/Life-is-Strange-True-Colors-Nintendo-Switch"
+  },
   "c527745d3e": {
     "clave": "70010000025544",
     "juego": "🔍 Otros juegos",
@@ -43782,19 +43522,6 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/interrogation-you-will-be-deceived-switch/"
-  },
-  "c5296fc29a": {
-    "clave": "70010000088913",
-    "juego": "🔍 Otros juegos",
-    "min": 2.99,
-    "moneda": "USD",
-    "nombre": "Car Detailing & Wash Simulator : Luxury Car Cleaner",
-    "plataforma": "Switch",
-    "precio": 2.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/car-detailing-and-wash-simulator-luxury-car-cleaner-switch/"
   },
   "c54f7e1df5": {
     "clave": "endless ocean luminou|Switch",
@@ -43881,7 +43608,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY VII REMAKE INTERGRADE",
     "plataforma": "Switch 2",
-    "precio": 38.05,
+    "precio": 7.61,
     "saga": "final-fantasy",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -43907,7 +43634,7 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST TREASURES",
     "plataforma": "Switch",
-    "precio": 51.77,
+    "precio": 25.89,
     "saga": "dragon-quest",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -43920,7 +43647,7 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST VII Reimagined",
     "plataforma": "Switch 2",
-    "precio": 56.92,
+    "precio": 37.0,
     "saga": "dragon-quest",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -44251,19 +43978,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/paw-paw-paw-switch/"
   },
-  "c771a97bc0": {
-    "clave": "70010000032578",
-    "juego": "🔍 Otros juegos",
-    "min": 2.4,
-    "moneda": "USD",
-    "nombre": "Knight Squad 2",
-    "plataforma": "Switch",
-    "precio": 2.4,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/knight-squad-2-switch/"
-  },
   "c77742fe22": {
     "clave": "70010000000120",
     "juego": "Shovel Knight",
@@ -44505,7 +44219,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY X/X-2 HD Remaster",
     "plataforma": "Switch",
-    "precio": 42.95,
+    "precio": 21.47,
     "saga": "final-fantasy",
     "tienda": "eShop CA",
     "tipo": "digital",
@@ -44518,7 +44232,7 @@
     "moneda": "USD",
     "nombre": "Octopath Traveler",
     "plataforma": "Switch 2",
-    "precio": 54.99,
+    "precio": 33.0,
     "saga": "octopath-traveler",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -44667,6 +44381,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/vectored-switch/"
   },
+  "c9760e9153": {
+    "clave": "70010000054390",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Become The Wild",
+    "plataforma": "Switch",
+    "precio": 2.39,
+    "saga": "otros-juegos",
+    "tienda": "eShop MX",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-mx/store/products/become-the-wild-switch/"
+  },
   "c97e80009e": {
     "clave": "70010000115338",
     "juego": "🔍 Otros juegos",
@@ -44784,6 +44511,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/gecko-gods-switch/"
   },
+  "ca15930096": {
+    "clave": "70010000079157",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "FANTASIAN Neo Dimension",
+    "plataforma": "Switch",
+    "precio": 18.36,
+    "saga": "otros-juegos",
+    "tienda": "eShop BR",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/pt-br/store/products/fantasian-neo-dimension-switch/"
+  },
   "ca1b119e8d": {
     "clave": "70010000054640",
     "juego": "🔍 Otros juegos",
@@ -44809,19 +44549,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/squirrel-madness-and-silent-mist-switch/"
-  },
-  "ca1cb2eab9": {
-    "clave": "70010000090228",
-    "juego": "🔍 Otros juegos",
-    "min": 5.84,
-    "moneda": "USD",
-    "nombre": "Cats the Commander for Nintendo Switch",
-    "plataforma": "Switch",
-    "precio": 5.84,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/cats-the-commander-for-nintendo-switch-switch/"
   },
   "ca332ad3ee": {
     "clave": "usado kaze wild mask|Switch|usado",
@@ -45155,7 +44882,7 @@
     "moneda": "USD",
     "nombre": "WORLD OF FINAL FANTASY MAXIMA",
     "plataforma": "Switch",
-    "precio": 26.3,
+    "precio": 10.52,
     "saga": "final-fantasy",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -45616,19 +45343,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/resident-evil-switch/"
   },
-  "ce27f0c159": {
-    "clave": "samurai warrior 5|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 44990.0,
-    "moneda": "CLP",
-    "nombre": "Samurai Warriors 5 - Sniper",
-    "plataforma": "Switch",
-    "precio": 44990.0,
-    "saga": "otros-juegos",
-    "tienda": "Sniper",
-    "tipo": "fisico",
-    "url": "https://sniper.cl/products/samurai-warriors-5-switch-fisico-sniper"
-  },
   "ce5dbe3d60": {
     "clave": "70010000012429",
     "juego": "🔍 Otros juegos",
@@ -45720,19 +45434,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/mega-man-battle-network-legacy-collection-vol-2-switch/"
   },
-  "ceecbc3535": {
-    "clave": "70010000087235",
-    "juego": "🔍 Otros juegos",
-    "min": 1.97,
-    "moneda": "USD",
-    "nombre": "Amelia’s Garden",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/amelias-garden-switch/"
-  },
   "ceece8ed39": {
     "clave": "70010000105530",
     "juego": "🔍 Otros juegos",
@@ -45745,19 +45446,6 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/escape-game-the-edo-period-switch/"
-  },
-  "cef0c6fad3": {
-    "clave": "70010000112269",
-    "juego": "🔍 Otros juegos",
-    "min": 5.46,
-    "moneda": "USD",
-    "nombre": "Doors & Loot",
-    "plataforma": "Switch",
-    "precio": 5.49,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/doors-and-loot-switch/"
   },
   "cef8cd2736": {
     "clave": "mx vs atv all out|Switch",
@@ -45816,7 +45504,7 @@
     "juego": "🔍 Otros juegos",
     "min": 34990.0,
     "moneda": "CLP",
-    "nombre": "Baldo The Guardian Owls",
+    "nombre": "Baldo The Guardian Owls - Sniper",
     "plataforma": "Switch",
     "precio": 34990.0,
     "saga": "otros-juegos",
@@ -46050,7 +45738,7 @@
     "juego": "🔍 Otros juegos",
     "min": 65000.0,
     "moneda": "CLP",
-    "nombre": "Fantasian Neo Dimension Sniper",
+    "nombre": "FANTASIAN Neo Dimension",
     "plataforma": "Switch",
     "precio": 65000.0,
     "saga": "otros-juegos",
@@ -46187,6 +45875,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/crazy-stars-rhythm-party-switch/"
+  },
+  "d07ac28e20": {
+    "clave": "neo the world ends with you|Switch|import-japan",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "CLP",
+    "nombre": "NEO: The World Ends with You",
+    "plataforma": "Switch",
+    "precio": 44990.0,
+    "saga": "otros-juegos",
+    "tienda": "8 Bits",
+    "tipo": "fisico",
+    "url": "https://8-bits.cl/products/neo-the-world-ends-with-you-nsw-japan-import"
   },
   "d086ba44b6": {
     "clave": "metal gear solid master collection vol 2 day one|Switch 2",
@@ -46741,24 +46442,11 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST III: The Seeds of Salvation",
     "plataforma": "Switch",
-    "precio": 11.02,
+    "precio": 6.61,
     "saga": "dragon-quest",
     "tienda": "eShop BR",
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/dragon-quest-iii-the-seeds-of-salvation-switch/"
-  },
-  "d2bf6e77ec": {
-    "clave": "70010000124659",
-    "juego": "🔍 Otros juegos",
-    "min": 3.98,
-    "moneda": "USD",
-    "nombre": "Sapphire Tempest",
-    "plataforma": "Switch",
-    "precio": 3.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/sapphire-tempest-switch/"
   },
   "d2d0ccb023": {
     "clave": "70010000089697",
@@ -46785,6 +46473,19 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/toy-cowboy-royale-rpg-dragons-challenge-switch/"
+  },
+  "d2d74daf8a": {
+    "clave": "70070000016083",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Voice of Cards Trilogy + DLC set",
+    "plataforma": "Switch",
+    "precio": 26.24,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/voice-of-cards-trilogy-plus-dlc-set-switch/"
   },
   "d2d95fa19d": {
     "clave": "70010000001722",
@@ -47202,6 +46903,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/submersible-simulator-discover-the-titanic-into-ocean-switch/"
   },
+  "d4a059b1b0": {
+    "clave": "70010000041937",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Find 10 Differences",
+    "plataforma": "Switch",
+    "precio": 2.86,
+    "saga": "otros-juegos",
+    "tienda": "eShop CA",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/en-ca/store/products/find-10-differences-switch/"
+  },
   "d4a11e926f": {
     "clave": "70010000077394",
     "juego": "Star Wars",
@@ -47423,19 +47137,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/the-darkside-detective-the-series-edition-switch/"
   },
-  "d5677a1544": {
-    "clave": "70010000071624",
-    "juego": "🔍 Otros juegos",
-    "min": 8.18,
-    "moneda": "USD",
-    "nombre": "Skate Bums",
-    "plataforma": "Switch",
-    "precio": 8.22,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/skate-bums-switch/"
-  },
   "d56ca53562": {
     "clave": "70010000107421",
     "juego": "Pokémon",
@@ -47499,7 +47200,7 @@
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/148490845/astroneer-switch-fisico-sniper"
+    "url": "https://www.falabella.com/falabella-cl/product/116473230/Astroneer-Switch-Fisico-Sniper"
   },
   "d590dc9f7a": {
     "clave": "70010000065626",
@@ -47618,6 +47319,19 @@
     "tipo": "fisico",
     "url": "https://www.todojuegos.cl/Productos/NS2/Sonic-Racing--CrossWorlds-Year-One-Edition/?ref=buscador"
   },
+  "d5d8d0f6de": {
+    "clave": "70010000081783",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Life is Strange: Double Exposure",
+    "plataforma": "Switch",
+    "precio": 18.36,
+    "saga": "otros-juegos",
+    "tienda": "eShop BR",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/pt-br/store/products/life-is-strange-double-exposure-switch/"
+  },
   "d5e900738c": {
     "clave": "70010000001107",
     "juego": "Bayonetta",
@@ -47669,19 +47383,6 @@
     "tienda": "Sniper",
     "tipo": "fisico",
     "url": "https://sniper.cl/products/turnip-boy-robs-a-bank-switch"
-  },
-  "d610270588": {
-    "clave": "70010000020339",
-    "juego": "🔍 Otros juegos",
-    "min": 5.49,
-    "moneda": "USD",
-    "nombre": "Return of the Obra Dinn",
-    "plataforma": "Switch",
-    "precio": 5.52,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/return-of-the-obra-dinn-switch/"
   },
   "d62c181f8c": {
     "clave": "70010000096873",
@@ -48056,9 +47757,9 @@
     "plataforma": "Switch",
     "precio": 69990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/150678268/terrifier-the-artcade-game-nintendo-switch"
+    "url": "https://sniper.cl/products/terrifier-the-artcade-game-nintendo-switch"
   },
   "d7c499e054": {
     "clave": "70010000119969",
@@ -48095,9 +47796,9 @@
     "plataforma": "Switch",
     "precio": 74990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/aca-neogeo-selection-vol-6-nintendo-switch-snipercl"
+    "url": "https://www.falabella.com/falabella-cl/product/146690636/Aca-Neogeo-Selection-Vol.-6-Nintendo-Switch-Snipercl"
   },
   "d7d48006bb": {
     "clave": "70070000031729",
@@ -48176,19 +47877,6 @@
     "tienda": "eShop MX",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/shujinkou-super-deluxe-edition-switch/"
-  },
-  "d7e200a8b0": {
-    "clave": "70010000132498",
-    "juego": "🔍 Otros juegos",
-    "min": 2.34,
-    "moneda": "USD",
-    "nombre": "Order Automatica",
-    "plataforma": "Switch",
-    "precio": 2.34,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/order-automatica-switch/"
   },
   "d7e8824478": {
     "clave": "70010000045849",
@@ -48314,7 +48002,7 @@
     "moneda": "USD",
     "nombre": "FINAL FANTASY CRYSTAL CHRONICLES Remastered Edition",
     "plataforma": "Switch",
-    "precio": 22.97,
+    "precio": 9.19,
     "saga": "final-fantasy",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -48332,19 +48020,6 @@
     "tienda": "Paris",
     "tipo": "fisico",
     "url": "https://www.paris.cl/sonic-mania-nintendo-switch-MK35NV98GK.html"
-  },
-  "d910e8418e": {
-    "clave": "70010000026028",
-    "juego": "🔍 Otros juegos",
-    "min": 3.49,
-    "moneda": "USD",
-    "nombre": "Boyfriend Dungeon",
-    "plataforma": "Switch",
-    "precio": 3.49,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/boyfriend-dungeon-switch/"
   },
   "d9144f33f7": {
     "clave": "70010000034802",
@@ -48541,19 +48216,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/star-wars-bounty-hunter-switch/"
   },
-  "d9f50616fd": {
-    "clave": "70010000044567",
-    "juego": "🔍 Otros juegos",
-    "min": 2.55,
-    "moneda": "USD",
-    "nombre": "Ultionus: A Tale of Petty Revenge",
-    "plataforma": "Switch",
-    "precio": 2.55,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/ultionus-a-tale-of-petty-revenge-switch/"
-  },
   "d9fbfb0a91": {
     "clave": "master detective archive rain code|Switch",
     "juego": "🔍 Otros juegos",
@@ -48628,9 +48290,9 @@
     "plataforma": "Switch",
     "precio": 69990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/patapon-1-2-nintendo-switch-snipercl-1"
+    "url": "https://www.falabella.com/falabella-cl/product/146187214/Patapon-1-+-2-Nintendo-Switch-Snipercl"
   },
   "da30b3ba48": {
     "clave": "street fighter 30th anniversary collection|Switch",
@@ -48827,19 +48489,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/racing-drift-taxi-car-simulator-ultimate-switch/"
   },
-  "db0b70f269": {
-    "clave": "70010000120502",
-    "juego": "🔍 Otros juegos",
-    "min": 8.96,
-    "moneda": "USD",
-    "nombre": "Defender of the Crown: The Legend Returns",
-    "plataforma": "Switch",
-    "precio": 9.01,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/defender-of-the-crown-the-legend-returns-switch/"
-  },
   "db0de97483": {
     "clave": "dh cs4228 24gt 240 v2 dahua 24 puerto poe 10 100 1000 mbp 2 puerto uplink 10 100 1000 mbp 2 puerto sfp 1000 mbp administracion nube dip capa 2 poe total 240w|Switch",
     "juego": "🔍 Otros juegos",
@@ -48905,19 +48554,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/japanese-escape-games-the-house-switch/"
   },
-  "db494021a8": {
-    "clave": "snipper clip plu cut it out|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 69990.0,
-    "moneda": "CLP",
-    "nombre": "Snipper Clips Plus: Cut it Out",
-    "plataforma": "Switch",
-    "precio": 78990.0,
-    "saga": "otros-juegos",
-    "tienda": "Lider",
-    "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-snipper-clips-plus-cut-it-out/00004549642114"
-  },
   "db49ca6a3d": {
     "clave": "70010000117576",
     "juego": "Pokémon Mystery Dungeon / Snap",
@@ -48925,7 +48561,7 @@
     "moneda": "USD",
     "nombre": "Dragon Quest Heroes: Torneko‘s Mystery Dungeon -Classic HD-",
     "plataforma": "Switch",
-    "precio": 23.41,
+    "precio": 18.73,
     "saga": "pokemon-mystery-dungeon-snap",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -48944,25 +48580,12 @@
     "tipo": "fisico",
     "url": "https://sniper.cl/products/dragon-quest-builders-2-juego-fisico-switch-sniper-game"
   },
-  "db60800a2a": {
-    "clave": "70010000092629",
-    "juego": "🔍 Otros juegos",
-    "min": 1.99,
-    "moneda": "USD",
-    "nombre": "Valentine's Venture: True Love Odyssey",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/valentines-venture-true-love-odyssey-switch/"
-  },
   "db75b44b96": {
     "clave": "mlb show 23|Switch",
     "juego": "🔍 Otros juegos",
     "min": 49990.0,
     "moneda": "CLP",
-    "nombre": "MLB The Show 23",
+    "nombre": "Mlb The Show 23 - Sniper",
     "plataforma": "Switch",
     "precio": 49990.0,
     "saga": "otros-juegos",
@@ -49099,19 +48722,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/neo-cab-switch/"
-  },
-  "dbf7417bcc": {
-    "clave": "70010000066651",
-    "juego": "🔍 Otros juegos",
-    "min": 4.12,
-    "moneda": "USD",
-    "nombre": "Roomie Romance",
-    "plataforma": "Switch",
-    "precio": 4.14,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/roomie-romance-switch/"
   },
   "dc10090b57": {
     "clave": "heart of the forest|Switch",
@@ -49438,19 +49048,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/bear-simulator-ragnaroks-rise-survival-switch/"
   },
-  "dd19a68597": {
-    "clave": "70010000049544",
-    "juego": "🔍 Otros juegos",
-    "min": 1.99,
-    "moneda": "USD",
-    "nombre": "League of Enthusiastic Losers",
-    "plataforma": "Switch",
-    "precio": 1.99,
-    "saga": "otros-juegos",
-    "tienda": "eShop US",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/us/store/products/league-of-enthusiastic-losers-switch/"
-  },
   "dd2a834fd3": {
     "clave": "70070000025443",
     "juego": "🔍 Otros juegos",
@@ -49762,19 +49359,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/shovel-knight-pocket-dungeon-plus-dlc-switch/"
-  },
-  "de67f9b343": {
-    "clave": "70010000079797",
-    "juego": "🔍 Otros juegos",
-    "min": 2.0,
-    "moneda": "USD",
-    "nombre": "SHIKA-Q",
-    "plataforma": "Switch",
-    "precio": 2.01,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/shika-q-switch/"
   },
   "de6c091c5b": {
     "clave": "70010000037917",
@@ -50563,7 +50147,7 @@
     "moneda": "USD",
     "nombre": "OCTOPATH TRAVELER 0",
     "plataforma": "Switch",
-    "precio": 47.33,
+    "precio": 23.67,
     "saga": "octopath-traveler",
     "tienda": "eShop CL",
     "tipo": "digital",
@@ -50998,6 +50582,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/mel-the-pyramid-cat-switch/"
   },
+  "e47f218ae9": {
+    "clave": "garfield kart furious racing|Switch|coleccion",
+    "juego": "🔍 Otros juegos",
+    "min": 50990.0,
+    "moneda": "CLP",
+    "nombre": "Garfield Kart Furious Racing",
+    "plataforma": "Switch",
+    "precio": 52990.0,
+    "saga": "otros-juegos",
+    "tienda": "Lider",
+    "tipo": "fisico",
+    "url": "https://www.lider.cl/ip/videojuegos/coleccion-de-juegos-nintendo-switch-garfield-kart-furious-racing/00081006629213"
+  },
   "e484152174": {
     "clave": "70010000075053",
     "juego": "🔍 Otros juegos",
@@ -51018,7 +50615,7 @@
     "moneda": "CLP",
     "nombre": "NACON Monster Truck Championship",
     "plataforma": "Switch",
-    "precio": 82990.0,
+    "precio": 81990.0,
     "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -51109,7 +50706,7 @@
     "moneda": "CLP",
     "nombre": "Risk of Rain 2",
     "plataforma": "Switch",
-    "precio": 49990.0,
+    "precio": 45990.0,
     "saga": "otros-juegos",
     "tienda": "Lider",
     "tipo": "fisico",
@@ -51278,7 +50875,7 @@
     "moneda": "USD",
     "nombre": "Octopath Traveler",
     "plataforma": "Switch",
-    "precio": 54.99,
+    "precio": 33.0,
     "saga": "octopath-traveler",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -51343,11 +50940,11 @@
     "moneda": "USD",
     "nombre": "KINGDOM HEARTS Melody of Memory",
     "plataforma": "Switch",
-    "precio": 45.96,
+    "precio": 22.9,
     "saga": "kingdom-hearts",
-    "tienda": "eShop BR",
+    "tienda": "eShop CA",
     "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/kingdom-hearts-melody-of-memory-switch/"
+    "url": "https://www.nintendo.com/en-ca/store/products/kingdom-hearts-melody-of-memory-switch/"
   },
   "e656ba5f49": {
     "clave": "70010000019363",
@@ -51557,6 +51154,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/yuppie-psycho-executive-edition-switch/"
   },
+  "e72b12e96c": {
+    "clave": "70010000036802",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Tactics Ogre: Reborn",
+    "plataforma": "Switch",
+    "precio": 12.99,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/tactics-ogre-reborn-switch/"
+  },
   "e75e69ef12": {
     "clave": "70010000051521",
     "juego": "🔍 Otros juegos",
@@ -51686,6 +51296,19 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/time-on-frog-island-switch/"
+  },
+  "e7f2527344": {
+    "clave": "pok mon legend z|Switch 2",
+    "juego": "🔍 Otros juegos",
+    "min": 85000.0,
+    "moneda": "CLP",
+    "nombre": "Pok mon Legends Z A Edition",
+    "plataforma": "Switch 2",
+    "precio": 85000.0,
+    "saga": "otros-juegos",
+    "tienda": "Paris",
+    "tipo": "fisico",
+    "url": "https://www.paris.cl/pok-mon-legends-z-a-nintendo-switch-2-edition-MK6DWT849J.html"
   },
   "e7f78259c4": {
     "clave": "70010000075992",
@@ -51986,19 +51609,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/typoman-switch/"
   },
-  "e93afd01a5": {
-    "clave": "70010000136622",
-    "juego": "🔍 Otros juegos",
-    "min": 3.68,
-    "moneda": "USD",
-    "nombre": "Lordcraft",
-    "plataforma": "Switch",
-    "precio": 3.69,
-    "saga": "otros-juegos",
-    "tienda": "eShop MX",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-mx/store/products/lordcraft-switch/"
-  },
   "e94ac9a1b5": {
     "clave": "dokapon kingdom connect|Switch",
     "juego": "🔍 Otros juegos",
@@ -52116,19 +51726,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/deadzone-rogue-switch-2/"
   },
-  "ea574a1a7e": {
-    "clave": "70010000083492",
-    "juego": "🔍 Otros juegos",
-    "min": 2.17,
-    "moneda": "USD",
-    "nombre": "Rabbit Raid",
-    "plataforma": "Switch",
-    "precio": 2.18,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/rabbit-raid-switch/"
-  },
   "ea6397687d": {
     "clave": "call of juarez gunslinger|Switch",
     "juego": "🔍 Otros juegos",
@@ -52175,7 +51772,7 @@
     "moneda": "USD",
     "nombre": "Collection of Mana",
     "plataforma": "Switch",
-    "precio": 35.79,
+    "precio": 14.31,
     "saga": "chrono-mana",
     "tienda": "eShop CA",
     "tipo": "digital",
@@ -52201,7 +51798,7 @@
     "moneda": "USD",
     "nombre": "DRAGON QUEST I & II HD-2D Remake",
     "plataforma": "Switch",
-    "precio": 55.16,
+    "precio": 35.85,
     "saga": "dragon-quest",
     "tienda": "eShop BR",
     "tipo": "digital",
@@ -52272,19 +51869,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/truberbrook-switch/"
   },
-  "eb05053b51": {
-    "clave": "70010000016466",
-    "juego": "🔍 Otros juegos",
-    "min": 6.4,
-    "moneda": "USD",
-    "nombre": "The Shrouded Isle",
-    "plataforma": "Switch",
-    "precio": 6.44,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/the-shrouded-isle-switch/"
-  },
   "eb08f3437c": {
     "clave": "danganronpa decadence|Switch",
     "juego": "Danganronpa",
@@ -52349,19 +51933,6 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/notice-me-leena-senpai-switch/"
-  },
-  "eb904e529b": {
-    "clave": "70010000018581",
-    "juego": "🔍 Otros juegos",
-    "min": 14.94,
-    "moneda": "USD",
-    "nombre": "Baldur's Gate and Baldur's Gate II: Enhanced Editions",
-    "plataforma": "Switch",
-    "precio": 15.03,
-    "saga": "otros-juegos",
-    "tienda": "eShop CA",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/en-ca/store/products/baldurs-gate-and-baldurs-gate-ii-enhanced-editions-switch/"
   },
   "eba5e3c5bb": {
     "clave": "infinity strash dragon quest the adventure of dai|Switch|import-japan",
@@ -52557,6 +52128,19 @@
     "tienda": "eShop US",
     "tipo": "digital",
     "url": "https://www.nintendo.com/us/store/products/they-bleed-pixels-switch/"
+  },
+  "ec1c8b01e5": {
+    "clave": "70010000045094",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Voice of Cards: The Beasts of Burden",
+    "plataforma": "Switch",
+    "precio": 9.29,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/voice-of-cards-the-beasts-of-burden-switch/"
   },
   "ec1d3964aa": {
     "clave": "70010000021982",
@@ -52947,6 +52531,19 @@
     "tienda": "eShop CL",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/lego-party-nintendo-switch-2-edition-switch-2/"
+  },
+  "ee74482fa5": {
+    "clave": "70010000081344",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "PARANORMASIGHT: The Mermaid's Curse",
+    "plataforma": "Switch",
+    "precio": 13.83,
+    "saga": "otros-juegos",
+    "tienda": "eShop MX",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-mx/store/products/paranormasight-the-mermaids-curse-switch/"
   },
   "ee75ea2a43": {
     "clave": "trendnet tl2 f7120 12 puerto 10g sfp gestionado nivel 2|Switch",
@@ -53624,19 +53221,6 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-cl/store/products/ecchi-crush-switch/"
   },
-  "f11c10457e": {
-    "clave": "70010000047666",
-    "juego": "🔍 Otros juegos",
-    "min": 3.61,
-    "moneda": "USD",
-    "nombre": "Sakura Santa",
-    "plataforma": "Switch",
-    "precio": 3.63,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/sakura-santa-switch/"
-  },
   "f12de66317": {
     "clave": "xenoblade chronicles definitive edition|Switch",
     "juego": "Xenoblade",
@@ -53707,13 +53291,13 @@
     "juego": "🔍 Otros juegos",
     "min": 54990.0,
     "moneda": "CLP",
-    "nombre": "Blazing Strike Standard Edition",
+    "nombre": "Blazing Strike - Sniper",
     "plataforma": "Switch",
-    "precio": 54990.0,
+    "precio": 64990.0,
     "saga": "otros-juegos",
-    "tienda": "Paris",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.paris.cl/blazing-strike-switch-nintendo-switch-standard-edition-MKY6RJC2TA.html"
+    "url": "https://sniper.cl/products/blazing-strike-nintendo-switch-sniper"
   },
   "f160caf205": {
     "clave": "dragon ball sparking zero|Switch",
@@ -53766,6 +53350,19 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/flower-shop-the-complete-story-switch/"
+  },
+  "f198e9c246": {
+    "clave": "70070000015540",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "CRISIS CORE –FINAL FANTASY VII– REUNION –DIGITAL DELUXE EDITION–",
+    "plataforma": "Switch",
+    "precio": 36.33,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/crisis-core-final-fantasy-vii-reunion-digital-deluxe-edition-switch/"
   },
   "f1a726187a": {
     "clave": "70010000080117",
@@ -54157,19 +53754,6 @@
     "tipo": "fisico",
     "url": "https://www.lider.cl/ip/videojuegos/juego-de-nintendo-switch-iam8bit-a-monster-s-expedition/00085003767302"
   },
-  "f3a2eb2c86": {
-    "clave": "demon throttle devolver|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 41990.0,
-    "moneda": "CLP",
-    "nombre": "Demon Throttle de Devolver Digital",
-    "plataforma": "Switch",
-    "precio": 51990.0,
-    "saga": "otros-juegos",
-    "tienda": "Lider",
-    "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/juego-demon-throttle-de-devolver-digital-para-nintendo-switch/00081230301782"
-  },
   "f3eb0bb4fb": {
     "clave": "70010000113977",
     "juego": "🔍 Otros juegos",
@@ -54259,7 +53843,7 @@
     "saga": "castlevania",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/145199388/Castlevania-Dominus-Collection-Portrait-Ruin-Nintendo-Switch"
+    "url": "https://www.falabella.com/falabella-cl/product/145199290/Castlevania-Dominus-Collection-Order-Eclesia-Nintendo-Switch"
   },
   "f46d9ef1d3": {
     "clave": "70010000102645",
@@ -54742,6 +54326,19 @@
     "tipo": "fisico",
     "url": "https://www.falabella.com/falabella-cl/product/148490899/Psyvariar-Delta-Switch-Sniper"
   },
+  "f6a529e1d9": {
+    "clave": "70010000077743",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "MeeCalendar",
+    "plataforma": "Switch",
+    "precio": 4.49,
+    "saga": "otros-juegos",
+    "tienda": "eShop US",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/us/store/products/meecalendar-switch/"
+  },
   "f6a7d506b4": {
     "clave": "legend of mana|Switch",
     "juego": "Chrono / Mana",
@@ -54762,11 +54359,11 @@
     "moneda": "CLP",
     "nombre": "NBA 2K25",
     "plataforma": "Switch",
-    "precio": 65000.0,
+    "precio": 44990.0,
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/158116149/nba-2k25-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/148303502/NBA-2K25-NINTENDO-SWITCH"
   },
   "f6bccd24f5": {
     "clave": "70070000013979",
@@ -54988,19 +54585,6 @@
     "tienda": "eShop MX",
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/passing-by-a-tailwind-journey-switch/"
-  },
-  "f7a378ab27": {
-    "clave": "70010000076107",
-    "juego": "🔍 Otros juegos",
-    "min": 4.69,
-    "moneda": "USD",
-    "nombre": "Negligee",
-    "plataforma": "Switch",
-    "precio": 4.69,
-    "saga": "otros-juegos",
-    "tienda": "eShop BR",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/pt-br/store/products/negligee-switch/"
   },
   "f7bee5f832": {
     "clave": "70010000000991",
@@ -55327,6 +54911,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/vambrace-cold-soul-switch/"
   },
+  "f93e0c9dc6": {
+    "clave": "70010000043907",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "Troopers",
+    "plataforma": "Switch",
+    "precio": 3.93,
+    "saga": "otros-juegos",
+    "tienda": "eShop CA",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/en-ca/store/products/troopers-switch/"
+  },
   "f94dcf67f7": {
     "clave": "70010000019471",
     "juego": "🔍 Otros juegos",
@@ -55352,6 +54949,19 @@
     "tienda": "eShop CA",
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/atelier-lydie-and-suelle-the-alchemists-and-the-mysterious-paintings-dx-switch/"
+  },
+  "f95bd95ed1": {
+    "clave": "70070000017105",
+    "juego": "🔍 Otros juegos",
+    "min": null,
+    "moneda": "USD",
+    "nombre": "FINAL FANTASY I-VI Bundle",
+    "plataforma": "Switch",
+    "precio": 38.15,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/final-fantasy-i-vi-bundle-switch/"
   },
   "f9622bc5cd": {
     "clave": "fairy fencer f refrain chord|Switch",
@@ -55488,7 +55098,7 @@
     "juego": "🔍 Otros juegos",
     "min": 44990.0,
     "moneda": "CLP",
-    "nombre": "Harvestella - Sniper",
+    "nombre": "HARVESTELLA",
     "plataforma": "Switch",
     "precio": 44990.0,
     "saga": "otros-juegos",
@@ -56406,19 +56016,6 @@
     "tipo": "fisico",
     "url": "https://sniper.cl/products/wolfenstein-youngblood-switch-sniper"
   },
-  "fe1ed1271a": {
-    "clave": "70010000081535",
-    "juego": "🔍 Otros juegos",
-    "min": 7.22,
-    "moneda": "USD",
-    "nombre": "Please Be Happy",
-    "plataforma": "Switch",
-    "precio": 7.26,
-    "saga": "otros-juegos",
-    "tienda": "eShop CL",
-    "tipo": "digital",
-    "url": "https://www.nintendo.com/es-cl/store/products/please-be-happy-switch/"
-  },
   "fe2b218911": {
     "clave": "70010000059743",
     "juego": "🔍 Otros juegos",
@@ -56608,11 +56205,11 @@
     "moneda": "CLP",
     "nombre": "DRAGON QUEST VII Reimagined",
     "plataforma": "Switch",
-    "precio": 77990.0,
+    "precio": 79990.0,
     "saga": "dragon-quest",
-    "tienda": "Lider",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.lider.cl/ip/videojuegos/dragon-quest-vii-reimagined-nintendo-switch/00066224892837"
+    "url": "https://www.falabella.com/falabella-cl/product/151672468/dragon-quest-vii-reimagined-eu-nintendo-switch"
   },
   "ff6c1c827e": {
     "clave": "70010000127253",
