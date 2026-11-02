@@ -1256,12 +1256,6 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
-        },
-        {
-          "precio": 88990,
-          "tienda": "MercadoLibre",
-          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (MATHOGAMES CL)",
-          "url": "https://articulo.mercadolibre.cl/MLC-2937537034"
         }
       ],
       "gb": 256,
@@ -1430,8 +1424,26 @@
       "url": "https://articulo.mercadolibre.cl/MLC-3585524520"
     }
   ],
-  "revision": "2026-11-02T07:17:16Z",
+  "revision": "2026-11-02T13:16:29Z",
   "seguimientos": [
+    {
+      "avisos": [
+        {
+          "precio": 46990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-4590052028"
+        }
+      ],
+      "item": "Redragon Zeus",
+      "min_hist": 46990,
+      "nombre": "Auriculares para juegos Redragon Zeus Lite P3, negros, H510-lt (PROGAM",
+      "precio": 46990,
+      "tarjeta": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-4590052028",
+      "variante": "lite"
+    },
     {
       "avisos": [
         {
@@ -1469,6 +1481,12 @@
           "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-zeus-h510-pro-blanco"
+        },
+        {
+          "precio": 60990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-1844192121"
         }
       ],
       "item": "Redragon Zeus",

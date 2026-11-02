@@ -26,6 +26,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:9b5ea912ca",
+        "text": "⚙️ Hades · $112.990"
+      },
+      "id": "9b5ea912ca",
+      "nivel": "normal",
+      "nombre": "Hades",
+      "pct": -2.7,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Hades (limitada)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$112.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $107.990 (14 oct, Lider) · típico $109.990 · máximo $113.990\n   ▁▁▁▁▁▁▁▁▁▃▃▃███▆▆▆▆▇  últimos 20 días\n🎮 Digital: US$15.99 ≈ $15.844 en 🇨🇱 Chile\n   ➜ El digital es $97.146 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 20 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-hades-edicion-limitada-para-nintendo-switch/00004549642742\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:900b561cb8",
         "text": "⚙️ Hades II · $88.990"
       },
@@ -35,20 +47,8 @@
       "pct": -7.2,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Hades II</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$88.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $80.990 (14 oct, Lider) · típico $83.490 · máximo $88.990\n   ▁▁▁▁▁▁▁▁▂▃▅▄▇▇▇▇▇███  últimos 20 días\n🎮 Digital: US$19.17 ≈ $18.994 en 🇨🇱 Chile\n   ➜ El digital es $69.996 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 20 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-switch-hades-ii-version-europea/00004549631323\">Ir a comprar en Lider</a>",
       "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:9b5ea912ca",
-        "text": "⚙️ Hades · $121.990"
-      },
-      "id": "9b5ea912ca",
-      "nivel": "normal",
-      "nombre": "Hades",
-      "pct": -10.9,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Hades (limitada)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$121.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $107.990 (14 oct, Lider) · típico $109.990 · máximo $121.990\n   ▁▁▁▁▁▁▁▁▁▂▂▂▄▄▄▃▃▃▃█  últimos 20 días\n🎮 Digital: US$15.99 ≈ $15.844 en 🇨🇱 Chile\n   ➜ El digital es $106.146 más barato, pero no se puede revender\n📈 Precio subió 12% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 20 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-nintendo-hades-edicion-limitada-para-nintendo-switch/00004549642742\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
     }
   ],
   "juego": "Hades",
-  "revision": "2026-11-02T07:17:16Z"
+  "revision": "2026-11-02T13:16:29Z"
 }

@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 472,
-  "pendientes": 0,
+  "fisicos": 494,
+  "pendientes": 1,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-02T07:17:16Z",
+  "revision": "2026-11-02T13:16:29Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -67,18 +67,22 @@
     },
     {
       "juego": "Atelier",
-      "linea": "🟢 <b>Atelier</b> — 📦 12 desde $39.990\n   🟢 Atelier Dusk Trilogy Deluxe Pack",
+      "linea": "🟢 <b>Atelier</b> — 📦 13 desde $39.990 · 🎮 11 desde US$14.17\n   🟢 Atelier Marie Remake: The Alchemist of Salburg −70%",
       "nombres": [
         "atelier dusk trilogy deluxe pack",
         "atelier lulua the scion of arland",
+        "atelier marie remake el alquimista de salburg",
+        "atelier marie remake the alchemist of salburg",
         "atelier mysterious trilogy sniper",
         "atelier resleriana the red alchemist the white guardian",
         "atelier ryza 2 lost legends the secret fairy dx",
         "atelier ryza 3 alchemist of the end the secret key dx",
         "atelier ryza 3 sniper",
+        "atelier ryza ever darkness the secret hideout dx",
         "atelier sophie 2 el alquimista de un sueno misterioso",
         "atelier sophie 2 the alchemist of the mysterious dream",
-        "atelier yumia the alchemist of memories the envisioned land"
+        "atelier yumia the alchemist of memories the envisioned land",
+        "atelier yumia the alchemist of memories the envisioned land nintendo switch 2 edition"
       ],
       "orden": 1,
       "slug": "atelier"
@@ -164,7 +168,7 @@
     },
     {
       "juego": "Civilization",
-      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $56.990 · 🎮 3 desde US$4.22\n   🟢 Sid Meier’s Civilization VI −80%",
+      "linea": "🟢 <b>Civilization</b> — 📦 3 desde $34.990 · 🎮 3 desde US$4.22\n   🟢 Sid Meier’s Civilization VI −80%",
       "nombres": [
         "civilization vii edicion",
         "sid meiers civilization vi",
@@ -174,6 +178,15 @@
       ],
       "orden": 1,
       "slug": "civilization"
+    },
+    {
+      "juego": "Contra",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
+      "nombres": [
+        "contra rogue corps"
+      ],
+      "orden": 1,
+      "slug": "contra"
     },
     {
       "juego": "Crash / Spyro",
@@ -206,7 +219,7 @@
       "linea": "🟢 <b>Danganronpa</b> — 📦 3 desde $54.990\n   🟢 Danganronpa 2x2",
       "nombres": [
         "danganronpa 2x2",
-        "danganronpa decadence"
+        "danganronpa decadence sniper"
       ],
       "orden": 1,
       "slug": "danganronpa"
@@ -381,7 +394,7 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $75.990 · 🎮 1 desde US$21.19\n   🟢 HITMAN World of Assassination - Signature Edition",
+      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $76.990 · 🎮 1 desde US$21.19\n   🟢 HITMAN World of Assassination - Signature Edition",
       "nombres": [
         "game solutions 2 go hitman world of assassination",
         "hitman absolution nintendo switch 2 edition",
@@ -454,9 +467,10 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 1 desde $39.720\n   🟢 KINGDOM HEARTS Melody of Memory",
+      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 2 desde $39.720\n   🟢 KINGDOM HEARTS Melody of Memory",
       "nombres": [
-        "kingdom hearts melody of memory"
+        "kingdom hearts melody of memory",
+        "square enix kingdom hearts"
       ],
       "orden": 1,
       "slug": "kingdom-hearts"
@@ -540,6 +554,7 @@
         "mario rabbids kingdom sparks double pack",
         "mario rabbids sniper game",
         "mario rabbids sparks of hope",
+        "mario sonic at the olympic games tokyo 2020",
         "mario strikers battle league",
         "mario tennis aces",
         "mario tennis fever",
@@ -547,7 +562,6 @@
         "paper mario the origami king",
         "paper mario the thousand year door",
         "super mario bros wonder meetup in bellabel park",
-        "super mario odyssey",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv",
@@ -576,9 +590,9 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $93.990 · 🎮 1 desde US$13.65\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$13.65\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
-        "marvel cosmic invasion",
+        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -635,8 +649,9 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "🟢 <b>Minecraft</b> — 📦 1 desde $28.000\n   🟢 Minecraft: Nintendo Switch Edition −7%",
+      "linea": "🟢 <b>Minecraft</b> — 📦 2 desde $28.000\n   🟢 Minecraft: Nintendo Switch Edition −7%",
       "nombres": [
+        "minecraft legends",
         "minecraft nintendo switch edition"
       ],
       "orden": 1,
@@ -687,6 +702,15 @@
       "slug": "nba-2k"
     },
     {
+      "juego": "NieR",
+      "linea": "⚪ <b>NieR</b> — 📦 1 desde $77.990",
+      "nombres": [
+        "square enix nier automata para region eu libre"
+      ],
+      "orden": 4,
+      "slug": "nier"
+    },
+    {
       "juego": "Octopath Traveler",
       "linea": "🟢 <b>Octopath Traveler</b> — 📦 6 desde $44.990\n   🟢 OCTOPATH TRAVELER II −17%",
       "nombres": [
@@ -716,17 +740,8 @@
       "slug": "one-piece"
     },
     {
-      "juego": "Ori",
-      "linea": "🟢 <b>Ori</b> — 🎮 1 desde US$5.04\n   🟢 Ori and the Will of the Wisps −75%",
-      "nombres": [
-        "ori and the will of the wisps"
-      ],
-      "orden": 1,
-      "slug": "ori"
-    },
-    {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $19.000 · 🎮 63 desde US$1.99\n   🟢 The Talos Principle: Deluxe Edition −87%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $19.000 · 🎮 75 desde US$1.99\n   🟢 The Talos Principle: Deluxe Edition −87%",
       "nombres": [
         "ace attorney anthology",
         "bioshock 2 remastered",
@@ -747,9 +762,14 @@
         "dragon ball sparking zero",
         "dragon ball xenoverse 2 for nintendo switch",
         "dredge",
+        "dynasty warriors 8 xtreme legends definitive edition",
+        "dynasty warriors 9 empires",
+        "dynasty warriors origins",
         "enter the gungeon",
         "etrange overlord",
         "exit the gungeon",
+        "fairy tail",
+        "fairy tail 2",
         "ghost trick phantom detective",
         "ghosts n goblins resurrection",
         "golf story",
@@ -767,6 +787,8 @@
         "my friend pedro",
         "nba 2k27",
         "nickelodeon all star brawl 2",
+        "ninja gaiden master collection",
+        "ninja gaiden master collection deluxe edition",
         "no mans sky",
         "no mans sky nintendo switch 2 edition",
         "olliolli world",
@@ -777,9 +799,9 @@
         "plateup",
         "red dead redemption",
         "red dead redemption nintendo switch 2 edition",
-        "return of the obra dinn",
         "return to monkey island",
         "risk of rain 2",
+        "samurai warriors 5",
         "shinsekai into the depths",
         "slime rancher plortable edition",
         "steamworld build",
@@ -789,8 +811,13 @@
         "the plucky squire",
         "the swords of ditto mormos curse",
         "the talos principle deluxe edition",
+        "touken ranbu warriors",
+        "two point museum",
         "viewfinder",
+        "warriors abyss",
         "wavetale",
+        "wild hearts s",
+        "wo long fallen dynasty complete edition",
         "wwe 2k26 standard edition",
         "xcom 2 collection"
       ],
@@ -799,11 +826,10 @@
     },
     {
       "juego": "Overcooked",
-      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $44.990 · 🎮 1 desde US$5.00\n   🟢 Overcooked! 2 −75%",
+      "linea": "🟢 <b>Overcooked</b> — 📦 2 desde $44.990 · 🎮 1 desde US$5.00\n   🟢 Overcooked! 2 −75%",
       "nombres": [
         "overcooked 2",
-        "overcooked all you can eat",
-        "overcooked de fireshine games"
+        "overcooked all you can eat"
       ],
       "orden": 1,
       "slug": "overcooked"
@@ -889,7 +915,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $34.000 · 🎮 5 desde US$6.11\n   🟢 Resident Evil Revelations −60%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $34.000 · 🎮 5 desde US$6.11\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 2 deluxe edition",
@@ -956,7 +982,7 @@
     },
     {
       "juego": "Shin Megami Tensei",
-      "linea": "🟢 <b>Shin Megami Tensei</b> — 📦 8 desde $19.000\n   🟢 Shin Megami Tensei V: Vengeance −24%",
+      "linea": "🟢 <b>Shin Megami Tensei</b> — 📦 7 desde $19.000\n   🟢 Shin Megami Tensei V: Vengeance −24%",
       "nombres": [
         "shin megami tensei iii nocturne hd remaster",
         "shin megami tensei v fall of man premium edition con detalles",
@@ -993,8 +1019,9 @@
     },
     {
       "juego": "Soul Reaver",
-      "linea": "🟢 <b>Soul Reaver</b> — 📦 2 desde $36.990 · 🎮 1 desde US$12.73\n   🟢 Legacy of Kain Soul Reaver 1&amp;2 Remastered −55%",
+      "linea": "🟢 <b>Soul Reaver</b> — 📦 3 desde $36.990 · 🎮 1 desde US$12.73\n   🟢 Legacy of Kain Soul Reaver 1&amp;2 Remastered −55%",
       "nombres": [
+        "aspyr legacy of kain soul reaver",
         "legacy of kain soul reaver 1 2 remastered"
       ],
       "orden": 1,
@@ -1099,8 +1126,9 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $49.000\n   🟢 Super Smash Bros. Ultimate −6%",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $49.000\n   🟢 Super Smash Bros. Ultimate −6%",
       "nombres": [
+        "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
       ],
@@ -1161,13 +1189,15 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 11 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
         "nis america the legend of heroes trails into reverie",
         "nis america trails beyond horizon edicion de lujo",
+        "nis america trails from zero trails to azure",
+        "the legend of heroes trails from zero",
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
         "the legend of nayuta boundless trails deluxe ed sniper",
@@ -1206,7 +1236,7 @@
     },
     {
       "juego": "Xenoblade",
-      "linea": "🟢 <b>Xenoblade</b> — 📦 9 desde $34.990\n   🟢 Xenoblade Chronicles 2 −15%",
+      "linea": "🟢 <b>Xenoblade</b> — 📦 8 desde $34.990\n   🟢 Xenoblade Chronicles 2 −15%",
       "nombres": [
         "xenoblade chronicles 2",
         "xenoblade chronicles 2 torna the golden country",
@@ -1250,7 +1280,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
+      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −11%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "pro controller edicion zelda 40th aniversario",
@@ -1264,5 +1294,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 550
+  "total": 577
 }
