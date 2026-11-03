@@ -9,7 +9,7 @@
       "nivel": "compra",
       "nombre": "DRAGON BALL FighterZ",
       "pct": 0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>DRAGON BALL FighterZ (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (14 oct, 8 Bits) · típico $29.990 · máximo $29.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 20 días\n🎮 Digital: US$20.18 ≈ $19.995 en 🇨🇱 Chile\n   ➜ El digital es $9.995 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 20 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-dragon-ball-fighterz-nsw-1\">Ir a comprar en 8 Bits</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>DRAGON BALL FighterZ (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (14 oct, 8 Bits) · típico $29.990 · máximo $29.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 20 días\n🎮 Digital: US$20.12 ≈ $19.999 en 🇨🇱 Chile\n   ➜ El digital es $9.991 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 20 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-dragon-ball-fighterz-nsw-1\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -62,6 +62,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:d065f453e3",
+        "text": "⚙️ DRAGON BALL Z: KAKAROT + A NE… · $34.990"
+      },
+      "id": "d065f453e3",
+      "nivel": "normal",
+      "nombre": "DRAGON BALL Z: KAKAROT + A NEW POWER AWAKENS SET",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DRAGON BALL Z: KAKAROT + A NEW POWER AWAKENS SET (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $34.990 (2 nov, 8 Bits) · máximo $34.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$16.10 ≈ $16.003 en 🇨🇱 Chile\n   ➜ El digital es $18.987 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-dragon-ball-z-kakarot-a-new-power-awakens-set-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:4c30807216",
         "text": "⚙️ Dragon Ball Z Kakarot + A New… · $49.990"
       },
@@ -74,5 +86,5 @@
     }
   ],
   "juego": "Dragon Ball",
-  "revision": "2026-11-02T19:16:34Z"
+  "revision": "2026-11-03T01:18:26Z"
 }
