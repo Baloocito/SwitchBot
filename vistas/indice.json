@@ -5,8 +5,8 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 529,
-  "pendientes": 4,
+  "fisicos": 536,
+  "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
@@ -771,7 +771,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $24.990 · 🎮 122 desde US$1.99\n   🟢 The Talos Principle: Deluxe Edition −87%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $24.990 · 🎮 129 desde US$1.99\n   🟢 The Talos Principle: Deluxe Edition −87%",
       "nombres": [
         "ace attorney anthology",
         "actraiser renaissance",
@@ -793,6 +793,8 @@
         "darkest dungeon ii",
         "dead by daylight",
         "dicey dungeons",
+        "double dragon advance",
+        "double dragon revive",
         "dragon quest hd 2d erdrick trilogy collection",
         "dredge",
         "dungeon encounters",
@@ -822,6 +824,7 @@
         "loop hero",
         "lost sphear",
         "mega man cyber wave pack",
+        "metal slug attack reloaded",
         "monster hunter stories deluxe collection",
         "moonlighter",
         "moving out 2",
@@ -845,6 +848,7 @@
         "plateup",
         "red dead redemption",
         "red dead redemption nintendo switch 2 edition",
+        "resident evil 7 gold edition village gold edition",
         "return to monkey island",
         "risk of rain 2",
         "romancing saga 2",
@@ -864,9 +868,12 @@
         "star ocean the second story r",
         "steamworld build",
         "steamworld heist ii",
+        "super double dragon",
         "tactics ogre reborn",
         "taiko no tatsujin rhythm festival",
+        "tales from toyotoki arrival of the witch",
         "terraria",
+        "tetris effect connected",
         "that time i got reincarnated as a slime isekai chronicles",
         "the adventures of elliot the millennium tales",
         "the centennial case a shijima story",
@@ -1367,5 +1374,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 679
+  "total": 686
 }
