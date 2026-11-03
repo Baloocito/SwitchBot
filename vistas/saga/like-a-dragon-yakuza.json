@@ -2,18 +2,6 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:a8765d4a3f",
-        "text": "⚙️ Yakuza 0: Directorâs Cut S2 · $38.000"
-      },
-      "id": "a8765d4a3f",
-      "nivel": "compra",
-      "nombre": "Yakuza 0: Directorâs Cut",
-      "pct": 41.4,
-      "texto": "🟢 <b>COMPRA YA</b> · −41%\n<b>Yakuza 0: Directorâs Cut</b>\n🕹️ Switch 2 · 📦 Físico · Like a Dragon / Yakuza\n💰 <b>$38.000</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $26.900 frente a su precio típico ($64.900)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $38.000 (27 oct, TodoJuegos) · típico $51.450 · máximo $64.900\n   ████████▁▁▁▁▁▁▁▁  últimos 16 días\n📉 Precio bajó 41% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 16 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Yakuza-0--Directorâs-Cut/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:3d54c161b7",
         "text": "⚙️ Yakuza Kiwami 2 S2 · $44.990"
       },
@@ -51,13 +39,25 @@
     {
       "boton": {
         "callback_data": "a:f724bee8f9",
-        "text": "⚙️ Yakuza Kiwami · $101.990"
+        "text": "⚙️ Yakuza Kiwami · $100.990"
       },
       "id": "f724bee8f9",
       "nivel": "normal",
       "nombre": "Yakuza Kiwami",
+      "pct": 1.0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Yakuza Kiwami (limitada)</b>\n🕹️ Switch 1 · 📦 Físico · Like a Dragon / Yakuza\n💰 <b>$100.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n   Ahorras $1.000 frente a su precio típico ($101.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $99.990 (20 oct, Lider) · típico $101.990 · máximo $103.990\n   ▆▆▆▆▆▆▁▁▁▁▁██▅▅▅▅▅▅▅▃  últimos 21 días\n🎮 Digital: US$17.09 ≈ $16.987 en 🇨🇱 Chile\n   ➜ El digital es $84.003 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 21 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-de-edicion-limitada-yakuza-kiwami-para-nintendo-switch/00081014857811\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:a8765d4a3f",
+        "text": "⚙️ Yakuza 0: Directorâs Cut S2 · $64.900"
+      },
+      "id": "a8765d4a3f",
+      "nivel": "normal",
+      "nombre": "Yakuza 0: Directorâs Cut",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Yakuza Kiwami (limitada)</b>\n🕹️ Switch 1 · 📦 Físico · Like a Dragon / Yakuza\n💰 <b>$101.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $99.990 (20 oct, Lider) · típico $101.990 · máximo $103.990\n   ▆▆▆▆▆▆▁▁▁▁▁██▅▅▅▅▅▅▅▅  últimos 21 días\n🎮 Digital: US$17.09 ≈ $16.987 en 🇨🇱 Chile\n   ➜ El digital es $85.003 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 21 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-de-edicion-limitada-yakuza-kiwami-para-nintendo-switch/00081014857811\">Ir a comprar en Lider</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Yakuza 0: Directorâs Cut</b>\n🕹️ Switch 2 · 📦 Físico · Like a Dragon / Yakuza\n💰 <b>$64.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $38.000 (27 oct, TodoJuegos) · típico $51.450 · máximo $64.900\n   ████████▁▁▁▁▁▁▁▁  últimos 16 días\n🔎 Confianza media: 1 tienda y 16 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Yakuza-0--Directorâs-Cut/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
     },
     {
@@ -86,5 +86,5 @@
     }
   ],
   "juego": "Like a Dragon / Yakuza",
-  "revision": "2026-11-03T07:18:07Z"
+  "revision": "2026-11-03T13:17:15Z"
 }
