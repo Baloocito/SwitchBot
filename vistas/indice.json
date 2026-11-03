@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 589,
-  "pendientes": 1,
+  "fisicos": 583,
+  "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-03T01:18:26Z",
+  "revision": "2026-11-03T07:18:07Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -67,11 +67,10 @@
     },
     {
       "juego": "Atelier",
-      "linea": "🟢 <b>Atelier</b> — 📦 13 desde $39.990 · 🎮 11 desde US$14.16\n   🟢 Atelier Marie Remake: The Alchemist of Salburg −70%",
+      "linea": "🟢 <b>Atelier</b> — 📦 12 desde $39.990 · 🎮 11 desde US$14.16\n   🟢 Atelier Marie Remake: The Alchemist of Salburg −70%",
       "nombres": [
         "atelier dusk trilogy deluxe pack",
         "atelier lulua the scion of arland",
-        "atelier marie remake el alquimista de salburg",
         "atelier marie remake the alchemist of salburg",
         "atelier mysterious trilogy sniper",
         "atelier resleriana the red alchemist the white guardian",
@@ -86,15 +85,6 @@
       ],
       "orden": 1,
       "slug": "atelier"
-    },
-    {
-      "juego": "Batman",
-      "linea": "🟢 <b>Batman</b> — 📦 1 desde $49.990\n   🟢 Batman: Arkham Trilogy - Sniper",
-      "nombres": [
-        "batman arkham trilogy sniper"
-      ],
-      "orden": 1,
-      "slug": "batman"
     },
     {
       "juego": "Bayonetta",
@@ -177,13 +167,12 @@
     },
     {
       "juego": "Civilization",
-      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $56.990 · 🎮 3 desde US$4.21\n   🟢 Sid Meier’s Civilization VI −80%",
+      "linea": "🟢 <b>Civilization</b> — 📦 1 desde $56.990 · 🎮 3 desde US$4.21\n   🟢 Sid Meier’s Civilization VI −80%",
       "nombres": [
         "civilization vii edicion",
         "sid meiers civilization vi",
         "sid meiers civilization vii",
-        "sid meiers civilization vii nintendo switch 2 edition",
-        "sid meiers civilization vll sniper"
+        "sid meiers civilization vii nintendo switch 2 edition"
       ],
       "orden": 1,
       "slug": "civilization"
@@ -462,10 +451,11 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 14 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
+      "linea": "🟢 <b>Just Dance</b> — 📦 15 desde $14.000\n   🟢 Just Dance 2024 Edition −30%",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
+        "just dance 2020 ubisoft",
         "just dance 2021",
         "just dance 2022",
         "just dance 2024 edition",
@@ -493,9 +483,10 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 1 desde $39.720 · 🎮 1 desde US$22.88\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
+      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 2 desde $39.720 · 🎮 1 desde US$22.88\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
       "nombres": [
-        "kingdom hearts melody of memory"
+        "kingdom hearts melody of memory",
+        "square enix kingdom hearts"
       ],
       "orden": 1,
       "slug": "kingdom-hearts"
@@ -515,12 +506,10 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 7 desde $16.000 · 🎮 3 desde US$2.21\n   🟢 LEGO Bricktales −79%",
+      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $18.000 · 🎮 3 desde US$2.21\n   🟢 LEGO Bricktales −79%",
       "nombres": [
         "lego bricktales",
         "lego dc super villains",
-        "lego horizon adventures",
-        "lego jurassic world",
         "lego party",
         "lego party nintendo switch 2 edition",
         "lego worlds",
@@ -571,8 +560,9 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 23 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $29.990\n   🟢 Mario &amp; Luigi: Brothership −12%",
       "nombres": [
+        "controlador inalambrico turtle beach rematch mario kart",
         "mario golf super rush",
         "mario kart 8 deluxe",
         "mario luigi brothership",
@@ -617,9 +607,8 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$13.65\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 🎮 1 desde US$13.65\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
-        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -899,11 +888,10 @@
     },
     {
       "juego": "Overcooked",
-      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $44.990 · 🎮 1 desde US$5.00\n   🟢 Overcooked! 2 −75%",
+      "linea": "🟢 <b>Overcooked</b> — 📦 2 desde $44.990 · 🎮 1 desde US$5.00\n   🟢 Overcooked! 2 −75%",
       "nombres": [
         "overcooked 2",
-        "overcooked all you can eat",
-        "overcooked de fireshine games"
+        "overcooked all you can eat"
       ],
       "orden": 1,
       "slug": "overcooked"
@@ -1133,9 +1121,8 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 6 desde $28.000 · 🎮 9 desde US$5.64\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $28.000 · 🎮 9 desde US$5.64\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
       "nombres": [
-        "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
         "star wars battlefront classic collection",
         "star wars bounty hunter",
@@ -1212,7 +1199,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 20 desde $29.990\n   🟢 Instant Sports: de Invierno −15%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 19 desde $29.990\n   🟢 Instant Sports: de Invierno −15%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1231,7 +1218,6 @@
         "nintendo switch sports resort",
         "outright games gigantosaurus dino sports",
         "sports camp a 35 game adventure",
-        "sports motion controls",
         "sports party"
       ],
       "orden": 1,
@@ -1239,10 +1225,9 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $29.000 · 🎮 2 desde US$13.68\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
+      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $29.000 · 🎮 2 desde US$13.68\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
         "bandai namco tales of xillia",
-        "iam8bit tales of the shire",
         "tales of berseria remastered",
         "tales of graces f remastered",
         "tales of symphonia remastered",
@@ -1265,7 +1250,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $29.990\n   🟢 Trails in the Sky 1st Chapter −30%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 12 desde $42.000\n   🟢 Trails in the Sky 1st Chapter −30%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
@@ -1369,5 +1354,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 680
+  "total": 673
 }

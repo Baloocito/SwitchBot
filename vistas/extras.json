@@ -552,9 +552,9 @@
       "marca": "SteelSeries",
       "min_hist": 89990,
       "nombre": "Audífonos Gamer Steelseries Arctis Nova 1 Black Ps5 Negro (DUST2GG)",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 89990,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-3815825254"
     },
@@ -959,6 +959,23 @@
     {
       "avisos": [
         {
+          "precio": 309990.0,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/consola-nintendo-switch-modelo-super-mario-bros-wonder-bundle-descarga-del-juego-completo-3-meses-de-suscripcion-a-nintendo-switch-online-lt2"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 309990.0,
+      "modelo": "Switch",
+      "nombre": "Consola Nintendo Switch Neon + Super Mario Bros. Wonder + 3 meses Nintendo Switc",
+      "pct": 0.0,
+      "precio": 309990.0,
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/consola-nintendo-switch-modelo-super-mario-bros-wonder-bundle-descarga-del-juego-completo-3-meses-de-suscripcion-a-nintendo-switch-online-lt2"
+    },
+    {
+      "avisos": [
+        {
           "precio": 349990.0,
           "tienda": "Paris",
           "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
@@ -998,33 +1015,6 @@
     {
       "avisos": [
         {
-          "precio": 599990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-2-142747999.html"
-        },
-        {
-          "precio": 609990.0,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
-        },
-        {
-          "precio": 629900.0,
-          "tienda": "TodoJuegos",
-          "url": "https://www.todojuegos.cl/Productos/NS2/Consola-Nintendo-Switch-2/?ref=buscador"
-        }
-      ],
-      "bundle": false,
-      "min_hist": 599990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Switch 2 Mkw",
-      "pct": 1.6,
-      "precio": 599990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-2-142747999.html"
-    },
-    {
-      "avisos": [
-        {
           "precio": 609990.0,
           "tienda": "Lider",
           "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
@@ -1048,6 +1038,33 @@
       "precio": 609990.0,
       "tienda": "Lider",
       "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 609990.0,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
+        },
+        {
+          "precio": 629900.0,
+          "tienda": "TodoJuegos",
+          "url": "https://www.todojuegos.cl/Productos/NS2/Consola-Nintendo-Switch-2/?ref=buscador"
+        },
+        {
+          "precio": 629990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/17448346/HW-SWITCH-2-SYSTEM-LT2-SOLUS"
+        }
+      ],
+      "bundle": false,
+      "min_hist": 599990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Switch 2 Mkw",
+      "pct": -0.8,
+      "precio": 609990.0,
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
     },
     {
       "avisos": [
@@ -1256,6 +1273,12 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
+        },
+        {
+          "precio": 88990,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (MATHOGAMES CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-2937537034"
         }
       ],
       "gb": 256,
@@ -1294,7 +1317,7 @@
     {
       "avisos": [
         {
-          "precio": 279990,
+          "precio": 219980,
           "tienda": "MercadoLibre",
           "titulo": "Memoria 512gb Microsd Express Sandisk (COMERCIALMW)",
           "url": "https://articulo.mercadolibre.cl/MLC-4300075286"
@@ -1304,9 +1327,9 @@
       "marca": "SanDisk",
       "min_hist": 211490,
       "nombre": "microSD Express 512 GB · SanDisk",
-      "pct": -27.3,
-      "por_gb": 547,
-      "precio": 279990,
+      "pct": 0.0,
+      "por_gb": 430,
+      "precio": 219980,
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "tipo": "express",
@@ -1424,7 +1447,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-3585524520"
     }
   ],
-  "revision": "2026-11-03T01:18:26Z",
+  "revision": "2026-11-03T07:18:07Z",
   "seguimientos": [
     {
       "avisos": [
