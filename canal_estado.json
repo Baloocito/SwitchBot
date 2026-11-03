@@ -156,12 +156,13 @@
     },
     "2026-11-02": {
       "bombazos": 2,
-      "posts": 6,
+      "posts": 7,
       "slots": [
         "top",
         "pack",
         "tarde",
-        "fisicos"
+        "fisicos",
+        "ultima"
       ]
     }
   },
@@ -1001,6 +1002,14 @@
       ],
       "message_id": 100,
       "slot": "fisicos"
+    },
+    {
+      "fecha": "2026-11-02T21:05-03:00",
+      "ids": [
+        "cfeae26fe0"
+      ],
+      "message_id": 101,
+      "slot": "ultima"
     }
   ],
   "publicados": {
@@ -1830,6 +1839,11 @@
       "precio": 2250,
       "slot": "ultima"
     },
+    "cfeae26fe0": {
+      "fecha": "2026-11-02",
+      "precio": 4870,
+      "slot": "ultima"
+    },
     "cfef323b48": {
       "fecha": "2026-10-17",
       "precio": 8980,
@@ -1881,5 +1895,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-02T18:35:34.133798-03:00"
+  "ultimo_post": "2026-11-02T21:05:36.912126-03:00"
 }
