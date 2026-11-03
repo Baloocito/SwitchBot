@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 526,
-  "pendientes": 3,
+  "fisicos": 529,
+  "pendientes": 4,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-03T13:17:15Z",
+  "revision": "2026-11-03T19:18:43Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -85,6 +85,15 @@
       ],
       "orden": 1,
       "slug": "atelier"
+    },
+    {
+      "juego": "Batman",
+      "linea": "🟢 <b>Batman</b> — 📦 1 desde $49.990\n   🟢 Batman: Arkham Trilogy - Sniper",
+      "nombres": [
+        "batman arkham trilogy sniper"
+      ],
+      "orden": 1,
+      "slug": "batman"
     },
     {
       "juego": "Bayonetta",
@@ -561,9 +570,8 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 26 desde $29.990\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −9%",
+      "linea": "🟢 <b>Mario</b> — 📦 25 desde $29.990\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −9%",
       "nombres": [
-        "controlador inalambrico turtle beach rematch mario kart",
         "mario golf super rush",
         "mario kart 8 deluxe",
         "mario luigi brothership",
@@ -610,8 +618,9 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 🎮 1 desde US$13.65\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$13.65\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
+        "lego marvel super heroes 2",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -690,7 +699,7 @@
     },
     {
       "juego": "Mortal Kombat",
-      "linea": "🟢 <b>Mortal Kombat</b> — 📦 5 desde $29.900\n   🟢 Mortal Kombat: Legacy Kollection",
+      "linea": "🟢 <b>Mortal Kombat</b> — 📦 5 desde $29.900\n   🟢 Mortal Kombat: Legacy Kollection −8%",
       "nombres": [
         "mortal kombat 1",
         "mortal kombat 11",
@@ -889,7 +898,7 @@
     },
     {
       "juego": "Overcooked",
-      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $44.990 · 🎮 1 desde US$5.00\n   🟢 Overcooked! 2 −75%",
+      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $39.990 · 🎮 1 desde US$5.00\n   🟢 Overcooked! 2 −75%",
       "nombres": [
         "overcooked 2",
         "overcooked all you can eat",
@@ -979,7 +988,7 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $39.900 · 🎮 5 desde US$6.11\n   🟢 Resident Evil Revelations −60%",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $39.900 · 🎮 5 desde US$6.11\n   🟢 Resident Evil Revelations −60%",
       "nombres": [
         "resident evil",
         "resident evil 2 deluxe edition",
@@ -1190,8 +1199,9 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
+        "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
       ],
@@ -1251,12 +1261,11 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 14 desde $29.990\n   🟢 Legend of Heroes Trails to Azure Deluxe Ed - Sniper",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990\n   🟢 Legend of Heroes Trails to Azure Deluxe Ed - Sniper",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
-        "nis america the legend of heroes trails into reverie",
         "nis america the legend of heroes trails to azure",
         "nis america trails beyond horizon edicion de lujo",
         "nis america trails from zero trails to azure",
@@ -1331,10 +1340,11 @@
     },
     {
       "juego": "Ys",
-      "linea": "🟢 <b>Ys</b> — 📦 4 desde $54.990\n   🟢 Ys Ix: Monstrom Nox - Pact Edition - Sniper",
+      "linea": "🟢 <b>Ys</b> — 📦 5 desde $54.990\n   🟢 Ys Ix: Monstrom Nox - Pact Edition - Sniper",
       "nombres": [
         "ys ix monstrom nox pact edition sniper",
         "ys ix monstrum nox",
+        "ys memoire revelations in celceta",
         "ys viii lacrimosa of dana",
         "ys x nordics"
       ],
@@ -1357,5 +1367,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 676
+  "total": 679
 }
