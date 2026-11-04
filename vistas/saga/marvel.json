@@ -15,17 +15,31 @@
     },
     {
       "boton": {
-        "callback_data": "a:f486d998d3",
-        "text": "⚙️ LEGO Marvel Super Heroes 2 · $49.990"
+        "callback_data": "a:52c3ee4906",
+        "text": "⚙️ MARVEL Cosmic Invasion · US$21.43"
       },
-      "id": "f486d998d3",
+      "con_fisico": false,
+      "id": "52c3ee4906",
       "nivel": "compra",
-      "nombre": "LEGO Marvel Super Heroes 2",
-      "pct": 0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>LEGO Marvel Super Heroes 2</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Lider 🏪 <i>vende Rivertec SPA</i>\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (14 oct, Lider) · típico $49.990 · máximo $49.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 19 días\n🎮 Digital: US$22.80 ≈ $22.301 en 🇨🇱 Chile\n   ➜ El digital es $27.689 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 19 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/lego-marvel-super-heroes-2-ingles-nsw/00088392959781\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
+      "nombre": "MARVEL Cosmic Invasion",
+      "pct": 25.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −25%\n<b>MARVEL Cosmic Invasion</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$21.43</b> ≈ $20.961 en 🇨🇦 Canadá\n   Precio en la tienda: CA$29,99 CAD\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$28.58 → ahorras US$7.15 · ⏳ termina el 19 nov (en 15 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/marvel-cosmic-invasion-switch/\">US$21.43</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/marvel-cosmic-invasion-switch/\">US$21.94</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/marvel-cosmic-invasion-switch/\">US$21.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/marvel-cosmic-invasion-switch/\">US$22.05</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/marvel-cosmic-invasion-switch/\">US$22.49</a>\n   El más caro: 🇨🇴 US$27.10\n📈 Mínimo US$21.43 (4 nov en 🇨🇦 Canadá)\n   █▇███████████████████▁  últimos 22 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/marvel-cosmic-invasion-switch/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:fcbb1ecedb",
+        "text": "⚙️ MARVEL Cosmic Invasion S2 · US$21.43"
+      },
+      "con_fisico": true,
+      "id": "fcbb1ecedb",
+      "nivel": "compra",
+      "nombre": "MARVEL Cosmic Invasion",
+      "pct": 25.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −25%\n<b>MARVEL Cosmic Invasion</b>\n🕹️ Switch 2 · 🎮 Digital (eShop)\n💰 <b>US$21.43</b> ≈ $20.961 en 🇨🇦 Canadá\n   Precio en la tienda: CA$29,99 CAD\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$28.58 → ahorras US$7.15 · ⏳ termina el 19 nov (en 15 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/marvel-cosmic-invasion-switch-2/\">US$21.43</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/marvel-cosmic-invasion-switch-2/\">US$21.94</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/marvel-cosmic-invasion-switch-2/\">US$21.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/marvel-cosmic-invasion-switch-2/\">US$22.05</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/marvel-cosmic-invasion-switch-2/\">US$22.49</a>\n   El más caro: 🇨🇴 US$27.10\n📦 Físico: $93.990 en Lider → el digital te ahorra $73.029\n📈 Mínimo US$21.43 (4 nov en 🇨🇦 Canadá)\n   █▇███████████████████▁  últimos 22 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/marvel-cosmic-invasion-switch-2/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
     }
   ],
   "juego": "Marvel",
-  "revision": "2026-11-04T13:18:22Z"
+  "revision": "2026-11-04T19:18:50Z"
 }

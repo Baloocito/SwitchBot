@@ -2,6 +2,19 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:426a84c219",
+        "text": "⚙️ Ys Memoire: The Oath in Felgh… · US$13.03"
+      },
+      "con_fisico": true,
+      "id": "426a84c219",
+      "nivel": "compra",
+      "nombre": "Ys Memoire: The Oath in Felghana",
+      "pct": 35.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −35%\n<b>Ys Memoire: The Oath in Felghana</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$13.03</b> ≈ $12.745 en 🇧🇷 Brasil\n   Precio en la tienda: R$71,46 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$20.04 → ahorras US$7.01 · ⏳ termina el 21 nov (en 17 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/ys-memoire-the-oath-in-felghana-switch/\">US$13.03</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/ys-memoire-the-oath-in-felghana-switch/\">US$13.62</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/ys-memoire-the-oath-in-felghana-switch/\">US$15.38</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/ys-memoire-the-oath-in-felghana-switch/\">US$17.31</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/ys-memoire-the-oath-in-felghana-switch/\">US$18.54</a>\n   El más caro: 🇺🇸 US$19.49\n📦 Físico: $98.990 en Lider → el digital te ahorra $86.245\n📈 Mínimo US$13.03 (4 nov en 🇧🇷 Brasil)\n   ████████████▇▇██▇▇▇▇▇▁  últimos 22 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/ys-memoire-the-oath-in-felghana-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:13a5691059",
         "text": "⚙️ Ys Ix: Monstrom Nox - Pact Ed… · $59.990"
       },
@@ -62,5 +75,5 @@
     }
   ],
   "juego": "Ys",
-  "revision": "2026-11-04T13:18:22Z"
+  "revision": "2026-11-04T19:18:50Z"
 }

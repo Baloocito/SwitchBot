@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 535,
+  "fisicos": 552,
   "pendientes": 1,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-04T13:18:22Z",
+  "revision": "2026-11-04T19:18:50Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -47,7 +47,7 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 4 desde $20.000\n   🟢 Assassin’s Creed: The Rebel Collection",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 5 desde $20.000\n   🟢 Assassin’s Creed: The Rebel Collection",
       "nombres": [
         "assassins creed iii remastered",
         "assassins creed the ezio collection",
@@ -179,9 +179,8 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 2 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
       "nombres": [
-        "contra anniversary collection",
         "contra rogue corps"
       ],
       "orden": 1,
@@ -410,10 +409,11 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 2 desde $76.990 · 🎮 1 desde US$21.47\n   🟢 HITMAN World of Assassination - Signature Edition",
+      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $76.990 · 🎮 1 desde US$21.47\n   🟢 HITMAN World of Assassination - Signature Edition",
       "nombres": [
         "game solutions 2 go hitman world of assassination",
         "hitman absolution nintendo switch 2 edition",
+        "hitman blood money reprisal",
         "hitman world of assassination signature edition"
       ],
       "orden": 1,
@@ -421,7 +421,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 2 desde $59.990\n   🟢 Hogwarts Legacy",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.990\n   🟢 Hogwarts Legacy −6%",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -451,7 +451,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2026 Limited Edition −15%",
+      "linea": "🟢 <b>Just Dance</b> — 📦 15 desde $19.900\n   🟢 Just Dance 2026 Limited Edition −15%",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -466,17 +466,15 @@
         "ubisoft just dance 2019",
         "ubisoft just dance 2020",
         "ubisoft just dance 2021",
-        "ubisoft just dance 2022",
-        "ubisoft just dance 2024 descarga digital"
+        "ubisoft just dance 2022"
       ],
       "orden": 1,
       "slug": "just-dance"
     },
     {
       "juego": "Katamari",
-      "linea": "🟢 <b>Katamari</b> — 📦 3 desde $34.990 · 🎮 1 desde US$4.86\n   🟢 We Love Katamari REROLL+ Royal Reverie −75%",
+      "linea": "🟢 <b>Katamari</b> — 📦 2 desde $34.990 · 🎮 1 desde US$4.86\n   🟢 We Love Katamari REROLL+ Royal Reverie −75%",
       "nombres": [
-        "bandai katamari damacy encore",
         "once upon a katamari",
         "we love katamari reroll royal reverie"
       ],
@@ -485,10 +483,9 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 2 desde $39.720 · 🎮 1 desde US$22.86\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
+      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 1 desde $39.720 · 🎮 1 desde US$22.86\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
       "nombres": [
-        "kingdom hearts melody of memory",
-        "square enix kingdom hearts"
+        "kingdom hearts melody of memory"
       ],
       "orden": 1,
       "slug": "kingdom-hearts"
@@ -508,10 +505,12 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 4 desde $22.900 · 🎮 3 desde US$2.19\n   🟢 LEGO Bricktales −79%",
+      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $19.900 · 🎮 3 desde US$2.19\n   🟢 LEGO Bricktales −79%",
       "nombres": [
         "lego bricktales",
         "lego dc super villains",
+        "lego horizon adventures",
+        "lego jurassic world",
         "lego party",
         "lego party nintendo switch 2 edition",
         "lego worlds",
@@ -561,7 +560,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 25 desde $29.990\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −9%",
+      "linea": "🟢 <b>Mario</b> — 📦 28 desde $29.990\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −9%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -578,8 +577,10 @@
         "mario y sonic en los olimpicos tokyo 2020",
         "paper mario the origami king",
         "paper mario the thousand year door",
+        "purtch con azul neon y rojo neon mario kart 8",
         "super mario bros wonder",
         "super mario bros wonder meetup in bellabel park",
+        "super mario odyssey",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv",
@@ -608,9 +609,9 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 1 desde US$13.53\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
+      "linea": "🟢 <b>Marvel</b> — 🎮 3 desde US$13.53\n   🟢 MARVEL vs. CAPCOM Fighting Collection: Arcade Classics −68%",
       "nombres": [
-        "lego marvel super heroes 2",
+        "marvel cosmic invasion",
         "marvel vs capcom fighting collection arcade classics"
       ],
       "orden": 1,
@@ -634,7 +635,7 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 6 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 6 desde $39.900\n   🟢 Konami Metal Gear Solid Master Collection Vol. 2",
       "nombres": [
         "konami metal gear solid master collection vol 2",
         "metal gear solid master collection vol 1",
@@ -761,10 +762,12 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $24.990 · 🎮 129 desde US$1.99\n   🟢 The Talos Principle: Deluxe Edition −87%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $24.990 · 🎮 137 desde US$1.99\n   🟢 The Talos Principle: Deluxe Edition −87%",
       "nombres": [
         "ace attorney anthology",
         "actraiser renaissance",
+        "akibas trip hellbound debriefed",
+        "akibas trip undead undressed directors cut",
         "balan wonderworld",
         "bioshock 2 remastered",
         "bioshock infinite the complete edition",
@@ -796,6 +799,8 @@
         "fairy tail",
         "fairy tail 2",
         "fantasian neo dimension",
+        "farmagia",
+        "farmagia digital deluxe edition",
         "final fantasy i vi bundle",
         "ghost trick phantom detective",
         "ghosts n goblins resurrection",
@@ -812,8 +817,10 @@
         "life is strange true colors",
         "limbo",
         "loop hero",
+        "loop8 summer of gods",
         "lost sphear",
         "mega man cyber wave pack",
+        "metal gear solid master collection vol 1",
         "metal slug attack reloaded",
         "monster hunter stories deluxe collection",
         "moonlighter",
@@ -845,10 +852,12 @@
         "romancing saga 2 revenge of the seven",
         "romancing saga 2 revenge of the seven nintendo switch 2 edition",
         "romancing saga minstrel song remastered",
+        "rune factory guardians of azuma super digital deluxe edition",
         "saga emerald beyond",
         "saga frontier 2 remastered",
         "saga frontier remastered",
         "saga scarlet grace ambitions",
+        "sakuna of rice and ruin",
         "samurai warriors 5",
         "shinsekai into the depths",
         "skate story",
@@ -1019,13 +1028,14 @@
     },
     {
       "juego": "Rune Factory",
-      "linea": "🟢 <b>Rune Factory</b> — 📦 6 desde $19.900 · 🎮 1 desde US$5.35\n   🟢 Piczle Cross: Rune Factory −50%",
+      "linea": "🟢 <b>Rune Factory</b> — 📦 6 desde $19.900 · 🎮 6 desde US$4.60\n   🟢 Rune Factory 3 Special −78%",
       "nombres": [
         "piczle cross rune factory",
         "rune factory 3 special",
         "rune factory 4 special",
         "rune factory 5",
-        "rune factory guardians of azuma"
+        "rune factory guardians of azuma",
+        "rune factory guardians of azuma nintendo switch 2 edition"
       ],
       "orden": 1,
       "slug": "rune-factory"
@@ -1129,8 +1139,9 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 6 desde $34.990 · 🎮 9 desde US$5.73\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 7 desde $34.990 · 🎮 9 desde US$5.73\n   🟢 STAR WARS Jedi Knight: Jedi Academy −60%",
       "nombres": [
+        "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
         "star wars battlefront classic collection",
         "star wars bounty hunter",
@@ -1259,7 +1270,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 15 desde $29.990 · 🎮 2 desde US$26.68\n   🟢 Trails in the Sky 1st Chapter −50%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 14 desde $29.990 · 🎮 2 desde US$26.68\n   🟢 Trails in the Sky 1st Chapter −50%",
       "nombres": [
         "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
@@ -1269,7 +1280,6 @@
         "nis america the legend of heroes trails to azure",
         "nis america trails beyond horizon edicion de lujo",
         "nis america trails from zero trails to azure",
-        "the legend of heroes trails from zero",
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
         "the legend of nayuta boundless trails deluxe ed sniper",
@@ -1309,7 +1319,7 @@
     },
     {
       "juego": "Xenoblade",
-      "linea": "🟢 <b>Xenoblade</b> — 📦 8 desde $34.990\n   🟢 Xenoblade Chronicles: Definitive Edition",
+      "linea": "🟢 <b>Xenoblade</b> — 📦 9 desde $34.990\n   🟢 Xenoblade Chronicles: Definitive Edition",
       "nombres": [
         "xenoblade chronicles 2",
         "xenoblade chronicles 2 torna the golden country",
@@ -1341,11 +1351,12 @@
     },
     {
       "juego": "Ys",
-      "linea": "🟢 <b>Ys</b> — 📦 5 desde $54.990\n   🟢 Ys Ix: Monstrom Nox - Pact Edition - Sniper",
+      "linea": "🟢 <b>Ys</b> — 📦 5 desde $54.990 · 🎮 1 desde US$13.03\n   🟢 Ys Memoire: The Oath in Felghana −35%",
       "nombres": [
         "ys ix monstrom nox pact edition sniper",
         "ys ix monstrum nox",
         "ys memoire revelations in celceta",
+        "ys memoire the oath in felghana",
         "ys viii lacrimosa of dana",
         "ys x nordics"
       ],
@@ -1354,19 +1365,18 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "oled zelda tears of the kingdom japan specs",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
-        "the legend of zelda ocarina of time",
         "the legend of zelda tears of the kingdom"
       ],
       "orden": 1,
       "slug": "zelda"
     }
   ],
-  "total": 686
+  "total": 705
 }
