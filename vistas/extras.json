@@ -111,24 +111,6 @@
     {
       "avisos": [
         {
-          "precio": 37990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17269322/Audifono-Headset-Recon-70-White-Turtle-Beach"
-        }
-      ],
-      "marca": "turtle beach",
-      "min_hist": null,
-      "nombre": "Audifono Headset Recon 70 White",
-      "pct": 0,
-      "precio": 37990.0,
-      "ref_tipo": null,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17269322/Audifono-Headset-Recon-70-White-Turtle-Beach"
-    },
-    {
-      "avisos": [
-        {
           "precio": 43990.0,
           "tarjeta": null,
           "tienda": "Bestmart",
@@ -154,7 +136,7 @@
         }
       ],
       "marca": "turtle beach",
-      "min_hist": null,
+      "min_hist": 43990.0,
       "nombre": "Audifono Headset Recon 70 Black",
       "pct": 0,
       "precio": 43990.0,
@@ -444,9 +426,9 @@
       "marca": "Logitech G",
       "min_hist": 69990,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (PROGAMINGCL)",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 69990,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-3854803164"
     },
@@ -516,9 +498,9 @@
       "marca": "Logitech G",
       "min_hist": 79990,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (DUST2GG)",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 79990,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-1918818275"
     },
@@ -534,9 +516,9 @@
       "marca": "Logitech G",
       "min_hist": 80490,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (DUST2TIENDA)",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 80490,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-3914443688"
     },
@@ -579,38 +561,20 @@
     {
       "avisos": [
         {
-          "precio": 94990.0,
-          "tarjeta": 89990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17269323/Audifono-Headset-Tb-Stealth-500-Gen-3-Black-Turtle-Beach"
-        }
-      ],
-      "marca": "turtle beach",
-      "min_hist": null,
-      "nombre": "Audifono Headset Tb Stealth 500 Gen 3 Black",
-      "pct": 0,
-      "precio": 94990.0,
-      "ref_tipo": null,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17269323/Audifono-Headset-Tb-Stealth-500-Gen-3-Black-Turtle-Beach"
-    },
-    {
-      "avisos": [
-        {
           "precio": 104990.0,
           "tarjeta": 99990.0,
           "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17267595/Audifono-Headset-Barracuda-X-Wireless-Blanco-Razer"
+          "url": "https://www.falabella.com/falabella-cl/product/17267594/Audifono-Headset-Barracuda-X-Wireless-Razer"
         }
       ],
       "marca": "razer",
       "min_hist": 104990.0,
-      "nombre": "Audífono Headset Barracuda X Wireless Blanco",
+      "nombre": "Audífono Headset Barracuda X Wireless",
       "pct": 0.0,
       "precio": 104990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17267595/Audifono-Headset-Barracuda-X-Wireless-Blanco-Razer"
+      "url": "https://www.falabella.com/falabella-cl/product/17267594/Audifono-Headset-Barracuda-X-Wireless-Razer"
     },
     {
       "avisos": [
@@ -665,24 +629,6 @@
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-4486183542"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 120000,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-3991552036"
-        }
-      ],
-      "marca": "Logitech G",
-      "min_hist": 169990,
-      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (LIGHTGALLERY.",
-      "pct": 0,
-      "precio": 120000,
-      "ref_tipo": null,
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-3991552036"
     },
     {
       "avisos": [
@@ -804,9 +750,9 @@
       "marca": "Logitech G",
       "min_hist": 129990,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (tienda oficia",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 161990,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
     },
@@ -822,7 +768,7 @@
       "marca": "Logitech G",
       "min_hist": 191990,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (FUJITE",
-      "pct": 19.3,
+      "pct": 10.7,
       "precio": 191990,
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
@@ -899,24 +845,6 @@
       "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/17403218/RAZER-KRAKEN-V4-NASA"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 237990,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-1859598391"
-        }
-      ],
-      "marca": "Logitech G",
-      "min_hist": 237990,
-      "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (LIGHTG",
-      "pct": 0,
-      "precio": 237990,
-      "ref_tipo": null,
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-1859598391"
     },
     {
       "avisos": [
@@ -1016,11 +944,6 @@
       "avisos": [
         {
           "precio": 609990.0,
-          "tienda": "Lider",
-          "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
-        },
-        {
-          "precio": 609990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-2-ea-sports-fc-27-bundle"
         },
@@ -1033,11 +956,11 @@
       "bundle": true,
       "min_hist": 599990.0,
       "modelo": "Switch 2",
-      "nombre": "Nintendo Switch 2 + EA SPORTS FC 27",
+      "nombre": "Consola Nintendo Switch 2 + EA SPORTS FC 27 Bundle",
       "pct": 0.0,
       "precio": 609990.0,
-      "tienda": "Lider",
-      "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/consola-nintendo-switch-2-ea-sports-fc-27-bundle"
     },
     {
       "avisos": [
@@ -1061,7 +984,7 @@
       "min_hist": 599990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Switch 2 Mkw",
-      "pct": -0.8,
+      "pct": 0.0,
       "precio": 609990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
@@ -1099,23 +1022,6 @@
       "precio": 659990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-2-juego-pokemon-legends-z-a"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 669990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 669990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Nintendo Switch 2 + Sports Resort + 3 Meses NSO",
-      "pct": 2.9,
-      "precio": 669990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
     },
     {
       "avisos": [
@@ -1188,6 +1094,23 @@
     {
       "avisos": [
         {
+          "precio": 689990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 669990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Nintendo Switch 2 + Sports Resort + 3 Meses NSO",
+      "pct": 0.0,
+      "precio": 689990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
+    },
+    {
+      "avisos": [
+        {
           "precio": 259990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-portatil-nintendo-switch-lite-calipso"
@@ -1244,6 +1167,23 @@
     {
       "avisos": [
         {
+          "precio": 379990.0,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-oled-blanca-con-juego-minecraft"
+        }
+      ],
+      "bundle": true,
+      "min_hist": null,
+      "modelo": "Switch OLED",
+      "nombre": "Pack Consola Nintendo Switch Oled Blanca con juego Minecraft",
+      "pct": 0,
+      "precio": 379990.0,
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-oled-blanca-con-juego-minecraft"
+    },
+    {
+      "avisos": [
+        {
           "precio": 409990.0,
           "tienda": "Paris",
           "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
@@ -1273,6 +1213,12 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
+        },
+        {
+          "precio": 88990,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (MATHOGAMES CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-2937537034"
         }
       ],
       "gb": 256,
@@ -1300,7 +1246,7 @@
       "marca": "SanDisk",
       "min_hist": 66000.0,
       "nombre": "microSD Express 256 GB · SanDisk",
-      "pct": 0.0,
+      "pct": -2.9,
       "por_gb": 273,
       "precio": 69900.0,
       "ref_tipo": "tipico",
@@ -1441,7 +1387,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-3585524520"
     }
   ],
-  "revision": "2026-11-04T01:18:43Z",
+  "revision": "2026-11-04T07:18:30Z",
   "seguimientos": [
     {
       "avisos": [
@@ -1453,7 +1399,7 @@
         }
       ],
       "item": "Redragon Zeus",
-      "min_hist": 46990,
+      "min_hist": 45990,
       "nombre": "Auriculares para juegos Redragon Zeus Lite P3, negros, H510-lt (DUST2G",
       "precio": 45990,
       "tarjeta": null,
