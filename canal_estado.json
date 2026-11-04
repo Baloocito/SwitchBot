@@ -155,12 +155,13 @@
     },
     "2026-11-04": {
       "bombazos": 0,
-      "posts": 4,
+      "posts": 5,
       "slots": [
         "top",
         "pack",
         "tarde",
-        "fisicos"
+        "fisicos",
+        "memorias"
       ]
     }
   },
@@ -1106,6 +1107,12 @@
       ],
       "message_id": 111,
       "slot": "fisicos"
+    },
+    {
+      "fecha": "2026-11-04T20:05-03:00",
+      "ids": [],
+      "message_id": 112,
+      "slot": "memorias"
     }
   ],
   "publicados": {
@@ -2094,5 +2101,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-04T18:35:33.043946-03:00"
+  "ultimo_post": "2026-11-04T20:05:33.789109-03:00"
 }
