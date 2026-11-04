@@ -14,6 +14,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:1ed54c1f11",
+        "text": "⚙️ Oled Zelda Tears of the Kingd… · $479.990"
+      },
+      "id": "1ed54c1f11",
+      "nivel": "compra",
+      "nombre": "Oled Zelda Tears of the Kingdom Japan Specs",
+      "pct": 0,
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Oled Zelda Tears of the Kingdom Japan Specs</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$479.990</b> en Lider 🏪 <i>vende Importadora Duk</i>\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $479.990 (12 oct, Lider) · típico $479.990 · máximo $479.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 18 días\n🔎 Confianza media: 1 tienda y 18 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/nintendo-switch-oled-zelda-tears-of-the-kingdom-japan-specs/00490237055048\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:abf6d69808",
         "text": "⚙️ The Legend of Zelda: Breath o… S2 · $64.990"
       },
@@ -98,6 +110,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:8f47c09000",
+        "text": "⚙️ The Legend of Zelda: Tears of… · $249.900"
+      },
+      "id": "8f47c09000",
+      "nivel": "normal",
+      "nombre": "The Legend of Zelda: Tears of the Kingdom",
+      "pct": -1.6,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend of Zelda: Tears of the Kingdom (collector)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$249.900</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $235.990 (20 oct, Lider) · típico $245.990 · máximo $249.900\n   ██████▁▁████▃▃▃▃▆▆▆▆▆▆  últimos 22 días\n🎮 Digital: US$69.99 ≈ $68.458 en 🇺🇸 EE. UU.\n   ➜ El digital es $181.442 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 22 días de historial\n🛒 <a href=\"https://8-bits.cl/products/the-legend-of-zelda-tears-of-the-kingdom-collector-edition-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:27b7777048",
         "text": "⚙️ The Legend of Zelda: Breath o… · $54.900"
       },
@@ -110,5 +134,5 @@
     }
   ],
   "juego": "Zelda",
-  "revision": "2026-11-04T07:18:30Z"
+  "revision": "2026-11-04T13:18:22Z"
 }
