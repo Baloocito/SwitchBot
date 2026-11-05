@@ -21,6 +21,24 @@
     {
       "avisos": [
         {
+          "precio": 16990.0,
+          "tarjeta": null,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/audifonos-gamer-redragon-hylas-h260w-rgb-blanco"
+        }
+      ],
+      "marca": "Redragon",
+      "min_hist": null,
+      "nombre": "Audífonos Gamer Redragon HYLAS H260W RGB - Blanco",
+      "pct": 0,
+      "precio": 16990.0,
+      "ref_tipo": null,
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/audifonos-gamer-redragon-hylas-h260w-rgb-blanco"
+    },
+    {
+      "avisos": [
+        {
           "precio": 29990.0,
           "tarjeta": null,
           "tienda": "Falabella",
@@ -274,6 +292,24 @@
       "avisos": [
         {
           "precio": 54990.0,
+          "tarjeta": 52990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/17186837/audifono-wired-gaming-headset-g335-logitech"
+        }
+      ],
+      "marca": "logitech g",
+      "min_hist": 59990.0,
+      "nombre": "Audífono Wired Gaming Headset G335",
+      "pct": 8.3,
+      "precio": 54990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/17186837/audifono-wired-gaming-headset-g335-logitech"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 54990.0,
           "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17292991/Audifono-Headset-Inalambrico-H848B-Redragon"
@@ -381,24 +417,6 @@
     {
       "avisos": [
         {
-          "precio": 59990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
-        }
-      ],
-      "marca": "redragon",
-      "min_hist": null,
-      "nombre": "Audífono Headset H510W RGB Zeus X White",
-      "pct": 0,
-      "precio": 59990.0,
-      "ref_tipo": null,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
-    },
-    {
-      "avisos": [
-        {
           "precio": 60990.0,
           "tarjeta": null,
           "tienda": "Falabella",
@@ -435,26 +453,8 @@
     {
       "avisos": [
         {
-          "precio": 77990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17186837/audifono-wired-gaming-headset-g335-logitech"
-        }
-      ],
-      "marca": "logitech g",
-      "min_hist": 59990.0,
-      "nombre": "Audífono Wired Gaming Headset G335",
-      "pct": -30.0,
-      "precio": 77990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17186837/audifono-wired-gaming-headset-g335-logitech"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 79990.0,
-          "tarjeta": null,
+          "precio": 74990.0,
+          "tarjeta": 67990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80716017/audifono-gamer-g321-logitech"
         }
@@ -462,8 +462,8 @@
       "marca": "logitech g",
       "min_hist": 75990.0,
       "nombre": "Audífono Gamer G321",
-      "pct": -5.3,
-      "precio": 79990.0,
+      "pct": 1.3,
+      "precio": 74990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80716017/audifono-gamer-g321-logitech"
@@ -564,6 +564,42 @@
           "precio": 104990.0,
           "tarjeta": 99990.0,
           "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80716019/audifono-gamerg325-logitech"
+        }
+      ],
+      "marca": "logitech g",
+      "min_hist": 109990.0,
+      "nombre": "Audífono Gamer G325",
+      "pct": 4.5,
+      "precio": 104990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80716019/audifono-gamerg325-logitech"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 104990.0,
+          "tarjeta": 99990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80716010/audifono-gamerg325-logitech"
+        }
+      ],
+      "marca": "logitech g",
+      "min_hist": 109990.0,
+      "nombre": "Audífono Gamer Inalámbrico G325",
+      "pct": 4.5,
+      "precio": 104990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80716010/audifono-gamerg325-logitech"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 104990.0,
+          "tarjeta": 99990.0,
+          "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17267594/Audifono-Headset-Barracuda-X-Wireless-Razer"
         }
       ],
@@ -575,42 +611,6 @@
       "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/17267594/Audifono-Headset-Barracuda-X-Wireless-Razer"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 109990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80716019/audifono-gamerg325-logitech"
-        }
-      ],
-      "marca": "logitech g",
-      "min_hist": 109990.0,
-      "nombre": "Audífono Gamer G325",
-      "pct": 0.0,
-      "precio": 109990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80716019/audifono-gamerg325-logitech"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 109990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80716010/audifono-gamerg325-logitech"
-        }
-      ],
-      "marca": "logitech g",
-      "min_hist": 109990.0,
-      "nombre": "Audífono Gamer Inalámbrico G325",
-      "pct": 0.0,
-      "precio": 109990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80716010/audifono-gamerg325-logitech"
     },
     {
       "avisos": [
@@ -669,6 +669,24 @@
     {
       "avisos": [
         {
+          "precio": 127990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-2766353884"
+        }
+      ],
+      "marca": "Logitech G",
+      "min_hist": null,
+      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (LIFEMAX)",
+      "pct": 0,
+      "precio": 127990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-2766353884"
+    },
+    {
+      "avisos": [
+        {
           "precio": 129390,
           "tarjeta": null,
           "tienda": "MercadoLibre",
@@ -723,38 +741,38 @@
     {
       "avisos": [
         {
-          "precio": 139990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80748507/audifonos-gaming-inalambricos-hyperx-cloud-alpha"
-        }
-      ],
-      "marca": "hyperx",
-      "min_hist": 139990.0,
-      "nombre": "Audífonos Gaming Inalámbricos Cloud Alpha",
-      "pct": 0,
-      "precio": 139990.0,
-      "ref_tipo": null,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80748507/audifonos-gaming-inalambricos-hyperx-cloud-alpha"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 161990,
+          "precio": 129990,
           "tarjeta": null,
           "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
+          "url": "https://articulo.mercadolibre.cl/MLC-4523596062"
         }
       ],
       "marca": "Logitech G",
       "min_hist": 129990,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (tienda oficia",
-      "pct": 0.0,
-      "precio": 161990,
+      "pct": 19.8,
+      "precio": 129990,
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
+      "url": "https://articulo.mercadolibre.cl/MLC-4523596062"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 189990.0,
+          "tarjeta": null,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80791300/audifonos-gamer-inalambrico-g522-light-logitech"
+        }
+      ],
+      "marca": "logitech g",
+      "min_hist": 204990.0,
+      "nombre": "Audífonos Gamer Inalambrico G522 Light",
+      "pct": 7.3,
+      "precio": 189990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80791300/audifonos-gamer-inalambrico-g522-light-logitech"
     },
     {
       "avisos": [
@@ -768,7 +786,7 @@
       "marca": "Logitech G",
       "min_hist": 191990,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (FUJITE",
-      "pct": 10.7,
+      "pct": 0.0,
       "precio": 191990,
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
@@ -777,20 +795,20 @@
     {
       "avisos": [
         {
-          "precio": 204990.0,
+          "precio": 209990.0,
           "tarjeta": null,
           "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80791302/audifonos-gamer-inalambrico-g522-light-logitech"
+          "url": "https://www.falabella.com/falabella-cl/product/80716012/audifono-gamer-astro-a20-x-logitech"
         }
       ],
-      "marca": "logitech g",
-      "min_hist": 204990.0,
-      "nombre": "Audífonos Gamer Inalambrico G522 Light",
-      "pct": 0.0,
-      "precio": 204990.0,
+      "marca": "Astro",
+      "min_hist": 229990.0,
+      "nombre": "Audífono Gamer Astro A20 X",
+      "pct": 8.7,
+      "precio": 209990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80791302/audifonos-gamer-inalambrico-g522-light-logitech"
+      "url": "https://www.falabella.com/falabella-cl/product/80716012/audifono-gamer-astro-a20-x-logitech"
     },
     {
       "avisos": [
@@ -809,24 +827,6 @@
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-3614449858"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 229990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80716012/audifono-gamer-astro-a20-x-logitech"
-        }
-      ],
-      "marca": "Astro",
-      "min_hist": 229990.0,
-      "nombre": "Audífono Gamer Astro A20 X",
-      "pct": 0.0,
-      "precio": 229990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80716012/audifono-gamer-astro-a20-x-logitech"
     },
     {
       "avisos": [
@@ -863,6 +863,24 @@
       "ref_tipo": "tipico",
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/audifonos-gaming-inalambricos-logitech-pro-x2-lightspeed-blanco"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 289990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-3350804316"
+        }
+      ],
+      "marca": "SteelSeries",
+      "min_hist": null,
+      "nombre": "Audífonos Gamer Steelseries Nova 7 Ps Inalámbrico Blancos Blanco (GASE",
+      "pct": 0,
+      "precio": 289990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-3350804316"
     },
     {
       "avisos": [
@@ -922,11 +940,6 @@
       "avisos": [
         {
           "precio": 349990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
-        },
-        {
-          "precio": 379990.0,
           "tienda": "Lider",
           "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-1-1-neon-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688539"
         }
@@ -934,8 +947,25 @@
       "bundle": false,
       "min_hist": 349990.0,
       "modelo": "Switch",
-      "nombre": "Consola Switch 1 1 Neon Bund",
+      "nombre": "Consola Nintendo Switch 1.1 Neón, Super Mario Bros. Wonder 3 Meses de Nintendo S",
       "pct": 0.0,
+      "precio": 349990.0,
+      "tienda": "Lider",
+      "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-1-1-neon-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688539"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 349990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
+        }
+      ],
+      "bundle": true,
+      "min_hist": null,
+      "modelo": "Switch",
+      "nombre": "Consola Switch Neon + Mario Wonder Bundle",
+      "pct": 0,
       "precio": 349990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
@@ -975,9 +1005,9 @@
           "url": "https://www.todojuegos.cl/Productos/NS2/Consola-Nintendo-Switch-2/?ref=buscador"
         },
         {
-          "precio": 629990.0,
+          "precio": 684990.0,
           "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17448346/HW-SWITCH-2-SYSTEM-LT2-SOLUS"
+          "url": "https://www.falabella.com/falabella-cl/product/80872527/consola-nintendo-switch-2-neon-blue-neon-red"
         }
       ],
       "bundle": false,
@@ -992,7 +1022,7 @@
     {
       "avisos": [
         {
-          "precio": 649990.0,
+          "precio": 659990.0,
           "tienda": "Lider",
           "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-2-mario-kart-world-membresia-online/00004549688674"
         }
@@ -1002,7 +1032,7 @@
       "modelo": "Switch 2",
       "nombre": "Consola Nintendo Switch 2 Mario Kart World + Membresía Online",
       "pct": 0,
-      "precio": 649990.0,
+      "precio": 659990.0,
       "tienda": "Lider",
       "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-2-mario-kart-world-membresia-online/00004549688674"
     },
@@ -1133,6 +1163,11 @@
           "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-blanco"
         },
         {
+          "precio": 399990.0,
+          "tienda": "Lider",
+          "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688550"
+        },
+        {
           "precio": 409990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80627204/Consola%20Switch%20Oled%20White%20Bu%20Nintendo"
@@ -1156,7 +1191,7 @@
         }
       ],
       "bundle": true,
-      "min_hist": null,
+      "min_hist": 379990.0,
       "modelo": "Switch OLED",
       "nombre": "Pack Consola Nintendo Switch Oled Blanca con juego Minecraft",
       "pct": 0,
@@ -1213,6 +1248,12 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
+        },
+        {
+          "precio": 88990,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (MATHOGAMES CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-2937537034"
         }
       ],
       "gb": 256,
@@ -1240,7 +1281,7 @@
       "marca": "SanDisk",
       "min_hist": 66000.0,
       "nombre": "microSD Express 256 GB · SanDisk",
-      "pct": -2.9,
+      "pct": 0.0,
       "por_gb": 273,
       "precio": 69900.0,
       "ref_tipo": "tipico",
@@ -1381,7 +1422,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-3585524520"
     }
   ],
-  "revision": "2026-11-05T01:17:41Z",
+  "revision": "2026-11-05T07:18:21Z",
   "seguimientos": [
     {
       "avisos": [
