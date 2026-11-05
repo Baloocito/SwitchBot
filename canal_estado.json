@@ -155,8 +155,10 @@
     },
     "2026-11-05": {
       "bombazos": 0,
-      "posts": 0,
-      "slots": []
+      "posts": 1,
+      "slots": [
+        "top"
+      ]
     }
   },
   "posts": [
@@ -1119,6 +1121,18 @@
       ],
       "message_id": 113,
       "slot": "ultima"
+    },
+    {
+      "fecha": "2026-11-05T09:05-03:00",
+      "ids": [
+        "ed2e82dd98",
+        "95bc412aef",
+        "a411a77c13",
+        "4db0a2e7f4",
+        "c86da13e3a"
+      ],
+      "message_id": 114,
+      "slot": "top"
     }
   ],
   "publicados": {
@@ -1337,6 +1351,11 @@
       "precio": 64990.0,
       "slot": "pack"
     },
+    "4db0a2e7f4": {
+      "fecha": "2026-11-05",
+      "precio": 3800,
+      "slot": "top"
+    },
     "4ef54c4bf9": {
       "fecha": "2026-10-25",
       "precio": 32900.0,
@@ -1553,7 +1572,7 @@
       "slot": "top"
     },
     "95bc412aef": {
-      "fecha": "2026-10-29",
+      "fecha": "2026-11-05",
       "precio": 5890,
       "slot": "top"
     },
@@ -1603,9 +1622,9 @@
       "slot": "top"
     },
     "a411a77c13": {
-      "fecha": "2026-10-28",
+      "fecha": "2026-11-05",
       "precio": 2500,
-      "slot": "pack"
+      "slot": "top"
     },
     "a600896585": {
       "fecha": "2026-10-31",
@@ -1737,6 +1756,11 @@
       "precio": 3460,
       "slot": "pack"
     },
+    "c86da13e3a": {
+      "fecha": "2026-11-05",
+      "precio": 24250,
+      "slot": "top"
+    },
     "c88641706f": {
       "fecha": "2026-11-04",
       "precio": 35400,
@@ -1831,6 +1855,11 @@
       "fecha": "2026-10-22",
       "precio": 84900.0,
       "slot": "fisicos"
+    },
+    "ed2e82dd98": {
+      "fecha": "2026-11-05",
+      "precio": 5970,
+      "slot": "top"
     },
     "f9996d5fbf": {
       "fecha": "2026-10-29",
@@ -2132,5 +2161,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-04T21:05:34.030189-03:00"
+  "ultimo_post": "2026-11-05T09:05:34.791524-03:00"
 }
