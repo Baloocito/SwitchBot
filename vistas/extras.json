@@ -940,23 +940,6 @@
       "avisos": [
         {
           "precio": 349990.0,
-          "tienda": "Lider",
-          "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-1-1-neon-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688539"
-        }
-      ],
-      "bundle": false,
-      "min_hist": 349990.0,
-      "modelo": "Switch",
-      "nombre": "Consola Nintendo Switch 1.1 Neón, Super Mario Bros. Wonder 3 Meses de Nintendo S",
-      "pct": 0.0,
-      "precio": 349990.0,
-      "tienda": "Lider",
-      "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-1-1-neon-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688539"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 349990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
         }
@@ -969,6 +952,23 @@
       "precio": 349990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 349990.0,
+          "tienda": "Lider",
+          "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-1-1-neon-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688539"
+        }
+      ],
+      "bundle": false,
+      "min_hist": 349990.0,
+      "modelo": "Switch",
+      "nombre": "Consola Nintendo Switch 1.1 Neón, Super Mario Bros. Wonder 3 Meses de Nintendo S",
+      "pct": 0.0,
+      "precio": 349990.0,
+      "tienda": "Lider",
+      "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-1-1-neon-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688539"
     },
     {
       "avisos": [
@@ -1248,12 +1248,6 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
-        },
-        {
-          "precio": 88990,
-          "tienda": "MercadoLibre",
-          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (MATHOGAMES CL)",
-          "url": "https://articulo.mercadolibre.cl/MLC-2937537034"
         }
       ],
       "gb": 256,
@@ -1422,7 +1416,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-3585524520"
     }
   ],
-  "revision": "2026-11-05T07:18:21Z",
+  "revision": "2026-11-05T13:18:13Z",
   "seguimientos": [
     {
       "avisos": [
