@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 513,
-  "pendientes": 1,
+  "fisicos": 511,
+  "pendientes": 5,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-05T13:18:13Z",
+  "revision": "2026-11-05T19:17:43Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -47,11 +47,10 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 4 desde $20.000\n   🟢 Assassin’s Creed: The Rebel Collection",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 3 desde $20.000\n   🟢 Assassin's Creed III: Remastered",
       "nombres": [
         "assassins creed iii remastered",
-        "assassins creed the ezio collection",
-        "assassins creed the rebel collection"
+        "assassins creed the ezio collection"
       ],
       "orden": 1,
       "slug": "assassins-creed"
@@ -67,11 +66,10 @@
     },
     {
       "juego": "Atelier",
-      "linea": "🟢 <b>Atelier</b> — 📦 13 desde $39.990 · 🎮 11 desde US$14.17\n   🟢 Atelier Marie Remake: The Alchemist of Salburg −70%",
+      "linea": "🟢 <b>Atelier</b> — 📦 12 desde $39.990 · 🎮 11 desde US$14.17\n   🟢 Atelier Marie Remake: The Alchemist of Salburg −70%",
       "nombres": [
         "atelier dusk trilogy deluxe pack",
         "atelier lulua the scion of arland",
-        "atelier marie remake el alquimista de salburg",
         "atelier marie remake the alchemist of salburg",
         "atelier mysterious trilogy sniper",
         "atelier resleriana the red alchemist the white guardian",
@@ -189,13 +187,14 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 6 desde $28.000\n   🟢 Crash Bandicoot 4: It’s About Time −12%",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000\n   🟢 Crash Bandicoot 4: It’s About Time −12%",
       "nombres": [
         "crash 4 bandicoot",
         "crash bandicoot 4 its about time",
         "crash bandicoot n sane trilogy",
         "koch media crash bandicoot 4",
-        "pewesv crash bandicoot 4"
+        "pewesv crash bandicoot 4",
+        "spyro reignited trilogy"
       ],
       "orden": 1,
       "slug": "crash-spyro"
@@ -271,11 +270,10 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟢 <b>Doom</b> — 📦 4 desde $44.990\n   🟢 DOOM 64",
+      "linea": "🟢 <b>Doom</b> — 📦 3 desde $44.990\n   🟢 DOOM 64",
       "nombres": [
         "doom",
-        "doom 64",
-        "the last kids on earth and the staff of doom"
+        "doom 64"
       ],
       "orden": 1,
       "slug": "doom"
@@ -297,7 +295,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990 · 🎮 11 desde US$5.47\n   🟢 DRAGON QUEST MONSTERS: The Dark Prince −85%",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 20 desde $24.990 · 🎮 11 desde US$5.47\n   🟢 DRAGON QUEST MONSTERS: The Dark Prince −85%",
       "nombres": [
         "dragon quest",
         "dragon quest builders",
@@ -317,14 +315,13 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 9 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 8 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
         "ea sports fc 26",
         "ea sports fc 27",
-        "fifa 21 electronic arts",
-        "fifa 22 de electronic arts"
+        "fifa 21 electronic arts"
       ],
       "orden": 1,
       "slug": "ea-sports-fc"
@@ -421,7 +418,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.990\n   🟢 Hogwarts Legacy −5%",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 2 desde $59.990\n   🟢 Hogwarts Legacy",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -574,8 +571,8 @@
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
-        "paper mario the origami king",
         "paper mario the thousand year door",
+        "purtch con azul neon y rojo neon mario kart 8",
         "super mario bros wonder",
         "super mario bros wonder meetup in bellabel park",
         "super mario odyssey",
@@ -686,7 +683,7 @@
     },
     {
       "juego": "Mortal Kombat",
-      "linea": "🟢 <b>Mortal Kombat</b> — 📦 5 desde $29.900\n   🟢 Mortal Kombat Legacy Colección Deluxe −13%",
+      "linea": "🟢 <b>Mortal Kombat</b> — 📦 5 desde $29.900\n   🟢 Mortal Kombat: Legacy Kollection −31%",
       "nombres": [
         "mortal kombat 1",
         "mortal kombat 11",
@@ -748,7 +745,7 @@
     },
     {
       "juego": "One Piece",
-      "linea": "🟢 <b>One Piece</b> — 📦 2 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
+      "linea": "🟢 <b>One Piece</b> — 📦 1 desde $39.990\n   🟢 ONE PIECE ODYSSEY DELUXE EDITION",
       "nombres": [
         "one piece odyssey deluxe edition"
       ],
@@ -757,9 +754,10 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $24.990 · 🎮 123 desde US$1.99\n   🟢 Ys Origin −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $24.990 · 🎮 125 desde US$1.99\n   🟢 Ys Origin −90%",
       "nombres": [
         "actraiser renaissance",
+        "airhead",
         "akibas trip hellbound debriefed",
         "akibas trip undead undressed directors cut",
         "balan wonderworld",
@@ -782,6 +780,7 @@
         "dynasty warriors 8 xtreme legends definitive edition",
         "dynasty warriors 9 empires",
         "dynasty warriors origins",
+        "el hijo a wild west tale",
         "enter the gungeon",
         "etrange overlord",
         "exit the gungeon",
@@ -1078,7 +1077,7 @@
     },
     {
       "juego": "Soul Reaver",
-      "linea": "🟢 <b>Soul Reaver</b> — 📦 3 desde $36.990\n   🟢 Legacy of Kain Soul Reaver 1&amp;2 Remastered",
+      "linea": "🟢 <b>Soul Reaver</b> — 📦 3 desde $32.900\n   🟢 Legacy of Kain Soul Reaver 1&amp;2 Remastered −11%",
       "nombres": [
         "aspyr legacy of kain soul reaver",
         "legacy of kain soul reaver 1 2 remastered"
@@ -1118,10 +1117,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 6 desde $34.990\n   🟢 Star Wars Racer Commando rojo",
+      "linea": "🟢 <b>Star Wars</b> — 📦 7 desde $34.900\n   🟢 Star Wars Racer Commando rojo",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
+        "star wars heritage pack",
         "star wars outlaws edicion dorada",
         "star wars racer and commando combo n",
         "star wars racer commando rojo"
@@ -1176,9 +1176,8 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
-        "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
       ],
@@ -1213,9 +1212,10 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $39.900 · 🎮 2 desde US$13.86\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
+      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $39.900 · 🎮 2 desde US$13.86\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
         "bandai namco tales of berseria remasterizado",
+        "bandai namco tales of xillia",
         "tales of berseria remastered",
         "tales of graces f remastered",
         "tales of symphonia remastered",
@@ -1238,16 +1238,14 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 15 desde $29.990 · 🎮 2 desde US$26.85\n   🟢 Trails in the Sky 1st Chapter −50%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990 · 🎮 2 desde US$26.85\n   🟢 Trails in the Sky 1st Chapter −50%",
       "nombres": [
         "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
         "nis america the legend of heroes trails into reverie",
-        "nis america the legend of heroes trails to azure",
         "nis america trails beyond horizon edicion de lujo",
-        "nis america trails from zero trails to azure",
         "the legend of heroes trails from zero",
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
@@ -1333,10 +1331,9 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 8 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 8 desde $44.990\n   🟢 The Legend of Zelda: Ocarina of Time −6%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
-        "oled zelda tears of the kingdom japan specs",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda ocarina of time",
@@ -1346,5 +1343,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 657
+  "total": 654
 }
