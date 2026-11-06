@@ -6,14 +6,14 @@
     "Weplay": 11
   },
   "fisicos": 513,
-  "pendientes": 0,
+  "pendientes": 1,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-06T01:17:06Z",
+  "revision": "2026-11-06T07:17:29Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -178,15 +178,6 @@
       "slug": "civilization"
     },
     {
-      "juego": "Contra",
-      "linea": "⚪ <b>Contra</b> — 📦 1 desde $96.990",
-      "nombres": [
-        "contra anniversary collection"
-      ],
-      "orden": 4,
-      "slug": "contra"
-    },
-    {
       "juego": "Crash / Spyro",
       "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000\n   🟢 Crash Bandicoot 4: It’s About Time −12%",
       "nombres": [
@@ -296,7 +287,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 20 desde $24.990 · 🎮 11 desde US$5.47\n   🟢 DRAGON QUEST MONSTERS: The Dark Prince −85%",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990 · 🎮 11 desde US$5.47\n   🟢 DRAGON QUEST MONSTERS: The Dark Prince −85%",
       "nombres": [
         "dragon quest",
         "dragon quest builders",
@@ -329,7 +320,7 @@
     },
     {
       "juego": "Emio / Famicom Detective",
-      "linea": "🟢 <b>Emio / Famicom Detective</b> — 📦 3 desde $59.990\n   🟢 Emio - The Smiling Man Sniper",
+      "linea": "🟢 <b>Emio / Famicom Detective</b> — 📦 2 desde $59.990\n   🟢 Emio - The Smiling Man Sniper",
       "nombres": [
         "emio the smiling man famicom detective club",
         "emio the smiling man sniper"
@@ -409,9 +400,10 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 2 desde $74.990\n   🟢 Game Solutions 2 Go Hitman World of Assassination",
+      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $74.990\n   🟢 Game Solutions 2 Go Hitman World of Assassination",
       "nombres": [
         "game solutions 2 go hitman world of assassination",
+        "hitman blood money reprisal",
         "hitman world of assassination signature edition"
       ],
       "orden": 1,
@@ -419,7 +411,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.990\n   🟢 Hogwarts Legacy −5%",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.990\n   🟢 Hogwarts Legacy",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -449,7 +441,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2026 Limited Edition −8%",
+      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2022",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -558,7 +550,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 26 desde $29.990\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −9%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $29.990\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −9%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -576,7 +568,6 @@
         "purtch con azul neon y rojo neon mario kart 8",
         "super mario bros wonder",
         "super mario bros wonder meetup in bellabel park",
-        "super mario odyssey",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv",
@@ -706,8 +697,9 @@
     },
     {
       "juego": "NBA 2K",
-      "linea": "🟢 <b>NBA 2K</b> — 📦 1 desde $108.990\n   🟢 NBA 2K Playgrounds 2",
+      "linea": "🟢 <b>NBA 2K</b> — 📦 2 desde $55.990\n   🟢 NBA 2K Playgrounds 2",
       "nombres": [
+        "2k nba 2k18",
         "nba 2k playgrounds 2"
       ],
       "orden": 1,
@@ -1039,7 +1031,7 @@
     },
     {
       "juego": "Shin Megami Tensei",
-      "linea": "🟢 <b>Shin Megami Tensei</b> — 📦 7 desde $19.990\n   🟢 Shin Megami Tensei III Nocturne HD Remaster",
+      "linea": "🟢 <b>Shin Megami Tensei</b> — 📦 6 desde $19.990\n   🟢 Shin Megami Tensei III Nocturne HD Remaster",
       "nombres": [
         "shin megami tensei iii nocturne hd remaster",
         "shin megami tensei v fall of man premium edition con detalles",
@@ -1129,7 +1121,7 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $34.900\n   🟢 Stardew Valley:",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 1 desde $49.900\n   🟢 Stardew Valley:",
       "nombres": [
         "stardew valley"
       ],
@@ -1185,7 +1177,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 19 desde $29.990\n   🟢 Just For Games Instant Sports Summer −7%",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 20 desde $29.990\n   🟢 Just For Games Instant Sports Summer",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1196,6 +1188,7 @@
         "instant sports winter games sniper",
         "junior league sports coleccion 3 en 1",
         "just for games instant sports summer",
+        "just for games instant sports winter",
         "looney tunes wacky world of sports",
         "merge games instant sports",
         "merge games instant sports plus",
@@ -1286,7 +1279,7 @@
     },
     {
       "juego": "Xenoblade",
-      "linea": "🟢 <b>Xenoblade</b> — 📦 8 desde $34.990\n   🟢 Xenoblade Chronicles: Definitive Edition",
+      "linea": "🟢 <b>Xenoblade</b> — 📦 9 desde $34.990\n   🟢 Xenoblade Chronicles: Definitive Edition",
       "nombres": [
         "xenoblade chronicles 2",
         "xenoblade chronicles 2 torna the golden country",
@@ -1299,7 +1292,7 @@
     },
     {
       "juego": "Xenoblade X",
-      "linea": "🟢 <b>Xenoblade X</b> — 📦 3 desde $54.900\n   🟢 Xenoblade Chronicles X: Definitive Edition −37%",
+      "linea": "🟢 <b>Xenoblade X</b> — 📦 2 desde $54.900\n   🟢 Xenoblade Chronicles X: Definitive Edition −36%",
       "nombres": [
         "xenoblade chronicles x definitive edition"
       ],
@@ -1331,9 +1324,10 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 8 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
+        "the legend of zelda 40th anniversary edition",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda ocarina of time",
@@ -1343,5 +1337,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 657
+  "total": 654
 }
