@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-06T13:17:53Z",
+  "revision": "2026-11-06T19:18:25Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -390,7 +390,7 @@
     },
     {
       "juego": "Hades",
-      "linea": "🟢 <b>Hades</b> — 📦 4 desde $44.990\n   🟢 Hades II",
+      "linea": "🟢 <b>Hades</b> — 📦 5 desde $28.000\n   🟢 Hades II",
       "nombres": [
         "hades",
         "hades ii"
@@ -400,10 +400,9 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 3 desde $74.990\n   🟢 Game Solutions 2 Go Hitman World of Assassination",
+      "linea": "🟢 <b>Hitman</b> — 📦 2 desde $74.990\n   🟢 Game Solutions 2 Go Hitman World of Assassination",
       "nombres": [
         "game solutions 2 go hitman world of assassination",
-        "hitman blood money reprisal",
         "hitman world of assassination signature edition"
       ],
       "orden": 1,
@@ -411,7 +410,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 2 desde $59.990\n   🟢 Hogwarts Legacy",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.990\n   🟢 Hogwarts Legacy",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -441,7 +440,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2022",
+      "linea": "🟢 <b>Just Dance</b> — 📦 14 desde $19.900\n   🟢 Just Dance 2022",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -455,8 +454,6 @@
         "pulseras para just dance y zumba",
         "ubisoft just dance 2019",
         "ubisoft just dance 2020",
-        "ubisoft just dance 2021",
-        "ubisoft just dance 2022",
         "ubisoft just dance 2024 descarga digital"
       ],
       "orden": 1,
@@ -496,9 +493,8 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 3 desde US$2.19\n   🟢 LEGO Bricktales −79%",
+      "linea": "🟢 <b>LEGO</b> — 📦 4 desde $22.900 · 🎮 3 desde US$2.19\n   🟢 LEGO Bricktales −79%",
       "nombres": [
-        "lego brawls",
         "lego bricktales",
         "lego dc super villains",
         "lego party",
@@ -550,7 +546,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 23 desde $29.990\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −9%",
+      "linea": "🟢 <b>Mario</b> — 📦 26 desde $29.990\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −9%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -567,6 +563,7 @@
         "paper mario the thousand year door",
         "super mario bros wonder",
         "super mario bros wonder meetup in bellabel park",
+        "super mario odyssey",
         "super mario party",
         "super mario party jamboree",
         "super mario party jamboree jamboree tv",
@@ -651,7 +648,7 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "⚪ <b>Minecraft</b> — 📦 1 desde $29.990",
+      "linea": "⚪ <b>Minecraft</b> — 📦 2 desde $27.000",
       "nombres": [
         "minecraft nintendo switch edition"
       ],
@@ -908,7 +905,7 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 6 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
         "pokemon legends za 2",
         "pokemon scarlet",
@@ -1049,7 +1046,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $29.990\n   🟢 Sonic Classic Collection",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000\n   🟢 Sonic Frontiers −14%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1058,7 +1055,7 @@
         "sonic frontiers definitive edition",
         "sonic modern collection",
         "sonic racing crossworlds",
-        "sonic x shadow generations"
+        "sonic superstars"
       ],
       "orden": 1,
       "slug": "sonic"
@@ -1086,7 +1083,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990\n   🟢 It Takes Two",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990\n   🟢 It Takes Two",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1163,8 +1160,9 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
+        "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
         "super smash bros ultimate"
       ],
@@ -1173,7 +1171,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 21 desde $29.990\n   🟢 40 Sports Games In 1 / - Snipercl",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 20 desde $29.990\n   🟢 40 Sports Games In 1 / - Snipercl",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1188,7 +1186,6 @@
         "just for games instant sports winter",
         "looney tunes wacky world of sports",
         "merge games instant sports",
-        "merge games instant sports plus",
         "nintendo switch sports",
         "nintendo switch sports resort",
         "outright games gigantosaurus dino sports",
@@ -1320,10 +1317,9 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 7 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
-        "the legend of zelda 40th anniversary edition",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda ocarina of time",
