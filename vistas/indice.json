@@ -5,8 +5,8 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 507,
-  "pendientes": 3,
+  "fisicos": 508,
+  "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
@@ -742,7 +742,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $24.990 · 🎮 124 desde US$1.99\n   🟢 Ys Origin −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $24.990 · 🎮 125 desde US$1.99\n   🟢 Ys Origin −90%",
       "nombres": [
         "actraiser renaissance",
         "airhead",
@@ -832,6 +832,7 @@
         "star ocean the second story r",
         "steamworld build",
         "steamworld heist ii",
+        "strange horticulture",
         "streets of rage 4",
         "tactics ogre reborn",
         "taiko no tatsujin rhythm festival",
@@ -1329,5 +1330,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 651
+  "total": 652
 }
