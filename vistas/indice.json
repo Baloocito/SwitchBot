@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-07T13:16:11Z",
+  "revision": "2026-11-07T19:17:04Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -210,7 +210,7 @@
       "linea": "🟢 <b>Danganronpa</b> — 📦 3 desde $54.990\n   🟢 Danganronpa 2x2",
       "nombres": [
         "danganronpa 2x2",
-        "danganronpa decadence"
+        "danganronpa decadence sniper"
       ],
       "orden": 1,
       "slug": "danganronpa"
@@ -433,9 +433,8 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 4 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 3 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
       "nombres": [
-        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment",
         "hyrule warriors definitive edition"
       ],
@@ -478,9 +477,10 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 1 desde $39.720 · 🎮 1 desde US$22.69\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
+      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 2 desde $39.720 · 🎮 1 desde US$22.69\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
       "nombres": [
-        "kingdom hearts melody of memory"
+        "kingdom hearts melody of memory",
+        "square enix kingdom hearts"
       ],
       "orden": 1,
       "slug": "kingdom-hearts"
@@ -500,8 +500,9 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 4 desde $22.900 · 🎮 3 desde US$2.18\n   🟢 LEGO Bricktales −79%",
+      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 3 desde US$2.18\n   🟢 LEGO Bricktales −79%",
       "nombres": [
+        "lego brawls",
         "lego bricktales",
         "lego dc super villains",
         "lego party",
@@ -700,8 +701,9 @@
     },
     {
       "juego": "NBA 2K",
-      "linea": "🟢 <b>NBA 2K</b> — 📦 1 desde $108.990\n   🟢 NBA 2K Playgrounds 2",
+      "linea": "🟢 <b>NBA 2K</b> — 📦 2 desde $55.990\n   🟢 NBA 2K Playgrounds 2",
       "nombres": [
+        "2k nba 2k18",
         "nba 2k playgrounds 2"
       ],
       "orden": 1,
@@ -899,7 +901,7 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 6 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
         "pokemon legends za 2",
         "pokemon scarlet",
@@ -1191,8 +1193,9 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $39.900 · 🎮 2 desde US$13.96\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
+      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $39.900 · 🎮 2 desde US$13.96\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
+        "bandai namco tales of berseria remasterizado",
         "tales of arise beyond the dawn edition",
         "tales of berseria remastered",
         "tales of graces f remastered",
@@ -1216,11 +1219,12 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $59.900 · 🎮 2 desde US$26.80\n   🟢 Trails in the Sky 1st Chapter −50%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 14 desde $29.990 · 🎮 2 desde US$26.80\n   🟢 Trails in the Sky 1st Chapter −50%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
+        "nis america the legend of heroes trails into reverie",
         "nis america the legend of heroes trails to azure",
         "nis america trails beyond horizon edicion de lujo",
         "nis america trails from zero trails to azure",
@@ -1309,10 +1313,9 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 8 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
-        "oled zelda tears of the kingdom japan specs",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda ocar",
@@ -1322,5 +1325,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 634
+  "total": 636
 }
