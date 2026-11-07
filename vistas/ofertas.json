@@ -669,7 +669,7 @@
       "orden": 1,
       "pct": 75.0,
       "precio_usd": 5.26,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>SteamWorld Heist II</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.26</b> ≈ $5.125 en 🇨🇱 Chile\n   Precio en la tienda: $5.124 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$21.04 → ahorras US$15.78 · ⏳ termina el 17 nov (en 10 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/steamworld-heist-ii-switch/\">US$5.26</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/steamworld-heist-ii-switch/\">US$7.09</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/steamworld-heist-ii-switch/\">US$7.09</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/steamworld-heist-ii-switch/\">US$7.09</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/steamworld-heist-ii-switch/\">US$7.28</a>\n   El más caro: 🇧🇷 US$8.06\n📈 Mínimo US$5.16 (2 nov en 🇨🇱 Chile)\n   ▂▁▁▅▅██  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/steamworld-heist-ii-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>SteamWorld Heist II</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.26</b> ≈ $5.125 en 🇨🇱 Chile\n   Precio en la tienda: $5.124 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$21.04 → ahorras US$15.78 · ⏳ termina el 17 nov (en 10 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/steamworld-heist-ii-switch/\">US$5.26</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/steamworld-heist-ii-switch/\">US$7.09</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/steamworld-heist-ii-switch/\">US$7.09</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/steamworld-heist-ii-switch/\">US$7.09</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/steamworld-heist-ii-switch/\">US$7.28</a>\n   El más caro: 🇧🇷 US$8.06\n📈 Mínimo US$5.16 (2 nov en 🇨🇱 Chile)\n   ▂▁▁▅▅██  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/steamworld-heist-ii-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -1570,6 +1570,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:5f6e4849c2",
+        "text": "⚙️ Cross Tails · US$10.48"
+      },
+      "con_fisico": true,
+      "id": "5f6e4849c2",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Cross Tails",
+      "orden": 1,
+      "pct": 60.0,
+      "precio_usd": 10.48,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Cross Tails</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$10.48</b> ≈ $10.211 en 🇵🇪 Perú\n   Precio en la tienda: S/36,00 PEN\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$26.20 → ahorras US$15.72 · ⏳ termina el 9 nov (en 2 días)\n🌎 <b>Por país</b>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cross-tails-switch/\">US$10.48</a> ← el más barato\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/cross-tails-switch/\">US$11.11</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cross-tails-switch/\">US$11.34</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/cross-tails-switch/\">US$11.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cross-tails-switch/\">US$12.32</a>\n   El más caro: 🇲🇽 US$13.18\n📦 Físico: $44.990 en Sniper → el digital te ahorra $34.779\n📈 Mínimo US$10.38 (1 nov en 🇵🇪 Perú)\n   ▆▆▇▇▅▅▄▂▂▁▁▂▂▅▅█  últimos 16 días\n🛒 <a href=\"https://www.nintendo.com/es-pe/store/products/cross-tails-switch/\">Ver en la eShop de Perú</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:18a9f1fb53",
         "text": "⚙️ Infinity Strash: DRAGON QUEST… · US$19.50"
       },
@@ -2124,7 +2140,7 @@
       "orden": 1,
       "pct": 50.0,
       "precio_usd": 27.31,
-      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Trails in the Sky 1st Chapter: Nintendo Switch 2 Edition</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · Trails / Kiseki\n💰 <b>US$27.31</b> ≈ $26.608 en 🇲🇽 México\n   Precio en la tienda: MX$509,50 MXN\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$54.62 → ahorras US$27.31 · ⏳ termina el 21 nov (en 14 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">US$27.31</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">US$27.70</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">US$30.28</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">US$30.49</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">US$30.49</a>\n   El más caro: 🇨🇴 US$36.80\n📈 Mínimo US$27.19 (4 nov en 🇲🇽 México)\n   █████████████████████▁▁▁▁  últimos 25 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">Ver en la eShop de México</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Trails in the Sky 1st Chapter: Nintendo Switch 2 Edition</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · Trails / Kiseki\n💰 <b>US$27.31</b> ≈ $26.608 en 🇲🇽 México\n   Precio en la tienda: MX$509,50 MXN\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$54.62 → ahorras US$27.31 · ⏳ termina el 21 nov (en 14 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">US$27.31</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">US$27.70</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">US$30.28</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">US$30.49</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">US$30.49</a>\n   El más caro: 🇨🇴 US$36.80\n📈 Mínimo US$27.19 (4 nov en 🇲🇽 México)\n   █████████████████████▁▁▁▁  últimos 25 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/\">Ver en la eShop de México</a>",
       "tipo": "digital"
     },
     {

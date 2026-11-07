@@ -5,8 +5,8 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 488,
-  "pendientes": 3,
+  "fisicos": 489,
+  "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
@@ -750,7 +750,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $24.990 · 🎮 112 desde US$1.98\n   🟢 Ys Origin −89%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $24.990 · 🎮 113 desde US$1.98\n   🟢 Ys Origin −89%",
       "nombres": [
         "actraiser renaissance",
         "airhead",
@@ -762,6 +762,7 @@
         "broforce",
         "chocobo gp",
         "crisis core final fantasy vii reunion digital deluxe edition",
+        "cross tails",
         "darkest dungeon",
         "darkest dungeon ii",
         "deadcraft",
@@ -1325,5 +1326,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 636
+  "total": 637
 }
