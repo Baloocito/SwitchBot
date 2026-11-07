@@ -525,6 +525,24 @@
     {
       "avisos": [
         {
+          "precio": 79990.0,
+          "tarjeta": 74990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/8608980/audifonos-gamer-g432-7-1-surround-logitech"
+        }
+      ],
+      "marca": "logitech g",
+      "min_hist": null,
+      "nombre": "Audífonos Gamer G432 7.1 Surround",
+      "pct": 0,
+      "precio": 79990.0,
+      "ref_tipo": null,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/8608980/audifonos-gamer-g432-7-1-surround-logitech"
+    },
+    {
+      "avisos": [
+        {
           "precio": 79990,
           "tarjeta": null,
           "tienda": "MercadoLibre",
@@ -557,24 +575,6 @@
       "ref_tipo": null,
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-3175858844"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 79990.0,
-          "tarjeta": 74990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/8608980/audifonos-gamer-g432-7-1-surround-logitech"
-        }
-      ],
-      "marca": "logitech g",
-      "min_hist": null,
-      "nombre": "Audífonos Gamer G432 7.1 Surround",
-      "pct": 0,
-      "precio": 79990.0,
-      "ref_tipo": null,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/8608980/audifonos-gamer-g432-7-1-surround-logitech"
     },
     {
       "avisos": [
@@ -690,6 +690,24 @@
           "precio": 104990.0,
           "tarjeta": 99990.0,
           "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80716011/audifono-gamer-g325-lila-logitech"
+        }
+      ],
+      "marca": "logitech g",
+      "min_hist": null,
+      "nombre": "Audífono Gamer G325 Lila",
+      "pct": 0,
+      "precio": 104990.0,
+      "ref_tipo": null,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80716011/audifono-gamer-g325-lila-logitech"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 104990.0,
+          "tarjeta": 99990.0,
+          "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80716010/audifono-gamerg325-logitech"
         }
       ],
@@ -719,24 +737,6 @@
       "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/17267594/Audifono-Headset-Barracuda-X-Wireless-Razer"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 104990.0,
-          "tarjeta": 99990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80716011/audifono-gamer-g325-lila-logitech"
-        }
-      ],
-      "marca": "logitech g",
-      "min_hist": null,
-      "nombre": "Audífono Gamer G325 Lila",
-      "pct": 0,
-      "precio": 104990.0,
-      "ref_tipo": null,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80716011/audifono-gamer-g325-lila-logitech"
     },
     {
       "avisos": [
@@ -1446,12 +1446,6 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
-        },
-        {
-          "precio": 88800,
-          "tienda": "MercadoLibre",
-          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
-          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1641,7 +1635,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-2849402286"
     }
   ],
-  "revision": "2026-11-07T07:18:49Z",
+  "revision": "2026-11-07T13:16:11Z",
   "seguimientos": [
     {
       "avisos": [

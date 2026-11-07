@@ -98,18 +98,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:8f47c09000",
-        "text": "⚙️ The Legend of Zelda: Tears of… · $249.900"
-      },
-      "id": "8f47c09000",
-      "nivel": "normal",
-      "nombre": "The Legend of Zelda: Tears of the Kingdom",
-      "pct": -1.6,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend of Zelda: Tears of the Kingdom (collector)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$249.900</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $235.990 (20 oct, Lider) · típico $245.990 · máximo $249.900\n   ██████▁▁████▃▃▃▃▆▆▆▆▆▆▃▃█  últimos 25 días\n🎮 Digital: US$69.99 ≈ $68.191 en 🇺🇸 EE. UU.\n   ➜ El digital es $181.709 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 25 días de historial\n🛒 <a href=\"https://8-bits.cl/products/the-legend-of-zelda-tears-of-the-kingdom-collector-edition-nsw\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:ab17eeb7d9",
         "text": "⚙️ The Legend of Zelda: Tears of… · $62.990"
       },
@@ -122,5 +110,5 @@
     }
   ],
   "juego": "Zelda",
-  "revision": "2026-11-07T07:18:49Z"
+  "revision": "2026-11-07T13:16:11Z"
 }
