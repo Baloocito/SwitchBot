@@ -219,24 +219,6 @@
     {
       "avisos": [
         {
-          "precio": 43990.0,
-          "tarjeta": 39990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17269321/Audifono-Headset-Recon-70-Black-Turtle-Beach"
-        }
-      ],
-      "marca": "turtle beach",
-      "min_hist": 43990.0,
-      "nombre": "Audifono Headset Recon 70 Black",
-      "pct": 0,
-      "precio": 43990.0,
-      "ref_tipo": null,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17269321/Audifono-Headset-Recon-70-Black-Turtle-Beach"
-    },
-    {
-      "avisos": [
-        {
           "precio": 44990.0,
           "tarjeta": 42990.0,
           "tienda": "Falabella",
@@ -372,7 +354,7 @@
       "marca": "redragon",
       "min_hist": 44990.0,
       "nombre": "Audífono Headset Inalambrico H848B",
-      "pct": -22.2,
+      "pct": -10.0,
       "precio": 54990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -408,7 +390,7 @@
       "marca": "redragon",
       "min_hist": 44990.0,
       "nombre": "Audífono Headset Inalambrico H84X",
-      "pct": -22.2,
+      "pct": -10.0,
       "precio": 54990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -462,11 +444,29 @@
       "marca": "redragon",
       "min_hist": 59990.0,
       "nombre": "Audífono Headset H510P RGB Zeus X Pink",
+      "pct": 0.0,
+      "precio": 59990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/17292989/Audifono-Headset-Redragon-H510P-RGB-Zeus-X-Pink"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 59990.0,
+          "tarjeta": null,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
+        }
+      ],
+      "marca": "redragon",
+      "min_hist": 59990.0,
+      "nombre": "Audífono Headset H510W RGB Zeus X White",
       "pct": 0,
       "precio": 59990.0,
       "ref_tipo": null,
       "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17292989/Audifono-Headset-Redragon-H510P-RGB-Zeus-X-Pink"
+      "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
     },
     {
       "avisos": [
@@ -521,6 +521,24 @@
       "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80716017/audifono-gamer-g321-logitech"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 74990.0,
+          "tarjeta": 69990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80820664/logitech-zone-300-audifonos-bluetooth-inalambricos"
+        }
+      ],
+      "marca": "logitech g",
+      "min_hist": 79990.0,
+      "nombre": "Zone 300 Audífonos Bluetooth Inalámbricos",
+      "pct": 6.3,
+      "precio": 74990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80820664/logitech-zone-300-audifonos-bluetooth-inalambricos"
     },
     {
       "avisos": [
@@ -660,7 +678,7 @@
       "marca": "Logitech G",
       "min_hist": 89290,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (FUJITECH)",
-      "pct": -3.6,
+      "pct": -1.8,
       "precio": 92490,
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
@@ -784,7 +802,7 @@
         }
       ],
       "marca": "Logitech G",
-      "min_hist": 129990,
+      "min_hist": 123090,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (ADMINISTRADOR",
       "pct": 5.3,
       "precio": 123090,
@@ -838,7 +856,7 @@
         }
       ],
       "marca": "logitech g",
-      "min_hist": null,
+      "min_hist": 124990.0,
       "nombre": "Zone Vibe 100 Headset Inalámbrico Negro",
       "pct": 0,
       "precio": 124990.0,
@@ -1103,30 +1121,13 @@
     {
       "avisos": [
         {
-          "precio": 309990.0,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/consola-nintendo-switch-modelo-super-mario-bros-wonder-bundle-descarga-del-juego-completo-3-meses-de-suscripcion-a-nintendo-switch-online-lt2"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 309990.0,
-      "modelo": "Switch",
-      "nombre": "Consola Nintendo Switch Neon + Super Mario Bros. Wonder + 3 meses Nintendo Switc",
-      "pct": 0.0,
-      "precio": 309990.0,
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/consola-nintendo-switch-modelo-super-mario-bros-wonder-bundle-descarga-del-juego-completo-3-meses-de-suscripcion-a-nintendo-switch-online-lt2"
-    },
-    {
-      "avisos": [
-        {
           "precio": 339990.0,
           "tienda": "Paris",
           "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
         }
       ],
       "bundle": true,
-      "min_hist": 349990.0,
+      "min_hist": 339990.0,
       "modelo": "Switch",
       "nombre": "Consola Nintendo Switch Neon + Super Mario Bros Wonder + 3 meses NSO",
       "pct": 2.9,
@@ -1203,9 +1204,9 @@
           "url": "https://www.todojuegos.cl/Productos/NS2/Consola-Nintendo-Switch-2/?ref=buscador"
         },
         {
-          "precio": 639990.0,
+          "precio": 684990.0,
           "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17448346/HW-SWITCH-2-SYSTEM-LT2-SOLUS"
+          "url": "https://www.falabella.com/falabella-cl/product/80872527/consola-nintendo-switch-2-neon-blue-neon-red"
         }
       ],
       "bundle": false,
@@ -1263,7 +1264,7 @@
       "min_hist": 644990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Switch 2 Bundle",
-      "pct": -5.4,
+      "pct": -2.6,
       "precio": 679990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
@@ -1423,7 +1424,7 @@
         }
       ],
       "bundle": true,
-      "min_hist": 399990.0,
+      "min_hist": 389990.0,
       "modelo": "Switch OLED",
       "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
       "pct": 4.9,
@@ -1446,6 +1447,12 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1624,7 +1631,7 @@
       ],
       "gb": 512,
       "marca": "Kingston",
-      "min_hist": null,
+      "min_hist": 211800,
       "nombre": "microSD 512 GB · Kingston",
       "pct": 0,
       "por_gb": 414,
@@ -1635,7 +1642,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-2849402286"
     }
   ],
-  "revision": "2026-11-08T01:15:40Z",
+  "revision": "2026-11-08T07:18:13Z",
   "seguimientos": [
     {
       "avisos": [

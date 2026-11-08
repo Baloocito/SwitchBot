@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:a82048fba9",
+        "text": "⚙️ DAVE THE DIVER · $34.990"
+      },
+      "id": "a82048fba9",
+      "nivel": "compra",
+      "nombre": "DAVE THE DIVER",
+      "pct": 0,
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>DAVE THE DIVER</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $59.990» (−42%)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/dave-the-diver-anniversary-edition-nintendo-switch-fisico\">$34.990 Sniper</a>\n   🥈 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Dave-The-Diver-Anniversary-Edition--Europeo-/?ref=buscador\">$44.900 TodoJuegos</a> (+$9.910)\n   🥉 <a href=\"https://www.paris.cl/dave-the-diver-anniversary-edition-nintendo-switch-MKSW2E0Q0Y.html\">$54.990 Paris</a> 🏪 Tienda RetroGamers (+$20.000)\n   ▫️ <a href=\"https://www.lider.cl/ip/videojuegos/dave-the-diver-anniversary-edition-nintendo-switch-fisico/00381912501073\">$59.990 Lider</a> 🏪 SNIPER (+$25.000)\n📈 Mínimo $34.990 (19 oct, Sniper) · típico $34.990 · máximo $39.990\n   █████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁  últimos 26 días\n🎮 Digital: US$18.17 ≈ $17.704 en 🇧🇷 Brasil\n   ➜ El digital es $17.286 más barato, pero no se puede revender\n💼 <b>Margen</b>: la otra tienda lo vende a $44.900 → ~$9.910 (22%) de diferencia\n🔎 Confianza alta: 4 tiendas y 26 días de historial\n🛒 <a href=\"https://sniper.cl/products/dave-the-diver-anniversary-edition-nintendo-switch-fisico\">Ir a comprar en Sniper</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:bddee72604",
         "text": "⚙️ DAVE THE DIVER S2 · $59.900"
       },
@@ -9,10 +21,10 @@
       "nivel": "normal",
       "nombre": "DAVE THE DIVER",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DAVE THE DIVER</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$59.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.000 (27 oct, TodoJuegos) · típico $59.900 · máximo $59.900\n   ████████▁▁▁▁▁▁▁▁████  últimos 20 días\n🎮 Digital: US$18.17 ≈ $17.704 en 🇧🇷 Brasil\n   ➜ El digital es $42.196 más barato, pero no se puede revender\n📈 Precio subió 22% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 20 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Dave-the-Diver-Complete-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DAVE THE DIVER</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$59.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.000 (27 oct, TodoJuegos) · típico $59.900 · máximo $59.900\n   ████████▁▁▁▁▁▁▁▁█████  últimos 21 días\n🎮 Digital: US$18.17 ≈ $17.704 en 🇧🇷 Brasil\n   ➜ El digital es $42.196 más barato, pero no se puede revender\n📈 Precio subió 22% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 21 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Dave-the-Diver-Complete-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
     }
   ],
   "juego": "Dave the Diver",
-  "revision": "2026-11-08T01:15:40Z"
+  "revision": "2026-11-08T07:18:13Z"
 }
