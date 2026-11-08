@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 482,
+  "fisicos": 480,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-08T13:16:21Z",
+  "revision": "2026-11-08T19:19:55Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -142,7 +142,7 @@
     },
     {
       "juego": "Celeste",
-      "linea": "🟢 <b>Celeste</b> — 📦 2 desde $44.990\n   🟢 Celeste",
+      "linea": "🟢 <b>Celeste</b> — 📦 1 desde $79.990\n   🟢 Celeste",
       "nombres": [
         "celeste"
       ],
@@ -163,21 +163,13 @@
     },
     {
       "juego": "Civilization",
-      "linea": "⚪ <b>Civilization</b> — 📦 1 desde $56.990",
+      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $34.990\n   🟢 Sid Meier’s Civilization VI",
       "nombres": [
-        "civilization vii edicion"
-      ],
-      "orden": 4,
-      "slug": "civilization"
-    },
-    {
-      "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
-      "nombres": [
-        "contra rogue corps"
+        "civilization vii edicion",
+        "sid meiers civilization vi"
       ],
       "orden": 1,
-      "slug": "contra"
+      "slug": "civilization"
     },
     {
       "juego": "Crash / Spyro",
@@ -496,8 +488,9 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 4 desde $22.900 · 🎮 3 desde US$2.18\n   🟢 LEGO Bricktales −79%",
+      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 3 desde US$2.18\n   🟢 LEGO Bricktales −79%",
       "nombres": [
+        "lego brawls",
         "lego bricktales",
         "lego dc super villains",
         "lego party",
@@ -896,7 +889,7 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 6 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
         "pokemon legends za 2",
         "pokemon scarlet",
@@ -1073,7 +1066,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990\n   🟢 It Takes Two",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990\n   🟢 It Takes Two",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1104,7 +1097,7 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 1 desde $49.900\n   🟢 Stardew Valley:",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $34.900\n   🟢 Stardew Valley:",
       "nombres": [
         "stardew valley"
       ],
@@ -1187,8 +1180,9 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 4 desde $39.900 · 🎮 2 desde US$13.96\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
+      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $39.900 · 🎮 2 desde US$13.96\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
+        "tales of arise beyond the dawn edition",
         "tales of berseria remastered",
         "tales of graces f remastered",
         "tales of symphonia remastered",
@@ -1211,7 +1205,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 15 desde $29.990 · 🎮 2 desde US$26.81\n   🟢 Trails in the Sky 1st Chapter −50%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 14 desde $59.900 · 🎮 2 desde US$26.81\n   🟢 Trails in the Sky 1st Chapter −50%",
       "nombres": [
         "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
@@ -1221,7 +1215,6 @@
         "nis america the legend of heroes trails to azure",
         "nis america trails beyond horizon edicion de lujo",
         "nis america trails from zero trails to azure",
-        "the legend of heroes trails from zero",
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
         "the legend of nayuta boundless trails deluxe ed sniper",
@@ -1306,10 +1299,9 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
-        "oled zelda tears of the kingdom japan specs",
         "the legend of zelda breath of the wild",
         "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
@@ -1320,5 +1312,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 631
+  "total": 633
 }
