@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 487,
+  "fisicos": 482,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-08T07:18:13Z",
+  "revision": "2026-11-08T13:16:21Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -163,12 +163,11 @@
     },
     {
       "juego": "Civilization",
-      "linea": "🟢 <b>Civilization</b> — 📦 2 desde $34.990\n   🟢 Sid Meier’s Civilization VI",
+      "linea": "⚪ <b>Civilization</b> — 📦 1 desde $56.990",
       "nombres": [
-        "civilization vii edicion",
-        "sid meiers civilization vi"
+        "civilization vii edicion"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "civilization"
     },
     {
@@ -210,18 +209,18 @@
       "linea": "🟢 <b>Danganronpa</b> — 📦 3 desde $54.990\n   🟢 Danganronpa 2x2",
       "nombres": [
         "danganronpa 2x2",
-        "danganronpa decadence sniper"
+        "danganronpa decadence"
       ],
       "orden": 1,
       "slug": "danganronpa"
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
+      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "dave-the-diver"
     },
     {
@@ -394,7 +393,7 @@
     },
     {
       "juego": "Hades",
-      "linea": "🟢 <b>Hades</b> — 📦 4 desde $28.000\n   🟢 Hades II",
+      "linea": "🟢 <b>Hades</b> — 📦 5 desde $28.000\n   🟢 Hades II",
       "nombres": [
         "hades",
         "hades ii"
@@ -433,9 +432,8 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 3 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
       "nombres": [
-        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -443,7 +441,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 17 desde $19.900\n   🟢 Just Dance 2022",
+      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2022",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -454,7 +452,6 @@
         "just dance 2025",
         "just dance 2026 limited edition",
         "just dance decades of hits limited edition",
-        "pulseras para just dance y zumba",
         "ubisoft just dance 2018",
         "ubisoft just dance 2019",
         "ubisoft just dance 2020",
@@ -499,9 +496,8 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 3 desde US$2.18\n   🟢 LEGO Bricktales −79%",
+      "linea": "🟢 <b>LEGO</b> — 📦 4 desde $22.900 · 🎮 3 desde US$2.18\n   🟢 LEGO Bricktales −79%",
       "nombres": [
-        "lego brawls",
         "lego bricktales",
         "lego dc super villains",
         "lego party",
@@ -710,10 +706,9 @@
     },
     {
       "juego": "NieR",
-      "linea": "🟢 <b>NieR</b> — 📦 1 desde $76.990 · 🎮 1 desde US$10.90\n   🟢 NieR:Automata The End of YoRHa Edition −60%",
+      "linea": "🟢 <b>NieR</b> — 🎮 1 desde US$10.90\n   🟢 NieR:Automata The End of YoRHa Edition −60%",
       "nombres": [
-        "nier automata the end of yorha edition",
-        "square enix nier automata para region eu libre"
+        "nier automata the end of yorha edition"
       ],
       "orden": 1,
       "slug": "nier"
@@ -770,6 +765,7 @@
         "dungeon encounters",
         "dynasty warriors 8 xtreme legends definitive edition",
         "dynasty warriors 9 empires",
+        "dynasty warriors origins",
         "el hijo a wild west tale",
         "enter the gungeon",
         "etrange overlord",
@@ -829,7 +825,6 @@
         "star ocean the second story r",
         "steamworld build",
         "steamworld heist ii",
-        "strange horticulture",
         "streets of rage 4",
         "tactics ogre reborn",
         "taiko no tatsujin rhythm festival",
@@ -955,12 +950,10 @@
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $39.900 · 🎮 3 desde US$17.34\n   🟢 Resident Evil 3",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $39.900\n   🟢 Resident Evil 3",
       "nombres": [
         "resident evil",
-        "resident evil 2 deluxe edition",
         "resident evil 3",
-        "resident evil 4 gold edition",
         "resident evil 7 biohazard gold edition",
         "resident evil revelations",
         "resident evil village gold edition"
@@ -1080,7 +1073,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990\n   🟢 It Takes Two",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990\n   🟢 It Takes Two",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1099,12 +1092,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 7 desde $30.990\n   🟢 STAR WARS™ Jedi Knight Collection (Europeo)",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.990\n   🟢 Star Wars Racer Commando rojo",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
-        "star wars jedi knight collection europeo",
         "star wars racer and commando combo n",
         "star wars racer commando rojo"
       ],
@@ -1196,9 +1187,8 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $39.900 · 🎮 2 desde US$13.96\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
+      "linea": "🟢 <b>Tales of</b> — 📦 4 desde $39.900 · 🎮 2 desde US$13.96\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
-        "tales of arise beyond the dawn edition",
         "tales of berseria remastered",
         "tales of graces f remastered",
         "tales of symphonia remastered",
@@ -1221,12 +1211,13 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 14 desde $59.900 · 🎮 2 desde US$26.81\n   🟢 Trails in the Sky 1st Chapter −50%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 15 desde $29.990 · 🎮 2 desde US$26.81\n   🟢 Trails in the Sky 1st Chapter −50%",
       "nombres": [
         "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
+        "nis america the legend of heroes trails into reverie",
         "nis america the legend of heroes trails to azure",
         "nis america trails beyond horizon edicion de lujo",
         "nis america trails from zero trails to azure",
@@ -1315,7 +1306,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "oled zelda tears of the kingdom japan specs",
@@ -1329,5 +1320,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 640
+  "total": 631
 }
