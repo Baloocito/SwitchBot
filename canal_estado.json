@@ -155,12 +155,13 @@
     },
     "2026-11-08": {
       "bombazos": 0,
-      "posts": 4,
+      "posts": 5,
       "slots": [
         "top",
         "semanal",
         "pack",
-        "tarde"
+        "tarde",
+        "fisicos"
       ]
     }
   },
@@ -1299,6 +1300,12 @@
       "ids": [],
       "message_id": 134,
       "slot": "tarde"
+    },
+    {
+      "fecha": "2026-11-08T18:35-03:00",
+      "ids": [],
+      "message_id": 135,
+      "slot": "fisicos"
     }
   ],
   "publicados": {
@@ -2141,7 +2148,7 @@
   "relleno": {
     "clasicos": "2026-11-08",
     "memorias": "2026-11-08",
-    "proximos": "2026-11-07"
+    "proximos": "2026-11-08"
   },
   "relleno_juegos": {
     "045c126820": "2026-11-07",
@@ -2504,5 +2511,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-08T16:35:34.073977-03:00"
+  "ultimo_post": "2026-11-08T18:35:33.637522-03:00"
 }
