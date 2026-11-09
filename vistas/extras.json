@@ -354,7 +354,7 @@
       "marca": "redragon",
       "min_hist": 44990.0,
       "nombre": "Audífono Headset Inalambrico H848B",
-      "pct": -10.0,
+      "pct": 0.0,
       "precio": 54990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -390,7 +390,7 @@
       "marca": "redragon",
       "min_hist": 44990.0,
       "nombre": "Audífono Headset Inalambrico H84X",
-      "pct": -10.0,
+      "pct": 0.0,
       "precio": 54990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -426,7 +426,7 @@
       "marca": "redragon",
       "min_hist": 49990.0,
       "nombre": "Audífono Headset H510 Rgb Zeus X",
-      "pct": -20.0,
+      "pct": -9.1,
       "precio": 59990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -678,7 +678,7 @@
       "marca": "Logitech G",
       "min_hist": 89290,
       "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (FUJITECH)",
-      "pct": -1.8,
+      "pct": 0.0,
       "precio": 92490,
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
@@ -1038,7 +1038,7 @@
       "marca": "razer",
       "min_hist": 174990.0,
       "nombre": "Audífonos Gamer Kraken V4",
-      "pct": -31.4,
+      "pct": -13.6,
       "precio": 229990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -1121,6 +1121,23 @@
     {
       "avisos": [
         {
+          "precio": 299990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 349990.0,
+      "modelo": "Switch",
+      "nombre": "Consola Switch Neon + Mario Wonder Bundle",
+      "pct": 0,
+      "precio": 299990.0,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
+    },
+    {
+      "avisos": [
+        {
           "precio": 339990.0,
           "tienda": "Paris",
           "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
@@ -1134,23 +1151,6 @@
       "precio": 339990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 349990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 349990.0,
-      "modelo": "Switch",
-      "nombre": "Consola Switch Neon + Mario Wonder Bundle",
-      "pct": 0,
-      "precio": 349990.0,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
     },
     {
       "avisos": [
@@ -1204,7 +1204,7 @@
           "url": "https://www.todojuegos.cl/Productos/NS2/Consola-Nintendo-Switch-2/?ref=buscador"
         },
         {
-          "precio": 684990.0,
+          "precio": 644990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80872527/consola-nintendo-switch-2-neon-blue-neon-red"
         }
@@ -1217,6 +1217,23 @@
       "precio": 609990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 624990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 644990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Switch 2 Bundle",
+      "pct": 8.1,
+      "precio": 624990.0,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
     },
     {
       "avisos": [
@@ -1251,23 +1268,6 @@
       "precio": 659990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-2-juego-pokemon-legends-z-a"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 679990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 644990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Switch 2 Bundle",
-      "pct": -2.6,
-      "precio": 679990.0,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
     },
     {
       "avisos": [
@@ -1358,6 +1358,11 @@
       "avisos": [
         {
           "precio": 349990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80627204/Consola%20Switch%20Oled%20White%20Bu%20Nintendo"
+        },
+        {
+          "precio": 349990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-blanco"
         },
@@ -1365,11 +1370,6 @@
           "precio": 399990.0,
           "tienda": "Lider",
           "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688550"
-        },
-        {
-          "precio": 409990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80627204/Consola%20Switch%20Oled%20White%20Bu%20Nintendo"
         }
       ],
       "bundle": false,
@@ -1378,8 +1378,8 @@
       "nombre": "Consola Switch Oled White Bu",
       "pct": 0.0,
       "precio": 349990.0,
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-blanco"
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80627204/Consola%20Switch%20Oled%20White%20Bu%20Nintendo"
     },
     {
       "avisos": [
@@ -1447,6 +1447,12 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1636,26 +1642,8 @@
       "url": "https://articulo.mercadolibre.cl/MLC-2849402286"
     }
   ],
-  "revision": "2026-11-09T01:18:05Z",
+  "revision": "2026-11-09T07:16:51Z",
   "seguimientos": [
-    {
-      "avisos": [
-        {
-          "precio": 45990,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-4649449138"
-        }
-      ],
-      "item": "Redragon Zeus",
-      "min_hist": 45990,
-      "nombre": "Auriculares para juegos Redragon Zeus Lite P3, negros, H510-lt (DUST2G",
-      "precio": 45990,
-      "tarjeta": null,
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-4649449138",
-      "variante": "lite"
-    },
     {
       "avisos": [
         {

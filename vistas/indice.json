@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 483,
-  "pendientes": 1,
+  "fisicos": 484,
+  "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-09T01:18:05Z",
+  "revision": "2026-11-09T07:16:51Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -171,15 +171,6 @@
       "slug": "civilization"
     },
     {
-      "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
-      "nombres": [
-        "contra rogue corps"
-      ],
-      "orden": 1,
-      "slug": "contra"
-    },
-    {
       "juego": "Crash / Spyro",
       "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000\n   🟢 Crash Bandicoot 4: It’s About Time −12%",
       "nombres": [
@@ -252,7 +243,7 @@
     },
     {
       "juego": "Donkey Kong",
-      "linea": "🟢 <b>Donkey Kong</b> — 📦 4 desde $44.000\n   🟢 Donkey Kong Bananza −7%",
+      "linea": "🟢 <b>Donkey Kong</b> — 📦 4 desde $44.000\n   🟢 Donkey Kong Bananza",
       "nombres": [
         "donkey kong bananza",
         "donkey kong country returns hd",
@@ -496,8 +487,9 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 4 desde $22.900 · 🎮 3 desde US$2.18\n   🟢 LEGO Bricktales −79%",
+      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 3 desde US$2.18\n   🟢 LEGO Bricktales −79%",
       "nombres": [
+        "lego brawls",
         "lego bricktales",
         "lego dc super villains",
         "lego party",
@@ -744,7 +736,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $24.990 · 🎮 113 desde US$1.98\n   🟢 Ys Origin −89%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 114 desde US$1.98\n   🟢 Ys Origin −89%",
       "nombres": [
         "actraiser renaissance",
         "airhead",
@@ -776,6 +768,7 @@
         "farmagia",
         "farmagia digital deluxe edition",
         "final fantasy i vi bundle",
+        "gang beasts",
         "golf story",
         "gris",
         "harvestella",
@@ -1035,7 +1028,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000\n   🟢 Sonic Frontiers −14%",
+      "linea": "🟢 <b>Sonic</b> — 📦 10 desde $28.000\n   🟢 Sonic Frontiers −14%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1052,7 +1045,7 @@
     },
     {
       "juego": "Soul Reaver",
-      "linea": "🟢 <b>Soul Reaver</b> — 📦 3 desde $32.900\n   🟢 Legacy of Kain Soul Reaver 1&amp;2 Remastered −11%",
+      "linea": "🟢 <b>Soul Reaver</b> — 📦 3 desde $32.900\n   🟢 Aspyr Legacy of Kain: Soul Reaver −57%",
       "nombres": [
         "aspyr legacy of kain soul reaver",
         "legacy of kain soul reaver 1 2 remastered"
@@ -1073,7 +1066,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990\n   🟢 It Takes Two",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990\n   🟢 It Takes Two",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1092,7 +1085,7 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.990\n   🟢 Star Wars Racer Commando rojo",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
@@ -1104,7 +1097,7 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $34.900\n   🟢 Stardew Valley:",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 1 desde $49.900\n   🟢 Stardew Valley:",
       "nombres": [
         "stardew valley"
       ],
@@ -1160,7 +1153,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 20 desde $29.990\n   🟢 40 Sports Games In 1 / - Snipercl",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 20 desde $29.990\n   🟢 Nintendo Switch Sports Resort −18%",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1202,7 +1195,7 @@
     },
     {
       "juego": "Tomodachi Life",
-      "linea": "🟢 <b>Tomodachi Life</b> — 📦 2 desde $56.990\n   🟢 Tomodachi Life −24%",
+      "linea": "🟢 <b>Tomodachi Life</b> — 📦 2 desde $56.990\n   🟢 Tomodachi Life −21%",
       "nombres": [
         "tomodachi life",
         "tomodachi life living the dream"
@@ -1275,7 +1268,7 @@
     },
     {
       "juego": "Xenoblade X",
-      "linea": "🟢 <b>Xenoblade X</b> — 📦 2 desde $54.900\n   🟢 Xenoblade Chronicles X: Definitive Edition −36%",
+      "linea": "🟢 <b>Xenoblade X</b> — 📦 2 desde $54.900\n   🟢 Xenoblade Chronicles X: Definitive Edition −35%",
       "nombres": [
         "xenoblade chronicles x definitive edition"
       ],
@@ -1284,12 +1277,12 @@
     },
     {
       "juego": "Yoshi",
-      "linea": "⚪ <b>Yoshi</b> — 📦 2 desde $69.990",
+      "linea": "🟢 <b>Yoshi</b> — 📦 2 desde $61.990\n   🟢 Sw Yoshi −17%",
       "nombres": [
         "sw yoshi",
         "yoshi and the mysterious book"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "yoshi"
     },
     {
@@ -1307,7 +1300,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "oled zelda tears of the kingdom japan specs",
@@ -1321,5 +1314,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 633
+  "total": 631
 }
