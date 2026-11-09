@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:99f5b3318f",
+        "text": "⚙️ New Tales from the Borderlands · $45.990"
+      },
+      "id": "99f5b3318f",
+      "nivel": "compra",
+      "nombre": "New Tales from the Borderlands",
+      "pct": 6.1,
+      "texto": "🟢 <b>COMPRA YA</b> · −6%\n<b>New Tales from the Borderlands</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$45.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Es el precio más bajo que he visto\n   Ahorras $3.000 frente a su precio típico ($48.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $45.990 (5 nov, Lider) · típico $48.990 · máximo $49.990\n   ▅▅▅▅▅▅▅▅▆▆████▆▆▆▆███▃▁▁▁  últimos 25 días\n🎮 Digital: US$35.41 ≈ $34.610 en 🇨🇦 Canadá\n   ➜ El digital es $11.380 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 25 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-2k-new-tales-from-the-borderlands-deluxe-switch/00071042555991\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:29954a10f6",
         "text": "⚙️ Borderlands 3 Ultimate Edition · $34.990"
       },
@@ -26,5 +38,5 @@
     }
   ],
   "juego": "Borderlands",
-  "revision": "2026-11-09T13:16:13Z"
+  "revision": "2026-11-09T19:18:01Z"
 }

@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 492,
+  "fisicos": 501,
   "pendientes": 3,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-09T13:16:13Z",
+  "revision": "2026-11-09T19:18:01Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -86,6 +86,18 @@
       "slug": "atelier"
     },
     {
+      "juego": "Batman",
+      "linea": "🟢 <b>Batman</b> — 📦 1 desde $49.990 · 🎮 3 desde US$7.77\n   🟢 Batman: Arkham Asylum −60%",
+      "nombres": [
+        "batman arkham asylum",
+        "batman arkham city",
+        "batman arkham knight",
+        "batman arkham trilogy sniper"
+      ],
+      "orden": 1,
+      "slug": "batman"
+    },
+    {
       "juego": "Bayonetta",
       "linea": "🟢 <b>Bayonetta</b> — 📦 4 desde $39.990\n   🟢 Bayonetta 3",
       "nombres": [
@@ -97,9 +109,10 @@
     },
     {
       "juego": "Borderlands",
-      "linea": "🟢 <b>Borderlands</b> — 📦 2 desde $24.990\n   🟢 Borderlands 3 Ultimate Edition",
+      "linea": "🟢 <b>Borderlands</b> — 📦 3 desde $24.990\n   🟢 New Tales from the Borderlands −6%",
       "nombres": [
-        "borderlands 3 ultimate edition"
+        "borderlands 3 ultimate edition",
+        "new tales from the borderlands"
       ],
       "orden": 1,
       "slug": "borderlands"
@@ -181,7 +194,7 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 7 desde $28.000\n   🟢 Crash Bandicoot 4: It’s About Time −12%",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 8 desde $28.000\n   🟢 Crash Bandicoot 4: It’s About Time −12%",
       "nombres": [
         "crash 4 bandicoot",
         "crash bandicoot 4 its about time",
@@ -263,11 +276,10 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟢 <b>Doom</b> — 📦 4 desde $44.990\n   🟢 DOOM 64",
+      "linea": "🟢 <b>Doom</b> — 📦 3 desde $44.990\n   🟢 DOOM 64",
       "nombres": [
         "doom",
-        "doom 64",
-        "the last kids on earth and the staff of doom"
+        "doom 64"
       ],
       "orden": 1,
       "slug": "doom"
@@ -308,14 +320,12 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 9 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 7 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
         "ea sports fc 26",
-        "ea sports fc 27",
-        "fifa 21 electronic arts",
-        "fifa 22 de electronic arts"
+        "ea sports fc 27"
       ],
       "orden": 1,
       "slug": "ea-sports-fc"
@@ -441,7 +451,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 17 desde $19.900\n   🟢 Just Dance 2022",
+      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2022",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -449,7 +459,6 @@
         "just dance 2021",
         "just dance 2022",
         "just dance 2024 edition",
-        "just dance 2025",
         "just dance 2026 limited edition",
         "just dance decades of hits limited edition",
         "pulseras para just dance y zumba",
@@ -497,12 +506,14 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 4 desde $22.900 · 🎮 3 desde US$2.18\n   🟢 LEGO Bricktales −79%",
+      "linea": "🟢 <b>LEGO</b> — 📦 4 desde $22.900 · 🎮 7 desde US$2.04\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
         "lego bricktales",
         "lego dc super villains",
+        "lego ninjago movie video game",
         "lego party",
         "lego party nintendo switch 2 edition",
+        "lego the incredibles",
         "lego worlds",
         "nintendo lego horizon aventuras sniper cl",
         "the lego movie 2 videogame"
@@ -596,7 +607,7 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $49.990 · 🎮 2 desde US$21.25\n   🟢 MARVEL Cosmic Invasion −25%",
+      "linea": "🟢 <b>Marvel</b> — 🎮 3 desde US$3.42\n   🟢 LEGO Marvel Super Heroes 2 −85%",
       "nombres": [
         "lego marvel super heroes 2",
         "marvel cosmic invasion"
@@ -675,7 +686,7 @@
     },
     {
       "juego": "Mortal Kombat",
-      "linea": "🟢 <b>Mortal Kombat</b> — 📦 5 desde $29.900\n   🟢 Mortal Kombat: Legacy Kollection −31%",
+      "linea": "🟢 <b>Mortal Kombat</b> — 📦 5 desde $29.900 · 🎮 1 desde US$7.26\n   🟢 Mortal Kombat 11 −80%",
       "nombres": [
         "mortal kombat 1",
         "mortal kombat 11",
@@ -727,7 +738,7 @@
     },
     {
       "juego": "Okami",
-      "linea": "🟢 <b>Okami</b> — 📦 1 desde $39.990\n   🟢 OKAMI HD",
+      "linea": "🟢 <b>Okami</b> — 📦 2 desde $34.990\n   🟢 OKAMI HD",
       "nombres": [
         "okami hd"
       ],
@@ -745,7 +756,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 111 desde US$1.98\n   🟢 Ys Origin −89%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 112 desde US$1.98\n   🟢 Ys Origin −89%",
       "nombres": [
         "actraiser renaissance",
         "airhead",
@@ -854,6 +865,7 @@
         "wild hearts s",
         "wo long fallen dynasty complete edition",
         "wonder boy the dragons trap",
+        "you suck at parking",
         "ys origin"
       ],
       "orden": 1,
@@ -937,19 +949,20 @@
     },
     {
       "juego": "Rayman",
-      "linea": "🟢 <b>Rayman</b> — 📦 4 desde $29.900\n   🟢 Rayman Legends Retold - Launch Edition",
+      "linea": "🟢 <b>Rayman</b> — 📦 5 desde $29.900\n   🟢 Rayman Legends Retold - Launch Edition",
       "nombres": [
         "rayman 30th anniversary edition",
         "rayman edicion 30o aniversario atari",
         "rayman legends definitive edition",
-        "rayman legends retold launch edition"
+        "rayman legends retold launch edition",
+        "ubisoft rayman legends edicion definitiva"
       ],
       "orden": 1,
       "slug": "rayman"
     },
     {
       "juego": "Resident Evil",
-      "linea": "🟢 <b>Resident Evil</b> — 📦 7 desde $39.900\n   🟢 Resident Evil 3",
+      "linea": "🟢 <b>Resident Evil</b> — 📦 8 desde $39.900\n   🟢 Resident Evil 3",
       "nombres": [
         "resident evil",
         "resident evil 3",
@@ -1072,7 +1085,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990\n   🟢 It Takes Two",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990\n   🟢 It Takes Two",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1103,7 +1116,7 @@
     },
     {
       "juego": "Stardew Valley",
-      "linea": "🟢 <b>Stardew Valley</b> — 📦 1 desde $49.900\n   🟢 Stardew Valley:",
+      "linea": "🟢 <b>Stardew Valley</b> — 📦 2 desde $34.900\n   🟢 Stardew Valley:",
       "nombres": [
         "stardew valley"
       ],
@@ -1148,7 +1161,7 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $49.990\n   🟢 Pro Controller edición Super Smash Bros",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $51.990\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
         "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
@@ -1186,9 +1199,10 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $39.900 · 🎮 2 desde US$13.91\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
+      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $39.900 · 🎮 2 desde US$13.91\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
         "bandai namco tales of berseria remasterizado",
+        "bandai namco tales of xillia",
         "tales of berseria remastered",
         "tales of graces f remastered",
         "tales of symphonia remastered",
@@ -1211,14 +1225,12 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 15 desde $29.990 · 🎮 2 desde US$26.84\n   🟢 Trails in the Sky 1st Chapter −50%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990 · 🎮 2 desde US$26.84\n   🟢 Trails in the Sky 1st Chapter −50%",
       "nombres": [
-        "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
         "legend of heroes trails to azure deluxe ed sniper",
         "nis america the legend of heroes trails into reverie",
-        "nis america the legend of heroes trails to azure",
         "nis america trails beyond horizon edicion de lujo",
         "nis america trails from zero trails to azure",
         "the legend of heroes trails from zero",
@@ -1306,7 +1318,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "oled zelda tears of the kingdom japan specs",
@@ -1320,5 +1332,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 631
+  "total": 642
 }

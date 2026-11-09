@@ -1548,27 +1548,6 @@
     {
       "avisos": [
         {
-          "precio": 22990.0,
-          "tienda": "Falabella",
-          "titulo": "Micro Sd Android 128Gb",
-          "url": "https://www.falabella.com/falabella-cl/product/4051704/Sandisk-Micro-Sd-Android-128Gb"
-        }
-      ],
-      "gb": 128,
-      "marca": "SanDisk",
-      "min_hist": 22990.0,
-      "nombre": "microSD 128 GB · SanDisk",
-      "pct": 0.0,
-      "por_gb": 180,
-      "precio": 22990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "tipo": "normal",
-      "url": "https://www.falabella.com/falabella-cl/product/4051704/Sandisk-Micro-Sd-Android-128Gb"
-    },
-    {
-      "avisos": [
-        {
           "precio": 25990.0,
           "tienda": "Paris",
           "titulo": "Tarjeta Kingston de Memoria Micro SD 128GB",
@@ -1592,6 +1571,27 @@
       "tienda": "Paris",
       "tipo": "normal",
       "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 44990.0,
+          "tienda": "Falabella",
+          "titulo": "Micro Sd Switch Uhs-I Card 128Gb",
+          "url": "https://www.falabella.com/falabella-cl/product/14396069/Micro-Sd-Switch-Uhs-I-Card-128Gb-Sandisk"
+        }
+      ],
+      "gb": 128,
+      "marca": "SanDisk",
+      "min_hist": 22990.0,
+      "nombre": "microSD 128 GB · SanDisk",
+      "pct": -95.7,
+      "por_gb": 351,
+      "precio": 44990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Falabella",
+      "tipo": "normal",
+      "url": "https://www.falabella.com/falabella-cl/product/14396069/Micro-Sd-Switch-Uhs-I-Card-128Gb-Sandisk"
     },
     {
       "avisos": [
@@ -1636,7 +1636,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-2849402286"
     }
   ],
-  "revision": "2026-11-09T13:16:13Z",
+  "revision": "2026-11-09T19:18:01Z",
   "seguimientos": [
     {
       "avisos": [

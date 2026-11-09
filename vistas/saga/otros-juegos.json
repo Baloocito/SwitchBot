@@ -57,12 +57,12 @@
         "callback_data": "a:6ac664bc49",
         "text": "⚙️ BALAN WONDERWORLD · US$5.44"
       },
-      "con_fisico": false,
+      "con_fisico": true,
       "id": "6ac664bc49",
       "nivel": "compra",
       "nombre": "BALAN WONDERWORLD",
       "pct": 85.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −85%\n<b>BALAN WONDERWORLD</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.44</b> ≈ $5.317 en 🇧🇷 Brasil\n   Precio en la tienda: R$29,92 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$36.24 → ahorras US$30.80 · ⏳ termina el 17 nov (en 8 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/balan-wonderworld-switch/\">US$5.44</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/balan-wonderworld-switch/\">US$5.68</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/balan-wonderworld-switch/\">US$5.91</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/balan-wonderworld-switch/\">US$5.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/balan-wonderworld-switch/\">US$6.35</a>\n   El más caro: 🇨🇴 US$7.26\n📈 Mínimo US$5.44 (6 nov en 🇧🇷 Brasil)\n   █▂▂▄▁▁▁▁  últimos 8 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/balan-wonderworld-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −85%\n<b>BALAN WONDERWORLD</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.44</b> ≈ $5.317 en 🇧🇷 Brasil\n   Precio en la tienda: R$29,92 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$36.24 → ahorras US$30.80 · ⏳ termina el 17 nov (en 8 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/balan-wonderworld-switch/\">US$5.44</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/balan-wonderworld-switch/\">US$5.68</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/balan-wonderworld-switch/\">US$5.91</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/balan-wonderworld-switch/\">US$5.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/balan-wonderworld-switch/\">US$6.35</a>\n   El más caro: 🇨🇴 US$7.26\n📦 Físico: $50.000 en Paris → el digital te ahorra $44.683\n📈 Mínimo US$5.44 (6 nov en 🇧🇷 Brasil)\n   █▂▂▄▁▁▁▁  últimos 8 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/balan-wonderworld-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -301,6 +301,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:4069a20e93",
+        "text": "⚙️ You Suck at Parking · US$2.57"
+      },
+      "con_fisico": false,
+      "id": "4069a20e93",
+      "nivel": "compra",
+      "nombre": "You Suck at Parking",
+      "pct": 80.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>You Suck at Parking</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.57</b> ≈ $2.512 en 🇲🇽 México\n   Precio en la tienda: MX$47,80 MXN\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$12.83 → ahorras US$10.26 · ⏳ termina el 17 nov (en 8 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/you-suck-at-parking-switch/\">US$2.57</a> ← el más barato\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/you-suck-at-parking-switch/\">US$3.15</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/you-suck-at-parking-switch/\">US$3.26</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/you-suck-at-parking-switch/\">US$3.54</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/you-suck-at-parking-switch/\">US$3.89</a>\n   El más caro: 🇵🇪 US$4.45\n📈 Mínimo US$2.57 (9 nov en 🇲🇽 México)\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/you-suck-at-parking-switch/\">Ver en la eShop de México</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:7f3d78c27c",
         "text": "⚙️ Exit the Gungeon · US$1.98"
       },
@@ -530,7 +543,7 @@
       "nivel": "compra",
       "nombre": "Life is Strange: True Colors",
       "pct": 70.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>Life is Strange: True Colors</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$13.20</b> ≈ $12.902 en 🇨🇱 Chile\n   Precio en la tienda: $12.899 CLP\n💡 Oferta de −70% en la eShop\n🏷️ Normal US$43.99 → ahorras US$30.79 · ⏳ termina el 17 nov (en 8 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/life-is-strange-true-colors-switch/\">US$13.20</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/life-is-strange-true-colors-switch/\">US$16.34</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/life-is-strange-true-colors-switch/\">US$17.00</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/life-is-strange-true-colors-switch/\">US$17.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/life-is-strange-true-colors-switch/\">US$19.31</a>\n   El más caro: 🇵🇪 US$20.90\n📦 Físico: $54.990 en Paris → el digital te ahorra $42.088\n📈 Mínimo US$12.98 (2 nov en 🇨🇱 Chile)\n   ▁▁▆▆██▇▇  últimos 8 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/life-is-strange-true-colors-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>Life is Strange: True Colors</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$13.20</b> ≈ $12.902 en 🇨🇱 Chile\n   Precio en la tienda: $12.899 CLP\n💡 Oferta de −70% en la eShop\n🏷️ Normal US$43.99 → ahorras US$30.79 · ⏳ termina el 17 nov (en 8 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/life-is-strange-true-colors-switch/\">US$13.20</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/life-is-strange-true-colors-switch/\">US$16.34</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/life-is-strange-true-colors-switch/\">US$17.00</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/life-is-strange-true-colors-switch/\">US$17.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/life-is-strange-true-colors-switch/\">US$19.31</a>\n   El más caro: 🇵🇪 US$20.90\n📦 Físico: $44.990 en Falabella → el digital te ahorra $32.088\n📈 Mínimo US$12.98 (2 nov en 🇨🇱 Chile)\n   ▁▁▆▆██▇▇  últimos 8 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/life-is-strange-true-colors-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -751,7 +764,7 @@
       "nivel": "compra",
       "nombre": "Untitled Goose Game",
       "pct": 60.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Untitled Goose Game</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.19</b> ≈ $5.073 en 🇨🇱 Chile\n   Precio en la tienda: $5.069 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$12.97 → ahorras US$7.78 · ⏳ termina el 21 nov (en 13 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/untitled-goose-game-switch/\">US$5.19</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/untitled-goose-game-switch/\">US$5.38</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/untitled-goose-game-switch/\">US$7.36</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/untitled-goose-game-switch/\">US$7.66</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/untitled-goose-game-switch/\">US$7.86</a>\n   El más caro: 🇲🇽 US$8.37\n📦 Físico: $39.990 en Falabella → el digital te ahorra $34.917\n📈 Mínimo US$5.17 (4 nov en 🇨🇱 Chile)\n   ▁▁██▆▆  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/untitled-goose-game-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Untitled Goose Game</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.19</b> ≈ $5.073 en 🇨🇱 Chile\n   Precio en la tienda: $5.069 CLP\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$12.97 → ahorras US$7.78 · ⏳ termina el 21 nov (en 12 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/untitled-goose-game-switch/\">US$5.19</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/untitled-goose-game-switch/\">US$5.38</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/untitled-goose-game-switch/\">US$7.36</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/untitled-goose-game-switch/\">US$7.66</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/untitled-goose-game-switch/\">US$7.86</a>\n   El más caro: 🇲🇽 US$8.37\n📦 Físico: $39.990 en Falabella → el digital te ahorra $34.917\n📈 Mínimo US$5.17 (4 nov en 🇨🇱 Chile)\n   ▁▁██▆▆  últimos 6 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/untitled-goose-game-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -1193,7 +1206,7 @@
       "nivel": "compra",
       "nombre": "FAIRY TAIL 2",
       "pct": 50.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>FAIRY TAIL 2</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$28.33</b> ≈ $27.690 en 🇨🇦 Canadá\n   Precio en la tienda: CA$39,99 CAD\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$56.67 → ahorras US$28.34 · ⏳ termina el 18 nov (en 9 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/fairy-tail-2-switch/\">US$28.33</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/fairy-tail-2-switch/\">US$28.98</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/fairy-tail-2-switch/\">US$29.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/fairy-tail-2-switch/\">US$30.18</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/fairy-tail-2-switch/\">US$34.51</a>\n   El más caro: 🇨🇴 US$45.00\n📦 Físico: $69.990 en Lider → el digital te ahorra $42.300\n📈 Mínimo US$28.33 (8 nov en 🇨🇦 Canadá)\n   █▇▇▇▂▂▁▁  últimos 8 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/fairy-tail-2-switch/\">Ver en la eShop de Canadá</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>FAIRY TAIL 2</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$28.33</b> ≈ $27.690 en 🇨🇦 Canadá\n   Precio en la tienda: CA$39,99 CAD\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$56.67 → ahorras US$28.34 · ⏳ termina el 18 nov (en 9 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/fairy-tail-2-switch/\">US$28.33</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/fairy-tail-2-switch/\">US$28.98</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/fairy-tail-2-switch/\">US$29.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/fairy-tail-2-switch/\">US$30.18</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/fairy-tail-2-switch/\">US$34.51</a>\n   El más caro: 🇨🇴 US$45.00\n📦 Físico: $69.990 en Falabella → el digital te ahorra $42.300\n📈 Mínimo US$28.33 (8 nov en 🇨🇦 Canadá)\n   █▇▇▇▂▂▁▁  últimos 8 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/fairy-tail-2-switch/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
     },
     {
@@ -1414,7 +1427,7 @@
       "nivel": "bueno",
       "nombre": "Mutazione",
       "pct": 39.9,
-      "texto": "🟡 <b>BUEN PRECIO</b> · −40%\n<b>Mutazione</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.45</b> ≈ $6.304 en 🇨🇱 Chile\n   Precio en la tienda: $6.300 CLP\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$10.74 → ahorras US$4.29 · ⏳ termina el 16 nov (en 8 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/mutazione-switch/\">US$6.45</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/mutazione-switch/\">US$6.54</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/mutazione-switch/\">US$7.34</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/mutazione-switch/\">US$7.49</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/mutazione-switch/\">US$8.79</a>\n   El más caro: 🇺🇸 US$11.99\n📈 Mínimo US$6.33 (26 oct en 🇨🇱 Chile)\n   ▃▁▁▃▅▃▄▃▁▁▆▆██▇▇  últimos 16 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/mutazione-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟡 <b>BUEN PRECIO</b> · −40%\n<b>Mutazione</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.45</b> ≈ $6.304 en 🇨🇱 Chile\n   Precio en la tienda: $6.300 CLP\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$10.74 → ahorras US$4.29 · ⏳ termina el 16 nov (en 7 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/mutazione-switch/\">US$6.45</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/mutazione-switch/\">US$6.54</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/mutazione-switch/\">US$7.34</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/mutazione-switch/\">US$7.49</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/mutazione-switch/\">US$8.79</a>\n   El más caro: 🇺🇸 US$11.99\n📈 Mínimo US$6.33 (26 oct en 🇨🇱 Chile)\n   ▃▁▁▃▅▃▄▃▁▁▆▆██▇▇  últimos 16 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/mutazione-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -1445,5 +1458,5 @@
     }
   ],
   "juego": "🔍 Otros juegos",
-  "revision": "2026-11-09T13:16:13Z"
+  "revision": "2026-11-09T19:18:01Z"
 }

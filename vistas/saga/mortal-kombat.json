@@ -2,6 +2,19 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:4b83701c1f",
+        "text": "⚙️ Mortal Kombat 11 · US$7.26"
+      },
+      "con_fisico": true,
+      "id": "4b83701c1f",
+      "nivel": "compra",
+      "nombre": "Mortal Kombat 11",
+      "pct": 80.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Mortal Kombat 11</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$7.26</b> ≈ $7.096 en 🇧🇷 Brasil\n   Precio en la tienda: R$39,99 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$36.33 → ahorras US$29.07 · ⏳ termina el 1 dic (en 22 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/mortal-kombat-11-switch/\">US$7.26</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/mortal-kombat-11-switch/\">US$8.59</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/mortal-kombat-11-switch/\">US$9.81</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/mortal-kombat-11-switch/\">US$9.91</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/mortal-kombat-11-switch/\">US$9.99</a>\n   El más caro: 🇲🇽 US$15.33\n📦 Físico: $29.900 en TodoJuegos → el digital te ahorra $22.804\n📈 Mínimo US$7.26 (9 nov en 🇧🇷 Brasil)\n   ████████████▇▇▇▇▇▇▇▇▇▇▇▇▇▇▁  últimos 27 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/mortal-kombat-11-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:7b02474c57",
         "text": "⚙️ Mortal Kombat: Legacy Kollect… · $54.900"
       },
@@ -45,7 +58,7 @@
       "nivel": "normal",
       "nombre": "Mortal Kombat 11",
       "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Mortal Kombat 11</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $25.000 (27 oct, TodoJuegos) · típico $29.900 · máximo $29.900\n   ████████▁▁▁▁▁▁▁▁██████  últimos 22 días\n🎮 Digital: US$36.33 ≈ $35.509 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $5.609 y además se puede revender\n📈 Precio subió 20% en las últimas 2 semanas\n🛒 <a href=\"https://listado.mercadolibre.cl/mortal-kombat-11-nintendo-switch\">MercadoLibre</a>: nuevo ~$37.990 (8 avisos)\n💰 <b>Reventa</b>: lo compras a $29.900 y nuevo se vende a ~$37.990 (+$8.090 antes de comisiones)\n🔎 Confianza media: 1 tienda y 22 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Mortal-Kombat-11/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Mortal Kombat 11</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $25.000 (27 oct, TodoJuegos) · típico $29.900 · máximo $29.900\n   ████████▁▁▁▁▁▁▁▁██████  últimos 22 días\n🎮 Digital: US$7.26 ≈ $7.096 en 🇧🇷 Brasil (−80%)\n   ➜ El digital es $22.804 más barato, pero no se puede revender\n📈 Precio subió 20% en las últimas 2 semanas\n🛒 <a href=\"https://listado.mercadolibre.cl/mortal-kombat-11-nintendo-switch\">MercadoLibre</a>: nuevo ~$37.990 (8 avisos)\n💰 <b>Reventa</b>: lo compras a $29.900 y nuevo se vende a ~$37.990 (+$8.090 antes de comisiones)\n🔎 Confianza media: 1 tienda y 22 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Mortal-Kombat-11/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
     },
     {
@@ -62,5 +75,5 @@
     }
   ],
   "juego": "Mortal Kombat",
-  "revision": "2026-11-09T13:16:13Z"
+  "revision": "2026-11-09T19:18:01Z"
 }
