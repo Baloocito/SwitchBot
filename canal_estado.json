@@ -5,17 +5,6 @@
   },
   "cola": {},
   "dias": {
-    "2026-10-26": {
-      "bombazos": 1,
-      "posts": 6,
-      "slots": [
-        "top",
-        "pack",
-        "tarde",
-        "fisicos",
-        "ultima"
-      ]
-    },
     "2026-10-27": {
       "bombazos": 1,
       "posts": 6,
@@ -164,6 +153,11 @@
         "fisicos",
         "ultima"
       ]
+    },
+    "2026-11-09": {
+      "bombazos": 1,
+      "posts": 1,
+      "slots": []
     }
   },
   "posts": [
@@ -1315,6 +1309,14 @@
       ],
       "message_id": 136,
       "slot": "bombazo"
+    },
+    {
+      "fecha": "2026-11-09T08:35-03:00",
+      "ids": [
+        "720c42fbf1"
+      ],
+      "message_id": 137,
+      "slot": "bombazo"
     }
   ],
   "publicados": {
@@ -1664,7 +1666,7 @@
       "slot": "top"
     },
     "720c42fbf1": {
-      "fecha": "2026-11-02",
+      "fecha": "2026-11-09",
       "precio": 6870,
       "slot": "bombazo"
     },
@@ -2525,5 +2527,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-08T22:35:33.916269-03:00"
+  "ultimo_post": "2026-11-09T08:35:37.078236-03:00"
 }
