@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 484,
-  "pendientes": 2,
+  "fisicos": 492,
+  "pendientes": 3,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-09T07:16:51Z",
+  "revision": "2026-11-09T13:16:13Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -142,7 +142,7 @@
     },
     {
       "juego": "Celeste",
-      "linea": "🟢 <b>Celeste</b> — 📦 1 desde $79.990 · 🎮 1 desde US$2.69\n   🟢 Celeste −75%",
+      "linea": "🟢 <b>Celeste</b> — 📦 2 desde $44.990 · 🎮 1 desde US$2.69\n   🟢 Celeste −75%",
       "nombres": [
         "celeste"
       ],
@@ -169,6 +169,15 @@
       ],
       "orden": 4,
       "slug": "civilization"
+    },
+    {
+      "juego": "Contra",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
+      "nombres": [
+        "contra rogue corps"
+      ],
+      "orden": 1,
+      "slug": "contra"
     },
     {
       "juego": "Crash / Spyro",
@@ -299,7 +308,7 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 9 desde $35.990\n   🟢 EA SPORTS FC 26",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 9 desde $19.990\n   🟢 EA SPORTS FC 26 −44%",
       "nombres": [
         "ea sports fc 24",
         "ea sports fc 25",
@@ -393,7 +402,7 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 2 desde $74.990\n   🟢 Game Solutions 2 Go Hitman World of Assassination",
+      "linea": "🟢 <b>Hitman</b> — 📦 2 desde $75.990\n   🟢 HITMAN World of Assassination - Signature Edition",
       "nombres": [
         "game solutions 2 go hitman world of assassination",
         "hitman world of assassination signature edition"
@@ -432,7 +441,7 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 16 desde $19.900\n   🟢 Just Dance 2022",
+      "linea": "🟢 <b>Just Dance</b> — 📦 17 desde $19.900\n   🟢 Just Dance 2022",
       "nombres": [
         "just dance 2017",
         "just dance 2018",
@@ -443,6 +452,7 @@
         "just dance 2025",
         "just dance 2026 limited edition",
         "just dance decades of hits limited edition",
+        "pulseras para just dance y zumba",
         "ubisoft just dance 2018",
         "ubisoft just dance 2019",
         "ubisoft just dance 2020",
@@ -487,9 +497,8 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 3 desde US$2.18\n   🟢 LEGO Bricktales −79%",
+      "linea": "🟢 <b>LEGO</b> — 📦 4 desde $22.900 · 🎮 3 desde US$2.18\n   🟢 LEGO Bricktales −79%",
       "nombres": [
-        "lego brawls",
         "lego bricktales",
         "lego dc super villains",
         "lego party",
@@ -644,11 +653,11 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "⚪ <b>Minecraft</b> — 📦 2 desde $27.000",
+      "linea": "🟢 <b>Minecraft</b> — 📦 2 desde $23.990\n   🟢 Minecraft: Nintendo Switch Edition −20%",
       "nombres": [
         "minecraft nintendo switch edition"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "minecraft"
     },
     {
@@ -736,7 +745,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 114 desde US$1.98\n   🟢 Ys Origin −89%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 111 desde US$1.98\n   🟢 Ys Origin −89%",
       "nombres": [
         "actraiser renaissance",
         "airhead",
@@ -748,7 +757,6 @@
         "broforce",
         "chocobo gp",
         "crisis core final fantasy vii reunion digital deluxe edition",
-        "cross tails",
         "darkest dungeon",
         "darkest dungeon ii",
         "deadcraft",
@@ -757,7 +765,6 @@
         "dungeon encounters",
         "dynasty warriors 8 xtreme legends definitive edition",
         "dynasty warriors 9 empires",
-        "dynasty warriors origins",
         "el hijo a wild west tale",
         "enter the gungeon",
         "etrange overlord",
@@ -784,7 +791,6 @@
         "loop8 summer of gods",
         "lost sphear",
         "metal gear solid master collection vol 1",
-        "moonlighter",
         "moving out 2",
         "mutazione",
         "my friend pedro",
@@ -1028,7 +1034,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 10 desde $28.000\n   🟢 Sonic Frontiers −14%",
+      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000\n   🟢 Sonic Frontiers −14%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1055,7 +1061,7 @@
     },
     {
       "juego": "Splatoon",
-      "linea": "🟢 <b>Splatoon</b> — 📦 4 desde $49.990\n   🟢 Splatoon 2",
+      "linea": "🟢 <b>Splatoon</b> — 📦 4 desde $49.990\n   🟢 Splatoon Raiders −13%",
       "nombres": [
         "splatoon 2",
         "splatoon 3",
@@ -1066,7 +1072,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990\n   🟢 It Takes Two",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990\n   🟢 It Takes Two",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1076,11 +1082,11 @@
     },
     {
       "juego": "Star Fox",
-      "linea": "⚪ <b>Star Fox</b> — 📦 1 desde $59.990",
+      "linea": "🟢 <b>Star Fox</b> — 📦 1 desde $51.990\n   🟢 Star Fox −13%",
       "nombres": [
         "star fox"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "star-fox"
     },
     {
@@ -1142,7 +1148,7 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $54.900\n   🟢 Pro Controller edición Super Smash Bros",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 3 desde $49.990\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
         "mando de gamecube para super smash bros ed",
         "pro controller edicion super smash bros",
@@ -1182,7 +1188,7 @@
       "juego": "Tales of",
       "linea": "🟢 <b>Tales of</b> — 📦 5 desde $39.900 · 🎮 2 desde US$13.91\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
-        "tales of arise beyond the dawn edition",
+        "bandai namco tales of berseria remasterizado",
         "tales of berseria remastered",
         "tales of graces f remastered",
         "tales of symphonia remastered",
@@ -1300,7 +1306,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "oled zelda tears of the kingdom japan specs",
