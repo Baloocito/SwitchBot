@@ -426,7 +426,7 @@
       "marca": "redragon",
       "min_hist": 49990.0,
       "nombre": "Audífono Headset H510 Rgb Zeus X",
-      "pct": -9.1,
+      "pct": 0.0,
       "precio": 59990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -489,24 +489,6 @@
     {
       "avisos": [
         {
-          "precio": 69990,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-3854803164"
-        }
-      ],
-      "marca": "Logitech G",
-      "min_hist": 69990,
-      "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (PROGAMINGCL)",
-      "pct": 0.0,
-      "precio": 69990,
-      "ref_tipo": "tipico",
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-3854803164"
-    },
-    {
-      "avisos": [
-        {
           "precio": 74990.0,
           "tarjeta": 67990.0,
           "tienda": "Falabella",
@@ -564,24 +546,6 @@
           "precio": 79990,
           "tarjeta": null,
           "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-1918818275"
-        }
-      ],
-      "marca": "Logitech G",
-      "min_hist": 79990,
-      "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (DUST2GG)",
-      "pct": 0.0,
-      "precio": 79990,
-      "ref_tipo": "tipico",
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-1918818275"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 79990,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-3175858844"
         }
       ],
@@ -593,24 +557,6 @@
       "ref_tipo": null,
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-3175858844"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 80490,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-3914443688"
-        }
-      ],
-      "marca": "Logitech G",
-      "min_hist": 80490,
-      "nombre": "Audífonos Gamer Inalámbricos Logitech G G321, Blancos (DUST2TIENDA)",
-      "pct": 0.0,
-      "precio": 80490,
-      "ref_tipo": "tipico",
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-3914443688"
     },
     {
       "avisos": [
@@ -1038,7 +984,7 @@
       "marca": "razer",
       "min_hist": 174990.0,
       "nombre": "Audífonos Gamer Kraken V4",
-      "pct": -13.6,
+      "pct": 0.0,
       "precio": 229990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -1122,12 +1068,29 @@
       "avisos": [
         {
           "precio": 299990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 339990.0,
+      "modelo": "Switch",
+      "nombre": "Consola Nintendo Switch Neon + Super Mario Bros Wonder + 3 meses NSO",
+      "pct": 14.3,
+      "precio": 299990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 299990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
         }
       ],
       "bundle": true,
-      "min_hist": 349990.0,
+      "min_hist": 299990.0,
       "modelo": "Switch",
       "nombre": "Consola Switch Neon + Mario Wonder Bundle",
       "pct": 0,
@@ -1138,24 +1101,7 @@
     {
       "avisos": [
         {
-          "precio": 339990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 339990.0,
-      "modelo": "Switch",
-      "nombre": "Consola Nintendo Switch Neon + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": 2.9,
-      "precio": 339990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 349990.0,
+          "precio": 319990.0,
           "tienda": "Lider",
           "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-1-1-neon-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688539"
         }
@@ -1164,20 +1110,25 @@
       "min_hist": 349990.0,
       "modelo": "Switch",
       "nombre": "Consola Nintendo Switch 1.1 Neón, Super Mario Bros. Wonder 3 Meses de Nintendo S",
-      "pct": 0.0,
-      "precio": 349990.0,
+      "pct": 8.6,
+      "precio": 319990.0,
       "tienda": "Lider",
       "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-1-1-neon-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688539"
     },
     {
       "avisos": [
         {
+          "precio": 594990.0,
+          "tienda": "Lider",
+          "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
+        },
+        {
           "precio": 609990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-2-ea-sports-fc-27-bundle"
         },
         {
-          "precio": 649990.0,
+          "precio": 619990.0,
           "tienda": "Paris",
           "url": "https://www.paris.cl/consola-nintendo-switch-2-ea-sports-fc-27-626979999.html"
         }
@@ -1185,11 +1136,28 @@
       "bundle": true,
       "min_hist": 599990.0,
       "modelo": "Switch 2",
-      "nombre": "Consola Nintendo Switch 2 + EA SPORTS FC 27 Bundle",
-      "pct": 0.0,
+      "nombre": "Nintendo Switch 2 + EA SPORTS FC 27",
+      "pct": 2.5,
+      "precio": 594990.0,
+      "tienda": "Lider",
+      "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 609990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 669990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Nintendo Switch 2 + Sports Resort + 3 Meses NSO",
+      "pct": 11.6,
       "precio": 609990.0,
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/consola-nintendo-switch-2-ea-sports-fc-27-bundle"
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
     },
     {
       "avisos": [
@@ -1227,10 +1195,10 @@
         }
       ],
       "bundle": true,
-      "min_hist": 644990.0,
+      "min_hist": 624990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Switch 2 Bundle",
-      "pct": 8.1,
+      "pct": 5.7,
       "precio": 624990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
@@ -1323,23 +1291,6 @@
     {
       "avisos": [
         {
-          "precio": 689990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 669990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Nintendo Switch 2 + Sports Resort + 3 Meses NSO",
-      "pct": 0.0,
-      "precio": 689990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
-    },
-    {
-      "avisos": [
-        {
           "precio": 259990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-portatil-nintendo-switch-lite-calipso"
@@ -1358,16 +1309,28 @@
       "avisos": [
         {
           "precio": 349990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 389990.0,
+      "modelo": "Switch OLED",
+      "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
+      "pct": 14.6,
+      "precio": 349990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 349990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80627204/Consola%20Switch%20Oled%20White%20Bu%20Nintendo"
         },
         {
-          "precio": 349990.0,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-blanco"
-        },
-        {
-          "precio": 399990.0,
+          "precio": 369990.0,
           "tienda": "Lider",
           "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688550"
         }
@@ -1414,23 +1377,6 @@
       "precio": 379990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nintendo-switch-online"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 389990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 389990.0,
-      "modelo": "Switch OLED",
-      "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": 4.9,
-      "precio": 389990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
     }
   ],
   "memorias": [
@@ -1447,6 +1393,12 @@
           "tienda": "8 Bits",
           "titulo": "Memoria Micro SD Express 256GB Original Nintendo Switch 2 Samsung",
           "url": "https://8-bits.cl/products/microsd-express-card-256gb-original-nintendo-switch-2"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1636,7 +1588,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-2849402286"
     }
   ],
-  "revision": "2026-11-10T01:17:24Z",
+  "revision": "2026-11-10T07:17:35Z",
   "seguimientos": [
     {
       "avisos": [
@@ -1677,10 +1629,10 @@
           "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-zeus-h510-pro-blanco"
         },
         {
-          "precio": 60890,
+          "precio": 61990,
           "tarjeta": null,
           "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-4389144974"
+          "url": "https://articulo.mercadolibre.cl/MLC-3995211136"
         }
       ],
       "item": "Redragon Zeus",
