@@ -50,6 +50,30 @@
     },
     {
       "boton": {
+        "callback_data": "a:41f137d44c",
+        "text": "⚙️ Koch Media Crash Bandicoot 4 · $69.990"
+      },
+      "id": "41f137d44c",
+      "nivel": "normal",
+      "nombre": "Koch Media Crash Bandicoot 4",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Koch Media Crash Bandicoot 4</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$69.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $68.990 (16 oct, Lider) · típico $69.990 · máximo $71.990\n   ▁▁▁▁▁▁▁▃█▆▆▆▆▆▆▆▆▆▃▃▁▃▃▃▃▃  últimos 26 días\n🔎 Confianza media: 1 tienda y 26 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-koch-media-crash-bandicoot-4-para-switch/00503091729418\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:40c71fcb59",
+        "text": "⚙️ Pewesv Crash Bandicoot 4 · $72.990"
+      },
+      "id": "40c71fcb59",
+      "nivel": "normal",
+      "nombre": "Pewesv Crash Bandicoot 4",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Pewesv Crash Bandicoot 4</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$72.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $67.990 (15 oct, Lider) · típico $72.990 · máximo $75.990\n   ▃▁▁▁▁▁▁▁▁██████▅▅▅▅▆▆▆▃▃▃▃▅▅  últimos 28 días\n🔎 Confianza media: 1 tienda y 28 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-pewesv-crash-bandicoot-4-para-nintendo-switch/00478751025125\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:f18504111d",
         "text": "⚙️ Spyro Reignited Trilogy · $34.900"
       },
@@ -59,20 +83,8 @@
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Spyro Reignited Trilogy</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$34.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.000 (27 oct, TodoJuegos) · típico $34.900 · máximo $63.990\n   ██▇▂▂▂▂▂▂▂▂▁▁▁██▂▂▂▂▂▂  últimos 22 días\n🎮 Digital: US$35.42 ≈ $34.582 en 🇨🇦 Canadá\n   ➜ El digital es $318 más barato, pero no se puede revender\n📈 Precio subió 20% en las últimas 2 semanas\n🛒 <a href=\"https://listado.mercadolibre.cl/spyro-reignited-trilogy-nintendo-switch\">MercadoLibre</a>: nuevo ~$36.248 (6 avisos)\n🔎 Confianza media: 1 tienda y 22 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Spyro-Reignited-Trilogy/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:41f137d44c",
-        "text": "⚙️ Koch Media Crash Bandicoot 4 · $75.990"
-      },
-      "id": "41f137d44c",
-      "nivel": "normal",
-      "nombre": "Koch Media Crash Bandicoot 4",
-      "pct": -8.6,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Koch Media Crash Bandicoot 4</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$75.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $68.990 (16 oct, Lider) · típico $69.990 · máximo $75.990\n   ▁▁▁▁▁▁▁▂▄▃▃▃▃▃▃▃▃▃▂▂▁▂▂▂▂█  últimos 26 días\n🔎 Confianza media: 1 tienda y 26 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-koch-media-crash-bandicoot-4-para-switch/00503091729418\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
     }
   ],
   "juego": "Crash / Spyro",
-  "revision": "2026-11-10T13:17:56Z"
+  "revision": "2026-11-10T19:17:22Z"
 }
