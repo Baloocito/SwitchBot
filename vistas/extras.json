@@ -1352,7 +1352,7 @@
         {
           "precio": 14990.0,
           "tienda": "Falabella",
-          "titulo": "Memoria Micro SD 64gb Android",
+          "titulo": "Tarjeta Micro SD 64Gb Android",
           "url": "https://www.falabella.com/falabella-cl/product/3526765/Sandisk-Tarjeta-Micro-SD-64Gb-Android"
         }
       ],
@@ -1392,6 +1392,12 @@
     {
       "avisos": [
         {
+          "precio": 25990.0,
+          "tienda": "Paris",
+          "titulo": "Tarjeta Kingston de Memoria Micro SD 128GB",
+          "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
+        },
+        {
           "precio": 26990.0,
           "tienda": "Falabella",
           "titulo": "Microsd Select Plus 128Gb",
@@ -1402,13 +1408,13 @@
       "marca": "Kingston",
       "min_hist": 25990.0,
       "nombre": "microSD 128 GB · Kingston",
-      "pct": -3.8,
-      "por_gb": 211,
-      "precio": 26990.0,
+      "pct": 0.0,
+      "por_gb": 203,
+      "precio": 25990.0,
       "ref_tipo": "tipico",
-      "tienda": "Falabella",
+      "tienda": "Paris",
       "tipo": "normal",
-      "url": "https://www.falabella.com/falabella-cl/product/16839129/Microsd-Select-Plus-128Gb-Kingston"
+      "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
     },
     {
       "avisos": [
@@ -1474,7 +1480,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-2849402286"
     }
   ],
-  "revision": "2026-11-11T14:18:20Z",
+  "revision": "2026-11-11T20:17:47Z",
   "seguimientos": [
     {
       "avisos": [

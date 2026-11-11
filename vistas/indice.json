@@ -2,11 +2,10 @@
   "evento": null,
   "fallos": {
     "PC Factory": 12,
-    "Paris": 1,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 490,
+  "fisicos": 556,
   "pendientes": 3,
   "proximo": {
     "desde": "2026-11-19",
@@ -14,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-11T14:18:20Z",
+  "revision": "2026-11-11T20:17:47Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -48,7 +47,7 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 4 desde $20.000\n   🟢 Assassin's Creed III: Remastered",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 3 desde $20.000\n   🟢 Assassin's Creed III: Remastered",
       "nombres": [
         "assassins creed iii remastered",
         "assassins creed the ezio collection"
@@ -221,10 +220,11 @@
     },
     {
       "juego": "Danganronpa",
-      "linea": "🟢 <b>Danganronpa</b> — 📦 3 desde $54.990\n   🟢 Danganronpa 2x2",
+      "linea": "🟢 <b>Danganronpa</b> — 📦 4 desde $54.990\n   🟢 Danganronpa 2x2",
       "nombres": [
         "danganronpa 2x2",
-        "danganronpa decadence"
+        "danganronpa decadence sniper",
+        "numskull danganronpa decadence"
       ],
       "orden": 1,
       "slug": "danganronpa"
@@ -240,11 +240,11 @@
     },
     {
       "juego": "Dead Cells",
-      "linea": "⚪ <b>Dead Cells</b> — 📦 1 desde $34.990",
+      "linea": "🟢 <b>Dead Cells</b> — 📦 1 desde $32.900\n   🟢 Dead Cells",
       "nombres": [
         "dead cells"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "dead-cells"
     },
     {
@@ -415,12 +415,12 @@
     },
     {
       "juego": "Hitman",
-      "linea": "⚪ <b>Hitman</b> — 📦 2 desde $75.990",
+      "linea": "🟢 <b>Hitman</b> — 📦 2 desde $75.990\n   🟢 HITMAN World of Assassination - Signature Edition",
       "nombres": [
         "game solutions 2 go hitman world of assassination",
         "hitman world of assassination signature edition"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "hitman"
     },
     {
@@ -485,8 +485,9 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 2 desde $39.720 · 🎮 1 desde US$22.58\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
+      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 3 desde $39.720 · 🎮 1 desde US$22.58\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
       "nombres": [
+        "kingdom hearts collection i iii europeo",
         "kingdom hearts melody of memory",
         "square enix kingdom hearts"
       ],
@@ -508,16 +509,16 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $19.900 · 🎮 7 desde US$2.05\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 9 desde US$2.05\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
         "lego brawls",
         "lego bricktales",
         "lego dc super villains",
-        "lego horizon adventures",
         "lego ninjago movie video game",
         "lego party",
         "lego party nintendo switch 2 edition",
         "lego the incredibles",
+        "lego voyagers",
         "lego worlds",
         "nintendo lego horizon aventuras sniper cl",
         "the lego movie 2 videogame"
@@ -537,11 +538,11 @@
     },
     {
       "juego": "Live A Live",
-      "linea": "⚪ <b>Live A Live</b> — 📦 1 desde $44.990",
+      "linea": "🟢 <b>Live A Live</b> — 📦 1 desde $39.990\n   🟢 LIVE A LIVE −11%",
       "nombres": [
         "live a live"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "live-a-live"
     },
     {
@@ -565,7 +566,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 27 desde $29.990\n   🟢 Super Mario RPG −7%",
+      "linea": "🟢 <b>Mario</b> — 📦 28 desde $29.990\n   🟢 Mario Tennis Aces −34%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -669,11 +670,11 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "⚪ <b>Minecraft</b> — 📦 2 desde $27.000",
+      "linea": "🟢 <b>Minecraft</b> — 📦 2 desde $23.990\n   🟢 Minecraft: Nintendo Switch Edition −20%",
       "nombres": [
         "minecraft nintendo switch edition"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "minecraft"
     },
     {
@@ -763,21 +764,28 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 113 desde US$1.97\n   🟢 Ys Origin −89%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 164 desde US$1.97\n   🟢 Ys Origin −89%",
       "nombres": [
+        "7scarlet",
+        "a memoir blue",
         "actraiser renaissance",
         "airhead",
         "akibas trip hellbound debriefed",
         "akibas trip undead undressed directors cut",
         "balan wonderworld",
         "blasphemous",
+        "blazing strike",
         "bloodstained ritual of the night",
         "broforce",
         "chocobo gp",
+        "cocoon",
         "crisis core final fantasy vii reunion digital deluxe edition",
+        "cuddly forest friends",
+        "dairoku agents of sakuratani",
         "darkest dungeon",
         "darkest dungeon ii",
         "deadcraft",
+        "despera drops",
         "dragon quest hd 2d erdrick trilogy collection",
         "dredge",
         "dungeon encounters",
@@ -797,9 +805,15 @@
         "golf story",
         "gris",
         "harvestella",
+        "hindsight",
+        "horgihugh and friends",
         "i am setsuna",
+        "illusion of itehari",
+        "inescapable no rules no rescue",
         "inside",
+        "jack jeanne",
         "katana zero",
+        "last stop",
         "life is strange 2",
         "life is strange arcadia bay collection",
         "life is strange double exposure",
@@ -807,23 +821,41 @@
         "limbo",
         "loop hero",
         "loop8 summer of gods",
+        "lorelei and the laser eyes",
+        "lorelei and the laser eyes nintendo switch 2 edition",
         "lost sphear",
+        "lover pretend",
+        "maquette",
         "metal gear solid master collection vol 1",
+        "miss kobayashis dragon maid burst forth choro gon breath",
+        "mistonias hope the lost delight",
+        "mon yu defeat monsters and gain strong weapons and armor you may be defeated but dont give up become stronger i believe there will be a day when the heroes defeat the devil king",
         "moving out 2",
         "mutazione",
         "my friend pedro",
         "my hero ones justice 2",
         "neo the world ends with you",
+        "neon white",
         "nickelodeon all star brawl 2",
         "ninja gaiden master collection",
         "ninja gaiden master collection deluxe edition",
         "no mans sky",
         "no mans sky nintendo switch 2 edition",
+        "norn9 last era",
+        "norn9 var commons",
         "oninaki",
+        "open roads",
+        "outer wilds",
         "owlboy",
+        "paradigm paradox",
         "paranormasight the seven mysteries of honjo",
         "pikuniku",
+        "piofiore episodio 1926",
+        "pretty princess magical garden island",
+        "pups purrs pet shop",
         "quarantine zone border zombie checkpoint",
+        "radiant tale",
+        "radiant tale fanfare",
         "return to monkey island",
         "romancing saga 2",
         "romancing saga 2 revenge of the seven",
@@ -836,8 +868,13 @@
         "saga scarlet grace ambitions",
         "sakuna of rice and ruin",
         "samurai warriors 5",
+        "sayonara wild hearts lorelei and the laser eyes bundle",
+        "sayonara wild hearts nintendo switch 2 edition",
         "slime rancher plortable edition",
+        "solar ash",
         "spelunker party",
+        "spirit hunter death mark ii",
+        "spooky spirit shooting gallery",
         "star ocean first departure r",
         "star ocean the second story r",
         "steamworld build",
@@ -845,24 +882,37 @@
         "streets of rage 4",
         "tactics ogre reborn",
         "taiko no tatsujin rhythm festival",
+        "tales from toyotoki arrival of the witch",
         "teenage mutant ninja turtles shredders revenge",
+        "tengoku struggle strayside",
         "terraria",
         "that time i got reincarnated as a slime isekai chronicles",
         "the adventures of elliot the millennium tales",
+        "the artful escape",
         "the centennial case a shijima story",
         "the diofield chronicle",
         "the king of fighters xiii global match deluxe edition",
         "the last remnant remastered",
         "the messenger",
+        "the pathless",
         "the plucky squire",
         "the swords of ditto mormos curse",
         "the talos principle deluxe edition",
         "theatrhythm final bar line",
+        "thirsty suitors",
+        "tin kuna",
+        "to a t",
+        "tokyo xanadu ex",
         "totally accurate battle simulator",
         "touken ranbu warriors",
+        "twelve minutes",
+        "undernauts labyrinth of yomi",
         "untitled goose game",
+        "variable barricade",
         "various daylife",
         "viewfinder",
+        "virche evermore epic lycoris",
+        "virche evermore error salvation",
         "voice of cards the beasts of burden",
         "voice of cards the forsaken maiden",
         "voice of cards the isle dragon roars",
@@ -871,10 +921,12 @@
         "warriors abyss",
         "wavetale",
         "wild hearts s",
+        "winters wish spirits of edo",
         "wo long fallen dynasty complete edition",
         "wonder boy the dragons trap",
         "you suck at parking",
-        "ys origin"
+        "ys origin",
+        "zero to dance hero"
       ],
       "orden": 1,
       "slug": "otros-juegos"
@@ -892,7 +944,7 @@
     },
     {
       "juego": "Persona",
-      "linea": "🟢 <b>Persona</b> — 📦 5 desde $34.990\n   🟢 Persona 5 Tactica",
+      "linea": "🟢 <b>Persona</b> — 📦 5 desde $33.990\n   🟢 Persona 5 Royal",
       "nombres": [
         "persona 3 reload",
         "persona 5 royal",
@@ -1023,8 +1075,9 @@
     },
     {
       "juego": "Shantae",
-      "linea": "🟢 <b>Shantae</b> — 📦 1 desde $44.990\n   🟢 Shantae: Half- Genie Hero Ultimate Edition",
+      "linea": "🟢 <b>Shantae</b> — 📦 2 desde $44.990\n   🟢 Shantae: Half- Genie Hero Ultimate Edition",
       "nombres": [
+        "shantae",
         "shantae half genie hero ultimate edition"
       ],
       "orden": 1,
@@ -1032,7 +1085,7 @@
     },
     {
       "juego": "Shin Megami Tensei",
-      "linea": "🟢 <b>Shin Megami Tensei</b> — 📦 6 desde $19.990\n   🟢 Shin Megami Tensei III Nocturne HD Remaster",
+      "linea": "🟢 <b>Shin Megami Tensei</b> — 📦 7 desde $19.990\n   🟢 Shin Megami Tensei III Nocturne HD Remaster",
       "nombres": [
         "shin megami tensei iii nocturne hd remaster",
         "shin megami tensei v fall of man premium edition con detalles",
@@ -1044,7 +1097,7 @@
     },
     {
       "juego": "Shovel Knight",
-      "linea": "🟢 <b>Shovel Knight</b> — 📦 1 desde $42.990\n   🟢 Shovel Knight: Treasure Trove",
+      "linea": "🟢 <b>Shovel Knight</b> — 📦 1 desde $39.720\n   🟢 Shovel Knight: Treasure Trove −8%",
       "nombres": [
         "shovel knight treasure trove"
       ],
@@ -1053,7 +1106,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000\n   🟢 Sonic Frontiers −14%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000\n   🟢 Sonic Frontiers −14%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1062,8 +1115,7 @@
         "sonic frontiers definitive edition",
         "sonic modern collection",
         "sonic racing crossworlds",
-        "sonic superstars",
-        "sonic x shadow generations"
+        "sonic superstars"
       ],
       "orden": 1,
       "slug": "sonic"
@@ -1080,7 +1132,7 @@
     },
     {
       "juego": "Splatoon",
-      "linea": "🟢 <b>Splatoon</b> — 📦 4 desde $49.990\n   🟢 Splatoon 2",
+      "linea": "🟢 <b>Splatoon</b> — 📦 4 desde $49.990\n   🟢 Splatoon Raiders −13%",
       "nombres": [
         "splatoon 2",
         "splatoon 3",
@@ -1101,23 +1153,21 @@
     },
     {
       "juego": "Star Fox",
-      "linea": "🟠 <b>Star Fox</b> — 📦 1 desde $54.990",
+      "linea": "🟢 <b>Star Fox</b> — 📦 1 desde $51.990\n   🟢 Star Fox −13%",
       "nombres": [
         "star fox"
       ],
-      "orden": 3,
+      "orden": 1,
       "slug": "star-fox"
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 8 desde $33.720 · 🎮 1 desde US$2.70\n   🟢 Galactic Wars: Defend Your Star Worlds −70%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 6 desde $34.990 · 🎮 1 desde US$2.70\n   🟢 Galactic Wars: Defend Your Star Worlds −70%",
       "nombres": [
         "galactic wars defend your star worlds",
-        "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
         "star wars outlaws edicion dorada",
-        "star wars pinball",
         "star wars racer and commando combo n",
         "star wars racer commando rojo"
       ],
@@ -1210,7 +1260,7 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $39.900 · 🎮 2 desde US$14.04\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
+      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $29.900 · 🎮 2 desde US$14.04\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
         "bandai namco tales of xillia",
         "tales of arise beyond the dawn edition",
@@ -1346,5 +1396,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 656
+  "total": 709
 }
