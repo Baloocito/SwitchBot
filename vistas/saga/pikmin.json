@@ -14,6 +14,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:a3bae57683",
+        "text": "⚙️ Pikmin 4 S2 · $79.990"
+      },
+      "id": "a3bae57683",
+      "nivel": "normal",
+      "nombre": "Pikmin 4",
+      "pct": 3.6,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Pikmin 4</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$79.990</b> en Bestmart\n💡 Está a su precio de siempre\n   Ahorras $3.000 frente al «antes» que marca la tienda ($82.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $79.990 (10 nov, Bestmart) · máximo $79.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$59.40 ≈ $57.549 en 🇧🇷 Brasil\n   ➜ El digital es $22.441 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://bestmart.cl/products/juego-pikmin-4-nintendo-switch-2-edicion-academia-dandori\">Ir a comprar en Bestmart</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:74440b4669",
         "text": "⚙️ Pikmin 3 Deluxe · $54.900"
       },
@@ -38,5 +50,5 @@
     }
   ],
   "juego": "Pikmin",
-  "revision": "2026-11-11T01:17:38Z"
+  "revision": "2026-11-11T01:30:00Z"
 }

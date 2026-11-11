@@ -122,6 +122,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:7baae084f8",
+        "text": "⚙️ Mario & Sonic At The Olympic … · $59.990"
+      },
+      "id": "7baae084f8",
+      "nivel": "compra",
+      "nombre": "Mario & Sonic At The Olympic Games Tokyo 2020",
+      "pct": 0,
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Mario &amp; Sonic At The Olympic Games Tokyo 2020</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.990</b> en Lider 🏪 <i>vende SNIPER</i>\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.990 (14 oct, Lider) · típico $59.990 · máximo $59.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 28 días\n🔎 Confianza media: 1 tienda y 28 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/mario-sonic-at-the-olympic-games-tokyo-2020-switch/00055957110654\">Ir a comprar en Lider</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:97d68666b6",
         "text": "⚙️ Mario Tennis Aces · $39.990"
       },
@@ -326,5 +338,5 @@
     }
   ],
   "juego": "Mario",
-  "revision": "2026-11-11T01:17:38Z"
+  "revision": "2026-11-11T01:30:00Z"
 }

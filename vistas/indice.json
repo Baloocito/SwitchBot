@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 507,
+  "fisicos": 506,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-11T01:17:38Z",
+  "revision": "2026-11-11T01:30:00Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -486,9 +486,10 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 1 desde $39.720 · 🎮 1 desde US$22.58\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
+      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 2 desde $39.720 · 🎮 1 desde US$22.58\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
       "nombres": [
-        "kingdom hearts melody of memory"
+        "kingdom hearts melody of memory",
+        "square enix kingdom hearts"
       ],
       "orden": 1,
       "slug": "kingdom-hearts"
@@ -508,7 +509,7 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 7 desde US$2.05\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 4 desde $22.900 · 🎮 7 desde US$2.05\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
         "lego brawls",
         "lego bricktales",
@@ -564,7 +565,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 27 desde $29.990\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −9%",
+      "linea": "🟢 <b>Mario</b> — 📦 28 desde $29.990\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −9%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -574,6 +575,7 @@
         "mario rabbids kingdom sparks double pack",
         "mario rabbids sniper game",
         "mario rabbids sparks of hope",
+        "mario sonic at the olympic games tokyo 2020",
         "mario strikers battle league",
         "mario tennis aces",
         "mario tennis fever",
@@ -904,7 +906,7 @@
     },
     {
       "juego": "Pikmin",
-      "linea": "🟢 <b>Pikmin</b> — 📦 3 desde $52.990\n   🟢 Pikmin 1",
+      "linea": "🟢 <b>Pikmin</b> — 📦 4 desde $52.990\n   🟢 Pikmin 1",
       "nombres": [
         "pikmin 1",
         "pikmin 3 deluxe",
@@ -1206,9 +1208,10 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $39.900 · 🎮 2 desde US$14.04\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
+      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $39.900 · 🎮 2 desde US$14.04\n   🟢 Tales of the Shire: A The Lord of The Rings Game −41%",
       "nombres": [
         "bandai namco tales of xillia",
+        "tales of arise beyond the dawn edition",
         "tales of berseria remastered",
         "tales of graces f remastered",
         "tales of symphonia remastered",
@@ -1232,7 +1235,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 16 desde $29.990 · 🎮 2 desde US$26.87\n   🟢 Trails in the Sky 1st Chapter −50%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 13 desde $29.990 · 🎮 2 desde US$26.87\n   🟢 Trails in the Sky 1st Chapter −50%",
       "nombres": [
         "de edicion limitada ys vs trails",
         "legend of heroes trails beyond horizon deluxe eu",
@@ -1342,5 +1345,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 653
+  "total": 651
 }
