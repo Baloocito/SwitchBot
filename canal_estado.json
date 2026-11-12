@@ -155,9 +155,10 @@
     },
     "2026-11-12": {
       "bombazos": 0,
-      "posts": 1,
+      "posts": 2,
       "slots": [
-        "top"
+        "top",
+        "proximos"
       ]
     }
   },
@@ -1489,6 +1490,12 @@
       ],
       "message_id": 155,
       "slot": "top"
+    },
+    {
+      "fecha": "2026-11-12T12:05-03:00",
+      "ids": [],
+      "message_id": 156,
+      "slot": "proximos"
     }
   ],
   "publicados": {
@@ -2798,5 +2805,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-12T09:05:35.523841-03:00"
+  "ultimo_post": "2026-11-12T12:05:34.649866-03:00"
 }
