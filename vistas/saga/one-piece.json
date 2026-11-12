@@ -2,6 +2,32 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:b183f69639",
+        "text": "⚙️ Pirate Anime Quest: One Girls… · US$5.35"
+      },
+      "con_fisico": false,
+      "id": "b183f69639",
+      "nivel": "compra",
+      "nombre": "Pirate Anime Quest: One Girls' Journey, A Piece of Island Love",
+      "pct": 60.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Pirate Anime Quest: One Girls' Journey, A Piece of Island Love</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · One Piece\n💰 <b>US$5.35</b> ≈ $5.248 en 🇲🇽 México\n   Precio en la tienda: MX$99,60 MXN\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$13.37 → ahorras US$8.02 · ⏳ termina el 4 dic (en 22 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/pirate-anime-quest-one-girls-journey-a-piece-of-island-love-switch/\">US$5.35</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/pirate-anime-quest-one-girls-journey-a-piece-of-island-love-switch/\">US$5.59</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/pirate-anime-quest-one-girls-journey-a-piece-of-island-love-switch/\">US$5.67</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/pirate-anime-quest-one-girls-journey-a-piece-of-island-love-switch/\">US$5.96</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/pirate-anime-quest-one-girls-journey-a-piece-of-island-love-switch/\">US$6.02</a>\n   El más caro: 🇨🇴 US$7.15\n📈 Mínimo US$5.35 (12 nov en 🇲🇽 México)\n   █████████████████████████████▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/pirate-anime-quest-one-girls-journey-a-piece-of-island-love-switch/\">Ver en la eShop de México</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:17644643e7",
+        "text": "⚙️ Pirate Anime Quest: One Boys'… · US$5.35"
+      },
+      "con_fisico": false,
+      "id": "17644643e7",
+      "nivel": "compra",
+      "nombre": "Pirate Anime Quest: One Boys' Journey, A Piece of Island Love",
+      "pct": 60.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Pirate Anime Quest: One Boys' Journey, A Piece of Island Love</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · One Piece\n💰 <b>US$5.35</b> ≈ $5.248 en 🇲🇽 México\n   Precio en la tienda: MX$99,60 MXN\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$13.37 → ahorras US$8.02 · ⏳ termina el 4 dic (en 22 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/pirate-anime-quest-one-boys-journey-a-piece-of-island-love-switch/\">US$5.35</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/pirate-anime-quest-one-boys-journey-a-piece-of-island-love-switch/\">US$5.59</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/pirate-anime-quest-one-boys-journey-a-piece-of-island-love-switch/\">US$5.67</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/pirate-anime-quest-one-boys-journey-a-piece-of-island-love-switch/\">US$5.96</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/pirate-anime-quest-one-boys-journey-a-piece-of-island-love-switch/\">US$6.02</a>\n   El más caro: 🇨🇴 US$7.15\n📈 Mínimo US$5.35 (12 nov en 🇲🇽 México)\n   █████████████████████████████▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/pirate-anime-quest-one-boys-journey-a-piece-of-island-love-switch/\">Ver en la eShop de México</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:0065490017",
         "text": "⚙️ ONE PIECE ODYSSEY DELUXE EDIT… · $39.990"
       },
@@ -14,5 +40,5 @@
     }
   ],
   "juego": "One Piece",
-  "revision": "2026-11-12T15:17:52Z"
+  "revision": "2026-11-12T21:18:16Z"
 }

@@ -145,18 +145,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:f36dbb20bf",
-        "text": "⚙️ Atelier Marie Remake: El alqu… · $124.990"
-      },
-      "id": "f36dbb20bf",
-      "nivel": "compra",
-      "nombre": "Atelier Marie Remake: El alquimista de Salburg",
-      "pct": 2.3,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Atelier Marie Remake: El alquimista de Salburg</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$124.990</b> en Lider 🏪 <i>vende nocnoc</i>\n💡 Es el precio más bajo que he visto\n   Ahorras $3.000 frente a su precio típico ($127.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $124.990 (10 nov, Lider) · típico $127.990 · máximo $130.990\n   ███▅▅▅██▃▃▁▁▁  últimos 13 días\n🔎 Confianza media: 1 tienda y 13 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/videojuego-atelier-marie-remake-el-alquimista-de-salburg-nintendo-switch/00471078215907\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:28b2e7def7",
         "text": "⚙️ Atelier Dusk Trilogy Deluxe P… · $129.990"
       },
@@ -241,18 +229,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:7e97c0956e",
-        "text": "⚙️ Atelier Sophie 2: The Alchemi… · $49.990"
-      },
-      "id": "7e97c0956e",
-      "nivel": "compra",
-      "nombre": "Atelier Sophie 2: The Alchemist of the Mysterious Dream",
-      "pct": 0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Atelier Sophie 2: The Alchemist of the Mysterious Dream</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Lider 🏪 <i>vende MUNDOJUEGOS</i>\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (14 oct, Lider) · típico $49.990 · máximo $49.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$24.92 ≈ $24.447 en 🇨🇱 Chile (−50%)\n   ➜ El digital es $25.543 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 30 días de historial\n🛒 <a href=\"https://www.lider.cl/ip/videojuegos/atelier-sophie-2-the-alchemist-of-the-mysterious-dream-nsw/00046539728518\">Ir a comprar en Lider</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:ca5bfb6f68",
         "text": "⚙️ Atelier Sophie 2: The Alchemi… · $42.990"
       },
@@ -301,5 +277,5 @@
     }
   ],
   "juego": "Atelier",
-  "revision": "2026-11-12T15:17:52Z"
+  "revision": "2026-11-12T21:18:16Z"
 }
