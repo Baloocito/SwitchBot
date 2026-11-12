@@ -155,13 +155,14 @@
     },
     "2026-11-11": {
       "bombazos": 0,
-      "posts": 5,
+      "posts": 6,
       "slots": [
         "top",
         "pack",
         "tarde",
         "fisicos",
-        "memorias"
+        "memorias",
+        "ultima"
       ]
     }
   },
@@ -1469,6 +1470,18 @@
       "ids": [],
       "message_id": 153,
       "slot": "memorias"
+    },
+    {
+      "fecha": "2026-11-11T21:05-03:00",
+      "ids": [
+        "06cbf1346e",
+        "611a7e72e8",
+        "33a040fa8f",
+        "27e84f7dda",
+        "ee6ea9abe2"
+      ],
+      "message_id": 154,
+      "slot": "ultima"
     }
   ],
   "publicados": {
@@ -2412,6 +2425,11 @@
       "precio": 18450,
       "slot": "ultima"
     },
+    "06cbf1346e": {
+      "fecha": "2026-11-11",
+      "precio": 4000,
+      "slot": "ultima"
+    },
     "07c1c22a3c": {
       "fecha": "2026-11-06",
       "precio": 28000,
@@ -2442,6 +2460,11 @@
       "precio": 2020,
       "slot": "ultima"
     },
+    "27e84f7dda": {
+      "fecha": "2026-11-11",
+      "precio": 13600,
+      "slot": "ultima"
+    },
     "283a071912": {
       "fecha": "2026-10-31",
       "precio": 5000,
@@ -2465,6 +2488,11 @@
     "31254c40cd": {
       "fecha": "2026-10-29",
       "precio": 4000,
+      "slot": "ultima"
+    },
+    "33a040fa8f": {
+      "fecha": "2026-11-11",
+      "precio": 4800,
       "slot": "ultima"
     },
     "36a322c74e": {
@@ -2510,6 +2538,11 @@
     "5f6e4849c2": {
       "fecha": "2026-11-07",
       "precio": 12000,
+      "slot": "ultima"
+    },
+    "611a7e72e8": {
+      "fecha": "2026-11-11",
+      "precio": 21800,
       "slot": "ultima"
     },
     "674ad9067f": {
@@ -2727,6 +2760,11 @@
       "precio": 6150,
       "slot": "ultima"
     },
+    "ee6ea9abe2": {
+      "fecha": "2026-11-11",
+      "precio": 20000,
+      "slot": "ultima"
+    },
     "f0b1b3de1e": {
       "fecha": "2026-10-19",
       "precio": 1990,
@@ -2748,5 +2786,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-11T20:05:41.703116-03:00"
+  "ultimo_post": "2026-11-11T21:05:51.832098-03:00"
 }
