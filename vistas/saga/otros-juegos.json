@@ -821,6 +821,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:24dab9abde",
+        "text": "⚙️ Tchia · US$3.97"
+      },
+      "con_fisico": false,
+      "id": "24dab9abde",
+      "nivel": "compra",
+      "nombre": "Tchia",
+      "pct": 75.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Tchia</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.97</b> ≈ $3.905 en 🇧🇷 Brasil\n   Precio en la tienda: R$22,25 BRL\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$15.86 → ahorras US$11.89 · ⏳ termina el 5 dic (en 22 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/tchia-switch/\">US$3.97</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/tchia-switch/\">US$4.50</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/tchia-switch/\">US$4.55</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/tchia-switch/\">US$4.98</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/tchia-switch/\">US$5.40</a>\n   El más caro: 🇺🇸 US$7.49\n📈 Mínimo US$3.97 (13 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/tchia-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:00c5cbc62f",
         "text": "⚙️ SteamWorld Heist II · US$5.21"
       },
@@ -856,19 +869,6 @@
       "nombre": "Farmagia Digital Deluxe Edition",
       "pct": 75.0,
       "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Farmagia Digital Deluxe Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$7.22</b> ≈ $7.102 en 🇧🇷 Brasil\n   Precio en la tienda: R$40,50 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$28.88 → ahorras US$21.66 · ⏳ termina el 21 nov (en 8 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/farmagia-digital-deluxe-edition-switch/\">US$7.22</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/farmagia-digital-deluxe-edition-switch/\">US$7.24</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/farmagia-digital-deluxe-edition-switch/\">US$8.06</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/farmagia-digital-deluxe-edition-switch/\">US$8.43</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/farmagia-digital-deluxe-edition-switch/\">US$9.88</a>\n   El más caro: 🇺🇸 US$14.99\n📈 Mínimo US$7.22 (13 nov en 🇧🇷 Brasil)\n   ▄▄██▆▆▆▄▄▁  últimos 10 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/farmagia-digital-deluxe-edition-switch/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:24dab9abde",
-        "text": "⚙️ Tchia · US$3.97"
-      },
-      "con_fisico": false,
-      "id": "24dab9abde",
-      "nivel": "compra",
-      "nombre": "Tchia",
-      "pct": 75.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Tchia</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.97</b> ≈ $3.905 en 🇧🇷 Brasil\n   Precio en la tienda: R$22,25 BRL\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$15.86 → ahorras US$11.89 · ⏳ termina el 5 dic (en 22 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/tchia-switch/\">US$3.97</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/tchia-switch/\">US$4.50</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/tchia-switch/\">US$4.55</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/tchia-switch/\">US$4.98</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/tchia-switch/\">US$5.40</a>\n   El más caro: 🇺🇸 US$7.49\n📈 Mínimo US$3.97 (13 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/tchia-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -1297,7 +1297,7 @@
       "nivel": "compra",
       "nombre": "FAIRY TAIL",
       "pct": 67.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −67%\n<b>FAIRY TAIL</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$17.49</b> ≈ $17.205 en 🇨🇦 Canadá\n   Precio en la tienda: CA$24,94 CAD\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$53.02 → ahorras US$35.53 · ⏳ termina el 18 nov (en 5 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/fairy-tail-switch/\">US$17.49</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/fairy-tail-switch/\">US$18.76</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/fairy-tail-switch/\">US$19.79</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/fairy-tail-switch/\">US$19.79</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/fairy-tail-switch/\">US$23.93</a>\n   El más caro: 🇨🇴 US$29.29\n📦 Físico: $79.990 en Falabella → el digital te ahorra $62.785\n📈 Mínimo US$17.49 (13 nov en 🇨🇦 Canadá)\n   ████▅▅▅▅▃▁▁▁  últimos 12 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/fairy-tail-switch/\">Ver en la eShop de Canadá</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −67%\n<b>FAIRY TAIL</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$17.49</b> ≈ $17.205 en 🇨🇦 Canadá\n   Precio en la tienda: CA$24,94 CAD\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$53.02 → ahorras US$35.53 · ⏳ termina el 18 nov (en 5 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/fairy-tail-switch/\">US$17.49</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/fairy-tail-switch/\">US$18.76</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/fairy-tail-switch/\">US$19.79</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/fairy-tail-switch/\">US$19.79</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/fairy-tail-switch/\">US$23.93</a>\n   El más caro: 🇨🇴 US$29.29\n📦 Físico: $79.990 en Falabella → el digital te ahorra $62.785\n📈 Mínimo US$17.49 (13 nov en 🇨🇦 Canadá)\n   ████▅▅▅▅▃▁▁▁  últimos 12 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/fairy-tail-switch/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
     },
     {
@@ -2025,7 +2025,7 @@
       "nivel": "compra",
       "nombre": "Despera Drops",
       "pct": 60.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Despera Drops</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$19.99</b> ≈ $19.664 en 🇺🇸 EE. UU.\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$49.99 → ahorras US$30.00 · ⏳ termina el 19 nov (en 6 días)\n🌎 <b>Por país</b>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/despera-drops-switch/\">US$19.99</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/despera-drops-switch/\">US$19.99</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/despera-drops-switch/\">US$20.03</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/despera-drops-switch/\">US$21.65</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/despera-drops-switch/\">US$21.87</a>\n   El más caro: 🇨🇴 US$26.28\n📈 Mínimo US$19.99 (11 nov en 🇺🇸 EE. UU.)\n   ▄▄▄  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/us/store/products/despera-drops-switch/\">Ver en la eShop de EE. UU.</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Despera Drops</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$19.99</b> ≈ $19.664 en 🇺🇸 EE. UU.\n💡 Oferta de −60% en la eShop\n🏷️ Normal US$49.99 → ahorras US$30.00 · ⏳ termina el 19 nov (en 6 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/despera-drops-switch/\">US$19.99</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/despera-drops-switch/\">US$19.99</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/despera-drops-switch/\">US$20.03</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/despera-drops-switch/\">US$21.65</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/despera-drops-switch/\">US$21.87</a>\n   El más caro: 🇨🇴 US$26.28\n📈 Mínimo US$19.99 (11 nov en 🇺🇸 EE. UU.)\n   ▄▄▄  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/us/store/products/despera-drops-switch/\">Ver en la eShop de EE. UU.</a>",
       "tipo": "digital"
     },
     {
