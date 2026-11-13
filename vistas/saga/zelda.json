@@ -26,18 +26,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:31ce84a2c1",
-        "text": "⚙️ The Legend of Zelda: Tears of… S2 · $87.990"
-      },
-      "id": "31ce84a2c1",
-      "nivel": "compra",
-      "nombre": "The Legend of Zelda: Tears of the Kingdom",
-      "pct": 0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>The Legend of Zelda: Tears of the Kingdom</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$87.990</b> en 8 Bits\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $87.990 (14 oct, 8 Bits) · típico $87.990 · máximo $87.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$78.41 ≈ $77.132 en 🇧🇷 Brasil\n   ➜ El digital es $10.858 más barato, pero no se puede revender\n🛒 <a href=\"https://listado.mercadolibre.cl/the-legend-of-zelda-tears-of-the-kingdom-switch-2\">MercadoLibre</a>: nuevo ~$98.990 (3 avisos)\n💰 <b>Reventa</b>: lo compras a $87.990 y nuevo se vende a ~$98.990 (+$11.000 antes de comisiones)\n🔎 Confianza media: 1 tienda y 30 días de historial\n🛒 <a href=\"https://8-bits.cl/products/the-legend-of-zelda-tears-of-the-kingdom-nsw2\">Ir a comprar en 8 Bits</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:65238f8149",
         "text": "⚙️ The Legend of Zelda: Tears of… · $179.990"
       },
@@ -58,6 +46,18 @@
       "nombre": "The Legend of Zelda 40th Anniversary Edition",
       "pct": 13.2,
       "texto": "🟠 <b>PRECIO REGULAR</b> · −13%\n<b>The Legend of Zelda 40th Anniversary Edition</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$824.990</b> en Falabella 🏪 <i>vende Zoombigdeal</i>\n💡 Apenas 13% bajo la referencia\n   Ahorras $125.000 frente al «antes» que marca la tienda ($949.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $824.990 (6 nov, Falabella) · típico $824.990 · máximo $824.990\n   ▄▄▄▄▄▄▄  últimos 7 días\n🔎 Confianza media: 1 tienda y 7 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/159672239/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:fdce0ccd76",
+        "text": "⚙️ The Legend of Zelda Ocar S2 · $78.990"
+      },
+      "id": "fdce0ccd76",
+      "nivel": "normal",
+      "nombre": "The Legend of Zelda Ocar",
+      "pct": 4.8,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend of Zelda Ocar</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$78.990</b> en Paris\n💡 Está a su precio de siempre\n   Ahorras $4.000 frente al «antes» que marca la tienda ($82.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $78.990 (6 nov, Paris) · máximo $78.990\n   ▄▄▄  últimos 3 días\n🔎 Confianza baja: una sola tienda y 3 días de historial\n🛒 <a href=\"https://www.paris.cl/juego-nintendo-switch-2-the-legend-of-zelda-ocar-609808999.html\">Ir a comprar en Paris</a>",
       "tipo": "fisico"
     },
     {
@@ -134,5 +134,5 @@
     }
   ],
   "juego": "Zelda",
-  "revision": "2026-11-13T03:19:32Z"
+  "revision": "2026-11-13T09:18:19Z"
 }
