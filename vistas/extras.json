@@ -597,7 +597,7 @@
     {
       "avisos": [
         {
-          "precio": 129390,
+          "precio": 128990,
           "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-1521995693"
@@ -606,8 +606,8 @@
       "marca": "Logitech G",
       "min_hist": 129290,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (FUJITECH)",
-      "pct": 0.0,
-      "precio": 129390,
+      "pct": 0.3,
+      "precio": 128990,
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-1521995693"
@@ -687,6 +687,24 @@
     {
       "avisos": [
         {
+          "precio": 191990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-1073079908"
+        }
+      ],
+      "marca": "Logitech G",
+      "min_hist": 191990,
+      "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (FUJITE",
+      "pct": 0.0,
+      "precio": 191990,
+      "ref_tipo": "tipico",
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-1073079908"
+    },
+    {
+      "avisos": [
+        {
           "precio": 209990.0,
           "tarjeta": null,
           "tienda": "Falabella",
@@ -762,24 +780,6 @@
           "precio": 237990,
           "tarjeta": null,
           "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-1073079908"
-        }
-      ],
-      "marca": "Logitech G",
-      "min_hist": 191990,
-      "nombre": "Audífonos Gamer Inalámbricos Logitech G Series G733 Azul Claro (FUJITE",
-      "pct": -24.0,
-      "precio": 237990,
-      "ref_tipo": "tipico",
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-1073079908"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 237990,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-1859598391"
         }
       ],
@@ -809,24 +809,6 @@
       "ref_tipo": "tipico",
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/audifonos-gaming-inalambricos-logitech-pro-x2-lightspeed-blanco"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 289990,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-3350804316"
-        }
-      ],
-      "marca": "SteelSeries",
-      "min_hist": 289990,
-      "nombre": "Audífonos Gamer Steelseries Nova 7 Ps Inalámbrico Blancos Blanco (GASE",
-      "pct": 0,
-      "precio": 289990,
-      "ref_tipo": null,
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-3350804316"
     },
     {
       "avisos": [
@@ -877,7 +859,7 @@
       "min_hist": 299990.0,
       "modelo": "Switch",
       "nombre": "Consola Switch Neon + Mario Wonder Bundle",
-      "pct": 14.3,
+      "pct": 7.7,
       "precio": 299990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
@@ -902,11 +884,6 @@
     {
       "avisos": [
         {
-          "precio": 589990.0,
-          "tienda": "Lider",
-          "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
-        },
-        {
           "precio": 609990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-2-ea-sports-fc-27-bundle"
@@ -918,13 +895,13 @@
         }
       ],
       "bundle": true,
-      "min_hist": 594990.0,
+      "min_hist": 589990.0,
       "modelo": "Switch 2",
-      "nombre": "Nintendo Switch 2 + EA SPORTS FC 27",
-      "pct": 3.3,
-      "precio": 589990.0,
-      "tienda": "Lider",
-      "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-ea-sports-fc-27/00004549688696"
+      "nombre": "Consola Nintendo Switch 2 + EA SPORTS FC 27 Bundle",
+      "pct": 0.0,
+      "precio": 609990.0,
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/consola-nintendo-switch-2-ea-sports-fc-27-bundle"
     },
     {
       "avisos": [
@@ -952,28 +929,6 @@
       "precio": 609990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 619990.0,
-          "tienda": "Lider",
-          "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-nintendo-switch-sports-resort-bundle/00004549688681"
-        },
-        {
-          "precio": 679990.0,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/consola-nintendo-switch-2-nintendo-switch-sports-resort"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 649990.0,
-      "modelo": "Switch 2",
-      "nombre": "Nintendo Switch 2 + Nintendo Switch Sports Resort Bundle",
-      "pct": 8.8,
-      "precio": 619990.0,
-      "tienda": "Lider",
-      "url": "https://www.lider.cl/ip/videojuegos/nintendo-switch-2-nintendo-switch-sports-resort-bundle/00004549688681"
     },
     {
       "avisos": [
@@ -1063,6 +1018,23 @@
     {
       "avisos": [
         {
+          "precio": 679990.0,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/consola-nintendo-switch-2-nintendo-switch-sports-resort"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 619990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Nintendo Switch 2 + Nintendo Switch Sports Resort",
+      "pct": 0.0,
+      "precio": 679990.0,
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/consola-nintendo-switch-2-nintendo-switch-sports-resort"
+    },
+    {
+      "avisos": [
+        {
           "precio": 689990.0,
           "tienda": "Sniper",
           "url": "https://sniper.cl/products/consola-nintendo-switch-2-fc27"
@@ -1093,6 +1065,23 @@
       "precio": 689990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-2-mario-kart-world-3-meses-nintendo-switch-online-600447999.html"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 949990.0,
+          "tienda": "Sniper",
+          "url": "https://sniper.cl/products/consola-nintendo-switch-2-zelda-40th-aniv-edition-eu"
+        }
+      ],
+      "bundle": true,
+      "min_hist": null,
+      "modelo": "Switch 2",
+      "nombre": "PREVENTA Consola Nintendo Switch 2 - Zelda: 40th Aniv. Edition (EU)",
+      "pct": 0,
+      "precio": 949990.0,
+      "tienda": "Sniper",
+      "url": "https://sniper.cl/products/consola-nintendo-switch-2-zelda-40th-aniv-edition-eu"
     },
     {
       "avisos": [
@@ -1139,11 +1128,6 @@
           "precio": 349990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-blanco"
-        },
-        {
-          "precio": 369990.0,
-          "tienda": "Lider",
-          "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688550"
         }
       ],
       "bundle": false,
@@ -1167,7 +1151,7 @@
       "min_hist": 379990.0,
       "modelo": "Switch OLED",
       "nombre": "Pack Consola Nintendo Switch Oled Blanca con juego Minecraft",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 379990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-oled-blanca-con-juego-minecraft"
@@ -1198,6 +1182,12 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Samsung 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Samsung-256gb/?ref=buscador"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1236,7 +1226,7 @@
     {
       "avisos": [
         {
-          "precio": 209990,
+          "precio": 219980,
           "tienda": "MercadoLibre",
           "titulo": "Memoria 512gb Microsd Express Sandisk (COMERCIALMW)",
           "url": "https://articulo.mercadolibre.cl/MLC-4300075286"
@@ -1246,9 +1236,9 @@
       "marca": "SanDisk",
       "min_hist": 209990,
       "nombre": "microSD Express 512 GB · SanDisk",
-      "pct": 4.5,
-      "por_gb": 410,
-      "precio": 209990,
+      "pct": 0.0,
+      "por_gb": 430,
+      "precio": 219980,
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "tipo": "express",
@@ -1299,7 +1289,7 @@
     {
       "avisos": [
         {
-          "precio": 25980.0,
+          "precio": 25990.0,
           "tienda": "Paris",
           "titulo": "Tarjeta Kingston de Memoria Micro SD 128GB",
           "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
@@ -1313,11 +1303,11 @@
       ],
       "gb": 128,
       "marca": "Kingston",
-      "min_hist": 25990.0,
+      "min_hist": 25980.0,
       "nombre": "microSD 128 GB · Kingston",
       "pct": 0.0,
       "por_gb": 203,
-      "precio": 25980.0,
+      "precio": 25990.0,
       "ref_tipo": "tipico",
       "tienda": "Paris",
       "tipo": "normal",
@@ -1347,23 +1337,23 @@
     {
       "avisos": [
         {
-          "precio": 54690,
+          "precio": 59297,
           "tienda": "MercadoLibre",
-          "titulo": "Tarjeta De Memoria MicroSD Kingston 256gb Sdcs3/256gb (WEICOMPUTACION)",
-          "url": "https://articulo.mercadolibre.cl/MLC-3585524520"
+          "titulo": "Tarjeta de memoria microSD Kingston de 256 GB, 100 mb, E Adap (LEONIMPORT_SPA)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
         }
       ],
       "gb": 256,
       "marca": "Kingston",
       "min_hist": 53989,
       "nombre": "microSD 256 GB · Kingston",
-      "pct": 0.0,
-      "por_gb": 214,
-      "precio": 54690,
+      "pct": -8.4,
+      "por_gb": 232,
+      "precio": 59297,
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "tipo": "normal",
-      "url": "https://articulo.mercadolibre.cl/MLC-3585524520"
+      "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     },
     {
       "avisos": [
@@ -1387,7 +1377,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-2849402286"
     }
   ],
-  "revision": "2026-11-12T21:18:16Z",
+  "revision": "2026-11-13T03:19:32Z",
   "seguimientos": [
     {
       "avisos": [
