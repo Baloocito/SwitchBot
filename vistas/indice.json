@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 579,
-  "pendientes": 1,
+  "fisicos": 599,
+  "pendientes": 4,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-13T15:17:31Z",
+  "revision": "2026-11-13T21:18:33Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -163,8 +163,9 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
+      "linea": "🟢 <b>Contra</b> — 📦 2 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
       "nombres": [
+        "contra operation galuga",
         "contra rogue corps"
       ],
       "orden": 1,
@@ -193,8 +194,9 @@
     },
     {
       "juego": "Cyberpunk 2077",
-      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 1 desde $39.990 · 🎮 1 desde US$7.10\n   🟢 Keylocker | Turn Based Cyberpunk Action −40%",
+      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990 · 🎮 1 desde US$7.10\n   🟢 Keylocker | Turn Based Cyberpunk Action −40%",
       "nombres": [
+        "cyberpunk 2077 ultimate edition",
         "keylocker turn based cyberpunk action",
         "va 11 hall a cyberpunk bartender action"
       ],
@@ -213,11 +215,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "dave-the-diver"
     },
     {
@@ -260,20 +262,20 @@
     },
     {
       "juego": "Doom",
-      "linea": "🟢 <b>Doom</b> — 📦 3 desde $44.990\n   🟢 DOOM 64",
+      "linea": "🟢 <b>Doom</b> — 📦 4 desde $44.990\n   🟢 DOOM 64",
       "nombres": [
         "doom",
-        "doom 64"
+        "doom 64",
+        "doom doom ii"
       ],
       "orden": 1,
       "slug": "doom"
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $27.990\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
-        "dragon ball the breakers",
         "dragon ball xenoverse 2 for nintendo switch",
         "dragon ball z kakarot",
         "dragon ball z kakarot a new power awakens set",
@@ -326,7 +328,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990 · 🎮 17 desde US$4.68\n   🟢 FINAL FANTASY VII REMAKE INTERGRADE −80%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990 · 🎮 17 desde US$4.68\n   🟢 FINAL FANTASY VII REMAKE INTERGRADE −80%",
       "nombres": [
         "collection of saga final fantasy legend",
         "crisis core final fantasy vii reunion",
@@ -353,7 +355,7 @@
     },
     {
       "juego": "Final Fantasy VII Rebirth",
-      "linea": "🟢 <b>Final Fantasy VII Rebirth</b> — 🎮 1 desde US$6.44\n   🟢 FINAL FANTASY VII REBIRTH −85%",
+      "linea": "🟢 <b>Final Fantasy VII Rebirth</b> — 📦 1 desde $69.990 · 🎮 1 desde US$6.44\n   🟢 FINAL FANTASY VII REBIRTH −85%",
       "nombres": [
         "final fantasy vii rebirth"
       ],
@@ -496,8 +498,9 @@
     },
     {
       "juego": "Like a Dragon / Yakuza",
-      "linea": "🟢 <b>Like a Dragon / Yakuza</b> — 📦 3 desde $44.990\n   🟢 Yakuza Kiwami 2",
+      "linea": "🟢 <b>Like a Dragon / Yakuza</b> — 📦 6 desde $44.990\n   🟢 Yakuza Kiwami −28%",
       "nombres": [
+        "yakuza 0 directora s cut",
         "yakuza kiwami",
         "yakuza kiwami 2"
       ],
@@ -534,7 +537,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 25 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -549,7 +552,6 @@
         "mario vs donkey kong",
         "paper mario the thousand year door",
         "super mario bros wonder",
-        "super mario bros wonder meetup in bellabel park",
         "super mario galaxy 2",
         "super mario odyssey",
         "super mario party",
@@ -637,8 +639,10 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "🟢 <b>Minecraft</b> — 📦 2 desde $23.990\n   🟢 Minecraft: Nintendo Switch Edition −20%",
+      "linea": "🟢 <b>Minecraft</b> — 📦 4 desde $23.990\n   🟢 Minecraft: Nintendo Switch Edition −20%",
       "nombres": [
+        "minecraft dungeons ii",
+        "minecraft legends",
         "minecraft nintendo switch edition"
       ],
       "orden": 1,
@@ -680,7 +684,7 @@
     },
     {
       "juego": "NieR",
-      "linea": "🟢 <b>NieR</b> — 🎮 1 desde US$10.69\n   🟢 NieR:Automata The End of YoRHa Edition −60%",
+      "linea": "🟢 <b>NieR</b> — 📦 1 desde $44.900 · 🎮 1 desde US$10.69\n   🟢 NieR:Automata The End of YoRHa Edition −60%",
       "nombres": [
         "nier automata the end of yorha edition"
       ],
@@ -720,7 +724,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 208 desde US$1.96\n   🟢 Ys Origin −89%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 223 desde US$1.96\n   🟢 Ys Origin −89%",
       "nombres": [
         "7scarlet",
         "a memoir blue",
@@ -732,12 +736,16 @@
         "balan wonderworld",
         "ball x pit",
         "ball x pit nintendo switch 2 edition",
+        "beacon pines",
         "black skylands",
         "blasphemous",
         "blazing strike",
         "broforce",
         "cafe enchante",
         "chocobo gp",
+        "citizen sleeper",
+        "citizen sleeper helion collection",
+        "citizen sleeper nintendo switch 2 edition",
         "cocoon",
         "code realize future blessings",
         "code realize guardian of rebirth",
@@ -771,7 +779,9 @@
         "fishing fighters",
         "fun fun animal park",
         "gang beasts",
+        "genesis noir",
         "ghost parade",
+        "glitchhikers the spaces between",
         "golf story",
         "gone home",
         "gorogoa",
@@ -788,6 +798,7 @@
         "i am setsuna",
         "if found",
         "illusion of itehari",
+        "in other waters",
         "inescapable no rules no rescue",
         "inside",
         "jack jeanne",
@@ -817,11 +828,13 @@
         "mutazione",
         "my friend pedro",
         "my hero ones justice 2",
+        "neo cab",
         "neo the world ends with you",
         "neon white",
         "nickelodeon all star brawl 2",
         "ninja gaiden master collection",
         "ninja gaiden master collection deluxe edition",
+        "no longer home",
         "norn9 last era",
         "norn9 var commons",
         "olympia soiree",
@@ -874,9 +887,11 @@
         "steamworld build",
         "steamworld heist ii",
         "streets of rage 4",
+        "super mutant alien assault",
         "tactics ogre reborn",
         "taiko no tatsujin rhythm festival",
         "tales from toyotoki arrival of the witch",
+        "tchia",
         "teenage mutant ninja turtles shredders revenge",
         "telling lies",
         "tengoku struggle strayside",
@@ -884,16 +899,20 @@
         "the adventures of elliot the millennium tales",
         "the artful escape",
         "the centennial case a shijima story",
+        "the church in the darkness",
         "the diofield chronicle",
         "the elder scrolls v skyrim",
+        "the jota collection",
         "the king of fighters xiii global match deluxe edition",
         "the last remnant remastered",
         "the messenger",
+        "the pale beyond",
         "the pathless",
         "the plucky squire",
         "the swords of ditto mormos curse",
         "the talos principle deluxe edition",
         "theatrhythm final bar line",
+        "think of the children",
         "thirsty suitors",
         "tin kuna",
         "tinykin",
@@ -1103,7 +1122,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000\n   🟢 Sonic Frontiers −14%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000\n   🟢 Sonic Racing: CrossWorlds −29%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1196,7 +1215,7 @@
     },
     {
       "juego": "Street Fighter",
-      "linea": "🟢 <b>Street Fighter</b> — 📦 4 desde $19.990\n   🟢 Street Fighter 30th Anniversary Collection",
+      "linea": "🟢 <b>Street Fighter</b> — 📦 4 desde $19.990\n   🟢 Street Fighter 30th Anniversary Collection −14%",
       "nombres": [
         "street fighter 30th anniversary collection",
         "street fighter 6",
@@ -1348,11 +1367,12 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Ocarina of Time −7%",
+      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Ocarina of Time −7%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda 40th anniversary edition",
         "the legend of zelda breath of the wild",
+        "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
         "the legend of zelda ocar",
         "the legend of zelda ocarina of time",
@@ -1362,5 +1382,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 679
+  "total": 703
 }
