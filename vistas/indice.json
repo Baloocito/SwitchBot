@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 576,
-  "pendientes": 0,
+  "fisicos": 579,
+  "pendientes": 1,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-13T09:18:19Z",
+  "revision": "2026-11-13T15:17:31Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -183,6 +183,15 @@
       "slug": "crash-spyro"
     },
     {
+      "juego": "Cuphead",
+      "linea": "⚪ <b>Cuphead</b> — 📦 1 desde $32.900",
+      "nombres": [
+        "cuphead"
+      ],
+      "orden": 4,
+      "slug": "cuphead"
+    },
+    {
       "juego": "Cyberpunk 2077",
       "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 1 desde $39.990 · 🎮 1 desde US$7.10\n   🟢 Keylocker | Turn Based Cyberpunk Action −40%",
       "nombres": [
@@ -261,9 +270,10 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $27.990\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
+        "dragon ball the breakers",
         "dragon ball xenoverse 2 for nintendo switch",
         "dragon ball z kakarot",
         "dragon ball z kakarot a new power awakens set",
@@ -316,7 +326,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990 · 🎮 17 desde US$4.68\n   🟢 FINAL FANTASY VII REMAKE INTERGRADE −80%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990 · 🎮 17 desde US$4.68\n   🟢 FINAL FANTASY VII REMAKE INTERGRADE −80%",
       "nombres": [
         "collection of saga final fantasy legend",
         "crisis core final fantasy vii reunion",
@@ -710,7 +720,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 209 desde US$1.96\n   🟢 Ys Origin −89%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 🎮 208 desde US$1.96\n   🟢 Ys Origin −89%",
       "nombres": [
         "7scarlet",
         "a memoir blue",
@@ -748,7 +758,6 @@
         "dungeon encounters",
         "dynasty warriors 8 xtreme legends definitive edition",
         "dynasty warriors 9 empires",
-        "dynasty warriors origins",
         "el hijo a wild west tale",
         "enter the gungeon",
         "etrange overlord",
@@ -1339,12 +1348,11 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Ocarina of Time −7%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda 40th anniversary edition",
         "the legend of zelda breath of the wild",
-        "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
         "the legend of zelda ocar",
         "the legend of zelda ocarina of time",
@@ -1354,5 +1362,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 678
+  "total": 679
 }

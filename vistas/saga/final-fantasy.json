@@ -259,6 +259,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:a33043e2bd",
+        "text": "⚙️ FINAL FANTASY XII THE ZODIAC … · $37.990"
+      },
+      "id": "a33043e2bd",
+      "nivel": "compra",
+      "nombre": "FINAL FANTASY XII THE ZODIAC AGE",
+      "pct": 5.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −5%\n<b>FINAL FANTASY XII THE ZODIAC AGE</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$37.990</b> en MegaGames\n💡 Es el precio más bajo que he visto\n   Ahorras $2.000 frente a su precio típico ($39.990)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/final-fantasy-xii-the-zodiac-age/\">$37.990 MegaGames</a>\n   🥈 <a href=\"https://8-bits.cl/products/final-fantasy-xii-the-zodiac-age-nsw\">$39.990 8 Bits</a> (+$2.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/148368365/final-fantasy-xii-the-zodiac-age-nintendo-switch\">$44.990 Falabella</a> 🏪 Tienda Retrogamers (+$7.000)\n   ▫️ <a href=\"https://www.paris.cl/nsw-final-fantasy-xii-the-zodiac-age-MKSS31XIF3.html\">$45.000 Paris</a> 🏪 Tienda RetroGamers (+$7.010)\n📈 Mínimo $37.990 (3 nov, MegaGames) · típico $39.990 · máximo $39.990\n   ███████████████████▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n🎮 Digital: US$12.29 ≈ $12.090 en 🇧🇷 Brasil (−70%)\n   ➜ El digital es $25.900 más barato, pero no se puede revender\n🛒 <a href=\"https://listado.mercadolibre.cl/final-fantasy-xii-the-zodiac-age-nintendo-switch\">MercadoLibre</a>: nuevo ~$44.990 (6 avisos)\n💰 <b>Reventa</b>: lo compras a $37.990 y nuevo se vende a ~$44.990 (+$7.000 antes de comisiones)\n🔎 Confianza alta: 4 tiendas y 31 días de historial\n🛒 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/final-fantasy-xii-the-zodiac-age/\">Ir a comprar en MegaGames</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:6642b99f29",
         "text": "⚙️ CRISIS CORE –FINAL FANTASY VI… · $34.990"
       },
@@ -379,5 +391,5 @@
     }
   ],
   "juego": "Final Fantasy",
-  "revision": "2026-11-13T09:18:19Z"
+  "revision": "2026-11-13T15:17:31Z"
 }
