@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 598,
+  "fisicos": 595,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-14T03:18:15Z",
+  "revision": "2026-11-14T09:16:37Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -162,6 +162,15 @@
       "slug": "chrono-mana"
     },
     {
+      "juego": "Contra",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
+      "nombres": [
+        "contra rogue corps"
+      ],
+      "orden": 1,
+      "slug": "contra"
+    },
+    {
       "juego": "Crash / Spyro",
       "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000\n   🟢 Crash 4 Bandicoot",
       "nombres": [
@@ -231,15 +240,6 @@
       "slug": "digimon-story-time-stranger"
     },
     {
-      "juego": "Disco Elysium",
-      "linea": "🟢 <b>Disco Elysium</b> — 🎮 1 desde US$7.26\n   🟢 Disco Elysium - The Final Cut −75%",
-      "nombres": [
-        "disco elysium the final cut"
-      ],
-      "orden": 1,
-      "slug": "disco-elysium"
-    },
-    {
       "juego": "Donkey Kong",
       "linea": "🟢 <b>Donkey Kong</b> — 📦 4 desde $44.000\n   🟢 Donkey Kong Bananza",
       "nombres": [
@@ -263,10 +263,9 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $29.900\n   🟢 DRAGON BALL: Sparking! ZERO",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
-        "dragon ball sparking zero",
         "dragon ball xenoverse 2 for nintendo switch",
         "dragon ball z kakarot",
         "dragon ball z kakarot a new power awakens set",
@@ -319,7 +318,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990 · 🎮 17 desde US$4.65\n   🟢 FINAL FANTASY VII REMAKE INTERGRADE −80%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990 · 🎮 17 desde US$4.65\n   🟢 FINAL FANTASY VII REMAKE INTERGRADE −80%",
       "nombres": [
         "collection of saga final fantasy legend",
         "crisis core final fantasy vii reunion",
@@ -715,7 +714,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $44.900 · 🎮 223 desde US$1.96\n   🟢 Ys Origin −89%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $44.900 · 🎮 221 desde US$1.96\n   🟢 Ys Origin −89%",
       "nombres": [
         "7scarlet",
         "a memoir blue",
@@ -759,7 +758,6 @@
         "dynasty warriors 9 empires",
         "el hijo a wild west tale",
         "enter the gungeon",
-        "etrange overlord",
         "exit the gungeon",
         "fairy tail",
         "fairy tail 2",
@@ -913,7 +911,6 @@
         "touken ranbu warriors",
         "trash sailors",
         "twelve minutes",
-        "two point museum",
         "under night in birth exe late cl r",
         "undernauts labyrinth of yomi",
         "undungeon",
@@ -979,7 +976,7 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 6 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
         "pokemon legends za 2",
         "pokemon scarlet",
@@ -1114,7 +1111,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000\n   🟢 Sonic Racing: CrossWorlds −29%",
+      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000\n   🟢 Sonic Racing: CrossWorlds −29%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1359,12 +1356,11 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Ocarina of Time −7%",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Ocarina of Time −7%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda 40th anniversary edition",
         "the legend of zelda breath of the wild",
-        "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
         "the legend of zelda ocar",
         "the legend of zelda ocarina of time",
@@ -1374,5 +1370,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 702
+  "total": 699
 }
