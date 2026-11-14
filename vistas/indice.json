@@ -1,12 +1,11 @@
 {
   "evento": null,
   "fallos": {
-    "Lider": 1,
     "PC Factory": 12,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 596,
+  "fisicos": 598,
   "pendientes": 1,
   "proximo": {
     "desde": "2026-11-19",
@@ -14,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-14T15:18:05Z",
+  "revision": "2026-11-14T21:17:53Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -48,10 +47,11 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 3 desde $20.000\n   🟢 Assassin's Creed III: Remastered",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 4 desde $20.000\n   🟢 Assassin's Creed III: Remastered",
       "nombres": [
         "assassins creed iii remastered",
-        "assassins creed the ezio collection"
+        "assassins creed the ezio collection",
+        "assassins creed the rebel collection"
       ],
       "orden": 1,
       "slug": "assassins-creed"
@@ -209,7 +209,7 @@
       "linea": "🟢 <b>Danganronpa</b> — 📦 3 desde $54.990\n   🟢 Danganronpa 2x2",
       "nombres": [
         "danganronpa 2x2",
-        "danganronpa decadence"
+        "danganronpa decadence sniper"
       ],
       "orden": 1,
       "slug": "danganronpa"
@@ -265,10 +265,9 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 6 desde $29.990\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
-        "dragon ball xenoverse 2 for nintendo switch",
         "dragon ball z kakarot",
         "dragon ball z kakarot a new power awakens set",
         "dragon ball z kakarot a new power awakes set sniper",
@@ -529,7 +528,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
+      "linea": "🟢 <b>Mario</b> — 📦 23 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -544,7 +543,6 @@
         "mario vs donkey kong",
         "paper mario the thousand year door",
         "super mario bros wonder",
-        "super mario galaxy 2",
         "super mario odyssey",
         "super mario party",
         "super mario party jamboree",
@@ -716,7 +714,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $44.900 · 🎮 222 desde US$1.96\n   🟢 Ys Origin −89%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $44.900 · 🎮 224 desde US$1.96\n   🟢 Ys Origin −89%",
       "nombres": [
         "7scarlet",
         "a memoir blue",
@@ -732,6 +730,7 @@
         "black skylands",
         "blasphemous",
         "blazing strike",
+        "blue prince",
         "broforce",
         "cafe enchante",
         "chocobo gp",
@@ -879,6 +878,7 @@
         "stardust galaxy warriors stellar climax",
         "steamworld build",
         "steamworld heist ii",
+        "stray",
         "streets of rage 4",
         "super mutant alien assault",
         "tactics ogre reborn",
@@ -1117,7 +1117,6 @@
       "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000\n   🟢 Sonic Racing: CrossWorlds −29%",
       "nombres": [
         "sonic classic collection",
-        "sonic colors ultimate",
         "sonic double pack",
         "sonic forces",
         "sonic frontiers",
@@ -1220,10 +1219,9 @@
     },
     {
       "juego": "Super Smash Bros",
-      "linea": "🟢 <b>Super Smash Bros</b> — 📦 2 desde $50.990\n   🟢 Pro Controller edición Super Smash Bros",
+      "linea": "🟢 <b>Super Smash Bros</b> — 📦 1 desde $99.990\n   🟢 Pro Controller edición Super Smash Bros",
       "nombres": [
-        "pro controller edicion super smash bros",
-        "super smash bros ultimate"
+        "pro controller edicion super smash bros"
       ],
       "orden": 1,
       "slug": "super-smash-bros"
