@@ -417,6 +417,24 @@
     {
       "avisos": [
         {
+          "precio": 74990.0,
+          "tarjeta": 69990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80820664/logitech-zone-300-audifonos-bluetooth-inalambricos"
+        }
+      ],
+      "marca": "logitech g",
+      "min_hist": 74990.0,
+      "nombre": "Zone 300 Audífonos Bluetooth Inalámbricos",
+      "pct": 6.3,
+      "precio": 74990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80820664/logitech-zone-300-audifonos-bluetooth-inalambricos"
+    },
+    {
+      "avisos": [
+        {
           "precio": 92490,
           "tarjeta": null,
           "tienda": "MercadoLibre",
@@ -485,6 +503,24 @@
       "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/17267594/Audifono-Headset-Barracuda-X-Wireless-Razer"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 109990.0,
+          "tarjeta": null,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/audifonos-jbl-quantum-tws-con-cancelacion-de-ruido-negro"
+        }
+      ],
+      "marca": "JBL",
+      "min_hist": 124990.0,
+      "nombre": "Audífonos JBL Quantum TWS con cancelación de ruido - Negro",
+      "pct": 12.0,
+      "precio": 109990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/audifonos-jbl-quantum-tws-con-cancelacion-de-ruido-negro"
     },
     {
       "avisos": [
@@ -561,24 +597,6 @@
     {
       "avisos": [
         {
-          "precio": 124990.0,
-          "tarjeta": null,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/audifonos-jbl-quantum-tws-con-cancelacion-de-ruido-negro"
-        }
-      ],
-      "marca": "JBL",
-      "min_hist": 124990.0,
-      "nombre": "Audífonos JBL Quantum TWS con cancelación de ruido - Negro",
-      "pct": 0.0,
-      "precio": 124990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/audifonos-jbl-quantum-tws-con-cancelacion-de-ruido-negro"
-    },
-    {
-      "avisos": [
-        {
           "precio": 127990,
           "tarjeta": null,
           "tienda": "MercadoLibre",
@@ -604,7 +622,7 @@
         }
       ],
       "marca": "Logitech G",
-      "min_hist": 129290,
+      "min_hist": 128990,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (FUJITECH)",
       "pct": 0.3,
       "precio": 128990,
@@ -642,9 +660,9 @@
       "marca": "hyperx",
       "min_hist": 139990.0,
       "nombre": "Audífonos Gaming Inalámbricos Cloud Alpha",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 139990.0,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80748507/audifonos-gaming-inalambricos-hyperx-cloud-alpha"
     },
@@ -859,7 +877,7 @@
       "min_hist": 299990.0,
       "modelo": "Switch",
       "nombre": "Consola Switch Neon + Mario Wonder Bundle",
-      "pct": 7.7,
+      "pct": 0.0,
       "precio": 299990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
@@ -941,23 +959,6 @@
       "bundle": true,
       "min_hist": 624990.0,
       "modelo": "Switch 2",
-      "nombre": "Consola Switch 2 Bundle",
-      "pct": 5.7,
-      "precio": 624990.0,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 624990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 624990.0,
-      "modelo": "Switch 2",
       "nombre": "Consola Switch 2 + Juego Descargable EA Sports FC 27",
       "pct": 0,
       "precio": 624990.0,
@@ -980,23 +981,6 @@
       "precio": 639990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 659990.0,
-          "tienda": "Lider",
-          "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-2-mario-kart-world-membresia-online/00004549688674"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 649990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Nintendo Switch 2 Mario Kart World + Membresía Online",
-      "pct": -1.5,
-      "precio": 659990.0,
-      "tienda": "Lider",
-      "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-2-mario-kart-world-membresia-online/00004549688674"
     },
     {
       "avisos": [
@@ -1075,7 +1059,7 @@
         }
       ],
       "bundle": true,
-      "min_hist": null,
+      "min_hist": 949990.0,
       "modelo": "Switch 2",
       "nombre": "PREVENTA Consola Nintendo Switch 2 - Zelda: 40th Aniv. Edition (EU)",
       "pct": 0,
@@ -1103,7 +1087,7 @@
     {
       "avisos": [
         {
-          "precio": 349990.0,
+          "precio": 339990.0,
           "tienda": "Paris",
           "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
         }
@@ -1112,8 +1096,8 @@
       "min_hist": 349990.0,
       "modelo": "Switch OLED",
       "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": 14.6,
-      "precio": 349990.0,
+      "pct": 17.1,
+      "precio": 339990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
     },
@@ -1182,6 +1166,12 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Samsung 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Samsung-256gb/?ref=buscador"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1371,7 +1361,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-2849402286"
     }
   ],
-  "revision": "2026-11-13T21:18:33Z",
+  "revision": "2026-11-14T03:18:15Z",
   "seguimientos": [
     {
       "avisos": [
