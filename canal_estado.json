@@ -155,10 +155,11 @@
     },
     "2026-11-15": {
       "bombazos": 2,
-      "posts": 4,
+      "posts": 5,
       "slots": [
         "top",
-        "semanal"
+        "semanal",
+        "pack"
       ]
     }
   },
@@ -1696,6 +1697,12 @@
       "ids": [],
       "message_id": 178,
       "slot": "semanal"
+    },
+    {
+      "fecha": "2026-11-15T13:35-03:00",
+      "ids": [],
+      "message_id": 180,
+      "slot": "pack"
     }
   ],
   "publicados": {
@@ -2707,7 +2714,7 @@
   },
   "relleno": {
     "clasicos": "2026-11-14",
-    "memorias": "2026-11-13",
+    "memorias": "2026-11-15",
     "proximos": "2026-11-14"
   },
   "relleno_juegos": {
@@ -3181,5 +3188,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-15T12:05:33.953166-03:00"
+  "ultimo_post": "2026-11-15T13:35:31.960722-03:00"
 }
