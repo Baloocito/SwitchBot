@@ -1,11 +1,12 @@
 {
   "evento": null,
   "fallos": {
+    "Lider": 1,
     "PC Factory": 12,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 598,
+  "fisicos": 586,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +14,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-15T03:18:30Z",
+  "revision": "2026-11-15T09:17:39Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -264,9 +265,11 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 9 desde $27.990\n   🟢 DRAGON BALL: Sparking! ZERO",
       "nombres": [
         "dragon ball fighterz",
+        "dragon ball sparking zero",
+        "dragon ball the breakers",
         "dragon ball xenoverse 2 for nintendo switch",
         "dragon ball z kakarot",
         "dragon ball z kakarot a new power awakens set",
@@ -528,7 +531,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 25 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
+      "linea": "🟢 <b>Mario</b> — 📦 26 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -542,6 +545,7 @@
         "mario tennis fever",
         "mario vs donkey kong",
         "paper mario the thousand year door",
+        "super mario 3d world bowsers fury",
         "super mario bros wonder",
         "super mario galaxy 2",
         "super mario odyssey",
@@ -715,7 +719,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $44.900 · 🎮 224 desde US$1.96\n   🟢 Ys Origin −89%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $44.900 · 🎮 210 desde US$1.96\n   🟢 Ys Origin −89%",
       "nombres": [
         "7scarlet",
         "a memoir blue",
@@ -727,7 +731,6 @@
         "balan wonderworld",
         "ball x pit",
         "ball x pit nintendo switch 2 edition",
-        "beacon pines",
         "black skylands",
         "blasphemous",
         "blazing strike",
@@ -735,9 +738,6 @@
         "broforce",
         "cafe enchante",
         "chocobo gp",
-        "citizen sleeper",
-        "citizen sleeper helion collection",
-        "citizen sleeper nintendo switch 2 edition",
         "cocoon",
         "code realize future blessings",
         "code realize guardian of rebirth",
@@ -771,9 +771,7 @@
         "fishing fighters",
         "fun fun animal park",
         "gang beasts",
-        "genesis noir",
         "ghost parade",
-        "glitchhikers the spaces between",
         "golf story",
         "gone home",
         "gorogoa",
@@ -790,7 +788,6 @@
         "i am setsuna",
         "if found",
         "illusion of itehari",
-        "in other waters",
         "inescapable no rules no rescue",
         "inside",
         "it takes two",
@@ -821,13 +818,11 @@
         "mutazione",
         "my friend pedro",
         "my hero ones justice 2",
-        "neo cab",
         "neo the world ends with you",
         "neon white",
         "nickelodeon all star brawl 2",
         "ninja gaiden master collection",
         "ninja gaiden master collection deluxe edition",
-        "no longer home",
         "norn9 last era",
         "norn9 var commons",
         "olympia soiree",
@@ -881,7 +876,6 @@
         "steamworld heist ii",
         "stray",
         "streets of rage 4",
-        "super mutant alien assault",
         "tactics ogre reborn",
         "taiko no tatsujin rhythm festival",
         "tales from toyotoki arrival of the witch",
@@ -893,20 +887,16 @@
         "the adventures of elliot the millennium tales",
         "the artful escape",
         "the centennial case a shijima story",
-        "the church in the darkness",
         "the diofield chronicle",
         "the elder scrolls v skyrim",
-        "the jota collection",
         "the king of fighters xiii global match deluxe edition",
         "the last remnant remastered",
         "the messenger",
-        "the pale beyond",
         "the pathless",
         "the plucky squire",
         "the swords of ditto mormos curse",
         "the talos principle deluxe edition",
         "theatrhythm final bar line",
-        "think of the children",
         "thirsty suitors",
         "tin kuna",
         "tinykin",
@@ -1170,12 +1160,12 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $30.990 · 🎮 1 desde US$2.65\n   🟢 Galactic Wars: Defend Your Star Worlds −70%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900 · 🎮 1 desde US$2.65\n   🟢 Galactic Wars: Defend Your Star Worlds −70%",
       "nombres": [
         "galactic wars defend your star worlds",
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars jedi knight collection europeo",
+        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1360,12 +1350,11 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Ocarina of Time −7%",
+      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 The Legend of Zelda: Ocarina of Time −7%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda 40th anniversary edition",
         "the legend of zelda breath of the wild",
-        "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
         "the legend of zelda ocarina of time",
         "the legend of zelda tears of the kingdom"
@@ -1374,5 +1363,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 704
+  "total": 692
 }

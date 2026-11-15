@@ -230,6 +230,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:6987f1347e",
+        "text": "⚙️ Super Mario 3D World + Bowser… · $51.990"
+      },
+      "id": "6987f1347e",
+      "nivel": "regular",
+      "nombre": "Super Mario 3D World + Bowser’s Fury",
+      "pct": 5.3,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −5%\n<b>Super Mario 3D World + Bowser’s Fury</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$51.990</b> en Paris\n💡 Apenas 5% bajo la referencia\n   Ahorras $2.910 frente a su precio típico ($54.900)\n🏷️ La tienda marca «antes $64.990» (−20%)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://www.paris.cl/juego-nintendo-switch-super-mario-3d-world-bowsers-fury-678427999.html\">$51.990 Paris</a>\n   🥈 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Super-Mario-3D-World-Bowsers-Fury-Edicion/?ref=buscador\">$54.900 TodoJuegos</a> (+$2.910)\n   🥉 <a href=\"https://8-bits.cl/products/super-mario-3d-world-bowsers-fury-nsw\">$54.990 8 Bits</a> (+$3.000)\n   ▫️ <a href=\"https://sniper.cl/products/super-mario-3d-world-bowsers-fury-switch-sniper\">$54.990 Sniper</a> (+$3.000)\n   ▫️ <a href=\"https://bestmart.cl/products/super-mario-3d-world-bowser-s-fury-switch\">$56.990 Bestmart</a> (+$5.000)\n📈 Mínimo $49.000 (27 oct, TodoJuegos) · típico $54.900 · máximo $54.990\n   ██████████▁▁▁▁▁▁▁▁█████▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$58.41 ≈ $57.954 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $5.964 y además se puede revender\n🛒 <a href=\"https://listado.mercadolibre.cl/super-mario-3d-world-bowsers-fury-nintendo-switch\">MercadoLibre</a>: nuevo ~$59.990 (16 avisos)\n💰 <b>Reventa</b>: lo compras a $51.990 y nuevo se vende a ~$59.990 (+$8.000 antes de comisiones)\n🔎 Confianza alta: 5 tiendas y 33 días de historial\n🛒 <a href=\"https://www.paris.cl/juego-nintendo-switch-super-mario-3d-world-bowsers-fury-678427999.html\">Ir a comprar en Paris</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:e77b7d7247",
         "text": "⚙️ Super Mario Party Jamboree · $51.990"
       },
@@ -302,5 +314,5 @@
     }
   ],
   "juego": "Mario",
-  "revision": "2026-11-15T03:18:30Z"
+  "revision": "2026-11-15T09:17:39Z"
 }
