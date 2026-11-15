@@ -93,6 +93,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:b3ec5c2f50",
+        "text": "⚙️ DRAGON QUEST II: Luminaries o… · US$3.63"
+      },
+      "con_fisico": false,
+      "id": "b3ec5c2f50",
+      "nivel": "compra",
+      "nombre": "DRAGON QUEST II: Luminaries of the Legendary Line",
+      "pct": 40.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −40%\n<b>DRAGON QUEST II: Luminaries of the Legendary Line</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$3.63</b> ≈ $3.602 en 🇨🇱 Chile\n   Precio en la tienda: $3.600 CLP\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$6.05 → ahorras US$2.42 · ⏳ termina el 17 nov (en 2 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/dragon-quest-ii-luminaries-of-the-legendary-line-switch/\">US$3.63</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/dragon-quest-ii-luminaries-of-the-legendary-line-switch/\">US$3.78</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/dragon-quest-ii-luminaries-of-the-legendary-line-switch/\">US$3.89</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/dragon-quest-ii-luminaries-of-the-legendary-line-switch/\">US$4.20</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/dragon-quest-ii-luminaries-of-the-legendary-line-switch/\">US$4.40</a>\n   El más caro: 🇧🇷 US$5.83\n📈 Mínimo US$3.62 (2 nov en 🇨🇱 Chile)\n   ████████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/dragon-quest-ii-luminaries-of-the-legendary-line-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:a36d268b36",
         "text": "⚙️ DRAGON QUEST · US$2.65"
       },
@@ -386,5 +399,5 @@
     }
   ],
   "juego": "Dragon Quest",
-  "revision": "2026-11-15T15:18:33Z"
+  "revision": "2026-11-15T21:17:15Z"
 }

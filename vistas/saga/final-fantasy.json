@@ -132,6 +132,32 @@
     },
     {
       "boton": {
+        "callback_data": "a:c2c3176d9d",
+        "text": "⚙️ FINAL FANTASY · US$5.81"
+      },
+      "con_fisico": true,
+      "id": "c2c3176d9d",
+      "nivel": "compra",
+      "nombre": "FINAL FANTASY",
+      "pct": 40.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −40%\n<b>FINAL FANTASY</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$5.81</b> ≈ $5.765 en 🇨🇱 Chile\n   Precio en la tienda: $5.760 CLP\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$9.68 → ahorras US$3.87 · ⏳ termina el 17 nov (en 2 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/final-fantasy-switch/\">US$5.81</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/final-fantasy-switch/\">US$6.73</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/final-fantasy-switch/\">US$6.85</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/final-fantasy-switch/\">US$7.19</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/final-fantasy-switch/\">US$7.44</a>\n   El más caro: 🇨🇴 US$10.12\n📦 Físico: $99.990 en Falabella → el digital te ahorra $94.225\n📈 Mínimo US$5.79 (2 nov en 🇨🇱 Chile)\n   ████████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/final-fantasy-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:021f6a1788",
+        "text": "⚙️ FINAL FANTASY II · US$5.81"
+      },
+      "con_fisico": false,
+      "id": "021f6a1788",
+      "nivel": "compra",
+      "nombre": "FINAL FANTASY II",
+      "pct": 40.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −40%\n<b>FINAL FANTASY II</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$5.81</b> ≈ $5.765 en 🇨🇱 Chile\n   Precio en la tienda: $5.760 CLP\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$9.68 → ahorras US$3.87 · ⏳ termina el 17 nov (en 2 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/final-fantasy-ii-switch/\">US$5.81</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/final-fantasy-ii-switch/\">US$6.73</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/final-fantasy-ii-switch/\">US$6.85</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/final-fantasy-ii-switch/\">US$7.19</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/final-fantasy-ii-switch/\">US$7.44</a>\n   El más caro: 🇨🇴 US$10.12\n📈 Mínimo US$5.79 (2 nov en 🇨🇱 Chile)\n   ████████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/final-fantasy-ii-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:4e2d767d97",
         "text": "⚙️ FINAL FANTASY III · US$8.77"
       },
@@ -391,5 +417,5 @@
     }
   ],
   "juego": "Final Fantasy",
-  "revision": "2026-11-15T15:18:33Z"
+  "revision": "2026-11-15T21:17:15Z"
 }
