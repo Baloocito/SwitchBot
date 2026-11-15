@@ -120,9 +120,9 @@
       "marca": "logitech g",
       "min_hist": 35990.0,
       "nombre": "Audífonos Over-Ear USB Headset H390",
-      "pct": 0,
+      "pct": 7.7,
       "precio": 35990.0,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/12049401/audifonos-over-ear-usb-headset-h390-logitech"
     },
@@ -381,6 +381,24 @@
     {
       "avisos": [
         {
+          "precio": 59990.0,
+          "tarjeta": null,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
+        }
+      ],
+      "marca": "redragon",
+      "min_hist": 59990.0,
+      "nombre": "Audífono Headset H510W RGB Zeus X White",
+      "pct": 0,
+      "precio": 59990.0,
+      "ref_tipo": null,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
+    },
+    {
+      "avisos": [
+        {
           "precio": 60990.0,
           "tarjeta": null,
           "tienda": "Falabella",
@@ -514,7 +532,7 @@
         }
       ],
       "marca": "JBL",
-      "min_hist": 124990.0,
+      "min_hist": 109990.0,
       "nombre": "Audífonos JBL Quantum TWS con cancelación de ruido - Negro",
       "pct": 12.0,
       "precio": 109990.0,
@@ -597,20 +615,20 @@
     {
       "avisos": [
         {
-          "precio": 127990,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-2766353884"
+          "precio": 124990.0,
+          "tarjeta": 119990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/16688581/zone-vibe-100-headset-inalambrico-negro-logitech"
         }
       ],
-      "marca": "Logitech G",
-      "min_hist": 127990,
-      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (LIFEMAX)",
-      "pct": 0.0,
-      "precio": 127990,
-      "ref_tipo": "tipico",
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-2766353884"
+      "marca": "logitech g",
+      "min_hist": 124990.0,
+      "nombre": "Zone Vibe 100 Headset Inalámbrico Negro",
+      "pct": 0,
+      "precio": 124990.0,
+      "ref_tipo": null,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/16688581/zone-vibe-100-headset-inalambrico-negro-logitech"
     },
     {
       "avisos": [
@@ -647,6 +665,24 @@
       "ref_tipo": "tipico",
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-jbl-quantum-650-multiplataforma"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 130990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-2766353884"
+        }
+      ],
+      "marca": "Logitech G",
+      "min_hist": 127990,
+      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (LIFEMAX)",
+      "pct": -2.3,
+      "precio": 130990,
+      "ref_tipo": "tipico",
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-2766353884"
     },
     {
       "avisos": [
@@ -735,24 +771,6 @@
       "pct": 8.7,
       "precio": 209990.0,
       "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80716012/audifono-gamer-astro-a20-x-logitech"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 209990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80716012/audifono-gamer-astro-a20-x-logitech"
-        }
-      ],
-      "marca": "Astro",
-      "min_hist": null,
-      "nombre": "Audífonos Gamer Inalámbricos Astro A20 X",
-      "pct": 0,
-      "precio": 209990.0,
-      "ref_tipo": null,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80716012/audifono-gamer-astro-a20-x-logitech"
     },
@@ -1093,7 +1111,7 @@
         }
       ],
       "bundle": true,
-      "min_hist": 349990.0,
+      "min_hist": 339990.0,
       "modelo": "Switch OLED",
       "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
       "pct": 17.1,
@@ -1166,6 +1184,12 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Samsung 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Samsung-256gb/?ref=buscador"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1355,7 +1379,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-2849402286"
     }
   ],
-  "revision": "2026-11-14T21:17:53Z",
+  "revision": "2026-11-15T03:18:30Z",
   "seguimientos": [
     {
       "avisos": [
