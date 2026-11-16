@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 579,
+  "fisicos": 588,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-16T09:17:21Z",
+  "revision": "2026-11-16T15:18:51Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -162,6 +162,16 @@
       "slug": "chrono-mana"
     },
     {
+      "juego": "Contra",
+      "linea": "🟢 <b>Contra</b> — 📦 2 desde $37.720\n   🟢 Contra: Operation Galuga",
+      "nombres": [
+        "contra operation galuga",
+        "contra rogue corps"
+      ],
+      "orden": 1,
+      "slug": "contra"
+    },
+    {
       "juego": "Crash / Spyro",
       "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000\n   🟢 Crash 4 Bandicoot",
       "nombres": [
@@ -205,11 +215,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
+      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "dave-the-diver"
     },
     {
@@ -254,10 +264,9 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 9 desde $27.990\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
-        "dragon ball the breakers",
         "dragon ball xenoverse 2 for nintendo switch",
         "dragon ball z kakarot",
         "dragon ball z kakarot a new power awakens set",
@@ -418,9 +427,8 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
       "nombres": [
-        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -531,7 +539,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 26 desde $22.900\n   🟢 Mario Strikers: Battle League −60%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -541,7 +549,6 @@
         "mario rabbids kingdom sparks double pack",
         "mario rabbids sniper game",
         "mario rabbids sparks of hope",
-        "mario strikers battle league",
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
@@ -719,7 +726,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $44.900 · 🎮 210 desde US$1.96\n   🟢 Ys Origin −89%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 1 desde $44.900 · 🎮 222 desde US$1.96\n   🟢 The Survivalists −90%",
       "nombres": [
         "7scarlet",
         "a memoir blue",
@@ -727,12 +734,14 @@
         "airhead",
         "akibas trip hellbound debriefed",
         "akibas trip undead undressed directors cut",
+        "amber isle",
         "ashen",
         "balan wonderworld",
         "ball x pit",
         "ball x pit nintendo switch 2 edition",
         "black skylands",
         "blasphemous",
+        "blasphemous 2",
         "blazing strike",
         "boomerang fu",
         "broforce",
@@ -744,12 +753,14 @@
         "code realize wintertide miracles",
         "collar x malice",
         "collar x malice unlimited",
+        "conscript",
         "crisis core final fantasy vii reunion digital deluxe edition",
         "cuddly forest friends",
         "cursed to golf",
         "dairoku agents of sakuratani",
         "darkest dungeon",
         "darkest dungeon ii",
+        "date everything",
         "deadcraft",
         "despera drops",
         "despots game",
@@ -773,11 +784,13 @@
         "gang beasts",
         "ghost parade",
         "golf story",
+        "golf with your friends",
         "gone home",
         "gorogoa",
         "gris",
         "happys humble burger farm",
         "harvestella",
+        "headbangers rhythm royale",
         "hello neighbor",
         "hello neighbor 2",
         "hello neighbor hide and seek",
@@ -812,6 +825,7 @@
         "miss kobayashis dragon maid burst forth choro gon breath",
         "mistonias hope the lost delight",
         "mon yu defeat monsters and gain strong weapons and armor you may be defeated but dont give up become stronger i believe there will be a day when the heroes defeat the devil king",
+        "moving out",
         "moving out 2",
         "mundaun",
         "mutazione",
@@ -819,6 +833,7 @@
         "neo the world ends with you",
         "neon abyss",
         "neon white",
+        "nice day for fishing",
         "ninja gaiden master collection",
         "ninja gaiden master collection deluxe edition",
         "norn9 last era",
@@ -860,8 +875,10 @@
         "sayonara wild hearts",
         "sayonara wild hearts lorelei and the laser eyes bundle",
         "sayonara wild hearts nintendo switch 2 edition",
+        "ship of fools",
         "skye tales",
         "slime rancher plortable edition",
+        "snk vs capcom svc chaos",
         "solar ash",
         "spelunker party",
         "spirit hunter death mark",
@@ -876,6 +893,7 @@
         "stray",
         "streets of rage 4",
         "swordship",
+        "sworn",
         "tactics ogre reborn",
         "tales from toyotoki arrival of the witch",
         "tchia",
@@ -892,6 +910,7 @@
         "the messenger",
         "the pathless",
         "the plucky squire",
+        "the survivalists",
         "the swords of ditto mormos curse",
         "the talos principle deluxe edition",
         "theatrhythm final bar line",
@@ -1013,9 +1032,10 @@
     },
     {
       "juego": "Rayman",
-      "linea": "🟢 <b>Rayman</b> — 📦 3 desde $29.900\n   🟢 Rayman Legends Retold - Launch Edition",
+      "linea": "🟢 <b>Rayman</b> — 📦 4 desde $29.900\n   🟢 Rayman Legends Retold - Launch Edition",
       "nombres": [
         "rayman 30th anniversary edition",
+        "rayman legends",
         "rayman legends definitive edition",
         "rayman legends retold launch edition"
       ],
@@ -1367,5 +1387,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 699
+  "total": 708
 }
