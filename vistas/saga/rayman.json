@@ -38,6 +38,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:37c8e093f4",
+        "text": "⚙️ Rayman Legends Retold S2 · $49.900"
+      },
+      "id": "37c8e093f4",
+      "nivel": "normal",
+      "nombre": "Rayman Legends Retold",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Rayman Legends Retold</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$49.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.900 (16 nov, TodoJuegos) · máximo $49.900\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$35.31 ≈ $35.147 en 🇧🇷 Brasil\n   ➜ El digital es $14.753 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Rayman-Legends-Retold-Launch-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:3382481f50",
         "text": "⚙️ Rayman Legends · $44.990"
       },
@@ -50,5 +62,5 @@
     }
   ],
   "juego": "Rayman",
-  "revision": "2026-11-16T15:18:51Z"
+  "revision": "2026-11-16T21:17:00Z"
 }
