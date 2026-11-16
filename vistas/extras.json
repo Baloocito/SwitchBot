@@ -282,7 +282,7 @@
       "marca": "logitech g",
       "min_hist": 54990.0,
       "nombre": "Audífono Wired Gaming Headset G335",
-      "pct": 8.3,
+      "pct": 4.3,
       "precio": 54990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -382,6 +382,24 @@
       "avisos": [
         {
           "precio": 59990.0,
+          "tarjeta": 49990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/17292989/Audifono-Headset-Redragon-H510P-RGB-Zeus-X-Pink"
+        }
+      ],
+      "marca": "redragon",
+      "min_hist": 59990.0,
+      "nombre": "Audífono Headset H510P RGB Zeus X Pink",
+      "pct": 0.0,
+      "precio": 59990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/17292989/Audifono-Headset-Redragon-H510P-RGB-Zeus-X-Pink"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 59990.0,
           "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
@@ -426,7 +444,7 @@
       "marca": "logitech g",
       "min_hist": 74990.0,
       "nombre": "Audífono Gamer G321",
-      "pct": 1.3,
+      "pct": 0.7,
       "precio": 74990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -480,7 +498,7 @@
       "marca": "logitech g",
       "min_hist": 104990.0,
       "nombre": "Audífono Gamer G325",
-      "pct": 4.5,
+      "pct": 2.3,
       "precio": 104990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -498,7 +516,7 @@
       "marca": "logitech g",
       "min_hist": 104990.0,
       "nombre": "Audífono Gamer Inalámbrico G325",
-      "pct": 4.5,
+      "pct": 2.3,
       "precio": 104990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -732,7 +750,7 @@
       "marca": "logitech g",
       "min_hist": 189990.0,
       "nombre": "Audífonos Gamer Inalambrico G522 Light",
-      "pct": 7.3,
+      "pct": 3.8,
       "precio": 189990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -886,7 +904,7 @@
     {
       "avisos": [
         {
-          "precio": 299990.0,
+          "precio": 349990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
         }
@@ -895,27 +913,10 @@
       "min_hist": 299990.0,
       "modelo": "Switch",
       "nombre": "Consola Switch Neon + Mario Wonder Bundle",
-      "pct": 0.0,
-      "precio": 299990.0,
+      "pct": -16.7,
+      "precio": 349990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 319990.0,
-          "tienda": "Lider",
-          "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-1-1-neon-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688539"
-        }
-      ],
-      "bundle": false,
-      "min_hist": 319990.0,
-      "modelo": "Switch",
-      "nombre": "Consola Nintendo Switch 1.1 Neón, Super Mario Bros. Wonder 3 Meses de Nintendo S",
-      "pct": 8.6,
-      "precio": 319990.0,
-      "tienda": "Lider",
-      "url": "https://www.lider.cl/ip/videojuegos/consola-nintendo-switch-1-1-neon-super-mario-bros-wonder-3-meses-de-nintendo-switch-online/00004549688539"
     },
     {
       "avisos": [
@@ -952,7 +953,7 @@
           "url": "https://www.todojuegos.cl/Productos/NS2/Consola-Nintendo-Switch-2/?ref=buscador"
         },
         {
-          "precio": 644990.0,
+          "precio": 684990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80872527/consola-nintendo-switch-2-neon-blue-neon-red"
         }
@@ -965,23 +966,6 @@
       "precio": 609990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 624990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 624990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Switch 2 + Juego Descargable EA Sports FC 27",
-      "pct": 0,
-      "precio": 624990.0,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
     },
     {
       "avisos": [
@@ -1016,6 +1000,23 @@
       "precio": 659990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-2-juego-pokemon-legends-z-a"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 679990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 624990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Switch 2 + Juego Descargable EA Sports FC 27",
+      "pct": 0,
+      "precio": 679990.0,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
     },
     {
       "avisos": [
@@ -1123,13 +1124,13 @@
       "avisos": [
         {
           "precio": 349990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80627204/Consola%20Switch%20Oled%20White%20Bu%20Nintendo"
-        },
-        {
-          "precio": 349990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-blanco"
+        },
+        {
+          "precio": 409990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80627204/Consola%20Switch%20Oled%20White%20Bu%20Nintendo"
         }
       ],
       "bundle": false,
@@ -1138,8 +1139,8 @@
       "nombre": "Consola Switch Oled White Bu",
       "pct": 0.0,
       "precio": 349990.0,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80627204/Consola%20Switch%20Oled%20White%20Bu%20Nintendo"
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-blanco"
     },
     {
       "avisos": [
@@ -1184,6 +1185,12 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Samsung 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Samsung-256gb/?ref=buscador"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1350,30 +1357,9 @@
       "tienda": "MercadoLibre",
       "tipo": "normal",
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 222300,
-          "tienda": "MercadoLibre",
-          "titulo": "Tarjeta MicroSD Kingston de 512 GB con Adaptador SD (tienda oficial)",
-          "url": "https://articulo.mercadolibre.cl/MLC-2849402286"
-        }
-      ],
-      "gb": 512,
-      "marca": "Kingston",
-      "min_hist": 211800,
-      "nombre": "microSD 512 GB · Kingston",
-      "pct": 0,
-      "por_gb": 434,
-      "precio": 222300,
-      "ref_tipo": null,
-      "tienda": "MercadoLibre",
-      "tipo": "normal",
-      "url": "https://articulo.mercadolibre.cl/MLC-2849402286"
     }
   ],
-  "revision": "2026-11-15T21:17:15Z",
+  "revision": "2026-11-16T03:20:07Z",
   "seguimientos": [
     {
       "avisos": [
@@ -1432,10 +1418,10 @@
           "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-zeus-h510-pro-blanco"
         },
         {
-          "precio": 62990,
+          "precio": 61990,
           "tarjeta": null,
           "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-4088100048"
+          "url": "https://articulo.mercadolibre.cl/MLC-3995211136"
         }
       ],
       "item": "Redragon Zeus",

@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 593,
+  "fisicos": 594,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-15T21:17:15Z",
+  "revision": "2026-11-16T03:20:07Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -57,7 +57,7 @@
     },
     {
       "juego": "Atelier",
-      "linea": "🟢 <b>Atelier</b> — 📦 11 desde $39.990 · 🎮 11 desde US$13.88\n   🟢 Atelier Marie Remake: The Alchemist of Salburg −70%",
+      "linea": "🟢 <b>Atelier</b> — 📦 11 desde $39.990 · 🎮 11 desde US$13.87\n   🟢 Atelier Marie Remake: The Alchemist of Salburg −70%",
       "nombres": [
         "atelier dusk trilogy deluxe pack",
         "atelier lulua the scion of arland",
@@ -78,7 +78,7 @@
     },
     {
       "juego": "Batman",
-      "linea": "🟢 <b>Batman</b> — 🎮 3 desde US$7.66\n   🟢 Batman: Arkham Asylum −60%",
+      "linea": "🟢 <b>Batman</b> — 🎮 3 desde US$7.63\n   🟢 Batman: Arkham Asylum −60%",
       "nombres": [
         "batman arkham asylum",
         "batman arkham city",
@@ -108,7 +108,7 @@
     },
     {
       "juego": "Bravely Default",
-      "linea": "🟢 <b>Bravely Default</b> — 📦 4 desde $26.990 · 🎮 1 desde US$24.73\n   🟢 BRAVELY DEFAULT FLYING FAIRY HD Remaster −15%",
+      "linea": "🟢 <b>Bravely Default</b> — 📦 4 desde $26.990 · 🎮 1 desde US$24.66\n   🟢 BRAVELY DEFAULT FLYING FAIRY HD Remaster −30%",
       "nombres": [
         "bravely default 2",
         "bravely default flying fairy",
@@ -142,7 +142,7 @@
     },
     {
       "juego": "Celeste",
-      "linea": "🟢 <b>Celeste</b> — 📦 2 desde $49.990 · 🎮 1 desde US$2.65\n   🟢 Celeste −75%",
+      "linea": "🟢 <b>Celeste</b> — 📦 2 desde $49.990 · 🎮 1 desde US$2.64\n   🟢 Celeste −75%",
       "nombres": [
         "celeste"
       ],
@@ -151,7 +151,7 @@
     },
     {
       "juego": "Chrono / Mana",
-      "linea": "🟢 <b>Chrono / Mana</b> — 📦 5 desde $19.900 · 🎮 4 desde US$6.77\n   🟢 Trials of Mana −70%",
+      "linea": "🟢 <b>Chrono / Mana</b> — 📦 5 desde $19.900 · 🎮 4 desde US$6.75\n   🟢 Trials of Mana −70%",
       "nombres": [
         "chrono cross the radical dreamers edition",
         "collection of mana",
@@ -160,6 +160,15 @@
       ],
       "orden": 1,
       "slug": "chrono-mana"
+    },
+    {
+      "juego": "Contra",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
+      "nombres": [
+        "contra rogue corps"
+      ],
+      "orden": 1,
+      "slug": "contra"
     },
     {
       "juego": "Crash / Spyro",
@@ -184,7 +193,7 @@
     },
     {
       "juego": "Cyberpunk 2077",
-      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990 · 🎮 1 desde US$7.03\n   🟢 Keylocker | Turn Based Cyberpunk Action −40%",
+      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990 · 🎮 1 desde US$7.01\n   🟢 Keylocker | Turn Based Cyberpunk Action −40%",
       "nombres": [
         "cyberpunk 2077 ultimate edition",
         "keylocker turn based cyberpunk action",
@@ -223,7 +232,7 @@
     },
     {
       "juego": "Digimon Story Time Stranger",
-      "linea": "🟢 <b>Digimon Story Time Stranger</b> — 📦 2 desde $79.990 · 🎮 2 desde US$32.10\n   🟢 Digimon Story Time Stranger",
+      "linea": "🟢 <b>Digimon Story Time Stranger</b> — 📦 2 desde $79.990 · 🎮 2 desde US$32.00\n   🟢 Digimon Story Time Stranger −30%",
       "nombres": [
         "digimon story time stranger"
       ],
@@ -269,7 +278,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990 · 🎮 13 desde US$2.65\n   🟢 DRAGON QUEST MONSTERS: The Dark Prince −85%",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990 · 🎮 13 desde US$2.64\n   🟢 DRAGON QUEST MONSTERS: The Dark Prince −85%",
       "nombres": [
         "dragon quest",
         "dragon quest builders",
@@ -299,6 +308,15 @@
       "slug": "ea-sports-fc"
     },
     {
+      "juego": "Elden Ring",
+      "linea": "⚪ <b>Elden Ring</b> — 📦 1 desde $84.900",
+      "nombres": [
+        "elden ring tarnished edition"
+      ],
+      "orden": 4,
+      "slug": "elden-ring"
+    },
+    {
       "juego": "Emio / Famicom Detective",
       "linea": "🟢 <b>Emio / Famicom Detective</b> — 📦 2 desde $59.990\n   🟢 Emio - The Smiling Man Sniper",
       "nombres": [
@@ -310,7 +328,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990 · 🎮 19 desde US$4.65\n   🟢 FINAL FANTASY VII REMAKE INTERGRADE −80%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990 · 🎮 19 desde US$4.63\n   🟢 FINAL FANTASY VII REMAKE INTERGRADE −80%",
       "nombres": [
         "collection of saga final fantasy legend",
         "crisis core final fantasy vii reunion",
@@ -369,7 +387,7 @@
     },
     {
       "juego": "Hades",
-      "linea": "🟢 <b>Hades</b> — 📦 3 desde $28.000 · 🎮 1 desde US$9.98\n   🟢 Garden of the Greek Gods: Zeus, Poseidon &amp; Hades Love Story −60%",
+      "linea": "🟢 <b>Hades</b> — 📦 3 desde $28.000 · 🎮 1 desde US$9.95\n   🟢 Garden of the Greek Gods: Zeus, Poseidon &amp; Hades Love Story −60%",
       "nombres": [
         "garden of the greek gods zeus poseidon hades love story",
         "hades",
@@ -430,7 +448,7 @@
     },
     {
       "juego": "Katamari",
-      "linea": "🟢 <b>Katamari</b> — 📦 2 desde $34.990 · 🎮 1 desde US$4.79\n   🟢 We Love Katamari REROLL+ Royal Reverie −75%",
+      "linea": "🟢 <b>Katamari</b> — 📦 2 desde $34.990 · 🎮 1 desde US$4.77\n   🟢 We Love Katamari REROLL+ Royal Reverie −75%",
       "nombres": [
         "once upon a katamari",
         "we love katamari reroll royal reverie"
@@ -440,7 +458,7 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 3 desde $39.720 · 🎮 1 desde US$22.43\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
+      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 3 desde $39.720 · 🎮 1 desde US$22.42\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
       "nombres": [
         "kingdom hearts collection i iii",
         "kingdom hearts collection i iii europeo",
@@ -464,7 +482,7 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $22.900 · 🎮 7 desde US$2.01\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $22.900 · 🎮 7 desde US$2.00\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
         "lego brawls",
         "lego bricktales",
@@ -520,7 +538,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
+      "linea": "🟢 <b>Mario</b> — 📦 25 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -565,7 +583,7 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $34.900 · 🎮 3 desde US$3.37\n   🟢 LEGO Marvel Super Heroes 2 −85%",
+      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $34.900 · 🎮 3 desde US$3.36\n   🟢 LEGO Marvel Super Heroes 2 −85%",
       "nombres": [
         "lego marvel super heroes 2",
         "marvel cosmic invasion",
@@ -633,7 +651,7 @@
     },
     {
       "juego": "Monster Hunter",
-      "linea": "🟢 <b>Monster Hunter</b> — 📦 7 desde $17.990 · 🎮 1 desde US$25.85\n   🟢 Monster Hunter Generations Ultimate",
+      "linea": "🟢 <b>Monster Hunter</b> — 📦 7 desde $17.990 · 🎮 1 desde US$25.77\n   🟢 Monster Hunter Generations Ultimate",
       "nombres": [
         "monster hunter generations ultimate",
         "monster hunter rise",
@@ -646,7 +664,7 @@
     },
     {
       "juego": "Mortal Kombat",
-      "linea": "🟢 <b>Mortal Kombat</b> — 📦 4 desde $29.900 · 🎮 1 desde US$7.08\n   🟢 Mortal Kombat 11 −80%",
+      "linea": "🟢 <b>Mortal Kombat</b> — 📦 4 desde $29.900 · 🎮 1 desde US$7.06\n   🟢 Mortal Kombat 11 −80%",
       "nombres": [
         "mortal kombat 1",
         "mortal kombat 11",
@@ -667,7 +685,7 @@
     },
     {
       "juego": "NieR",
-      "linea": "🟢 <b>NieR</b> — 📦 1 desde $44.900 · 🎮 1 desde US$10.62\n   🟢 NieR:Automata The End of YoRHa Edition −60%",
+      "linea": "🟢 <b>NieR</b> — 📦 1 desde $44.900 · 🎮 1 desde US$10.59\n   🟢 NieR:Automata The End of YoRHa Edition −60%",
       "nombres": [
         "nier automata the end of yorha edition"
       ],
@@ -676,7 +694,7 @@
     },
     {
       "juego": "Octopath Traveler",
-      "linea": "🟢 <b>Octopath Traveler</b> — 📦 6 desde $44.990 · 🎮 6 desde US$23.49\n   🟢 OCTOPATH TRAVELER 0 −50%",
+      "linea": "🟢 <b>Octopath Traveler</b> — 📦 6 desde $44.990 · 🎮 6 desde US$23.48\n   🟢 OCTOPATH TRAVELER 0 −50%",
       "nombres": [
         "octopath traveler",
         "octopath traveler 0",
@@ -979,9 +997,10 @@
     },
     {
       "juego": "Pokémon Mystery Dungeon / Snap",
-      "linea": "🟢 <b>Pokémon Mystery Dungeon / Snap</b> — 📦 2 desde $49.990\n   🟢 Chocobo's Mystery Dungeon EVERY BUDDY!",
+      "linea": "🟢 <b>Pokémon Mystery Dungeon / Snap</b> — 📦 2 desde $49.990 · 🎮 2 desde US$18.65\n   🟢 Dragon Quest Heroes: Torneko‘s Mystery Dungeon -Classic HD- −20%",
       "nombres": [
         "chocobos mystery dungeon every buddy",
+        "dragon quest heroes torneko s mystery dungeon classic hd",
         "new pokemon snap"
       ],
       "orden": 1,
@@ -1049,7 +1068,7 @@
     },
     {
       "juego": "Rune Factory",
-      "linea": "🟢 <b>Rune Factory</b> — 📦 6 desde $19.900 · 🎮 5 desde US$4.53\n   🟢 Rune Factory 3 Special −78%",
+      "linea": "🟢 <b>Rune Factory</b> — 📦 6 desde $19.900 · 🎮 5 desde US$4.52\n   🟢 Rune Factory 3 Special −78%",
       "nombres": [
         "rune factory 3 special",
         "rune factory 4 special",
@@ -1247,7 +1266,7 @@
     },
     {
       "juego": "Tomodachi Life",
-      "linea": "🟠 <b>Tomodachi Life</b> — 📦 3 desde $59.900",
+      "linea": "🟠 <b>Tomodachi Life</b> — 📦 3 desde $59.690",
       "nombres": [
         "tomodachi life",
         "tomodachi life living the dream",
@@ -1258,7 +1277,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 9 desde $59.900 · 🎮 2 desde US$26.55\n   🟢 Trails in the Sky 1st Chapter −50%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 9 desde $59.900 · 🎮 2 desde US$26.48\n   🟢 Trails in the Sky 1st Chapter −50%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
@@ -1275,7 +1294,7 @@
     },
     {
       "juego": "Triangle Strategy",
-      "linea": "🟢 <b>Triangle Strategy</b> — 📦 2 desde $39.990 · 🎮 1 desde US$21.18\n   🟢 TRIANGLE STRATEGY −60%",
+      "linea": "🟢 <b>Triangle Strategy</b> — 📦 2 desde $39.990 · 🎮 1 desde US$21.12\n   🟢 TRIANGLE STRATEGY −60%",
       "nombres": [
         "triangle strategy"
       ],
@@ -1334,7 +1353,7 @@
     },
     {
       "juego": "Ys",
-      "linea": "🟢 <b>Ys</b> — 📦 4 desde $54.990 · 🎮 1 desde US$12.65\n   🟢 Ys Memoire: The Oath in Felghana −35%",
+      "linea": "🟢 <b>Ys</b> — 📦 4 desde $54.990 · 🎮 1 desde US$12.62\n   🟢 Ys Memoire: The Oath in Felghana −35%",
       "nombres": [
         "ys ix monstrom nox pact edition sniper",
         "ys ix monstrum nox",
@@ -1347,11 +1366,12 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 The Legend of Zelda: Ocarina of Time −7%",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 Adventure Pack Legend of Zelda TOTK - Sniper",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda 40th anniversary edition",
         "the legend of zelda breath of the wild",
+        "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
         "the legend of zelda ocarina of time",
         "the legend of zelda tears of the kingdom"
@@ -1360,5 +1380,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 699
+  "total": 705
 }
