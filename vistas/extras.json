@@ -1353,7 +1353,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-17T15:18:57Z",
+  "revision": "2026-11-17T21:18:43Z",
   "seguimientos": [
     {
       "avisos": [
@@ -1364,16 +1364,16 @@
           "url": "https://bestmart.cl/products/audifonos-gamer-redragon-zeus-x-h510-rgb-sonido-7-1-negro"
         },
         {
+          "precio": 49990.0,
+          "tarjeta": null,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
+        },
+        {
           "precio": 51470,
           "tarjeta": null,
           "tienda": "MercadoLibre",
           "url": "https://articulo.mercadolibre.cl/MLC-2865043080"
-        },
-        {
-          "precio": 59990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
         }
       ],
       "item": "Redragon Zeus",
@@ -1384,6 +1384,24 @@
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/audifonos-gamer-redragon-zeus-x-h510-rgb-sonido-7-1-negro",
       "variante": "x"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 45990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-4649449138"
+        }
+      ],
+      "item": "Redragon Zeus",
+      "min_hist": 45990,
+      "nombre": "Auriculares para juegos Redragon Zeus Lite P3, negros, H510-lt (DUST2G",
+      "precio": 45990,
+      "tarjeta": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-4649449138",
+      "variante": "lite"
     },
     {
       "avisos": [

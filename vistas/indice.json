@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 513,
+  "fisicos": 537,
   "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-17T15:18:57Z",
+  "revision": "2026-11-17T21:18:43Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -129,7 +129,7 @@
     },
     {
       "juego": "Castlevania",
-      "linea": "🟢 <b>Castlevania</b> — 📦 7 desde $44.900\n   🟢 Castlevania Advance Collection",
+      "linea": "🟢 <b>Castlevania</b> — 📦 7 desde $44.900 · 🎮 3 desde US$5.62\n   🟢 Castlevania Anniversary Collection −60%",
       "nombres": [
         "castlevania advance collection",
         "castlevania anniversary collection",
@@ -163,8 +163,9 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
+      "linea": "🟢 <b>Contra</b> — 📦 2 desde $37.720\n   🟢 Contra: Operation Galuga",
       "nombres": [
+        "contra operation galuga",
         "contra rogue corps"
       ],
       "orden": 1,
@@ -527,7 +528,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 23 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -542,6 +543,7 @@
         "mario vs donkey kong",
         "paper mario the thousand year door",
         "super mario bros wonder",
+        "super mario galaxy 2",
         "super mario odyssey",
         "super mario party",
         "super mario party jamboree",
@@ -597,7 +599,7 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 4 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
       "nombres": [
         "metal gear solid master collection vol 1",
         "metal gear solid master collection vol 2",
@@ -714,10 +716,11 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $34.990 · 🎮 179 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $34.990 · 🎮 202 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "7scarlet",
         "a memoir blue",
+        "absolum",
         "airhead",
         "akibas trip hellbound debriefed",
         "akibas trip undead undressed directors cut",
@@ -729,14 +732,20 @@
         "blasphemous 2",
         "blazing strike",
         "blue reflection quartet",
+        "bridge constructor portal",
+        "bridge constructor studio",
+        "bridge constructor the walking dead",
+        "bridge constructor ultimate edition",
         "broforce",
         "cafe enchante",
+        "cardaclysm shards of the four",
         "cocoon",
         "code realize future blessings",
         "code realize guardian of rebirth",
         "code realize wintertide miracles",
         "collar x malice",
         "collar x malice unlimited",
+        "colt canyon",
         "conscript",
         "cuddly forest friends",
         "cuisineer",
@@ -756,6 +765,7 @@
         "dynasty warriors 8 xtreme legends definitive edition",
         "dynasty warriors 9 empires",
         "dynasty warriors origins",
+        "efootball kick off",
         "el hijo a wild west tale",
         "enter the gungeon",
         "exit the gungeon",
@@ -764,6 +774,7 @@
         "farmagia",
         "farmagia digital deluxe edition",
         "fishing fighters",
+        "fitness boxing feat hatsune miku",
         "football manager 26 touch",
         "freedom planet",
         "freedom planet 2",
@@ -783,6 +794,7 @@
         "hellpoint",
         "hindsight",
         "horgihugh and friends",
+        "hyperspaced",
         "i am dead",
         "if found",
         "illusion of itehari",
@@ -820,11 +832,14 @@
         "olympia soiree",
         "one two combo bundle punch club franchise",
         "open roads",
+        "otome daoshi fighting for love",
         "outer wilds",
         "paradigm paradox",
+        "path of mystery a brush with death",
         "pikuniku",
         "piofiore episodio 1926",
         "piofiore fated memories",
+        "pixel heroes mega byte magic",
         "potionomics masterwork edition",
         "pretty princess magical garden island",
         "pretty princess party",
@@ -835,6 +850,7 @@
         "quarantine zone border zombie checkpoint",
         "radiant tale",
         "radiant tale fanfare",
+        "record of agarest war",
         "return to monkey island",
         "rico london",
         "rune factory guardians of azuma super digital deluxe edition",
@@ -844,6 +860,7 @@
         "sayonara wild hearts lorelei and the laser eyes bundle",
         "sayonara wild hearts nintendo switch 2 edition",
         "ship of fools",
+        "shotgun cop man",
         "silent hope",
         "slime rancher plortable edition",
         "snk vs capcom svc chaos",
@@ -855,6 +872,8 @@
         "stardust galaxy warriors stellar climax",
         "stray",
         "streets of rage 4",
+        "suikoden i ii hd remaster for nintendo switch 2 gate rune and dunan unification wars",
+        "suikoden i ii hd remaster gate rune and dunan unification wars",
         "sworn",
         "tales from toyotoki arrival of the witch",
         "tchia",
@@ -862,7 +881,9 @@
         "telling lies",
         "tengoku struggle strayside",
         "the artful escape",
+        "the coma 2b catacomb",
         "the elder scrolls v skyrim",
+        "the good old days",
         "the king of fighters xiii global match deluxe edition",
         "the messenger",
         "the pathless",
@@ -872,6 +893,7 @@
         "the talos principle deluxe edition",
         "thirsty suitors",
         "tin kuna",
+        "tinkertown",
         "tinykin",
         "to a t",
         "tokyo xanadu ex",
@@ -879,6 +901,7 @@
         "touken ranbu warriors",
         "trash sailors",
         "trinity trigger",
+        "tristia chronicles",
         "twelve minutes",
         "under night in birth exe late cl r",
         "undernauts labyrinth of yomi",
@@ -890,6 +913,8 @@
         "warriors abyss",
         "what remains of edith finch",
         "wild hearts s",
+        "windjammers",
+        "windjammers 2",
         "winters wish spirits of edo",
         "wo long fallen dynasty complete edition",
         "wonder boy the dragons trap",
@@ -1047,9 +1072,8 @@
     },
     {
       "juego": "Shantae",
-      "linea": "🟢 <b>Shantae</b> — 📦 2 desde $44.990\n   🟢 Shantae: Half- Genie Hero Ultimate Edition",
+      "linea": "🟢 <b>Shantae</b> — 📦 1 desde $44.990\n   🟢 Shantae: Half- Genie Hero Ultimate Edition",
       "nombres": [
-        "shantae half genie hero",
         "shantae half genie hero ultimate edition"
       ],
       "orden": 1,
@@ -1272,15 +1296,6 @@
       "slug": "unicorn-overlord"
     },
     {
-      "juego": "Wario",
-      "linea": "🟢 <b>Wario</b> — 📦 1 desde $34.990\n   🟢 Wario Ware: Move It - Sniper_cl",
-      "nombres": [
-        "wario ware move it sniper cl"
-      ],
-      "orden": 1,
-      "slug": "wario"
-    },
-    {
       "juego": "Xenoblade",
       "linea": "🟢 <b>Xenoblade</b> — 📦 7 desde $44.990\n   🟢 Xenoblade Chronicles: Definitive Edition",
       "nombres": [
@@ -1341,5 +1356,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 631
+  "total": 656
 }
