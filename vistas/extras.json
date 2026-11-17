@@ -120,7 +120,7 @@
       "marca": "logitech g",
       "min_hist": 35990.0,
       "nombre": "Audífonos Over-Ear USB Headset H390",
-      "pct": 7.7,
+      "pct": 4.0,
       "precio": 35990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -161,6 +161,24 @@
       "ref_tipo": "tipico",
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-ire-h848b-blanco-azul"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 44990.0,
+          "tarjeta": null,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/audifonos-gamer-jbl-quantum-250-negro-multiplataforma"
+        }
+      ],
+      "marca": "JBL",
+      "min_hist": 49990.0,
+      "nombre": "Audífonos Gamer JBL Quantum 250 Negro Multiplataforma",
+      "pct": 10.0,
+      "precio": 44990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/audifonos-gamer-jbl-quantum-250-negro-multiplataforma"
     },
     {
       "avisos": [
@@ -221,24 +239,6 @@
         {
           "precio": 49990.0,
           "tarjeta": null,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/audifonos-gamer-jbl-quantum-250-negro-multiplataforma"
-        }
-      ],
-      "marca": "JBL",
-      "min_hist": 49990.0,
-      "nombre": "Audífonos Gamer JBL Quantum 250 Negro Multiplataforma",
-      "pct": 0.0,
-      "precio": 49990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/audifonos-gamer-jbl-quantum-250-negro-multiplataforma"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 49990.0,
-          "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17187842/Blacksharkv2-X-Wired-Gaming-Headset-Razer"
         }
@@ -282,7 +282,7 @@
       "marca": "logitech g",
       "min_hist": 54990.0,
       "nombre": "Audífono Wired Gaming Headset G335",
-      "pct": 4.3,
+      "pct": 0.0,
       "precio": 54990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -444,7 +444,7 @@
       "marca": "logitech g",
       "min_hist": 74990.0,
       "nombre": "Audífono Gamer G321",
-      "pct": 0.7,
+      "pct": 0.0,
       "precio": 74990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -498,7 +498,7 @@
       "marca": "logitech g",
       "min_hist": 104990.0,
       "nombre": "Audífono Gamer G325",
-      "pct": 2.3,
+      "pct": 0.0,
       "precio": 104990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -516,7 +516,7 @@
       "marca": "logitech g",
       "min_hist": 104990.0,
       "nombre": "Audífono Gamer Inalámbrico G325",
-      "pct": 2.3,
+      "pct": 0.0,
       "precio": 104990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -606,7 +606,7 @@
       "marca": "Logitech G",
       "min_hist": 123090,
       "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (ADMINISTRADOR",
-      "pct": 5.3,
+      "pct": 2.7,
       "precio": 123090,
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
@@ -629,6 +629,24 @@
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-1569886303"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 124990.0,
+          "tarjeta": null,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-jbl-quantum-650-multiplataforma"
+        }
+      ],
+      "marca": "JBL",
+      "min_hist": 129990.0,
+      "nombre": "Audífonos Gamer Inalámbricos JBL Quantum 650 Multiplataforma",
+      "pct": 3.8,
+      "precio": 124990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-jbl-quantum-650-multiplataforma"
     },
     {
       "avisos": [
@@ -665,24 +683,6 @@
       "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-1521995693"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 129990.0,
-          "tarjeta": null,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-jbl-quantum-650-multiplataforma"
-        }
-      ],
-      "marca": "JBL",
-      "min_hist": 129990.0,
-      "nombre": "Audífonos Gamer Inalámbricos JBL Quantum 650 Multiplataforma",
-      "pct": 0.0,
-      "precio": 129990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-jbl-quantum-650-multiplataforma"
     },
     {
       "avisos": [
@@ -786,7 +786,7 @@
       "marca": "Astro",
       "min_hist": 209990.0,
       "nombre": "Audífono Gamer Astro A20 X",
-      "pct": 8.7,
+      "pct": 4.5,
       "precio": 209990.0,
       "ref_tipo": "tipico",
       "tienda": "Falabella",
@@ -867,7 +867,7 @@
     {
       "avisos": [
         {
-          "precio": 319990.0,
+          "precio": 299990.0,
           "tarjeta": null,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-jbl-quantum-950-bluetooth-anc-spatial-sound-negro"
@@ -876,8 +876,8 @@
       "marca": "JBL",
       "min_hist": 319990.0,
       "nombre": "Audífonos Gamer Inalámbricos JBL Quantum 950 Bluetooth ANC Spatial Sou",
-      "pct": 0.0,
-      "precio": 319990.0,
+      "pct": 6.3,
+      "precio": 299990.0,
       "ref_tipo": "tipico",
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/audifonos-gamer-inalambricos-jbl-quantum-950-bluetooth-anc-spatial-sound-negro"
@@ -888,23 +888,6 @@
       "avisos": [
         {
           "precio": 299990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 299990.0,
-      "modelo": "Switch",
-      "nombre": "Consola Nintendo Switch Neon + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": 14.3,
-      "precio": 299990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 349990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
         }
@@ -913,10 +896,27 @@
       "min_hist": 299990.0,
       "modelo": "Switch",
       "nombre": "Consola Switch Neon + Mario Wonder Bundle",
-      "pct": -16.7,
-      "precio": 349990.0,
+      "pct": 0.0,
+      "precio": 299990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 349990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 299990.0,
+      "modelo": "Switch",
+      "nombre": "Consola Nintendo Switch Neon + Super Mario Bros Wonder + 3 meses NSO",
+      "pct": 0.0,
+      "precio": 349990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
     },
     {
       "avisos": [
@@ -926,7 +926,7 @@
           "url": "https://bestmart.cl/products/consola-nintendo-switch-2-ea-sports-fc-27-bundle"
         },
         {
-          "precio": 619990.0,
+          "precio": 649990.0,
           "tienda": "Paris",
           "url": "https://www.paris.cl/consola-nintendo-switch-2-ea-sports-fc-27-626979999.html"
         }
@@ -970,23 +970,6 @@
     {
       "avisos": [
         {
-          "precio": 639990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 609990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Nintendo Switch 2 + Sports Resort + 3 Meses NSO",
-      "pct": 7.2,
-      "precio": 639990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
-    },
-    {
-      "avisos": [
-        {
           "precio": 659990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-2-juego-pokemon-legends-z-a"
@@ -1004,6 +987,23 @@
     {
       "avisos": [
         {
+          "precio": 669990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 609990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Nintendo Switch 2 + Sports Resort + 3 Meses NSO",
+      "pct": 2.9,
+      "precio": 669990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
+    },
+    {
+      "avisos": [
+        {
           "precio": 679990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
@@ -1017,6 +1017,23 @@
       "precio": 679990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 679990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-2-mario-kart-world-3-meses-nintendo-switch-online-600447999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 689990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Nintendo Switch 2 + Mario Kart World + 3 Meses Nintendo Switch Online",
+      "pct": 1.4,
+      "precio": 679990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-2-mario-kart-world-3-meses-nintendo-switch-online-600447999.html"
     },
     {
       "avisos": [
@@ -1055,23 +1072,6 @@
     {
       "avisos": [
         {
-          "precio": 689990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-2-mario-kart-world-3-meses-nintendo-switch-online-600447999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 689990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Nintendo Switch 2 + Mario Kart World + 3 Meses Nintendo Switch Online",
-      "pct": 0.0,
-      "precio": 689990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-2-mario-kart-world-3-meses-nintendo-switch-online-600447999.html"
-    },
-    {
-      "avisos": [
-        {
           "precio": 949990.0,
           "tienda": "Sniper",
           "url": "https://sniper.cl/products/consola-nintendo-switch-2-zelda-40th-aniv-edition-eu"
@@ -1080,7 +1080,7 @@
       "bundle": true,
       "min_hist": 949990.0,
       "modelo": "Switch 2",
-      "nombre": "PREVENTA Consola Nintendo Switch 2 - Zelda: 40th Aniv. Edition (EU)",
+      "nombre": "Consola Nintendo Switch 2 - Zelda: 40th Aniv. Edition (EU)",
       "pct": 0,
       "precio": 949990.0,
       "tienda": "Sniper",
@@ -1102,23 +1102,6 @@
       "precio": 259990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-portatil-nintendo-switch-lite-calipso"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 339990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 339990.0,
-      "modelo": "Switch OLED",
-      "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": 17.1,
-      "precio": 339990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
     },
     {
       "avisos": [
@@ -1175,6 +1158,23 @@
       "precio": 379990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nintendo-switch-online"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 409990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 339990.0,
+      "modelo": "Switch OLED",
+      "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
+      "pct": 0.0,
+      "precio": 409990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
     }
   ],
   "memorias": [
@@ -1185,6 +1185,12 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Samsung 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Samsung-256gb/?ref=buscador"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1307,6 +1313,12 @@
     {
       "avisos": [
         {
+          "precio": 25990.0,
+          "tienda": "Paris",
+          "titulo": "Tarjeta Kingston de Memoria Micro SD 128GB",
+          "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
+        },
+        {
           "precio": 26990.0,
           "tienda": "Falabella",
           "titulo": "Microsd Select Plus 128Gb",
@@ -1317,13 +1329,13 @@
       "marca": "Kingston",
       "min_hist": 25980.0,
       "nombre": "microSD 128 GB · Kingston",
-      "pct": -3.8,
-      "por_gb": 211,
-      "precio": 26990.0,
+      "pct": 0.0,
+      "por_gb": 203,
+      "precio": 25990.0,
       "ref_tipo": "tipico",
-      "tienda": "Falabella",
+      "tienda": "Paris",
       "tipo": "normal",
-      "url": "https://www.falabella.com/falabella-cl/product/16839129/Microsd-Select-Plus-128Gb-Kingston"
+      "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
     },
     {
       "avisos": [
@@ -1347,26 +1359,8 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-16T21:17:00Z",
+  "revision": "2026-11-17T03:19:40Z",
   "seguimientos": [
-    {
-      "avisos": [
-        {
-          "precio": 45990,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-4649449138"
-        }
-      ],
-      "item": "Redragon Zeus",
-      "min_hist": 45990,
-      "nombre": "Auriculares para juegos Redragon Zeus Lite P3, negros, H510-lt (DUST2G",
-      "precio": 45990,
-      "tarjeta": null,
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-4649449138",
-      "variante": "lite"
-    },
     {
       "avisos": [
         {
