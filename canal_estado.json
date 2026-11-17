@@ -156,12 +156,13 @@
     },
     "2026-11-16": {
       "bombazos": 2,
-      "posts": 6,
+      "posts": 7,
       "slots": [
         "top",
         "pack",
         "tarde",
-        "fisicos"
+        "fisicos",
+        "ultima"
       ]
     }
   },
@@ -1782,6 +1783,18 @@
       ],
       "message_id": 190,
       "slot": "fisicos"
+    },
+    {
+      "fecha": "2026-11-16T21:05-03:00",
+      "ids": [
+        "0bd2374d1a",
+        "5b06a31b94",
+        "e60fb8bc9b",
+        "aac946934e",
+        "18a9f1fb53"
+      ],
+      "message_id": 191,
+      "slot": "ultima"
     }
   ],
   "publicados": {
@@ -2876,6 +2889,11 @@
       "precio": 22000,
       "slot": "ultima"
     },
+    "0bd2374d1a": {
+      "fecha": "2026-11-16",
+      "precio": 6150,
+      "slot": "ultima"
+    },
     "11b3ad336e": {
       "fecha": "2026-11-14",
       "precio": 31850,
@@ -2884,6 +2902,11 @@
     "13636dd8a0": {
       "fecha": "2026-11-14",
       "precio": 4750,
+      "slot": "ultima"
+    },
+    "18a9f1fb53": {
+      "fecha": "2026-11-16",
+      "precio": 19000,
       "slot": "ultima"
     },
     "18db13d31a": {
@@ -2999,6 +3022,11 @@
     "565d8ddff4": {
       "fecha": "2026-10-26",
       "precio": 6250,
+      "slot": "ultima"
+    },
+    "5b06a31b94": {
+      "fecha": "2026-11-16",
+      "precio": 15000,
       "slot": "ultima"
     },
     "5f6e4849c2": {
@@ -3136,6 +3164,11 @@
       "precio": 16900,
       "slot": "ultima"
     },
+    "aac946934e": {
+      "fecha": "2026-11-16",
+      "precio": 23600,
+      "slot": "ultima"
+    },
     "ac9170d538": {
       "fecha": "2026-10-17",
       "precio": 23100,
@@ -3261,6 +3294,11 @@
       "precio": 18000,
       "slot": "ultima"
     },
+    "e60fb8bc9b": {
+      "fecha": "2026-11-16",
+      "precio": 35400,
+      "slot": "ultima"
+    },
     "e64eece765": {
       "fecha": "2026-11-15",
       "precio": 23200,
@@ -3302,5 +3340,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-16T18:35:42.670062-03:00"
+  "ultimo_post": "2026-11-16T21:05:33.746149-03:00"
 }
