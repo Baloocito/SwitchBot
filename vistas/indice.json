@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 516,
+  "fisicos": 513,
   "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-17T09:18:46Z",
+  "revision": "2026-11-17T15:18:57Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -214,11 +214,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
+      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "dave-the-diver"
     },
     {
@@ -415,9 +415,8 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
       "nombres": [
-        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -528,7 +527,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 25 desde $22.900\n   🟢 Mario Strikers: Battle League −60%",
+      "linea": "🟢 <b>Mario</b> — 📦 23 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -538,13 +537,11 @@
         "mario rabbids kingdom sparks double pack",
         "mario rabbids sniper game",
         "mario rabbids sparks of hope",
-        "mario strikers battle league",
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
         "paper mario the thousand year door",
         "super mario bros wonder",
-        "super mario galaxy 2",
         "super mario odyssey",
         "super mario party",
         "super mario party jamboree",
@@ -574,7 +571,7 @@
     },
     {
       "juego": "Marvel",
-      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $34.900 · 🎮 3 desde US$3.36\n   🟢 LEGO Marvel Super Heroes 2 −85%",
+      "linea": "🟢 <b>Marvel</b> — 📦 1 desde $39.990 · 🎮 3 desde US$3.36\n   🟢 LEGO Marvel Super Heroes 2 −85%",
       "nombres": [
         "lego marvel super heroes 2",
         "marvel cosmic invasion",
@@ -717,7 +714,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $34.990 · 🎮 178 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $34.990 · 🎮 179 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "7scarlet",
         "a memoir blue",
@@ -767,6 +764,7 @@
         "farmagia",
         "farmagia digital deluxe edition",
         "fishing fighters",
+        "football manager 26 touch",
         "freedom planet",
         "freedom planet 2",
         "fun fun animal park",
@@ -1343,5 +1341,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 634
+  "total": 631
 }
