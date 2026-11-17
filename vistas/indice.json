@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 622,
+  "fisicos": 516,
   "pendientes": 2,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-17T03:19:40Z",
+  "revision": "2026-11-17T09:18:46Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -108,7 +108,7 @@
     },
     {
       "juego": "Bravely Default",
-      "linea": "🟢 <b>Bravely Default</b> — 📦 4 desde $26.990 · 🎮 1 desde US$24.44\n   🟢 BRAVELY DEFAULT FLYING FAIRY HD Remaster −30%",
+      "linea": "🟢 <b>Bravely Default</b> — 📦 4 desde $26.990\n   🟢 BRAVELY DEFAULT FLYING FAIRY HD Remaster −15%",
       "nombres": [
         "bravely default 2",
         "bravely default flying fairy",
@@ -151,7 +151,7 @@
     },
     {
       "juego": "Chrono / Mana",
-      "linea": "🟢 <b>Chrono / Mana</b> — 📦 5 desde $19.900 · 🎮 4 desde US$6.75\n   🟢 Trials of Mana −70%",
+      "linea": "🟢 <b>Chrono / Mana</b> — 📦 5 desde $19.900\n   🟢 Trials of Mana −47%",
       "nombres": [
         "chrono cross the radical dreamers edition",
         "collection of mana",
@@ -214,11 +214,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "dave-the-diver"
     },
     {
@@ -278,15 +278,13 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990 · 🎮 13 desde US$2.61\n   🟢 DRAGON QUEST MONSTERS: The Dark Prince −85%",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
         "dragon quest",
         "dragon quest builders",
         "dragon quest builders 2",
         "dragon quest i ii hd 2d remake",
-        "dragon quest ii luminaries of the legendary line",
         "dragon quest iii hd 2d remake",
-        "dragon quest iii the seeds of salvation",
         "dragon quest monsters the dark prince",
         "dragon quest monsters the withered world",
         "dragon quest treasures",
@@ -328,27 +326,18 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 12 desde $34.990 · 🎮 19 desde US$4.59\n   🟢 FINAL FANTASY VII REMAKE INTERGRADE −80%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 FINAL FANTASY −20%",
       "nombres": [
-        "collection of saga final fantasy legend",
         "crisis core final fantasy vii reunion",
         "final fantasy",
-        "final fantasy ii",
-        "final fantasy iii",
-        "final fantasy iv",
-        "final fantasy ix",
         "final fantasy resonance",
         "final fantasy tactics the ivalice chronicles",
-        "final fantasy tactics the ivalice chronicles nintendo switch 2 edition",
-        "final fantasy v",
         "final fantasy vi",
         "final fantasy vii",
         "final fantasy vii remake intergrade",
         "final fantasy vii revelation",
         "final fantasy viii remastered",
-        "final fantasy x x 2 hd remaster",
         "final fantasy xii the zodiac age",
-        "final fantasy xv pocket edition hd",
         "world of final fantasy maxima"
       ],
       "orden": 1,
@@ -356,11 +345,11 @@
     },
     {
       "juego": "Final Fantasy VII Rebirth",
-      "linea": "🟢 <b>Final Fantasy VII Rebirth</b> — 📦 1 desde $69.990 · 🎮 1 desde US$6.47\n   🟢 FINAL FANTASY VII REBIRTH −85%",
+      "linea": "⚪ <b>Final Fantasy VII Rebirth</b> — 📦 1 desde $69.990",
       "nombres": [
         "final fantasy vii rebirth"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "final-fantasy-vii-rebirth"
     },
     {
@@ -375,6 +364,15 @@
       ],
       "orden": 1,
       "slug": "fire-emblem"
+    },
+    {
+      "juego": "Game Builder / Labo",
+      "linea": "🟢 <b>Game Builder / Labo</b> — 📦 1 desde $17.990\n   🟢 Game Builder Garage",
+      "nombres": [
+        "game builder garage"
+      ],
+      "orden": 1,
+      "slug": "game-builder-labo"
     },
     {
       "juego": "Hades",
@@ -417,8 +415,9 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
       "nombres": [
+        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -449,7 +448,7 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 3 desde $39.720 · 🎮 1 desde US$22.38\n   🟢 KINGDOM HEARTS Melody of Memory −60%",
+      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 3 desde $39.720\n   🟢 KINGDOM HEARTS Melody of Memory",
       "nombres": [
         "kingdom hearts collection i iii",
         "kingdom hearts collection i iii europeo",
@@ -473,10 +472,9 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 8 desde US$2.00\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 7 desde US$2.00\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
         "lego brawls",
-        "lego bricktales",
         "lego dc super villains",
         "lego harry potter collection",
         "lego ninjago movie video game",
@@ -530,7 +528,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
+      "linea": "🟢 <b>Mario</b> — 📦 25 desde $22.900\n   🟢 Mario Strikers: Battle League −60%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -540,6 +538,7 @@
         "mario rabbids kingdom sparks double pack",
         "mario rabbids sniper game",
         "mario rabbids sparks of hope",
+        "mario strikers battle league",
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
@@ -678,16 +677,16 @@
     },
     {
       "juego": "NieR",
-      "linea": "🟢 <b>NieR</b> — 📦 1 desde $44.900 · 🎮 1 desde US$10.49\n   🟢 NieR:Automata The End of YoRHa Edition −60%",
+      "linea": "⚪ <b>NieR</b> — 📦 1 desde $44.900",
       "nombres": [
         "nier automata the end of yorha edition"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "nier"
     },
     {
       "juego": "Octopath Traveler",
-      "linea": "🟢 <b>Octopath Traveler</b> — 📦 6 desde $44.990 · 🎮 6 desde US$23.43\n   🟢 OCTOPATH TRAVELER 0 −50%",
+      "linea": "🟢 <b>Octopath Traveler</b> — 📦 6 desde $44.990\n   🟢 OCTOPATH TRAVELER II −14%",
       "nombres": [
         "octopath traveler",
         "octopath traveler 0",
@@ -718,28 +717,23 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $34.990 · 🎮 240 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $34.990 · 🎮 178 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "7scarlet",
         "a memoir blue",
-        "actraiser renaissance",
         "airhead",
         "akibas trip hellbound debriefed",
         "akibas trip undead undressed directors cut",
         "amber isle",
         "ashen",
-        "balan wonderworld",
         "ball x pit",
         "ball x pit nintendo switch 2 edition",
         "black skylands",
-        "blasphemous",
         "blasphemous 2",
         "blazing strike",
         "blue reflection quartet",
-        "boomerang fu",
         "broforce",
         "cafe enchante",
-        "chocobo gp",
         "cocoon",
         "code realize future blessings",
         "code realize guardian of rebirth",
@@ -747,10 +741,8 @@
         "collar x malice",
         "collar x malice unlimited",
         "conscript",
-        "crisis core final fantasy vii reunion digital deluxe edition",
         "cuddly forest friends",
         "cuisineer",
-        "cursed to golf",
         "daemon x machina titanic scion",
         "dairoku agents of sakuratani",
         "darkest dungeon",
@@ -763,10 +755,7 @@
         "devil may cry 2",
         "devil may cry 3 special edition",
         "donut county",
-        "dragon quest hd 2d erdrick trilogy collection",
         "dragons dogma dark arisen",
-        "dredge",
-        "dungeon encounters",
         "dynasty warriors 8 xtreme legends definitive edition",
         "dynasty warriors 9 empires",
         "dynasty warriors origins",
@@ -775,10 +764,8 @@
         "exit the gungeon",
         "fairy tail",
         "fairy tail 2",
-        "fantasian neo dimension",
         "farmagia",
         "farmagia digital deluxe edition",
-        "final fantasy i vi bundle",
         "fishing fighters",
         "freedom planet",
         "freedom planet 2",
@@ -791,7 +778,6 @@
         "gorogoa",
         "gris",
         "happys humble burger farm",
-        "harvestella",
         "headbangers rhythm royale",
         "hello neighbor",
         "hello neighbor 2",
@@ -800,7 +786,6 @@
         "hindsight",
         "horgihugh and friends",
         "i am dead",
-        "i am setsuna",
         "if found",
         "illusion of itehari",
         "inescapable no rules no rescue",
@@ -810,18 +795,12 @@
         "katana zero",
         "kentucky route zero tv edition",
         "last stop",
-        "life is strange 2",
-        "life is strange arcadia bay collection",
-        "life is strange double exposure",
-        "life is strange true colors",
         "little dragons cafe",
         "loop hero",
         "loop8 summer of gods",
         "lorelei and the laser eyes",
         "lorelei and the laser eyes nintendo switch 2 edition",
-        "lost sphear",
         "lover pretend",
-        "manic mechanics",
         "maquette",
         "mega man battle network legacy collection",
         "melon journey bittersweet memories",
@@ -832,11 +811,8 @@
         "monster hunter stories collection",
         "monster rancher 1 2 dx",
         "moving out",
-        "moving out 2",
         "mundaun",
         "my friend pedro",
-        "neo the world ends with you",
-        "neon abyss",
         "neon white",
         "nice day for fishing",
         "ninja gaiden master collection",
@@ -845,13 +821,9 @@
         "norn9 var commons",
         "olympia soiree",
         "one two combo bundle punch club franchise",
-        "oninaki",
         "open roads",
-        "operation tango",
         "outer wilds",
         "paradigm paradox",
-        "paranormasight the mermaids curse",
-        "paranormasight the seven mysteries of honjo",
         "pikuniku",
         "piofiore episodio 1926",
         "piofiore fated memories",
@@ -867,15 +839,7 @@
         "radiant tale fanfare",
         "return to monkey island",
         "rico london",
-        "romancing saga 2",
-        "romancing saga 2 revenge of the seven",
-        "romancing saga 2 revenge of the seven nintendo switch 2 edition",
-        "romancing saga minstrel song remastered",
         "rune factory guardians of azuma super digital deluxe edition",
-        "saga emerald beyond",
-        "saga frontier 2 remastered",
-        "saga frontier remastered",
-        "saga scarlet grace ambitions",
         "sakuna of rice and ruin",
         "samurai warriors 5",
         "sayonara wild hearts",
@@ -883,49 +847,35 @@
         "sayonara wild hearts nintendo switch 2 edition",
         "ship of fools",
         "silent hope",
-        "skye tales",
         "slime rancher plortable edition",
         "snk vs capcom svc chaos",
         "solar ash",
-        "spelunker party",
         "spirit hunter death mark",
         "spirit hunter death mark ii",
         "spirit hunter ng",
         "spooky spirit shooting gallery",
-        "star ocean first departure r",
-        "star ocean the second story r",
         "stardust galaxy warriors stellar climax",
-        "steamworld build",
-        "steamworld heist ii",
         "stray",
         "streets of rage 4",
-        "swordship",
         "sworn",
-        "tactics ogre reborn",
         "tales from toyotoki arrival of the witch",
         "tchia",
         "teenage mutant ninja turtles shredders revenge",
         "telling lies",
         "tengoku struggle strayside",
-        "the adventures of elliot the millennium tales",
         "the artful escape",
-        "the centennial case a shijima story",
-        "the diofield chronicle",
         "the elder scrolls v skyrim",
         "the king of fighters xiii global match deluxe edition",
-        "the last remnant remastered",
         "the messenger",
         "the pathless",
         "the plucky squire",
         "the survivalists",
         "the swords of ditto mormos curse",
         "the talos principle deluxe edition",
-        "theatrhythm final bar line",
         "thirsty suitors",
         "tin kuna",
         "tinykin",
         "to a t",
-        "togges",
         "tokyo xanadu ex",
         "touhou new world",
         "touken ranbu warriors",
@@ -937,24 +887,14 @@
         "undungeon",
         "untitled goose game",
         "variable barricade",
-        "various daylife",
-        "viewfinder",
         "virche evermore epic lycoris",
         "virche evermore error salvation",
-        "voice of cards the beasts of burden",
-        "voice of cards the forsaken maiden",
-        "voice of cards the isle dragon roars",
-        "voice of cards trilogy",
-        "voice of cards trilogy dlc set",
         "warriors abyss",
-        "wavetale",
         "what remains of edith finch",
         "wild hearts s",
         "winters wish spirits of edo",
         "wo long fallen dynasty complete edition",
         "wonder boy the dragons trap",
-        "worms armageddon anniversary edition",
-        "you suck at parking",
         "ys origin",
         "zero to dance hero"
       ],
@@ -963,7 +903,7 @@
     },
     {
       "juego": "Overcooked",
-      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $39.990 · 🎮 3 desde US$4.89\n   🟢 Overcooked! 2 −75%",
+      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $39.990 · 🎮 2 desde US$6.67\n   🟢 Overcooked! All You Can Eat −75%",
       "nombres": [
         "overcooked 2",
         "overcooked 2 nintendo switch 2 edition",
@@ -975,7 +915,7 @@
     },
     {
       "juego": "Persona",
-      "linea": "🟢 <b>Persona</b> — 📦 5 desde $33.990\n   🟢 Persona 5 Royal",
+      "linea": "🟢 <b>Persona</b> — 📦 5 desde $32.990\n   🟢 Persona 5 Royal",
       "nombres": [
         "persona 3 reload",
         "persona 5 royal",
@@ -1012,10 +952,9 @@
     },
     {
       "juego": "Pokémon Mystery Dungeon / Snap",
-      "linea": "🟢 <b>Pokémon Mystery Dungeon / Snap</b> — 📦 2 desde $49.990 · 🎮 2 desde US$18.64\n   🟢 Dragon Quest Heroes: Torneko‘s Mystery Dungeon -Classic HD- −20%",
+      "linea": "🟢 <b>Pokémon Mystery Dungeon / Snap</b> — 📦 2 desde $49.990\n   🟢 Chocobo's Mystery Dungeon EVERY BUDDY!",
       "nombres": [
         "chocobos mystery dungeon every buddy",
-        "dragon quest heroes torneko s mystery dungeon classic hd",
         "new pokemon snap"
       ],
       "orden": 1,
@@ -1110,8 +1049,9 @@
     },
     {
       "juego": "Shantae",
-      "linea": "🟢 <b>Shantae</b> — 📦 1 desde $44.990\n   🟢 Shantae: Half- Genie Hero Ultimate Edition",
+      "linea": "🟢 <b>Shantae</b> — 📦 2 desde $44.990\n   🟢 Shantae: Half- Genie Hero Ultimate Edition",
       "nombres": [
+        "shantae half genie hero",
         "shantae half genie hero ultimate edition"
       ],
       "orden": 1,
@@ -1317,7 +1257,7 @@
     },
     {
       "juego": "Triangle Strategy",
-      "linea": "🟢 <b>Triangle Strategy</b> — 📦 2 desde $39.990 · 🎮 1 desde US$20.93\n   🟢 TRIANGLE STRATEGY −60%",
+      "linea": "🟢 <b>Triangle Strategy</b> — 📦 2 desde $39.990\n   🟢 TRIANGLE STRATEGY",
       "nombres": [
         "triangle strategy"
       ],
@@ -1403,5 +1343,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 741
+  "total": 634
 }
