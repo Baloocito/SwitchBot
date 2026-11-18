@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 515,
+  "fisicos": 518,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-18T10:16:51Z",
+  "revision": "2026-11-18T16:18:52Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -229,6 +229,15 @@
       "slug": "dead-cells"
     },
     {
+      "juego": "Diablo",
+      "linea": "🟢 <b>Diablo</b> — 📦 1 desde $49.990\n   🟢 Diablo III: Eternal Collection",
+      "nombres": [
+        "diablo iii eternal collection"
+      ],
+      "orden": 1,
+      "slug": "diablo"
+    },
+    {
       "juego": "Digimon Story Time Stranger",
       "linea": "🟢 <b>Digimon Story Time Stranger</b> — 📦 2 desde $79.990\n   🟢 Digimon Story Time Stranger",
       "nombres": [
@@ -261,7 +270,7 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $29.900\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball xenoverse 2 for nintendo switch",
@@ -324,10 +333,11 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 FINAL FANTASY −20%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 15 desde $34.990\n   🟢 FINAL FANTASY IX −25%",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
+        "final fantasy ix",
         "final fantasy resonance",
         "final fantasy tactics the ivalice chronicles",
         "final fantasy vi",
@@ -335,6 +345,7 @@
         "final fantasy vii remake intergrade",
         "final fantasy vii revelation",
         "final fantasy viii remastered",
+        "final fantasy x x 2 hd remaster",
         "final fantasy xii the zodiac age",
         "world of final fantasy maxima"
       ],
@@ -469,7 +480,7 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 7 desde US$1.99\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $22.900 · 🎮 7 desde US$1.99\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
         "lego brawls",
         "lego dc super villains",
@@ -1026,8 +1037,9 @@
     },
     {
       "juego": "Ring Fit",
-      "linea": "🟢 <b>Ring Fit</b> — 📦 1 desde $4.510\n   🟢 Set Proteccion Ring Fit",
+      "linea": "🟢 <b>Ring Fit</b> — 📦 2 desde $4.510\n   🟢 Set Proteccion Ring Fit",
       "nombres": [
+        "ring fit adventure con ring con y correa para pierna",
         "set proteccion ring fit"
       ],
       "orden": 1,
@@ -1341,5 +1353,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 633
+  "total": 637
 }

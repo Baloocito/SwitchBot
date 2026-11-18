@@ -141,6 +141,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:fdb55e430a",
+        "text": "⚙️ LEGO Worlds · $29.990"
+      },
+      "id": "fdb55e430a",
+      "nivel": "normal",
+      "nombre": "LEGO Worlds",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>LEGO Worlds</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.450 (16 nov, Falabella) · típico $29.990 · máximo $29.990\n   ███████████████████████████▁▁▁  últimos 30 días\n🎮 Digital: US$2.09 ≈ $2.087 en 🇨🇦 Canadá (−90%)\n   ➜ El digital es $27.903 más barato, pero no se puede revender\n🛒 <a href=\"https://listado.mercadolibre.cl/lego-worlds-nintendo-switch\">MercadoLibre</a>: nuevo ~$26.370 (11 avisos)\n🔎 Confianza media: 1 tienda y 36 días de historial\n🛒 <a href=\"https://8-bits.cl/products/lego-worlds-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:701f57f4ba",
         "text": "⚙️ LEGO Brawls · $54.990"
       },
@@ -153,5 +165,5 @@
     }
   ],
   "juego": "LEGO",
-  "revision": "2026-11-18T10:16:51Z"
+  "revision": "2026-11-18T16:18:52Z"
 }
