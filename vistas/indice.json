@@ -5,7 +5,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 539,
+  "fisicos": 515,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-19",
@@ -13,7 +13,7 @@
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-18T03:20:57Z",
+  "revision": "2026-11-18T10:16:51Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -57,21 +57,18 @@
     },
     {
       "juego": "Atelier",
-      "linea": "🟢 <b>Atelier</b> — 📦 11 desde $39.990 · 🎮 11 desde US$13.84\n   🟢 Atelier Marie Remake: The Alchemist of Salburg −70%",
+      "linea": "🟢 <b>Atelier</b> — 📦 11 desde $39.990\n   🟢 Atelier Dusk Trilogy Deluxe Pack",
       "nombres": [
         "atelier dusk trilogy deluxe pack",
         "atelier lulua the scion of arland",
-        "atelier marie remake the alchemist of salburg",
         "atelier mysterious trilogy sniper",
         "atelier resleriana the red alchemist the white guardian",
         "atelier ryza 2 lost legends the secret fairy dx",
         "atelier ryza 3 alchemist of the end the secret key dx",
         "atelier ryza 3 sniper",
-        "atelier ryza ever darkness the secret hideout dx",
         "atelier sophie 2 el alquimista de un sueno misterioso",
         "atelier sophie 2 the alchemist of the mysterious dream",
-        "atelier yumia the alchemist of memories the envisioned land",
-        "atelier yumia the alchemist of memories the envisioned land nintendo switch 2 edition"
+        "atelier yumia the alchemist of memories the envisioned land"
       ],
       "orden": 1,
       "slug": "atelier"
@@ -264,7 +261,7 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $29.900\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball xenoverse 2 for nintendo switch",
@@ -716,7 +713,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $29.990 · 🎮 202 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 189 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "7scarlet",
         "a memoir blue",
@@ -731,7 +728,6 @@
         "black skylands",
         "blasphemous 2",
         "blazing strike",
-        "blue reflection quartet",
         "bridge constructor portal",
         "bridge constructor studio",
         "bridge constructor the walking dead",
@@ -762,19 +758,15 @@
         "devil may cry 3 special edition",
         "donut county",
         "dragons dogma dark arisen",
-        "dynasty warriors 8 xtreme legends definitive edition",
-        "dynasty warriors 9 empires",
-        "dynasty warriors origins",
         "efootball kick off",
         "el hijo a wild west tale",
         "enter the gungeon",
         "exit the gungeon",
-        "fairy tail",
-        "fairy tail 2",
         "farmagia",
         "farmagia digital deluxe edition",
         "fishing fighters",
         "fitness boxing feat hatsune miku",
+        "florence",
         "football manager 26 touch",
         "freedom planet",
         "freedom planet 2",
@@ -799,6 +791,7 @@
         "if found",
         "illusion of itehari",
         "inescapable no rules no rescue",
+        "it takes two",
         "jack jeanne",
         "justice sucks",
         "katana zero",
@@ -818,14 +811,12 @@
         "mistonias hope the lost delight",
         "mon yu defeat monsters and gain strong weapons and armor you may be defeated but dont give up become stronger i believe there will be a day when the heroes defeat the devil king",
         "monster hunter stories collection",
-        "monster rancher 1 2 dx",
+        "morsels",
         "moving out",
         "mundaun",
         "my friend pedro",
         "neon white",
         "nice day for fishing",
-        "ninja gaiden master collection",
-        "ninja gaiden master collection deluxe edition",
         "norn9 last era",
         "norn9 var commons",
         "olympia soiree",
@@ -854,14 +845,12 @@
         "rico london",
         "rune factory guardians of azuma super digital deluxe edition",
         "sakuna of rice and ruin",
-        "samurai warriors 5",
         "sayonara wild hearts",
         "sayonara wild hearts lorelei and the laser eyes bundle",
         "sayonara wild hearts nintendo switch 2 edition",
         "ship of fools",
         "shotgun cop man",
         "silent hope",
-        "slime rancher plortable edition",
         "snk vs capcom svc chaos",
         "solar ash",
         "spirit hunter death mark",
@@ -898,7 +887,6 @@
         "to a t",
         "tokyo xanadu ex",
         "touhou new world",
-        "touken ranbu warriors",
         "trash sailors",
         "trinity trigger",
         "tristia chronicles",
@@ -910,13 +898,10 @@
         "variable barricade",
         "virche evermore epic lycoris",
         "virche evermore error salvation",
-        "warriors abyss",
         "what remains of edith finch",
-        "wild hearts s",
         "windjammers",
         "windjammers 2",
         "winters wish spirits of edo",
-        "wo long fallen dynasty complete edition",
         "wonder boy the dragons trap",
         "ys origin",
         "zero to dance hero"
@@ -1102,7 +1087,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000\n   🟢 Sonic Racing: CrossWorlds −29%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000\n   🟢 Sonic Racing: CrossWorlds −29%",
       "nombres": [
         "sonic classic collection",
         "sonic double pack",
@@ -1138,7 +1123,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990\n   🟢 It Takes Two −23%",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990\n   🟢 It Takes Two",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1157,12 +1142,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900 · 🎮 1 desde US$2.59\n   🟢 Galactic Wars: Defend Your Star Worlds −70%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990 · 🎮 1 desde US$2.59\n   🟢 Galactic Wars: Defend Your Star Worlds −70%",
       "nombres": [
         "galactic wars defend your star worlds",
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1357,5 +1341,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 658
+  "total": 633
 }
