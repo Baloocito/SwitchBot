@@ -27,18 +27,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:a02a75c004",
-        "text": "⚙️ Hades · $28.000"
-      },
-      "id": "a02a75c004",
-      "nivel": "compra",
-      "nombre": "Hades",
-      "pct": 0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Hades (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$28.000</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $28.000 (6 nov, TodoJuegos) · típico $28.000 · máximo $28.000\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 13 días\n🎮 Digital: US$15.87 ≈ $15.847 en 🇨🇱 Chile\n   ➜ El digital es $12.153 más barato, pero no se puede revender\n🔎 Confianza media: 1 tienda y 13 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/[USADO]-Hades/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:bfcc2e7064",
         "text": "⚙️ Hades S2 · $49.900"
       },
@@ -51,5 +39,5 @@
     }
   ],
   "juego": "Hades",
-  "revision": "2026-11-18T16:18:52Z"
+  "revision": "2026-11-18T22:21:13Z"
 }

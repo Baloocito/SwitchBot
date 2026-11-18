@@ -5,15 +5,15 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 518,
-  "pendientes": 0,
+  "fisicos": 523,
+  "pendientes": 1,
   "proximo": {
     "desde": "2026-11-19",
     "hasta": "2026-12-03",
     "nombre": "Black Friday eShop",
     "nota": "fechas estimadas según 2025"
   },
-  "revision": "2026-11-18T16:18:52Z",
+  "revision": "2026-11-18T22:21:13Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -139,7 +139,7 @@
     },
     {
       "juego": "Celeste",
-      "linea": "🟢 <b>Celeste</b> — 📦 1 desde $79.990 · 🎮 1 desde US$2.59\n   🟢 Celeste −75%",
+      "linea": "🟢 <b>Celeste</b> — 📦 2 desde $49.990 · 🎮 1 desde US$2.59\n   🟢 Celeste −75%",
       "nombres": [
         "celeste"
       ],
@@ -212,11 +212,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "dave-the-diver"
     },
     {
@@ -333,7 +333,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 15 desde $34.990\n   🟢 FINAL FANTASY IX −25%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 FINAL FANTASY IX −25%",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
@@ -345,7 +345,6 @@
         "final fantasy vii remake intergrade",
         "final fantasy vii revelation",
         "final fantasy viii remastered",
-        "final fantasy x x 2 hd remaster",
         "final fantasy xii the zodiac age",
         "world of final fantasy maxima"
       ],
@@ -385,7 +384,7 @@
     },
     {
       "juego": "Hades",
-      "linea": "🟢 <b>Hades</b> — 📦 3 desde $28.000 · 🎮 1 desde US$9.75\n   🟢 Garden of the Greek Gods: Zeus, Poseidon &amp; Hades Love Story −60%",
+      "linea": "🟢 <b>Hades</b> — 📦 2 desde $44.990 · 🎮 1 desde US$9.75\n   🟢 Garden of the Greek Gods: Zeus, Poseidon &amp; Hades Love Story −60%",
       "nombres": [
         "garden of the greek gods zeus poseidon hades love story",
         "hades",
@@ -424,8 +423,9 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
       "nombres": [
+        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -480,7 +480,7 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $22.900 · 🎮 7 desde US$1.99\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 5 desde $22.900 · 🎮 7 desde US$1.99\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
         "lego brawls",
         "lego dc super villains",
@@ -536,7 +536,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
+      "linea": "🟢 <b>Mario</b> — 📦 25 desde $22.900\n   🟢 Mario Strikers: Battle League −60%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -546,6 +546,7 @@
         "mario rabbids kingdom sparks double pack",
         "mario rabbids sniper game",
         "mario rabbids sparks of hope",
+        "mario strikers battle league",
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
@@ -607,9 +608,9 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 4 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
       "nombres": [
-        "metal gear solid master collection vol 1",
+        "metal gear solid master collection vol 1 sniper",
         "metal gear solid master collection vol 2",
         "metal gear solid master collection vol 2 day 1 ed",
         "metal gear solid master collection vol 2 day one ed"
@@ -724,7 +725,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 189 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 190 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "7scarlet",
         "a memoir blue",
@@ -746,6 +747,7 @@
         "broforce",
         "cafe enchante",
         "cardaclysm shards of the four",
+        "clouds sheep 2",
         "cocoon",
         "code realize future blessings",
         "code realize guardian of rebirth",
@@ -1069,8 +1071,9 @@
     },
     {
       "juego": "Shantae",
-      "linea": "🟢 <b>Shantae</b> — 📦 1 desde $44.990\n   🟢 Shantae: Half- Genie Hero Ultimate Edition",
+      "linea": "🟢 <b>Shantae</b> — 📦 2 desde $44.990\n   🟢 Shantae: Half- Genie Hero Ultimate Edition",
       "nombres": [
+        "shantae half genie hero",
         "shantae half genie hero ultimate edition"
       ],
       "orden": 1,
@@ -1353,5 +1356,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 637
+  "total": 641
 }
