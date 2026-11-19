@@ -242,6 +242,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:46aec23515",
+        "text": "⚙️ My Time at Portia · US$3.95"
+      },
+      "con_fisico": false,
+      "id": "46aec23515",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "My Time at Portia",
+      "orden": 1,
+      "pct": 85.0,
+      "precio_usd": 3.95,
+      "texto": "🟢 <b>COMPRA YA</b> · −85%\n<b>My Time at Portia</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.95</b> ≈ $3.924 en 🇨🇦 Canadá\n   Precio en la tienda: CA$5,66 CAD\n💡 Oferta de −85% en la eShop\n🏷️ Normal US$26.39 → ahorras US$22.44 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/my-time-at-portia-switch/\">US$3.95</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/my-time-at-portia-switch/\">US$4.13</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/my-time-at-portia-switch/\">US$4.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/my-time-at-portia-switch/\">US$4.66</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/my-time-at-portia-switch/\">US$5.13</a>\n   El más caro: 🇨🇱 US$36.09\n📈 Mínimo US$3.95 (19 nov en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/my-time-at-portia-switch/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:c128411146",
         "text": "⚙️ PixelJunk Monsters 2 · US$1.98"
       },
@@ -270,22 +286,6 @@
       "pct": 85.0,
       "precio_usd": 7.74,
       "texto": "🟢 <b>COMPRA YA</b> · −85%\n<b>MLB The Show 26</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$7.74</b> ≈ $7.689 en 🇧🇷 Brasil\n   Precio en la tienda: R$44,99 BRL\n💡 Oferta de −85% en la eShop\n🏷️ Normal US$51.63 → ahorras US$43.89 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/mlb-the-show-26-switch/\">US$7.74</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/mlb-the-show-26-switch/\">US$8.37</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/mlb-the-show-26-switch/\">US$8.45</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/mlb-the-show-26-switch/\">US$8.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/mlb-the-show-26-switch/\">US$9.60</a>\n   El más caro: 🇨🇴 US$10.84\n📈 Mínimo US$7.74 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/mlb-the-show-26-switch/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:46aec23515",
-        "text": "⚙️ My Time at Portia · US$3.95"
-      },
-      "con_fisico": false,
-      "id": "46aec23515",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "My Time at Portia",
-      "orden": 1,
-      "pct": 85.0,
-      "precio_usd": 3.95,
-      "texto": "🟢 <b>COMPRA YA</b> · −85%\n<b>My Time at Portia</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.95</b> ≈ $3.924 en 🇨🇦 Canadá\n   Precio en la tienda: CA$5,66 CAD\n💡 Oferta de −85% en la eShop\n🏷️ Normal US$26.39 → ahorras US$22.44 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/my-time-at-portia-switch/\">US$3.95</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/my-time-at-portia-switch/\">US$4.13</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/my-time-at-portia-switch/\">US$4.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/my-time-at-portia-switch/\">US$4.66</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/my-time-at-portia-switch/\">US$5.13</a>\n   El más caro: 🇨🇱 US$36.09\n📈 Mínimo US$3.95 (19 nov en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/my-time-at-portia-switch/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
     },
     {
@@ -322,22 +322,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:7bddabfeac",
-        "text": "⚙️ Digimon World: Next Order · US$6.33"
-      },
-      "con_fisico": true,
-      "id": "7bddabfeac",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Digimon World: Next Order",
-      "orden": 1,
-      "pct": 84.0,
-      "precio_usd": 6.33,
-      "texto": "🟢 <b>COMPRA YA</b> · −84%\n<b>Digimon World: Next Order</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.33</b> ≈ $6.289 en 🇧🇷 Brasil\n   Precio en la tienda: R$36,78 BRL\n💡 Oferta de −84% en la eShop\n🏷️ Normal US$39.57 → ahorras US$33.24 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/digimon-world-next-order-switch/\">US$6.33</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/digimon-world-next-order-switch/\">US$7.25</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/digimon-world-next-order-switch/\">US$8.93</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/digimon-world-next-order-switch/\">US$8.94</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/digimon-world-next-order-switch/\">US$9.59</a>\n   El más caro: 🇨🇴 US$10.64\n📦 Físico: $64.990 en Sniper → el digital te ahorra $58.701\n📈 Mínimo US$6.33 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/digimon-world-next-order-switch/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:80ce559618",
         "text": "⚙️ Mr. DRILLER DrillLand · US$3.22"
       },
@@ -354,18 +338,18 @@
     },
     {
       "boton": {
-        "callback_data": "a:9945eaefb3",
-        "text": "⚙️ Dragon's Dogma: Dark Arisen · US$3.69"
+        "callback_data": "a:7bddabfeac",
+        "text": "⚙️ Digimon World: Next Order · US$6.33"
       },
       "con_fisico": true,
-      "id": "9945eaefb3",
+      "id": "7bddabfeac",
       "juego": "🔍 Otros juegos",
       "nivel": "compra",
-      "nombre": "Dragon's Dogma: Dark Arisen",
+      "nombre": "Digimon World: Next Order",
       "orden": 1,
-      "pct": 83.4,
-      "precio_usd": 3.69,
-      "texto": "🟢 <b>COMPRA YA</b> · −83%\n<b>Dragon's Dogma: Dark Arisen</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.69</b> ≈ $3.666 en 🇧🇷 Brasil\n   Precio en la tienda: R$21,46 BRL\n💡 Oferta de −83% en la eShop\n🏷️ Normal US$22.20 → ahorras US$18.51 · ⏳ termina el 7 dic (en 18 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/dragons-dogma-dark-arisen-switch/\">US$3.69</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/dragons-dogma-dark-arisen-switch/\">US$3.86</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/dragons-dogma-dark-arisen-switch/\">US$4.64</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/dragons-dogma-dark-arisen-switch/\">US$4.99</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/dragons-dogma-dark-arisen-switch/\">US$5.80</a>\n   El más caro: 🇲🇽 US$6.22\n📦 Físico: $49.990 en Paris → el digital te ahorra $46.324\n📈 Mínimo US$3.69 (19 nov en 🇧🇷 Brasil)\n   █▆▂▁  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/dragons-dogma-dark-arisen-switch/\">Ver en la eShop de Brasil</a>",
+      "pct": 84.0,
+      "precio_usd": 6.33,
+      "texto": "🟢 <b>COMPRA YA</b> · −84%\n<b>Digimon World: Next Order</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.33</b> ≈ $6.289 en 🇧🇷 Brasil\n   Precio en la tienda: R$36,78 BRL\n💡 Oferta de −84% en la eShop\n🏷️ Normal US$39.57 → ahorras US$33.24 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/digimon-world-next-order-switch/\">US$6.33</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/digimon-world-next-order-switch/\">US$7.25</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/digimon-world-next-order-switch/\">US$8.93</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/digimon-world-next-order-switch/\">US$8.94</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/digimon-world-next-order-switch/\">US$9.59</a>\n   El más caro: 🇨🇴 US$10.64\n📦 Físico: $55.000 en Paris → el digital te ahorra $48.711\n📈 Mínimo US$6.33 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/digimon-world-next-order-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -382,6 +366,22 @@
       "pct": 83.4,
       "precio_usd": 4.33,
       "texto": "🟢 <b>COMPRA YA</b> · −83%\n<b>Giana Sisters: Twisted Dreams - Owltimate Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.33</b> ≈ $4.302 en 🇨🇱 Chile\n   Precio en la tienda: $4.300 CLP\n💡 Oferta de −83% en la eShop\n🏷️ Normal US$26.07 → ahorras US$21.74 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/giana-sisters-twisted-dreams-owltimate-edition-switch/\">US$4.33</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/giana-sisters-twisted-dreams-owltimate-edition-switch/\">US$4.47</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/giana-sisters-twisted-dreams-owltimate-edition-switch/\">US$4.53</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/giana-sisters-twisted-dreams-owltimate-edition-switch/\">US$4.81</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/giana-sisters-twisted-dreams-owltimate-edition-switch/\">US$4.97</a>\n   El más caro: 🇨🇴 US$6.02\n📈 Mínimo US$4.33 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/giana-sisters-twisted-dreams-owltimate-edition-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:9945eaefb3",
+        "text": "⚙️ Dragon's Dogma: Dark Arisen · US$3.69"
+      },
+      "con_fisico": true,
+      "id": "9945eaefb3",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Dragon's Dogma: Dark Arisen",
+      "orden": 1,
+      "pct": 83.4,
+      "precio_usd": 3.69,
+      "texto": "🟢 <b>COMPRA YA</b> · −83%\n<b>Dragon's Dogma: Dark Arisen</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.69</b> ≈ $3.666 en 🇧🇷 Brasil\n   Precio en la tienda: R$21,46 BRL\n💡 Oferta de −83% en la eShop\n🏷️ Normal US$22.20 → ahorras US$18.51 · ⏳ termina el 7 dic (en 18 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/dragons-dogma-dark-arisen-switch/\">US$3.69</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/dragons-dogma-dark-arisen-switch/\">US$3.86</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/dragons-dogma-dark-arisen-switch/\">US$4.64</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/dragons-dogma-dark-arisen-switch/\">US$4.99</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/dragons-dogma-dark-arisen-switch/\">US$5.80</a>\n   El más caro: 🇲🇽 US$6.22\n📦 Físico: $49.990 en Paris → el digital te ahorra $46.324\n📈 Mínimo US$3.69 (19 nov en 🇧🇷 Brasil)\n   █▆▂▁  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/dragons-dogma-dark-arisen-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -418,22 +418,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:2170e7a0d9",
-        "text": "⚙️ El Hijo - A Wild West Tale · US$3.48"
-      },
-      "con_fisico": false,
-      "id": "2170e7a0d9",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "El Hijo - A Wild West Tale",
-      "orden": 1,
-      "pct": 80.1,
-      "precio_usd": 3.48,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>El Hijo - A Wild West Tale</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.48</b> ≈ $3.457 en 🇨🇦 Canadá\n   Precio en la tienda: CA$4,99 CAD\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$17.45 → ahorras US$13.97 · ⏳ termina el 20 nov (¡hoy!)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/el-hijo-a-wild-west-tale-switch/\">US$3.48</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/el-hijo-a-wild-west-tale-switch/\">US$3.62</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/el-hijo-a-wild-west-tale-switch/\">US$3.77</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/el-hijo-a-wild-west-tale-switch/\">US$3.99</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/el-hijo-a-wild-west-tale-switch/\">US$4.07</a>\n   El más caro: 🇨🇴 US$4.78\n📈 Mínimo US$3.48 (19 nov en 🇨🇦 Canadá)\n   █▆▆▆▆▄▃▃▃▃▃▃▂▂▁  últimos 15 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/el-hijo-a-wild-west-tale-switch/\">Ver en la eShop de Canadá</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:0ff38404e3",
         "text": "⚙️ Townsmen - A Kingdom Rebuilt · US$3.48"
       },
@@ -450,6 +434,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:2170e7a0d9",
+        "text": "⚙️ El Hijo - A Wild West Tale · US$3.48"
+      },
+      "con_fisico": false,
+      "id": "2170e7a0d9",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "El Hijo - A Wild West Tale",
+      "orden": 1,
+      "pct": 80.1,
+      "precio_usd": 3.48,
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>El Hijo - A Wild West Tale</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.48</b> ≈ $3.457 en 🇨🇦 Canadá\n   Precio en la tienda: CA$4,99 CAD\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$17.45 → ahorras US$13.97 · ⏳ termina el 20 nov (¡hoy!)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/el-hijo-a-wild-west-tale-switch/\">US$3.48</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/el-hijo-a-wild-west-tale-switch/\">US$3.62</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/el-hijo-a-wild-west-tale-switch/\">US$3.77</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/el-hijo-a-wild-west-tale-switch/\">US$3.99</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/el-hijo-a-wild-west-tale-switch/\">US$4.07</a>\n   El más caro: 🇨🇴 US$4.78\n📈 Mínimo US$3.48 (19 nov en 🇨🇦 Canadá)\n   █▆▆▆▆▄▃▃▃▃▃▃▂▂▁  últimos 15 días\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/el-hijo-a-wild-west-tale-switch/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:eac714c0f7",
         "text": "⚙️ DOOM · US$3.75"
       },
@@ -462,6 +462,38 @@
       "pct": 80.0,
       "precio_usd": 3.75,
       "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>DOOM</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$3.75</b> ≈ $3.726 en 🇧🇷 Brasil\n   Precio en la tienda: R$21,80 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$18.76 → ahorras US$15.01 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-switch/\">US$3.75</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-switch/\">US$3.82</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/doom-switch/\">US$3.94</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/doom-switch/\">US$3.99</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/doom-switch/\">US$4.04</a>\n   El más caro: 🇨🇴 US$4.84\n📦 Físico: $69.990 en Falabella → el digital te ahorra $66.264\n📈 Mínimo US$3.75 (19 nov en 🇧🇷 Brasil)\n   █████████████████████████████▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:383d080f15",
+        "text": "⚙️ MudRunner - American Wilds · US$3.70"
+      },
+      "con_fisico": false,
+      "id": "383d080f15",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "MudRunner - American Wilds",
+      "orden": 1,
+      "pct": 80.0,
+      "precio_usd": 3.7,
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>MudRunner - American Wilds</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.70</b> ≈ $3.676 en 🇨🇱 Chile\n   Precio en la tienda: $3.672 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$18.48 → ahorras US$14.78 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/mudrunner-american-wilds-switch/\">US$3.70</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/mudrunner-american-wilds-switch/\">US$4.30</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/mudrunner-american-wilds-switch/\">US$4.88</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/mudrunner-american-wilds-switch/\">US$4.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/mudrunner-american-wilds-switch/\">US$5.33</a>\n   El más caro: 🇨🇴 US$5.67\n📈 Mínimo US$3.70 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/mudrunner-american-wilds-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:b8b7232093",
+        "text": "⚙️ Valkyria Chronicles 4 · US$4.47"
+      },
+      "con_fisico": false,
+      "id": "b8b7232093",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Valkyria Chronicles 4",
+      "orden": 1,
+      "pct": 80.0,
+      "precio_usd": 4.47,
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Valkyria Chronicles 4</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.47</b> ≈ $4.441 en 🇧🇷 Brasil\n   Precio en la tienda: R$25,98 BRL\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$22.36 → ahorras US$17.89 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/valkyria-chronicles-4-switch/\">US$4.47</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/valkyria-chronicles-4-switch/\">US$5.21</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/valkyria-chronicles-4-switch/\">US$5.44</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/valkyria-chronicles-4-switch/\">US$5.58</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/valkyria-chronicles-4-switch/\">US$5.99</a>\n   El más caro: 🇨🇴 US$7.13\n📈 Mínimo US$4.47 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/valkyria-chronicles-4-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -514,6 +546,38 @@
     },
     {
       "boton": {
+        "callback_data": "a:936a3ed59f",
+        "text": "⚙️ YU-NO: A girl who chants love… · US$3.72"
+      },
+      "con_fisico": false,
+      "id": "936a3ed59f",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "YU-NO: A girl who chants love at the bound of this world.",
+      "orden": 1,
+      "pct": 80.0,
+      "precio_usd": 3.72,
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>YU-NO: A girl who chants love at the bound of this world.</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.72</b> ≈ $3.696 en 🇨🇱 Chile\n   Precio en la tienda: $3.700 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$18.62 → ahorras US$14.90 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">US$3.72</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">US$5.09</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">US$9.27</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">US$9.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">US$10.36</a>\n   El más caro: 🇨🇴 US$41.41\n📈 Mínimo US$3.72 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:93dc9910f9",
+        "text": "⚙️ Super Monkey Ball: Banana Bli… · US$5.21"
+      },
+      "con_fisico": false,
+      "id": "93dc9910f9",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Super Monkey Ball: Banana Blitz HD",
+      "orden": 1,
+      "pct": 80.0,
+      "precio_usd": 5.21,
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Super Monkey Ball: Banana Blitz HD</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.21</b> ≈ $5.176 en 🇨🇱 Chile\n   Precio en la tienda: $5.180 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$26.07 → ahorras US$20.86 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/super-monkey-ball-banana-blitz-hd-switch/\">US$5.21</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/super-monkey-ball-banana-blitz-hd-switch/\">US$5.44</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/super-monkey-ball-banana-blitz-hd-switch/\">US$5.58</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/super-monkey-ball-banana-blitz-hd-switch/\">US$5.99</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/super-monkey-ball-banana-blitz-hd-switch/\">US$6.38</a>\n   El más caro: 🇨🇴 US$7.13\n📈 Mínimo US$5.21 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/super-monkey-ball-banana-blitz-hd-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:53ad5e6998",
         "text": "⚙️ ROBOTICS;NOTES ELITE · US$2.72"
       },
@@ -526,6 +590,38 @@
       "pct": 80.0,
       "precio_usd": 2.72,
       "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>ROBOTICS;NOTES ELITE</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.72</b> ≈ $2.702 en 🇨🇱 Chile\n   Precio en la tienda: $2.700 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$13.59 → ahorras US$10.87 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/robotics-notes-elite-switch/\">US$2.72</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/robotics-notes-elite-switch/\">US$3.57</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/robotics-notes-elite-switch/\">US$6.15</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/robotics-notes-elite-switch/\">US$6.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/robotics-notes-elite-switch/\">US$7.25</a>\n   El más caro: 🇨🇴 US$29.32\n📈 Mínimo US$2.72 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/robotics-notes-elite-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:af88ee502a",
+        "text": "⚙️ Othercide · US$4.44"
+      },
+      "con_fisico": false,
+      "id": "af88ee502a",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Othercide",
+      "orden": 1,
+      "pct": 80.0,
+      "precio_usd": 4.44,
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Othercide</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.44</b> ≈ $4.411 en 🇨🇱 Chile\n   Precio en la tienda: $4.408 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$22.18 → ahorras US$17.74 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/othercide-switch/\">US$4.44</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/othercide-switch/\">US$5.50</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/othercide-switch/\">US$5.58</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/othercide-switch/\">US$5.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/othercide-switch/\">US$6.40</a>\n   El más caro: 🇨🇴 US$6.80\n📈 Mínimo US$4.44 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/othercide-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:9c6eadadad",
+        "text": "⚙️ Vitamin Connection · US$3.44"
+      },
+      "con_fisico": false,
+      "id": "9c6eadadad",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Vitamin Connection",
+      "orden": 1,
+      "pct": 80.0,
+      "precio_usd": 3.44,
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Vitamin Connection</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.44</b> ≈ $3.418 en 🇧🇷 Brasil\n   Precio en la tienda: R$19,99 BRL\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$17.21 → ahorras US$13.77 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/vitamin-connection-switch/\">US$3.44</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/vitamin-connection-switch/\">US$3.64</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/vitamin-connection-switch/\">US$3.70</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/vitamin-connection-switch/\">US$3.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/vitamin-connection-switch/\">US$4.01</a>\n   El más caro: 🇨🇴 US$5.02\n📈 Mínimo US$3.44 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/vitamin-connection-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -749,7 +845,7 @@
       "orden": 1,
       "pct": 80.0,
       "precio_usd": 3.44,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Amber Isle</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.44</b> ≈ $3.418 en 🇧🇷 Brasil\n   Precio en la tienda: R$20,00 BRL\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$17.21 → ahorras US$13.77 · ⏳ termina el 8 dic (en 19 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/amber-isle-switch/\">US$3.44</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/amber-isle-switch/\">US$4.01</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/amber-isle-switch/\">US$4.74</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/amber-isle-switch/\">US$4.81</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/amber-isle-switch/\">US$4.99</a>\n   El más caro: 🇨🇴 US$29.93\n📦 Físico: $59.990 en Sniper → el digital te ahorra $56.572\n📈 Mínimo US$3.44 (19 nov en 🇧🇷 Brasil)\n   ███▁▁▁▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/amber-isle-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Amber Isle</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.44</b> ≈ $3.418 en 🇧🇷 Brasil\n   Precio en la tienda: R$20,00 BRL\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$17.21 → ahorras US$13.77 · ⏳ termina el 8 dic (en 19 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/amber-isle-switch/\">US$3.44</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/amber-isle-switch/\">US$4.01</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/amber-isle-switch/\">US$4.74</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/amber-isle-switch/\">US$4.81</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/amber-isle-switch/\">US$4.99</a>\n   El más caro: 🇨🇴 US$29.93\n📦 Físico: $59.990 en Paris → el digital te ahorra $56.572\n📈 Mínimo US$3.44 (19 nov en 🇧🇷 Brasil)\n   ███▁▁▁▁  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/amber-isle-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -798,102 +894,6 @@
       "pct": 80.0,
       "precio_usd": 6.19,
       "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>SteamWorld Heist II &amp; SteamWorld Build Bundle</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.19</b> ≈ $6.150 en 🇨🇱 Chile\n   Precio en la tienda: $6.150 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$30.95 → ahorras US$24.76 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/steamworld-heist-ii-and-steamworld-build-bundle-switch/\">US$6.19</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/steamworld-heist-ii-and-steamworld-build-bundle-switch/\">US$8.37</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/steamworld-heist-ii-and-steamworld-build-bundle-switch/\">US$8.70</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/steamworld-heist-ii-and-steamworld-build-bundle-switch/\">US$8.71</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/steamworld-heist-ii-and-steamworld-build-bundle-switch/\">US$8.77</a>\n   El más caro: 🇲🇽 US$9.83\n📈 Mínimo US$6.19 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/steamworld-heist-ii-and-steamworld-build-bundle-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:383d080f15",
-        "text": "⚙️ MudRunner - American Wilds · US$3.70"
-      },
-      "con_fisico": false,
-      "id": "383d080f15",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "MudRunner - American Wilds",
-      "orden": 1,
-      "pct": 80.0,
-      "precio_usd": 3.7,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>MudRunner - American Wilds</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.70</b> ≈ $3.676 en 🇨🇱 Chile\n   Precio en la tienda: $3.672 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$18.48 → ahorras US$14.78 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/mudrunner-american-wilds-switch/\">US$3.70</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/mudrunner-american-wilds-switch/\">US$4.30</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/mudrunner-american-wilds-switch/\">US$4.88</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/mudrunner-american-wilds-switch/\">US$4.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/mudrunner-american-wilds-switch/\">US$5.33</a>\n   El más caro: 🇨🇴 US$5.67\n📈 Mínimo US$3.70 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/mudrunner-american-wilds-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:af88ee502a",
-        "text": "⚙️ Othercide · US$4.44"
-      },
-      "con_fisico": false,
-      "id": "af88ee502a",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Othercide",
-      "orden": 1,
-      "pct": 80.0,
-      "precio_usd": 4.44,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Othercide</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.44</b> ≈ $4.411 en 🇨🇱 Chile\n   Precio en la tienda: $4.408 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$22.18 → ahorras US$17.74 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/othercide-switch/\">US$4.44</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/othercide-switch/\">US$5.50</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/othercide-switch/\">US$5.58</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/othercide-switch/\">US$5.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/othercide-switch/\">US$6.40</a>\n   El más caro: 🇨🇴 US$6.80\n📈 Mínimo US$4.44 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/othercide-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:93dc9910f9",
-        "text": "⚙️ Super Monkey Ball: Banana Bli… · US$5.21"
-      },
-      "con_fisico": false,
-      "id": "93dc9910f9",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Super Monkey Ball: Banana Blitz HD",
-      "orden": 1,
-      "pct": 80.0,
-      "precio_usd": 5.21,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Super Monkey Ball: Banana Blitz HD</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.21</b> ≈ $5.176 en 🇨🇱 Chile\n   Precio en la tienda: $5.180 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$26.07 → ahorras US$20.86 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/super-monkey-ball-banana-blitz-hd-switch/\">US$5.21</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/super-monkey-ball-banana-blitz-hd-switch/\">US$5.44</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/super-monkey-ball-banana-blitz-hd-switch/\">US$5.58</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/super-monkey-ball-banana-blitz-hd-switch/\">US$5.99</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/super-monkey-ball-banana-blitz-hd-switch/\">US$6.38</a>\n   El más caro: 🇨🇴 US$7.13\n📈 Mínimo US$5.21 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/super-monkey-ball-banana-blitz-hd-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:b8b7232093",
-        "text": "⚙️ Valkyria Chronicles 4 · US$4.47"
-      },
-      "con_fisico": false,
-      "id": "b8b7232093",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Valkyria Chronicles 4",
-      "orden": 1,
-      "pct": 80.0,
-      "precio_usd": 4.47,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Valkyria Chronicles 4</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.47</b> ≈ $4.441 en 🇧🇷 Brasil\n   Precio en la tienda: R$25,98 BRL\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$22.36 → ahorras US$17.89 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/valkyria-chronicles-4-switch/\">US$4.47</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/valkyria-chronicles-4-switch/\">US$5.21</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/valkyria-chronicles-4-switch/\">US$5.44</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/valkyria-chronicles-4-switch/\">US$5.58</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/valkyria-chronicles-4-switch/\">US$5.99</a>\n   El más caro: 🇨🇴 US$7.13\n📈 Mínimo US$4.47 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/valkyria-chronicles-4-switch/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:9c6eadadad",
-        "text": "⚙️ Vitamin Connection · US$3.44"
-      },
-      "con_fisico": false,
-      "id": "9c6eadadad",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Vitamin Connection",
-      "orden": 1,
-      "pct": 80.0,
-      "precio_usd": 3.44,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>Vitamin Connection</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.44</b> ≈ $3.418 en 🇧🇷 Brasil\n   Precio en la tienda: R$19,99 BRL\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$17.21 → ahorras US$13.77 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/vitamin-connection-switch/\">US$3.44</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/vitamin-connection-switch/\">US$3.64</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/vitamin-connection-switch/\">US$3.70</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/vitamin-connection-switch/\">US$3.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/vitamin-connection-switch/\">US$4.01</a>\n   El más caro: 🇨🇴 US$5.02\n📈 Mínimo US$3.44 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/vitamin-connection-switch/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:936a3ed59f",
-        "text": "⚙️ YU-NO: A girl who chants love… · US$3.72"
-      },
-      "con_fisico": false,
-      "id": "936a3ed59f",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "YU-NO: A girl who chants love at the bound of this world.",
-      "orden": 1,
-      "pct": 80.0,
-      "precio_usd": 3.72,
-      "texto": "🟢 <b>COMPRA YA</b> · −80%\n<b>YU-NO: A girl who chants love at the bound of this world.</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.72</b> ≈ $3.696 en 🇨🇱 Chile\n   Precio en la tienda: $3.700 CLP\n💡 Oferta de −80% en la eShop\n🏷️ Normal US$18.62 → ahorras US$14.90 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">US$3.72</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">US$5.09</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">US$9.27</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">US$9.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">US$10.36</a>\n   El más caro: 🇨🇴 US$41.41\n📈 Mínimo US$3.72 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/yu-no-a-girl-who-chants-love-at-the-bound-of-this-world-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -1010,6 +1010,38 @@
     },
     {
       "boton": {
+        "callback_data": "a:dad171510c",
+        "text": "⚙️ SteamWorld Heist: Ultimate Ed… · US$3.40"
+      },
+      "con_fisico": false,
+      "id": "dad171510c",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "SteamWorld Heist: Ultimate Edition",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 3.4,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>SteamWorld Heist: Ultimate Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.40</b> ≈ $3.378 en 🇨🇱 Chile\n   Precio en la tienda: $3.374 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$13.59 → ahorras US$10.19 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/steamworld-heist-ultimate-edition-switch/\">US$3.40</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/steamworld-heist-ultimate-edition-switch/\">US$4.27</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/steamworld-heist-ultimate-edition-switch/\">US$4.30</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/steamworld-heist-ultimate-edition-switch/\">US$4.45</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/steamworld-heist-ultimate-edition-switch/\">US$4.74</a>\n   El más caro: 🇺🇸 US$4.99\n📈 Mínimo US$3.40 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/steamworld-heist-ultimate-edition-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:9eaca603c4",
+        "text": "⚙️ Gal*Gun 2 · US$6.59"
+      },
+      "con_fisico": false,
+      "id": "9eaca603c4",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Gal*Gun 2",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 6.59,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Gal*Gun 2</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.59</b> ≈ $6.547 en 🇨🇦 Canadá\n   Precio en la tienda: CA$9,44 CAD\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$26.39 → ahorras US$19.80 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/gal-gun-2-switch/\">US$6.59</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/gal-gun-2-switch/\">US$7.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/gal-gun-2-switch/\">US$7.77</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/gal-gun-2-switch/\">US$10.87</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/gal-gun-2-switch/\">US$13.16</a>\n   El más caro: 🇨🇴 US$16.32\n📈 Mínimo US$6.59 (19 nov en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/gal-gun-2-switch/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:ff012443fc",
         "text": "⚙️ Celeste · US$2.58"
       },
@@ -1026,6 +1058,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:e080e38428",
+        "text": "⚙️ Valiant Hearts: The Great War · US$3.23"
+      },
+      "con_fisico": false,
+      "id": "e080e38428",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Valiant Hearts: The Great War",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 3.23,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Valiant Hearts: The Great War</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.23</b> ≈ $3.209 en 🇧🇷 Brasil\n   Precio en la tienda: R$18,74 BRL\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$12.91 → ahorras US$9.68 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/valiant-hearts-the-great-war-switch/\">US$3.23</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/valiant-hearts-the-great-war-switch/\">US$3.23</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/valiant-hearts-the-great-war-switch/\">US$3.48</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/valiant-hearts-the-great-war-switch/\">US$3.74</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/valiant-hearts-the-great-war-switch/\">US$3.99</a>\n   El más caro: 🇨🇴 US$4.53\n📈 Mínimo US$3.23 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/valiant-hearts-the-great-war-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:828f724cb3",
         "text": "⚙️ Hello Neighbor · US$7.25"
       },
@@ -1038,6 +1086,22 @@
       "pct": 75.0,
       "precio_usd": 7.25,
       "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Hello Neighbor</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$7.25</b> ≈ $7.203 en 🇨🇱 Chile\n   Precio en la tienda: $7.198 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$28.98 → ahorras US$21.73 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/hello-neighbor-switch/\">US$7.25</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/hello-neighbor-switch/\">US$8.77</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/hello-neighbor-switch/\">US$8.79</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/hello-neighbor-switch/\">US$9.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/hello-neighbor-switch/\">US$10.36</a>\n   El más caro: 🇨🇴 US$10.88\n📦 Físico: $39.711 en Sniper → el digital te ahorra $32.508\n📈 Mínimo US$7.21 (18 nov en 🇨🇱 Chile)\n   █▇▄▃▂▂▁▃  últimos 8 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/hello-neighbor-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:64e7303242",
+        "text": "⚙️ Slay the Spire · US$4.28"
+      },
+      "con_fisico": false,
+      "id": "64e7303242",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Slay the Spire",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 4.28,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Slay the Spire</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.28</b> ≈ $4.252 en 🇨🇱 Chile\n   Precio en la tienda: $4.249 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$17.11 → ahorras US$12.83 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/slay-the-spire-switch/\">US$4.28</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/slay-the-spire-switch/\">US$4.47</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/slay-the-spire-switch/\">US$5.74</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/slay-the-spire-switch/\">US$5.84</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/slay-the-spire-switch/\">US$6.03</a>\n   El más caro: 🇲🇽 US$6.31\n📈 Mínimo US$4.28 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/slay-the-spire-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -1074,6 +1138,118 @@
     },
     {
       "boton": {
+        "callback_data": "a:224f99ab22",
+        "text": "⚙️ Our World Is Ended. · US$9.06"
+      },
+      "con_fisico": false,
+      "id": "224f99ab22",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Our World Is Ended.",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 9.06,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Our World Is Ended.</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$9.06</b> ≈ $9.001 en 🇨🇱 Chile\n   Precio en la tienda: $8.998 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$36.23 → ahorras US$27.17 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/our-world-is-ended-switch/\">US$9.06</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/our-world-is-ended-switch/\">US$10.97</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/our-world-is-ended-switch/\">US$10.99</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/our-world-is-ended-switch/\">US$12.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/our-world-is-ended-switch/\">US$12.95</a>\n   El más caro: 🇨🇴 US$13.60\n📈 Mínimo US$9.06 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/our-world-is-ended-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:bcf87f9de8",
+        "text": "⚙️ Root Letter: Last Answer · US$5.43"
+      },
+      "con_fisico": false,
+      "id": "bcf87f9de8",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Root Letter: Last Answer",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 5.43,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Root Letter: Last Answer</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.43</b> ≈ $5.395 en 🇨🇱 Chile\n   Precio en la tienda: $5.398 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$21.73 → ahorras US$16.30 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/root-letter-last-answer-switch/\">US$5.43</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/root-letter-last-answer-switch/\">US$6.58</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/root-letter-last-answer-switch/\">US$6.59</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/root-letter-last-answer-switch/\">US$7.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/root-letter-last-answer-switch/\">US$7.77</a>\n   El más caro: 🇨🇴 US$8.16\n📈 Mínimo US$5.43 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/root-letter-last-answer-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:10d02b1fae",
+        "text": "⚙️ Kotodama: The 7 Mysteries of … · US$5.43"
+      },
+      "con_fisico": false,
+      "id": "10d02b1fae",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Kotodama: The 7 Mysteries of Fujisawa",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 5.43,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Kotodama: The 7 Mysteries of Fujisawa</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.43</b> ≈ $5.395 en 🇨🇱 Chile\n   Precio en la tienda: $5.398 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$21.73 → ahorras US$16.30 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">US$5.43</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">US$6.58</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">US$6.59</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">US$7.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">US$7.77</a>\n   El más caro: 🇨🇴 US$8.16\n📈 Mínimo US$5.43 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:8e98deb95c",
+        "text": "⚙️ SWORD ART ONLINE: FATAL BULLE… · US$7.30"
+      },
+      "con_fisico": true,
+      "id": "8e98deb95c",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "SWORD ART ONLINE: FATAL BULLET Complete Edition",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 7.3,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>SWORD ART ONLINE: FATAL BULLET Complete Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$7.30</b> ≈ $7.252 en 🇨🇱 Chile\n   Precio en la tienda: $7.249 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$29.19 → ahorras US$21.89 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">US$7.30</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">US$7.86</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">US$9.14</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">US$9.34</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">US$9.60</a>\n   El más caro: 🇺🇸 US$9.99\n📦 Físico: $39.711 en Sniper → el digital te ahorra $32.459\n📈 Mínimo US$7.30 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:e2750ca67b",
+        "text": "⚙️ Gun Gun Pixies · US$9.06"
+      },
+      "con_fisico": false,
+      "id": "e2750ca67b",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Gun Gun Pixies",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 9.06,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Gun Gun Pixies</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$9.06</b> ≈ $9.001 en 🇨🇱 Chile\n   Precio en la tienda: $8.998 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$36.23 → ahorras US$27.17 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/gun-gun-pixies-switch/\">US$9.06</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/gun-gun-pixies-switch/\">US$10.97</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/gun-gun-pixies-switch/\">US$10.99</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/gun-gun-pixies-switch/\">US$12.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/gun-gun-pixies-switch/\">US$12.95</a>\n   El más caro: 🇨🇴 US$13.60\n📈 Mínimo US$9.06 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/gun-gun-pixies-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:48c5fa4b24",
+        "text": "⚙️ Raging Loop · US$5.43"
+      },
+      "con_fisico": false,
+      "id": "48c5fa4b24",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Raging Loop",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 5.43,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Raging Loop</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.43</b> ≈ $5.395 en 🇨🇱 Chile\n   Precio en la tienda: $5.398 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$21.73 → ahorras US$16.30 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/raging-loop-switch/\">US$5.43</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/raging-loop-switch/\">US$6.58</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/raging-loop-switch/\">US$6.59</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/raging-loop-switch/\">US$7.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/raging-loop-switch/\">US$7.77</a>\n   El más caro: 🇨🇴 US$8.16\n📈 Mínimo US$5.43 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/raging-loop-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:53106401fc",
+        "text": "⚙️ Dusk Diver · US$6.34"
+      },
+      "con_fisico": false,
+      "id": "53106401fc",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Dusk Diver",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 6.34,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Dusk Diver</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.34</b> ≈ $6.299 en 🇨🇱 Chile\n   Precio en la tienda: $6.298 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$25.36 → ahorras US$19.02 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/dusk-diver-switch/\">US$6.34</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/dusk-diver-switch/\">US$7.68</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/dusk-diver-switch/\">US$7.69</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/dusk-diver-switch/\">US$8.74</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/dusk-diver-switch/\">US$9.06</a>\n   El más caro: 🇨🇴 US$9.52\n📈 Mínimo US$6.34 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/dusk-diver-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:f812a8d074",
         "text": "⚙️ Golf With Your Friends · US$3.44"
       },
@@ -1106,6 +1282,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:06da444bfe",
+        "text": "⚙️ WARBORN · US$4.53"
+      },
+      "con_fisico": false,
+      "id": "06da444bfe",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "WARBORN",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 4.53,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>WARBORN</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.53</b> ≈ $4.500 en 🇨🇱 Chile\n   Precio en la tienda: $4.498 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$18.11 → ahorras US$13.58 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/warborn-switch/\">US$4.53</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/warborn-switch/\">US$5.48</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/warborn-switch/\">US$5.50</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/warborn-switch/\">US$6.24</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/warborn-switch/\">US$6.47</a>\n   El más caro: 🇨🇴 US$6.80\n📈 Mínimo US$4.53 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/warborn-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:4cbdc3d672",
         "text": "⚙️ Hellpoint · US$6.34"
       },
@@ -1118,6 +1310,22 @@
       "pct": 75.0,
       "precio_usd": 6.34,
       "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Hellpoint</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.34</b> ≈ $6.299 en 🇨🇱 Chile\n   Precio en la tienda: $6.298 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$25.36 → ahorras US$19.02 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/hellpoint-switch/\">US$6.34</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/hellpoint-switch/\">US$7.68</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/hellpoint-switch/\">US$8.12</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/hellpoint-switch/\">US$8.74</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/hellpoint-switch/\">US$9.21</a>\n   El más caro: 🇲🇽 US$10.37\n📦 Físico: $24.990 en Sniper → el digital te ahorra $18.691\n📈 Mínimo US$6.31 (18 nov en 🇨🇱 Chile)\n   █▇▄▄▂▂▁▃  últimos 8 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/hellpoint-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:8939e35538",
+        "text": "⚙️ NAMCO MUSEUM ARCHIVES Vol 1 · US$3.44"
+      },
+      "con_fisico": false,
+      "id": "8939e35538",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "NAMCO MUSEUM ARCHIVES Vol 1",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 3.44,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>NAMCO MUSEUM ARCHIVES Vol 1</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.44</b> ≈ $3.418 en 🇧🇷 Brasil\n   Precio en la tienda: R$19,97 BRL\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$13.75 → ahorras US$10.31 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/namco-museum-archives-vol-1-switch/\">US$3.44</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/namco-museum-archives-vol-1-switch/\">US$3.77</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/namco-museum-archives-vol-1-switch/\">US$4.53</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/namco-museum-archives-vol-1-switch/\">US$4.90</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/namco-museum-archives-vol-1-switch/\">US$4.99</a>\n   El más caro: 🇨🇴 US$5.06\n📈 Mínimo US$3.44 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/namco-museum-archives-vol-1-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -1182,6 +1390,22 @@
       "pct": 75.0,
       "precio_usd": 11.82,
       "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>MARIO + RABBIDS SPARKS OF HOPE</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$11.82</b> ≈ $11.743 en 🇨🇱 Chile\n   Precio en la tienda: $11.740 CLP\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$47.31 → ahorras US$35.49 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$11.82</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$12.91</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$13.96</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$14.99</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$17.37</a>\n   El más caro: 🇲🇽 US$18.68\n📦 Físico: $22.900 en TodoJuegos → el digital te ahorra $11.157\n📈 Mínimo US$11.82 (19 nov en 🇨🇱 Chile)\n   █████████████████████████████▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:2c7f593d53",
+        "text": "⚙️ Gal*Gun Returns · US$9.06"
+      },
+      "con_fisico": true,
+      "id": "2c7f593d53",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Gal*Gun Returns",
+      "orden": 1,
+      "pct": 75.0,
+      "precio_usd": 9.06,
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Gal*Gun Returns</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$9.06</b> ≈ $9.001 en 🇨🇱 Chile\n   Precio en la tienda: $8.998 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$36.23 → ahorras US$27.17 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/gal-gun-returns-switch/\">US$9.06</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/gal-gun-returns-switch/\">US$10.76</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/gal-gun-returns-switch/\">US$11.34</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/gal-gun-returns-switch/\">US$12.49</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/gal-gun-returns-switch/\">US$13.16</a>\n   El más caro: 🇲🇽 US$14.69\n📦 Físico: $49.990 en 8 Bits → el digital te ahorra $40.989\n📈 Mínimo US$9.06 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/gal-gun-returns-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -1277,7 +1501,7 @@
       "orden": 1,
       "pct": 75.0,
       "precio_usd": 12.69,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>13 Sentinels: Aegis Rim</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$12.69</b> ≈ $12.607 en 🇧🇷 Brasil\n   Precio en la tienda: R$73,75 BRL\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$50.78 → ahorras US$38.09 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/13-sentinels-aegis-rim-switch/\">US$12.69</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/13-sentinels-aegis-rim-switch/\">US$13.31</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/13-sentinels-aegis-rim-switch/\">US$13.60</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/13-sentinels-aegis-rim-switch/\">US$13.96</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/13-sentinels-aegis-rim-switch/\">US$14.99</a>\n   El más caro: 🇨🇴 US$17.83\n📦 Físico: $64.990 en Sniper → el digital te ahorra $52.383\n📈 Mínimo US$12.69 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/13-sentinels-aegis-rim-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>13 Sentinels: Aegis Rim</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$12.69</b> ≈ $12.607 en 🇧🇷 Brasil\n   Precio en la tienda: R$73,75 BRL\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$50.78 → ahorras US$38.09 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/13-sentinels-aegis-rim-switch/\">US$12.69</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/13-sentinels-aegis-rim-switch/\">US$13.31</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/13-sentinels-aegis-rim-switch/\">US$13.60</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/13-sentinels-aegis-rim-switch/\">US$13.96</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/13-sentinels-aegis-rim-switch/\">US$14.99</a>\n   El más caro: 🇨🇴 US$17.83\n📦 Físico: $64.990 en Paris → el digital te ahorra $52.383\n📈 Mínimo US$12.69 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/13-sentinels-aegis-rim-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -1421,7 +1645,7 @@
       "orden": 1,
       "pct": 75.0,
       "precio_usd": 5.48,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Blasphemous 2</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.48</b> ≈ $5.444 en 🇵🇪 Perú\n   Precio en la tienda: S/18,73 PEN\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$21.92 → ahorras US$16.44 · ⏳ termina el 8 dic (en 19 días)\n🌎 <b>Por país</b>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/blasphemous-2-switch/\">US$5.48</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/blasphemous-2-switch/\">US$6.01</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/blasphemous-2-switch/\">US$6.01</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/blasphemous-2-switch/\">US$6.80</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/blasphemous-2-switch/\">US$6.88</a>\n   El más caro: 🇨🇴 US$26.42\n📦 Físico: $54.990 en Sniper → el digital te ahorra $49.546\n📈 Mínimo US$5.44 (15 oct en 🇵🇪 Perú)\n   ▁▂▂███▇  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-pe/store/products/blasphemous-2-switch/\">Ver en la eShop de Perú</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Blasphemous 2</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.48</b> ≈ $5.444 en 🇵🇪 Perú\n   Precio en la tienda: S/18,73 PEN\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$21.92 → ahorras US$16.44 · ⏳ termina el 8 dic (en 19 días)\n🌎 <b>Por país</b>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/blasphemous-2-switch/\">US$5.48</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/blasphemous-2-switch/\">US$6.01</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/blasphemous-2-switch/\">US$6.01</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/blasphemous-2-switch/\">US$6.80</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/blasphemous-2-switch/\">US$6.88</a>\n   El más caro: 🇨🇴 US$26.42\n📦 Físico: $54.990 en Paris → el digital te ahorra $49.546\n📈 Mínimo US$5.44 (15 oct en 🇵🇪 Perú)\n   ▁▂▂███▇  últimos 7 días\n🛒 <a href=\"https://www.nintendo.com/es-pe/store/products/blasphemous-2-switch/\">Ver en la eShop de Perú</a>",
       "tipo": "digital"
     },
     {
@@ -1533,7 +1757,7 @@
       "orden": 1,
       "pct": 75.0,
       "precio_usd": 4.94,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>CONSCRIPT</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.94</b> ≈ $4.908 en 🇲🇽 México\n   Precio en la tienda: MX$92,50 MXN\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$19.76 → ahorras US$14.82 · ⏳ termina el 8 dic (en 19 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/conscript-switch/\">US$4.94</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/conscript-switch/\">US$5.03</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/conscript-switch/\">US$5.15</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/conscript-switch/\">US$5.33</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/conscript-switch/\">US$5.49</a>\n   El más caro: 🇨🇴 US$25.85\n📦 Físico: $49.990 en Sniper → el digital te ahorra $45.082\n📈 Mínimo US$4.94 (19 nov en 🇲🇽 México)\n   ▅▅█▁  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/conscript-switch/\">Ver en la eShop de México</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>CONSCRIPT</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.94</b> ≈ $4.908 en 🇲🇽 México\n   Precio en la tienda: MX$92,50 MXN\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$19.76 → ahorras US$14.82 · ⏳ termina el 8 dic (en 19 días)\n🌎 <b>Por país</b>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/conscript-switch/\">US$4.94</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/conscript-switch/\">US$5.03</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/conscript-switch/\">US$5.15</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/conscript-switch/\">US$5.33</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/conscript-switch/\">US$5.49</a>\n   El más caro: 🇨🇴 US$25.85\n📦 Físico: $49.990 en Paris → el digital te ahorra $45.082\n📈 Mínimo US$4.94 (19 nov en 🇲🇽 México)\n   ▅▅█▁  últimos 4 días\n🛒 <a href=\"https://www.nintendo.com/es-mx/store/products/conscript-switch/\">Ver en la eShop de México</a>",
       "tipo": "digital"
     },
     {
@@ -1698,230 +1922,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:53106401fc",
-        "text": "⚙️ Dusk Diver · US$6.34"
-      },
-      "con_fisico": false,
-      "id": "53106401fc",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Dusk Diver",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 6.34,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Dusk Diver</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.34</b> ≈ $6.299 en 🇨🇱 Chile\n   Precio en la tienda: $6.298 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$25.36 → ahorras US$19.02 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/dusk-diver-switch/\">US$6.34</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/dusk-diver-switch/\">US$7.68</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/dusk-diver-switch/\">US$7.69</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/dusk-diver-switch/\">US$8.74</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/dusk-diver-switch/\">US$9.06</a>\n   El más caro: 🇨🇴 US$9.52\n📈 Mínimo US$6.34 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/dusk-diver-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:9eaca603c4",
-        "text": "⚙️ Gal*Gun 2 · US$6.59"
-      },
-      "con_fisico": false,
-      "id": "9eaca603c4",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Gal*Gun 2",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 6.59,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Gal*Gun 2</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.59</b> ≈ $6.547 en 🇨🇦 Canadá\n   Precio en la tienda: CA$9,44 CAD\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$26.39 → ahorras US$19.80 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/gal-gun-2-switch/\">US$6.59</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/gal-gun-2-switch/\">US$7.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/gal-gun-2-switch/\">US$7.77</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/gal-gun-2-switch/\">US$10.87</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/gal-gun-2-switch/\">US$13.16</a>\n   El más caro: 🇨🇴 US$16.32\n📈 Mínimo US$6.59 (19 nov en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/gal-gun-2-switch/\">Ver en la eShop de Canadá</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:2c7f593d53",
-        "text": "⚙️ Gal*Gun Returns · US$9.06"
-      },
-      "con_fisico": true,
-      "id": "2c7f593d53",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Gal*Gun Returns",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 9.06,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Gal*Gun Returns</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$9.06</b> ≈ $9.001 en 🇨🇱 Chile\n   Precio en la tienda: $8.998 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$36.23 → ahorras US$27.17 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/gal-gun-returns-switch/\">US$9.06</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/gal-gun-returns-switch/\">US$10.76</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/gal-gun-returns-switch/\">US$11.34</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/gal-gun-returns-switch/\">US$12.49</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/gal-gun-returns-switch/\">US$13.16</a>\n   El más caro: 🇲🇽 US$14.69\n📦 Físico: $49.990 en 8 Bits → el digital te ahorra $40.989\n📈 Mínimo US$9.06 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/gal-gun-returns-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:e2750ca67b",
-        "text": "⚙️ Gun Gun Pixies · US$9.06"
-      },
-      "con_fisico": false,
-      "id": "e2750ca67b",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Gun Gun Pixies",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 9.06,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Gun Gun Pixies</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$9.06</b> ≈ $9.001 en 🇨🇱 Chile\n   Precio en la tienda: $8.998 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$36.23 → ahorras US$27.17 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/gun-gun-pixies-switch/\">US$9.06</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/gun-gun-pixies-switch/\">US$10.97</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/gun-gun-pixies-switch/\">US$10.99</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/gun-gun-pixies-switch/\">US$12.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/gun-gun-pixies-switch/\">US$12.95</a>\n   El más caro: 🇨🇴 US$13.60\n📈 Mínimo US$9.06 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/gun-gun-pixies-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:10d02b1fae",
-        "text": "⚙️ Kotodama: The 7 Mysteries of … · US$5.43"
-      },
-      "con_fisico": false,
-      "id": "10d02b1fae",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Kotodama: The 7 Mysteries of Fujisawa",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 5.43,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Kotodama: The 7 Mysteries of Fujisawa</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.43</b> ≈ $5.395 en 🇨🇱 Chile\n   Precio en la tienda: $5.398 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$21.73 → ahorras US$16.30 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">US$5.43</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">US$6.58</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">US$6.59</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">US$7.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">US$7.77</a>\n   El más caro: 🇨🇴 US$8.16\n📈 Mínimo US$5.43 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/kotodama-the-7-mysteries-of-fujisawa-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:8939e35538",
-        "text": "⚙️ NAMCO MUSEUM ARCHIVES Vol 1 · US$3.44"
-      },
-      "con_fisico": false,
-      "id": "8939e35538",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "NAMCO MUSEUM ARCHIVES Vol 1",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 3.44,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>NAMCO MUSEUM ARCHIVES Vol 1</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.44</b> ≈ $3.418 en 🇧🇷 Brasil\n   Precio en la tienda: R$19,97 BRL\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$13.75 → ahorras US$10.31 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/namco-museum-archives-vol-1-switch/\">US$3.44</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/namco-museum-archives-vol-1-switch/\">US$3.77</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/namco-museum-archives-vol-1-switch/\">US$4.53</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/namco-museum-archives-vol-1-switch/\">US$4.90</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/namco-museum-archives-vol-1-switch/\">US$4.99</a>\n   El más caro: 🇨🇴 US$5.06\n📈 Mínimo US$3.44 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/namco-museum-archives-vol-1-switch/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:224f99ab22",
-        "text": "⚙️ Our World Is Ended. · US$9.06"
-      },
-      "con_fisico": false,
-      "id": "224f99ab22",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Our World Is Ended.",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 9.06,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Our World Is Ended.</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$9.06</b> ≈ $9.001 en 🇨🇱 Chile\n   Precio en la tienda: $8.998 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$36.23 → ahorras US$27.17 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/our-world-is-ended-switch/\">US$9.06</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/our-world-is-ended-switch/\">US$10.97</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/our-world-is-ended-switch/\">US$10.99</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/our-world-is-ended-switch/\">US$12.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/our-world-is-ended-switch/\">US$12.95</a>\n   El más caro: 🇨🇴 US$13.60\n📈 Mínimo US$9.06 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/our-world-is-ended-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:48c5fa4b24",
-        "text": "⚙️ Raging Loop · US$5.43"
-      },
-      "con_fisico": false,
-      "id": "48c5fa4b24",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Raging Loop",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 5.43,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Raging Loop</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.43</b> ≈ $5.395 en 🇨🇱 Chile\n   Precio en la tienda: $5.398 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$21.73 → ahorras US$16.30 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/raging-loop-switch/\">US$5.43</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/raging-loop-switch/\">US$6.58</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/raging-loop-switch/\">US$6.59</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/raging-loop-switch/\">US$7.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/raging-loop-switch/\">US$7.77</a>\n   El más caro: 🇨🇴 US$8.16\n📈 Mínimo US$5.43 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/raging-loop-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:bcf87f9de8",
-        "text": "⚙️ Root Letter: Last Answer · US$5.43"
-      },
-      "con_fisico": false,
-      "id": "bcf87f9de8",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Root Letter: Last Answer",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 5.43,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Root Letter: Last Answer</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.43</b> ≈ $5.395 en 🇨🇱 Chile\n   Precio en la tienda: $5.398 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$21.73 → ahorras US$16.30 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/root-letter-last-answer-switch/\">US$5.43</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/root-letter-last-answer-switch/\">US$6.58</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/root-letter-last-answer-switch/\">US$6.59</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/root-letter-last-answer-switch/\">US$7.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/root-letter-last-answer-switch/\">US$7.77</a>\n   El más caro: 🇨🇴 US$8.16\n📈 Mínimo US$5.43 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/root-letter-last-answer-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:8e98deb95c",
-        "text": "⚙️ SWORD ART ONLINE: FATAL BULLE… · US$7.30"
-      },
-      "con_fisico": true,
-      "id": "8e98deb95c",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "SWORD ART ONLINE: FATAL BULLET Complete Edition",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 7.3,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>SWORD ART ONLINE: FATAL BULLET Complete Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$7.30</b> ≈ $7.252 en 🇨🇱 Chile\n   Precio en la tienda: $7.249 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$29.19 → ahorras US$21.89 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">US$7.30</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">US$7.86</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">US$9.14</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">US$9.34</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">US$9.60</a>\n   El más caro: 🇺🇸 US$9.99\n📦 Físico: $39.711 en Sniper → el digital te ahorra $32.459\n📈 Mínimo US$7.30 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sword-art-online-fatal-bullet-complete-edition-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:64e7303242",
-        "text": "⚙️ Slay the Spire · US$4.28"
-      },
-      "con_fisico": false,
-      "id": "64e7303242",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Slay the Spire",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 4.28,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Slay the Spire</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.28</b> ≈ $4.252 en 🇨🇱 Chile\n   Precio en la tienda: $4.249 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$17.11 → ahorras US$12.83 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/slay-the-spire-switch/\">US$4.28</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/slay-the-spire-switch/\">US$4.47</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/slay-the-spire-switch/\">US$5.74</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/slay-the-spire-switch/\">US$5.84</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/slay-the-spire-switch/\">US$6.03</a>\n   El más caro: 🇲🇽 US$6.31\n📈 Mínimo US$4.28 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/slay-the-spire-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:dad171510c",
-        "text": "⚙️ SteamWorld Heist: Ultimate Ed… · US$3.40"
-      },
-      "con_fisico": false,
-      "id": "dad171510c",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "SteamWorld Heist: Ultimate Edition",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 3.4,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>SteamWorld Heist: Ultimate Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.40</b> ≈ $3.378 en 🇨🇱 Chile\n   Precio en la tienda: $3.374 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$13.59 → ahorras US$10.19 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/steamworld-heist-ultimate-edition-switch/\">US$3.40</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/steamworld-heist-ultimate-edition-switch/\">US$4.27</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/steamworld-heist-ultimate-edition-switch/\">US$4.30</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/steamworld-heist-ultimate-edition-switch/\">US$4.45</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/steamworld-heist-ultimate-edition-switch/\">US$4.74</a>\n   El más caro: 🇺🇸 US$4.99\n📈 Mínimo US$3.40 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/steamworld-heist-ultimate-edition-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:e080e38428",
-        "text": "⚙️ Valiant Hearts: The Great War · US$3.23"
-      },
-      "con_fisico": false,
-      "id": "e080e38428",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Valiant Hearts: The Great War",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 3.23,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>Valiant Hearts: The Great War</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$3.23</b> ≈ $3.209 en 🇧🇷 Brasil\n   Precio en la tienda: R$18,74 BRL\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$12.91 → ahorras US$9.68 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/valiant-hearts-the-great-war-switch/\">US$3.23</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/valiant-hearts-the-great-war-switch/\">US$3.23</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/valiant-hearts-the-great-war-switch/\">US$3.48</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/valiant-hearts-the-great-war-switch/\">US$3.74</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/valiant-hearts-the-great-war-switch/\">US$3.99</a>\n   El más caro: 🇨🇴 US$4.53\n📈 Mínimo US$3.23 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/valiant-hearts-the-great-war-switch/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:06da444bfe",
-        "text": "⚙️ WARBORN · US$4.53"
-      },
-      "con_fisico": false,
-      "id": "06da444bfe",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "WARBORN",
-      "orden": 1,
-      "pct": 75.0,
-      "precio_usd": 4.53,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>WARBORN</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.53</b> ≈ $4.500 en 🇨🇱 Chile\n   Precio en la tienda: $4.498 CLP\n💡 Oferta de −75% en la eShop\n🏷️ Normal US$18.11 → ahorras US$13.58 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/warborn-switch/\">US$4.53</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/warborn-switch/\">US$5.48</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/warborn-switch/\">US$5.50</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/warborn-switch/\">US$6.24</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/warborn-switch/\">US$6.47</a>\n   El más caro: 🇨🇴 US$6.80\n📈 Mínimo US$4.53 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/warborn-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:b654a06fd0",
         "text": "⚙️ Dropsy · US$1.95"
       },
@@ -2034,22 +2034,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:1d3cae6725",
-        "text": "⚙️ Cook, Serve, Delicious! · US$2.00"
-      },
-      "con_fisico": false,
-      "id": "1d3cae6725",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Cook, Serve, Delicious!",
-      "orden": 1,
-      "pct": 71.2,
-      "precio_usd": 2.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −71%\n<b>Cook, Serve, Delicious!</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.00</b> ≈ $1.987 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −71% en la eShop\n🏷️ Normal US$6.95 → ahorras US$4.95 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cook-serve-delicious-switch/\">US$2.00</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cook-serve-delicious-switch/\">US$2.06</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cook-serve-delicious-switch/\">US$2.19</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cook-serve-delicious-switch/\">US$2.28</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/cook-serve-delicious-switch/\">US$2.59</a>\n   El más caro: 🇲🇽 US$2.69\n📈 Mínimo US$2.00 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/cook-serve-delicious-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:2df8706f27",
         "text": "⚙️ Cook, Serve, Delicious! 2!! · US$2.00"
       },
@@ -2062,6 +2046,22 @@
       "pct": 71.2,
       "precio_usd": 2.0,
       "texto": "🟢 <b>COMPRA YA</b> · −71%\n<b>Cook, Serve, Delicious! 2!!</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.00</b> ≈ $1.987 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −71% en la eShop\n🏷️ Normal US$6.95 → ahorras US$4.95 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cook-serve-delicious-2-switch/\">US$2.00</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cook-serve-delicious-2-switch/\">US$2.06</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cook-serve-delicious-2-switch/\">US$2.19</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cook-serve-delicious-2-switch/\">US$2.28</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/cook-serve-delicious-2-switch/\">US$2.60</a>\n   El más caro: 🇺🇸 US$2.99\n📈 Mínimo US$2.00 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/cook-serve-delicious-2-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:1d3cae6725",
+        "text": "⚙️ Cook, Serve, Delicious! · US$2.00"
+      },
+      "con_fisico": false,
+      "id": "1d3cae6725",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Cook, Serve, Delicious!",
+      "orden": 1,
+      "pct": 71.2,
+      "precio_usd": 2.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −71%\n<b>Cook, Serve, Delicious!</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$2.00</b> ≈ $1.987 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Oferta de −71% en la eShop\n🏷️ Normal US$6.95 → ahorras US$4.95 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/cook-serve-delicious-switch/\">US$2.00</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/cook-serve-delicious-switch/\">US$2.06</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/cook-serve-delicious-switch/\">US$2.19</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/cook-serve-delicious-switch/\">US$2.28</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/cook-serve-delicious-switch/\">US$2.59</a>\n   El más caro: 🇲🇽 US$2.69\n📈 Mínimo US$2.00 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/cook-serve-delicious-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -2174,6 +2174,22 @@
       "pct": 70.0,
       "precio_usd": 4.53,
       "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>Rune Factory 4 Special</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$4.53</b> ≈ $4.500 en 🇨🇱 Chile\n   Precio en la tienda: $4.499 CLP\n💡 Oferta de −70% en la eShop\n🏷️ Normal US$15.10 → ahorras US$10.57 · ⏳ termina el 21 nov (en 2 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/rune-factory-4-special-switch/\">US$4.53</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/rune-factory-4-special-switch/\">US$6.19</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/rune-factory-4-special-switch/\">US$6.93</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/rune-factory-4-special-switch/\">US$7.19</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/rune-factory-4-special-switch/\">US$7.25</a>\n   El más caro: 🇺🇸 US$8.99\n📦 Físico: $38.990 en Falabella → el digital te ahorra $34.490\n📈 Mínimo US$4.51 (18 nov en 🇨🇱 Chile)\n   ██████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/rune-factory-4-special-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:04199e4105",
+        "text": "⚙️ Super Street: Racer · US$10.47"
+      },
+      "con_fisico": false,
+      "id": "04199e4105",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Super Street: Racer",
+      "orden": 1,
+      "pct": 70.0,
+      "precio_usd": 10.47,
+      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>Super Street: Racer</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$10.47</b> ≈ $10.402 en 🇨🇦 Canadá\n   Precio en la tienda: CA$14,99 CAD\n💡 Oferta de −70% en la eShop\n🏷️ Normal US$34.91 → ahorras US$24.44 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/super-street-racer-switch/\">US$10.47</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/super-street-racer-switch/\">US$10.87</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/super-street-racer-switch/\">US$11.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/super-street-racer-switch/\">US$12.42</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/super-street-racer-switch/\">US$13.16</a>\n   El más caro: 🇨🇴 US$16.32\n📈 Mínimo US$10.47 (19 nov en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/super-street-racer-switch/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
     },
     {
@@ -2514,22 +2530,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:04199e4105",
-        "text": "⚙️ Super Street: Racer · US$10.47"
-      },
-      "con_fisico": false,
-      "id": "04199e4105",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "Super Street: Racer",
-      "orden": 1,
-      "pct": 70.0,
-      "precio_usd": 10.47,
-      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>Super Street: Racer</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$10.47</b> ≈ $10.402 en 🇨🇦 Canadá\n   Precio en la tienda: CA$14,99 CAD\n💡 Oferta de −70% en la eShop\n🏷️ Normal US$34.91 → ahorras US$24.44 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/super-street-racer-switch/\">US$10.47</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/super-street-racer-switch/\">US$10.87</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/super-street-racer-switch/\">US$11.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/super-street-racer-switch/\">US$12.42</a>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/super-street-racer-switch/\">US$13.16</a>\n   El más caro: 🇨🇴 US$16.32\n📈 Mínimo US$10.47 (19 nov en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/super-street-racer-switch/\">Ver en la eShop de Canadá</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:95bc412aef",
         "text": "⚙️ Darkest Dungeon II · US$5.76"
       },
@@ -2658,6 +2658,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:863537984a",
+        "text": "⚙️ River City Girls · US$9.21"
+      },
+      "con_fisico": true,
+      "id": "863537984a",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "River City Girls",
+      "orden": 1,
+      "pct": 65.0,
+      "precio_usd": 9.21,
+      "texto": "🟢 <b>COMPRA YA</b> · −65%\n<b>River City Girls</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$9.21</b> ≈ $9.150 en 🇧🇷 Brasil\n   Precio en la tienda: R$53,53 BRL\n💡 Oferta de −65% en la eShop\n🏷️ Normal US$26.33 → ahorras US$17.12 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/river-city-girls-switch/\">US$9.21</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/river-city-girls-switch/\">US$9.23</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/river-city-girls-switch/\">US$9.86</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/river-city-girls-switch/\">US$10.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/river-city-girls-switch/\">US$10.87</a>\n   El más caro: 🇨🇴 US$13.75\n📦 Físico: $54.990 en 8 Bits → el digital te ahorra $45.840\n📈 Mínimo US$9.21 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/river-city-girls-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:f33a3a3ddc",
         "text": "⚙️ STORY OF SEASONS: Pioneers of… · US$9.16"
       },
@@ -2766,22 +2782,6 @@
       "pct": 65.0,
       "precio_usd": 21.99,
       "texto": "🟢 <b>COMPRA YA</b> · −65%\n<b>DOOM Anthology</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$21.99</b> ≈ $21.846 en 🇧🇷 Brasil\n   Precio en la tienda: R$127,75 BRL\n💡 Oferta de −65% en la eShop\n🏷️ Normal US$62.82 → ahorras US$40.83 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-anthology-switch/\">US$21.99</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/doom-anthology-switch/\">US$22.19</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/doom-anthology-switch/\">US$23.85</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/doom-anthology-switch/\">US$24.43</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/doom-anthology-switch/\">US$27.99</a>\n   El más caro: 🇨🇴 US$31.21\n📈 Mínimo US$21.99 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/doom-anthology-switch/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:863537984a",
-        "text": "⚙️ River City Girls · US$9.21"
-      },
-      "con_fisico": true,
-      "id": "863537984a",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "River City Girls",
-      "orden": 1,
-      "pct": 65.0,
-      "precio_usd": 9.21,
-      "texto": "🟢 <b>COMPRA YA</b> · −65%\n<b>River City Girls</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$9.21</b> ≈ $9.150 en 🇧🇷 Brasil\n   Precio en la tienda: R$53,53 BRL\n💡 Oferta de −65% en la eShop\n🏷️ Normal US$26.33 → ahorras US$17.12 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/river-city-girls-switch/\">US$9.21</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/river-city-girls-switch/\">US$9.23</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/river-city-girls-switch/\">US$9.86</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/river-city-girls-switch/\">US$10.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/river-city-girls-switch/\">US$10.87</a>\n   El más caro: 🇨🇴 US$13.75\n📦 Físico: $54.990 en 8 Bits → el digital te ahorra $45.840\n📈 Mínimo US$9.21 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/river-city-girls-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -3393,6 +3393,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:1b2be4f56a",
+        "text": "⚙️ DARK SOULS: REMASTERED · US$18.92"
+      },
+      "con_fisico": true,
+      "id": "1b2be4f56a",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "DARK SOULS: REMASTERED",
+      "orden": 1,
+      "pct": 50.0,
+      "precio_usd": 18.92,
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>DARK SOULS: REMASTERED</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$18.92</b> ≈ $18.796 en 🇧🇷 Brasil\n   Precio en la tienda: R$109,95 BRL\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$37.85 → ahorras US$18.93 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/dark-souls-remastered-switch/\">US$18.92</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/dark-souls-remastered-switch/\">US$19.19</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/dark-souls-remastered-switch/\">US$19.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/dark-souls-remastered-switch/\">US$21.13</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/dark-souls-remastered-switch/\">US$21.87</a>\n   El más caro: 🇨🇴 US$24.17\n📦 Físico: $59.990 en Paris → el digital te ahorra $41.194\n📈 Mínimo US$18.92 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/dark-souls-remastered-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:589de24d4b",
         "text": "⚙️ Shantae and the Pirate's Curse · US$8.55"
       },
@@ -3489,6 +3505,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:b1b7273e83",
+        "text": "⚙️ SWORD ART ONLINE: Hollow Real… · US$14.59"
+      },
+      "con_fisico": false,
+      "id": "b1b7273e83",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "SWORD ART ONLINE: Hollow Realization Deluxe Edition",
+      "orden": 1,
+      "pct": 50.0,
+      "precio_usd": 14.59,
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>SWORD ART ONLINE: Hollow Realization Deluxe Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$14.59</b> ≈ $14.495 en 🇨🇱 Chile\n   Precio en la tienda: $14.499 CLP\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$29.19 → ahorras US$14.60 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">US$14.59</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">US$15.72</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">US$18.27</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">US$18.67</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">US$19.20</a>\n   El más caro: 🇺🇸 US$19.99\n📈 Mínimo US$14.59 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:47841d9530",
         "text": "⚙️ Devil May Cry · US$7.10"
       },
@@ -3580,7 +3612,7 @@
       "orden": 1,
       "pct": 50.0,
       "precio_usd": 25.81,
-      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Persona 5 Strikers</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$25.81</b> ≈ $25.641 en 🇧🇷 Brasil\n   Precio en la tienda: R$149,95 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$51.62 → ahorras US$25.81 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/persona-5-strikers-switch/\">US$25.81</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/persona-5-strikers-switch/\">US$26.94</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/persona-5-strikers-switch/\">US$27.92</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/persona-5-strikers-switch/\">US$29.64</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/persona-5-strikers-switch/\">US$29.99</a>\n   El más caro: 🇨🇴 US$35.52\n📦 Físico: $34.990 en Falabella → el digital te ahorra $9.349\n📈 Mínimo US$25.81 (19 nov en 🇧🇷 Brasil)\n   ███████████████████████████▇▇▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/persona-5-strikers-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Persona 5 Strikers</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$25.81</b> ≈ $25.641 en 🇧🇷 Brasil\n   Precio en la tienda: R$149,95 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$51.62 → ahorras US$25.81 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/persona-5-strikers-switch/\">US$25.81</a> ← el más barato\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/persona-5-strikers-switch/\">US$26.94</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/persona-5-strikers-switch/\">US$27.92</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/persona-5-strikers-switch/\">US$29.64</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/persona-5-strikers-switch/\">US$29.99</a>\n   El más caro: 🇨🇴 US$35.52\n📦 Físico: $32.990 en Paris → el digital te ahorra $7.349\n📈 Mínimo US$25.81 (19 nov en 🇧🇷 Brasil)\n   ███████████████████████████▇▇▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/persona-5-strikers-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -3644,7 +3676,7 @@
       "orden": 1,
       "pct": 50.0,
       "precio_usd": 19.79,
-      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Fae Farm</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$19.79</b> ≈ $19.661 en 🇧🇷 Brasil\n   Precio en la tienda: R$114,99 BRL\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$39.59 → ahorras US$19.80 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/fae-farm-switch/\">US$19.79</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/fae-farm-switch/\">US$20.94</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/fae-farm-switch/\">US$22.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/fae-farm-switch/\">US$24.00</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/fae-farm-switch/\">US$24.24</a>\n   El más caro: 🇨🇴 US$33.10\n📦 Físico: $48.990 en Bestmart → el digital te ahorra $29.329\n📈 Mínimo US$19.79 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/fae-farm-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Fae Farm</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$19.79</b> ≈ $19.661 en 🇧🇷 Brasil\n   Precio en la tienda: R$114,99 BRL\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$39.59 → ahorras US$19.80 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/fae-farm-switch/\">US$19.79</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/fae-farm-switch/\">US$20.94</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/fae-farm-switch/\">US$22.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/fae-farm-switch/\">US$24.00</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/fae-farm-switch/\">US$24.24</a>\n   El más caro: 🇨🇴 US$33.10\n📦 Físico: $47.990 en Paris → el digital te ahorra $28.329\n📈 Mínimo US$19.79 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/fae-farm-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -4177,38 +4209,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:1b2be4f56a",
-        "text": "⚙️ DARK SOULS: REMASTERED · US$18.92"
-      },
-      "con_fisico": true,
-      "id": "1b2be4f56a",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "DARK SOULS: REMASTERED",
-      "orden": 1,
-      "pct": 50.0,
-      "precio_usd": 18.92,
-      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>DARK SOULS: REMASTERED</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$18.92</b> ≈ $18.796 en 🇧🇷 Brasil\n   Precio en la tienda: R$109,95 BRL\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$37.85 → ahorras US$18.93 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/dark-souls-remastered-switch/\">US$18.92</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/dark-souls-remastered-switch/\">US$19.19</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/dark-souls-remastered-switch/\">US$19.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/dark-souls-remastered-switch/\">US$21.13</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/dark-souls-remastered-switch/\">US$21.87</a>\n   El más caro: 🇨🇴 US$24.17\n📦 Físico: $59.990 en Sniper → el digital te ahorra $41.194\n📈 Mínimo US$18.92 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/dark-souls-remastered-switch/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:b1b7273e83",
-        "text": "⚙️ SWORD ART ONLINE: Hollow Real… · US$14.59"
-      },
-      "con_fisico": false,
-      "id": "b1b7273e83",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "SWORD ART ONLINE: Hollow Realization Deluxe Edition",
-      "orden": 1,
-      "pct": 50.0,
-      "precio_usd": 14.59,
-      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>SWORD ART ONLINE: Hollow Realization Deluxe Edition</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$14.59</b> ≈ $14.495 en 🇨🇱 Chile\n   Precio en la tienda: $14.499 CLP\n💡 Oferta de −50% en la eShop\n🏷️ Normal US$29.19 → ahorras US$14.60 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">US$14.59</a> ← el más barato\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">US$15.72</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">US$18.27</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">US$18.67</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">US$19.20</a>\n   El más caro: 🇺🇸 US$19.99\n📈 Mínimo US$14.59 (19 nov en 🇨🇱 Chile)\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/sword-art-online-hollow-realization-deluxe-edition-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:5811645384",
         "text": "⚙️ Trials of Mana · $39.990"
       },
@@ -4381,6 +4381,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:d6d6f74a45",
+        "text": "⚙️ SNK HEROINES Tag Team Frenzy · US$29.32"
+      },
+      "con_fisico": false,
+      "id": "d6d6f74a45",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "SNK HEROINES Tag Team Frenzy",
+      "orden": 1,
+      "pct": 40.0,
+      "precio_usd": 29.32,
+      "texto": "🟢 <b>COMPRA YA</b> · −40%\n<b>SNK HEROINES Tag Team Frenzy</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$29.32</b> ≈ $29.128 en 🇨🇦 Canadá\n   Precio en la tienda: CA$41,99 CAD\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$48.87 → ahorras US$19.55 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/snk-heroines-tag-team-frenzy-switch/\">US$29.32</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/snk-heroines-tag-team-frenzy-switch/\">US$29.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/snk-heroines-tag-team-frenzy-switch/\">US$31.40</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/snk-heroines-tag-team-frenzy-switch/\">US$32.97</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/snk-heroines-tag-team-frenzy-switch/\">US$34.92</a>\n   El más caro: 🇧🇷 US$42.86\n📈 Mínimo US$29.32 (19 nov en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/snk-heroines-tag-team-frenzy-switch/\">Ver en la eShop de Canadá</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:674846031a",
         "text": "⚙️ The Legend of Legacy HD Remas… · US$25.13"
       },
@@ -4441,22 +4457,6 @@
       "pct": 40.0,
       "precio_usd": 46.46,
       "texto": "🟢 <b>COMPRA YA</b> · −40%\n<b>The Elder Scrolls V: Skyrim Anniversary Edition + Fallout 4: Anniversary Edition Bundle</b>\n🕹️ Switch 2 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$46.46</b> ≈ $46.157 en 🇧🇷 Brasil\n   Precio en la tienda: R$269,94 BRL\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$77.44 → ahorras US$30.98 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/the-elder-scrolls-v-skyrim-anniversary-edition-plus-fallout-4-anniversary-edition-bundle-switch-2/\">US$46.46</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/the-elder-scrolls-v-skyrim-anniversary-edition-plus-fallout-4-anniversary-edition-bundle-switch-2/\">US$46.75</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/the-elder-scrolls-v-skyrim-anniversary-edition-plus-fallout-4-anniversary-edition-bundle-switch-2/\">US$50.27</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/the-elder-scrolls-v-skyrim-anniversary-edition-plus-fallout-4-anniversary-edition-bundle-switch-2/\">US$53.99</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/the-elder-scrolls-v-skyrim-anniversary-edition-plus-fallout-4-anniversary-edition-bundle-switch-2/\">US$55.10</a>\n   El más caro: 🇨🇴 US$65.28\n📈 Mínimo US$46.46 (19 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/the-elder-scrolls-v-skyrim-anniversary-edition-plus-fallout-4-anniversary-edition-bundle-switch-2/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:d6d6f74a45",
-        "text": "⚙️ SNK HEROINES Tag Team Frenzy · US$29.32"
-      },
-      "con_fisico": false,
-      "id": "d6d6f74a45",
-      "juego": "🔍 Otros juegos",
-      "nivel": "compra",
-      "nombre": "SNK HEROINES Tag Team Frenzy",
-      "orden": 1,
-      "pct": 40.0,
-      "precio_usd": 29.32,
-      "texto": "🟢 <b>COMPRA YA</b> · −40%\n<b>SNK HEROINES Tag Team Frenzy</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$29.32</b> ≈ $29.128 en 🇨🇦 Canadá\n   Precio en la tienda: CA$41,99 CAD\n💡 Oferta de −40% en la eShop\n🏷️ Normal US$48.87 → ahorras US$19.55 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/snk-heroines-tag-team-frenzy-switch/\">US$29.32</a> ← el más barato\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/snk-heroines-tag-team-frenzy-switch/\">US$29.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/snk-heroines-tag-team-frenzy-switch/\">US$31.40</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/snk-heroines-tag-team-frenzy-switch/\">US$32.97</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/snk-heroines-tag-team-frenzy-switch/\">US$34.92</a>\n   El más caro: 🇧🇷 US$42.86\n📈 Mínimo US$29.32 (19 nov en 🇨🇦 Canadá)\n🛒 <a href=\"https://www.nintendo.com/en-ca/store/products/snk-heroines-tag-team-frenzy-switch/\">Ver en la eShop de Canadá</a>",
       "tipo": "digital"
     },
     {
@@ -4800,7 +4800,7 @@
       "orden": 1,
       "pct": 22.6,
       "precio": 44900.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −23%\n<b>It Takes Two</b>\n🕹️ Switch 2 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$44.900</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $13.100 frente a su precio típico ($58.000)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/It-Takes-Two--Europeo-/?ref=buscador\">$44.900 TodoJuegos</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/158507446/it-takes-two-nintendo-switch\">$58.000 Falabella</a> 🏪 Tienda Retrogamers (+$13.100)\n📈 Mínimo $44.900 (13 nov, TodoJuegos) · típico $58.000 · máximo $189.990\n   █████████████████████▄▄▁▁▁▁▁▁▁  últimos 30 días\n🎮 Digital: US$24.08 ≈ $23.923 en 🇨🇱 Chile (−25%)\n   ➜ El digital es $20.977 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $58.000: hoy está 23% más barato de verdad\n📉 Precio bajó 23% en las últimas 2 semanas\n🔎 Confianza media: 2 tiendas y 36 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/It-Takes-Two--Europeo-/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −23%\n<b>It Takes Two</b>\n🕹️ Switch 2 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$44.900</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $13.100 frente a su precio típico ($58.000)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/It-Takes-Two--Europeo-/?ref=buscador\">$44.900 TodoJuegos</a>\n   🥈 <a href=\"https://www.paris.cl/it-takes-two-euro-nintendo-switch-MKYJ8LWMJE.html\">$49.990 Paris</a> 🏪 RIVERTEC (+$5.090)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/158507446/it-takes-two-nintendo-switch\">$58.000 Falabella</a> 🏪 Tienda Retrogamers (+$13.100)\n📈 Mínimo $44.900 (13 nov, TodoJuegos) · típico $58.000 · máximo $189.990\n   █████████████████████▄▄▁▁▁▁▁▁▁  últimos 30 días\n🎮 Digital: US$24.08 ≈ $23.923 en 🇨🇱 Chile (−25%)\n   ➜ El digital es $20.977 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $58.000: hoy está 23% más barato de verdad\n📉 Precio bajó 23% en las últimas 2 semanas\n🔎 Confianza alta: 3 tiendas y 36 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/It-Takes-Two--Europeo-/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
     },
     {
@@ -5610,7 +5610,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 79990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Castlevania Dominus Collection</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$79.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $89.990» (−11%)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/145199290/Castlevania-Dominus-Collection-Order-Eclesia-Nintendo-Switch\">$79.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/castlevania-dominus-collection-order-eclesia-nintendo-switch-MK9CB0GO39.html\">$79.990 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://8-bits.cl/products/castlevania-dominus-collection-order-of-ecclesia-cover-nsw-lrg\">$79.990 8 Bits</a> (+$0)\n   ▫️ <a href=\"https://sniper.cl/products/castlevania-dominus-collection-portrait-ruin-nintendo-switch\">$79.990 Sniper</a> (+$0)\n📈 Mínimo $79.990 (14 oct, Falabella) · típico $79.990 · máximo $79.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$10.85 ≈ $10.779 en 🇵🇪 Perú (−30%)\n   ➜ El digital es $69.211 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($79.990): el descuento no es real\n🔎 Confianza alta: 4 tiendas y 37 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/145199290/Castlevania-Dominus-Collection-Order-Eclesia-Nintendo-Switch\">Ir a comprar en Falabella</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Castlevania Dominus Collection</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$79.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $89.990» (−11%)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/145199388/Castlevania-Dominus-Collection-Portrait-Ruin-Nintendo-Switch\">$79.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/castlevania-dominus-collection-order-eclesia-nintendo-switch-MK9CB0GO39.html\">$79.990 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://8-bits.cl/products/castlevania-dominus-collection-order-of-ecclesia-cover-nsw-lrg\">$79.990 8 Bits</a> (+$0)\n   ▫️ <a href=\"https://sniper.cl/products/castlevania-dominus-collection-portrait-ruin-nintendo-switch\">$79.990 Sniper</a> (+$0)\n📈 Mínimo $79.990 (14 oct, Falabella) · típico $79.990 · máximo $79.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$10.85 ≈ $10.779 en 🇵🇪 Perú (−30%)\n   ➜ El digital es $69.211 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($79.990): el descuento no es real\n🔎 Confianza alta: 4 tiendas y 37 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/145199388/Castlevania-Dominus-Collection-Portrait-Ruin-Nintendo-Switch\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -5715,7 +5715,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 37720.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>CONTRA: ROGUE CORPS</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$37.720</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda dice «antes $47.720», pero las demás lo venden cerca de $37.720: ese descuento está inflado\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148486358/Contra-Rogue-Corps-Juego-Fisico-Nintendo-Switch-Sniper\">$37.720 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://sniper.cl/products/contra-rogue-corps-juego-fisico-nintendo-switch-sniper\">$37.720 Sniper</a> (+$0)\n📈 Mínimo $37.720 (14 oct, Falabella) · típico $37.720 · máximo $37.720\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$28.17 ≈ $27.986 en 🇨🇱 Chile\n   ➜ El digital es $9.734 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($37.720): el descuento no es real\n🔎 Confianza media: 2 tiendas y 37 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148486358/Contra-Rogue-Corps-Juego-Fisico-Nintendo-Switch-Sniper\">Ir a comprar en Falabella</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>CONTRA: ROGUE CORPS</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$37.720</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda dice «antes $47.720», pero las demás lo venden cerca de $37.720: ese descuento está inflado\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148486358/Contra-Rogue-Corps-Juego-Fisico-Nintendo-Switch-Sniper\">$37.720 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/contra-rogue-corps-juego-fisico-nintendo-switch-sniper-MKLK5I0511.html\">$37.720 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://sniper.cl/products/contra-rogue-corps-juego-fisico-nintendo-switch-sniper\">$37.720 Sniper</a> (+$0)\n📈 Mínimo $37.720 (14 oct, Falabella) · típico $37.720 · máximo $37.720\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$28.17 ≈ $27.986 en 🇨🇱 Chile\n   ➜ El digital es $9.734 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($37.720): el descuento no es real\n🔎 Confianza alta: 3 tiendas y 37 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148486358/Contra-Rogue-Corps-Juego-Fisico-Nintendo-Switch-Sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -5760,7 +5760,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 34990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>CRISIS CORE –FINAL FANTASY VII– REUNION</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $49.990» (−30%)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/crisis-core-final-fantasy-vii-reunion-switch-fisico-sniper-1\">$34.990 Sniper</a>\n   🥈 <a href=\"https://www.paris.cl/crisis-core-final-fantasy-vii-reunion-nintendo-switch-MKZJQEYTB0.html\">$49.990 Paris</a> 🏪 Tienda RetroGamers (+$15.000)\n   🥉 <a href=\"https://8-bits.cl/products/crisis-core-final-fantasy-vii-reunion-nsw\">$49.990 8 Bits</a> (+$15.000)\n   ▫️ <a href=\"https://megagames.cl/producto/switch/juegos-nsw/crisis-core-final-fantasy-vii-reunion-nsw/\">$49.990 MegaGames</a> (+$15.000)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/116617052/Crisis-Core-Final-Fantasy-VII-Reunion-Switch-Fisico-Sniper\">$54.990 Falabella</a> 🏪 Sniper (+$20.000)\n📈 Mínimo $34.990 (19 oct, Sniper) · típico $34.990 · máximo $39.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$42.94 ≈ $42.660 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $7.670 y además se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($34.990): el descuento no es real\n💼 <b>Margen</b>: las otras tiendas lo venden a $49.990 → ~$15.000 (30%) de diferencia\n🛒 <a href=\"https://listado.mercadolibre.cl/crisis-core-final-fantasy-vii-reunion-nintendo-switch\">MercadoLibre</a>: nuevo ~$54.490 (12 avisos)\n💰 <b>Reventa</b>: lo compras a $34.990 y nuevo se vende a ~$54.490 (+$19.500 antes de comisiones)\n🔎 Confianza alta: 5 tiendas y 37 días de historial\n🛒 <a href=\"https://sniper.cl/products/crisis-core-final-fantasy-vii-reunion-switch-fisico-sniper-1\">Ir a comprar en Sniper</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>CRISIS CORE –FINAL FANTASY VII– REUNION</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $49.990» (−30%)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/crisis-core-final-fantasy-vii-reunion-switch-fisico-sniper-1\">$34.990 Sniper</a>\n   🥈 <a href=\"https://www.paris.cl/crisis-core-final-fantasy-vii-reunion-nintendo-switch-MKZJQEYTB0.html\">$49.990 Paris</a> 🏪 Tienda RetroGamers (+$15.000)\n   🥉 <a href=\"https://8-bits.cl/products/crisis-core-final-fantasy-vii-reunion-nsw\">$49.990 8 Bits</a> (+$15.000)\n   ▫️ <a href=\"https://megagames.cl/producto/switch/juegos-nsw/crisis-core-final-fantasy-vii-reunion-nsw/\">$49.990 MegaGames</a> (+$15.000)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/126106627/Crisis-Core-Final-Fantasy-VII-Reunion-Euro-Nintendo-Switch\">$64.990 Falabella</a> 🏪 Mundojuegos (+$30.000)\n📈 Mínimo $34.990 (19 oct, Sniper) · típico $34.990 · máximo $39.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$42.94 ≈ $42.660 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $7.670 y además se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($34.990): el descuento no es real\n💼 <b>Margen</b>: las otras tiendas lo venden a $49.990 → ~$15.000 (30%) de diferencia\n🛒 <a href=\"https://listado.mercadolibre.cl/crisis-core-final-fantasy-vii-reunion-nintendo-switch\">MercadoLibre</a>: nuevo ~$54.490 (12 avisos)\n💰 <b>Reventa</b>: lo compras a $34.990 y nuevo se vende a ~$54.490 (+$19.500 antes de comisiones)\n🔎 Confianza alta: 5 tiendas y 37 días de historial\n🛒 <a href=\"https://sniper.cl/products/crisis-core-final-fantasy-vii-reunion-switch-fisico-sniper-1\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     },
     {
@@ -5836,21 +5836,6 @@
       "pct": 0,
       "precio": 32900.0,
       "texto": "🟢 <b>COMPRA YA</b>\n<b>Dead Cells</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$32.900</b> en Paris 🏪 <i>vende TODOCOLECCION</i>\n💡 Es el precio más bajo que he visto\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.paris.cl/videojuego-dead-cells-nintendo-switch-MKD2X4IFF2.html\">$32.900 Paris</a> 🏪 TODOCOLECCION\n   🥈 <a href=\"https://sniper.cl/products/dead-cells-return-to-castlevania-switch-fisico-sniper\">$34.990 Sniper</a> (+$2.090)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/150809185/dead-cells-action-game-of-the-year-juego-fisico-switch\">$39.720 Falabella</a> 🏪 Sniper (+$6.820)\n📈 Mínimo $32.900 (19 oct, Paris) · típico $32.900 · máximo $39.720\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$17.20 ≈ $17.088 en 🇧🇷 Brasil\n   ➜ El digital es $15.812 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($32.900): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/dead-cells-nintendo-switch\">MercadoLibre</a>: nuevo ~$44.990 (11 avisos)\n💰 <b>Reventa</b>: lo compras a $32.900 y nuevo se vende a ~$44.990 (+$12.090 antes de comisiones)\n🔎 Confianza alta: 3 tiendas y 37 días de historial\n🛒 <a href=\"https://www.paris.cl/videojuego-dead-cells-nintendo-switch-MKD2X4IFF2.html\">Ir a comprar en Paris</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:00fbce53ad",
-        "text": "⚙️ Diablo III: Eternal Collection · $49.990"
-      },
-      "id": "00fbce53ad",
-      "juego": "Diablo",
-      "nivel": "compra",
-      "nombre": "Diablo III: Eternal Collection",
-      "orden": 1,
-      "pct": 0,
-      "precio": 49990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Diablo III: Eternal Collection</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (19 oct, Falabella) · típico $49.990 · máximo $49.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$34.25 ≈ $34.026 en 🇧🇷 Brasil\n   ➜ El digital es $15.964 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($49.990): el descuento no es real\n📦 <b>Se está agotando</b>: estaba en 3 tiendas, hoy en 1\n🛒 <a href=\"https://listado.mercadolibre.cl/diablo-iii-eternal-collection-nintendo-switch\">MercadoLibre</a>: nuevo ~$35.094 (5 avisos)\n🔎 Confianza media: 1 tienda y 32 días de historial\n🛒 <a href=\"https://sniper.cl/products/diablo-iii-eternal-collection-juego-fisico-switch\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     },
     {
@@ -6255,7 +6240,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 59990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Emio - The Smiling Man Sniper</b>\n🕹️ Switch 1 · 📦 Físico · Emio / Famicom Detective\n💰 <b>$59.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $69.990» (−14%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/emio-the-smiling-man-nintendo-switch-sniper\">$59.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/143194662/Emio-The-Smiling-Man-Nintendo-Switch-Sniper\">$69.990 Falabella</a> 🏪 Sniper (+$10.000)\n   🥉 <a href=\"https://www.paris.cl/emio-the-smiling-man-nintendo-switch-sniper-MKMH1MQWV5.html\">$69.990 Paris</a> 🏪 SNIPERCL (+$10.000)\n📈 Mínimo $59.990 (19 oct, Sniper) · típico $59.990 · máximo $69.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n📅 Mismo precio que antes de Black Friday eShop ($59.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/emio-the-smiling-man-sniper-nintendo-switch\">MercadoLibre</a>: nuevo ~$64.990 (2 avisos)\n🔎 Confianza alta: 3 tiendas y 37 días de historial\n🛒 <a href=\"https://sniper.cl/products/emio-the-smiling-man-nintendo-switch-sniper\">Ir a comprar en Sniper</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Emio - The Smiling Man Sniper</b>\n🕹️ Switch 1 · 📦 Físico · Emio / Famicom Detective\n💰 <b>$59.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $69.990» (−14%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/emio-the-smiling-man-nintendo-switch-sniper\">$59.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/150544718/emio-the-smiling-man-nintendo-switch-sniper\">$69.990 Falabella</a> 🏪 Sniper (+$10.000)\n   🥉 <a href=\"https://www.paris.cl/emio-the-smiling-man-nintendo-switch-sniper-MKMH1MQWV5.html\">$69.990 Paris</a> 🏪 SNIPERCL (+$10.000)\n📈 Mínimo $59.990 (19 oct, Sniper) · típico $59.990 · máximo $69.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n📅 Mismo precio que antes de Black Friday eShop ($59.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/emio-the-smiling-man-sniper-nintendo-switch\">MercadoLibre</a>: nuevo ~$64.990 (2 avisos)\n🔎 Confianza alta: 3 tiendas y 37 días de historial\n🛒 <a href=\"https://sniper.cl/products/emio-the-smiling-man-nintendo-switch-sniper\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     },
     {
@@ -6330,7 +6315,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 49990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>FINAL FANTASY VII</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $59.990» (−17%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/151487096/final-fantasy-twin-pack-ff-vii-y-viii-switch-sniper\">$49.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://sniper.cl/products/final-fantasy-twin-pack-ff-vii-y-viii-switch-sniper\">$49.990 Sniper</a> (+$0)\n📈 Mínimo $49.990 (14 oct, Falabella) · típico $49.990 · máximo $49.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$11.45 ≈ $11.375 en 🇧🇷 Brasil\n   ➜ El digital es $38.615 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($49.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/final-fantasy-vii-nintendo-switch\">MercadoLibre</a>: nuevo ~$54.990 (4 avisos)\n🔎 Confianza media: 2 tiendas y 37 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/151487096/final-fantasy-twin-pack-ff-vii-y-viii-switch-sniper\">Ir a comprar en Falabella</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>FINAL FANTASY VII</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (14 oct, Falabella) · típico $49.990 · máximo $49.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$11.45 ≈ $11.375 en 🇧🇷 Brasil\n   ➜ El digital es $38.615 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($49.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/final-fantasy-vii-nintendo-switch\">MercadoLibre</a>: nuevo ~$54.990 (4 avisos)\n🔎 Confianza media: 1 tienda y 37 días de historial\n🛒 <a href=\"https://sniper.cl/products/final-fantasy-twin-pack-ff-vii-y-viii-switch-sniper\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     },
     {
@@ -6420,7 +6405,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 44990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Hades II</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$44.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $64.990» (−31%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/149516271/hades-ii-switch-2\">$44.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://bestmart.cl/products/juego-kirby-hades-ii-nintendo-switch-2\">$54.990 Bestmart</a> (+$10.000)\n   🥉 <a href=\"https://8-bits.cl/products/hades-ii-nintendo-switch-2\">$54.990 8 Bits</a> (+$10.000)\n📈 Mínimo $44.990 (14 oct, Falabella) · típico $44.990 · máximo $44.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$18.92 ≈ $18.796 en 🇧🇷 Brasil\n   ➜ El digital es $26.194 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($44.990): el descuento no es real\n💼 <b>Margen</b>: la otra tienda lo vende a $54.990 → ~$10.000 (18%) de diferencia\n🔎 Confianza alta: 3 tiendas y 37 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/149516271/hades-ii-switch-2\">Ir a comprar en Falabella</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Hades II</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$44.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $64.990» (−31%)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/149516271/hades-ii-switch-2\">$44.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://bestmart.cl/products/juego-kirby-hades-ii-nintendo-switch-2\">$54.990 Bestmart</a> (+$10.000)\n   🥉 <a href=\"https://www.paris.cl/juego-hades-ii-nintendo-switch-2-MKYFABLPV2.html\">$54.990 Paris</a> 🏪 Bestmart Ltda. (+$10.000)\n   ▫️ <a href=\"https://8-bits.cl/products/hades-ii-nintendo-switch-2\">$54.990 8 Bits</a> (+$10.000)\n📈 Mínimo $44.990 (14 oct, Falabella) · típico $44.990 · máximo $44.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$18.92 ≈ $18.796 en 🇧🇷 Brasil\n   ➜ El digital es $26.194 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($44.990): el descuento no es real\n💼 <b>Margen</b>: la otra tienda lo vende a $54.990 → ~$10.000 (18%) de diferencia\n🔎 Confianza alta: 4 tiendas y 37 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/149516271/hades-ii-switch-2\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -6810,7 +6795,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 52990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Kirby’s Return to Dream Land Deluxe</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$52.990</b> en Bestmart\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $59.990» (−12%)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://bestmart.cl/products/kirby-s-return-to-dream-land-deluxe-nintendo-switch-americano\">$52.990 Bestmart</a>\n   🥈 <a href=\"https://8-bits.cl/products/kirbys-return-to-dream-land-deluxe-nsw\">$54.990 8 Bits</a> (+$2.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/118207762/Kirby-Return-To-Dreamland-Deluxe-Nintendo-Switch-Sniper\">$59.990 Falabella</a> 🏪 Sniper (+$7.000)\n   ▫️ <a href=\"https://www.paris.cl/kirby-s-return-to-dream-land-deluxe-nintendo-switch-MKUGAOAFG1.html\">$64.990 Paris</a> 🏪 Tienda RetroGamers (+$12.000)\n📈 Mínimo $52.990 (15 oct, Bestmart) · típico $52.990 · máximo $59.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$59.99 en 🇺🇸 EE. UU.\n📅 Mismo precio que antes de Black Friday eShop ($52.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/kirbys-return-to-dream-land-deluxe-nintendo-switch\">MercadoLibre</a>: nuevo ~$51.153 (3 avisos)\n🔎 Confianza alta: 4 tiendas y 39 días de historial\n🛒 <a href=\"https://bestmart.cl/products/kirby-s-return-to-dream-land-deluxe-nintendo-switch-americano\">Ir a comprar en Bestmart</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Kirby’s Return to Dream Land Deluxe</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$52.990</b> en Bestmart\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $59.990» (−12%)\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://bestmart.cl/products/kirby-s-return-to-dream-land-deluxe-nintendo-switch-americano\">$52.990 Bestmart</a>\n   🥈 <a href=\"https://www.paris.cl/kirbys-return-to-dream-land-deluxe-nintendo-switch-MKK5AUS7X5.html\">$52.990 Paris</a> 🏪 Bestmart Ltda. (+$0)\n   🥉 <a href=\"https://8-bits.cl/products/kirbys-return-to-dream-land-deluxe-nsw\">$54.990 8 Bits</a> (+$2.000)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/118207762/Kirby-Return-To-Dreamland-Deluxe-Nintendo-Switch-Sniper\">$59.990 Falabella</a> 🏪 Sniper (+$7.000)\n📈 Mínimo $52.990 (15 oct, Bestmart) · típico $52.990 · máximo $59.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$59.99 en 🇺🇸 EE. UU.\n📅 Mismo precio que antes de Black Friday eShop ($52.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/kirbys-return-to-dream-land-deluxe-nintendo-switch\">MercadoLibre</a>: nuevo ~$51.153 (3 avisos)\n🔎 Confianza alta: 4 tiendas y 39 días de historial\n🛒 <a href=\"https://bestmart.cl/products/kirby-s-return-to-dream-land-deluxe-nintendo-switch-americano\">Ir a comprar en Bestmart</a>",
       "tipo": "fisico"
     },
     {
@@ -6915,7 +6900,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 54990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Legend of Mana</b>\n🕹️ Switch 1 · 📦 Físico · Chrono / Mana\n💰 <b>$54.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $64.990» (−15%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/112608526/Legend-of-Mana-Switch-Fisico-Sniper\">$54.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/legend-of-mana-switch-fisico-sniper-MK2O4D7NUK.html\">$54.990 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://sniper.cl/products/legend-of-mana-switch-fisico-sniper\">$54.990 Sniper</a> (+$0)\n📈 Mínimo $54.990 (14 oct, Falabella) · típico $54.990 · máximo $54.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$23.15 ≈ $22.999 en 🇨🇱 Chile\n   ➜ El digital es $31.991 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($54.990): el descuento no es real\n🔎 Confianza alta: 3 tiendas y 37 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/112608526/Legend-of-Mana-Switch-Fisico-Sniper\">Ir a comprar en Falabella</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Legend of Mana</b>\n🕹️ Switch 1 · 📦 Físico · Chrono / Mana\n💰 <b>$54.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $64.990» (−15%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148490742/legend-of-mana-switch-fisico-sniper\">$54.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/legend-of-mana-switch-fisico-sniper-MK2O4D7NUK.html\">$54.990 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://sniper.cl/products/legend-of-mana-switch-fisico-sniper\">$54.990 Sniper</a> (+$0)\n📈 Mínimo $54.990 (14 oct, Falabella) · típico $54.990 · máximo $54.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$23.15 ≈ $22.999 en 🇨🇱 Chile\n   ➜ El digital es $31.991 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($54.990): el descuento no es real\n🔎 Confianza alta: 3 tiendas y 37 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148490742/legend-of-mana-switch-fisico-sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -6931,21 +6916,6 @@
       "pct": 0,
       "precio": 49990.0,
       "texto": "🟢 <b>COMPRA YA</b>\n<b>Nintendo Lego Horizon Aventuras - Sniper_cl</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (19 oct, Sniper) · típico $49.990 · máximo $49.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n📅 Mismo precio que antes de Black Friday eShop ($49.990): el descuento no es real\n🔎 Confianza media: 1 tienda y 32 días de historial\n🛒 <a href=\"https://sniper.cl/products/nintendo-lego-horizon-aventuras-fisico-switch-sniper_cl\">Ir a comprar en Sniper</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:715865961a",
-        "text": "⚙️ LEGO Star Wars: The Skywalker… · $39.990"
-      },
-      "id": "715865961a",
-      "juego": "Star Wars",
-      "nivel": "compra",
-      "nombre": "LEGO Star Wars: The Skywalker Saga",
-      "orden": 1,
-      "pct": 0,
-      "precio": 39990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>LEGO Star Wars: The Skywalker Saga</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.990 (19 oct, Paris) · típico $39.990 · máximo $39.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$39.57 ≈ $39.312 en 🇧🇷 Brasil\n   ➜ El digital es $678 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($39.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/lego-star-wars-the-skywalker-saga-nintendo-switch\">MercadoLibre</a>: nuevo ~$31.587 (13 avisos)\n🔎 Confianza media: 1 tienda y 32 días de historial\n🛒 <a href=\"https://sniper.cl/products/lego-star-wars-the-skywalker-saga-switch-fisico-sniper\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     },
     {
@@ -7505,6 +7475,21 @@
     },
     {
       "boton": {
+        "callback_data": "a:34bbba6d81",
+        "text": "⚙️ Persona 5 Royal · $48.990"
+      },
+      "id": "34bbba6d81",
+      "juego": "Persona",
+      "nivel": "compra",
+      "nombre": "Persona 5 Royal",
+      "orden": 1,
+      "pct": 0,
+      "precio": 48990.0,
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Persona 5 Royal</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$48.990</b> en Paris 🏪 <i>vende CH PLAYS</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $57.990» (−16%)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://www.paris.cl/persona-5-royal-nintendo-switch-fisico-ch-plays-MK4LIFXV3U.html\">$48.990 Paris</a> 🏪 CH PLAYS\n   🥈 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/persona-5-royal-nintendo-switch/\">$49.990 MegaGames</a> (+$1.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/146400715/Persona-5-Royal-Euro-Nintendo-Switch\">$52.990 Falabella</a> 🏪 Rivertec (+$4.000)\n   ▫️ <a href=\"https://8-bits.cl/products/persona-5-royal-one-more-edition-nsw\">$199.900 8 Bits</a> (+$150.910) ⚠️ ¿otra edición?\n   ▫️ <a href=\"https://sniper.cl/products/persona-5-royal-one-more-ed-switch-fisico-sniper\">$199.990 Sniper</a> (+$151.000) ⚠️ ¿otra edición?\n📈 Mínimo $48.990 (19 oct, Paris) · típico $48.990 · máximo $52.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$50.78 ≈ $50.448 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $1.458 y además se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($48.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/persona-5-royal-nintendo-switch\">MercadoLibre</a>: nuevo ~$52.990 (10 avisos)\n🔎 Confianza alta: 5 tiendas y 37 días de historial\n🛒 <a href=\"https://www.paris.cl/persona-5-royal-nintendo-switch-fisico-ch-plays-MK4LIFXV3U.html\">Ir a comprar en Paris</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:5f5b4d1dd8",
         "text": "⚙️ Persona 5 Tactica · $39.990"
       },
@@ -7875,7 +7860,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 44990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Sea of Stars</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$44.990</b> en 8 Bits\n💡 Es el precio más bajo que he visto\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/sea-of-stars-nsw\">$44.990 8 Bits</a>\n   🥈 <a href=\"https://sniper.cl/products/sea-of-stars-nintendo-switch-fisico-sniper\">$54.990 Sniper</a> (+$10.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/148486129/Sea-Of-Stars-Nintendo-Switch-Fisico-Sniper\">$59.990 Falabella</a> 🏪 Sniper (+$15.000)\n📈 Mínimo $44.990 (14 oct, 8 Bits) · típico $44.990 · máximo $44.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$17.21 ≈ $17.098 en 🇧🇷 Brasil\n   ➜ El digital es $27.892 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($44.990): el descuento no es real\n💼 <b>Margen</b>: la otra tienda lo vende a $54.990 → ~$10.000 (18%) de diferencia\n🛒 <a href=\"https://listado.mercadolibre.cl/sea-of-stars-nintendo-switch\">MercadoLibre</a>: nuevo ~$54.990 (7 avisos)\n💰 <b>Reventa</b>: lo compras a $44.990 y nuevo se vende a ~$54.990 (+$10.000 antes de comisiones)\n🔎 Confianza alta: 3 tiendas y 37 días de historial\n🛒 <a href=\"https://8-bits.cl/products/sea-of-stars-nsw\">Ir a comprar en 8 Bits</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Sea of Stars</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$44.990</b> en 8 Bits\n💡 Es el precio más bajo que he visto\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/sea-of-stars-nsw\">$44.990 8 Bits</a>\n   🥈 <a href=\"https://sniper.cl/products/sea-of-stars-nintendo-switch-fisico-sniper\">$54.990 Sniper</a> (+$10.000)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/148486129/Sea-Of-Stars-Nintendo-Switch-Fisico-Sniper\">$59.990 Falabella</a> 🏪 Sniper (+$15.000)\n   ▫️ <a href=\"https://www.paris.cl/sea-of-stars-nintendo-switch-fisico-sniper-MKYTIFAY4F.html\">$59.990 Paris</a> 🏪 SNIPERCL (+$15.000)\n📈 Mínimo $44.990 (14 oct, 8 Bits) · típico $44.990 · máximo $44.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$17.21 ≈ $17.098 en 🇧🇷 Brasil\n   ➜ El digital es $27.892 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($44.990): el descuento no es real\n💼 <b>Margen</b>: la otra tienda lo vende a $54.990 → ~$10.000 (18%) de diferencia\n🛒 <a href=\"https://listado.mercadolibre.cl/sea-of-stars-nintendo-switch\">MercadoLibre</a>: nuevo ~$54.990 (7 avisos)\n💰 <b>Reventa</b>: lo compras a $44.990 y nuevo se vende a ~$54.990 (+$10.000 antes de comisiones)\n🔎 Confianza alta: 4 tiendas y 37 días de historial\n🛒 <a href=\"https://8-bits.cl/products/sea-of-stars-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -7981,6 +7966,21 @@
       "pct": 0,
       "precio": 49990.0,
       "texto": "🟢 <b>COMPRA YA</b>\n<b>Shin Megami Tensei V: Vengeance (steelbook usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (14 oct, 8 Bits) · típico $49.990 · máximo $49.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$15.49 ≈ $15.389 en 🇧🇷 Brasil (−70%)\n   ➜ El digital es $34.601 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($49.990): el descuento no es real\n🔎 Confianza media: 1 tienda y 37 días de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-shin-megami-tensei-v-steelbook-edition-nsw\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:e42c0d1b28",
+        "text": "⚙️ Sid Meier’s Civilization VI · $34.990"
+      },
+      "id": "e42c0d1b28",
+      "juego": "Civilization",
+      "nivel": "compra",
+      "nombre": "Sid Meier’s Civilization VI",
+      "orden": 1,
+      "pct": 0,
+      "precio": 34990.0,
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Sid Meier’s Civilization VI</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$34.990</b> en Paris 🏪 <i>vende SNIPERCL</i>\n💡 Es el precio más bajo que he visto\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.paris.cl/sid-meiers-civilization-vi-nintendo-switch-sniper-MK7ZIHZUBN.html\">$34.990 Paris</a> 🏪 SNIPERCL\n   🥈 <a href=\"https://sniper.cl/products/sid-meiers-civilization-vi-nintendo-switch-sniper-1\">$34.990 Sniper</a> (+$0)\n📈 Mínimo $34.990 (19 oct, Falabella) · típico $34.990 · máximo $34.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$21.04 ≈ $20.903 en 🇨🇱 Chile\n   ➜ El digital es $14.087 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($34.990): el descuento no es real\n🔎 Confianza media: 2 tiendas y 32 días de historial\n🛒 <a href=\"https://www.paris.cl/sid-meiers-civilization-vi-nintendo-switch-sniper-MK7ZIHZUBN.html\">Ir a comprar en Paris</a>",
       "tipo": "fisico"
     },
     {
@@ -8265,7 +8265,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 49990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>STORY OF SEASONS: Pioneers of Olive Town</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 Es el precio más bajo que he visto\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">$49.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/113884994/Story-of-Seasons-Pioneers-of-Olive-Town-Switch-Sniper\">$54.990 Falabella</a> 🏪 Sniper (+$5.000)\n   🥉 <a href=\"https://www.paris.cl/story-of-seasons-pioneers-of-olive-town-switch-MK779FMKNX.html\">$54.990 Paris</a> 🏪 Tienda RetroGamers (+$5.000)\n   ▫️ <a href=\"https://sniper.cl/products/story-of-seasons-pioneers-of-olive-town-switch-sniper-1\">$54.990 Sniper</a> (+$5.000)\n📈 Mínimo $49.990 (14 oct, 8 Bits) · típico $49.990 · máximo $49.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$9.16 ≈ $9.100 en 🇨🇱 Chile (−65%)\n   ➜ El digital es $40.890 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($49.990): el descuento no es real\n🔎 Confianza alta: 4 tiendas y 37 días de historial\n🛒 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">Ir a comprar en 8 Bits</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>STORY OF SEASONS: Pioneers of Olive Town</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 Es el precio más bajo que he visto\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">$49.990 8 Bits</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/148490919/Story-Of-Seasons-Pioneers-Of-Olive-Town-Switch-Sniper\">$54.990 Falabella</a> 🏪 Sniper (+$5.000)\n   🥉 <a href=\"https://www.paris.cl/story-of-seasons-pioneers-of-olive-town-switch-MK779FMKNX.html\">$54.990 Paris</a> 🏪 Tienda RetroGamers (+$5.000)\n   ▫️ <a href=\"https://sniper.cl/products/story-of-seasons-pioneers-of-olive-town-switch-sniper-1\">$54.990 Sniper</a> (+$5.000)\n📈 Mínimo $49.990 (14 oct, 8 Bits) · típico $49.990 · máximo $49.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$9.16 ≈ $9.100 en 🇨🇱 Chile (−65%)\n   ➜ El digital es $40.890 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($49.990): el descuento no es real\n🔎 Confianza alta: 4 tiendas y 37 días de historial\n🛒 <a href=\"https://8-bits.cl/products/story-of-seasons-pioneers-of-olive-town-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
     },
     {
@@ -8902,5 +8902,5 @@
       "tipo": "fisico"
     }
   ],
-  "revision": "2026-11-19T21:18:35Z"
+  "revision": "2026-11-19T22:16:46Z"
 }
