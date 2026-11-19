@@ -695,7 +695,7 @@
     "moneda": "CLP",
     "nombre": "Pokémon Pokopia",
     "plataforma": "Switch 2",
-    "precio": 64990.0,
+    "precio": 61990.0,
     "saga": "otros-juegos",
     "tienda": "Bestmart",
     "tipo": "fisico",
@@ -1886,13 +1886,13 @@
   },
   "0aa9b4489e": {
     "clave": "contra operation galuga|Switch",
-    "juego": "Contra",
+    "juego": "🔍 Otros juegos",
     "min": 64990.0,
     "moneda": "CLP",
     "nombre": "Contra: Operation Galuga",
     "plataforma": "Switch",
     "precio": 64990.0,
-    "saga": "contra",
+    "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
     "url": "https://www.falabella.com/falabella-cl/product/143350675/Contra-Operation-Galuga-Nintendo-Switch-SniperCL"
@@ -2136,7 +2136,7 @@
     "juego": "🔍 Otros juegos",
     "min": 49990.0,
     "moneda": "CLP",
-    "nombre": "The Caligula Effect 2 - Sniper",
+    "nombre": "The Caligula Effect 2",
     "plataforma": "Switch",
     "precio": 49990.0,
     "saga": "otros-juegos",
@@ -2920,9 +2920,9 @@
     "plataforma": "Switch",
     "precio": 39990.0,
     "saga": "otros-juegos",
-    "tienda": "8 Bits",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://8-bits.cl/products/untitled-goose-game-nsw"
+    "url": "https://www.falabella.com/falabella-cl/product/138737150/Untitled-Goose-Game-Nintendo-Switch"
   },
   "1007520b58": {
     "clave": "70010000122552",
@@ -3921,9 +3921,9 @@
     "plataforma": "Switch",
     "precio": 139990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/terrifier-the-artcade-game-collectors-edition-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/150678145/terrifier-the-artcade-game-collectors-edition-nintendo-switch"
   },
   "154e5b5a9f": {
     "clave": "fitness boxing feat hatsune miku|Switch",
@@ -3934,9 +3934,9 @@
     "plataforma": "Switch",
     "precio": 69990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/fitness-boxing-feat-hatsune-miku-para-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/143331521/Fitness-Boxing-Feat-Hatsune-Miku-Nintendo-Switch-SniperCL"
   },
   "1552ad211d": {
     "clave": "70010000104292",
@@ -4008,7 +4008,7 @@
     "juego": "🔍 Otros juegos",
     "min": 29990.0,
     "moneda": "CLP",
-    "nombre": "Bob Esponja A Patrick Star Game - Sniper",
+    "nombre": "Bob Esponja The Patrick Star Game",
     "plataforma": "Switch",
     "precio": 29990.0,
     "saga": "otros-juegos",
@@ -7312,11 +7312,11 @@
     "moneda": "CLP",
     "nombre": "Pokémon Scarlet",
     "plataforma": "Switch",
-    "precio": 54900.0,
+    "precio": 49990.0,
     "saga": "otros-juegos",
-    "tienda": "TodoJuegos",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://www.todojuegos.cl/Productos/NSWI/Pokemon-Scarlet/?ref=buscador"
+    "url": "https://bestmart.cl/products/copia-de-pokemon-scarlatto-nintendo-switch-europeo"
   },
   "24b67a2ee7": {
     "clave": "70010000064480",
@@ -7637,11 +7637,11 @@
     "moneda": "CLP",
     "nombre": "Donkey Kong Country Returns HD",
     "plataforma": "Switch",
-    "precio": 54900.0,
+    "precio": 49990.0,
     "saga": "donkey-kong",
-    "tienda": "TodoJuegos",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://www.todojuegos.cl/Productos/NSWI/Donkey-Kong-Country-Returns-HD/?ref=buscador"
+    "url": "https://bestmart.cl/products/juego-donkey-kong-country-returns-hd-nintendo-switch"
   },
   "2624920d6f": {
     "clave": "70010000003564",
@@ -8159,9 +8159,9 @@
     "plataforma": "Switch",
     "precio": 39990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/gear-club-unlimited-2-definitive-edition-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/150606296/gear-club-unlimited-2-definitive-edition-nintendo-switch"
   },
   "28f1ed0756": {
     "clave": "taiko no tatsujin rhythm festival|Switch",
@@ -8170,11 +8170,11 @@
     "moneda": "CLP",
     "nombre": "Taiko no Tatsujin: Rhythm Festival",
     "plataforma": "Switch",
-    "precio": 39990.0,
+    "precio": 34990.0,
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/153996531/taiko-no-tatsujin-rhythm-festival-nintendo-switch-sniper"
+    "url": "https://www.falabella.com/falabella-cl/product/153996543/taiko-no-tatsujin-rhythm-festival-nintendo-switch-sniper"
   },
   "28f78fd700": {
     "clave": "pokemon lets go eevee|Switch",
@@ -8620,13 +8620,13 @@
   },
   "2a65a91455": {
     "clave": "star war jedi knight collection europeo|Switch",
-    "juego": "Star Wars",
+    "juego": "🔍 Otros juegos",
     "min": 30990.0,
     "moneda": "CLP",
-    "nombre": "STAR WARS™ Jedi Knight Collection (Europeo)",
+    "nombre": "Star Wars Jedi Knight Collection Europeo",
     "plataforma": "Switch",
     "precio": 30990.0,
-    "saga": "star-wars",
+    "saga": "otros-juegos",
     "tienda": "MegaGames",
     "tipo": "fisico",
     "url": "https://megagames.cl/producto/switch/juegos-nsw/star-wars-jedi-knight-jedi-academy-nsw/"
@@ -9069,9 +9069,9 @@
     "plataforma": "Switch",
     "precio": 44990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/dead-by-daylight-nintendo-switch-sniper-1"
+    "url": "https://www.falabella.com/falabella-cl/product/112480166/Dead-By-Daylight-Nintendo-Switch-Sniper"
   },
   "2c99723002": {
     "clave": "story of seasons grand bazaar|Switch",
@@ -10003,11 +10003,11 @@
     "moneda": "CLP",
     "nombre": "The Legend of Zelda: Ocarina of Time",
     "plataforma": "Switch 2",
-    "precio": 78990.0,
+    "precio": 79900.0,
     "saga": "zelda",
-    "tienda": "Paris",
+    "tienda": "TodoJuegos",
     "tipo": "fisico",
-    "url": "https://www.paris.cl/juego-nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-609808999.html"
+    "url": "https://www.todojuegos.cl/Productos/NS2/The-Legend-of-Zelda--Ocarina-of-Time/?ref=buscador"
   },
   "30eab2f5b6": {
     "clave": "70010000022694",
@@ -11069,11 +11069,11 @@
     "moneda": "CLP",
     "nombre": "Super Mario Odyssey",
     "plataforma": "Switch",
-    "precio": 54900.0,
+    "precio": 49990.0,
     "saga": "otros-juegos",
-    "tienda": "TodoJuegos",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://www.todojuegos.cl/Productos/NSWI/Super-Mario-Odyssey/?ref=buscador"
+    "url": "https://bestmart.cl/products/juego-super-mario-odyssey-nintendo-switch-americano"
   },
   "36347b57b3": {
     "clave": "70070000022154",
@@ -12267,9 +12267,9 @@
     "plataforma": "Switch",
     "precio": 49990.0,
     "saga": "mario",
-    "tienda": "MegaGames",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://megagames.cl/producto/switch/juegos-nsw/preventa-paper-mario-the-thousand-year-door/"
+    "url": "https://bestmart.cl/products/paper-mario-the-thousand-year-door-america-nintendo-switch"
   },
   "3d54c161b7": {
     "clave": "yakuza kiwami 2|Switch 2|import-japan",
@@ -13201,7 +13201,7 @@
     "moneda": "CLP",
     "nombre": "Star Fox",
     "plataforma": "Switch 2",
-    "precio": 54990.0,
+    "precio": 51990.0,
     "saga": "star-fox",
     "tienda": "Bestmart",
     "tipo": "fisico",
@@ -13279,7 +13279,7 @@
     "moneda": "CLP",
     "nombre": "Minecraft: Nintendo Switch Edition",
     "plataforma": "Switch",
-    "precio": 29990.0,
+    "precio": 23990.0,
     "saga": "otros-juegos",
     "tienda": "Bestmart",
     "tipo": "fisico",
@@ -13749,9 +13749,9 @@
     "plataforma": "Switch",
     "precio": 69990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/149687520/Turok-Trilogy-Bundle-EU-Nintendo-Switch"
+    "url": "https://sniper.cl/products/turok-trilogy-bundle-eu-nintendo-switch"
   },
   "43e86c20cd": {
     "clave": "70010000054022",
@@ -14761,11 +14761,11 @@
     "moneda": "CLP",
     "nombre": "Minecraft",
     "plataforma": "Switch 2",
-    "precio": 32990.0,
+    "precio": 30990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/80872524/minecraft-para-nintendo-switch-2"
+    "url": "https://bestmart.cl/products/juego-minecraft-nintendo-switch-2"
   },
   "48923622b5": {
     "clave": "night in the woods|Switch",
@@ -17018,13 +17018,13 @@
   },
   "53438455ce": {
     "clave": "dragon ball the breakers|Switch",
-    "juego": "Dragon Ball",
+    "juego": "🔍 Otros juegos",
     "min": 27990.0,
     "moneda": "CLP",
     "nombre": "DRAGON BALL: THE BREAKERS",
     "plataforma": "Switch",
     "precio": 27990.0,
-    "saga": "dragon-ball",
+    "saga": "otros-juegos",
     "tienda": "MegaGames",
     "tipo": "fisico",
     "url": "https://megagames.cl/producto/switch/juegos-nsw/dragon-ball-the-breakers-nsw/"
@@ -18518,11 +18518,11 @@
     "moneda": "CLP",
     "nombre": "Star Wars Racer y Commando Combo",
     "plataforma": "Switch",
-    "precio": 36990.0,
+    "precio": 44990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Paris",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/138875946/Star-Wars-Racer-y-Commando-Combo-Nintendo-Switch"
+    "url": "https://www.paris.cl/star-wars-racer-y-commando-combo-nintendo-switch-MKIVP5097Y.html"
   },
   "59f1906c62": {
     "clave": "70010000088802",
@@ -20970,13 +20970,13 @@
   },
   "6642b99f29": {
     "clave": "crisis core final fantasy vii reunion|Switch",
-    "juego": "Final Fantasy",
+    "juego": "🔍 Otros juegos",
     "min": 34990.0,
     "moneda": "CLP",
     "nombre": "CRISIS CORE –FINAL FANTASY VII– REUNION",
     "plataforma": "Switch",
     "precio": 34990.0,
-    "saga": "final-fantasy",
+    "saga": "otros-juegos",
     "tienda": "Sniper",
     "tipo": "fisico",
     "url": "https://sniper.cl/products/crisis-core-final-fantasy-vii-reunion-switch-fisico-sniper-1"
@@ -22810,9 +22810,9 @@
     "plataforma": "Switch",
     "precio": 89990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/demon-slayer-the-hinokami-chronicles-2-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/146690865/demon-slayer-the-hinokami-chronicles-2-nintendo-switch"
   },
   "70a21a36da": {
     "clave": "70010000064607",
@@ -23965,7 +23965,7 @@
     "moneda": "CLP",
     "nombre": "Super Mario Party Jamboree + Jamboree TV",
     "plataforma": "Switch 2",
-    "precio": 74990.0,
+    "precio": 71990.0,
     "saga": "mario",
     "tienda": "Bestmart",
     "tipo": "fisico",
@@ -25592,9 +25592,9 @@
     "plataforma": "Switch",
     "precio": 59990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/calamity-angels-special-delivery-eu-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/152033819/calamity-angels-special-delivery-eu-nintendo-switch"
   },
   "7da46cc36f": {
     "clave": "tengoku struggle strayside|Switch",
@@ -26918,9 +26918,9 @@
     "plataforma": "Switch",
     "precio": 74990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/have-a-nice-death-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/150698615/have-a-nice-death-nintendo-switch"
   },
   "84decef850": {
     "clave": "70010000113451",
@@ -28725,9 +28725,9 @@
     "plataforma": "Switch",
     "precio": 64990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/antonblast-eu-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/149688835/Antonblast-EU-Nintendo-Switch"
   },
   "8de9fb6496": {
     "clave": "omen of sorrow|Switch|limited",
@@ -29633,7 +29633,7 @@
     "moneda": "CLP",
     "nombre": "Mario Tennis Fever",
     "plataforma": "Switch 2",
-    "precio": 64990.0,
+    "precio": 61990.0,
     "saga": "mario",
     "tienda": "Bestmart",
     "tipo": "fisico",
@@ -29661,9 +29661,9 @@
     "plataforma": "Switch",
     "precio": 54990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/151681162/dinkum-eu-nintendo-switch"
+    "url": "https://sniper.cl/products/dinkum-eu-nintendo-switch"
   },
   "9319e214b5": {
     "clave": "70010000119859",
@@ -30036,7 +30036,7 @@
     "moneda": "CLP",
     "nombre": "Tomodachi Life Viviendo el Sueño",
     "plataforma": "Switch",
-    "precio": 59990.0,
+    "precio": 49990.0,
     "saga": "tomodachi-life",
     "tienda": "Bestmart",
     "tipo": "fisico",
@@ -31338,9 +31338,9 @@
     "plataforma": "Switch",
     "precio": 69990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/mandragora-whispers-of-the-witch-tree-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/150698613/mandragora-whispers-of-the-witch-tree-nintendo-switch"
   },
   "9b1856af92": {
     "clave": "70010000115567",
@@ -31492,11 +31492,11 @@
     "moneda": "CLP",
     "nombre": "Super Smash Bros. Ultimate",
     "plataforma": "Switch",
-    "precio": 54900.0,
+    "precio": 49990.0,
     "saga": "super-smash-bros",
-    "tienda": "TodoJuegos",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://www.todojuegos.cl/Productos/NSWI/Super-Smash-Bros-Ultimate/?ref=buscador"
+    "url": "https://bestmart.cl/products/super-smash-bros-ultimate-nintendo-switch"
   },
   "9b95f53043": {
     "clave": "70010000118524",
@@ -32001,9 +32001,9 @@
     "plataforma": "Switch",
     "precio": 49990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Paris",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/155790279/batman-arkham-trilogy-nintendo-switch-sniper"
+    "url": "https://www.paris.cl/batman-arkham-trilogy-nintendo-switch-sniper-MK2Q8CNPYO.html"
   },
   "9e92a25bc2": {
     "clave": "little nightmare iii|Switch 2",
@@ -32718,7 +32718,7 @@
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/150388284/destroy-all-humans-nintendo-switch-sniper"
+    "url": "https://www.falabella.com/falabella-cl/product/148485961/Destroy-All-Humans-Nintendo-Switch-Sniper"
   },
   "a25bbbacb5": {
     "clave": "70010000000906",
@@ -33013,11 +33013,11 @@
     "moneda": "CLP",
     "nombre": "FRONT MISSION 1st: Remake",
     "plataforma": "Switch",
-    "precio": 49990.0,
+    "precio": 50000.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Paris",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/148958851/Front-Mission-1st-Nintendo-Switch"
+    "url": "https://www.paris.cl/front-mission-1st-remake-nintendo-switch-MKKNBIOS7A.html"
   },
   "a35a8b3932": {
     "clave": "neo the world ends with you|Switch",
@@ -33879,13 +33879,13 @@
   },
   "a82048fba9": {
     "clave": "dave the diver|Switch",
-    "juego": "Dave the Diver",
+    "juego": "🔍 Otros juegos",
     "min": 34990.0,
     "moneda": "CLP",
     "nombre": "DAVE THE DIVER",
     "plataforma": "Switch",
     "precio": 34990.0,
-    "saga": "dave-the-diver",
+    "saga": "otros-juegos",
     "tienda": "Sniper",
     "tipo": "fisico",
     "url": "https://sniper.cl/products/dave-the-diver-anniversary-edition-nintendo-switch-fisico"
@@ -34521,7 +34521,7 @@
     "moneda": "CLP",
     "nombre": "The Legend of Zelda: Breath of the Wild",
     "plataforma": "Switch 2",
-    "precio": 64990.0,
+    "precio": 61990.0,
     "saga": "zelda",
     "tienda": "Bestmart",
     "tipo": "fisico",
@@ -36952,11 +36952,11 @@
     "moneda": "CLP",
     "nombre": "Donkey Kong Country: Tropical Freeze",
     "plataforma": "Switch",
-    "precio": 54900.0,
+    "precio": 49990.0,
     "saga": "donkey-kong",
-    "tienda": "TodoJuegos",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://www.todojuegos.cl/Productos/NSWI/Donkey-Kong-Country--Tropical-Freeze/?ref=buscador"
+    "url": "https://bestmart.cl/products/donkey-kong-country-tropical-freeze-nintendo-switch-america"
   },
   "b8c01076c8": {
     "clave": "70010000137020",
@@ -38358,9 +38358,9 @@
     "plataforma": "Switch",
     "precio": 39720.0,
     "saga": "otros-juegos",
-    "tienda": "Paris",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.paris.cl/wild-guns-nintendo-switch-sniper-MK33KN25GP.html"
+    "url": "https://www.falabella.com/falabella-cl/product/148475328/wild-guns-nintendo-switch-sniper"
   },
   "c031643d46": {
     "clave": "street fighter 6|Switch 2",
@@ -38369,11 +38369,11 @@
     "moneda": "CLP",
     "nombre": "Street Fighter 6",
     "plataforma": "Switch 2",
-    "precio": 63990.0,
+    "precio": 51990.0,
     "saga": "street-fighter",
-    "tienda": "Falabella",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/17472139/SW-SWITCH-2-STREET-FIGHTER-6"
+    "url": "https://bestmart.cl/products/juego-street-fighter-6-year-1-2-fighters-edition-nintendo-switch-2"
   },
   "c033532802": {
     "clave": "70010000029016",
@@ -39318,11 +39318,11 @@
     "moneda": "CLP",
     "nombre": "Life is Strange: True Colors",
     "plataforma": "Switch",
-    "precio": 54990.0,
+    "precio": 44990.0,
     "saga": "otros-juegos",
-    "tienda": "Paris",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.paris.cl/life-is-strange-true-colors-switch-fisico-sniper-MK0CLGBZRQ.html"
+    "url": "https://www.falabella.com/falabella-cl/product/148332031/Life-is-Strange-True-Colors-Nintendo-Switch"
   },
   "c527745d3e": {
     "clave": "70010000025544",
@@ -39788,9 +39788,9 @@
     "plataforma": "Switch",
     "precio": 54990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/death-match-love-comedy-eu-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/152033983/death-match-love-comedy-eu-nintendo-switch"
   },
   "c7bf5b3403": {
     "clave": "70010000047922",
@@ -40252,7 +40252,7 @@
     "juego": "🔍 Otros juegos",
     "min": 22000.0,
     "moneda": "CLP",
-    "nombre": "Star wars Jedi Knight Collection",
+    "nombre": "Star Wars Jedi Knight Collection",
     "plataforma": "Switch",
     "precio": 29900.0,
     "saga": "otros-juegos",
@@ -40694,7 +40694,7 @@
     "juego": "🔍 Otros juegos",
     "min": 41990.0,
     "moneda": "CLP",
-    "nombre": "Travis Strikes Again No More Heroes - Sniper",
+    "nombre": "Travis Strikes Again: No More Heroes",
     "plataforma": "Switch",
     "precio": 41990.0,
     "saga": "otros-juegos",
@@ -41892,7 +41892,7 @@
     "moneda": "CLP",
     "nombre": "Super Mario Bros. Wonder",
     "plataforma": "Switch 2",
-    "precio": 74990.0,
+    "precio": 71990.0,
     "saga": "mario",
     "tienda": "Bestmart",
     "tipo": "fisico",
@@ -43246,9 +43246,9 @@
     "plataforma": "Switch",
     "precio": 74990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/aca-neogeo-selection-vol-6-nintendo-switch-snipercl"
+    "url": "https://www.falabella.com/falabella-cl/product/146690636/Aca-Neogeo-Selection-Vol.-6-Nintendo-Switch-Snipercl"
   },
   "d7d9f026de": {
     "clave": "raiden iii x mikado maniax deluxe|Switch",
@@ -43515,7 +43515,7 @@
     "juego": "🔍 Otros juegos",
     "min": 34720.0,
     "moneda": "CLP",
-    "nombre": "Taxi Chaos - Sniper",
+    "nombre": "Taxi Chaos",
     "plataforma": "Switch",
     "precio": 34720.0,
     "saga": "otros-juegos",
@@ -44624,9 +44624,9 @@
     "plataforma": "Switch",
     "precio": 59990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/paw-patrol-rescue-wheels-championship-eu-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/149688046/Paw-Patrol-Rescue-Wheels:-Championship-EU-Nintendo-Switch"
   },
   "deafe1d1cb": {
     "clave": "70010000062255",
@@ -44791,11 +44791,11 @@
     "moneda": "CLP",
     "nombre": "Animal Crossing: New Horizons",
     "plataforma": "Switch 2",
-    "precio": 64900.0,
+    "precio": 59990.0,
     "saga": "animal-crossing",
-    "tienda": "TodoJuegos",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://www.todojuegos.cl/Productos/NS2/Animal-Crossing--New-Horizons-Switch-2-Edition-/?ref=buscador"
+    "url": "https://bestmart.cl/products/juego-animal-crossing-new-horizons-nintendo-switch-2-edition"
   },
   "dfe4f4a388": {
     "clave": "70010000046199",
@@ -45183,9 +45183,9 @@
     "plataforma": "Switch",
     "precio": 74990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/aca-neogeo-selection-vol-5-nintendo-switch-snipercl-1"
+    "url": "https://www.falabella.com/falabella-cl/product/152347392/aca-neogeo-selection-vol-5-nintendo-switch-snipercl"
   },
   "e248766779": {
     "clave": "splatoon 3|Switch",
@@ -45267,16 +45267,16 @@
   },
   "e28aee6530": {
     "clave": "pokemon legends arceus|Switch",
-    "juego": "🔍 Otros juegos",
+    "juego": "Pokémon",
     "min": 48990.0,
     "moneda": "CLP",
     "nombre": "Pokémon Legends: Arceus",
     "plataforma": "Switch",
-    "precio": 54900.0,
-    "saga": "otros-juegos",
-    "tienda": "TodoJuegos",
+    "precio": 49990.0,
+    "saga": "pokemon",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://www.todojuegos.cl/Productos/NSWI/Pokemon-Legends-Arceus/?ref=buscador"
+    "url": "https://bestmart.cl/products/pokemon-legends-arceus-switch"
   },
   "e295a8ced2": {
     "clave": "70010000094434",
@@ -46182,7 +46182,7 @@
     "moneda": "CLP",
     "nombre": "Pokémon Legends: Z-A",
     "plataforma": "Switch 2",
-    "precio": 64990.0,
+    "precio": 61990.0,
     "saga": "otros-juegos",
     "tienda": "Bestmart",
     "tipo": "fisico",
@@ -46260,11 +46260,11 @@
     "moneda": "CLP",
     "nombre": "Super Mario Party Jamboree",
     "plataforma": "Switch",
-    "precio": 54900.0,
+    "precio": 49990.0,
     "saga": "mario",
-    "tienda": "TodoJuegos",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://www.todojuegos.cl/Productos/NSWI/Super-Mario-Party-Jamboree/?ref=buscador"
+    "url": "https://bestmart.cl/products/super-mario-party-jamboree-nintendo-switch"
   },
   "e79a2825f6": {
     "clave": "hellpoint|Switch",
@@ -46912,9 +46912,9 @@
     "plataforma": "Switch",
     "precio": 89990.0,
     "saga": "otros-juegos",
-    "tienda": "Paris",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.paris.cl/hunter-x-hunter-nen-impact-nintendo-switch-snipercl-MKO1FAKR7Y.html"
+    "url": "https://www.falabella.com/falabella-cl/product/146173499/Hunter-X-Hunter-Nen-Impact-Nintendo-Switch-SniperCL"
   },
   "eafba94d14": {
     "clave": "70010000055402",
@@ -47417,7 +47417,7 @@
     "moneda": "CLP",
     "nombre": "Nintendo Switch Sports Resort",
     "plataforma": "Switch 2",
-    "precio": 63990.0,
+    "precio": 58990.0,
     "saga": "switch-sports",
     "tienda": "Bestmart",
     "tipo": "fisico",
@@ -48132,11 +48132,11 @@
     "moneda": "CLP",
     "nombre": "Kirby Star Allies",
     "plataforma": "Switch",
-    "precio": 54990.0,
+    "precio": 49990.0,
     "saga": "kirby",
-    "tienda": "8 Bits",
+    "tienda": "Bestmart",
     "tipo": "fisico",
-    "url": "https://8-bits.cl/products/kirby-star-allies-nsw"
+    "url": "https://bestmart.cl/products/kirby-star-allies-nintendo-america"
   },
   "f180e03f60": {
     "clave": "70010000123167",
@@ -50229,7 +50229,7 @@
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/150606960/peppa-pig-world-adventures-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/158466506/peppa-pig-world-adventures-nintendo-switch"
   },
   "fd558855b7": {
     "clave": "70010000081123",
@@ -50272,16 +50272,16 @@
   },
   "fdb55e430a": {
     "clave": "lego worlds|Switch",
-    "juego": "🔍 Otros juegos",
+    "juego": "LEGO",
     "min": 29450.0,
     "moneda": "CLP",
     "nombre": "LEGO Worlds",
     "plataforma": "Switch",
-    "precio": 29450.0,
-    "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "precio": 29990.0,
+    "saga": "lego",
+    "tienda": "8 Bits",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/151484067/lego-worlds-nintendo-switch-sniper"
+    "url": "https://8-bits.cl/products/lego-worlds-nsw"
   },
   "fdbb53bfa1": {
     "clave": "70010000071186",
