@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 449,
+  "fisicos": 448,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-19T11:17:17Z",
+  "revision": "2026-11-19T12:29:49Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -274,7 +274,7 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $29.900\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball xenoverse 2 for nintendo switch",
@@ -337,7 +337,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 15 desde $34.990\n   🟢 FINAL FANTASY IX −25%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 FINAL FANTASY IX −25%",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
@@ -349,7 +349,6 @@
         "final fantasy vii remake intergrade",
         "final fantasy vii revelation",
         "final fantasy viii remastered",
-        "final fantasy x x 2 hd remaster",
         "final fantasy xii the zodiac age",
         "world of final fantasy maxima"
       ],
@@ -609,7 +608,7 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 4 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
       "nombres": [
         "metal gear solid master collection vol 1 sniper",
         "metal gear solid master collection vol 2",
@@ -726,7 +725,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $29.990 · 🎮 114 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 114 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "a memoir blue",
         "airhead",
@@ -779,6 +778,7 @@
         "hindsight",
         "i am dead",
         "if found",
+        "it takes two",
         "justice sucks",
         "kentucky route zero tv edition",
         "last stop",
@@ -841,7 +841,8 @@
         "undungeon",
         "unravel two",
         "untitled goose game",
-        "what remains of edith finch"
+        "what remains of edith finch",
+        "xenoblade chronicles x definitive edition"
       ],
       "orden": 1,
       "slug": "otros-juegos"
@@ -1026,10 +1027,9 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000\n   🟢 Sonic Racing: CrossWorlds −29%",
+      "linea": "🟢 <b>Sonic</b> — 📦 7 desde $28.000\n   🟢 Sonic Racing: CrossWorlds −29%",
       "nombres": [
         "sonic classic collection",
-        "sonic double pack",
         "sonic forces",
         "sonic frontiers",
         "sonic frontiers definitive edition",
@@ -1062,7 +1062,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990 · 🎮 2 desde US$24.08\n   🟢 Split Fiction −40%",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990 · 🎮 2 desde US$24.08\n   🟢 Split Fiction −40%",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1235,11 +1235,11 @@
     },
     {
       "juego": "Xenoblade X",
-      "linea": "🟢 <b>Xenoblade X</b> — 📦 3 desde $54.900\n   🟢 Xenoblade Chronicles X: Definitive Edition −20%",
+      "linea": "⚪ <b>Xenoblade X</b> — 📦 2 desde $54.900",
       "nombres": [
         "xenoblade chronicles x definitive edition"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "xenoblade-x"
     },
     {
@@ -1267,12 +1267,11 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda 40th Anniversary Edition",
+      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 The Legend of Zelda 40th Anniversary Edition",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda 40th anniversary edition",
         "the legend of zelda breath of the wild",
-        "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
         "the legend of zelda ocarina of time",
         "the legend of zelda tears of the kingdom"
@@ -1281,5 +1280,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 565
+  "total": 562
 }
