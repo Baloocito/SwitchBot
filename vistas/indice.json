@@ -17,7 +17,7 @@
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-19T15:17:34Z",
+  "revision": "2026-11-19T16:17:18Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -336,8 +336,9 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $37.990\n   🟢 FINAL FANTASY IX −25%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 FINAL FANTASY IX −25%",
       "nombres": [
+        "crisis core final fantasy vii reunion",
         "final fantasy",
         "final fantasy ix",
         "final fantasy resonance",
@@ -537,7 +538,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900\n   🟢 Mario Strikers: Battle League −50%",
+      "linea": "🟢 <b>Mario</b> — 📦 25 desde $22.900\n   🟢 Mario Strikers: Battle League −50%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -553,6 +554,7 @@
         "mario vs donkey kong",
         "paper mario the thousand year door",
         "super mario bros wonder",
+        "super mario galaxy 2",
         "super mario odyssey",
         "super mario party",
         "super mario party jamboree",
@@ -724,7 +726,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 114 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $29.990 · 🎮 114 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "a memoir blue",
         "airhead",
@@ -777,7 +779,6 @@
         "hindsight",
         "i am dead",
         "if found",
-        "it takes two",
         "justice sucks",
         "kentucky route zero tv edition",
         "last stop",
@@ -883,9 +884,8 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 6 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
-        "pokemon legends arceus",
         "pokemon legends za 2",
         "pokemon scarlet",
         "pokemon shield",
@@ -1062,7 +1062,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990 · 🎮 2 desde US$24.08\n   🟢 Split Fiction −40%",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990 · 🎮 2 desde US$24.08\n   🟢 Split Fiction −40%",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1281,5 +1281,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 565
+  "total": 566
 }
