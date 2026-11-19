@@ -82,7 +82,7 @@
         }
       ],
       "marca": "Redragon",
-      "min_hist": 33990.0,
+      "min_hist": 29990.0,
       "nombre": "Audífonos Gamer Redragon Cragblade H541 con Micrófono Negro",
       "pct": 11.8,
       "precio": 29990.0,
@@ -118,7 +118,7 @@
         }
       ],
       "marca": "Redragon",
-      "min_hist": 37990.0,
+      "min_hist": 33990.0,
       "nombre": "Audífonos Gamer Inalámbricos Redragon Vibecore H610 Bluetooth ANC - US",
       "pct": 10.5,
       "precio": 33990.0,
@@ -154,7 +154,7 @@
         }
       ],
       "marca": "Redragon",
-      "min_hist": 39990.0,
+      "min_hist": 38990.0,
       "nombre": "Audífonos Gamer Inalámbricos Redragon IRE H848 Bluetooth USB Type-C St",
       "pct": 11.4,
       "precio": 38990.0,
@@ -172,7 +172,7 @@
         }
       ],
       "marca": "HyperX",
-      "min_hist": null,
+      "min_hist": 39990.0,
       "nombre": "Audífonos Gamers HyperX Cloud Stinger 3",
       "pct": 0,
       "precio": 39990.0,
@@ -190,7 +190,7 @@
         }
       ],
       "marca": "Redragon",
-      "min_hist": 48990.0,
+      "min_hist": 43990.0,
       "nombre": "Audífonos Gamer Redragon Zeus X H510 USB Sonido 7.1 Virtual 50 - 20k H",
       "pct": 10.2,
       "precio": 43990.0,
@@ -293,6 +293,24 @@
         {
           "precio": 49990.0,
           "tarjeta": null,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
+        }
+      ],
+      "marca": "redragon",
+      "min_hist": 49990.0,
+      "nombre": "Audífono Headset H510 Rgb Zeus X",
+      "pct": 16.7,
+      "precio": 49990.0,
+      "ref_tipo": "tipico",
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 49990.0,
+          "tarjeta": null,
           "tienda": "Sniper",
           "url": "https://sniper.cl/products/headset-turtle-beach-ear-force-recon-60p-sniper-game"
         }
@@ -382,24 +400,6 @@
       "avisos": [
         {
           "precio": 59990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
-        }
-      ],
-      "marca": "redragon",
-      "min_hist": 49990.0,
-      "nombre": "Audífono Headset H510 Rgb Zeus X",
-      "pct": 0.0,
-      "precio": 59990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 59990.0,
           "tarjeta": 49990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17292989/Audifono-Headset-Redragon-H510P-RGB-Zeus-X-Pink"
@@ -413,24 +413,6 @@
       "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/17292989/Audifono-Headset-Redragon-H510P-RGB-Zeus-X-Pink"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 59990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
-        }
-      ],
-      "marca": "redragon",
-      "min_hist": 59990.0,
-      "nombre": "Audífono Headset H510W RGB Zeus X White",
-      "pct": 0,
-      "precio": 59990.0,
-      "ref_tipo": null,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
     },
     {
       "avisos": [
@@ -467,24 +449,6 @@
       "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80716017/audifono-gamer-g321-logitech"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 74990.0,
-          "tarjeta": 69990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80820664/logitech-zone-300-audifonos-bluetooth-inalambricos"
-        }
-      ],
-      "marca": "logitech g",
-      "min_hist": 74990.0,
-      "nombre": "Zone 300 Audífonos Bluetooth Inalámbricos",
-      "pct": 6.3,
-      "precio": 74990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80820664/logitech-zone-300-audifonos-bluetooth-inalambricos"
     },
     {
       "avisos": [
@@ -1014,7 +978,7 @@
       "min_hist": 609990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Nintendo Switch 2 + Sports Resort + 3 Meses NSO",
-      "pct": 2.9,
+      "pct": 1.5,
       "precio": 669990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
@@ -1203,6 +1167,12 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Samsung 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Samsung-256gb/?ref=buscador"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1224,6 +1194,12 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Sandisk 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Sandisk-256gb/?ref=buscador"
+        },
+        {
+          "precio": 88490,
+          "tienda": "MercadoLibre",
+          "titulo": "Tarjeta Memoria MicroSD Express SanDisk 256GB Para Nintendo Switch 2 Licencia Oficial Nintendo Lectura 880MB/s Escritura 650MB/s Diseño Super Mario Modelo SDSQXFN-256G-GR6ZN (ELECTROLANDIA CHILE)",
+          "url": "https://articulo.mercadolibre.cl/MLC-4698611796"
         }
       ],
       "gb": 256,
@@ -1371,7 +1347,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-18T22:21:13Z",
+  "revision": "2026-11-19T03:19:17Z",
   "seguimientos": [
     {
       "avisos": [
