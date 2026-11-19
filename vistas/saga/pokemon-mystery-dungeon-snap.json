@@ -2,6 +2,19 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:0bb3be6919",
+        "text": "⚙️ Shiren the Wanderer: The Myst… · US$17.13"
+      },
+      "con_fisico": false,
+      "id": "0bb3be6919",
+      "nivel": "compra",
+      "nombre": "Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island",
+      "pct": 50.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −50%\n<b>Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · Pokémon Mystery Dungeon / Snap\n💰 <b>US$17.13</b> ≈ $17.018 en 🇧🇷 Brasil\n   Precio en la tienda: R$99,50 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$34.25 → ahorras US$17.12 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/shiren-the-wanderer-the-mystery-dungeon-of-serpentcoil-island-switch/\">US$17.13</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/shiren-the-wanderer-the-mystery-dungeon-of-serpentcoil-island-switch/\">US$17.45</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/shiren-the-wanderer-the-mystery-dungeon-of-serpentcoil-island-switch/\">US$19.77</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/shiren-the-wanderer-the-mystery-dungeon-of-serpentcoil-island-switch/\">US$19.99</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/shiren-the-wanderer-the-mystery-dungeon-of-serpentcoil-island-switch/\">US$21.33</a>\n   El más caro: 🇨🇴 US$28.26\n📈 Mínimo US$17.13 (19 nov en 🇧🇷 Brasil)\n   ████████████████████████████▇▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/shiren-the-wanderer-the-mystery-dungeon-of-serpentcoil-island-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:b1d0d6bd0f",
         "text": "⚙️ Chocobo's Mystery Dungeon EVE… · $49.990"
       },
@@ -26,5 +39,5 @@
     }
   ],
   "juego": "Pokémon Mystery Dungeon / Snap",
-  "revision": "2026-11-19T16:17:18Z"
+  "revision": "2026-11-19T17:16:03Z"
 }

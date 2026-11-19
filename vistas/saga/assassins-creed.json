@@ -2,6 +2,32 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:4052f2bd16",
+        "text": "⚙️ Assassin’s Creed: The Rebel C… · US$9.55"
+      },
+      "con_fisico": true,
+      "id": "4052f2bd16",
+      "nivel": "compra",
+      "nombre": "Assassin’s Creed: The Rebel Collection",
+      "pct": 63.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −63%\n<b>Assassin’s Creed: The Rebel Collection</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$9.55</b> ≈ $9.488 en 🇧🇷 Brasil\n   Precio en la tienda: R$55,46 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$25.80 → ahorras US$16.25 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/assassins-creed-the-rebel-collection-switch/\">US$9.55</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/assassins-creed-the-rebel-collection-switch/\">US$11.54</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/assassins-creed-the-rebel-collection-switch/\">US$12.91</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/assassins-creed-the-rebel-collection-switch/\">US$14.79</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/assassins-creed-the-rebel-collection-switch/\">US$14.82</a>\n   El más caro: 🇵🇪 US$17.74\n📦 Físico: $38.990 en Falabella → el digital te ahorra $29.502\n📈 Mínimo US$9.55 (19 nov en 🇧🇷 Brasil)\n   █████▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/assassins-creed-the-rebel-collection-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
+        "callback_data": "a:839c90a3f7",
+        "text": "⚙️ Assassin's Creed Shadows S2 · US$28.40"
+      },
+      "con_fisico": true,
+      "id": "839c90a3f7",
+      "nivel": "compra",
+      "nombre": "Assassin's Creed Shadows",
+      "pct": 45.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −45%\n<b>Assassin's Creed Shadows</b>\n🕹️ Switch 2 · 🎮 Digital (eShop)\n💰 <b>US$28.40</b> ≈ $28.214 en 🇧🇷 Brasil\n   Precio en la tienda: R$164,98 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$51.63 → ahorras US$23.23 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/assassins-creed-shadows-switch-2/\">US$28.40</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/assassins-creed-shadows-switch-2/\">US$29.89</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/assassins-creed-shadows-switch-2/\">US$30.71</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/assassins-creed-shadows-switch-2/\">US$32.98</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/assassins-creed-shadows-switch-2/\">US$35.22</a>\n   El más caro: 🇨🇴 US$39.88\n📦 Físico: $39.900 en TodoJuegos → el digital te ahorra $11.686\n📈 Mínimo US$28.40 (19 nov en 🇧🇷 Brasil)\n   ███████████████████████▇▇▇▇▇▇▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/assassins-creed-shadows-switch-2/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:f53128c2f9",
         "text": "⚙️ Assassin's Creed III: Remaste… · $20.000"
       },
@@ -38,5 +64,5 @@
     }
   ],
   "juego": "Assassin's Creed",
-  "revision": "2026-11-19T16:17:18Z"
+  "revision": "2026-11-19T17:16:03Z"
 }

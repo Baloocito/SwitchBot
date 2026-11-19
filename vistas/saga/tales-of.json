@@ -2,6 +2,19 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:21f8f72b7a",
+        "text": "⚙️ Tales of the Orient - The Ris… · US$3.80"
+      },
+      "con_fisico": false,
+      "id": "21f8f72b7a",
+      "nivel": "compra",
+      "nombre": "Tales of the Orient - The Rising Sun",
+      "pct": 70.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>Tales of the Orient - The Rising Sun</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$3.80</b> ≈ $3.775 en 🇨🇱 Chile\n   Precio en la tienda: $3.779 CLP\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$12.68 → ahorras US$8.88 · ⏳ termina el 3 dic (en 14 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/tales-of-the-orient-the-rising-sun-switch/\">US$3.80</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/tales-of-the-orient-the-rising-sun-switch/\">US$4.13</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/tales-of-the-orient-the-rising-sun-switch/\">US$4.18</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/tales-of-the-orient-the-rising-sun-switch/\">US$4.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/tales-of-the-orient-the-rising-sun-switch/\">US$4.63</a>\n   El más caro: 🇨🇴 US$5.89\n📈 Mínimo US$3.80 (19 nov en 🇨🇱 Chile)\n   █████████████████████████████▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/tales-of-the-orient-the-rising-sun-switch/\">Ver en la eShop de Chile</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:d324f988ea",
         "text": "⚙️ Tales of Kenzera: ZAU · US$5.60"
       },
@@ -88,5 +101,5 @@
     }
   ],
   "juego": "Tales of",
-  "revision": "2026-11-19T16:17:18Z"
+  "revision": "2026-11-19T17:16:03Z"
 }
