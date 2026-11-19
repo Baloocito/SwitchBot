@@ -155,13 +155,14 @@
     },
     "2026-11-18": {
       "bombazos": 2,
-      "posts": 7,
+      "posts": 8,
       "slots": [
         "top",
         "pack",
         "tarde",
         "fisicos",
-        "memorias"
+        "memorias",
+        "ultima"
       ]
     }
   },
@@ -1919,6 +1920,18 @@
       "ids": [],
       "message_id": 205,
       "slot": "memorias"
+    },
+    {
+      "fecha": "2026-11-18T21:05-03:00",
+      "ids": [
+        "fcbb1ecedb",
+        "6e6aa0b427",
+        "95bc412aef",
+        "b44ef590f9",
+        "c184ae7be9"
+      ],
+      "message_id": 206,
+      "slot": "ultima"
     }
   ],
   "publicados": {
@@ -3256,6 +3269,11 @@
       "precio": 5990,
       "slot": "ultima"
     },
+    "6e6aa0b427": {
+      "fecha": "2026-11-18",
+      "precio": 8940,
+      "slot": "ultima"
+    },
     "73f87cfe71": {
       "fecha": "2026-11-05",
       "precio": 4180,
@@ -3316,6 +3334,11 @@
       "precio": 4350,
       "slot": "ultima"
     },
+    "95bc412aef": {
+      "fecha": "2026-11-18",
+      "precio": 5890,
+      "slot": "ultima"
+    },
     "979b5edd27": {
       "fecha": "2026-11-15",
       "precio": 14550,
@@ -3366,6 +3389,11 @@
       "precio": 3940,
       "slot": "ultima"
     },
+    "b44ef590f9": {
+      "fecha": "2026-11-18",
+      "precio": 3480,
+      "slot": "ultima"
+    },
     "b93b61a6a8": {
       "fecha": "2026-11-15",
       "precio": 4970,
@@ -3384,6 +3412,11 @@
     "c1396d0512": {
       "fecha": "2026-11-04",
       "precio": 11120,
+      "slot": "ultima"
+    },
+    "c184ae7be9": {
+      "fecha": "2026-11-18",
+      "precio": 2300,
       "slot": "ultima"
     },
     "c2f7cd301c": {
@@ -3516,11 +3549,16 @@
       "precio": 2170,
       "slot": "ultima"
     },
+    "fcbb1ecedb": {
+      "fecha": "2026-11-18",
+      "precio": 21510,
+      "slot": "ultima"
+    },
     "fe0ec25174": {
       "fecha": "2026-11-17",
       "precio": 40850,
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-18T20:05:34.000137-03:00"
+  "ultimo_post": "2026-11-18T21:05:35.513804-03:00"
 }
