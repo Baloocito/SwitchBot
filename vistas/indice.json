@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 448,
+  "fisicos": 453,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-19T12:29:49Z",
+  "revision": "2026-11-19T13:30:41Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -216,11 +216,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "dave-the-diver"
     },
     {
@@ -274,9 +274,10 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $29.900\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $27.990\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
+        "dragon ball the breakers",
         "dragon ball xenoverse 2 for nintendo switch",
         "dragon ball z kakarot",
         "dragon ball z kakarot a new power awakens set",
@@ -539,7 +540,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 23 desde $22.900\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −43%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900\n   🟢 Mario Strikers: Battle League −50%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -549,6 +550,7 @@
         "mario rabbids kingdom sparks double pack",
         "mario rabbids sniper game",
         "mario rabbids sparks of hope",
+        "mario strikers battle league",
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
@@ -608,7 +610,7 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 4 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
       "nombres": [
         "metal gear solid master collection vol 1 sniper",
         "metal gear solid master collection vol 2",
@@ -725,7 +727,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 114 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 114 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "a memoir blue",
         "airhead",
@@ -841,8 +843,7 @@
         "undungeon",
         "unravel two",
         "untitled goose game",
-        "what remains of edith finch",
-        "xenoblade chronicles x definitive edition"
+        "what remains of edith finch"
       ],
       "orden": 1,
       "slug": "otros-juegos"
@@ -1027,9 +1028,10 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 7 desde $28.000\n   🟢 Sonic Racing: CrossWorlds −29%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000\n   🟢 Sonic Racing: CrossWorlds −29%",
       "nombres": [
         "sonic classic collection",
+        "sonic double pack",
         "sonic forces",
         "sonic frontiers",
         "sonic frontiers definitive edition",
@@ -1081,11 +1083,12 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990 · 🎮 1 desde US$2.58\n   🟢 Galactic Wars: Defend Your Star Worlds −70%",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $30.990 · 🎮 1 desde US$2.58\n   🟢 Galactic Wars: Defend Your Star Worlds −70%",
       "nombres": [
         "galactic wars defend your star worlds",
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
+        "star wars jedi knight collection europeo",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1235,11 +1238,11 @@
     },
     {
       "juego": "Xenoblade X",
-      "linea": "⚪ <b>Xenoblade X</b> — 📦 2 desde $54.900",
+      "linea": "🟢 <b>Xenoblade X</b> — 📦 3 desde $54.900\n   🟢 Xenoblade Chronicles X: Definitive Edition −20%",
       "nombres": [
         "xenoblade chronicles x definitive edition"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "xenoblade-x"
     },
     {
@@ -1267,11 +1270,12 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 The Legend of Zelda 40th Anniversary Edition",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda 40th Anniversary Edition",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda 40th anniversary edition",
         "the legend of zelda breath of the wild",
+        "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
         "the legend of zelda ocarina of time",
         "the legend of zelda tears of the kingdom"
@@ -1280,5 +1284,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 562
+  "total": 568
 }
