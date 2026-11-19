@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 522,
+  "fisicos": 521,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-19T03:19:17Z",
+  "revision": "2026-11-19T04:15:41Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -164,10 +164,9 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 2 desde $37.720\n   🟢 Contra: Operation Galuga",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $64.990\n   🟢 Contra: Operation Galuga",
       "nombres": [
-        "contra operation galuga",
-        "contra rogue corps"
+        "contra operation galuga"
       ],
       "orden": 1,
       "slug": "contra"
@@ -962,9 +961,8 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 6 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
-        "pokemon legends arceus",
         "pokemon legends za 2",
         "pokemon scarlet",
         "pokemon shield",
@@ -1359,5 +1357,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 639
+  "total": 637
 }
