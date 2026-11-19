@@ -128,6 +128,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:54e270a219",
+        "text": "⚙️ LEGO Horizon Adventures · $19.900"
+      },
+      "id": "54e270a219",
+      "nivel": "normal",
+      "nombre": "LEGO Horizon Adventures",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>LEGO Horizon Adventures</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$19.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $16.000 (27 oct, TodoJuegos) · típico $19.900 · máximo $19.900\n   ██████▁▁▁▁▁▁▁▁████████████████  últimos 30 días\n🎮 Digital: US$9.42 ≈ $9.358 en 🇨🇦 Canadá (−73%)\n   ➜ El digital es $10.542 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($19.900): el descuento no es real\n⚠️ TodoJuegos subió este juego de $16.000 a $19.900 la semana antes del evento: ojo con el «descuento»\n🛒 <a href=\"https://listado.mercadolibre.cl/lego-horizon-adventures-nintendo-switch\">MercadoLibre</a>: nuevo ~$29.680 (24 avisos)\n💰 <b>Reventa</b>: lo compras a $19.900 y nuevo se vende a ~$29.680 (+$9.780 antes de comisiones)\n🔎 Confianza media: 1 tienda y 32 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/LEGO-Horizon-Adventures--Europeo-/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:fdb55e430a",
         "text": "⚙️ LEGO Worlds · $29.990"
       },
@@ -152,5 +164,5 @@
     }
   ],
   "juego": "LEGO",
-  "revision": "2026-11-19T18:17:19Z"
+  "revision": "2026-11-19T19:19:38Z"
 }
