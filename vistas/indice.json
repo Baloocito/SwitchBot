@@ -6,18 +6,19 @@
     "nota": "fechas estimadas según 2025"
   },
   "fallos": {
+    "Lider": 1,
     "PC Factory": 12,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 571,
+  "fisicos": 572,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-20T20:18:04Z",
+  "revision": "2026-11-20T21:17:16Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -736,7 +737,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 198 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 199 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -921,6 +922,7 @@
         "the quintessential quintuplets five memories spent with you",
         "the quintessential quintuplets memories of a quintessential summer",
         "the survivalists",
+        "this war of mine complete edition",
         "tinykin",
         "tony hawks pro skater 1 4 deluxe edition bundle",
         "touhou new world",
@@ -1388,5 +1390,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 692
+  "total": 693
 }
