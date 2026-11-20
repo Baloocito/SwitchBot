@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 570,
+  "fisicos": 571,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-20T18:16:32Z",
+  "revision": "2026-11-20T19:16:26Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -81,12 +81,11 @@
     },
     {
       "juego": "Batman",
-      "linea": "🟢 <b>Batman</b> — 📦 1 desde $69.900 · 🎮 3 desde US$7.54\n   🟢 Batman: Arkham Asylum −60%",
+      "linea": "🟢 <b>Batman</b> — 🎮 3 desde US$7.54\n   🟢 Batman: Arkham Asylum −60%",
       "nombres": [
         "batman arkham asylum",
         "batman arkham city",
-        "batman arkham knight",
-        "lego batman legacy of the dark knight"
+        "batman arkham knight"
       ],
       "orden": 1,
       "slug": "batman"
@@ -164,15 +163,6 @@
       ],
       "orden": 1,
       "slug": "chrono-mana"
-    },
-    {
-      "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
-      "nombres": [
-        "contra rogue corps"
-      ],
-      "orden": 1,
-      "slug": "contra"
     },
     {
       "juego": "Crash / Spyro",
@@ -287,8 +277,9 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 18 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 19 desde $24.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
+        "dragon quest",
         "dragon quest builders",
         "dragon quest builders 2",
         "dragon quest i ii hd 2d remake",
@@ -334,7 +325,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 FINAL FANTASY IX −25%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 15 desde $34.990\n   🟢 FINAL FANTASY IX −25%",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
@@ -346,6 +337,7 @@
         "final fantasy vii remake intergrade",
         "final fantasy vii revelation",
         "final fantasy viii remastered",
+        "final fantasy x x 2 hd remaster",
         "final fantasy xii the zodiac age",
         "world of final fantasy maxima"
       ],
@@ -735,7 +727,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 197 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 198 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -785,6 +777,7 @@
         "digimon world next order",
         "disc room",
         "doom anthology",
+        "dorfromantik",
         "dragons dogma dark arisen",
         "dropsy",
         "dusk diver",
@@ -980,8 +973,9 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 6 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
+        "pokemon legends arceus",
         "pokemon legends za 2",
         "pokemon scarlet",
         "pokemon shield",
@@ -1125,7 +1119,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000 · 🎮 5 desde US$2.05\n   🟢 SONIC X SHADOW GENERATIONS −75%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000 · 🎮 5 desde US$2.05\n   🟢 SONIC X SHADOW GENERATIONS −75%",
       "nombres": [
         "sega ages sonic the hedgehog",
         "sonic classic collection",
@@ -1386,5 +1380,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 691
+  "total": 692
 }

@@ -2796,7 +2796,7 @@
       "orden": 1,
       "pct": 60.0,
       "precio_usd": 5.02,
-      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Untitled Goose Game</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.02</b> ≈ $5.059 en 🇧🇷 Brasil\n   Precio en la tienda: R$29,59 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$12.56 → ahorras US$7.54 · ⏳ termina el 21 nov (¡hoy!)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/untitled-goose-game-switch/\">US$5.02</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/untitled-goose-game-switch/\">US$5.03</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/untitled-goose-game-switch/\">US$7.25</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/untitled-goose-game-switch/\">US$7.62</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/untitled-goose-game-switch/\">US$7.69</a>\n   El más caro: 🇲🇽 US$8.20\n📦 Físico: $39.990 en 8 Bits → el digital te ahorra $34.931\n📈 Mínimo US$5.02 (19 nov en 🇧🇷 Brasil)\n   ▇▇█████▇▇▆▅▅▄▄▃▁▁  últimos 17 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/untitled-goose-game-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Untitled Goose Game</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.02</b> ≈ $5.059 en 🇧🇷 Brasil\n   Precio en la tienda: R$29,59 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$12.56 → ahorras US$7.54 · ⏳ termina el 21 nov (¡hoy!)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/untitled-goose-game-switch/\">US$5.02</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/untitled-goose-game-switch/\">US$5.03</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/untitled-goose-game-switch/\">US$7.25</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/untitled-goose-game-switch/\">US$7.62</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/untitled-goose-game-switch/\">US$7.69</a>\n   El más caro: 🇲🇽 US$8.20\n📦 Físico: $39.990 en Falabella → el digital te ahorra $34.931\n📈 Mínimo US$5.02 (19 nov en 🇧🇷 Brasil)\n   ▇▇█████▇▇▆▅▅▄▄▃▁▁  últimos 17 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/untitled-goose-game-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -4678,6 +4678,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:2b5ee4abc2",
+        "text": "⚙️ Dorfromantik · US$6.36"
+      },
+      "con_fisico": false,
+      "id": "2b5ee4abc2",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "Dorfromantik",
+      "orden": 1,
+      "pct": 25.0,
+      "precio_usd": 6.36,
+      "texto": "🟢 <b>COMPRA YA</b> · −25%\n<b>Dorfromantik</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$6.36</b> ≈ $6.410 en 🇧🇷 Brasil\n   Precio en la tienda: R$37,50 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$8.48 → ahorras US$2.12 · ⏳ termina el 12 dic (en 22 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/dorfromantik-switch/\">US$6.36</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/dorfromantik-switch/\">US$7.44</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/dorfromantik-switch/\">US$9.03</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/dorfromantik-switch/\">US$9.94</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/dorfromantik-switch/\">US$10.09</a>\n   El más caro: 🇺🇸 US$11.24\n📈 Mínimo US$6.36 (20 nov en 🇧🇷 Brasil)\n   ██▇▇▇██▁  últimos 8 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/dorfromantik-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:1d83795bca",
         "text": "⚙️ Once Upon A KATAMARI · US$22.70"
       },
@@ -4918,21 +4934,6 @@
       "pct": 12.5,
       "precio": 34990.0,
       "texto": "🟢 <b>COMPRA YA</b> · −12%\n<b>Collection of Mana</b>\n🕹️ Switch 1 · 📦 Físico · Chrono / Mana\n💰 <b>$34.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n   Ahorras $5.000 frente a su precio típico ($39.990)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/collection-of-mana-juego-fisico-nintendo-switch-sniper-1\">$34.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/159924208/collection-of-mana-switch\">$39.990 Falabella</a> 🏪 Kaiojuegos (+$5.000)\n   🥉 <a href=\"https://www.paris.cl/collection-of-mana-juego-fisico-nintendo-switch-sniper-MK19ELJZP8.html\">$39.990 Paris</a> 🏪 SNIPERCL (+$5.000)\n📈 Mínimo $34.990 (20 nov, Sniper) · típico $39.990 · máximo $39.990\n   █████████████████████████████▁  últimos 30 días\n🎮 Digital: US$33.85 ≈ $34.114 en 🇧🇷 Brasil\n   ➜ El digital es $876 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $39.990: hoy está 13% más barato de verdad\n📉 Precio bajó 13% en las últimas 2 semanas\n🛒 <a href=\"https://listado.mercadolibre.cl/collection-of-mana-nintendo-switch\">MercadoLibre</a>: nuevo ~$38.990 (3 avisos)\n🔎 Confianza alta: 3 tiendas y 38 días de historial\n🛒 <a href=\"https://sniper.cl/products/collection-of-mana-juego-fisico-nintendo-switch-sniper-1\">Ir a comprar en Sniper</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:a53189648e",
-        "text": "⚙️ CONTRA: ROGUE CORPS · $32.990"
-      },
-      "id": "a53189648e",
-      "juego": "Contra",
-      "nivel": "compra",
-      "nombre": "CONTRA: ROGUE CORPS",
-      "orden": 1,
-      "pct": 12.5,
-      "precio": 32990.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −12%\n<b>CONTRA: ROGUE CORPS</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$32.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n   Ahorras $4.730 frente a su precio típico ($37.720)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/contra-rogue-corps-juego-fisico-nintendo-switch-sniper-1\">$32.990 Sniper</a>\n   🥈 <a href=\"https://www.paris.cl/contra-rogue-corps-juego-fisico-nintendo-switch-sniper-MKLK5I0511.html\">$37.720 Paris</a> 🏪 SNIPERCL (+$4.730)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/112713607/Contra-Rogue-Corps-Switch-Fisico-Sniper\">$37.990 Falabella</a> 🏪 Sniper (+$5.000)\n📈 Mínimo $32.990 (20 nov, Sniper) · típico $37.720 · máximo $37.720\n   █████████████████████████████▁  últimos 30 días\n🎮 Digital: US$27.77 ≈ $27.986 en 🇨🇱 Chile\n   ➜ El digital es $5.004 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $37.720: hoy está 13% más barato de verdad\n📉 Precio bajó 13% en las últimas 2 semanas\n🛒 <a href=\"https://listado.mercadolibre.cl/contra-rogue-corps-nintendo-switch\">MercadoLibre</a>: nuevo ~$31.020 (16 avisos)\n🔎 Confianza alta: 3 tiendas y 38 días de historial\n🛒 <a href=\"https://sniper.cl/products/contra-rogue-corps-juego-fisico-nintendo-switch-sniper-1\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     },
     {
@@ -5892,7 +5893,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 69990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>DOOM</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $79.990» (−13%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148490815/doom-the-classics-collection-switch-fisico-sniper\">$69.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/doom-the-classics-collection-switch-fisico-sniper-MKISP3JNGT.html\">$69.990 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://sniper.cl/products/doom-the-classics-collection-switch-fisico-sniper\">$69.990 Sniper</a> (+$0)\n📈 Mínimo $69.990 (14 oct, Falabella) · típico $69.990 · máximo $69.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$3.70 ≈ $3.729 en 🇧🇷 Brasil (−80%)\n   ➜ El digital es $66.261 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($69.990): el descuento no es real\n🔎 Confianza alta: 3 tiendas y 38 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148490815/doom-the-classics-collection-switch-fisico-sniper\">Ir a comprar en Falabella</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>DOOM</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $72.990» (−4%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/123779323/Doom-The-Classics-Collection-Switch-Fisico-Sniper\">$69.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/doom-the-classics-collection-switch-fisico-sniper-MKISP3JNGT.html\">$69.990 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://sniper.cl/products/doom-the-classics-collection-switch-fisico-sniper\">$69.990 Sniper</a> (+$0)\n📈 Mínimo $69.990 (14 oct, Falabella) · típico $69.990 · máximo $69.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$3.70 ≈ $3.729 en 🇧🇷 Brasil (−80%)\n   ➜ El digital es $66.261 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($69.990): el descuento no es real\n🔎 Confianza alta: 3 tiendas y 38 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/123779323/Doom-The-Classics-Collection-Switch-Fisico-Sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -5982,7 +5983,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 74990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>DRAGON QUEST BUILDERS 2</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$74.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $74.990 (19 oct, Sniper) · típico $74.990 · máximo $74.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$47.50 ≈ $47.870 en 🇧🇷 Brasil\n   ➜ El digital es $27.120 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($74.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/dragon-quest-builders-2-nintendo-switch\">MercadoLibre</a>: nuevo ~$61.490 (2 avisos)\n🔎 Confianza media: 1 tienda y 33 días de historial\n🛒 <a href=\"https://sniper.cl/products/dragon-quest-builders-2-juego-fisico-switch-sniper-game\">Ir a comprar en Sniper</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>DRAGON QUEST BUILDERS 2</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$74.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $84.990» (−12%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/155650824/dragon-quest-builders-2-juego-fisico-switch-sniper-game\">$74.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://sniper.cl/products/dragon-quest-builders-2-juego-fisico-switch-sniper-game\">$74.990 Sniper</a> (+$0)\n📈 Mínimo $74.990 (19 oct, Sniper) · típico $74.990 · máximo $74.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$47.50 ≈ $47.870 en 🇧🇷 Brasil\n   ➜ El digital es $27.120 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($74.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/dragon-quest-builders-2-nintendo-switch\">MercadoLibre</a>: nuevo ~$61.490 (2 avisos)\n🔎 Confianza media: 2 tiendas y 33 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/155650824/dragon-quest-builders-2-juego-fisico-switch-sniper-game\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -6152,6 +6153,21 @@
     },
     {
       "boton": {
+        "callback_data": "a:3e7a1dd491",
+        "text": "⚙️ DRAGON QUEST · $24.990"
+      },
+      "id": "3e7a1dd491",
+      "juego": "Dragon Quest",
+      "nivel": "compra",
+      "nombre": "DRAGON QUEST",
+      "orden": 1,
+      "pct": 0,
+      "precio": 24990.0,
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>DRAGON QUEST</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$24.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏷️ La tienda dice «antes $59.990», pero las demás lo venden cerca de $44.990: ese descuento está inflado\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/dragon-quest-1-2-3-collection-juego-fisico-nintendo-switch\">$24.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/148595111/Dragon-Quest-1-2-3-Collection-Juego-Fisico-Nintendo-Switch\">$29.990 Falabella</a> 🏪 Sniper (+$5.000)\n   🥉 <a href=\"https://www.paris.cl/dragon-quest-1-2-3-collection-juego-fisico-nintendo-switch-MKG2RQ8ULP.html\">$59.990 Paris</a> 🏪 SNIPERCL (+$35.000) ⚠️ ¿otra edición?\n📈 Mínimo $24.990 (19 oct, Sniper) · típico $24.990 · máximo $29.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$4.23 ≈ $4.263 en 🇧🇷 Brasil\n   ➜ El digital es $20.727 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($24.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/dragon-quest-nintendo-switch\">MercadoLibre</a>: nuevo ~$61.990 (23 avisos)\n💰 <b>Reventa</b>: lo compras a $24.990 y nuevo se vende a ~$61.990 (+$37.000 antes de comisiones)\n🔎 Confianza alta: 3 tiendas y 38 días de historial\n🛒 <a href=\"https://sniper.cl/products/dragon-quest-1-2-3-collection-juego-fisico-nintendo-switch\">Ir a comprar en Sniper</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:50e7fa30b3",
         "text": "⚙️ EA SPORTS FC 26 S2 · $19.990"
       },
@@ -6192,7 +6208,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 59990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Emio - The Smiling Man Sniper</b>\n🕹️ Switch 1 · 📦 Físico · Emio / Famicom Detective\n💰 <b>$59.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $69.990» (−14%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/emio-the-smiling-man-nintendo-switch-sniper\">$59.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/143194662/Emio-The-Smiling-Man-Nintendo-Switch-Sniper\">$69.990 Falabella</a> 🏪 Sniper (+$10.000)\n   🥉 <a href=\"https://www.paris.cl/emio-the-smiling-man-nintendo-switch-sniper-MKMH1MQWV5.html\">$69.990 Paris</a> 🏪 SNIPERCL (+$10.000)\n📈 Mínimo $59.990 (19 oct, Sniper) · típico $59.990 · máximo $69.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n📅 Mismo precio que antes de Black Friday eShop ($59.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/emio-the-smiling-man-sniper-nintendo-switch\">MercadoLibre</a>: nuevo ~$64.990 (2 avisos)\n🔎 Confianza alta: 3 tiendas y 38 días de historial\n🛒 <a href=\"https://sniper.cl/products/emio-the-smiling-man-nintendo-switch-sniper\">Ir a comprar en Sniper</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Emio - The Smiling Man Sniper</b>\n🕹️ Switch 1 · 📦 Físico · Emio / Famicom Detective\n💰 <b>$59.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $69.990» (−14%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/emio-the-smiling-man-nintendo-switch-sniper\">$59.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/150544718/emio-the-smiling-man-nintendo-switch-sniper\">$69.990 Falabella</a> 🏪 Sniper (+$10.000)\n   🥉 <a href=\"https://www.paris.cl/emio-the-smiling-man-nintendo-switch-sniper-MKMH1MQWV5.html\">$69.990 Paris</a> 🏪 SNIPERCL (+$10.000)\n📈 Mínimo $59.990 (19 oct, Sniper) · típico $59.990 · máximo $69.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n📅 Mismo precio que antes de Black Friday eShop ($59.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/emio-the-smiling-man-sniper-nintendo-switch\">MercadoLibre</a>: nuevo ~$64.990 (2 avisos)\n🔎 Confianza alta: 3 tiendas y 38 días de historial\n🛒 <a href=\"https://sniper.cl/products/emio-the-smiling-man-nintendo-switch-sniper\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     },
     {
@@ -6417,7 +6433,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 34711.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Harvest Moon: Mad Dash</b>\n🕹️ Switch 1 · 📦 Físico · Story of Seasons\n💰 <b>$34.711</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda dice «antes $44.711», pero las demás lo venden cerca de $34.711: ese descuento está inflado\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148490969/Harvest-Moon:-Mad-Dash-Switch-Sniper\">$34.711 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/harvest-moon-mad-dash-switch-sniper-MKNIV9H4VQ.html\">$34.711 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://sniper.cl/products/harvest-moon-mad-dash-switch-sniper\">$34.711 Sniper</a> (+$0)\n📈 Mínimo $34.711 (14 oct, Falabella) · típico $34.711 · máximo $34.711\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$18.14 ≈ $18.281 en 🇨🇦 Canadá\n   ➜ El digital es $16.430 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($34.711): el descuento no es real\n🔎 Confianza alta: 3 tiendas y 38 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148490969/Harvest-Moon:-Mad-Dash-Switch-Sniper\">Ir a comprar en Falabella</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Harvest Moon: Mad Dash</b>\n🕹️ Switch 1 · 📦 Físico · Story of Seasons\n💰 <b>$34.711</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda dice «antes $44.711», pero las demás lo venden cerca de $34.711: ese descuento está inflado\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148490969/Harvest-Moon:-Mad-Dash-Switch-Sniper\">$34.711 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/harvest-moon-mad-dash-switch-sniper-MKNIV9H4VQ.html\">$34.711 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://sniper.cl/products/harvest-moon-mad-dash-switch-sniper-1\">$34.711 Sniper</a> (+$0)\n📈 Mínimo $34.711 (14 oct, Falabella) · típico $34.711 · máximo $34.711\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$18.14 ≈ $18.281 en 🇨🇦 Canadá\n   ➜ El digital es $16.430 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($34.711): el descuento no es real\n🔎 Confianza alta: 3 tiendas y 38 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148490969/Harvest-Moon:-Mad-Dash-Switch-Sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -6852,7 +6868,7 @@
       "orden": 1,
       "pct": 0,
       "precio": 54990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Legend of Mana</b>\n🕹️ Switch 1 · 📦 Físico · Chrono / Mana\n💰 <b>$54.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $64.990» (−15%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/148490742/legend-of-mana-switch-fisico-sniper\">$54.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/legend-of-mana-switch-fisico-sniper-MK2O4D7NUK.html\">$54.990 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://sniper.cl/products/legend-of-mana-switch-fisico-sniper\">$54.990 Sniper</a> (+$0)\n📈 Mínimo $54.990 (14 oct, Falabella) · típico $54.990 · máximo $54.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$22.82 ≈ $22.998 en 🇨🇱 Chile\n   ➜ El digital es $31.992 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($54.990): el descuento no es real\n🔎 Confianza alta: 3 tiendas y 38 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/148490742/legend-of-mana-switch-fisico-sniper\">Ir a comprar en Falabella</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>Legend of Mana</b>\n🕹️ Switch 1 · 📦 Físico · Chrono / Mana\n💰 <b>$54.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $64.990» (−15%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/112608526/Legend-of-Mana-Switch-Fisico-Sniper\">$54.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/legend-of-mana-switch-fisico-sniper-MK2O4D7NUK.html\">$54.990 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://sniper.cl/products/legend-of-mana-switch-fisico-sniper\">$54.990 Sniper</a> (+$0)\n📈 Mínimo $54.990 (14 oct, Falabella) · típico $54.990 · máximo $54.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$22.82 ≈ $22.998 en 🇨🇱 Chile\n   ➜ El digital es $31.992 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($54.990): el descuento no es real\n🔎 Confianza alta: 3 tiendas y 38 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/112608526/Legend-of-Mana-Switch-Fisico-Sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -8836,5 +8852,5 @@
       "tipo": "fisico"
     }
   ],
-  "revision": "2026-11-20T18:16:32Z"
+  "revision": "2026-11-20T19:16:26Z"
 }
