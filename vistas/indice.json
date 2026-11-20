@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 574,
+  "fisicos": 567,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-20T07:17:07Z",
+  "revision": "2026-11-20T08:17:19Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -213,11 +213,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
+      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "dave-the-diver"
     },
     {
@@ -415,9 +415,8 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
       "nombres": [
-        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -530,7 +529,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 25 desde $22.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -540,7 +539,6 @@
         "mario rabbids kingdom sparks double pack",
         "mario rabbids sniper game",
         "mario rabbids sparks of hope",
-        "mario strikers battle league",
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
@@ -728,13 +726,12 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 200 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 197 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
         "ai the somnium files",
         "ai the somnium files nirvana initiative",
-        "airhead",
         "akibas trip hellbound debriefed",
         "akibas trip undead undressed directors cut",
         "amber isle",
@@ -757,7 +754,6 @@
         "class of heroes 1 2 complete edition",
         "class of heroes 2g remaster edition",
         "class of heroes anniversary edition",
-        "clouds sheep 2",
         "conscript",
         "cook serve delicious",
         "cook serve delicious 2",
@@ -785,7 +781,6 @@
         "dusk diver",
         "ea sports madden nfl 27",
         "efootball kick off",
-        "el hijo a wild west tale",
         "enter x exit the gungeon",
         "etrian odyssey origins collection",
         "ever 17 never 7 double pack",
@@ -1180,11 +1175,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1243,7 +1237,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 10 desde $29.990\n   🟢 40 Sports Games In 1 / - Snipercl",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 10 desde $29.990\n   🟢 EA SPORTS FC26",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1382,5 +1376,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 694
+  "total": 687
 }
