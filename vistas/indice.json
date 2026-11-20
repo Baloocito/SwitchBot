@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 573,
+  "fisicos": 570,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-20T14:17:27Z",
+  "revision": "2026-11-20T15:25:18Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -539,7 +539,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 28 desde $22.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 25 desde $22.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -553,7 +553,6 @@
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
-        "new super mario bros u deluxe",
         "paper mario the thousand year door",
         "super mario bros wonder",
         "super mario galaxy 2",
@@ -698,7 +697,7 @@
     },
     {
       "juego": "Octopath Traveler",
-      "linea": "🟢 <b>Octopath Traveler</b> — 📦 7 desde $44.990\n   🟢 OCTOPATH TRAVELER II −14%",
+      "linea": "🟢 <b>Octopath Traveler</b> — 📦 7 desde $44.990\n   🟢 OCTOPATH TRAVELER 0",
       "nombres": [
         "octopath traveler",
         "octopath traveler 0",
@@ -1390,5 +1389,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 695
+  "total": 692
 }
