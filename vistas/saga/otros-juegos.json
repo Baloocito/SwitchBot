@@ -158,19 +158,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:e1c4f1712a",
-        "text": "⚙️ Darkest Dungeon · US$1.97"
-      },
-      "con_fisico": false,
-      "id": "e1c4f1712a",
-      "nivel": "compra",
-      "nombre": "Darkest Dungeon",
-      "pct": 84.7,
-      "texto": "🟢 <b>COMPRA YA</b> · −85%\n<b>Darkest Dungeon</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$1.97</b> ≈ $1.985 en 🇨🇱 Chile\n   Precio en la tienda: $1.990 CLP\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$12.90 → ahorras US$10.93 · ⏳ termina el 20 nov (¡hoy!)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/darkest-dungeon-switch/\">US$1.97</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/darkest-dungeon-switch/\">US$2.03</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/darkest-dungeon-switch/\">US$2.32</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/darkest-dungeon-switch/\">US$2.64</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/darkest-dungeon-switch/\">US$3.24</a>\n   El más caro: 🇲🇽 US$3.78\n📈 Mínimo US$1.97 (19 nov en 🇨🇱 Chile)\n   ▆▅▆▅▄▄▇▇█████▇▇▆▅▅▄▄▃▁▁  últimos 23 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/darkest-dungeon-switch/\">Ver en la eShop de Chile</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:ae12528c46",
         "text": "⚙️ Digimon Survive · US$6.35"
       },
@@ -1640,19 +1627,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:95bc412aef",
-        "text": "⚙️ Darkest Dungeon II · US$5.68"
-      },
-      "con_fisico": true,
-      "id": "95bc412aef",
-      "nivel": "compra",
-      "nombre": "Darkest Dungeon II",
-      "pct": 69.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −69%\n<b>Darkest Dungeon II</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.68</b> ≈ $5.724 en 🇧🇷 Brasil\n   Precio en la tienda: R$33,47 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$18.32 → ahorras US$12.64 · ⏳ termina el 20 nov (¡hoy!)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/darkest-dungeon-ii-switch/\">US$5.68</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/darkest-dungeon-ii-switch/\">US$5.84</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/darkest-dungeon-ii-switch/\">US$6.68</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/darkest-dungeon-ii-switch/\">US$6.96</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/darkest-dungeon-ii-switch/\">US$7.97</a>\n   El más caro: 🇺🇸 US$12.39\n📦 Físico: $51.990 en Lider → el digital te ahorra $46.266\n📈 Mínimo US$5.68 (19 nov en 🇧🇷 Brasil)\n   ▇▆▆▆▆▆▇▇█████▇▇▆▆▆▅▄▃▁▁  últimos 23 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/darkest-dungeon-ii-switch/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
         "callback_data": "a:f9323d79d2",
         "text": "⚙️ Scott Pilgrim vs. The World: … · US$3.26"
       },
@@ -2664,5 +2638,5 @@
     }
   ],
   "juego": "🔍 Otros juegos",
-  "revision": "2026-11-20T06:17:20Z"
+  "revision": "2026-11-20T07:17:07Z"
 }
