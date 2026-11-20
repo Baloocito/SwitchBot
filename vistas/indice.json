@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 570,
+  "fisicos": 568,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-20T15:25:18Z",
+  "revision": "2026-11-20T17:17:29Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -51,7 +51,7 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 3 desde $20.000 · 🎮 2 desde US$9.41\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 4 desde $20.000 · 🎮 2 desde US$9.41\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
       "nombres": [
         "assassins creed iii remastered",
         "assassins creed shadows",
@@ -63,7 +63,7 @@
     },
     {
       "juego": "Atelier",
-      "linea": "🟢 <b>Atelier</b> — 📦 11 desde $39.990\n   🟢 Atelier Dusk Trilogy Deluxe Pack",
+      "linea": "🟢 <b>Atelier</b> — 📦 11 desde $39.990\n   🟢 Atelier Lulua ~The Scion of Arland~ −10%",
       "nombres": [
         "atelier dusk trilogy deluxe pack",
         "atelier lulua the scion of arland",
@@ -166,15 +166,6 @@
       "slug": "chrono-mana"
     },
     {
-      "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $37.720\n   🟢 CONTRA: ROGUE CORPS",
-      "nombres": [
-        "contra rogue corps"
-      ],
-      "orden": 1,
-      "slug": "contra"
-    },
-    {
       "juego": "Crash / Spyro",
       "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000\n   🟢 Crash 4 Bandicoot",
       "nombres": [
@@ -222,11 +213,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
+      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "dave-the-diver"
     },
     {
@@ -424,9 +415,8 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
       "nombres": [
-        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -539,7 +529,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 25 desde $22.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -549,7 +539,6 @@
         "mario rabbids kingdom sparks double pack",
         "mario rabbids sniper game",
         "mario rabbids sparks of hope",
-        "mario strikers battle league",
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
@@ -697,7 +686,7 @@
     },
     {
       "juego": "Octopath Traveler",
-      "linea": "🟢 <b>Octopath Traveler</b> — 📦 7 desde $44.990\n   🟢 OCTOPATH TRAVELER 0",
+      "linea": "🟢 <b>Octopath Traveler</b> — 📦 7 desde $44.990\n   🟢 OCTOPATH TRAVELER II −14%",
       "nombres": [
         "octopath traveler",
         "octopath traveler 0",
@@ -1186,12 +1175,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 6 desde $34.900\n   🟢 LEGO Star Wars: The Skywalker Saga",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.990\n   🟢 LEGO Star Wars: The Skywalker Saga",
       "nombres": [
         "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1389,5 +1377,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 692
+  "total": 688
 }
