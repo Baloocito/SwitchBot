@@ -694,11 +694,11 @@
         }
       ],
       "marca": "Logitech G",
-      "min_hist": 129990,
-      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (tienda oficia",
-      "pct": 0.0,
+      "min_hist": 161990,
+      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (DEPLOY)",
+      "pct": 0,
       "precio": 161990,
-      "ref_tipo": "tipico",
+      "ref_tipo": null,
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
     },
@@ -712,11 +712,11 @@
         }
       ],
       "marca": "Logitech G",
-      "min_hist": 161990,
-      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (DEPLOY)",
-      "pct": 0,
+      "min_hist": 129990,
+      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (tienda oficia",
+      "pct": 0.0,
       "precio": 161990,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
     },
@@ -1190,12 +1190,6 @@
           "tienda": "Bestmart",
           "titulo": "Tarjeta microSD Express Samsung de 256GB para Nintendo Switch 2",
           "url": "https://bestmart.cl/products/tarjeta-microsd-express-samsung-de-256gb-para-nintendo-switch-2"
-        },
-        {
-          "precio": 88800,
-          "tienda": "MercadoLibre",
-          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
-          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1217,12 +1211,6 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Sandisk 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Sandisk-256gb/?ref=buscador"
-        },
-        {
-          "precio": 88490,
-          "tienda": "MercadoLibre",
-          "titulo": "Tarjeta Memoria MicroSD Express SanDisk 256GB Para Nintendo Switch 2 Licencia Oficial Nintendo Lectura 880MB/s Escritura 650MB/s Diseño Super Mario Modelo SDSQXFN-256G-GR6ZN (ELECTROLANDIA CHILE)",
-          "url": "https://articulo.mercadolibre.cl/MLC-4698611796"
         }
       ],
       "gb": 256,
@@ -1370,7 +1358,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-20T03:17:40Z",
+  "revision": "2026-11-20T04:17:45Z",
   "seguimientos": [
     {
       "avisos": [
