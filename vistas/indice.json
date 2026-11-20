@@ -17,7 +17,7 @@
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-20T19:16:26Z",
+  "revision": "2026-11-20T20:18:04Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -163,6 +163,15 @@
       ],
       "orden": 1,
       "slug": "chrono-mana"
+    },
+    {
+      "juego": "Contra",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "nombres": [
+        "contra rogue corps"
+      ],
+      "orden": 1,
+      "slug": "contra"
     },
     {
       "juego": "Crash / Spyro",
@@ -530,7 +539,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 24 desde $22.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $29.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -973,9 +982,8 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 6 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
-        "pokemon legends arceus",
         "pokemon legends za 2",
         "pokemon scarlet",
         "pokemon shield",
