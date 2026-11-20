@@ -399,24 +399,6 @@
     {
       "avisos": [
         {
-          "precio": 59990.0,
-          "tarjeta": 49990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/17292989/Audifono-Headset-Redragon-H510P-RGB-Zeus-X-Pink"
-        }
-      ],
-      "marca": "redragon",
-      "min_hist": 59990.0,
-      "nombre": "Audífono Headset H510P RGB Zeus X Pink",
-      "pct": 0.0,
-      "precio": 59990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/17292989/Audifono-Headset-Redragon-H510P-RGB-Zeus-X-Pink"
-    },
-    {
-      "avisos": [
-        {
           "precio": 60990.0,
           "tarjeta": null,
           "tienda": "Falabella",
@@ -449,6 +431,24 @@
       "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80716017/audifono-gamer-g321-logitech"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 79990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-3175858844"
+        }
+      ],
+      "marca": "SteelSeries",
+      "min_hist": 72990,
+      "nombre": "Audífonos Gamer Steelseries Arctis Nova 1 White Ps5 Blanco (GASEI S.A.",
+      "pct": 0,
+      "precio": 79990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-3175858844"
     },
     {
       "avisos": [
@@ -633,24 +633,6 @@
     {
       "avisos": [
         {
-          "precio": 124990.0,
-          "tarjeta": 119990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/16688581/zone-vibe-100-headset-inalambrico-negro-logitech"
-        }
-      ],
-      "marca": "logitech g",
-      "min_hist": 124990.0,
-      "nombre": "Zone Vibe 100 Headset Inalámbrico Negro",
-      "pct": 0,
-      "precio": 124990.0,
-      "ref_tipo": null,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/16688581/zone-vibe-100-headset-inalambrico-negro-logitech"
-    },
-    {
-      "avisos": [
-        {
           "precio": 128990,
           "tarjeta": null,
           "tienda": "MercadoLibre",
@@ -717,6 +699,24 @@
       "pct": 0.0,
       "precio": 161990,
       "ref_tipo": "tipico",
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 161990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
+        }
+      ],
+      "marca": "Logitech G",
+      "min_hist": 161990,
+      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (DEPLOY)",
+      "pct": 0,
+      "precio": 161990,
+      "ref_tipo": null,
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
     },
@@ -886,6 +886,23 @@
     {
       "avisos": [
         {
+          "precio": 309990.0,
+          "tienda": "Bestmart",
+          "url": "https://bestmart.cl/products/consola-nintendo-switch-modelo-super-mario-bros-wonder-bundle-descarga-del-juego-completo-3-meses-de-suscripcion-a-nintendo-switch-online-lt2"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 309990.0,
+      "modelo": "Switch",
+      "nombre": "Consola Nintendo Switch Neon + Super Mario Bros. Wonder + 3 meses Nintendo Switc",
+      "pct": 0.0,
+      "precio": 309990.0,
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/consola-nintendo-switch-modelo-super-mario-bros-wonder-bundle-descarga-del-juego-completo-3-meses-de-suscripcion-a-nintendo-switch-online-lt2"
+    },
+    {
+      "avisos": [
+        {
           "precio": 349990.0,
           "tienda": "Paris",
           "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
@@ -978,7 +995,7 @@
       "min_hist": 609990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Nintendo Switch 2 + Sports Resort + 3 Meses NSO",
-      "pct": 1.5,
+      "pct": 0.0,
       "precio": 669990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
@@ -1063,7 +1080,7 @@
       "min_hist": 949990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Nintendo Switch 2 - Zelda: 40th Aniv. Edition (EU)",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 949990.0,
       "tienda": "Sniper",
       "url": "https://sniper.cl/products/consola-nintendo-switch-2-zelda-40th-aniv-edition-eu"
@@ -1173,6 +1190,12 @@
           "tienda": "Bestmart",
           "titulo": "Tarjeta microSD Express Samsung de 256GB para Nintendo Switch 2",
           "url": "https://bestmart.cl/products/tarjeta-microsd-express-samsung-de-256gb-para-nintendo-switch-2"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1194,6 +1217,12 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Sandisk 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Sandisk-256gb/?ref=buscador"
+        },
+        {
+          "precio": 88490,
+          "tienda": "MercadoLibre",
+          "titulo": "Tarjeta Memoria MicroSD Express SanDisk 256GB Para Nintendo Switch 2 Licencia Oficial Nintendo Lectura 880MB/s Escritura 650MB/s Diseño Super Mario Modelo SDSQXFN-256G-GR6ZN (ELECTROLANDIA CHILE)",
+          "url": "https://articulo.mercadolibre.cl/MLC-4698611796"
         }
       ],
       "gb": 256,
@@ -1341,7 +1370,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-20T01:21:54Z",
+  "revision": "2026-11-20T03:17:40Z",
   "seguimientos": [
     {
       "avisos": [
@@ -1383,7 +1412,7 @@
         }
       ],
       "item": "Redragon Zeus",
-      "min_hist": 45990,
+      "min_hist": 44990,
       "nombre": "Auriculares para juegos Redragon Zeus Lite P3, negros, H510-lt (ELEL98",
       "precio": 44990,
       "tarjeta": null,
