@@ -156,24 +156,14 @@
     },
     "2026-11-20": {
       "bombazos": 2,
-      "posts": 3,
+      "posts": 4,
       "slots": [
-        "top"
+        "top",
+        "pack"
       ]
     }
   },
   "posts": [
-    {
-      "fecha": "2026-10-19T13:35-03:00",
-      "ids": [
-        "68949691fc",
-        "c818dd5b91",
-        "19c3c30995",
-        "73f87cfe71"
-      ],
-      "message_id": 13,
-      "slot": "pack"
-    },
     {
       "fecha": "2026-10-19T15:05-03:00",
       "ids": [
@@ -1974,6 +1964,18 @@
       ],
       "message_id": 217,
       "slot": "bombazo"
+    },
+    {
+      "fecha": "2026-11-20T13:35-03:00",
+      "ids": [
+        "1aaef762f5",
+        "b0b96e6fa8",
+        "2ea057d12e",
+        "eac714c0f7",
+        "d156f22585"
+      ],
+      "message_id": 218,
+      "slot": "pack"
     }
   ],
   "publicados": {
@@ -2097,6 +2099,11 @@
       "precio": 4800,
       "slot": "pack"
     },
+    "1aaef762f5": {
+      "fecha": "2026-11-20",
+      "precio": 10750,
+      "slot": "pack"
+    },
     "1e1bfb9e0a": {
       "fecha": "2026-10-31",
       "precio": 8000,
@@ -2160,6 +2167,11 @@
     "2b17858405": {
       "fecha": "2026-10-29",
       "precio": 2170,
+      "slot": "pack"
+    },
+    "2ea057d12e": {
+      "fecha": "2026-11-20",
+      "precio": 5750,
       "slot": "pack"
     },
     "2f78dcbffb": {
@@ -2733,9 +2745,9 @@
       "slot": "top"
     },
     "b0b96e6fa8": {
-      "fecha": "2026-11-13",
+      "fecha": "2026-11-20",
       "precio": 4500,
-      "slot": "top"
+      "slot": "pack"
     },
     "b132c03cdb": {
       "fecha": "2026-10-24",
@@ -2927,6 +2939,11 @@
       "precio": 2250,
       "slot": "top"
     },
+    "d156f22585": {
+      "fecha": "2026-11-20",
+      "precio": 4470,
+      "slot": "pack"
+    },
     "d1b6eb8d5f": {
       "fecha": "2026-10-31",
       "precio": 8000,
@@ -3051,6 +3068,11 @@
       "fecha": "2026-11-13",
       "precio": 15400,
       "slot": "top"
+    },
+    "eac714c0f7": {
+      "fecha": "2026-11-20",
+      "precio": 3800,
+      "slot": "pack"
     },
     "ed2e82dd98": {
       "fecha": "2026-11-12",
@@ -3644,5 +3666,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-20T11:05:36.796366-03:00"
+  "ultimo_post": "2026-11-20T13:35:46.521660-03:00"
 }
