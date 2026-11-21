@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 550,
+  "fisicos": 553,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-21T15:16:13Z",
+  "revision": "2026-11-21T16:17:06Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -166,8 +166,9 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "linea": "🟢 <b>Contra</b> — 📦 2 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
       "nombres": [
+        "contra operation galuga",
         "contra rogue corps"
       ],
       "orden": 1,
@@ -639,7 +640,7 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "🟢 <b>Minecraft</b> — 📦 3 desde $27.000\n   🟢 Minecraft Dungeons II",
+      "linea": "🟢 <b>Minecraft</b> — 📦 4 desde $23.990\n   🟢 Minecraft: Nintendo Switch Edition −20%",
       "nombres": [
         "minecraft dungeons ii",
         "minecraft legends",
@@ -725,7 +726,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 189 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 189 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -772,6 +773,7 @@
         "digimon survive",
         "digimon world next order",
         "disc room",
+        "disney magical world 2 enchanted edition",
         "doom anthology",
         "dorfromantik",
         "dragons dogma dark arisen",
@@ -1363,5 +1365,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 668
+  "total": 671
 }
