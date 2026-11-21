@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 572,
+  "fisicos": 571,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-21T00:16:06Z",
+  "revision": "2026-11-21T01:16:50Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -221,11 +221,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
+      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "dave-the-diver"
     },
     {
@@ -1379,5 +1379,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 691
+  "total": 690
 }
