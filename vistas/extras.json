@@ -147,6 +147,24 @@
     {
       "avisos": [
         {
+          "precio": 38790,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-2691861206"
+        }
+      ],
+      "marca": "Redragon",
+      "min_hist": 45990,
+      "nombre": "Audífonos Redragon Ire Pro H848 Bluetooth Usb Recargable Color Negro L",
+      "pct": 0,
+      "precio": 38790,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-2691861206"
+    },
+    {
+      "avisos": [
+        {
           "precio": 38990.0,
           "tarjeta": null,
           "tienda": "Bestmart",
@@ -633,6 +651,24 @@
     {
       "avisos": [
         {
+          "precio": 124990.0,
+          "tarjeta": 119990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/16688581/zone-vibe-100-headset-inalambrico-negro-logitech"
+        }
+      ],
+      "marca": "logitech g",
+      "min_hist": 124990.0,
+      "nombre": "Zone Vibe 100 Headset Inalámbrico Negro",
+      "pct": 0,
+      "precio": 124990.0,
+      "ref_tipo": null,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/16688581/zone-vibe-100-headset-inalambrico-negro-logitech"
+    },
+    {
+      "avisos": [
+        {
           "precio": 128990,
           "tarjeta": null,
           "tienda": "MercadoLibre",
@@ -1012,7 +1048,7 @@
       "min_hist": 624990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Switch 2 + Juego Descargable EA Sports FC 27",
-      "pct": -8.8,
+      "pct": -4.2,
       "precio": 679990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
@@ -1084,23 +1120,6 @@
       "precio": 949990.0,
       "tienda": "Sniper",
       "url": "https://sniper.cl/products/consola-nintendo-switch-2-zelda-40th-aniv-edition-eu"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 259990.0,
-          "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/consola-portatil-nintendo-switch-lite-calipso"
-        }
-      ],
-      "bundle": false,
-      "min_hist": 259990.0,
-      "modelo": "Switch Lite",
-      "nombre": "Consola Nintendo Switch Lite - Calipso",
-      "pct": 0.0,
-      "precio": 259990.0,
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/consola-portatil-nintendo-switch-lite-calipso"
     },
     {
       "avisos": [
@@ -1190,6 +1209,12 @@
           "tienda": "Bestmart",
           "titulo": "Tarjeta microSD Express Samsung de 256GB para Nintendo Switch 2",
           "url": "https://bestmart.cl/products/tarjeta-microsd-express-samsung-de-256gb-para-nintendo-switch-2"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1211,6 +1236,12 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Sandisk 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Sandisk-256gb/?ref=buscador"
+        },
+        {
+          "precio": 88490,
+          "tienda": "MercadoLibre",
+          "titulo": "Tarjeta Memoria MicroSD Express SanDisk 256GB Para Nintendo Switch 2 Licencia Oficial Nintendo Lectura 880MB/s Escritura 650MB/s Diseño Super Mario Modelo SDSQXFN-256G-GR6ZN (ELECTROLANDIA CHILE)",
+          "url": "https://articulo.mercadolibre.cl/MLC-4698611796"
         }
       ],
       "gb": 256,
@@ -1358,10 +1389,16 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-21T02:16:50Z",
+  "revision": "2026-11-21T03:18:38Z",
   "seguimientos": [
     {
       "avisos": [
+        {
+          "precio": 41700,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-2923023060"
+        },
         {
           "precio": 43990.0,
           "tarjeta": null,
@@ -1373,21 +1410,15 @@
           "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
-        },
-        {
-          "precio": 51470,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-2865043080"
         }
       ],
       "item": "Redragon Zeus",
       "min_hist": 43990.0,
       "nombre": "Audífono Headset H510 Rgb Zeus X",
-      "precio": 43990.0,
+      "precio": 41700,
       "tarjeta": null,
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/audifonos-gamer-redragon-zeus-x-h510-rgb-sonido-7-1-negro",
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-2923023060",
       "variante": "x"
     },
     {
