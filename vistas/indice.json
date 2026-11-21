@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 571,
+  "fisicos": 572,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-21T01:16:50Z",
+  "revision": "2026-11-21T02:16:50Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -51,7 +51,7 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 4 desde $20.000 · 🎮 2 desde US$9.41\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 3 desde $20.000 · 🎮 2 desde US$9.41\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
       "nombres": [
         "assassins creed iii remastered",
         "assassins creed shadows",
@@ -483,7 +483,7 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $22.900 · 🎮 6 desde US$1.97\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 7 desde $19.900 · 🎮 6 desde US$1.97\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
         "lego brawls",
         "lego dc super villains",
@@ -609,7 +609,7 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 4 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
       "nombres": [
         "metal gear solid master collection vol 1 sniper",
         "metal gear solid master collection vol 2",
@@ -1178,8 +1178,9 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.990\n   🟢 LEGO Star Wars: The Skywalker Saga",
       "nombres": [
+        "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
         "star wars racer and commando combo n"
@@ -1379,5 +1380,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 690
+  "total": 692
 }
