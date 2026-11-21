@@ -2354,6 +2354,22 @@
     },
     {
       "boton": {
+        "callback_data": "a:551e2451f7",
+        "text": "⚙️ BPM: Bullets Per Minute · US$4.83"
+      },
+      "con_fisico": false,
+      "id": "551e2451f7",
+      "juego": "🔍 Otros juegos",
+      "nivel": "compra",
+      "nombre": "BPM: Bullets Per Minute",
+      "orden": 1,
+      "pct": 70.0,
+      "precio_usd": 4.83,
+      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>BPM: Bullets Per Minute</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.83</b> ≈ $4.868 en 🇧🇷 Brasil\n   Precio en la tienda: R$28,49 BRL\n💡 Oferta de −70% en la eShop\n🏷️ Normal US$16.12 → ahorras US$11.29 · ⏳ termina el 13 dic (en 22 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/bpm-bullets-per-minute-switch/\">US$4.83</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/bpm-bullets-per-minute-switch/\">US$5.95</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/bpm-bullets-per-minute-switch/\">US$6.07</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/bpm-bullets-per-minute-switch/\">US$7.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/bpm-bullets-per-minute-switch/\">US$7.88</a>\n   El más caro: 🇵🇪 US$8.66\n📈 Mínimo US$4.83 (21 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/bpm-bullets-per-minute-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:f9323d79d2",
         "text": "⚙️ Scott Pilgrim vs. The World: … · US$3.26"
       },
@@ -4104,7 +4120,7 @@
       "orden": 1,
       "pct": 36.4,
       "precio": 34990.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −36%\n<b>Tengoku Struggle -Strayside</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$34.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n   Ahorras $20.010 frente a su precio típico ($55.000)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/tengoku-struggle-strayside-nintendo-switch\">$34.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/158908786/tengoku-struggle-strayside-nintendo-switch\">$55.000 Falabella</a> 🏪 Tienda Retrogamers (+$20.010)\n📈 Mínimo $34.990 (16 nov, Sniper) · típico $55.000 · máximo $55.000\n   ████████████████████████▁▁▁▁▁▁  últimos 30 días\n🎮 Digital: US$42.68 ≈ $42.401 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $7.411 y además se puede revender\n📅 Antes de Black Friday eShop estaba a $55.000: hoy está 36% más barato de verdad\n📉 Precio bajó 36% en las últimas 2 semanas\n🔎 Confianza media: 2 tiendas y 33 días de historial\n🛒 <a href=\"https://sniper.cl/products/tengoku-struggle-strayside-nintendo-switch\">Ir a comprar en Sniper</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −36%\n<b>Tengoku Struggle -Strayside</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$34.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n   Ahorras $20.010 frente a su precio típico ($55.000)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/tengoku-struggle-strayside-nintendo-switch\">$34.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/160121636/tengoku-struggle-strayside-nintendo-switch\">$44.990 Falabella</a> 🏪 Sniper (+$10.000)\n📈 Mínimo $34.990 (16 nov, Sniper) · típico $55.000 · máximo $55.000\n   ████████████████████████▁▁▁▁▁▁  últimos 30 días\n🎮 Digital: US$42.68 ≈ $42.401 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $7.411 y además se puede revender\n📅 Antes de Black Friday eShop estaba a $55.000: hoy está 36% más barato de verdad\n📉 Precio bajó 36% en las últimas 2 semanas\n🔎 Confianza media: 2 tiendas y 33 días de historial\n🛒 <a href=\"https://sniper.cl/products/tengoku-struggle-strayside-nintendo-switch\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     },
     {
@@ -6556,16 +6572,16 @@
     {
       "boton": {
         "callback_data": "a:c26422c215",
-        "text": "⚙️ The Legend Of Nayuta Boundles… · $59.990"
+        "text": "⚙️ The Legend of Nayuta Boundles… · $59.990"
       },
       "id": "c26422c215",
       "juego": "Trails / Kiseki",
       "nivel": "compra",
-      "nombre": "The Legend Of Nayuta Boundless Trails Deluxe Ed. - Sniper",
+      "nombre": "The Legend of Nayuta Boundless Trails Deluxe Ed - Sniper",
       "orden": 1,
       "pct": 0,
       "precio": 59990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>The Legend Of Nayuta Boundless Trails Deluxe Ed. - Sniper</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$59.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $69.990» (−14%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/158694633/the-legend-of-nayuta-boundless-trails-deluxe-ed-nsw-sniper\">$59.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/the-legend-of-nayuta-boundless-trails-deluxe-ed-nsw-sniper-MK7PMFBJI3.html\">$59.990 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://sniper.cl/products/the-legend-of-nayuta-boundless-trails-deluxe-ed-nsw-sniper\">$59.990 Sniper</a> (+$0)\n📈 Mínimo $59.990 (14 oct, Falabella) · típico $59.990 · máximo $59.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n📅 Mismo precio que antes de Black Friday eShop ($59.990): el descuento no es real\n🔎 Confianza alta: 3 tiendas y 39 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/158694633/the-legend-of-nayuta-boundless-trails-deluxe-ed-nsw-sniper\">Ir a comprar en Falabella</a>",
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>The Legend of Nayuta Boundless Trails Deluxe Ed - Sniper</b>\n🕹️ Switch 1 · 📦 Físico · Trails / Kiseki\n💰 <b>$59.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $69.990» (−14%)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/124783753/The-Legend-of-Nayuta-Boundless-Trails-Deluxe-Ed-NSW-Sniper\">$59.990 Falabella</a> 🏪 Sniper\n   🥈 <a href=\"https://www.paris.cl/the-legend-of-nayuta-boundless-trails-deluxe-ed-nsw-sniper-MK7PMFBJI3.html\">$59.990 Paris</a> 🏪 SNIPERCL (+$0)\n   🥉 <a href=\"https://sniper.cl/products/the-legend-of-nayuta-boundless-trails-deluxe-ed-nsw-sniper\">$59.990 Sniper</a> (+$0)\n📈 Mínimo $59.990 (14 oct, Falabella) · típico $59.990 · máximo $59.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n📅 Mismo precio que antes de Black Friday eShop ($59.990): el descuento no es real\n🔎 Confianza alta: 3 tiendas y 39 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/124783753/The-Legend-of-Nayuta-Boundless-Trails-Deluxe-Ed-NSW-Sniper\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -7680,21 +7696,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:5ef2beb13a",
-        "text": "⚙️ Sonic Double Pack · $37.990"
-      },
-      "id": "5ef2beb13a",
-      "juego": "Sonic",
-      "nivel": "compra",
-      "nombre": "Sonic Double Pack",
-      "orden": 1,
-      "pct": 0,
-      "precio": 37990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Sonic Double Pack</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$37.990</b> en MegaGames\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $37.990 (19 oct, MegaGames) · típico $37.990 · máximo $37.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n📅 Mismo precio que antes de Black Friday eShop ($37.990): el descuento no es real\n🔎 Confianza media: 1 tienda y 34 días de historial\n🛒 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/sonic-double-pack-nsw/\">Ir a comprar en MegaGames</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:12fc834f91",
         "text": "⚙️ SONIC FORCES · $29.990"
       },
@@ -8265,21 +8266,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:7ab2425de7",
-        "text": "⚙️ Xenoblade Chronicles X: Defin… S2 · $73.990"
-      },
-      "id": "7ab2425de7",
-      "juego": "Xenoblade X",
-      "nivel": "compra",
-      "nombre": "Xenoblade Chronicles X: Definitive Edition",
-      "orden": 1,
-      "pct": 0,
-      "precio": 73990.0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Xenoblade Chronicles X: Definitive Edition</b>\n🕹️ Switch 2 · 📦 Físico · Xenoblade X\n💰 <b>$73.990</b> en MegaGames\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $73.990 (3 nov, MegaGames) · típico $73.990 · máximo $123.990\n   ▇▇▇▇▇▇▇▇▇██▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n🎮 Digital: US$61.07 ≈ $61.546 en 🇧🇷 Brasil\n   ➜ El digital es $12.444 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($73.990): el descuento no es real\n🔎 Confianza media: 1 tienda y 35 días de historial\n🛒 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/xenoblade-chronicles-x-definitive-edition-nsw2/\">Ir a comprar en MegaGames</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:8552460467",
         "text": "⚙️ Xenoblade Chroonicles 2 S2 · $83.690"
       },
@@ -8534,5 +8520,5 @@
       "tipo": "fisico"
     }
   ],
-  "revision": "2026-11-21T11:16:14Z"
+  "revision": "2026-11-21T11:40:39Z"
 }
