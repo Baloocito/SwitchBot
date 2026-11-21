@@ -156,26 +156,17 @@
     },
     "2026-11-20": {
       "bombazos": 2,
-      "posts": 6,
+      "posts": 7,
       "slots": [
         "top",
         "pack",
         "tarde",
-        "fisicos"
+        "fisicos",
+        "ultima"
       ]
     }
   },
   "posts": [
-    {
-      "fecha": "2026-10-19T18:35-03:00",
-      "ids": [
-        "34bbba6d81",
-        "22e5d8e8dc",
-        "73725c1b3c"
-      ],
-      "message_id": 16,
-      "slot": "fisicos"
-    },
     {
       "fecha": "2026-10-19T21:05-03:00",
       "ids": [
@@ -1978,6 +1969,18 @@
       ],
       "message_id": 220,
       "slot": "fisicos"
+    },
+    {
+      "fecha": "2026-11-20T21:05-03:00",
+      "ids": [
+        "d6f5f80358",
+        "ed9a0fecea",
+        "f8d895e123",
+        "d761477e44",
+        "b52b5decf4"
+      ],
+      "message_id": 221,
+      "slot": "ultima"
     }
   ],
   "publicados": {
@@ -3512,6 +3515,11 @@
       "precio": 3480,
       "slot": "ultima"
     },
+    "b52b5decf4": {
+      "fecha": "2026-11-20",
+      "precio": 4760,
+      "slot": "ultima"
+    },
     "b93b61a6a8": {
       "fecha": "2026-11-15",
       "precio": 4970,
@@ -3597,6 +3605,16 @@
       "precio": 7070,
       "slot": "ultima"
     },
+    "d6f5f80358": {
+      "fecha": "2026-11-20",
+      "precio": 8020,
+      "slot": "ultima"
+    },
+    "d761477e44": {
+      "fecha": "2026-11-20",
+      "precio": 5070,
+      "slot": "ultima"
+    },
     "d81ebba19e": {
       "fecha": "2026-10-24",
       "precio": 3370,
@@ -3647,6 +3665,11 @@
       "precio": 5970,
       "slot": "ultima"
     },
+    "ed9a0fecea": {
+      "fecha": "2026-11-20",
+      "precio": 29000,
+      "slot": "ultima"
+    },
     "ee6ea9abe2": {
       "fecha": "2026-11-11",
       "precio": 20000,
@@ -3655,6 +3678,11 @@
     "f332fc85b4": {
       "fecha": "2026-10-25",
       "precio": 2620,
+      "slot": "ultima"
+    },
+    "f8d895e123": {
+      "fecha": "2026-11-20",
+      "precio": 6980,
       "slot": "ultima"
     },
     "fa2e35c314": {
@@ -3673,5 +3701,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-20T18:35:36.369191-03:00"
+  "ultimo_post": "2026-11-20T21:05:36.376107-03:00"
 }
