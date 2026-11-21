@@ -1432,6 +1432,19 @@
     },
     {
       "boton": {
+        "callback_data": "a:551e2451f7",
+        "text": "⚙️ BPM: Bullets Per Minute · US$4.83"
+      },
+      "con_fisico": false,
+      "id": "551e2451f7",
+      "nivel": "compra",
+      "nombre": "BPM: Bullets Per Minute",
+      "pct": 70.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>BPM: Bullets Per Minute</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.83</b> ≈ $4.868 en 🇧🇷 Brasil\n   Precio en la tienda: R$28,49 BRL\n💡 Oferta de −70% en la eShop\n🏷️ Normal US$16.12 → ahorras US$11.29 · ⏳ termina el 13 dic (en 22 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/bpm-bullets-per-minute-switch/\">US$4.83</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/bpm-bullets-per-minute-switch/\">US$5.95</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/bpm-bullets-per-minute-switch/\">US$6.07</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/bpm-bullets-per-minute-switch/\">US$7.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/bpm-bullets-per-minute-switch/\">US$7.88</a>\n   El más caro: 🇵🇪 US$8.66\n📈 Mínimo US$4.83 (21 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/bpm-bullets-per-minute-switch/\">Ver en la eShop de Brasil</a>",
+      "tipo": "digital"
+    },
+    {
+      "boton": {
         "callback_data": "a:6776ae7663",
         "text": "⚙️ Trinity Trigger · US$6.11"
       },
@@ -1532,19 +1545,6 @@
       "nombre": "Persona Collection",
       "pct": 70.0,
       "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>Persona Collection</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$22.14</b> ≈ $22.312 en 🇧🇷 Brasil\n   Precio en la tienda: R$130,50 BRL\n💡 Oferta de −70% en la eShop\n🏷️ Normal US$73.81 → ahorras US$51.67 · ⏳ termina el 3 dic (en 12 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/persona-collection-switch/\">US$22.14</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/persona-collection-switch/\">US$23.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/persona-collection-switch/\">US$24.10</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/persona-collection-switch/\">US$25.12</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/persona-collection-switch/\">US$26.99</a>\n   El más caro: 🇨🇴 US$31.48\n📈 Mínimo US$22.14 (19 nov en 🇧🇷 Brasil)\n   ▄▄▄  últimos 3 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/persona-collection-switch/\">Ver en la eShop de Brasil</a>",
-      "tipo": "digital"
-    },
-    {
-      "boton": {
-        "callback_data": "a:551e2451f7",
-        "text": "⚙️ BPM: Bullets Per Minute · US$4.83"
-      },
-      "con_fisico": false,
-      "id": "551e2451f7",
-      "nivel": "compra",
-      "nombre": "BPM: Bullets Per Minute",
-      "pct": 70.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −70%\n<b>BPM: Bullets Per Minute</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$4.83</b> ≈ $4.868 en 🇧🇷 Brasil\n   Precio en la tienda: R$28,49 BRL\n💡 Oferta de −70% en la eShop\n🏷️ Normal US$16.12 → ahorras US$11.29 · ⏳ termina el 13 dic (en 22 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/bpm-bullets-per-minute-switch/\">US$4.83</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/bpm-bullets-per-minute-switch/\">US$5.95</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/bpm-bullets-per-minute-switch/\">US$6.07</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/bpm-bullets-per-minute-switch/\">US$7.49</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/bpm-bullets-per-minute-switch/\">US$7.88</a>\n   El más caro: 🇵🇪 US$8.66\n📈 Mínimo US$4.83 (21 nov en 🇧🇷 Brasil)\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/bpm-bullets-per-minute-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -1686,7 +1686,7 @@
       "nivel": "compra",
       "nombre": "Taxi Chaos - Eu",
       "pct": 60.5,
-      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Taxi Chaos - Eu</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$29.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n   Ahorras $46.000 frente a su precio típico ($75.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/taxi-chaos-nintendo-switch-eu\">$29.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/159909320/taxi-chaos-nintendo-switch-eu\">$34.990 Falabella</a> 🏪 Sniper (+$5.000)\n📈 Mínimo $29.990 (11 nov, Sniper) · típico $75.990 · máximo $78.990\n   ███████████████████▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n📅 Antes de Black Friday eShop estaba a $75.990: hoy está 61% más barato de verdad\n📉 Precio bajó 43% en las últimas 2 semanas\n🔎 Confianza media: 2 tiendas y 34 días de historial\n🛒 <a href=\"https://sniper.cl/products/taxi-chaos-nintendo-switch-eu\">Ir a comprar en Sniper</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Taxi Chaos - Eu</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$29.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n   Ahorras $46.000 frente a su precio típico ($75.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (11 nov, Sniper) · típico $75.990 · máximo $78.990\n   ███████████████████▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n📅 Antes de Black Friday eShop estaba a $75.990: hoy está 61% más barato de verdad\n📉 Precio bajó 43% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 34 días de historial\n🛒 <a href=\"https://sniper.cl/products/taxi-chaos-nintendo-switch-eu\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     },
     {
@@ -1712,7 +1712,7 @@
       "nivel": "compra",
       "nombre": "Untitled Goose Game",
       "pct": 60.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Untitled Goose Game</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.02</b> ≈ $5.059 en 🇧🇷 Brasil\n   Precio en la tienda: R$29,59 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$12.56 → ahorras US$7.54 · ⏳ termina el 21 nov (¡hoy!)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/untitled-goose-game-switch/\">US$5.02</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/untitled-goose-game-switch/\">US$5.03</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/untitled-goose-game-switch/\">US$7.25</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/untitled-goose-game-switch/\">US$7.62</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/untitled-goose-game-switch/\">US$7.69</a>\n   El más caro: 🇲🇽 US$8.20\n📦 Físico: $39.990 en Falabella → el digital te ahorra $34.931\n📈 Mínimo US$5.02 (19 nov en 🇧🇷 Brasil)\n   ▇▇█████▇▇▆▅▅▄▄▃▁▁▁  últimos 18 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/untitled-goose-game-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Untitled Goose Game</b>\n🕹️ Switch 1 · 🎮 Digital (eShop) · 🔍 Otros juegos\n💰 <b>US$5.02</b> ≈ $5.059 en 🇧🇷 Brasil\n   Precio en la tienda: R$29,59 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$12.56 → ahorras US$7.54 · ⏳ termina el 21 nov (¡hoy!)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/untitled-goose-game-switch/\">US$5.02</a> ← el más barato\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/untitled-goose-game-switch/\">US$5.03</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/untitled-goose-game-switch/\">US$7.25</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/untitled-goose-game-switch/\">US$7.62</a>\n   🇵🇪 <a href=\"https://www.nintendo.com/es-pe/store/products/untitled-goose-game-switch/\">US$7.69</a>\n   El más caro: 🇲🇽 US$8.20\n📦 Físico: $39.990 en 8 Bits → el digital te ahorra $34.931\n📈 Mínimo US$5.02 (19 nov en 🇧🇷 Brasil)\n   ▇▇█████▇▇▆▅▅▄▄▃▁▁▁  últimos 18 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/untitled-goose-game-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -2495,5 +2495,5 @@
     }
   ],
   "juego": "🔍 Otros juegos",
-  "revision": "2026-11-21T11:40:39Z"
+  "revision": "2026-11-21T13:17:26Z"
 }

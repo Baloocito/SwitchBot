@@ -10,18 +10,18 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 550,
+  "fisicos": 553,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-21T11:40:39Z",
+  "revision": "2026-11-21T13:17:26Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
-      "linea": "🟢 <b>Ace Attorney</b> — 📦 3 desde $34.990\n   🟢 Ace Attorney Investigations Collection",
+      "linea": "🟢 <b>Ace Attorney</b> — 📦 3 desde $34.990\n   🟢 Ace Attorney Investigations Collection −9%",
       "nombres": [
         "ace attorney investigations collection",
         "apollo justice ace attorney trilogy",
@@ -41,9 +41,8 @@
     },
     {
       "juego": "Animal Crossing",
-      "linea": "🟢 <b>Animal Crossing</b> — 📦 3 desde $37.990\n   🟢 Joypad Color Verde Azul de Animal Crossing",
+      "linea": "🟢 <b>Animal Crossing</b> — 📦 1 desde $37.990\n   🟢 Joypad Color Verde Azul de Animal Crossing",
       "nombres": [
-        "animal crossing new horizons",
         "joypad color verde azul de animal crossing"
       ],
       "orden": 1,
@@ -166,8 +165,9 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "linea": "🟢 <b>Contra</b> — 📦 2 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
       "nombres": [
+        "contra operation galuga",
         "contra rogue corps"
       ],
       "orden": 1,
@@ -175,9 +175,10 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 4 desde $28.000\n   🟢 Crash 4 Bandicoot",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000\n   🟢 Crash 4 Bandicoot",
       "nombres": [
         "crash 4 bandicoot",
+        "crash bandicoot 4 its about time",
         "crash bandicoot n sane trilogy",
         "spyro reignited trilogy"
       ],
@@ -210,7 +211,7 @@
       "nombres": [
         "danganronpa 2 goodbye despair anniversary edition",
         "danganronpa 2x2",
-        "danganronpa decadence sniper",
+        "danganronpa decadence",
         "danganronpa s ultimate summer camp",
         "danganronpa trigger happy havoc anniversary edition",
         "danganronpa v3 killing harmony anniversary edition"
@@ -538,7 +539,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 23 desde $29.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $29.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -557,7 +558,8 @@
         "super mario odyssey",
         "super mario party",
         "super mario party jamboree",
-        "super mario party jamboree jamboree tv"
+        "super mario party jamboree jamboree tv",
+        "super mario rpg"
       ],
       "orden": 1,
       "slug": "mario"
@@ -607,7 +609,7 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 4 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
       "nombres": [
         "metal gear solid master collection vol 1 sniper",
         "metal gear solid master collection vol 2",
@@ -1106,11 +1108,12 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 7 desde $28.000 · 🎮 5 desde US$2.05\n   🟢 SONIC X SHADOW GENERATIONS −75%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000 · 🎮 5 desde US$2.05\n   🟢 SONIC X SHADOW GENERATIONS −75%",
       "nombres": [
         "sega ages sonic the hedgehog",
         "sonic classic collection",
         "sonic colors ultimate",
+        "sonic double pack",
         "sonic forces",
         "sonic frontiers",
         "sonic frontiers definitive edition",
@@ -1164,11 +1167,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1319,11 +1321,11 @@
     },
     {
       "juego": "Xenoblade X",
-      "linea": "⚪ <b>Xenoblade X</b> — 📦 2 desde $54.900",
+      "linea": "🟢 <b>Xenoblade X</b> — 📦 3 desde $54.900\n   🟢 Xenoblade Chronicles X: Definitive Edition",
       "nombres": [
         "xenoblade chronicles x definitive edition"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "xenoblade-x"
     },
     {
@@ -1364,5 +1366,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 668
+  "total": 670
 }
