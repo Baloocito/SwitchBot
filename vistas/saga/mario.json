@@ -207,6 +207,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:3607c6e5fe",
+        "text": "⚙️ Super Mario Odyssey · $49.990"
+      },
+      "id": "3607c6e5fe",
+      "nivel": "regular",
+      "nombre": "Super Mario Odyssey",
+      "pct": 8.9,
+      "texto": "🟠 <b>PRECIO REGULAR</b> · −9%\n<b>Super Mario Odyssey</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Bestmart\n💡 Apenas 9% bajo la referencia\n   Ahorras $4.910 frente a su precio típico ($54.900)\n🏷️ La tienda marca «antes $64.990» (−23%)\n🏬 <b>Comparación (6 tiendas)</b>\n   🥇 <a href=\"https://bestmart.cl/products/juego-super-mario-odyssey-nintendo-switch-americano\">$49.990 Bestmart</a>\n   🥈 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Super-Mario-Odyssey/?ref=buscador\">$54.900 TodoJuegos</a> (+$4.910)\n   🥉 <a href=\"https://www.paris.cl/juego-super-mario-odyssey-nintendo-switch-MK875930CR.html\">$54.990 Paris</a> 🏪 Bestmart Ltda. (+$5.000)\n   ▫️ <a href=\"https://8-bits.cl/products/super-mario-odyssey-switch\">$54.990 8 Bits</a> (+$5.000)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/142911061/Juego-Super-Mario-Odyssey-Nintendo-Switch\">$56.990 Falabella</a> 🏪 Bestmart (+$7.000)\n   ▫️ <a href=\"https://sniper.cl/products/super-mario-odyssey-juego-fisico-switch-sniper\">$59.990 Sniper</a> (+$10.000)\n📈 Mínimo $49.000 (27 oct, TodoJuegos) · típico $54.900 · máximo $54.990\n   ████▁▁▁▁▁▁▁▁█████▂▅▅▅▅▅▅▅██▂▂▂  últimos 30 días\n🎮 Digital: US$55.98 ≈ $56.416 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $6.426 y además se puede revender\n📅 Antes de Black Friday eShop estaba a $51.990: hoy está 4% más barato de verdad\n🛒 <a href=\"https://listado.mercadolibre.cl/super-mario-odyssey-nintendo-switch\">MercadoLibre</a>: nuevo ~$59.990 (8 avisos)\n💰 <b>Reventa</b>: lo compras a $49.990 y nuevo se vende a ~$59.990 (+$10.000 antes de comisiones)\n🔎 Confianza alta: 6 tiendas y 39 días de historial\n🛒 <a href=\"https://bestmart.cl/products/juego-super-mario-odyssey-nintendo-switch-americano\">Ir a comprar en Bestmart</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:e77b7d7247",
         "text": "⚙️ Super Mario Party Jamboree · $49.990"
       },
@@ -303,5 +315,5 @@
     }
   ],
   "juego": "Mario",
-  "revision": "2026-11-21T04:17:33Z"
+  "revision": "2026-11-21T05:16:22Z"
 }

@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 570,
+  "fisicos": 573,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-21T04:17:33Z",
+  "revision": "2026-11-21T05:16:22Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -165,6 +165,15 @@
       "slug": "chrono-mana"
     },
     {
+      "juego": "Contra",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "nombres": [
+        "contra rogue corps"
+      ],
+      "orden": 1,
+      "slug": "contra"
+    },
+    {
       "juego": "Crash / Spyro",
       "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000\n   🟢 Crash 4 Bandicoot",
       "nombres": [
@@ -212,11 +221,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "dave-the-diver"
     },
     {
@@ -530,7 +539,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 24 desde $29.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 25 desde $29.900 · 🎮 1 desde US$11.65\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -600,7 +609,7 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 4 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
       "nombres": [
         "metal gear solid master collection vol 1 sniper",
         "metal gear solid master collection vol 2",
@@ -1370,5 +1379,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 689
+  "total": 693
 }
