@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 551,
+  "fisicos": 548,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-22T04:17:02Z",
+  "revision": "2026-11-22T05:17:27Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -165,19 +165,9 @@
       "slug": "chrono-mana"
     },
     {
-      "juego": "Civilization",
-      "linea": "🟢 <b>Civilization</b> — 📦 1 desde $34.990\n   🟢 Sid Meier’s Civilization VI",
-      "nombres": [
-        "sid meiers civilization vi"
-      ],
-      "orden": 1,
-      "slug": "civilization"
-    },
-    {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 2 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
       "nombres": [
-        "contra operation galuga",
         "contra rogue corps"
       ],
       "orden": 1,
@@ -344,7 +334,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
@@ -356,7 +346,6 @@
         "final fantasy vii revelation",
         "final fantasy viii remastered",
         "final fantasy x x 2 hd remaster",
-        "final fantasy xii the zodiac age",
         "world of final fantasy maxima"
       ],
       "orden": 1,
@@ -734,17 +723,8 @@
       "slug": "one-piece"
     },
     {
-      "juego": "Ori",
-      "linea": "⚪ <b>Ori</b> — 📦 1 desde $29.990",
-      "nombres": [
-        "ori and the blind forest definitive edition"
-      ],
-      "orden": 4,
-      "slug": "ori"
-    },
-    {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 188 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 188 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -829,7 +809,6 @@
         "hello neighbor hide and seek",
         "hellpoint",
         "heretic hexen",
-        "it takes two",
         "justice sucks",
         "kamiwaza way of the thief",
         "katana kami a way of the samurai story",
@@ -1165,7 +1144,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990 · 🎮 2 desde US$23.59\n   🟢 Split Fiction −40%",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990 · 🎮 2 desde US$23.59\n   🟢 Split Fiction −40%",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1383,5 +1362,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 671
+  "total": 667
 }
