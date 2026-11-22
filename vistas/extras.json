@@ -147,24 +147,6 @@
     {
       "avisos": [
         {
-          "precio": 38790,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-2691861206"
-        }
-      ],
-      "marca": "Redragon",
-      "min_hist": 45990,
-      "nombre": "Audífonos Redragon Ire Pro H848 Bluetooth Usb Recargable Color Negro L",
-      "pct": 0,
-      "precio": 38790,
-      "ref_tipo": null,
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-2691861206"
-    },
-    {
-      "avisos": [
-        {
           "precio": 38990.0,
           "tarjeta": null,
           "tienda": "Bestmart",
@@ -197,6 +179,24 @@
       "ref_tipo": null,
       "tienda": "Paris",
       "url": "https://www.paris.cl/audifonos-gamers-hyperx-cloud-stinger-3-632582999.html"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 42990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-4297331982"
+        }
+      ],
+      "marca": "Redragon",
+      "min_hist": 38790,
+      "nombre": "Audífonos Redragon Ire Pro H848 Bluetooth Usb Recargable Color Negro L",
+      "pct": 0,
+      "precio": 42990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-4297331982"
     },
     {
       "avisos": [
@@ -273,24 +273,6 @@
     {
       "avisos": [
         {
-          "precio": 46990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80748505/audifonos-gaming-inalambricos-negro-hyperx-cloud-jet"
-        }
-      ],
-      "marca": "hyperx",
-      "min_hist": 46990.0,
-      "nombre": "Audífonos Gaming Inalámbricos Negro Cloud Jet",
-      "pct": 0.0,
-      "precio": 46990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80748505/audifonos-gaming-inalambricos-negro-hyperx-cloud-jet"
-    },
-    {
-      "avisos": [
-        {
           "precio": 49990.0,
           "tarjeta": null,
           "tienda": "Falabella",
@@ -323,6 +305,24 @@
       "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 49990.0,
+          "tarjeta": null,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
+        }
+      ],
+      "marca": "redragon",
+      "min_hist": 59990.0,
+      "nombre": "Audífono Headset H510W RGB Zeus X White",
+      "pct": 0,
+      "precio": 49990.0,
+      "ref_tipo": null,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
     },
     {
       "avisos": [
@@ -402,7 +402,7 @@
           "precio": 58990.0,
           "tarjeta": null,
           "tienda": "Bestmart",
-          "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-zeus-h510-pro-blanco"
+          "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-zeus-h510-pro"
         }
       ],
       "marca": "Redragon",
@@ -412,7 +412,7 @@
       "precio": 58990.0,
       "ref_tipo": "tipico",
       "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-zeus-h510-pro-blanco"
+      "url": "https://bestmart.cl/products/audifonos-inalambricos-redragon-zeus-h510-pro"
     },
     {
       "avisos": [
@@ -557,24 +557,6 @@
       "ref_tipo": "tipico",
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/audifonos-jbl-quantum-tws-con-cancelacion-de-ruido-negro"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 119990,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-4486183542"
-        }
-      ],
-      "marca": "Logitech G",
-      "min_hist": 119990,
-      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (MYSHOPSPA)",
-      "pct": 0.0,
-      "precio": 119990,
-      "ref_tipo": "tipico",
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-4486183542"
     },
     {
       "avisos": [
@@ -1048,7 +1030,7 @@
       "min_hist": 624990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Switch 2 + Juego Descargable EA Sports FC 27",
-      "pct": -4.2,
+      "pct": 0.0,
       "precio": 679990.0,
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
@@ -1133,7 +1115,7 @@
       "min_hist": 339990.0,
       "modelo": "Switch OLED",
       "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": 14.6,
+      "pct": 13.6,
       "precio": 349990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
@@ -1209,6 +1191,12 @@
           "tienda": "Bestmart",
           "titulo": "Tarjeta microSD Express Samsung de 256GB para Nintendo Switch 2",
           "url": "https://bestmart.cl/products/tarjeta-microsd-express-samsung-de-256gb-para-nintendo-switch-2"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1230,6 +1218,12 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Sandisk 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Sandisk-256gb/?ref=buscador"
+        },
+        {
+          "precio": 88490,
+          "tienda": "MercadoLibre",
+          "titulo": "Tarjeta Memoria MicroSD Express SanDisk 256GB Para Nintendo Switch 2 Licencia Oficial Nintendo Lectura 880MB/s Escritura 650MB/s Diseño Super Mario Modelo SDSQXFN-256G-GR6ZN (ELECTROLANDIA CHILE)",
+          "url": "https://articulo.mercadolibre.cl/MLC-4698611796"
         }
       ],
       "gb": 256,
@@ -1377,7 +1371,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-22T02:15:50Z",
+  "revision": "2026-11-22T03:17:43Z",
   "seguimientos": [
     {
       "avisos": [
@@ -1401,7 +1395,7 @@
         }
       ],
       "item": "Redragon Zeus",
-      "min_hist": 43990.0,
+      "min_hist": 41700,
       "nombre": "Audífono Headset H510 Rgb Zeus X",
       "precio": 43990.0,
       "tarjeta": null,
