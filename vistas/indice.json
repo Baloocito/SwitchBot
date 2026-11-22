@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 550,
+  "fisicos": 549,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-22T07:17:33Z",
+  "revision": "2026-11-22T08:15:48Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -175,8 +175,9 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "linea": "🟢 <b>Contra</b> — 📦 2 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
       "nombres": [
+        "contra operation galuga",
         "contra rogue corps"
       ],
       "orden": 1,
@@ -205,10 +206,9 @@
     },
     {
       "juego": "Cyberpunk 2077",
-      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990 · 🎮 1 desde US$6.88\n   🟢 Keylocker | Turn Based Cyberpunk Action −40%",
+      "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990\n   🟢 Cyberpunk 2077: Ultimate Edition",
       "nombres": [
         "cyberpunk 2077 ultimate edition",
-        "keylocker turn based cyberpunk action",
         "va 11 hall a cyberpunk bartender action"
       ],
       "orden": 1,
@@ -978,12 +978,11 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 6 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
         "pokemon legends za 2",
         "pokemon scarlet",
         "pokemon shield",
-        "pokemon shining pearl",
         "pokemon sword",
         "pokemon violet"
       ],
@@ -1381,5 +1380,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 670
+  "total": 669
 }
