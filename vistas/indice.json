@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 547,
+  "fisicos": 549,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-22T20:15:53Z",
+  "revision": "2026-11-22T21:16:10Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -81,12 +81,11 @@
     },
     {
       "juego": "Batman",
-      "linea": "🟢 <b>Batman</b> — 📦 1 desde $69.900 · 🎮 3 desde US$7.49\n   🟢 Batman: Arkham Asylum −60%",
+      "linea": "🟢 <b>Batman</b> — 🎮 3 desde US$7.49\n   🟢 Batman: Arkham Asylum −60%",
       "nombres": [
         "batman arkham asylum",
         "batman arkham city",
-        "batman arkham knight",
-        "lego batman legacy of the dark knight"
+        "batman arkham knight"
       ],
       "orden": 1,
       "slug": "batman"
@@ -164,6 +163,16 @@
       ],
       "orden": 1,
       "slug": "chrono-mana"
+    },
+    {
+      "juego": "Contra",
+      "linea": "🟢 <b>Contra</b> — 📦 2 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "nombres": [
+        "contra operation galuga",
+        "contra rogue corps"
+      ],
+      "orden": 1,
+      "slug": "contra"
     },
     {
       "juego": "Crash / Spyro",
@@ -953,9 +962,8 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 8 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 6 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
-        "pokemon legends arceus",
         "pokemon legends za 2",
         "pokemon scarlet",
         "pokemon shield",
@@ -1098,7 +1106,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000 · 🎮 5 desde US$2.04\n   🟢 SONIC X SHADOW GENERATIONS −75%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000 · 🎮 5 desde US$2.04\n   🟢 SONIC X SHADOW GENERATIONS −75%",
       "nombres": [
         "sega ages sonic the hedgehog",
         "sonic classic collection",
@@ -1356,5 +1364,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 671
+  "total": 669
 }
