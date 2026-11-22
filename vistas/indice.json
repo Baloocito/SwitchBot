@@ -17,7 +17,7 @@
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-22T14:15:31Z",
+  "revision": "2026-11-22T15:16:23Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -81,11 +81,12 @@
     },
     {
       "juego": "Batman",
-      "linea": "🟢 <b>Batman</b> — 🎮 3 desde US$7.49\n   🟢 Batman: Arkham Asylum −60%",
+      "linea": "🟢 <b>Batman</b> — 📦 1 desde $69.900 · 🎮 3 desde US$7.49\n   🟢 Batman: Arkham Asylum −60%",
       "nombres": [
         "batman arkham asylum",
         "batman arkham city",
-        "batman arkham knight"
+        "batman arkham knight",
+        "lego batman legacy of the dark knight"
       ],
       "orden": 1,
       "slug": "batman"
@@ -1154,11 +1155,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1340,12 +1340,11 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild",
+      "linea": "🟢 <b>Zelda</b> — 📦 9 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda 40th anniversary edition",
         "the legend of zelda breath of the wild",
-        "the legend of zelda echoes of wisdom",
         "the legend of zelda links awakening",
         "the legend of zelda ocarina of time",
         "the legend of zelda tears of the kingdom"
@@ -1354,5 +1353,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 667
+  "total": 666
 }

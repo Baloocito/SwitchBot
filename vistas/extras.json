@@ -1359,10 +1359,16 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-22T14:15:31Z",
+  "revision": "2026-11-22T15:16:23Z",
   "seguimientos": [
     {
       "avisos": [
+        {
+          "precio": 41700,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-2923023060"
+        },
         {
           "precio": 43990.0,
           "tarjeta": null,
@@ -1374,21 +1380,15 @@
           "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
-        },
-        {
-          "precio": 51470,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-2865043080"
         }
       ],
       "item": "Redragon Zeus",
       "min_hist": 41700,
       "nombre": "Audífono Headset H510 Rgb Zeus X",
-      "precio": 43990.0,
+      "precio": 41700,
       "tarjeta": null,
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/audifonos-gamer-redragon-zeus-x-h510-rgb-sonido-7-1-negro",
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-2923023060",
       "variante": "x"
     },
     {
