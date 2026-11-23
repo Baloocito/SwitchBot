@@ -1292,6 +1292,12 @@
     {
       "avisos": [
         {
+          "precio": 25990.0,
+          "tienda": "Paris",
+          "titulo": "Tarjeta Kingston de Memoria Micro SD 128GB",
+          "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
+        },
+        {
           "precio": 26990.0,
           "tienda": "Falabella",
           "titulo": "Microsd Select Plus 128Gb",
@@ -1302,13 +1308,13 @@
       "marca": "Kingston",
       "min_hist": 25980.0,
       "nombre": "microSD 128 GB · Kingston",
-      "pct": -3.8,
-      "por_gb": 211,
-      "precio": 26990.0,
+      "pct": 0.0,
+      "por_gb": 203,
+      "precio": 25990.0,
       "ref_tipo": "tipico",
-      "tienda": "Falabella",
+      "tienda": "Paris",
       "tipo": "normal",
-      "url": "https://www.falabella.com/falabella-cl/product/16839129/Microsd-Select-Plus-128Gb-Kingston"
+      "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
     },
     {
       "avisos": [
@@ -1353,7 +1359,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-23T19:21:52Z",
+  "revision": "2026-11-23T21:22:13Z",
   "seguimientos": [
     {
       "avisos": [
