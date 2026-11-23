@@ -7,18 +7,18 @@
   },
   "fallos": {
     "PC Factory": 12,
-    "Paris": 1,
+    "Paris": 2,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 539,
+  "fisicos": 538,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-23T17:21:18Z",
+  "revision": "2026-11-23T19:21:52Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -1163,12 +1163,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 6 desde $34.900\n   🟢 LEGO Star Wars: The Skywalker Saga",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.990\n   🟢 LEGO Star Wars: The Skywalker Saga",
       "nombres": [
         "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1350,7 +1349,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild",
+      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $39.990\n   🟢 Adventure Pack Legend Of Zelda Totk - Sniper −11%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda 40th anniversary edition",
@@ -1365,5 +1364,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 670
+  "total": 669
 }
