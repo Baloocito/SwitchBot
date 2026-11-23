@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 546,
+  "fisicos": 545,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-23T05:16:26Z",
+  "revision": "2026-11-23T06:16:02Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -165,13 +165,13 @@
       "slug": "chrono-mana"
     },
     {
-      "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "juego": "Civilization",
+      "linea": "🟢 <b>Civilization</b> — 📦 1 desde $34.990\n   🟢 Sid Meier’s Civilization VI",
       "nombres": [
-        "contra rogue corps"
+        "sid meiers civilization vi"
       ],
       "orden": 1,
-      "slug": "contra"
+      "slug": "civilization"
     },
     {
       "juego": "Crash / Spyro",
@@ -403,7 +403,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 4 desde $59.990\n   🟢 Hogwarts Legacy",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.990\n   🟢 Hogwarts Legacy",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -1161,10 +1161,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
+        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
