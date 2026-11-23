@@ -14,18 +14,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:2ac28237ab",
-        "text": "⚙️ The Legend of Zelda 40th Anni… S2 · $814.990"
-      },
-      "id": "2ac28237ab",
-      "nivel": "compra",
-      "nombre": "The Legend of Zelda 40th Anniversary Edition",
-      "pct": 1.2,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>The Legend of Zelda 40th Anniversary Edition</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$814.990</b> en Falabella 🏪 <i>vende Zoombigdeal</i>\n💡 Es el precio más bajo que he visto\n   Ahorras $10.000 frente a su precio típico ($824.990)\n🏷️ La tienda marca «antes $949.990» (−14%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $814.990 (19 nov, Falabella) · típico $824.990 · máximo $824.990\n   ████████████▁▁▁▁▁  últimos 17 días\n📅 Antes de Black Friday eShop estaba a $824.990: hoy está 1% más barato de verdad\n🔎 Confianza media: 1 tienda y 17 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/159672239/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:176ba7b1e3",
         "text": "⚙️ Adventure Pack Legend of Zeld… · $44.990"
       },
@@ -46,6 +34,18 @@
       "nombre": "The Legend of Zelda: Tears of the Kingdom",
       "pct": 0,
       "texto": "🟢 <b>COMPRA YA</b>\n<b>The Legend of Zelda: Tears of the Kingdom (collector japan)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$179.990</b> en Falabella 🏪 <i>vende Rivertec</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $249.990» (−28%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $179.990 (12 oct, Falabella) · típico $179.990 · máximo $179.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$65.58 ≈ $66.668 en 🇧🇷 Brasil\n   ➜ El digital es $113.322 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($179.990): el descuento no es real\n🔎 Confianza media: 1 tienda y 43 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/139455520/Zelda-Tears-Of-The-Kingdom-Collector-Edition-Japan-Nintendo-Switch\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:2ac28237ab",
+        "text": "⚙️ The Legend of Zelda 40th Anni… S2 · $819.990"
+      },
+      "id": "2ac28237ab",
+      "nivel": "normal",
+      "nombre": "The Legend of Zelda 40th Anniversary Edition",
+      "pct": 0.6,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend of Zelda 40th Anniversary Edition</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$819.990</b> en Falabella 🏪 <i>vende Zoombigdeal</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $949.990» (−14%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $814.990 (19 nov, Falabella) · típico $824.990 · máximo $824.990\n   ████████████▁▁▁▁▁  últimos 17 días\n📅 Mismo precio que antes de Black Friday eShop ($824.990): el descuento no es real\n🔎 Confianza media: 1 tienda y 17 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/159672239/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition\">Ir a comprar en Falabella</a>",
       "tipo": "fisico"
     },
     {
@@ -122,5 +122,5 @@
     }
   ],
   "juego": "Zelda",
-  "revision": "2026-11-23T07:16:56Z"
+  "revision": "2026-11-23T08:16:42Z"
 }

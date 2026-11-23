@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 545,
+  "fisicos": 543,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-23T07:16:56Z",
+  "revision": "2026-11-23T08:16:42Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -163,15 +163,6 @@
       ],
       "orden": 1,
       "slug": "chrono-mana"
-    },
-    {
-      "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
-      "nombres": [
-        "contra rogue corps"
-      ],
-      "orden": 1,
-      "slug": "contra"
     },
     {
       "juego": "Crash / Spyro",
@@ -1360,5 +1351,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 663
+  "total": 662
 }
