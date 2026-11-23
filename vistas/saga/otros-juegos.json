@@ -1686,7 +1686,7 @@
       "nivel": "compra",
       "nombre": "Taxi Chaos - Eu",
       "pct": 60.5,
-      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Taxi Chaos - Eu</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$29.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n   Ahorras $46.000 frente a su precio típico ($75.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (11 nov, Sniper) · típico $75.990 · máximo $78.990\n   █████████████████▁▁▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n📅 Antes de Black Friday eShop estaba a $75.990: hoy está 61% más barato de verdad\n🔎 Confianza media: 1 tienda y 36 días de historial\n🛒 <a href=\"https://sniper.cl/products/taxi-chaos-nintendo-switch-eu\">Ir a comprar en Sniper</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −60%\n<b>Taxi Chaos - Eu</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$29.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n   Ahorras $46.000 frente a su precio típico ($75.990)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/taxi-chaos-nintendo-switch-eu\">$29.990 Sniper</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/159909320/taxi-chaos-nintendo-switch-eu\">$34.990 Falabella</a> 🏪 Sniper (+$5.000)\n📈 Mínimo $29.990 (11 nov, Sniper) · típico $75.990 · máximo $78.990\n   █████████████████▁▁▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n📅 Antes de Black Friday eShop estaba a $75.990: hoy está 61% más barato de verdad\n🔎 Confianza media: 2 tiendas y 36 días de historial\n🛒 <a href=\"https://sniper.cl/products/taxi-chaos-nintendo-switch-eu\">Ir a comprar en Sniper</a>",
       "tipo": "fisico"
     },
     {
@@ -2457,6 +2457,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:1eabaf9b27",
+        "text": "⚙️ It Takes Two S2 · $44.900"
+      },
+      "id": "1eabaf9b27",
+      "nivel": "compra",
+      "nombre": "It Takes Two",
+      "pct": 22.6,
+      "texto": "🟢 <b>COMPRA YA</b> · −23%\n<b>It Takes Two</b>\n🕹️ Switch 2 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$44.900</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $13.100 frente a su precio típico ($58.000)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/It-Takes-Two--Europeo-/?ref=buscador\">$44.900 TodoJuegos</a>\n   🥈 <a href=\"https://www.paris.cl/it-takes-two-euro-nintendo-switch-MKYJ8LWMJE.html\">$49.990 Paris</a> 🏪 RIVERTEC (+$5.090)\n   🥉 <a href=\"https://www.falabella.com/falabella-cl/product/158507446/it-takes-two-nintendo-switch\">$58.000 Falabella</a> 🏪 Tienda Retrogamers (+$13.100)\n📈 Mínimo $44.900 (13 nov, TodoJuegos) · típico $58.000 · máximo $189.990\n   █████████████████▄▄▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n🎮 Digital: US$23.53 ≈ $23.920 en 🇨🇱 Chile (−25%)\n   ➜ El digital es $20.980 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $58.000: hoy está 23% más barato de verdad\n🔎 Confianza alta: 3 tiendas y 40 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/It-Takes-Two--Europeo-/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:10d2a9a810",
         "text": "⚙️ Disney Magical World 2: Encha… · $32.990"
       },
@@ -2469,5 +2481,5 @@
     }
   ],
   "juego": "🔍 Otros juegos",
-  "revision": "2026-11-23T03:17:30Z"
+  "revision": "2026-11-23T04:17:31Z"
 }
