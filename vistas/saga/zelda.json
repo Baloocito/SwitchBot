@@ -38,6 +38,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:c61039c9f4",
+        "text": "⚙️ The Legend of Zelda 40th Anni… S2 · $884.990"
+      },
+      "id": "c61039c9f4",
+      "nivel": "normal",
+      "nombre": "The Legend of Zelda 40th Anniversary Edition Bundle + Tomodachi Life Game Card",
+      "pct": 4.3,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>The Legend of Zelda 40th Anniversary Edition Bundle + Tomodachi Life Game Card</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$884.990</b> en Falabella 🏪 <i>vende Zoombigdeal</i>\n💡 Está a su precio de siempre\n   Ahorras $40.000 frente al «antes» que marca la tienda ($924.990)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $884.990 (23 nov, Falabella) · máximo $884.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/160444251/nintendo-switch-2-the-legend-of-zelda-40th-anniversary-edition-bundle-tomodachi-life-game-card\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:2ac28237ab",
         "text": "⚙️ The Legend of Zelda 40th Anni… S2 · $819.990"
       },
@@ -122,5 +134,5 @@
     }
   ],
   "juego": "Zelda",
-  "revision": "2026-11-23T08:16:42Z"
+  "revision": "2026-11-23T09:16:11Z"
 }
