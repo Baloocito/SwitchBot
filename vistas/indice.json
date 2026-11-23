@@ -6,19 +6,18 @@
     "nota": "fechas estimadas según 2025"
   },
   "fallos": {
-    "MegaGames": 1,
     "PC Factory": 12,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 540,
+  "fisicos": 548,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-23T15:17:56Z",
+  "revision": "2026-11-23T16:17:52Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -167,8 +166,9 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "linea": "🟢 <b>Contra</b> — 📦 2 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
       "nombres": [
+        "contra operation galuga",
         "contra rogue corps"
       ],
       "orden": 1,
@@ -692,7 +692,7 @@
     },
     {
       "juego": "Octopath Traveler",
-      "linea": "🟢 <b>Octopath Traveler</b> — 📦 7 desde $44.990\n   🟢 OCTOPATH TRAVELER 0",
+      "linea": "🟢 <b>Octopath Traveler</b> — 📦 7 desde $44.990\n   🟢 OCTOPATH TRAVELER II −8%",
       "nombres": [
         "octopath traveler",
         "octopath traveler 0",
@@ -723,7 +723,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 187 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 187 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -770,6 +770,7 @@
         "digimon survive",
         "digimon world next order",
         "disc room",
+        "disney magical world 2 enchanted edition",
         "doom anthology",
         "dorfromantik",
         "dragons dogma dark arisen",
@@ -920,7 +921,7 @@
     },
     {
       "juego": "Overcooked",
-      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $44.990 · 🎮 2 desde US$6.47\n   🟢 Overcooked! All You Can Eat −75%",
+      "linea": "🟢 <b>Overcooked</b> — 📦 3 desde $39.990 · 🎮 2 desde US$6.47\n   🟢 Overcooked! All You Can Eat −75%",
       "nombres": [
         "overcooked 2",
         "overcooked 2 nintendo switch 2 edition",
@@ -1161,11 +1162,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $30.990\n   🟢 STAR WARS™ Jedi Knight Collection (Europeo)",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
+        "star wars jedi knight collection europeo",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1362,5 +1363,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 665
+  "total": 667
 }
