@@ -42,24 +42,6 @@
           "precio": 29990.0,
           "tarjeta": null,
           "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/16842246/Audifono-Gamer-Hyperx-Cloud-Stinger-Core-2-Negro"
-        }
-      ],
-      "marca": "hyperx",
-      "min_hist": 29990.0,
-      "nombre": "Audífonos Gamer Cloud Stinger Core 2 Negro",
-      "pct": 0.0,
-      "precio": 29990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/16842246/Audifono-Gamer-Hyperx-Cloud-Stinger-Core-2-Negro"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 29990.0,
-          "tarjeta": null,
-          "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80753979/audifonos-gaming-hyperx-cloud-stinger-2"
         }
       ],
@@ -192,9 +174,9 @@
       "marca": "Redragon",
       "min_hist": 38790,
       "nombre": "Audífonos Redragon Ire Pro H848 Bluetooth Usb Recargable Color Negro L",
-      "pct": 0,
+      "pct": 6.5,
       "precio": 42990,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-4297331982"
     },
@@ -316,7 +298,7 @@
         }
       ],
       "marca": "redragon",
-      "min_hist": 59990.0,
+      "min_hist": 49990.0,
       "nombre": "Audífono Headset H510W RGB Zeus X White",
       "pct": 0,
       "precio": 49990.0,
@@ -453,6 +435,60 @@
     {
       "avisos": [
         {
+          "precio": 77990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-4283787646"
+        }
+      ],
+      "marca": "SteelSeries",
+      "min_hist": 83990,
+      "nombre": "Audífonos Gamer Steelseries Arctis Nova 1 White Color Blanco (DUST2TIE",
+      "pct": 0,
+      "precio": 77990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-4283787646"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 77990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-4050078892"
+        }
+      ],
+      "marca": "SteelSeries",
+      "min_hist": 83990,
+      "nombre": "Audífonos Gamer Steelseries Arctis Nova 1 White Color Blanco (PROGAMIN",
+      "pct": 0,
+      "precio": 77990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-4050078892"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 78990,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-4051121690"
+        }
+      ],
+      "marca": "SteelSeries",
+      "min_hist": 85990,
+      "nombre": "Audífonos Gamer Steelseries Arctis Nova 1 White Color Blanco (DUST2GG)",
+      "pct": 0,
+      "precio": 78990,
+      "ref_tipo": null,
+      "tienda": "MercadoLibre",
+      "url": "https://articulo.mercadolibre.cl/MLC-4051121690"
+    },
+    {
+      "avisos": [
+        {
           "precio": 79990,
           "tarjeta": null,
           "tienda": "MercadoLibre",
@@ -579,24 +615,6 @@
     {
       "avisos": [
         {
-          "precio": 123090,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-4523596062"
-        }
-      ],
-      "marca": "Logitech G",
-      "min_hist": 123090,
-      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (ADMINISTRADOR",
-      "pct": 0.0,
-      "precio": 123090,
-      "ref_tipo": "tipico",
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-4523596062"
-    },
-    {
-      "avisos": [
-        {
           "precio": 123491,
           "tarjeta": null,
           "tienda": "MercadoLibre",
@@ -717,24 +735,6 @@
       "pct": 0,
       "precio": 161990,
       "ref_tipo": null,
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 161990,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
-        }
-      ],
-      "marca": "Logitech G",
-      "min_hist": 129990,
-      "nombre": "Audífonos Gamer Logitech G G535 Lightspeed Negro Y Azul (tienda oficia",
-      "pct": 0.0,
-      "precio": 161990,
-      "ref_tipo": "tipico",
       "tienda": "MercadoLibre",
       "url": "https://articulo.mercadolibre.cl/MLC-2125787971"
     },
@@ -1115,7 +1115,7 @@
       "min_hist": 339990.0,
       "modelo": "Switch OLED",
       "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": 13.6,
+      "pct": 12.5,
       "precio": 349990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
@@ -1191,6 +1191,12 @@
           "tienda": "Bestmart",
           "titulo": "Tarjeta microSD Express Samsung de 256GB para Nintendo Switch 2",
           "url": "https://bestmart.cl/products/tarjeta-microsd-express-samsung-de-256gb-para-nintendo-switch-2"
+        },
+        {
+          "precio": 88800,
+          "tienda": "MercadoLibre",
+          "titulo": "Memoria Microsd Samsung Express Card 256gb Para Switch 2 (UN ANTOJITO.CL)",
+          "url": "https://articulo.mercadolibre.cl/MLC-1625264515"
         }
       ],
       "gb": 256,
@@ -1212,6 +1218,12 @@
           "tienda": "TodoJuegos",
           "titulo": "Micro Sd Express Switch 2 Sandisk 256gb | NS2",
           "url": "https://www.todojuegos.cl/Productos/NS2/Micro-SD-Express-Switch-2-Sandisk-256gb/?ref=buscador"
+        },
+        {
+          "precio": 88490,
+          "tienda": "MercadoLibre",
+          "titulo": "Tarjeta Memoria MicroSD Express SanDisk 256GB Para Nintendo Switch 2 Licencia Oficial Nintendo Lectura 880MB/s Escritura 650MB/s Diseño Super Mario Modelo SDSQXFN-256G-GR6ZN (ELECTROLANDIA CHILE)",
+          "url": "https://articulo.mercadolibre.cl/MLC-4698611796"
         }
       ],
       "gb": 256,
@@ -1359,16 +1371,10 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-23T02:16:08Z",
+  "revision": "2026-11-23T03:17:30Z",
   "seguimientos": [
     {
       "avisos": [
-        {
-          "precio": 41700,
-          "tarjeta": null,
-          "tienda": "MercadoLibre",
-          "url": "https://articulo.mercadolibre.cl/MLC-2923023060"
-        },
         {
           "precio": 43990.0,
           "tarjeta": null,
@@ -1380,15 +1386,21 @@
           "tarjeta": null,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/17292988/Audifono-Headset-Redragon-H510-Rgb-Zeus-X"
+        },
+        {
+          "precio": 51470,
+          "tarjeta": null,
+          "tienda": "MercadoLibre",
+          "url": "https://articulo.mercadolibre.cl/MLC-2865043080"
         }
       ],
       "item": "Redragon Zeus",
       "min_hist": 41700,
       "nombre": "Audífono Headset H510 Rgb Zeus X",
-      "precio": 41700,
+      "precio": 43990.0,
       "tarjeta": null,
-      "tienda": "MercadoLibre",
-      "url": "https://articulo.mercadolibre.cl/MLC-2923023060",
+      "tienda": "Bestmart",
+      "url": "https://bestmart.cl/products/audifonos-gamer-redragon-zeus-x-h510-rgb-sonido-7-1-negro",
       "variante": "x"
     },
     {

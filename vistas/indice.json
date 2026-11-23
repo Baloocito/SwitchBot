@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 545,
+  "fisicos": 548,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-23T02:16:08Z",
+  "revision": "2026-11-23T03:17:30Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -165,6 +165,15 @@
       "slug": "chrono-mana"
     },
     {
+      "juego": "Contra",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "nombres": [
+        "contra rogue corps"
+      ],
+      "orden": 1,
+      "slug": "contra"
+    },
+    {
       "juego": "Crash / Spyro",
       "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000\n   🟢 Crash 4 Bandicoot",
       "nombres": [
@@ -295,7 +304,7 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 4 desde $19.990 · 🎮 2 desde US$25.15\n   🟢 EA SPORTS FC 27 −50%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 4 desde $35.990 · 🎮 2 desde US$25.15\n   🟢 EA SPORTS FC 27 −50%",
       "nombres": [
         "ea sports fc 26",
         "ea sports fc 27"
@@ -324,7 +333,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
@@ -336,6 +345,7 @@
         "final fantasy vii revelation",
         "final fantasy viii remastered",
         "final fantasy x x 2 hd remaster",
+        "final fantasy xii the zodiac age",
         "world of final fantasy maxima"
       ],
       "orden": 1,
@@ -597,7 +607,7 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 4 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
       "nombres": [
         "metal gear solid master collection vol 1 sniper",
         "metal gear solid master collection vol 2",
@@ -684,7 +694,7 @@
     },
     {
       "juego": "Octopath Traveler",
-      "linea": "🟢 <b>Octopath Traveler</b> — 📦 7 desde $44.990\n   🟢 OCTOPATH TRAVELER II −14%",
+      "linea": "🟢 <b>Octopath Traveler</b> — 📦 7 desde $44.990\n   🟢 OCTOPATH TRAVELER II −8%",
       "nombres": [
         "octopath traveler",
         "octopath traveler 0",
@@ -715,7 +725,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 187 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 187 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -799,7 +809,6 @@
         "hello neighbor hide and seek",
         "hellpoint",
         "heretic hexen",
-        "it takes two",
         "justice sucks",
         "kamiwaza way of the thief",
         "katana kami a way of the samurai story",
@@ -993,14 +1002,14 @@
     },
     {
       "juego": "Rayman",
-      "linea": "🟡 <b>Rayman</b> — 📦 4 desde $29.900\n   🟡 Rayman: 30th Anniversary Edition −18%",
+      "linea": "🟢 <b>Rayman</b> — 📦 4 desde $29.900\n   🟢 Rayman Legends Retold",
       "nombres": [
         "rayman 30th anniversary edition",
         "rayman legends",
         "rayman legends definitive edition",
         "rayman legends retold"
       ],
-      "orden": 2,
+      "orden": 1,
       "slug": "rayman"
     },
     {
@@ -1134,7 +1143,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990 · 🎮 2 desde US$23.53\n   🟢 Split Fiction −40%",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990 · 🎮 2 desde US$23.53\n   🟢 Split Fiction −40%",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1353,5 +1362,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 665
+  "total": 668
 }
