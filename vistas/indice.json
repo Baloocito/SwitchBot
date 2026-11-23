@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 546,
+  "fisicos": 544,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-23T21:22:13Z",
+  "revision": "2026-11-23T23:15:52Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -167,9 +167,8 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 2 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
       "nombres": [
-        "contra operation galuga",
         "contra rogue corps"
       ],
       "orden": 1,
@@ -240,11 +239,11 @@
     },
     {
       "juego": "Digimon Story Time Stranger",
-      "linea": "🟢 <b>Digimon Story Time Stranger</b> — 📦 2 desde $79.990\n   🟢 Digimon Story Time Stranger",
+      "linea": "⚪ <b>Digimon Story Time Stranger</b> — 📦 1 desde $79.990",
       "nombres": [
         "digimon story time stranger"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "digimon-story-time-stranger"
     },
     {
@@ -597,7 +596,7 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 4 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
       "nombres": [
         "metal gear solid master collection vol 1 sniper",
         "metal gear solid master collection vol 2",
@@ -618,7 +617,7 @@
     },
     {
       "juego": "Metroid",
-      "linea": "🟢 <b>Metroid</b> — 📦 5 desde $44.990 · 🎮 1 desde US$38.84\n   🟢 Metroid Dread −30%",
+      "linea": "🟢 <b>Metroid</b> — 📦 6 desde $44.990 · 🎮 1 desde US$38.84\n   🟢 Metroid Dread −30%",
       "nombres": [
         "metroid dread",
         "metroid prime 4 beyond",
@@ -1154,11 +1153,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1355,5 +1353,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 666
+  "total": 665
 }

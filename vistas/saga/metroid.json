@@ -10,7 +10,7 @@
       "nivel": "compra",
       "nombre": "Metroid Dread",
       "pct": 30.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −30%\n<b>Metroid Dread</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$38.84</b> ≈ $39.484 en 🇧🇷 Brasil\n   Precio en la tienda: R$230,93 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$55.49 → ahorras US$16.65 · ⏳ termina el 3 dic (en 10 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/metroid-dread-switch/\">US$38.84</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/metroid-dread-switch/\">US$41.51</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/metroid-dread-switch/\">US$41.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/metroid-dread-switch/\">US$42.68</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/metroid-dread-switch/\">US$45.01</a>\n   El más caro: 🇨🇴 US$48.85\n📦 Físico: $99.990 en Falabella → el digital te ahorra $60.506\n📈 Mínimo US$38.84 (22 nov en 🇧🇷 Brasil)\n   ████████████████████▇▇▇▇▇▁▁▁▁▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/metroid-dread-switch/\">Ver en la eShop de Brasil</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −30%\n<b>Metroid Dread</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$38.84</b> ≈ $39.484 en 🇧🇷 Brasil\n   Precio en la tienda: R$230,93 BRL\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$55.49 → ahorras US$16.65 · ⏳ termina el 3 dic (en 10 días)\n🌎 <b>Por país</b>\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/metroid-dread-switch/\">US$38.84</a> ← el más barato\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/metroid-dread-switch/\">US$41.51</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/metroid-dread-switch/\">US$41.99</a>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/metroid-dread-switch/\">US$42.68</a>\n   🇲🇽 <a href=\"https://www.nintendo.com/es-mx/store/products/metroid-dread-switch/\">US$45.01</a>\n   El más caro: 🇨🇴 US$48.85\n📦 Físico: $49.990 en 8 Bits → el digital te ahorra $10.506\n📈 Mínimo US$38.84 (22 nov en 🇧🇷 Brasil)\n   ████████████████████▇▇▇▇▇▁▁▁▁▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/pt-br/store/products/metroid-dread-switch/\">Ver en la eShop de Brasil</a>",
       "tipo": "digital"
     },
     {
@@ -51,6 +51,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:96d5389f79",
+        "text": "⚙️ Metroid Dread · $49.990"
+      },
+      "id": "96d5389f79",
+      "nivel": "normal",
+      "nombre": "Metroid Dread",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Metroid Dread (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $49.990 (23 nov, 8 Bits) · máximo $49.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$38.84 ≈ $39.484 en 🇧🇷 Brasil (−30%)\n   ➜ El digital es $10.506 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/usado-metroid-dread-nsw-1\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:c7c8feb471",
         "text": "⚙️ Metroid Prime Remastered · $44.990"
       },
@@ -75,5 +87,5 @@
     }
   ],
   "juego": "Metroid",
-  "revision": "2026-11-23T21:22:13Z"
+  "revision": "2026-11-23T23:15:52Z"
 }
