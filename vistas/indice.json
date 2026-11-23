@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 547,
+  "fisicos": 546,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-23T00:16:07Z",
+  "revision": "2026-11-23T01:15:48Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -165,14 +165,13 @@
       "slug": "chrono-mana"
     },
     {
-      "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 2 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "juego": "Civilization",
+      "linea": "🟢 <b>Civilization</b> — 📦 1 desde $34.990\n   🟢 Sid Meier’s Civilization VI",
       "nombres": [
-        "contra operation galuga",
-        "contra rogue corps"
+        "sid meiers civilization vi"
       ],
       "orden": 1,
-      "slug": "contra"
+      "slug": "civilization"
     },
     {
       "juego": "Crash / Spyro",
@@ -607,7 +606,7 @@
     },
     {
       "juego": "Metal Gear",
-      "linea": "🟢 <b>Metal Gear</b> — 📦 4 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
+      "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
       "nombres": [
         "metal gear solid master collection vol 1 sniper",
         "metal gear solid master collection vol 2",
@@ -725,7 +724,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 187 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 187 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -809,7 +808,6 @@
         "hello neighbor hide and seek",
         "hellpoint",
         "heretic hexen",
-        "it takes two",
         "justice sucks",
         "kamiwaza way of the thief",
         "katana kami a way of the samurai story",
@@ -1144,7 +1142,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990 · 🎮 2 desde US$23.53\n   🟢 Split Fiction −40%",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990 · 🎮 2 desde US$23.53\n   🟢 Split Fiction −40%",
       "nombres": [
         "it takes two",
         "split fiction"
