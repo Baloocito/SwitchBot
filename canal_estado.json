@@ -5,17 +5,6 @@
   },
   "cola": {},
   "dias": {
-    "2026-11-09": {
-      "bombazos": 1,
-      "posts": 6,
-      "slots": [
-        "top",
-        "pack",
-        "tarde",
-        "fisicos",
-        "ultima"
-      ]
-    },
     "2026-11-10": {
       "bombazos": 1,
       "posts": 6,
@@ -164,21 +153,14 @@
         "fisicos",
         "ultima"
       ]
+    },
+    "2026-11-23": {
+      "bombazos": 1,
+      "posts": 1,
+      "slots": []
     }
   },
   "posts": [
-    {
-      "fecha": "2026-10-22T13:35-03:00",
-      "ids": [
-        "9d08ae58b3",
-        "d68f4ecbd8",
-        "a1f52336b4",
-        "74613d4473",
-        "2b17858405"
-      ],
-      "message_id": 32,
-      "slot": "pack"
-    },
     {
       "fecha": "2026-10-22T16:35-03:00",
       "ids": [],
@@ -1969,6 +1951,14 @@
       ],
       "message_id": 237,
       "slot": "ultima"
+    },
+    {
+      "fecha": "2026-11-23T08:35-03:00",
+      "ids": [
+        "d7783732ed"
+      ],
+      "message_id": 238,
+      "slot": "bombazo"
     }
   ],
   "publicados": {
@@ -2236,11 +2226,6 @@
       "fecha": "2026-11-07",
       "precio": 19200,
       "slot": "top"
-    },
-    "3d4b493493": {
-      "fecha": "2026-10-23",
-      "precio": 2300,
-      "slot": "pack"
     },
     "3dd57f2150": {
       "fecha": "2026-10-24",
@@ -2872,11 +2857,6 @@
       "precio": 11600,
       "slot": "pack"
     },
-    "c0b386e1a8": {
-      "fecha": "2026-10-23",
-      "precio": 34900.0,
-      "slot": "fisicos"
-    },
     "c1396d0512": {
       "fecha": "2026-11-03",
       "precio": 11120,
@@ -2891,11 +2871,6 @@
       "fecha": "2026-11-19",
       "precio": 29950,
       "slot": "bombazo"
-    },
-    "c2c29803ed": {
-      "fecha": "2026-10-23",
-      "precio": 39900.0,
-      "slot": "fisicos"
     },
     "c3762acf57": {
       "fecha": "2026-10-29",
@@ -3018,9 +2993,9 @@
       "slot": "top"
     },
     "d7783732ed": {
-      "fecha": "2026-11-16",
+      "fecha": "2026-11-23",
       "precio": 7200,
-      "slot": "top"
+      "slot": "bombazo"
     },
     "d7e022fb36": {
       "fecha": "2026-10-30",
@@ -3735,5 +3710,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-22T21:05:34.619210-03:00"
+  "ultimo_post": "2026-11-23T08:35:32.897100-03:00"
 }
