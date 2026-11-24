@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 544,
+  "fisicos": 543,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-23T23:15:52Z",
+  "revision": "2026-11-24T00:17:50Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -1061,11 +1061,10 @@
     },
     {
       "juego": "Shantae",
-      "linea": "🟢 <b>Shantae</b> — 📦 2 desde $44.990 · 🎮 2 desde US$8.55\n   🟢 Shantae and the Pirate's Curse −50%",
+      "linea": "🟢 <b>Shantae</b> — 📦 1 desde $44.990 · 🎮 2 desde US$8.55\n   🟢 Shantae and the Pirate's Curse −50%",
       "nombres": [
         "shantae and the pirates curse",
         "shantae and the seven sirens",
-        "shantae half genie hero",
         "shantae half genie hero ultimate edition"
       ],
       "orden": 1,
@@ -1353,5 +1352,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 665
+  "total": 664
 }
