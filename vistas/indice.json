@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 545,
+  "fisicos": 546,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-24T19:23:20Z",
+  "revision": "2026-11-24T21:18:07Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -51,7 +51,7 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 4 desde $20.000 · 🎮 2 desde US$9.31\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 3 desde $20.000 · 🎮 2 desde US$9.31\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
       "nombres": [
         "assassins creed iii remastered",
         "assassins creed shadows",
@@ -220,15 +220,6 @@
       "slug": "dead-cells"
     },
     {
-      "juego": "Diablo",
-      "linea": "🟢 <b>Diablo</b> — 📦 1 desde $49.990\n   🟢 Diablo III: Eternal Collection",
-      "nombres": [
-        "diablo iii eternal collection"
-      ],
-      "orden": 1,
-      "slug": "diablo"
-    },
-    {
       "juego": "Digimon Story Time Stranger",
       "linea": "⚪ <b>Digimon Story Time Stranger</b> — 📦 1 desde $79.990",
       "nombres": [
@@ -262,10 +253,9 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 6 desde $29.990\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
-        "dragon ball xenoverse 2 for nintendo switch",
         "dragon ball z kakarot",
         "dragon ball z kakarot a new power awakens set",
         "dragon ball z kakarot a new power awakes set sniper",
@@ -377,11 +367,11 @@
     },
     {
       "juego": "Hitman",
-      "linea": "⚪ <b>Hitman</b> — 📦 1 desde $94.990",
+      "linea": "🟢 <b>Hitman</b> — 📦 1 desde $89.990\n   🟢 HITMAN World of Assassination - Signature Edition",
       "nombres": [
         "hitman world of assassination signature edition"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "hitman"
     },
     {
@@ -395,7 +385,7 @@
     },
     {
       "juego": "Hollow Knight",
-      "linea": "🟢 <b>Hollow Knight</b> — 📦 3 desde $36.990\n   🟢 Hollow Knight: Silksong",
+      "linea": "🟢 <b>Hollow Knight</b> — 📦 4 desde $36.990\n   🟢 Hollow Knight: Silksong",
       "nombres": [
         "hollow knight",
         "hollow knight silksong"
@@ -463,9 +453,8 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 7 desde $19.900 · 🎮 6 desde US$1.94\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $19.900 · 🎮 6 desde US$1.94\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
-        "lego brawls",
         "lego dc super villains",
         "lego harry potter collection",
         "lego horizon adventures",
@@ -917,7 +906,7 @@
     },
     {
       "juego": "Persona",
-      "linea": "🟢 <b>Persona</b> — 📦 5 desde $34.990 · 🎮 4 desde US$7.97\n   🟢 Persona 5 Strikers −50%",
+      "linea": "🟢 <b>Persona</b> — 📦 5 desde $32.990 · 🎮 4 desde US$7.97\n   🟢 Persona 5 Strikers −50%",
       "nombres": [
         "persona 3 portable",
         "persona 3 reload",
@@ -1087,7 +1076,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000 · 🎮 5 desde US$2.02\n   🟢 SONIC X SHADOW GENERATIONS −75%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000 · 🎮 5 desde US$2.02\n   🟢 SONIC X SHADOW GENERATIONS −75%",
       "nombres": [
         "sega ages sonic the hedgehog",
         "sonic classic collection",
@@ -1146,12 +1135,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 6 desde $30.990\n   🟢 LEGO Star Wars: The Skywalker Saga",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
-        "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars jedi knight collection europeo",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1348,5 +1335,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 669
+  "total": 663
 }
