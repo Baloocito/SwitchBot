@@ -7,17 +7,18 @@
   },
   "fallos": {
     "PC Factory": 12,
+    "Paris": 1,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 544,
+  "fisicos": 536,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-24T17:16:38Z",
+  "revision": "2026-11-24T18:17:55Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -81,11 +82,12 @@
     },
     {
       "juego": "Batman",
-      "linea": "🟢 <b>Batman</b> — 📦 1 desde $69.900 · 🎮 3 desde US$7.42\n   🟢 Batman: Arkham Asylum −60%",
+      "linea": "🟢 <b>Batman</b> — 📦 2 desde $49.990 · 🎮 3 desde US$7.42\n   🟢 Batman: Arkham Asylum −60%",
       "nombres": [
         "batman arkham asylum",
         "batman arkham city",
         "batman arkham knight",
+        "batman arkham trilogy sniper",
         "lego batman legacy of the dark knight"
       ],
       "orden": 1,
@@ -133,7 +135,7 @@
     },
     {
       "juego": "Castlevania",
-      "linea": "🟢 <b>Castlevania</b> — 📦 9 desde $44.900 · 🎮 3 desde US$5.47\n   🟢 Castlevania Anniversary Collection −60%",
+      "linea": "🟢 <b>Castlevania</b> — 📦 10 desde $44.900 · 🎮 3 desde US$5.47\n   🟢 Castlevania Anniversary Collection −60%",
       "nombres": [
         "castlevania advance collection",
         "castlevania anniversary collection",
@@ -212,11 +214,11 @@
     },
     {
       "juego": "Dead Cells",
-      "linea": "🟢 <b>Dead Cells</b> — 📦 1 desde $32.900\n   🟢 Dead Cells",
+      "linea": "⚪ <b>Dead Cells</b> — 📦 1 desde $34.990",
       "nombres": [
         "dead cells"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "dead-cells"
     },
     {
@@ -377,11 +379,11 @@
     },
     {
       "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 1 desde $89.990\n   🟢 HITMAN World of Assassination - Signature Edition",
+      "linea": "⚪ <b>Hitman</b> — 📦 1 desde $94.990",
       "nombres": [
         "hitman world of assassination signature edition"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "hitman"
     },
     {
@@ -395,7 +397,7 @@
     },
     {
       "juego": "Hollow Knight",
-      "linea": "🟢 <b>Hollow Knight</b> — 📦 4 desde $36.990\n   🟢 Hollow Knight: Silksong",
+      "linea": "🟢 <b>Hollow Knight</b> — 📦 3 desde $36.990\n   🟢 Hollow Knight: Silksong",
       "nombres": [
         "hollow knight",
         "hollow knight silksong"
@@ -545,11 +547,11 @@
     },
     {
       "juego": "Mario Kart World",
-      "linea": "🟢 <b>Mario Kart World</b> — 📦 1 desde $69.990\n   🟢 Mario Kart World −12%",
+      "linea": "⚪ <b>Mario Kart World</b> — 📦 1 desde $82.900",
       "nombres": [
         "mario kart world"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "mario-kart-world"
     },
     {
@@ -620,9 +622,8 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "🟢 <b>Minecraft</b> — 📦 4 desde $26.990\n   🟢 Minecraft −18%",
+      "linea": "🟢 <b>Minecraft</b> — 📦 3 desde $27.000\n   🟢 Minecraft Dungeons II",
       "nombres": [
-        "minecraft",
         "minecraft dungeons ii",
         "minecraft legends",
         "minecraft nintendo switch edition"
@@ -1146,11 +1147,12 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.990\n   🟢 LEGO Star Wars: The Skywalker Saga",
+      "linea": "🟢 <b>Star Wars</b> — 📦 6 desde $30.990\n   🟢 LEGO Star Wars: The Skywalker Saga",
       "nombres": [
         "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
+        "star wars jedi knight collection europeo",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1347,5 +1349,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 667
+  "total": 668
 }
