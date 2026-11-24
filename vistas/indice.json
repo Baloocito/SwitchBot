@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 546,
+  "fisicos": 548,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-24T21:31:13Z",
+  "revision": "2026-11-24T23:18:55Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -253,9 +253,10 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 6 desde $29.990\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
+        "dragon ball xenoverse 2 for nintendo switch",
         "dragon ball z kakarot",
         "dragon ball z kakarot a new power awakens set",
         "dragon ball z kakarot a new power awakes set sniper",
@@ -385,7 +386,7 @@
     },
     {
       "juego": "Hollow Knight",
-      "linea": "🟢 <b>Hollow Knight</b> — 📦 4 desde $36.990\n   🟢 Hollow Knight: Silksong",
+      "linea": "🟢 <b>Hollow Knight</b> — 📦 3 desde $36.990\n   🟢 Hollow Knight: Silksong",
       "nombres": [
         "hollow knight",
         "hollow knight silksong"
@@ -453,8 +454,9 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $19.900 · 🎮 6 desde US$1.94\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $22.900 · 🎮 6 desde US$1.94\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
+        "lego brawls",
         "lego dc super villains",
         "lego harry potter collection",
         "lego horizon adventures",
@@ -609,8 +611,9 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "🟢 <b>Minecraft</b> — 📦 3 desde $27.000\n   🟢 Minecraft Dungeons II",
+      "linea": "🟢 <b>Minecraft</b> — 📦 4 desde $26.990\n   🟢 Minecraft −18%",
       "nombres": [
+        "minecraft",
         "minecraft dungeons ii",
         "minecraft legends",
         "minecraft nintendo switch edition"
@@ -1134,10 +1137,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $30.990\n   🟢 STAR WARS™ Jedi Knight Collection (Europeo)",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
+        "star wars jedi knight collection europeo",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1334,5 +1338,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 661
+  "total": 664
 }

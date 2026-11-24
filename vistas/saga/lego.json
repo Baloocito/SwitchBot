@@ -128,18 +128,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:54e270a219",
-        "text": "⚙️ LEGO Horizon Adventures · $19.900"
-      },
-      "id": "54e270a219",
-      "nivel": "normal",
-      "nombre": "LEGO Horizon Adventures",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>LEGO Horizon Adventures</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$19.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $16.000 (27 oct, TodoJuegos) · típico $19.900 · máximo $19.900\n   █▁▁▁▁▁▁▁▁█████████████████████  últimos 30 días\n🎮 Digital: US$9.39 ≈ $9.613 en 🇨🇦 Canadá (−73%)\n   ➜ El digital es $10.287 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($19.900): el descuento no es real\n⚠️ TodoJuegos subió este juego de $16.000 a $19.900 la semana antes del evento: ojo con el «descuento»\n🛒 <a href=\"https://listado.mercadolibre.cl/lego-horizon-adventures-nintendo-switch\">MercadoLibre</a>: nuevo ~$27.837 (24 avisos)\n💰 <b>Reventa</b>: lo compras a $19.900 y nuevo se vende a ~$27.837 (+$7.937 antes de comisiones)\n🔎 Confianza media: 1 tienda y 37 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/LEGO-Horizon-Adventures--Europeo-/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:fdb55e430a",
         "text": "⚙️ LEGO Worlds · $29.990"
       },
@@ -149,8 +137,20 @@
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>LEGO Worlds</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$29.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.450 (16 nov, Falabella) · típico $29.990 · máximo $29.990\n   █████████████████████▁▁▁▁█████  últimos 30 días\n🎮 Digital: US$2.08 ≈ $2.129 en 🇨🇦 Canadá (−90%)\n   ➜ El digital es $27.861 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($29.990): el descuento no es real\n🔎 Confianza media: 1 tienda y 42 días de historial\n🛒 <a href=\"https://8-bits.cl/products/lego-worlds-nsw\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:701f57f4ba",
+        "text": "⚙️ LEGO Brawls · $54.990"
+      },
+      "id": "701f57f4ba",
+      "nivel": "normal",
+      "nombre": "LEGO Brawls",
+      "pct": -4.0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>LEGO Brawls</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en Sniper\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $50.000 (25 oct, Paris) · típico $52.890 · máximo $54.990\n   ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅███████▁████▁  últimos 30 días\n🎮 Digital: US$15.63 ≈ $16.001 en 🇨🇱 Chile\n   ➜ El digital es $38.989 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $52.890: ¡hoy está MÁS CARO!\n🛒 <a href=\"https://listado.mercadolibre.cl/lego-brawls-nintendo-switch\">MercadoLibre</a>: nuevo ~$31.053 (9 avisos)\n🔎 Confianza media: 1 tienda y 37 días de historial\n🛒 <a href=\"https://sniper.cl/products/lego-brawls-switch-sniper\">Ir a comprar en Sniper</a>",
+      "tipo": "fisico"
     }
   ],
   "juego": "LEGO",
-  "revision": "2026-11-24T21:31:13Z"
+  "revision": "2026-11-24T23:18:55Z"
 }
