@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 543,
+  "fisicos": 548,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-24T13:17:45Z",
+  "revision": "2026-11-24T14:18:25Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -81,11 +81,12 @@
     },
     {
       "juego": "Batman",
-      "linea": "🟢 <b>Batman</b> — 🎮 3 desde US$7.42\n   🟢 Batman: Arkham Asylum −60%",
+      "linea": "🟢 <b>Batman</b> — 📦 1 desde $69.900 · 🎮 3 desde US$7.42\n   🟢 Batman: Arkham Asylum −60%",
       "nombres": [
         "batman arkham asylum",
         "batman arkham city",
-        "batman arkham knight"
+        "batman arkham knight",
+        "lego batman legacy of the dark knight"
       ],
       "orden": 1,
       "slug": "batman"
@@ -177,15 +178,6 @@
       "slug": "crash-spyro"
     },
     {
-      "juego": "Cuphead",
-      "linea": "⚪ <b>Cuphead</b> — 📦 1 desde $32.900",
-      "nombres": [
-        "cuphead"
-      ],
-      "orden": 4,
-      "slug": "cuphead"
-    },
-    {
       "juego": "Cyberpunk 2077",
       "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990\n   🟢 Cyberpunk 2077: Ultimate Edition",
       "nombres": [
@@ -211,11 +203,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "dave-the-diver"
     },
     {
@@ -276,10 +268,11 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 14 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 15 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
         "dragon quest builders",
         "dragon quest builders 2",
+        "dragon quest i ii hd 2d remake",
         "dragon quest iii hd 2d remake",
         "dragon quest monsters the dark prince",
         "dragon quest monsters the withered world",
@@ -325,7 +318,7 @@
         "final fantasy vii remake intergrade",
         "final fantasy vii revelation",
         "final fantasy viii remastered",
-        "final fantasy x x 2 hd remaster",
+        "final fantasy xii the zodiac age",
         "world of final fantasy maxima"
       ],
       "orden": 1,
@@ -384,7 +377,7 @@
     },
     {
       "juego": "Hogwarts Legacy",
-      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 2 desde $59.990\n   🟢 Hogwarts Legacy",
+      "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.990\n   🟢 Hogwarts Legacy",
       "nombres": [
         "hogwarts legacy"
       ],
@@ -403,8 +396,9 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
       "nombres": [
+        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -701,6 +695,15 @@
       ],
       "orden": 1,
       "slug": "one-piece"
+    },
+    {
+      "juego": "Ori",
+      "linea": "⚪ <b>Ori</b> — 📦 1 desde $29.990",
+      "nombres": [
+        "ori and the blind forest definitive edition"
+      ],
+      "orden": 4,
+      "slug": "ori"
     },
     {
       "juego": "🔍 Otros juegos",
@@ -1342,5 +1345,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 658
+  "total": 663
 }

@@ -38,6 +38,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:0428b4e196",
+        "text": "⚙️ DRAGON QUEST I & II HD-2D Rem… S2 · $54.990"
+      },
+      "id": "0428b4e196",
+      "nivel": "compra",
+      "nombre": "DRAGON QUEST I & II HD-2D Remake",
+      "pct": 0,
+      "texto": "🟢 <b>COMPRA YA</b>\n<b>DRAGON QUEST I &amp; II HD-2D Remake</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$54.990</b> en Sniper\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $81.990» (−33%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://sniper.cl/products/dragon-quest-i-ii-hd-2d-remake-switch-2\">$54.990 Sniper</a>\n   🥈 <a href=\"https://8-bits.cl/products/dragon-quest-i-ii-hd-2d-remake-nintendo-switch-2\">$69.990 8 Bits</a> (+$15.000)\n📈 Mínimo $54.990 (19 oct, Sniper) · típico $54.990 · máximo $59.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$50.33 ≈ $51.525 en 🇧🇷 Brasil\n   ➜ El digital es $3.465 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($54.990): el descuento no es real\n💼 <b>Margen</b>: la otra tienda lo vende a $69.990 → ~$15.000 (21%) de diferencia\n🔎 Confianza media: 2 tiendas y 42 días de historial\n🛒 <a href=\"https://sniper.cl/products/dragon-quest-i-ii-hd-2d-remake-switch-2\">Ir a comprar en Sniper</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:31dda9e872",
         "text": "⚙️ DRAGON QUEST MONSTERS: The Da… · $59.990"
       },
@@ -170,5 +182,5 @@
     }
   ],
   "juego": "Dragon Quest",
-  "revision": "2026-11-24T13:17:45Z"
+  "revision": "2026-11-24T14:18:25Z"
 }
