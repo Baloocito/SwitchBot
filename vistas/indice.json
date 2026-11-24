@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 548,
+  "fisicos": 546,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-24T14:18:25Z",
+  "revision": "2026-11-24T15:18:23Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -178,6 +178,15 @@
       "slug": "crash-spyro"
     },
     {
+      "juego": "Cuphead",
+      "linea": "⚪ <b>Cuphead</b> — 📦 1 desde $32.900",
+      "nombres": [
+        "cuphead"
+      ],
+      "orden": 4,
+      "slug": "cuphead"
+    },
+    {
       "juego": "Cyberpunk 2077",
       "linea": "🟢 <b>Cyberpunk 2077</b> — 📦 2 desde $39.990\n   🟢 Cyberpunk 2077: Ultimate Edition",
       "nombres": [
@@ -203,11 +212,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
+      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "dave-the-diver"
     },
     {
@@ -386,7 +395,7 @@
     },
     {
       "juego": "Hollow Knight",
-      "linea": "🟢 <b>Hollow Knight</b> — 📦 4 desde $36.990\n   🟢 Hollow Knight: Silksong",
+      "linea": "🟢 <b>Hollow Knight</b> — 📦 3 desde $36.990\n   🟢 Hollow Knight: Silksong",
       "nombres": [
         "hollow knight",
         "hollow knight silksong"
@@ -396,9 +405,8 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
       "nombres": [
-        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -697,17 +705,8 @@
       "slug": "one-piece"
     },
     {
-      "juego": "Ori",
-      "linea": "⚪ <b>Ori</b> — 📦 1 desde $29.990",
-      "nombres": [
-        "ori and the blind forest definitive edition"
-      ],
-      "orden": 4,
-      "slug": "ori"
-    },
-    {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 186 desde US$1.94\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 5 desde $29.990 · 🎮 186 desde US$1.94\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -805,6 +804,7 @@
         "mcpixel 3",
         "mega man battle network legacy collection",
         "melon journey bittersweet memories",
+        "metr prime 4",
         "mlb the show 26",
         "monopoly madness",
         "monster hunter stories collection",
@@ -1345,5 +1345,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 663
+  "total": 661
 }
