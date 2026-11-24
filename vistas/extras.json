@@ -887,23 +887,6 @@
     {
       "avisos": [
         {
-          "precio": 299990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 299990.0,
-      "modelo": "Switch",
-      "nombre": "Consola Switch Neon + Mario Wonder Bundle",
-      "pct": 0.0,
-      "precio": 299990.0,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
-    },
-    {
-      "avisos": [
-        {
           "precio": 309990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-modelo-super-mario-bros-wonder-bundle-descarga-del-juego-completo-3-meses-de-suscripcion-a-nintendo-switch-online-lt2"
@@ -934,6 +917,23 @@
       "precio": 349990.0,
       "tienda": "Paris",
       "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 359990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 299990.0,
+      "modelo": "Switch",
+      "nombre": "Consola Switch Neon + Mario Wonder Bundle",
+      "pct": -20.0,
+      "precio": 359990.0,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
     },
     {
       "avisos": [
@@ -1107,23 +1107,6 @@
       "avisos": [
         {
           "precio": 349990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 339990.0,
-      "modelo": "Switch OLED",
-      "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": 12.5,
-      "precio": 349990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 349990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-blanco"
         },
@@ -1175,6 +1158,23 @@
       "precio": 379990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nintendo-switch-online"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 409990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 339990.0,
+      "modelo": "Switch OLED",
+      "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
+      "pct": -2.5,
+      "precio": 409990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
     }
   ],
   "memorias": [
@@ -1359,7 +1359,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-24T02:17:30Z",
+  "revision": "2026-11-24T03:19:42Z",
   "seguimientos": [
     {
       "avisos": [
