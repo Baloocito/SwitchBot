@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 541,
+  "fisicos": 539,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-24T05:16:51Z",
+  "revision": "2026-11-24T06:17:02Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -166,9 +166,9 @@
     },
     {
       "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $64.990\n   🟢 Contra: Operation Galuga",
       "nombres": [
-        "contra rogue corps"
+        "contra operation galuga"
       ],
       "orden": 1,
       "slug": "contra"
@@ -220,11 +220,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
+      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "dave-the-diver"
     },
     {
@@ -285,7 +285,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 18 desde $24.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 16 desde $24.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
         "dragon quest",
         "dragon quest builders",
@@ -598,7 +598,7 @@
       "juego": "Metal Gear",
       "linea": "🟢 <b>Metal Gear</b> — 📦 5 desde $39.900\n   🟢 METAL GEAR SOLID: MASTER COLLECTION VOL.2 DAY 1 ED",
       "nombres": [
-        "metal gear solid master collection vol 1 sniper",
+        "metal gear solid master collection vol 1",
         "metal gear solid master collection vol 2",
         "metal gear solid master collection vol 2 day 1 ed",
         "metal gear solid master collection vol 2 day one ed"
@@ -1093,7 +1093,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000 · 🎮 5 desde US$2.02\n   🟢 SONIC X SHADOW GENERATIONS −75%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000 · 🎮 5 desde US$2.02\n   🟢 SONIC X SHADOW GENERATIONS −75%",
       "nombres": [
         "sega ages sonic the hedgehog",
         "sonic classic collection",
@@ -1352,5 +1352,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 666
+  "total": 662
 }
