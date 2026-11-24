@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 540,
+  "fisicos": 541,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-24T04:16:57Z",
+  "revision": "2026-11-24T05:16:51Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -220,11 +220,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "dave-the-diver"
     },
     {
@@ -285,7 +285,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 17 desde $24.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 18 desde $24.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
         "dragon quest",
         "dragon quest builders",
@@ -1352,5 +1352,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 664
+  "total": 666
 }
