@@ -6,6 +6,7 @@
     "nota": "fechas estimadas según 2025"
   },
   "fallos": {
+    "Lider": 1,
     "PC Factory": 12,
     "SP Digital": 12,
     "Weplay": 11
@@ -17,7 +18,7 @@
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-24T06:17:02Z",
+  "revision": "2026-11-24T07:17:35Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -163,15 +164,6 @@
       ],
       "orden": 1,
       "slug": "chrono-mana"
-    },
-    {
-      "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 1 desde $64.990\n   🟢 Contra: Operation Galuga",
-      "nombres": [
-        "contra operation galuga"
-      ],
-      "orden": 1,
-      "slug": "contra"
     },
     {
       "juego": "Crash / Spyro",
@@ -1152,10 +1144,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
+        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
