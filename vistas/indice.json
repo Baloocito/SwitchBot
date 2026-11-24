@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 545,
+  "fisicos": 546,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-24T11:17:33Z",
+  "revision": "2026-11-24T12:16:07Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -165,16 +165,6 @@
       "slug": "chrono-mana"
     },
     {
-      "juego": "Contra",
-      "linea": "🟢 <b>Contra</b> — 📦 2 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
-      "nombres": [
-        "contra operation galuga",
-        "contra rogue corps"
-      ],
-      "orden": 1,
-      "slug": "contra"
-    },
-    {
       "juego": "Crash / Spyro",
       "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000\n   🟢 Crash 4 Bandicoot",
       "nombres": [
@@ -185,6 +175,15 @@
       ],
       "orden": 1,
       "slug": "crash-spyro"
+    },
+    {
+      "juego": "Cuphead",
+      "linea": "⚪ <b>Cuphead</b> — 📦 1 desde $32.900",
+      "nombres": [
+        "cuphead"
+      ],
+      "orden": 4,
+      "slug": "cuphead"
     },
     {
       "juego": "Cyberpunk 2077",
@@ -212,11 +211,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "dave-the-diver"
     },
     {
@@ -277,9 +276,8 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 16 desde $24.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 15 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
-        "dragon quest",
         "dragon quest builders",
         "dragon quest builders 2",
         "dragon quest i ii hd 2d remake",
@@ -404,8 +402,9 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
       "nombres": [
+        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -704,8 +703,17 @@
       "slug": "one-piece"
     },
     {
+      "juego": "Ori",
+      "linea": "⚪ <b>Ori</b> — 📦 1 desde $29.990",
+      "nombres": [
+        "ori and the blind forest definitive edition"
+      ],
+      "orden": 4,
+      "slug": "ori"
+    },
+    {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 186 desde US$1.94\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 186 desde US$1.94\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -789,7 +797,6 @@
         "hello neighbor hide and seek",
         "hellpoint",
         "heretic hexen",
-        "it takes two",
         "justice sucks",
         "kamiwaza way of the thief",
         "katana kami a way of the samurai story",
@@ -1051,10 +1058,11 @@
     },
     {
       "juego": "Shantae",
-      "linea": "🟢 <b>Shantae</b> — 📦 1 desde $44.990 · 🎮 2 desde US$8.53\n   🟢 Shantae and the Pirate's Curse −50%",
+      "linea": "🟢 <b>Shantae</b> — 📦 2 desde $44.990 · 🎮 2 desde US$8.53\n   🟢 Shantae and the Pirate's Curse −50%",
       "nombres": [
         "shantae and the pirates curse",
         "shantae and the seven sirens",
+        "shantae half genie hero",
         "shantae half genie hero ultimate edition"
       ],
       "orden": 1,
@@ -1123,7 +1131,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990 · 🎮 2 desde US$23.37\n   🟢 Split Fiction −40%",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990 · 🎮 2 desde US$23.37\n   🟢 Split Fiction −40%",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1342,5 +1350,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 659
+  "total": 661
 }
