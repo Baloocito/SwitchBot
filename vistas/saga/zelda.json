@@ -74,6 +74,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:0a434d1a99",
+        "text": "⚙️ HORIPAD Turbo - The Legend of… · $59.990"
+      },
+      "id": "0a434d1a99",
+      "nivel": "normal",
+      "nombre": "HORIPAD Turbo - The Legend of Zelda",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>HORIPAD Turbo - The Legend of Zelda</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.990</b> en Sniper\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.990 (25 nov, Sniper) · máximo $59.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://sniper.cl/products/horipad-turbo-for-nintendo-switch-the-legend-of-zelda\">Ir a comprar en Sniper</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:27b7777048",
         "text": "⚙️ The Legend of Zelda: Breath o… · $54.900"
       },
@@ -122,18 +134,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:0a434d1a99",
-        "text": "⚙️ HORIPAD Turbo - The Legend of… · $59.990"
-      },
-      "id": "0a434d1a99",
-      "nivel": "normal",
-      "nombre": "HORIPAD Turbo - The Legend of Zelda",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>HORIPAD Turbo - The Legend of Zelda</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$59.990</b> en Sniper\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $59.990 (25 nov, Sniper) · máximo $59.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://sniper.cl/products/horipad-turbo-for-nintendo-switch-the-legend-of-zelda\">Ir a comprar en Sniper</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:2ac28237ab",
         "text": "⚙️ The Legend of Zelda 40th Anni… S2 · $834.990"
       },
@@ -146,5 +146,5 @@
     }
   ],
   "juego": "Zelda",
-  "revision": "2026-11-25T21:16:22Z"
+  "revision": "2026-11-25T22:16:49Z"
 }
