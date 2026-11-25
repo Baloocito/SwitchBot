@@ -17,7 +17,7 @@
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T15:17:50Z",
+  "revision": "2026-11-25T16:17:55Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -366,15 +366,6 @@
       "slug": "hades"
     },
     {
-      "juego": "Hitman",
-      "linea": "🟢 <b>Hitman</b> — 📦 1 desde $89.990\n   🟢 HITMAN World of Assassination - Signature Edition",
-      "nombres": [
-        "hitman world of assassination signature edition"
-      ],
-      "orden": 1,
-      "slug": "hitman"
-    },
-    {
       "juego": "Hogwarts Legacy",
       "linea": "🟢 <b>Hogwarts Legacy</b> — 📦 3 desde $59.990\n   🟢 Hogwarts Legacy",
       "nombres": [
@@ -403,10 +394,11 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 5 desde $19.900\n   🟢 Just Dance Decades Of Hits - Limited Edition",
+      "linea": "🟢 <b>Just Dance</b> — 📦 6 desde $19.900\n   🟢 Just Dance 2022",
       "nombres": [
         "just dance 2017",
         "just dance 2021",
+        "just dance 2022",
         "just dance 2024 edition",
         "just dance decades of hits limited edition"
       ],
@@ -451,7 +443,7 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 7 desde $19.900 · 🎮 6 desde US$1.96\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $22.900 · 🎮 6 desde US$1.96\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
         "lego brawls",
         "lego dc super villains",
@@ -693,15 +685,6 @@
       "slug": "one-piece"
     },
     {
-      "juego": "Ori",
-      "linea": "⚪ <b>Ori</b> — 📦 1 desde $29.990",
-      "nombres": [
-        "ori and the blind forest definitive edition"
-      ],
-      "orden": 4,
-      "slug": "ori"
-    },
-    {
       "juego": "🔍 Otros juegos",
       "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 186 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
@@ -912,7 +895,7 @@
     },
     {
       "juego": "Persona",
-      "linea": "🟢 <b>Persona</b> — 📦 5 desde $34.990 · 🎮 4 desde US$8.06\n   🟢 Persona 5 Strikers −50%",
+      "linea": "🟢 <b>Persona</b> — 📦 5 desde $32.990 · 🎮 4 desde US$8.06\n   🟢 Persona 5 Strikers −50%",
       "nombres": [
         "persona 3 portable",
         "persona 3 reload",
@@ -1141,9 +1124,8 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.990\n   🟢 LEGO Star Wars: The Skywalker Saga",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
-        "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
         "star wars racer and commando combo n"
@@ -1342,5 +1324,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 661
+  "total": 658
 }
