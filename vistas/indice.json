@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 542,
+  "fisicos": 543,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T16:17:55Z",
+  "revision": "2026-11-25T17:16:52Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -364,6 +364,15 @@
       ],
       "orden": 1,
       "slug": "hades"
+    },
+    {
+      "juego": "Hitman",
+      "linea": "🟢 <b>Hitman</b> — 📦 1 desde $89.990\n   🟢 HITMAN World of Assassination - Signature Edition",
+      "nombres": [
+        "hitman world of assassination signature edition"
+      ],
+      "orden": 1,
+      "slug": "hitman"
     },
     {
       "juego": "Hogwarts Legacy",
@@ -1324,5 +1333,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 658
+  "total": 659
 }
