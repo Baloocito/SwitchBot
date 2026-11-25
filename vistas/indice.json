@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 546,
+  "fisicos": 547,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T07:16:03Z",
+  "revision": "2026-11-25T08:17:39Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -253,7 +253,7 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $29.900\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball xenoverse 2 for nintendo switch",
@@ -268,7 +268,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 15 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 16 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
         "dragon quest builders",
         "dragon quest builders 2",
@@ -509,7 +509,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 24 desde $29.900 · 🎮 1 desde US$11.55\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 25 desde $29.900 · 🎮 1 desde US$11.55\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -698,7 +698,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 5 desde $29.990 · 🎮 186 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 186 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -782,7 +782,6 @@
         "hello neighbor hide and seek",
         "hellpoint",
         "heretic hexen",
-        "it takes two",
         "justice sucks",
         "kamiwaza way of the thief",
         "katana kami a way of the samurai story",
@@ -1118,7 +1117,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990 · 🎮 2 desde US$23.54\n   🟢 Split Fiction −40%",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990 · 🎮 2 desde US$23.54\n   🟢 Split Fiction −40%",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1137,10 +1136,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $30.990\n   🟢 STAR WARS™ Jedi Knight Collection (Europeo)",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
+        "star wars jedi knight collection europeo",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1337,5 +1337,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 660
+  "total": 664
 }
