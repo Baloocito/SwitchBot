@@ -17,7 +17,7 @@
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T17:16:52Z",
+  "revision": "2026-11-25T18:18:42Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -203,11 +203,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "dave-the-diver"
     },
     {
@@ -306,7 +306,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 12 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
@@ -317,7 +317,6 @@
         "final fantasy vii",
         "final fantasy vii revelation",
         "final fantasy viii remastered",
-        "final fantasy xii the zodiac age",
         "world of final fantasy maxima"
       ],
       "orden": 1,
@@ -507,7 +506,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 24 desde $29.900 · 🎮 1 desde US$11.55\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 25 desde $29.900 · 🎮 1 desde US$11.55\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -1333,5 +1332,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 659
+  "total": 660
 }
