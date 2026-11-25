@@ -2058,7 +2058,7 @@
     "juego": "🔍 Otros juegos",
     "min": 49990.0,
     "moneda": "CLP",
-    "nombre": "The Caligula Effect 2 - Sniper",
+    "nombre": "The Caligula Effect 2",
     "plataforma": "Switch",
     "precio": 49990.0,
     "saga": "otros-juegos",
@@ -2829,9 +2829,9 @@
     "plataforma": "Switch",
     "precio": 39990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "8 Bits",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/138737150/Untitled-Goose-Game-Nintendo-Switch"
+    "url": "https://8-bits.cl/products/untitled-goose-game-nsw"
   },
   "1007520b58": {
     "clave": "70010000122552",
@@ -11998,6 +11998,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/en-ca/store/products/smoots-world-cup-tennis-switch/"
   },
+  "3d59699f56": {
+    "clave": "70010000033534",
+    "juego": "🔍 Otros juegos",
+    "min": 5.05,
+    "moneda": "USD",
+    "nombre": "Assault ChaingunS KM",
+    "plataforma": "Switch",
+    "precio": 5.03,
+    "saga": "otros-juegos",
+    "tienda": "eShop CA",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/en-ca/store/products/assault-chainguns-km-switch/"
+  },
   "3d688bc6b2": {
     "clave": "destiny connect tick tock traveler time capsule euro import|Switch",
     "juego": "🔍 Otros juegos",
@@ -15428,7 +15441,7 @@
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/110418770/Fairy-Tail-Nintendo-Switch-Sniper"
+    "url": "https://www.falabella.com/falabella-cl/product/148475144/fairy-tail-nintendo-switch-sniper"
   },
   "4e175a7b86": {
     "clave": "70070000029872",
@@ -15858,19 +15871,6 @@
     "tienda": "Sniper",
     "tipo": "fisico",
     "url": "https://sniper.cl/products/blue-reflection-second-light-eu-version-switch-sniper-1"
-  },
-  "501748751b": {
-    "clave": "ghost parade|Switch",
-    "juego": "🔍 Otros juegos",
-    "min": 29900.0,
-    "moneda": "CLP",
-    "nombre": "Ghost Parade",
-    "plataforma": "Switch",
-    "precio": 29900.0,
-    "saga": "otros-juegos",
-    "tienda": "Paris",
-    "tipo": "fisico",
-    "url": "https://www.paris.cl/videojuego-ghost-parade-nintendo-switch-MKZ5GXOPYJ.html"
   },
   "5024a99722": {
     "clave": "70010000095203",
@@ -22513,7 +22513,7 @@
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/148486454/Deathsmile-1-2-Nintendo-Switch-Sniper"
+    "url": "https://www.falabella.com/falabella-cl/product/152347498/deathsmile-1-2-nintendo-switch-sniper"
   },
   "71ee836761": {
     "clave": "70010000033131",
@@ -26448,11 +26448,11 @@
     "moneda": "CLP",
     "nombre": "Baby Shark: Sing & Swim Party",
     "plataforma": "Switch",
-    "precio": 34702.0,
+    "precio": 29990.0,
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/148475514/baby-shark-sing-swim-party-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/139579839/Baby-Shark-Sing-y-Swim-Party-Nintendo-Switch"
   },
   "860d3dd134": {
     "clave": "70010000061250",
@@ -30519,9 +30519,9 @@
     "plataforma": "Switch",
     "precio": 69990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/150698613/mandragora-whispers-of-the-witch-tree-nintendo-switch"
+    "url": "https://sniper.cl/products/mandragora-whispers-of-the-witch-tree-nintendo-switch"
   },
   "9b1856af92": {
     "clave": "70010000115567",
@@ -33509,9 +33509,9 @@
     "plataforma": "Switch",
     "precio": 44990.0,
     "saga": "otros-juegos",
-    "tienda": "Sniper",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://sniper.cl/products/goat-simulator-3-nintendo-switch-snipercl"
+    "url": "https://www.falabella.com/falabella-cl/product/146191078/Goat-Simulator-3-Nintendo-Switch-SniperCL"
   },
   "ab9e9258c9": {
     "clave": "70010000027475",
@@ -34348,7 +34348,7 @@
   "af83ef336b": {
     "clave": "sw sta|Switch 2",
     "juego": "🔍 Otros juegos",
-    "min": 63990.0,
+    "min": 57990.0,
     "moneda": "CLP",
     "nombre": "Sw Sta",
     "plataforma": "Switch 2",
@@ -36281,6 +36281,19 @@
     "tienda": "eShop BR",
     "tipo": "digital",
     "url": "https://www.nintendo.com/pt-br/store/products/30xx-switch/"
+  },
+  "b8cbb6a1ff": {
+    "clave": "70010000046015",
+    "juego": "🔍 Otros juegos",
+    "min": 5.0,
+    "moneda": "USD",
+    "nombre": "TETRA for Nintendo Switch International Edition",
+    "plataforma": "Switch",
+    "precio": 4.84,
+    "saga": "otros-juegos",
+    "tienda": "eShop CL",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/es-cl/store/products/tetra-for-nintendo-switch-international-edition-switch/"
   },
   "b8d7b94ced": {
     "clave": "dragon quest xi s echoes of an elusive age definitive edition|Switch",
@@ -42444,6 +42457,19 @@
     "tipo": "digital",
     "url": "https://www.nintendo.com/es-mx/store/products/overcooked-all-you-can-eat-switch/"
   },
+  "d77b42845b": {
+    "clave": "70010000036232",
+    "juego": "🔍 Otros juegos",
+    "min": 5.13,
+    "moneda": "USD",
+    "nombre": "Missile Dancer",
+    "plataforma": "Switch",
+    "precio": 5.03,
+    "saga": "otros-juegos",
+    "tienda": "eShop CA",
+    "tipo": "digital",
+    "url": "https://www.nintendo.com/en-ca/store/products/missile-dancer-switch/"
+  },
   "d7a97bdc5e": {
     "clave": "70010000086736",
     "juego": "🔍 Otros juegos",
@@ -42737,11 +42763,11 @@
     "moneda": "CLP",
     "nombre": "Taxi Chaos",
     "plataforma": "Switch",
-    "precio": 45000.0,
+    "precio": 34720.0,
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/159076201/taxi-chaos-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/150928032/taxi-chaos-nintendo-switch-sniper"
   },
   "d961ee82a6": {
     "clave": "70010000097666",
@@ -42945,11 +42971,11 @@
     "moneda": "CLP",
     "nombre": "Sniper Elite V2 Remastered",
     "plataforma": "Switch",
-    "precio": 40000.0,
+    "precio": 44990.0,
     "saga": "otros-juegos",
-    "tienda": "Falabella",
+    "tienda": "Sniper",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/158668507/sniper-elite-v2-remastered-nintendo-switch"
+    "url": "https://sniper.cl/products/sniper-elite-v2-remastered-switch-fisico-sniper"
   },
   "dabe18929d": {
     "clave": "70010000051398",
@@ -43151,7 +43177,7 @@
     "juego": "🔍 Otros juegos",
     "min": 49990.0,
     "moneda": "CLP",
-    "nombre": "MLB The Show 23",
+    "nombre": "Mlb The Show 23 - Sniper",
     "plataforma": "Switch",
     "precio": 49990.0,
     "saga": "otros-juegos",
@@ -48860,11 +48886,11 @@
     "moneda": "CLP",
     "nombre": "Fairy Fencer F: Refrain Chord",
     "plataforma": "Switch",
-    "precio": 64990.0,
+    "precio": 54990.0,
     "saga": "otros-juegos",
-    "tienda": "Paris",
+    "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.paris.cl/fairy-fencer-f-refrain-chord-nintendo-switch-MK38PP3R7T.html"
+    "url": "https://www.falabella.com/falabella-cl/product/159355994/fairy-fencer-f-refrain-chord-nintendo-switch"
   },
   "f9909e2a7b": {
     "clave": "70010000123068",
@@ -49098,7 +49124,7 @@
     "saga": "shin-megami-tensei",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/148299680/shin-megami-tensei-v-vengeance-steelbook-launch-edition-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/110572105/Shin-Megami-Tensei-V-Steelbook-Edition-Switch-Sniper"
   },
   "fb121f964f": {
     "clave": "70010000089548",
@@ -49488,7 +49514,7 @@
     "saga": "otros-juegos",
     "tienda": "Falabella",
     "tipo": "fisico",
-    "url": "https://www.falabella.com/falabella-cl/product/150606960/peppa-pig-world-adventures-nintendo-switch"
+    "url": "https://www.falabella.com/falabella-cl/product/158466506/peppa-pig-world-adventures-nintendo-switch"
   },
   "fd558855b7": {
     "clave": "70010000081123",
