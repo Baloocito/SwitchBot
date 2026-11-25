@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 549,
+  "fisicos": 546,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T05:17:42Z",
+  "revision": "2026-11-25T06:17:45Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -133,7 +133,7 @@
     },
     {
       "juego": "Castlevania",
-      "linea": "🟢 <b>Castlevania</b> — 📦 10 desde $44.900 · 🎮 3 desde US$5.51\n   🟢 Castlevania Anniversary Collection −60%",
+      "linea": "🟢 <b>Castlevania</b> — 📦 9 desde $44.900 · 🎮 3 desde US$5.51\n   🟢 Castlevania Anniversary Collection −60%",
       "nombres": [
         "castlevania advance collection",
         "castlevania anniversary collection",
@@ -203,11 +203,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
+      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "dave-the-diver"
     },
     {
@@ -386,7 +386,7 @@
     },
     {
       "juego": "Hollow Knight",
-      "linea": "🟢 <b>Hollow Knight</b> — 📦 3 desde $36.990\n   🟢 Hollow Knight: Silksong",
+      "linea": "🟢 <b>Hollow Knight</b> — 📦 4 desde $36.990\n   🟢 Hollow Knight: Silksong",
       "nombres": [
         "hollow knight",
         "hollow knight silksong"
@@ -396,9 +396,8 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
       "nombres": [
-        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -510,7 +509,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 25 desde $29.900 · 🎮 1 desde US$11.55\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $29.900 · 🎮 1 desde US$11.55\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -696,15 +695,6 @@
       ],
       "orden": 1,
       "slug": "one-piece"
-    },
-    {
-      "juego": "Ori",
-      "linea": "⚪ <b>Ori</b> — 📦 1 desde $29.990",
-      "nombres": [
-        "ori and the blind forest definitive edition"
-      ],
-      "orden": 4,
-      "slug": "ori"
     },
     {
       "juego": "🔍 Otros juegos",
@@ -1347,5 +1337,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 665
+  "total": 661
 }
