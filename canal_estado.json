@@ -155,27 +155,17 @@
     },
     "2026-11-25": {
       "bombazos": 1,
-      "posts": 5,
+      "posts": 6,
       "slots": [
         "top",
         "pack",
         "tarde",
-        "fisicos"
+        "fisicos",
+        "memorias"
       ]
     }
   },
   "posts": [
-    {
-      "fecha": "2026-10-25T21:05-03:00",
-      "ids": [
-        "3d4b493493",
-        "d1ae7f7de6",
-        "8f056e1368",
-        "f332fc85b4"
-      ],
-      "message_id": 52,
-      "slot": "ultima"
-    },
     {
       "fecha": "2026-10-26T09:05-03:00",
       "ids": [
@@ -1965,6 +1955,12 @@
       ],
       "message_id": 256,
       "slot": "fisicos"
+    },
+    {
+      "fecha": "2026-11-25T20:05-03:00",
+      "ids": [],
+      "message_id": 257,
+      "slot": "memorias"
     }
   ],
   "publicados": {
@@ -3726,5 +3722,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-25T18:35:31.628790-03:00"
+  "ultimo_post": "2026-11-25T20:05:32.607944-03:00"
 }
