@@ -17,7 +17,7 @@
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T06:17:45Z",
+  "revision": "2026-11-25T07:16:03Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -386,7 +386,7 @@
     },
     {
       "juego": "Hollow Knight",
-      "linea": "🟢 <b>Hollow Knight</b> — 📦 4 desde $36.990\n   🟢 Hollow Knight: Silksong",
+      "linea": "🟢 <b>Hollow Knight</b> — 📦 3 desde $36.990\n   🟢 Hollow Knight: Silksong",
       "nombres": [
         "hollow knight",
         "hollow knight silksong"
@@ -1337,5 +1337,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 661
+  "total": 660
 }
