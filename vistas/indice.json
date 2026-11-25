@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 547,
+  "fisicos": 544,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T12:16:47Z",
+  "revision": "2026-11-25T13:16:51Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -306,7 +306,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
@@ -315,7 +315,6 @@
         "final fantasy tactics the ivalice chronicles",
         "final fantasy vi",
         "final fantasy vii",
-        "final fantasy vii remake intergrade",
         "final fantasy vii revelation",
         "final fantasy viii remastered",
         "final fantasy xii the zodiac age",
@@ -611,9 +610,8 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "🟢 <b>Minecraft</b> — 📦 4 desde $26.990\n   🟢 Minecraft −18%",
+      "linea": "🟢 <b>Minecraft</b> — 📦 3 desde $27.000\n   🟢 Minecraft Dungeons II",
       "nombres": [
-        "minecraft",
         "minecraft dungeons ii",
         "minecraft legends",
         "minecraft nintendo switch edition"
@@ -1137,11 +1135,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1323,7 +1320,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $39.990\n   🟢 Adventure Pack Legend Of Zelda Totk - Sniper −11%",
+      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $39.990\n   🟢 Adventure Pack Legend Of Zelda Totk - Sniper −11%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda 40th anniversary edition",
@@ -1338,5 +1335,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 663
+  "total": 659
 }
