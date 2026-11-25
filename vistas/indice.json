@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 543,
+  "fisicos": 542,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T14:16:52Z",
+  "revision": "2026-11-25T15:17:50Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -51,7 +51,7 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 3 desde $20.000 · 🎮 2 desde US$9.41\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 4 desde $20.000 · 🎮 2 desde US$9.41\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
       "nombres": [
         "assassins creed iii remastered",
         "assassins creed shadows",
@@ -403,11 +403,10 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 6 desde $19.900\n   🟢 Just Dance 2022",
+      "linea": "🟢 <b>Just Dance</b> — 📦 5 desde $19.900\n   🟢 Just Dance Decades Of Hits - Limited Edition",
       "nombres": [
         "just dance 2017",
         "just dance 2021",
-        "just dance 2022",
         "just dance 2024 edition",
         "just dance decades of hits limited edition"
       ],
@@ -452,7 +451,7 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $22.900 · 🎮 6 desde US$1.96\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 7 desde $19.900 · 🎮 6 desde US$1.96\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
         "lego brawls",
         "lego dc super villains",
@@ -694,6 +693,15 @@
       "slug": "one-piece"
     },
     {
+      "juego": "Ori",
+      "linea": "⚪ <b>Ori</b> — 📦 1 desde $29.990",
+      "nombres": [
+        "ori and the blind forest definitive edition"
+      ],
+      "orden": 4,
+      "slug": "ori"
+    },
+    {
       "juego": "🔍 Otros juegos",
       "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 186 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
@@ -904,7 +912,7 @@
     },
     {
       "juego": "Persona",
-      "linea": "🟢 <b>Persona</b> — 📦 5 desde $32.990 · 🎮 4 desde US$8.06\n   🟢 Persona 5 Strikers −50%",
+      "linea": "🟢 <b>Persona</b> — 📦 5 desde $34.990 · 🎮 4 desde US$8.06\n   🟢 Persona 5 Strikers −50%",
       "nombres": [
         "persona 3 portable",
         "persona 3 reload",
@@ -1133,8 +1141,9 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.990\n   🟢 LEGO Star Wars: The Skywalker Saga",
       "nombres": [
+        "lego star wars the skywalker saga",
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
         "star wars racer and commando combo n"
@@ -1212,7 +1221,7 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $29.900 · 🎮 3 desde US$3.72\n   🟢 Tales of the Orient - The Rising Sun −70%",
+      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $29.900 · 🎮 3 desde US$3.72\n   🟢 Tales of the Orient - The Rising Sun −70%",
       "nombres": [
         "tales of aravorn seasons of the wolf",
         "tales of arise beyond the dawn edition",
@@ -1221,7 +1230,6 @@
         "tales of kenzera zau",
         "tales of symphonia remastered",
         "tales of the orient the rising sun",
-        "tales of the shire a the lord of the rings game",
         "tales of xillia remastered"
       ],
       "orden": 1,
@@ -1319,7 +1327,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 10 desde $39.990\n   🟢 Adventure Pack Legend Of Zelda Totk - Sniper −11%",
+      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $39.990\n   🟢 Adventure Pack Legend Of Zelda Totk - Sniper −11%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "the legend of zelda 40th anniversary edition",
@@ -1334,5 +1342,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 658
+  "total": 661
 }
