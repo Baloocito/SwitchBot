@@ -1912,18 +1912,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:6ca513f2bb",
-        "text": "⚙️ Metr Prime 4 · $29.990"
-      },
-      "id": "6ca513f2bb",
-      "nivel": "compra",
-      "nombre": "Metr Prime 4",
-      "pct": 52.4,
-      "texto": "🟢 <b>COMPRA YA</b> · −52%\n<b>Metr Prime 4</b>\n🕹️ Switch 1 · 📦 Físico · 🔍 Otros juegos\n💰 <b>$29.990</b> en Falabella\n💡 Es el precio más bajo que he visto\n   Ahorras $33.000 frente a su precio típico ($62.990)\n🏷️ La tienda marca «antes $69.990» (−57%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.990 (24 nov, Falabella) · típico $62.990 · máximo $62.990\n   █████████████████████████████▁  últimos 30 días\n📅 Antes de Black Friday eShop estaba a $62.990: hoy está 52% más barato de verdad\n📉 Precio bajó 52% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 37 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/80659271/Juego%20Switch%20Metr%20Prime%204%20Nintendo\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:1b2be4f56a",
         "text": "⚙️ DARK SOULS: REMASTERED · US$18.65"
       },
@@ -2480,5 +2468,5 @@
     }
   ],
   "juego": "🔍 Otros juegos",
-  "revision": "2026-11-25T13:16:51Z"
+  "revision": "2026-11-25T14:16:52Z"
 }

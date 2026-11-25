@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 544,
+  "fisicos": 543,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T13:16:51Z",
+  "revision": "2026-11-25T14:16:52Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -385,10 +385,9 @@
     },
     {
       "juego": "Hollow Knight",
-      "linea": "🟢 <b>Hollow Knight</b> — 📦 3 desde $36.990\n   🟢 Hollow Knight: Silksong",
+      "linea": "🟢 <b>Hollow Knight</b> — 📦 2 desde $36.990\n   🟢 Hollow Knight",
       "nombres": [
-        "hollow knight",
-        "hollow knight silksong"
+        "hollow knight"
       ],
       "orden": 1,
       "slug": "hollow-knight"
@@ -696,7 +695,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 5 desde $29.990 · 🎮 186 desde US$1.95\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 4 desde $29.990 · 🎮 186 desde US$1.95\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -794,7 +793,6 @@
         "mcpixel 3",
         "mega man battle network legacy collection",
         "melon journey bittersweet memories",
-        "metr prime 4",
         "mlb the show 26",
         "monopoly madness",
         "monster hunter stories collection",
@@ -1214,7 +1212,7 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $29.900 · 🎮 3 desde US$3.72\n   🟢 Tales of the Orient - The Rising Sun −70%",
+      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $29.900 · 🎮 3 desde US$3.72\n   🟢 Tales of the Orient - The Rising Sun −70%",
       "nombres": [
         "tales of aravorn seasons of the wolf",
         "tales of arise beyond the dawn edition",
@@ -1223,6 +1221,7 @@
         "tales of kenzera zau",
         "tales of symphonia remastered",
         "tales of the orient the rising sun",
+        "tales of the shire a the lord of the rings game",
         "tales of xillia remastered"
       ],
       "orden": 1,
@@ -1335,5 +1334,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 659
+  "total": 658
 }
