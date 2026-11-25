@@ -100,6 +100,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:9d38feac15",
+        "text": "⚙️ Xenoblade Chronicles 3 S2 · $74.990"
+      },
+      "id": "9d38feac15",
+      "nivel": "normal",
+      "nombre": "Xenoblade Chronicles 3",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Xenoblade Chronicles 3</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$74.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $74.990 (25 nov, 8 Bits) · máximo $74.990\n   Historial recién empezando: en 7 días sabré su precio típico\n🎮 Digital: US$55.97 ≈ $56.880 en 🇧🇷 Brasil\n   ➜ El digital es $18.110 más barato, pero no se puede revender\n🔎 Confianza baja: una sola tienda y 1 día de historial\n🛒 <a href=\"https://8-bits.cl/products/xenoblade-chronicles-3-nintendo-switch-2\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:3a4861bb8a",
         "text": "⚙️ Xenoblade Chronicles 3 · $59.990"
       },
@@ -112,5 +124,5 @@
     }
   ],
   "juego": "Xenoblade",
-  "revision": "2026-11-25T19:22:25Z"
+  "revision": "2026-11-25T21:16:22Z"
 }

@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 546,
+  "fisicos": 543,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T19:22:25Z",
+  "revision": "2026-11-25T21:16:22Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -193,7 +193,7 @@
       "nombres": [
         "danganronpa 2 goodbye despair anniversary edition",
         "danganronpa 2x2",
-        "danganronpa decadence",
+        "danganronpa decadence sniper",
         "danganronpa s ultimate summer camp",
         "danganronpa trigger happy havoc anniversary edition",
         "danganronpa v3 killing harmony anniversary edition"
@@ -268,7 +268,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 16 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 15 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
         "dragon quest builders",
         "dragon quest builders 2",
@@ -394,9 +394,8 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
       "nombres": [
-        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -508,7 +507,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 25 desde $29.900 · 🎮 1 desde US$11.55\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 24 desde $29.900 · 🎮 1 desde US$11.55\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "mario golf super rush",
         "mario kart 8 deluxe",
@@ -610,9 +609,8 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "🟢 <b>Minecraft</b> — 📦 4 desde $26.990\n   🟢 Minecraft −18%",
+      "linea": "🟢 <b>Minecraft</b> — 📦 3 desde $27.000\n   🟢 Minecraft Dungeons II",
       "nombres": [
-        "minecraft",
         "minecraft dungeons ii",
         "minecraft legends",
         "minecraft nintendo switch edition"
@@ -694,15 +692,6 @@
       ],
       "orden": 1,
       "slug": "one-piece"
-    },
-    {
-      "juego": "Ori",
-      "linea": "⚪ <b>Ori</b> — 📦 1 desde $29.990",
-      "nombres": [
-        "ori and the blind forest definitive edition"
-      ],
-      "orden": 4,
-      "slug": "ori"
     },
     {
       "juego": "🔍 Otros juegos",
@@ -1085,11 +1074,12 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 7 desde $28.000 · 🎮 5 desde US$2.04\n   🟢 SONIC X SHADOW GENERATIONS −75%",
+      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000 · 🎮 5 desde US$2.04\n   🟢 SONIC X SHADOW GENERATIONS −75%",
       "nombres": [
         "sega ages sonic the hedgehog",
         "sonic classic collection",
         "sonic colors ultimate",
+        "sonic double pack",
         "sonic forces",
         "sonic frontiers",
         "sonic frontiers definitive edition",
@@ -1283,7 +1273,7 @@
     },
     {
       "juego": "Xenoblade",
-      "linea": "🟢 <b>Xenoblade</b> — 📦 7 desde $44.990 · 🎮 2 desde US$39.18\n   🟢 Xenoblade Chronicles 2: Torna ~ The Golden Country",
+      "linea": "🟢 <b>Xenoblade</b> — 📦 8 desde $44.990 · 🎮 2 desde US$39.18\n   🟢 Xenoblade Chronicles 2: Torna ~ The Golden Country",
       "nombres": [
         "xenoblade chronicles 2",
         "xenoblade chronicles 2 torna the golden country",
@@ -1328,9 +1318,10 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $39.990\n   🟢 Adventure Pack Legend Of Zelda Totk - Sniper −11%",
+      "linea": "🟢 <b>Zelda</b> — 📦 12 desde $39.990\n   🟢 Adventure Pack Legend Of Zelda Totk - Sniper −11%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
+        "horipad turbo the legend of zelda",
         "the legend of zelda 40th anniversary edition",
         "the legend of zelda 40th anniversary edition bundle tomodachi life game card",
         "the legend of zelda breath of the wild",
@@ -1343,5 +1334,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 662
+  "total": 661
 }
