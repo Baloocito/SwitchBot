@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 546,
+  "fisicos": 545,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T02:16:28Z",
+  "revision": "2026-11-25T03:19:17Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -146,7 +146,7 @@
     },
     {
       "juego": "Celeste",
-      "linea": "🟢 <b>Celeste</b> — 📦 2 desde $49.990 · 🎮 1 desde US$2.54\n   🟢 Celeste −75%",
+      "linea": "🟢 <b>Celeste</b> — 📦 1 desde $79.990 · 🎮 1 desde US$2.54\n   🟢 Celeste −75%",
       "nombres": [
         "celeste"
       ],
@@ -253,7 +253,7 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $29.900\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball xenoverse 2 for nintendo switch",
@@ -1336,5 +1336,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 663
+  "total": 661
 }

@@ -156,9 +156,9 @@
       "marca": "HyperX",
       "min_hist": 39990.0,
       "nombre": "Audífonos Gamers HyperX Cloud Stinger 3",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 39990.0,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "Paris",
       "url": "https://www.paris.cl/audifonos-gamers-hyperx-cloud-stinger-3-632582999.html"
     },
@@ -887,6 +887,40 @@
     {
       "avisos": [
         {
+          "precio": 299990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 299990.0,
+      "modelo": "Switch",
+      "nombre": "Consola Nintendo Switch Neon + Super Mario Bros Wonder + 3 meses NSO",
+      "pct": 14.3,
+      "precio": 299990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 299990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 299990.0,
+      "modelo": "Switch",
+      "nombre": "Consola Switch Neon + Mario Wonder Bundle",
+      "pct": 0.0,
+      "precio": 299990.0,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
+    },
+    {
+      "avisos": [
+        {
           "precio": 309990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-modelo-super-mario-bros-wonder-bundle-descarga-del-juego-completo-3-meses-de-suscripcion-a-nintendo-switch-online-lt2"
@@ -904,46 +938,12 @@
     {
       "avisos": [
         {
-          "precio": 349990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 299990.0,
-      "modelo": "Switch",
-      "nombre": "Consola Nintendo Switch Neon + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": 0.0,
-      "precio": 349990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-neon-super-mario-bros-wonder-3-meses-nso-207497999.html"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 359990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 299990.0,
-      "modelo": "Switch",
-      "nombre": "Consola Switch Neon + Mario Wonder Bundle",
-      "pct": -20.0,
-      "precio": 359990.0,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80627203/Consola%20Switch%201%201%20Neon%20Bund%20Nintendo"
-    },
-    {
-      "avisos": [
-        {
           "precio": 609990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-2-ea-sports-fc-27-bundle"
         },
         {
-          "precio": 649990.0,
+          "precio": 619990.0,
           "tienda": "Paris",
           "url": "https://www.paris.cl/consola-nintendo-switch-2-ea-sports-fc-27-626979999.html"
         }
@@ -970,7 +970,7 @@
           "url": "https://www.todojuegos.cl/Productos/NS2/Consola-Nintendo-Switch-2/?ref=buscador"
         },
         {
-          "precio": 684990.0,
+          "precio": 644990.0,
           "tienda": "Falabella",
           "url": "https://www.falabella.com/falabella-cl/product/80872527/consola-nintendo-switch-2-neon-blue-neon-red"
         }
@@ -983,6 +983,57 @@
       "precio": 609990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-2-negro"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 624990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 624990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Switch 2 + Juego Descargable EA Sports FC 27",
+      "pct": 8.1,
+      "precio": 624990.0,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 649990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 609990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Nintendo Switch 2 + Sports Resort + 3 Meses NSO",
+      "pct": 3.0,
+      "precio": 649990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 659990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-2-mario-kart-world-3-meses-nintendo-switch-online-600447999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 679990.0,
+      "modelo": "Switch 2",
+      "nombre": "Consola Nintendo Switch 2 + Mario Kart World + 3 Meses Nintendo Switch Online",
+      "pct": 4.3,
+      "precio": 659990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-2-mario-kart-world-3-meses-nintendo-switch-online-600447999.html"
     },
     {
       "avisos": [
@@ -1000,57 +1051,6 @@
       "precio": 659990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/pack-consola-nintendo-switch-2-juego-pokemon-legends-z-a"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 669990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 609990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Nintendo Switch 2 + Sports Resort + 3 Meses NSO",
-      "pct": 0.0,
-      "precio": 669990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-2-sports-resort-3-meses-nso-626977999.html"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 679990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 624990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Switch 2 + Juego Descargable EA Sports FC 27",
-      "pct": 0.0,
-      "precio": 679990.0,
-      "tienda": "Falabella",
-      "url": "https://www.falabella.com/falabella-cl/product/80872528/consola-nintendo-switch-2-bundle"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 679990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-2-mario-kart-world-3-meses-nintendo-switch-online-600447999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 679990.0,
-      "modelo": "Switch 2",
-      "nombre": "Consola Nintendo Switch 2 + Mario Kart World + 3 Meses Nintendo Switch Online",
-      "pct": 1.4,
-      "precio": 679990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-2-mario-kart-world-3-meses-nintendo-switch-online-600447999.html"
     },
     {
       "avisos": [
@@ -1106,14 +1106,31 @@
     {
       "avisos": [
         {
+          "precio": 329990.0,
+          "tienda": "Paris",
+          "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
+        }
+      ],
+      "bundle": true,
+      "min_hist": 339990.0,
+      "modelo": "Switch OLED",
+      "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
+      "pct": 17.5,
+      "precio": 329990.0,
+      "tienda": "Paris",
+      "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 349990.0,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/80627204/Consola%20Switch%20Oled%20White%20Bu%20Nintendo"
+        },
+        {
           "precio": 349990.0,
           "tienda": "Bestmart",
           "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-blanco"
-        },
-        {
-          "precio": 409990.0,
-          "tienda": "Falabella",
-          "url": "https://www.falabella.com/falabella-cl/product/80627204/Consola%20Switch%20Oled%20White%20Bu%20Nintendo"
         }
       ],
       "bundle": false,
@@ -1122,8 +1139,8 @@
       "nombre": "Consola Switch Oled White Bu",
       "pct": 0.0,
       "precio": 349990.0,
-      "tienda": "Bestmart",
-      "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-blanco"
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/80627204/Consola%20Switch%20Oled%20White%20Bu%20Nintendo"
     },
     {
       "avisos": [
@@ -1158,23 +1175,6 @@
       "precio": 379990.0,
       "tienda": "Bestmart",
       "url": "https://bestmart.cl/products/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nintendo-switch-online"
-    },
-    {
-      "avisos": [
-        {
-          "precio": 409990.0,
-          "tienda": "Paris",
-          "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
-        }
-      ],
-      "bundle": true,
-      "min_hist": 339990.0,
-      "modelo": "Switch OLED",
-      "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
-      "pct": -2.5,
-      "precio": 409990.0,
-      "tienda": "Paris",
-      "url": "https://www.paris.cl/consola-nintendo-switch-oled-super-mario-bros-wonder-3-meses-nso-207500999.html"
     }
   ],
   "memorias": [
@@ -1319,27 +1319,6 @@
     {
       "avisos": [
         {
-          "precio": 44990.0,
-          "tienda": "Falabella",
-          "titulo": "Micro Sd Switch Uhs-I Card 128Gb",
-          "url": "https://www.falabella.com/falabella-cl/product/14396069/Micro-Sd-Switch-Uhs-I-Card-128Gb-Sandisk"
-        }
-      ],
-      "gb": 128,
-      "marca": "SanDisk",
-      "min_hist": 22990.0,
-      "nombre": "microSD 128 GB · SanDisk",
-      "pct": -95.7,
-      "por_gb": 351,
-      "precio": 44990.0,
-      "ref_tipo": "tipico",
-      "tienda": "Falabella",
-      "tipo": "normal",
-      "url": "https://www.falabella.com/falabella-cl/product/14396069/Micro-Sd-Switch-Uhs-I-Card-128Gb-Sandisk"
-    },
-    {
-      "avisos": [
-        {
           "precio": 59297,
           "tienda": "MercadoLibre",
           "titulo": "Tarjeta de memoria microSD Kingston de 256 GB, 100 mb, E Adap (LEONIMPORT_SPA)",
@@ -1359,7 +1338,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-25T02:16:28Z",
+  "revision": "2026-11-25T03:19:17Z",
   "seguimientos": [
     {
       "avisos": [
@@ -1378,7 +1357,7 @@
       ],
       "item": "Redragon Zeus",
       "min_hist": 41700,
-      "nombre": "Audífono Headset H510 Rgb Zeus X",
+      "nombre": "Audífono Headset H510P RGB Zeus X Pink",
       "precio": 43990.0,
       "tarjeta": null,
       "tienda": "Bestmart",
