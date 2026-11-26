@@ -219,6 +219,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:3607c6e5fe",
+        "text": "⚙️ Super Mario Odyssey · $49.990"
+      },
+      "id": "3607c6e5fe",
+      "nivel": "normal",
+      "nombre": "Super Mario Odyssey",
+      "pct": 3.8,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Super Mario Odyssey</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Bestmart\n💡 Está a su precio de siempre\n   Ahorras $2.000 frente a su precio típico ($51.990)\n🏷️ La tienda marca «antes $64.990» (−23%)\n🏬 <b>Comparación (6 tiendas)</b>\n   🥇 <a href=\"https://bestmart.cl/products/juego-super-mario-odyssey-nintendo-switch-americano\">$49.990 Bestmart</a>\n   🥈 <a href=\"https://www.paris.cl/juego-nintendo-switch-super-mario-odyssey-600668999.html\">$49.990 Paris</a> (+$0)\n   🥉 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Super-Mario-Odyssey/?ref=buscador\">$54.900 TodoJuegos</a> (+$4.910)\n   ▫️ <a href=\"https://8-bits.cl/products/super-mario-odyssey-switch\">$54.990 8 Bits</a> (+$5.000)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/142911061/Juego-Super-Mario-Odyssey-Nintendo-Switch\">$56.990 Falabella</a> 🏪 Bestmart (+$7.000)\n   ▫️ <a href=\"https://sniper.cl/products/super-mario-odyssey-juego-fisico-switch-sniper\">$59.990 Sniper</a> (+$10.000)\n📈 Mínimo $49.000 (27 oct, TodoJuegos) · típico $51.990 · máximo $54.990\n   ▁▁▁▁▁▁▁█████▂▅▅▅▅▅▅▅██▂▂▂▂▂▂▂▂  últimos 30 días\n🎮 Digital: US$55.97 ≈ $56.880 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $6.890 y además se puede revender\n📅 Antes de Black Friday eShop estaba a $51.990: hoy está 4% más barato de verdad\n🔎 Confianza alta: 6 tiendas y 44 días de historial\n🛒 <a href=\"https://bestmart.cl/products/juego-super-mario-odyssey-nintendo-switch-americano\">Ir a comprar en Bestmart</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:e77b7d7247",
         "text": "⚙️ Super Mario Party Jamboree · $49.990"
       },
@@ -315,5 +327,5 @@
     }
   ],
   "juego": "Mario",
-  "revision": "2026-11-26T11:16:14Z"
+  "revision": "2026-11-26T12:16:15Z"
 }
