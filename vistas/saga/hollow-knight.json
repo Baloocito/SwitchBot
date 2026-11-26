@@ -2,18 +2,6 @@
   "items": [
     {
       "boton": {
-        "callback_data": "a:86ba07826c",
-        "text": "⚙️ Hollow Knight S2 · $44.000"
-      },
-      "id": "86ba07826c",
-      "nivel": "compra",
-      "nombre": "Hollow Knight",
-      "pct": 11.8,
-      "texto": "🟢 <b>COMPRA YA</b> · −12%\n<b>Hollow Knight</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$44.000</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $5.900 frente a su precio típico ($49.900)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NS2/Hollow-Knight/?ref=buscador\">$44.000 TodoJuegos</a>\n   🥈 <a href=\"https://8-bits.cl/products/hollow-knight-nintendo-switch-2\">$54.990 8 Bits</a> (+$10.990)\n📈 Mínimo $44.000 (26 nov, TodoJuegos) · típico $49.900 · máximo $49.990\n   █████████████████████████████▁  últimos 30 días\n🎮 Digital: US$4.76 ≈ $4.918 en 🇧🇷 Brasil\n   ➜ El digital es $39.082 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $49.900: hoy está 12% más barato de verdad\n💼 <b>Margen</b>: la otra tienda lo vende a $54.990 → ~$10.990 (20%) de diferencia\n📉 Precio bajó 12% en las últimas 2 semanas\n🔎 Confianza media: 2 tiendas y 43 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Hollow-Knight/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:c708506930",
         "text": "⚙️ Hollow Knight · $36.990"
       },
@@ -23,8 +11,20 @@
       "pct": 0,
       "texto": "🟢 <b>COMPRA YA</b>\n<b>Hollow Knight (usado)</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$36.990</b> en 8 Bits\n💡 Es el precio más bajo que he visto\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $36.990 (14 oct, 8 Bits) · típico $36.990 · máximo $36.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$4.76 ≈ $4.918 en 🇧🇷 Brasil\n   ➜ El digital es $32.072 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($36.990): el descuento no es real\n🔎 Confianza media: 1 tienda y 44 días de historial\n🛒 <a href=\"https://8-bits.cl/products/hollow-knight-nsw-1\">Ir a comprar en 8 Bits</a>",
       "tipo": "fisico"
+    },
+    {
+      "boton": {
+        "callback_data": "a:86ba07826c",
+        "text": "⚙️ Hollow Knight S2 · $54.990"
+      },
+      "id": "86ba07826c",
+      "nivel": "normal",
+      "nombre": "Hollow Knight",
+      "pct": -10.2,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Hollow Knight</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$54.990</b> en 8 Bits\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $44.000 (26 nov, TodoJuegos) · típico $49.900 · máximo $49.990\n   █████████████████████████████▁  últimos 30 días\n🎮 Digital: US$4.76 ≈ $4.918 en 🇧🇷 Brasil\n   ➜ El digital es $50.072 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $49.900: ¡hoy está MÁS CARO!\n📈 Precio subió 10% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 43 días de historial\n🛒 <a href=\"https://8-bits.cl/products/hollow-knight-nintendo-switch-2\">Ir a comprar en 8 Bits</a>",
+      "tipo": "fisico"
     }
   ],
   "juego": "Hollow Knight",
-  "revision": "2026-11-26T20:15:36Z"
+  "revision": "2026-11-26T21:25:59Z"
 }

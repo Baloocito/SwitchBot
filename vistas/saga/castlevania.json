@@ -53,18 +53,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:05fc8db071",
-        "text": "⚙️ Castlevania: Belmont's Curse · $40.000"
-      },
-      "id": "05fc8db071",
-      "nivel": "compra",
-      "nombre": "Castlevania: Belmont's Curse",
-      "pct": 10.9,
-      "texto": "🟢 <b>COMPRA YA</b> · −11%\n<b>Castlevania: Belmont's Curse</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$40.000</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $4.900 frente a su precio típico ($44.900)\n🏬 <b>Comparación (3 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Castlevania--Belmonts-Curse/?ref=buscador\">$40.000 TodoJuegos</a>\n   🥈 <a href=\"https://www.falabella.com/falabella-cl/product/159939566/castlevania-belmonts-curse-nsw\">$49.990 Falabella</a> 🏪 Mathogames (+$9.990)\n   🥉 <a href=\"https://www.paris.cl/castlevania-belmonts-curse-nsw-MKBPKNNVT0.html\">$49.990 Paris</a> 🏪 Mathogames Store (+$9.990)\n📈 Mínimo $40.000 (26 nov, TodoJuegos) · típico $44.900 · máximo $44.900\n   ▄▄▄▄▄▄▄██████████████████████▁  últimos 30 días\n🎮 Digital: US$28.07 ≈ $29.000 en 🇨🇱 Chile\n   ➜ El digital es $11.000 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $44.900: hoy está 11% más barato de verdad\n📉 Precio bajó 11% en las últimas 2 semanas\n🔎 Confianza alta: 3 tiendas y 39 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Castlevania--Belmonts-Curse/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:45eeb233d2",
         "text": "⚙️ Castlevania Advance Collection · $199.990"
       },
@@ -137,6 +125,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:05fc8db071",
+        "text": "⚙️ Castlevania: Belmont's Curse · $49.990"
+      },
+      "id": "05fc8db071",
+      "nivel": "normal",
+      "nombre": "Castlevania: Belmont's Curse",
+      "pct": -11.3,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Castlevania: Belmont's Curse</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$49.990</b> en Falabella 🏪 <i>vende Mathogames</i>\n💡 Está a su precio de siempre\n🏷️ La tienda marca «antes $59.990» (−17%)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.falabella.com/falabella-cl/product/159939566/castlevania-belmonts-curse-nsw\">$49.990 Falabella</a> 🏪 Mathogames\n   🥈 <a href=\"https://www.paris.cl/castlevania-belmonts-curse-nsw-MKBPKNNVT0.html\">$49.990 Paris</a> 🏪 Mathogames Store (+$0)\n📈 Mínimo $40.000 (26 nov, TodoJuegos) · típico $44.900 · máximo $44.900\n   ▄▄▄▄▄▄▄██████████████████████▁  últimos 30 días\n🎮 Digital: US$28.07 ≈ $29.000 en 🇨🇱 Chile\n   ➜ El digital es $20.990 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $44.900: ¡hoy está MÁS CARO!\n📈 Precio subió 11% en las últimas 2 semanas\n🔎 Confianza media: 2 tiendas y 39 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/159939566/castlevania-belmonts-curse-nsw\">Ir a comprar en Falabella</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:d4b52b06cf",
         "text": "⚙️ Castlevania Anniversary Colle… · $129.990"
       },
@@ -149,5 +149,5 @@
     }
   ],
   "juego": "Castlevania",
-  "revision": "2026-11-26T20:15:36Z"
+  "revision": "2026-11-26T21:25:59Z"
 }
