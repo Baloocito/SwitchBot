@@ -155,21 +155,14 @@
     },
     "2026-11-26": {
       "bombazos": 2,
-      "posts": 3,
+      "posts": 4,
       "slots": [
-        "top"
+        "top",
+        "proximos"
       ]
     }
   },
   "posts": [
-    {
-      "fecha": "2026-10-26T20:35-03:00",
-      "ids": [
-        "b93b61a6a8"
-      ],
-      "message_id": 57,
-      "slot": "bombazo"
-    },
     {
       "fecha": "2026-10-26T21:05-03:00",
       "ids": [
@@ -1956,6 +1949,12 @@
       ],
       "message_id": 261,
       "slot": "bombazo"
+    },
+    {
+      "fecha": "2026-11-26T12:05-03:00",
+      "ids": [],
+      "message_id": 262,
+      "slot": "proximos"
     }
   ],
   "publicados": {
@@ -3693,5 +3692,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-26T11:18:47.393050-03:00"
+  "ultimo_post": "2026-11-26T12:05:35.482898-03:00"
 }
