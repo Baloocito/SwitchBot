@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:1928511d93",
+        "text": "⚙️ DRAGON BALL XENOVERSE 2 for N… · $19.000"
+      },
+      "id": "1928511d93",
+      "nivel": "compra",
+      "nombre": "DRAGON BALL XENOVERSE 2 for Nintendo Switch",
+      "pct": 36.5,
+      "texto": "🟢 <b>COMPRA YA</b> · −36%\n<b>DRAGON BALL XENOVERSE 2 for Nintendo Switch</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$19.000</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $10.900 frente a su precio típico ($29.900)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Dragon-Ball-Xenoverse-2/?ref=buscador\">$19.000 TodoJuegos</a>\n   🥈 <a href=\"https://sniper.cl/products/dragon-ball-xenoverse-2-juego-fisico-switch-sniper-game\">$39.990 Sniper</a> (+$20.990)\n📈 Mínimo $19.000 (27 oct, TodoJuegos) · típico $29.900 · máximo $29.900\n   ▁▁▁▁▁▁▁██████████████████████▁  últimos 30 días\n🎮 Digital: US$12.58 ≈ $12.997 en 🇨🇱 Chile\n   ➜ El digital es $6.003 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $29.900: hoy está 36% más barato de verdad\n⚠️ TodoJuegos subió este juego de $19.000 a $29.900 la semana antes del evento: ojo con el «descuento»\n📉 Precio bajó 36% en las últimas 2 semanas\n🔎 Confianza media: 2 tiendas y 39 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Dragon-Ball-Xenoverse-2/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:26c383f9a9",
         "text": "⚙️ DRAGON BALL FighterZ · $29.990"
       },
@@ -74,5 +86,5 @@
     }
   ],
   "juego": "Dragon Ball",
-  "revision": "2026-11-26T21:25:59Z"
+  "revision": "2026-11-26T23:25:11Z"
 }
