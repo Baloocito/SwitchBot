@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 546,
+  "fisicos": 545,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-25T23:15:41Z",
+  "revision": "2026-11-26T00:15:42Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -166,6 +166,15 @@
       "slug": "chrono-mana"
     },
     {
+      "juego": "Contra",
+      "linea": "🟢 <b>Contra</b> — 📦 1 desde $32.990\n   🟢 CONTRA: ROGUE CORPS −12%",
+      "nombres": [
+        "contra rogue corps"
+      ],
+      "orden": 1,
+      "slug": "contra"
+    },
+    {
       "juego": "Crash / Spyro",
       "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000\n   🟢 Crash 4 Bandicoot",
       "nombres": [
@@ -203,11 +212,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
+      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 1,
+      "orden": 4,
       "slug": "dave-the-diver"
     },
     {
@@ -268,7 +277,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 15 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 16 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
         "dragon quest builders",
         "dragon quest builders 2",
@@ -931,10 +940,9 @@
     },
     {
       "juego": "Pokémon",
-      "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
+      "linea": "🟢 <b>Pokémon</b> — 📦 6 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
         "pokemon legends za 2",
-        "pokemon lets go eevee",
         "pokemon scarlet",
         "pokemon shield",
         "pokemon sword",
@@ -1076,7 +1084,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000 · 🎮 5 desde US$2.04\n   🟢 SONIC X SHADOW GENERATIONS −75%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000 · 🎮 5 desde US$2.04\n   🟢 SONIC X SHADOW GENERATIONS −75%",
       "nombres": [
         "sega ages sonic the hedgehog",
         "sonic classic collection",
@@ -1135,11 +1143,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $30.990\n   🟢 STAR WARS™ Jedi Knight Collection (Europeo)",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars jedi knight collection europeo",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1337,5 +1344,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 663
+  "total": 661
 }
