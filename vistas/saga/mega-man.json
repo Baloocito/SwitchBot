@@ -41,6 +41,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:9326a92fcc",
+        "text": "⚙️ Mega Man Star Force Legacy Co… · $39.000"
+      },
+      "id": "9326a92fcc",
+      "nivel": "compra",
+      "nombre": "Mega Man Star Force Legacy Collection",
+      "pct": 29.0,
+      "texto": "🟢 <b>COMPRA YA</b> · −29%\n<b>Mega Man Star Force Legacy Collection</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$39.000</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $15.900 frente a su precio típico ($54.900)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $39.000 (26 nov, TodoJuegos) · típico $54.900 · máximo $54.900\n   ▂▂▂▂▂▂▂██████████████████████▁  últimos 30 días\n🎮 Digital: US$33.82 ≈ $34.940 en 🇧🇷 Brasil\n   ➜ El digital es $4.060 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $54.900: hoy está 29% más barato de verdad\n⚠️ TodoJuegos subió este juego de $42.000 a $54.900 la semana antes del evento: ojo con el «descuento»\n📉 Precio bajó 29% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 39 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Mega-Man-Star-Force-Legacy-Collection/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:2fd4c34f8a",
         "text": "⚙️ Mega Man 11 · $34.990"
       },
@@ -61,18 +73,6 @@
       "nombre": "Mega Man Legacy Collection 2",
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Mega Man Legacy Collection 2</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$32.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.000 (27 oct, TodoJuegos) · típico $32.900 · máximo $32.900\n   ▁▁▁▁▁▁▁███████████████████████  últimos 30 días\n🎮 Digital: US$14.11 ≈ $14.577 en 🇧🇷 Brasil\n   ➜ El digital es $18.323 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($32.900): el descuento no es real\n⚠️ TodoJuegos subió este juego de $29.000 a $32.900 la semana antes del evento: ojo con el «descuento»\n🔎 Confianza media: 1 tienda y 39 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Mega-Man-Legacy-Collection-1-2/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:9326a92fcc",
-        "text": "⚙️ Mega Man Star Force Legacy Co… · $54.900"
-      },
-      "id": "9326a92fcc",
-      "nivel": "normal",
-      "nombre": "Mega Man Star Force Legacy Collection",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Mega Man Star Force Legacy Collection</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $42.000 (27 oct, TodoJuegos) · típico $54.900 · máximo $54.900\n   ▁▁▁▁▁▁▁███████████████████████  últimos 30 días\n🎮 Digital: US$33.82 ≈ $34.940 en 🇧🇷 Brasil\n   ➜ El digital es $19.960 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($54.900): el descuento no es real\n⚠️ TodoJuegos subió este juego de $42.000 a $54.900 la semana antes del evento: ojo con el «descuento»\n🔎 Confianza media: 1 tienda y 39 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Mega-Man-Star-Force-Legacy-Collection/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
       "tipo": "fisico"
     },
     {
@@ -113,5 +113,5 @@
     }
   ],
   "juego": "Mega Man",
-  "revision": "2026-11-26T19:15:34Z"
+  "revision": "2026-11-26T20:15:36Z"
 }

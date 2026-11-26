@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:f18504111d",
+        "text": "⚙️ Spyro Reignited Trilogy · $29.000"
+      },
+      "id": "f18504111d",
+      "nivel": "compra",
+      "nombre": "Spyro Reignited Trilogy",
+      "pct": 16.9,
+      "texto": "🟢 <b>COMPRA YA</b> · −17%\n<b>Spyro Reignited Trilogy</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$29.000</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $5.900 frente a su precio típico ($34.900)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.000 (27 oct, TodoJuegos) · típico $34.900 · máximo $63.990\n   ▂▂▂▁▁▁██▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁  últimos 30 días\n🎮 Digital: US$35.13 ≈ $36.294 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $7.294 y además se puede revender\n📅 Antes de Black Friday eShop estaba a $34.900: hoy está 17% más barato de verdad\n⚠️ TodoJuegos subió este juego de $29.000 a $34.900 la semana antes del evento: ojo con el «descuento»\n📉 Precio bajó 17% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 38 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Spyro-Reignited-Trilogy/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:da20a2bd1c",
         "text": "⚙️ Crash 4 Bandicoot · $44.990"
       },
@@ -26,18 +38,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:f18504111d",
-        "text": "⚙️ Spyro Reignited Trilogy · $34.900"
-      },
-      "id": "f18504111d",
-      "nivel": "normal",
-      "nombre": "Spyro Reignited Trilogy",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Spyro Reignited Trilogy</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$34.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $29.000 (27 oct, TodoJuegos) · típico $34.900 · máximo $63.990\n   ▂▂▂▁▁▁██▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂  últimos 30 días\n🎮 Digital: US$35.13 ≈ $36.294 en 🇨🇦 Canadá\n   ➜ El físico te ahorra $1.394 y además se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($34.900): el descuento no es real\n⚠️ TodoJuegos subió este juego de $29.000 a $34.900 la semana antes del evento: ojo con el «descuento»\n🔎 Confianza media: 1 tienda y 38 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Spyro-Reignited-Trilogy/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:7179f52e5e",
         "text": "⚙️ Crash Bandicoot 4: It’s About… · $39.990"
       },
@@ -50,5 +50,5 @@
     }
   ],
   "juego": "Crash / Spyro",
-  "revision": "2026-11-26T19:15:34Z"
+  "revision": "2026-11-26T20:15:36Z"
 }

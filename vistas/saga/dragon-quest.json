@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:5d31d57ed6",
+        "text": "⚙️ DRAGON QUEST XI S: Echoes of … S2 · $38.000"
+      },
+      "id": "5d31d57ed6",
+      "nivel": "compra",
+      "nombre": "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition",
+      "pct": 23.8,
+      "texto": "🟢 <b>COMPRA YA</b> · −24%\n<b>DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$38.000</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $11.900 frente a su precio típico ($49.900)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $38.000 (27 oct, TodoJuegos) · típico $49.900 · máximo $49.900\n   ▁▁▁▁▁▁▁██████████████████████▁  últimos 30 días\n🎮 Digital: US$33.90 ≈ $35.023 en 🇧🇷 Brasil\n   ➜ El digital es $2.977 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $49.900: hoy está 24% más barato de verdad\n⚠️ TodoJuegos subió este juego de $38.000 a $49.900 la semana antes del evento: ojo con el «descuento»\n📉 Precio bajó 24% en las últimas 2 semanas\n🔎 Confianza media: 1 tienda y 39 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Dragon-Quest-XI-S--Echoes-of-an-Elusive-Age-Definitive-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:db4b6bba79",
         "text": "⚙️ DRAGON QUEST BUILDERS 2 · $74.990"
       },
@@ -179,20 +191,8 @@
       "pct": 0,
       "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DRAGON QUEST TREASURES</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$54.990</b> en Paris 🏪 <i>vende Tienda RetroGamers </i>\n💡 Está a su precio de siempre\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.paris.cl/dragon-quest-treasures-nintendo-switch-MK7USGNPNZ.html\">$54.990 Paris</a> 🏪 Tienda RetroGamers\n   🥈 <a href=\"https://sniper.cl/products/dragon-quest-treasures-switch-fisico-sniper\">$59.990 Sniper</a> (+$5.000)\n📈 Mínimo $17.900 (19 oct, TodoJuegos) · típico $54.990 · máximo $69.990\n   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  últimos 30 días\n🎮 Digital: US$49.66 ≈ $51.305 en 🇨🇱 Chile\n   ➜ El digital es $3.685 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($54.990): el descuento no es real\n🛒 <a href=\"https://listado.mercadolibre.cl/dragon-quest-treasures-nintendo-switch\">MercadoLibre</a>: nuevo ~$49.990 (4 avisos)\n🔎 Confianza media: 2 tiendas y 44 días de historial\n🛒 <a href=\"https://www.paris.cl/dragon-quest-treasures-nintendo-switch-MK7USGNPNZ.html\">Ir a comprar en Paris</a>",
       "tipo": "fisico"
-    },
-    {
-      "boton": {
-        "callback_data": "a:5d31d57ed6",
-        "text": "⚙️ DRAGON QUEST XI S: Echoes of … S2 · $49.900"
-      },
-      "id": "5d31d57ed6",
-      "nivel": "normal",
-      "nombre": "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition",
-      "pct": 0,
-      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$49.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $38.000 (27 oct, TodoJuegos) · típico $49.900 · máximo $49.900\n   ▁▁▁▁▁▁▁███████████████████████  últimos 30 días\n🎮 Digital: US$33.90 ≈ $35.023 en 🇧🇷 Brasil\n   ➜ El digital es $14.877 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($49.900): el descuento no es real\n⚠️ TodoJuegos subió este juego de $38.000 a $49.900 la semana antes del evento: ojo con el «descuento»\n🔎 Confianza media: 1 tienda y 39 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Dragon-Quest-XI-S--Echoes-of-an-Elusive-Age-Definitive-Edition/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
-      "tipo": "fisico"
     }
   ],
   "juego": "Dragon Quest",
-  "revision": "2026-11-26T19:15:34Z"
+  "revision": "2026-11-26T20:15:36Z"
 }
