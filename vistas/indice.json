@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 544,
+  "fisicos": 546,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-26T10:18:48Z",
+  "revision": "2026-11-26T11:16:14Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -167,7 +167,7 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000\n   🟢 Crash 4 Bandicoot",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 4 desde $28.000\n   🟢 Crash 4 Bandicoot",
       "nombres": [
         "crash 4 bandicoot",
         "crash bandicoot 4 its about time",
@@ -268,7 +268,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 15 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 16 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
         "dragon quest builders",
         "dragon quest builders 2",
@@ -610,8 +610,9 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "🟢 <b>Minecraft</b> — 📦 3 desde $27.000\n   🟢 Minecraft Dungeons II",
+      "linea": "🟢 <b>Minecraft</b> — 📦 4 desde $26.990\n   🟢 Minecraft −18%",
       "nombres": [
+        "minecraft",
         "minecraft dungeons ii",
         "minecraft legends",
         "minecraft nintendo switch edition"
@@ -1133,10 +1134,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
+        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1334,5 +1336,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 660
+  "total": 662
 }
