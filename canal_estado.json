@@ -155,22 +155,15 @@
     },
     "2026-11-26": {
       "bombazos": 2,
-      "posts": 4,
+      "posts": 5,
       "slots": [
         "top",
-        "proximos"
+        "proximos",
+        "pack"
       ]
     }
   },
   "posts": [
-    {
-      "fecha": "2026-10-26T21:05-03:00",
-      "ids": [
-        "565d8ddff4"
-      ],
-      "message_id": 58,
-      "slot": "ultima"
-    },
     {
       "fecha": "2026-10-27T08:35-03:00",
       "ids": [
@@ -1955,6 +1948,18 @@
       "ids": [],
       "message_id": 262,
       "slot": "proximos"
+    },
+    {
+      "fecha": "2026-11-26T13:35-03:00",
+      "ids": [
+        "c22c16193e",
+        "d5b06ae960",
+        "2f78dcbffb",
+        "2fa86e31f8",
+        "1d3cae6725"
+      ],
+      "message_id": 263,
+      "slot": "pack"
     }
   ],
   "publicados": {
@@ -2103,6 +2108,11 @@
       "precio": 10750,
       "slot": "pack"
     },
+    "1d3cae6725": {
+      "fecha": "2026-11-26",
+      "precio": 1990,
+      "slot": "pack"
+    },
     "1da27b5b8c": {
       "fecha": "2026-11-20",
       "precio": 44990.0,
@@ -2189,8 +2199,13 @@
       "slot": "pack"
     },
     "2f78dcbffb": {
-      "fecha": "2026-11-19",
+      "fecha": "2026-11-26",
       "precio": 3990,
+      "slot": "pack"
+    },
+    "2fa86e31f8": {
+      "fecha": "2026-11-26",
+      "precio": 13470,
       "slot": "pack"
     },
     "2ffd568068": {
@@ -2879,9 +2894,9 @@
       "slot": "pack"
     },
     "c22c16193e": {
-      "fecha": "2026-11-19",
+      "fecha": "2026-11-26",
       "precio": 29950,
-      "slot": "bombazo"
+      "slot": "pack"
     },
     "c3762acf57": {
       "fecha": "2026-10-29",
@@ -2976,6 +2991,11 @@
     "d4a11e926f": {
       "fecha": "2026-11-13",
       "precio": 3000,
+      "slot": "pack"
+    },
+    "d5b06ae960": {
+      "fecha": "2026-11-26",
+      "precio": 17250,
       "slot": "pack"
     },
     "d5d3cc617f": {
@@ -3692,5 +3712,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-26T12:05:35.482898-03:00"
+  "ultimo_post": "2026-11-26T13:35:35.540808-03:00"
 }
