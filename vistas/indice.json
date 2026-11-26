@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 547,
+  "fisicos": 544,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-26T16:15:10Z",
+  "revision": "2026-11-26T17:17:25Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -268,7 +268,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 17 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 16 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
         "dragon quest builders",
         "dragon quest builders 2",
@@ -404,11 +404,10 @@
     },
     {
       "juego": "Just Dance",
-      "linea": "🟢 <b>Just Dance</b> — 📦 6 desde $19.900\n   🟢 Just Dance 2022",
+      "linea": "🟢 <b>Just Dance</b> — 📦 5 desde $19.900\n   🟢 Just Dance Decades Of Hits - Limited Edition",
       "nombres": [
         "just dance 2017",
         "just dance 2021",
-        "just dance 2022",
         "just dance 2024 edition",
         "just dance decades of hits limited edition"
       ],
@@ -698,7 +697,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 2 desde $29.990 · 🎮 186 desde US$1.93\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 3 desde $29.990 · 🎮 186 desde US$1.93\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -781,6 +780,7 @@
         "hello neighbor hide and seek",
         "hellpoint",
         "heretic hexen",
+        "it takes two",
         "justice sucks",
         "kamiwaza way of the thief",
         "katana kami a way of the samurai story",
@@ -1115,7 +1115,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.990 · 🎮 2 desde US$23.16\n   🟢 Split Fiction −40%",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990 · 🎮 2 desde US$23.16\n   🟢 Split Fiction −40%",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1134,11 +1134,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $30.990\n   🟢 STAR WARS™ Jedi Knight Collection (Europeo)",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars jedi knight collection europeo",
+        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1320,7 +1320,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 12 desde $39.990\n   🟢 Adventure Pack Legend Of Zelda Totk - Sniper −11%",
+      "linea": "🟢 <b>Zelda</b> — 📦 12 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "horipad turbo the legend of zelda",
@@ -1336,5 +1336,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 666
+  "total": 664
 }
