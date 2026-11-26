@@ -6,18 +6,19 @@
     "nota": "fechas estimadas según 2025"
   },
   "fallos": {
+    "Lider": 1,
     "PC Factory": 12,
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 544,
+  "fisicos": 541,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-26T18:15:29Z",
+  "revision": "2026-11-26T19:15:34Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -51,7 +52,7 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 4 desde $20.000 · 🎮 2 desde US$9.43\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 3 desde $20.000 · 🎮 2 desde US$9.43\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
       "nombres": [
         "assassins creed iii remastered",
         "assassins creed shadows",
@@ -146,7 +147,7 @@
     },
     {
       "juego": "Celeste",
-      "linea": "🟢 <b>Celeste</b> — 📦 2 desde $49.990 · 🎮 1 desde US$2.54\n   🟢 Celeste −75%",
+      "linea": "🟢 <b>Celeste</b> — 📦 1 desde $79.990 · 🎮 1 desde US$2.54\n   🟢 Celeste −75%",
       "nombres": [
         "celeste"
       ],
@@ -230,7 +231,7 @@
     },
     {
       "juego": "Donkey Kong",
-      "linea": "🟢 <b>Donkey Kong</b> — 📦 4 desde $44.000 · 🎮 1 desde US$39.25\n   🟢 Donkey Kong Bananza",
+      "linea": "🟢 <b>Donkey Kong</b> — 📦 4 desde $44.000 · 🎮 1 desde US$39.25\n   🟢 Donkey Kong Country: Tropical Freeze",
       "nombres": [
         "donkey kong bananza",
         "donkey kong country returns hd",
@@ -253,7 +254,7 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $29.900\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $29.900\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball xenoverse 2 for nintendo switch",
@@ -427,9 +428,8 @@
     },
     {
       "juego": "Kingdom Hearts",
-      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 3 desde $39.720\n   🟢 Kingdom Hearts Collection I-III (Europeo)",
+      "linea": "🟢 <b>Kingdom Hearts</b> — 📦 2 desde $39.720\n   🟢 Kingdom Hearts Collection I-III (Europeo)",
       "nombres": [
-        "kingdom hearts collection i iii",
         "kingdom hearts collection i iii europeo",
         "kingdom hearts melody of memory"
       ],
@@ -507,7 +507,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 27 desde $29.900 · 🎮 1 desde US$11.36\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 28 desde $29.900 · 🎮 1 desde US$11.36\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "horipad turbo wireless for n universe mario",
         "mario golf super rush",
@@ -521,6 +521,7 @@
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
+        "new super mario bros u deluxe",
         "paper mario the thousand year door",
         "super mario bros wonder",
         "super mario galaxy 2",
@@ -1134,11 +1135,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1197,7 +1197,7 @@
     },
     {
       "juego": "Switch Sports",
-      "linea": "🟢 <b>Switch Sports</b> — 📦 10 desde $29.990\n   🟢 EA SPORTS FC26",
+      "linea": "🟢 <b>Switch Sports</b> — 📦 10 desde $29.990\n   🟢 40 Sports Games In 1 / - Snipercl",
       "nombres": [
         "40 sports games in 1 snipercl",
         "ea sports fc26",
@@ -1214,7 +1214,7 @@
     },
     {
       "juego": "Tales of",
-      "linea": "🟢 <b>Tales of</b> — 📦 5 desde $29.900 · 🎮 3 desde US$3.66\n   🟢 Tales of the Orient - The Rising Sun −70%",
+      "linea": "🟢 <b>Tales of</b> — 📦 6 desde $29.900 · 🎮 3 desde US$3.66\n   🟢 Tales of the Orient - The Rising Sun −70%",
       "nombres": [
         "tales of aravorn seasons of the wolf",
         "tales of arise beyond the dawn edition",
@@ -1223,6 +1223,7 @@
         "tales of kenzera zau",
         "tales of symphonia remastered",
         "tales of the orient the rising sun",
+        "tales of vesperia definitive edition",
         "tales of xillia remastered"
       ],
       "orden": 1,
@@ -1336,5 +1337,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 664
+  "total": 663
 }
