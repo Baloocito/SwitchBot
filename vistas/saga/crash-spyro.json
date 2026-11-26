@@ -26,6 +26,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:c0b386e1a8",
+        "text": "⚙️ Crash Bandicoot N. Sane Trilo… · $34.900"
+      },
+      "id": "c0b386e1a8",
+      "nivel": "normal",
+      "nombre": "Crash Bandicoot N. Sane Trilogy",
+      "pct": 0,
+      "texto": "⚪ <b>PRECIO NORMAL</b>\n<b>Crash Bandicoot N. Sane Trilogy</b>\n🕹️ Switch 1 · 📦 Físico · Crash / Spyro\n💰 <b>$34.900</b> en TodoJuegos\n💡 Está a su precio de siempre\n🏬 <b>Comparación (4 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Crash-Bandicoot-N--Sane-Trilogy/?ref=buscador\">$34.900 TodoJuegos</a>\n   🥈 <a href=\"https://megagames.cl/producto/switch/juegos-nsw/crash-bandicoot-n-sane-trilogy-nsw/\">$39.990 MegaGames</a> (+$5.090)\n   🥉 <a href=\"https://www.paris.cl/crash-bandicoot-n-sane-trilogy-nintendo-switch-MKM6I1PJQE.html\">$44.990 Paris</a> 🏪 RIVERTEC (+$10.090)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/144108279/Crash-Bandicoot-N-Sane-Trilogy-Switch\">$47.990 Falabella</a> 🏪 Kaiojuegos (+$13.090)\n📈 Mínimo $28.000 (27 oct, TodoJuegos) · típico $34.900 · máximo $47.990\n   ▁▁▁▁▁▁▁███████████████████████  últimos 30 días\n🎮 Digital: US$33.76 ≈ $34.309 en 🇧🇷 Brasil\n   ➜ El digital es $591 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($34.900): el descuento no es real\n⚠️ TodoJuegos subió este juego de $28.000 a $34.900 la semana antes del evento: ojo con el «descuento»\n💼 <b>Margen</b>: la otra tienda lo vende a $39.990 → ~$5.090 (13%) de diferencia\n🔎 Confianza alta: 4 tiendas y 44 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NSWI/Crash-Bandicoot-N--Sane-Trilogy/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:f18504111d",
         "text": "⚙️ Spyro Reignited Trilogy · $34.900"
       },
@@ -50,5 +62,5 @@
     }
   ],
   "juego": "Crash / Spyro",
-  "revision": "2026-11-26T12:16:15Z"
+  "revision": "2026-11-26T13:16:10Z"
 }

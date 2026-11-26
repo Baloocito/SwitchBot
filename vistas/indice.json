@@ -10,14 +10,14 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 546,
+  "fisicos": 550,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-11-27",
     "hasta": "2026-11-30",
     "nombre": "Black Friday Chile"
   },
-  "revision": "2026-11-26T12:16:15Z",
+  "revision": "2026-11-26T13:16:10Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -167,7 +167,7 @@
     },
     {
       "juego": "Crash / Spyro",
-      "linea": "🟢 <b>Crash / Spyro</b> — 📦 4 desde $28.000\n   🟢 Crash 4 Bandicoot",
+      "linea": "🟢 <b>Crash / Spyro</b> — 📦 5 desde $28.000\n   🟢 Crash 4 Bandicoot",
       "nombres": [
         "crash 4 bandicoot",
         "crash bandicoot 4 its about time",
@@ -203,11 +203,11 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "⚪ <b>Dave the Diver</b> — 📦 1 desde $59.900",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $34.990\n   🟢 DAVE THE DIVER",
       "nombres": [
         "dave the diver"
       ],
-      "orden": 4,
+      "orden": 1,
       "slug": "dave-the-diver"
     },
     {
@@ -268,7 +268,7 @@
     },
     {
       "juego": "Dragon Quest",
-      "linea": "🟢 <b>Dragon Quest</b> — 📦 16 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
+      "linea": "🟢 <b>Dragon Quest</b> — 📦 17 desde $34.990\n   🟢 DRAGON QUEST BUILDERS 2",
       "nombres": [
         "dragon quest builders",
         "dragon quest builders 2",
@@ -395,8 +395,9 @@
     },
     {
       "juego": "Hyrule Warriors",
-      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 1 desde $79.990\n   🟢 Hyrule Warriors: Age of Imprisonment",
+      "linea": "🟢 <b>Hyrule Warriors</b> — 📦 2 desde $74.990\n   🟢 Hyrule Warriors: Age of Calamity",
       "nombres": [
+        "hyrule warriors age of calamity",
         "hyrule warriors age of imprisonment"
       ],
       "orden": 1,
@@ -694,6 +695,15 @@
       ],
       "orden": 1,
       "slug": "one-piece"
+    },
+    {
+      "juego": "Ori",
+      "linea": "🟢 <b>Ori</b> — 📦 1 desde $29.990\n   🟢 Ori and the Blind Forest: Definitive Edition",
+      "nombres": [
+        "ori and the blind forest definitive edition"
+      ],
+      "orden": 1,
+      "slug": "ori"
     },
     {
       "juego": "🔍 Otros juegos",
@@ -1134,11 +1144,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $34.900\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $34.990\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1336,5 +1345,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 664
+  "total": 668
 }
