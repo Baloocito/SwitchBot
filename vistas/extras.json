@@ -660,9 +660,9 @@
       "marca": "logitech g",
       "min_hist": 124990.0,
       "nombre": "Zone Vibe 100 Headset Inalámbrico Negro",
-      "pct": 0,
+      "pct": 0.0,
       "precio": 124990.0,
-      "ref_tipo": null,
+      "ref_tipo": "tipico",
       "tienda": "Falabella",
       "url": "https://www.falabella.com/falabella-cl/product/16688581/zone-vibe-100-headset-inalambrico-negro-logitech"
     },
@@ -1027,7 +1027,7 @@
         }
       ],
       "bundle": true,
-      "min_hist": 679990.0,
+      "min_hist": 659990.0,
       "modelo": "Switch 2",
       "nombre": "Consola Nintendo Switch 2 + Mario Kart World + 3 Meses Nintendo Switch Online",
       "pct": 4.3,
@@ -1112,7 +1112,7 @@
         }
       ],
       "bundle": true,
-      "min_hist": 339990.0,
+      "min_hist": 329990.0,
       "modelo": "Switch OLED",
       "nombre": "Consola Nintendo Switch Oled + Super Mario Bros Wonder + 3 meses NSO",
       "pct": 17.5,
@@ -1338,7 +1338,7 @@
       "url": "https://articulo.mercadolibre.cl/MLC-1473096171"
     }
   ],
-  "revision": "2026-11-26T02:16:03Z",
+  "revision": "2026-11-26T03:19:32Z",
   "seguimientos": [
     {
       "avisos": [
