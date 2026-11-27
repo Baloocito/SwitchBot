@@ -275,6 +275,24 @@
         {
           "precio": 49990.0,
           "tarjeta": null,
+          "tienda": "Falabella",
+          "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
+        }
+      ],
+      "marca": "redragon",
+      "min_hist": 49990.0,
+      "nombre": "Audífono Headset H510W RGB Zeus X White",
+      "pct": 0,
+      "precio": 49990.0,
+      "ref_tipo": null,
+      "tienda": "Falabella",
+      "url": "https://www.falabella.com/falabella-cl/product/17292990/Audifono-Headset-Redragon-H510W-RGB-Zeus-X-White"
+    },
+    {
+      "avisos": [
+        {
+          "precio": 49990.0,
+          "tarjeta": null,
           "tienda": "Sniper",
           "url": "https://sniper.cl/products/headset-turtle-beach-ear-force-recon-60p-sniper-game"
         }
@@ -1021,7 +1039,7 @@
       "url": "https://www.paris.cl/tarjeta-kingston-de-memoria-micro-sd-128gb-373478999.html"
     }
   ],
-  "revision": "2026-11-27T03:30:00Z",
+  "revision": "2026-11-27T05:16:55Z",
   "seguimientos": [
     {
       "avisos": [
