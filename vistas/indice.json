@@ -10,7 +10,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 607,
+  "fisicos": 605,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-12-17",
@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-27T14:18:03Z",
+  "revision": "2026-11-27T15:18:11Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -254,7 +254,7 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $19.000\n   🟢 DRAGON BALL XENOVERSE 2 for Nintendo Switch −36%",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $19.000\n   🟢 DRAGON BALL XENOVERSE 2 for Nintendo Switch −36%",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball xenoverse 2 for nintendo switch",
@@ -516,7 +516,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 27 desde $26.000 · 🎮 1 desde US$11.30\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 26 desde $26.000 · 🎮 1 desde US$11.30\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "horipad turbo wireless for n universe mario",
         "mario golf super rush",
@@ -530,7 +530,6 @@
         "mario tennis aces",
         "mario tennis fever",
         "mario vs donkey kong",
-        "new super mario bros u deluxe",
         "paper mario the thousand year door",
         "super mario bros wonder",
         "super mario galaxy 2",
@@ -942,9 +941,8 @@
     },
     {
       "juego": "Pikmin",
-      "linea": "🟢 <b>Pikmin</b> — 📦 5 desde $50.000\n   🟢 Pikmin 4 −6%",
+      "linea": "🟢 <b>Pikmin</b> — 📦 4 desde $50.000\n   🟢 Pikmin 4 −6%",
       "nombres": [
-        "pikmin 1",
         "pikmin 3 deluxe",
         "pikmin 4",
         "pikmin 4 dandori academy"
@@ -1158,11 +1156,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $29.000\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $29.000\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1343,7 +1340,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 11 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −8%",
+      "linea": "🟢 <b>Zelda</b> — 📦 12 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −8%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "horipad turbo the legend of zelda",
@@ -1359,5 +1356,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 669
+  "total": 668
 }
