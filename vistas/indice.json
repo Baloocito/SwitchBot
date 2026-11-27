@@ -10,7 +10,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 605,
+  "fisicos": 602,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-12-17",
@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-27T15:18:11Z",
+  "revision": "2026-11-27T16:17:43Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -204,7 +204,7 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $30.000\n   🟢 DAVE THE DIVER −18%",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 1 desde $49.000\n   🟢 DAVE THE DIVER −18%",
       "nombres": [
         "dave the diver"
       ],
@@ -254,7 +254,7 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $19.000\n   🟢 DRAGON BALL XENOVERSE 2 for Nintendo Switch −36%",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $19.000\n   🟢 DRAGON BALL XENOVERSE 2 for Nintendo Switch −36%",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball xenoverse 2 for nintendo switch",
@@ -705,15 +705,6 @@
       "slug": "one-piece"
     },
     {
-      "juego": "Ori",
-      "linea": "🟢 <b>Ori</b> — 📦 1 desde $29.990\n   🟢 Ori and the Blind Forest: Definitive Edition",
-      "nombres": [
-        "ori and the blind forest definitive edition"
-      ],
-      "orden": 1,
-      "slug": "ori"
-    },
-    {
       "juego": "🔍 Otros juegos",
       "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 7 desde $24.000 · 🎮 186 desde US$1.92\n   🟢 The Survivalists −90%",
       "nombres": [
@@ -941,8 +932,9 @@
     },
     {
       "juego": "Pikmin",
-      "linea": "🟢 <b>Pikmin</b> — 📦 4 desde $50.000\n   🟢 Pikmin 4 −6%",
+      "linea": "🟢 <b>Pikmin</b> — 📦 5 desde $50.000\n   🟢 Pikmin 4 −6%",
       "nombres": [
+        "pikmin 1",
         "pikmin 3 deluxe",
         "pikmin 4",
         "pikmin 4 dandori academy"
@@ -1356,5 +1348,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 668
+  "total": 666
 }
