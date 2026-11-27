@@ -10,7 +10,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 602,
+  "fisicos": 605,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-12-17",
@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-27T11:15:45Z",
+  "revision": "2026-11-27T12:20:12Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -204,7 +204,7 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 1 desde $49.000\n   🟢 DAVE THE DIVER −18%",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $30.000\n   🟢 DAVE THE DIVER −18%",
       "nombres": [
         "dave the diver"
       ],
@@ -254,7 +254,7 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $19.000\n   🟢 DRAGON BALL XENOVERSE 2 for Nintendo Switch −36%",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 8 desde $19.000\n   🟢 DRAGON BALL XENOVERSE 2 for Nintendo Switch −36%",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball xenoverse 2 for nintendo switch",
@@ -294,6 +294,15 @@
       ],
       "orden": 1,
       "slug": "ea-sports-fc"
+    },
+    {
+      "juego": "Elden Ring",
+      "linea": "🟢 <b>Elden Ring</b> — 📦 1 desde $72.000\n   🟢 ELDEN RING Tarnished Edition −15%",
+      "nombres": [
+        "elden ring tarnished edition"
+      ],
+      "orden": 1,
+      "slug": "elden-ring"
     },
     {
       "juego": "Emio / Famicom Detective",
@@ -1340,5 +1349,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 665
+  "total": 668
 }
