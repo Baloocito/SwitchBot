@@ -2,6 +2,18 @@
   "items": [
     {
       "boton": {
+        "callback_data": "a:abf6d69808",
+        "text": "⚙️ The Legend of Zelda: Breath o… S2 · $59.990"
+      },
+      "id": "abf6d69808",
+      "nivel": "compra",
+      "nombre": "The Legend of Zelda: Breath of the Wild",
+      "pct": 7.7,
+      "texto": "🟢 <b>COMPRA YA</b> · −8%\n<b>The Legend of Zelda: Breath of the Wild</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$59.990</b> en Paris\n💡 Es el precio más bajo que he visto\n   Ahorras $5.000 frente a su precio típico ($64.990)\n🏷️ La tienda marca «antes $82.990» (−28%)\n🏬 <b>Comparación (5 tiendas)</b>\n   🥇 <a href=\"https://www.paris.cl/juego-nintendo-switch-2-the-legend-of-zelda-breath-of-the-wild-ns2-edition-161368999.html\">$59.990 Paris</a>\n   🥈 <a href=\"https://bestmart.cl/products/juego-the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2\">$61.990 Bestmart</a> (+$2.000)\n   🥉 <a href=\"https://www.todojuegos.cl/Productos/NS2/The-Legend-of-Zelda--Breath-of-the-Wild-NS2-Editon/?ref=buscador\">$62.000 TodoJuegos</a> (+$2.010)\n   ▫️ <a href=\"https://www.falabella.com/falabella-cl/product/150944284/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2\">$79.790 Falabella</a> 🏪 Africca (+$19.800)\n   ▫️ <a href=\"https://8-bits.cl/products/the-legend-of-zelda-breath-of-the-wild-nsw2\">$79.990 8 Bits</a> (+$20.000)\n📈 Mínimo $59.990 (26 nov, Paris) · típico $64.990 · máximo $79.790\n   █████████████████████▄▄▄▄▄▄▄▁▁  últimos 30 días\n🎮 Digital: US$67.61 ≈ $70.246 en 🇧🇷 Brasil\n   ➜ El físico te ahorra $10.256 y además se puede revender\n📅 Antes de Black Friday eShop estaba a $64.990: hoy está 8% más barato de verdad\n🔎 Confianza alta: 5 tiendas y 47 días de historial\n🛒 <a href=\"https://www.paris.cl/juego-nintendo-switch-2-the-legend-of-zelda-breath-of-the-wild-ns2-edition-161368999.html\">Ir a comprar en Paris</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:30e06a3ce3",
         "text": "⚙️ The Legend of Zelda: Ocarina … S2 · $73.990"
       },
@@ -134,5 +146,5 @@
     }
   ],
   "juego": "Zelda",
-  "revision": "2026-11-27T03:09:58Z"
+  "revision": "2026-11-27T03:30:00Z"
 }

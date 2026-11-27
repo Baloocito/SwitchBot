@@ -10,7 +10,7 @@
       "nivel": "compra",
       "nombre": "MARIO + RABBIDS SPARKS OF HOPE",
       "pct": 75.0,
-      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>MARIO + RABBIDS SPARKS OF HOPE</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$11.30</b> ≈ $11.741 en 🇨🇱 Chile\n   Precio en la tienda: $11.740 CLP\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$45.24 → ahorras US$33.94 · ⏳ termina el 3 dic (en 7 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$11.30</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$13.00</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$14.04</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$14.99</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$16.07</a>\n   El más caro: 🇵🇪 US$18.01\n📦 Físico: $39.990 en Sniper → el digital te ahorra $28.249\n📈 Mínimo US$11.30 (26 nov en 🇨🇱 Chile)\n   ██████████████████████▁▁▁▁▁▁▁▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">Ver en la eShop de Chile</a>",
+      "texto": "🟢 <b>COMPRA YA</b> · −75%\n<b>MARIO + RABBIDS SPARKS OF HOPE</b>\n🕹️ Switch 1 · 🎮 Digital (eShop)\n💰 <b>US$11.30</b> ≈ $11.741 en 🇨🇱 Chile\n   Precio en la tienda: $11.740 CLP\n💡 Es el precio más bajo que he visto\n🏷️ Normal US$45.24 → ahorras US$33.94 · ⏳ termina el 3 dic (en 7 días)\n🌎 <b>Por país</b>\n   🇨🇱 <a href=\"https://www.nintendo.com/es-cl/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$11.30</a> ← el más barato\n   🇧🇷 <a href=\"https://www.nintendo.com/pt-br/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$13.00</a>\n   🇨🇦 <a href=\"https://www.nintendo.com/en-ca/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$14.04</a>\n   🇺🇸 <a href=\"https://www.nintendo.com/us/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$14.99</a>\n   🇨🇴 <a href=\"https://www.nintendo.com/es-co/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">US$16.07</a>\n   El más caro: 🇵🇪 US$18.01\n📦 Físico: $39.990 en Sniper → el digital te ahorra $28.249\n📈 Mínimo US$11.30 (26 nov en 🇨🇱 Chile)\n   █████████████████████▁▁▁▁▁▁▁▁▁  últimos 30 días\n🛒 <a href=\"https://www.nintendo.com/es-cl/store/products/mario-plus-rabbids-sparks-of-hope-switch/\">Ver en la eShop de Chile</a>",
       "tipo": "digital"
     },
     {
@@ -183,18 +183,6 @@
     },
     {
       "boton": {
-        "callback_data": "a:20a24e39fb",
-        "text": "⚙️ Mario Tennis Aces · $69.990"
-      },
-      "id": "20a24e39fb",
-      "nivel": "compra",
-      "nombre": "Mario Tennis Aces",
-      "pct": 0,
-      "texto": "🟢 <b>COMPRA YA</b>\n<b>Mario Tennis Aces</b>\n🕹️ Switch 1 · 📦 Físico\n💰 <b>$69.990</b> en Falabella 🏪 <i>vende Sniper</i>\n💡 Es el precio más bajo que he visto\n🏷️ La tienda marca «antes $79.990» (−13%)\n🏬 Solo lo encontré en esta tienda\n📈 Mínimo $69.990 (11 nov, Sniper) · típico $69.990 · máximo $115.990\n   ▆▆▆▆▆▆▆▆▆▆▆▆█▆▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁  últimos 30 días\n🎮 Digital: US$57.21 ≈ $59.440 en 🇧🇷 Brasil\n   ➜ El digital es $10.550 más barato, pero no se puede revender\n📅 Mismo precio que antes de Black Friday eShop ($69.990): el descuento no es real\n🔎 Confianza media: 1 tienda y 30 días de historial\n🛒 <a href=\"https://www.falabella.com/falabella-cl/product/150546076/mario-tennis-aces-juego-fisico-switch-sniper-game\">Ir a comprar en Falabella</a>",
-      "tipo": "fisico"
-    },
-    {
-      "boton": {
         "callback_data": "a:97d68666b6",
         "text": "⚙️ Mario Tennis Aces · $39.990"
       },
@@ -351,5 +339,5 @@
     }
   ],
   "juego": "Mario",
-  "revision": "2026-11-27T03:09:58Z"
+  "revision": "2026-11-27T03:30:00Z"
 }
