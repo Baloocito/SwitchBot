@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-27T19:16:48Z",
+  "revision": "2026-11-27T20:15:25Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -706,7 +706,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 7 desde $19.000 · 🎮 186 desde US$1.92\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 8 desde $19.000 · 🎮 186 desde US$1.92\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -792,6 +792,7 @@
         "hello neighbor hide and seek",
         "hellpoint",
         "heretic hexen",
+        "it takes two",
         "justice sucks",
         "kamiwaza way of the thief",
         "katana kami a way of the samurai story",
@@ -932,9 +933,8 @@
     },
     {
       "juego": "Pikmin",
-      "linea": "🟢 <b>Pikmin</b> — 📦 5 desde $50.000\n   🟢 Pikmin 4 −6%",
+      "linea": "🟢 <b>Pikmin</b> — 📦 4 desde $50.000\n   🟢 Pikmin 4 −6%",
       "nombres": [
-        "pikmin 1",
         "pikmin 3 deluxe",
         "pikmin 4",
         "pikmin 4 dandori academy"
@@ -946,7 +946,7 @@
       "juego": "Pokémon",
       "linea": "🟢 <b>Pokémon</b> — 📦 7 desde $39.990\n   🟢 Pokemon Legends ZA | 2",
       "nombres": [
-        "pokemon legends z a",
+        "pokemon legends",
         "pokemon legends za 2",
         "pokemon scarlet",
         "pokemon shield",
@@ -1129,7 +1129,7 @@
     },
     {
       "juego": "Split Fiction / It Takes Two",
-      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 3 desde $39.000 · 🎮 2 desde US$23.03\n   🟢 Split Fiction −40%",
+      "linea": "🟢 <b>Split Fiction / It Takes Two</b> — 📦 2 desde $39.990 · 🎮 2 desde US$23.03\n   🟢 Split Fiction −40%",
       "nombres": [
         "it takes two",
         "split fiction"
@@ -1352,5 +1352,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 673
+  "total": 672
 }
