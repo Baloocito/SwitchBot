@@ -10,7 +10,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 606,
+  "fisicos": 608,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-12-17",
@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-27T17:15:21Z",
+  "revision": "2026-11-27T18:16:07Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -254,10 +254,9 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $19.000\n   🟢 DRAGON BALL XENOVERSE 2 for Nintendo Switch −36%",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 6 desde $29.990\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
-        "dragon ball xenoverse 2 for nintendo switch",
         "dragon ball z kakarot",
         "dragon ball z kakarot a new power awakens set",
         "dragon ball z kakarot a new power awakes set sniper",
@@ -461,7 +460,7 @@
     },
     {
       "juego": "LEGO",
-      "linea": "🟢 <b>LEGO</b> — 📦 6 desde $19.000 · 🎮 6 desde US$1.92\n   🟢 LEGO NINJAGO Movie Video Game −95%",
+      "linea": "🟢 <b>LEGO</b> — 📦 7 desde $15.000 · 🎮 6 desde US$1.92\n   🟢 LEGO NINJAGO Movie Video Game −95%",
       "nombres": [
         "lego brawls",
         "lego dc super villains",
@@ -507,8 +506,9 @@
     },
     {
       "juego": "Luigi's Mansion",
-      "linea": "🟢 <b>Luigi's Mansion</b> — 📦 1 desde $56.990\n   🟢 Luigi s Mansion 3",
+      "linea": "🟢 <b>Luigi's Mansion</b> — 📦 2 desde $54.990\n   🟢 Luigi s Mansion 2 HD",
       "nombres": [
+        "luigi s mansion 2 hd",
         "luigi s mansion 3"
       ],
       "orden": 1,
@@ -706,7 +706,7 @@
     },
     {
       "juego": "🔍 Otros juegos",
-      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 7 desde $24.000 · 🎮 186 desde US$1.92\n   🟢 The Survivalists −90%",
+      "linea": "🟢 <b>🔍 Otros juegos</b> — 📦 8 desde $19.000 · 🎮 186 desde US$1.92\n   🟢 The Survivalists −90%",
       "nombres": [
         "13 sentinels aegis rim",
         "adventure academia the fractured continent",
@@ -757,6 +757,7 @@
         "doom anthology",
         "dorfromantik",
         "dragon ball sparking zero",
+        "dragon ball xenoverse 2 for nintendo switch",
         "dragons dogma dark arisen",
         "dropsy",
         "dusk diver",
@@ -1352,5 +1353,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 670
+  "total": 672
 }
