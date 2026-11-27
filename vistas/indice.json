@@ -10,7 +10,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 602,
+  "fisicos": 606,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-12-17",
@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-27T16:17:43Z",
+  "revision": "2026-11-27T17:15:21Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -932,9 +932,8 @@
     },
     {
       "juego": "Pikmin",
-      "linea": "🟢 <b>Pikmin</b> — 📦 5 desde $50.000\n   🟢 Pikmin 4 −6%",
+      "linea": "🟢 <b>Pikmin</b> — 📦 4 desde $50.000\n   🟢 Pikmin 4 −6%",
       "nombres": [
-        "pikmin 1",
         "pikmin 3 deluxe",
         "pikmin 4",
         "pikmin 4 dandori academy"
@@ -1148,10 +1147,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $29.000\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $29.000\n   🟢 STAR WARS™ Jedi Knight Collection (Europeo)",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
+        "star wars jedi knight collection europeo",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1168,14 +1168,18 @@
     },
     {
       "juego": "Story of Seasons",
-      "linea": "🟢 <b>Story of Seasons</b> — 📦 13 desde $29.990 · 🎮 5 desde US$6.26\n   🟢 STORY OF SEASONS: Friends of Mineral Town −75%",
+      "linea": "🟢 <b>Story of Seasons</b> — 📦 13 desde $29.990 · 🎮 9 desde US$6.26\n   🟢 STORY OF SEASONS: Friends of Mineral Town −75%",
       "nombres": [
         "doraemon story of seasons",
+        "harvest moon home sweet home special edition",
         "harvest moon light of hope europeo",
         "harvest moon light of hope se complete snipercl",
         "harvest moon light of hope special edition",
         "harvest moon mad dash",
         "harvest moon one world",
+        "harvest moon skytree village",
+        "harvest moon the lost valley",
+        "harvest moon the winds of anthos",
         "story of seasons a wonderful life",
         "story of seasons friends of mineral town",
         "story of seasons grand bazaar",
@@ -1348,5 +1352,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 666
+  "total": 670
 }
