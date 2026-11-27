@@ -156,17 +156,13 @@
     },
     "2026-11-27": {
       "bombazos": 1,
-      "posts": 1,
-      "slots": []
+      "posts": 2,
+      "slots": [
+        "top"
+      ]
     }
   },
   "posts": [
-    {
-      "fecha": "2026-10-27T16:35-03:00",
-      "ids": [],
-      "message_id": 62,
-      "slot": "tarde"
-    },
     {
       "fecha": "2026-10-27T18:35-03:00",
       "ids": [
@@ -1949,6 +1945,18 @@
       ],
       "message_id": 266,
       "slot": "bombazo"
+    },
+    {
+      "fecha": "2026-11-27T09:05-03:00",
+      "ids": [
+        "4515ba0ca1",
+        "1aaef762f5",
+        "2ea057d12e",
+        "eac714c0f7",
+        "d156f22585"
+      ],
+      "message_id": 267,
+      "slot": "top"
     }
   ],
   "publicados": {
@@ -2088,9 +2096,9 @@
       "slot": "pack"
     },
     "1aaef762f5": {
-      "fecha": "2026-11-20",
+      "fecha": "2026-11-27",
       "precio": 10750,
-      "slot": "pack"
+      "slot": "top"
     },
     "1d3cae6725": {
       "fecha": "2026-11-26",
@@ -2178,9 +2186,9 @@
       "slot": "pack"
     },
     "2ea057d12e": {
-      "fecha": "2026-11-20",
+      "fecha": "2026-11-27",
       "precio": 5750,
-      "slot": "pack"
+      "slot": "top"
     },
     "2f78dcbffb": {
       "fecha": "2026-11-26",
@@ -2253,7 +2261,7 @@
       "slot": "fisicos"
     },
     "4515ba0ca1": {
-      "fecha": "2026-11-20",
+      "fecha": "2026-11-27",
       "precio": 9500,
       "slot": "top"
     },
@@ -2933,9 +2941,9 @@
       "slot": "top"
     },
     "d156f22585": {
-      "fecha": "2026-11-20",
+      "fecha": "2026-11-27",
       "precio": 4470,
-      "slot": "pack"
+      "slot": "top"
     },
     "d1b6eb8d5f": {
       "fecha": "2026-10-31",
@@ -3078,9 +3086,9 @@
       "slot": "top"
     },
     "eac714c0f7": {
-      "fecha": "2026-11-20",
+      "fecha": "2026-11-27",
       "precio": 3800,
-      "slot": "pack"
+      "slot": "top"
     },
     "ebbfcadab8": {
       "fecha": "2026-11-21",
@@ -3666,5 +3674,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-27T08:35:33.848692-03:00"
+  "ultimo_post": "2026-11-27T09:05:33.080060-03:00"
 }
