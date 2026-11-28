@@ -5,17 +5,6 @@
   },
   "cola": {},
   "dias": {
-    "2026-11-14": {
-      "bombazos": 2,
-      "posts": 7,
-      "slots": [
-        "top",
-        "pack",
-        "tarde",
-        "fisicos",
-        "ultima"
-      ]
-    },
     "2026-11-15": {
       "bombazos": 2,
       "posts": 8,
@@ -164,19 +153,14 @@
         "fisicos",
         "ultima"
       ]
+    },
+    "2026-11-28": {
+      "bombazos": 1,
+      "posts": 1,
+      "slots": []
     }
   },
   "posts": [
-    {
-      "fecha": "2026-10-28T18:35-03:00",
-      "ids": [
-        "50e7fa30b3",
-        "a8765d4a3f",
-        "9326a92fcc"
-      ],
-      "message_id": 68,
-      "slot": "fisicos"
-    },
     {
       "fecha": "2026-10-28T20:05-03:00",
       "ids": [],
@@ -1955,6 +1939,14 @@
       "ids": [],
       "message_id": 272,
       "slot": "ultima"
+    },
+    {
+      "fecha": "2026-11-28T08:35-03:00",
+      "ids": [
+        "1703e85790"
+      ],
+      "message_id": 273,
+      "slot": "bombazo"
     }
   ],
   "publicados": {
@@ -2049,7 +2041,7 @@
       "slot": "fisicos"
     },
     "1703e85790": {
-      "fecha": "2026-11-21",
+      "fecha": "2026-11-28",
       "precio": 10750,
       "slot": "bombazo"
     },
@@ -2063,19 +2055,9 @@
       "precio": 5560,
       "slot": "top"
     },
-    "188e217cbc": {
-      "fecha": "2026-10-28",
-      "precio": 5200,
-      "slot": "pack"
-    },
     "18a9f1fb53": {
       "fecha": "2026-11-16",
       "precio": 19000,
-      "slot": "top"
-    },
-    "18db13d31a": {
-      "fecha": "2026-10-28",
-      "precio": 13960,
       "slot": "top"
     },
     "18fb24a8ee": {
@@ -2117,11 +2099,6 @@
       "fecha": "2026-10-31",
       "precio": 8000,
       "slot": "top"
-    },
-    "1e642f089f": {
-      "fecha": "2026-10-28",
-      "precio": 3250,
-      "slot": "pack"
     },
     "1eabaf9b27": {
       "fecha": "2026-11-21",
@@ -2208,11 +2185,6 @@
       "precio": 5980,
       "slot": "top"
     },
-    "30d6d0749b": {
-      "fecha": "2026-10-28",
-      "precio": 15870,
-      "slot": "top"
-    },
     "344f599b27": {
       "fecha": "2026-11-22",
       "precio": 8750,
@@ -2246,11 +2218,6 @@
     "40cf6487ce": {
       "fecha": "2026-11-06",
       "precio": 7200,
-      "slot": "pack"
-    },
-    "40e9512b71": {
-      "fecha": "2026-10-28",
-      "precio": 12670,
       "slot": "pack"
     },
     "4144715be8": {
@@ -2588,11 +2555,6 @@
       "precio": 39900.0,
       "slot": "fisicos"
     },
-    "8989871737": {
-      "fecha": "2026-10-28",
-      "precio": 2880,
-      "slot": "pack"
-    },
     "89b5ba451f": {
       "fecha": "2026-10-30",
       "precio": 2240,
@@ -2647,11 +2609,6 @@
       "fecha": "2026-11-20",
       "precio": 17370,
       "slot": "top"
-    },
-    "9326a92fcc": {
-      "fecha": "2026-10-28",
-      "precio": 42000.0,
-      "slot": "fisicos"
     },
     "95bc412aef": {
       "fecha": "2026-11-12",
@@ -2738,11 +2695,6 @@
       "precio": 15180,
       "slot": "top"
     },
-    "a8765d4a3f": {
-      "fecha": "2026-10-28",
-      "precio": 38000.0,
-      "slot": "fisicos"
-    },
     "aac946934e": {
       "fecha": "2026-11-11",
       "precio": 23590,
@@ -2756,11 +2708,6 @@
     "ac9170d538": {
       "fecha": "2026-11-22",
       "precio": 23100,
-      "slot": "top"
-    },
-    "ae62304eb4": {
-      "fecha": "2026-10-28",
-      "precio": 11240,
       "slot": "top"
     },
     "b0b96e6fa8": {
@@ -2958,11 +2905,6 @@
       "precio": 11120,
       "slot": "top"
     },
-    "cfc5745303": {
-      "fecha": "2026-10-28",
-      "precio": 2250,
-      "slot": "top"
-    },
     "d156f22585": {
       "fecha": "2026-11-27",
       "precio": 4470,
@@ -3096,11 +3038,6 @@
     "e6670b614d": {
       "fecha": "2026-11-24",
       "precio": 9410,
-      "slot": "top"
-    },
-    "e8cc79647d": {
-      "fecha": "2026-10-28",
-      "precio": 3830,
       "slot": "top"
     },
     "e9faf33e5b": {
@@ -3421,11 +3358,6 @@
       "precio": 4180,
       "slot": "ultima"
     },
-    "78348838ce": {
-      "fecha": "2026-10-28",
-      "precio": 4350,
-      "slot": "ultima"
-    },
     "7e295d47ba": {
       "fecha": "2026-11-06",
       "precio": 4750,
@@ -3544,11 +3476,6 @@
     "b98f675931": {
       "fecha": "2026-11-21",
       "precio": 6000,
-      "slot": "ultima"
-    },
-    "bb83dd5fce": {
-      "fecha": "2026-10-28",
-      "precio": 9350,
       "slot": "ultima"
     },
     "c1396d0512": {
@@ -3702,5 +3629,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-27T21:05:31.900213-03:00"
+  "ultimo_post": "2026-11-28T08:35:32.857436-03:00"
 }
