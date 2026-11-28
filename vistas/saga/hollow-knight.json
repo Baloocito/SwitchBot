@@ -14,6 +14,18 @@
     },
     {
       "boton": {
+        "callback_data": "a:b34b1aca64",
+        "text": "⚙️ Hollow Knight: Silksong S2 · $49.000"
+      },
+      "id": "b34b1aca64",
+      "nivel": "compra",
+      "nombre": "Hollow Knight: Silksong",
+      "pct": 10.7,
+      "texto": "🟢 <b>COMPRA YA</b> · −11%\n<b>Hollow Knight: Silksong</b>\n🕹️ Switch 2 · 📦 Físico\n💰 <b>$49.000</b> en TodoJuegos\n💡 Es el precio más bajo que he visto\n   Ahorras $5.900 frente a su precio típico ($54.900)\n🏬 <b>Comparación (2 tiendas)</b>\n   🥇 <a href=\"https://www.todojuegos.cl/Productos/NS2/Hollow-Knight--Silksong/?ref=buscador\">$49.000 TodoJuegos</a>\n   🥈 <a href=\"https://8-bits.cl/products/hollow-knight-silksong-nintendo-switch-2\">$59.990 8 Bits</a> (+$10.990)\n📈 Mínimo $49.000 (26 nov, TodoJuegos) · típico $54.900 · máximo $54.990\n   ███████████████████████████▁▁▁  últimos 30 días\n🎮 Digital: US$10.09 ≈ $10.497 en 🇨🇱 Chile\n   ➜ El digital es $38.503 más barato, pero no se puede revender\n📅 Antes de Black Friday eShop estaba a $54.900: hoy está 11% más barato de verdad\n💼 <b>Margen</b>: la otra tienda lo vende a $59.990 → ~$10.990 (18%) de diferencia\n📉 Precio bajó 11% en las últimas 2 semanas\n🔎 Confianza media: 2 tiendas y 46 días de historial\n🛒 <a href=\"https://www.todojuegos.cl/Productos/NS2/Hollow-Knight--Silksong/?ref=buscador\">Ir a comprar en TodoJuegos</a>",
+      "tipo": "fisico"
+    },
+    {
+      "boton": {
         "callback_data": "a:c708506930",
         "text": "⚙️ Hollow Knight · $36.990"
       },
@@ -26,5 +38,5 @@
     }
   ],
   "juego": "Hollow Knight",
-  "revision": "2026-11-28T11:16:37Z"
+  "revision": "2026-11-28T12:17:28Z"
 }
