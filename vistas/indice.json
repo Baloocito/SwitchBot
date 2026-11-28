@@ -10,7 +10,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 598,
+  "fisicos": 602,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-12-17",
@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-28T12:17:28Z",
+  "revision": "2026-11-28T13:17:32Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -212,7 +212,7 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 1 desde $49.000\n   🟢 DAVE THE DIVER −18%",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $30.000\n   🟢 DAVE THE DIVER −18%",
       "nombres": [
         "dave the diver"
       ],
@@ -323,12 +323,11 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 12 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
         "final fantasy ix",
-        "final fantasy resonance",
         "final fantasy tactics the ivalice chronicles",
         "final fantasy vi",
         "final fantasy vii",
@@ -1064,10 +1063,11 @@
     },
     {
       "juego": "Shantae",
-      "linea": "🟢 <b>Shantae</b> — 📦 1 desde $44.990 · 🎮 2 desde US$8.60\n   🟢 Shantae and the Pirate's Curse −50%",
+      "linea": "🟢 <b>Shantae</b> — 📦 2 desde $44.990 · 🎮 2 desde US$8.60\n   🟢 Shantae and the Pirate's Curse −50%",
       "nombres": [
         "shantae and the pirates curse",
         "shantae and the seven sirens",
+        "shantae half genie hero",
         "shantae half genie hero ultimate edition"
       ],
       "orden": 1,
@@ -1155,10 +1155,11 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $29.000\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $29.000\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
+        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1357,5 +1358,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 664
+  "total": 666
 }
