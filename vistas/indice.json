@@ -10,7 +10,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 605,
+  "fisicos": 603,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-12-17",
@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-28T02:16:59Z",
+  "revision": "2026-11-28T03:17:39Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -177,6 +177,15 @@
       ],
       "orden": 1,
       "slug": "crash-spyro"
+    },
+    {
+      "juego": "Cuphead",
+      "linea": "🟠 <b>Cuphead</b> — 📦 1 desde $29.000",
+      "nombres": [
+        "cuphead"
+      ],
+      "orden": 3,
+      "slug": "cuphead"
     },
     {
       "juego": "Cyberpunk 2077",
@@ -645,7 +654,7 @@
     },
     {
       "juego": "Mortal Kombat",
-      "linea": "🟢 <b>Mortal Kombat</b> — 📦 4 desde $25.000 · 🎮 1 desde US$7.16\n   🟢 Mortal Kombat 11 −80%",
+      "linea": "🟢 <b>Mortal Kombat</b> — 📦 3 desde $34.990 · 🎮 1 desde US$7.16\n   🟢 Mortal Kombat 11 −80%",
       "nombres": [
         "mortal kombat 1",
         "mortal kombat 11",
@@ -987,7 +996,7 @@
     },
     {
       "juego": "Rayman",
-      "linea": "🟢 <b>Rayman</b> — 📦 4 desde $24.000\n   🟢 Rayman: 30th Anniversary Edition −29%",
+      "linea": "🟢 <b>Rayman</b> — 📦 4 desde $24.000\n   🟢 Rayman: 30th Anniversary Edition −21%",
       "nombres": [
         "rayman 30th anniversary edition",
         "rayman legends",
@@ -1056,11 +1065,10 @@
     },
     {
       "juego": "Shantae",
-      "linea": "🟢 <b>Shantae</b> — 📦 2 desde $44.990 · 🎮 2 desde US$8.60\n   🟢 Shantae and the Pirate's Curse −50%",
+      "linea": "🟢 <b>Shantae</b> — 📦 1 desde $44.990 · 🎮 2 desde US$8.60\n   🟢 Shantae and the Pirate's Curse −50%",
       "nombres": [
         "shantae and the pirates curse",
         "shantae and the seven sirens",
-        "shantae half genie hero",
         "shantae half genie hero ultimate edition"
       ],
       "orden": 1,
@@ -1089,7 +1097,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000 · 🎮 5 desde US$1.99\n   🟢 SONIC X SHADOW GENERATIONS −75%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000 · 🎮 5 desde US$1.99\n   🟢 SONIC X SHADOW GENERATIONS −75%",
       "nombres": [
         "sega ages sonic the hedgehog",
         "sonic classic collection",
@@ -1168,7 +1176,7 @@
     },
     {
       "juego": "Story of Seasons",
-      "linea": "🟢 <b>Story of Seasons</b> — 📦 13 desde $29.990 · 🎮 9 desde US$6.25\n   🟢 STORY OF SEASONS: Friends of Mineral Town −75%",
+      "linea": "🟢 <b>Story of Seasons</b> — 📦 13 desde $29.990 · 🎮 8 desde US$6.25\n   🟢 STORY OF SEASONS: Friends of Mineral Town −75%",
       "nombres": [
         "doraemon story of seasons",
         "harvest moon home sweet home special edition",
@@ -1179,7 +1187,6 @@
         "harvest moon one world",
         "harvest moon skytree village",
         "harvest moon the lost valley",
-        "harvest moon the winds of anthos",
         "story of seasons a wonderful life",
         "story of seasons friends of mineral town",
         "story of seasons grand bazaar",
@@ -1336,7 +1343,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 12 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −8%",
+      "linea": "🟢 <b>Zelda</b> — 📦 13 desde $44.990\n   🟢 The Legend of Zelda: Tears of the Kingdom −18%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "horipad turbo the legend of zelda",
@@ -1352,5 +1359,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 672
+  "total": 670
 }
