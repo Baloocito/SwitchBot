@@ -155,23 +155,14 @@
       ]
     },
     "2026-11-28": {
-      "bombazos": 1,
-      "posts": 2,
+      "bombazos": 2,
+      "posts": 3,
       "slots": [
         "top"
       ]
     }
   },
   "posts": [
-    {
-      "fecha": "2026-10-28T21:05-03:00",
-      "ids": [
-        "bb83dd5fce",
-        "78348838ce"
-      ],
-      "message_id": 70,
-      "slot": "ultima"
-    },
     {
       "fecha": "2026-10-29T09:05-03:00",
       "ids": [
@@ -1955,6 +1946,14 @@
       ],
       "message_id": 274,
       "slot": "top"
+    },
+    {
+      "fecha": "2026-11-28T10:35-03:00",
+      "ids": [
+        "e395aec821"
+      ],
+      "message_id": 275,
+      "slot": "bombazo"
     }
   ],
   "publicados": {
@@ -3028,6 +3027,11 @@
       "precio": 23450,
       "slot": "top"
     },
+    "e395aec821": {
+      "fecha": "2026-11-28",
+      "precio": 11450,
+      "slot": "bombazo"
+    },
     "e45604fe08": {
       "fecha": "2026-11-12",
       "precio": 11220,
@@ -3642,5 +3646,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-28T09:05:33.464604-03:00"
+  "ultimo_post": "2026-11-28T10:35:34.489756-03:00"
 }
