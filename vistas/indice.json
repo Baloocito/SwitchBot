@@ -10,7 +10,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 602,
+  "fisicos": 598,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-12-17",
@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-28T05:18:01Z",
+  "revision": "2026-11-28T06:17:06Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -52,9 +52,8 @@
     },
     {
       "juego": "Assassin's Creed",
-      "linea": "🟢 <b>Assassin's Creed</b> — 📦 3 desde $20.000 · 🎮 2 desde US$9.93\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
+      "linea": "🟢 <b>Assassin's Creed</b> — 📦 2 desde $22.000 · 🎮 2 desde US$9.93\n   🟢 Assassin’s Creed: The Rebel Collection −63%",
       "nombres": [
-        "assassins creed iii remastered",
         "assassins creed shadows",
         "assassins creed the ezio collection",
         "assassins creed the rebel collection"
@@ -295,7 +294,7 @@
     },
     {
       "juego": "EA Sports FC",
-      "linea": "🟢 <b>EA Sports FC</b> — 📦 4 desde $21.990 · 🎮 2 desde US$26.77\n   🟢 EA SPORTS FC 27 −50%",
+      "linea": "🟢 <b>EA Sports FC</b> — 📦 3 desde $21.990 · 🎮 2 desde US$26.77\n   🟢 EA SPORTS FC 27 −50%",
       "nombres": [
         "ea sports fc 26",
         "ea sports fc 27"
@@ -628,12 +627,11 @@
     },
     {
       "juego": "Minecraft",
-      "linea": "🟢 <b>Minecraft</b> — 📦 4 desde $26.990\n   🟢 Minecraft −18%",
+      "linea": "🟢 <b>Minecraft</b> — 📦 3 desde $26.990\n   🟢 Minecraft −18%",
       "nombres": [
         "minecraft",
         "minecraft dungeons ii",
-        "minecraft legends",
-        "minecraft nintendo switch edition"
+        "minecraft legends"
       ],
       "orden": 1,
       "slug": "minecraft"
@@ -1156,11 +1154,10 @@
     },
     {
       "juego": "Star Wars",
-      "linea": "🟢 <b>Star Wars</b> — 📦 5 desde $29.000\n   🟢 Star Wars Racer And Commando Combo - N.",
+      "linea": "🟢 <b>Star Wars</b> — 📦 4 desde $29.000\n   🟢 Star Wars Racer And Commando Combo - N.",
       "nombres": [
         "monopoly star wars heroes vs villains",
         "star wars dark forces remaster",
-        "star wars heritage pack",
         "star wars racer and commando combo n"
       ],
       "orden": 1,
@@ -1265,7 +1262,7 @@
     },
     {
       "juego": "Trails / Kiseki",
-      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 9 desde $44.000\n   🟢 The Legend Of Heroes Trails From Zero &amp; Trails To Azure: Deluxe Edition −23%",
+      "linea": "🟢 <b>Trails / Kiseki</b> — 📦 8 desde $44.000\n   🟢 The Legend Of Heroes Trails From Zero &amp; Trails To Azure: Deluxe Edition −23%",
       "nombres": [
         "legend of heroes trails beyond horizon deluxe eu",
         "legend of heroes trails of cold steel iii sniper",
@@ -1273,8 +1270,7 @@
         "the legend of heroes trails from zero trails to azure deluxe edition",
         "the legend of heroes trails to azure",
         "the legend of nayuta boundless trails deluxe ed sniper",
-        "trails in the sky 1st chapter",
-        "trails in the sky 2nd chapter"
+        "trails in the sky 1st chapter"
       ],
       "orden": 1,
       "slug": "trails-kiseki"
@@ -1360,5 +1356,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 669
+  "total": 664
 }
