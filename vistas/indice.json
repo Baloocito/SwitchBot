@@ -10,7 +10,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 598,
+  "fisicos": 597,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-12-17",
@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-28T08:17:26Z",
+  "revision": "2026-11-28T09:15:43Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -1095,7 +1095,7 @@
     },
     {
       "juego": "Sonic",
-      "linea": "🟢 <b>Sonic</b> — 📦 9 desde $28.000 · 🎮 5 desde US$1.99\n   🟢 SONIC X SHADOW GENERATIONS −75%",
+      "linea": "🟢 <b>Sonic</b> — 📦 8 desde $28.000 · 🎮 5 desde US$1.99\n   🟢 SONIC X SHADOW GENERATIONS −75%",
       "nombres": [
         "sega ages sonic the hedgehog",
         "sonic classic collection",
@@ -1356,5 +1356,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 664
+  "total": 663
 }
