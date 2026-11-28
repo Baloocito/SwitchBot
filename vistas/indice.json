@@ -10,7 +10,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 608,
+  "fisicos": 606,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-12-17",
@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-28T00:16:13Z",
+  "revision": "2026-11-28T01:17:01Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -204,7 +204,7 @@
     },
     {
       "juego": "Dave the Diver",
-      "linea": "🟢 <b>Dave the Diver</b> — 📦 1 desde $49.000\n   🟢 DAVE THE DIVER −18%",
+      "linea": "🟢 <b>Dave the Diver</b> — 📦 2 desde $30.000\n   🟢 DAVE THE DIVER −18%",
       "nombres": [
         "dave the diver"
       ],
@@ -254,7 +254,7 @@
     },
     {
       "juego": "Dragon Ball",
-      "linea": "🟢 <b>Dragon Ball</b> — 📦 7 desde $24.000\n   🟢 DRAGON BALL FighterZ",
+      "linea": "🟢 <b>Dragon Ball</b> — 📦 6 desde $29.990\n   🟢 DRAGON BALL FighterZ",
       "nombres": [
         "dragon ball fighterz",
         "dragon ball z kakarot",
@@ -516,7 +516,7 @@
     },
     {
       "juego": "Mario",
-      "linea": "🟢 <b>Mario</b> — 📦 27 desde $24.990 · 🎮 1 desde US$11.28\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
+      "linea": "🟢 <b>Mario</b> — 📦 27 desde $26.000 · 🎮 1 desde US$11.28\n   🟢 MARIO + RABBIDS SPARKS OF HOPE −75%",
       "nombres": [
         "horipad turbo wireless for n universe mario",
         "mario golf super rush",
@@ -1282,7 +1282,7 @@
     },
     {
       "juego": "Unicorn Overlord",
-      "linea": "🟢 <b>Unicorn Overlord</b> — 📦 1 desde $39.990 · 🎮 1 desde US$16.03\n   🟢 Unicorn Overlord −70%",
+      "linea": "🟢 <b>Unicorn Overlord</b> — 🎮 1 desde US$16.03\n   🟢 Unicorn Overlord −70%",
       "nombres": [
         "unicorn overlord"
       ],
@@ -1336,7 +1336,7 @@
     },
     {
       "juego": "Zelda",
-      "linea": "🟢 <b>Zelda</b> — 📦 13 desde $44.990\n   🟢 The Legend of Zelda: Tears of the Kingdom −18%",
+      "linea": "🟢 <b>Zelda</b> — 📦 12 desde $44.990\n   🟢 The Legend of Zelda: Breath of the Wild −8%",
       "nombres": [
         "adventure pack legend of zelda totk sniper",
         "horipad turbo the legend of zelda",
@@ -1352,5 +1352,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 674
+  "total": 672
 }
