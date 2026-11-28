@@ -10,7 +10,7 @@
     "SP Digital": 12,
     "Weplay": 11
   },
-  "fisicos": 603,
+  "fisicos": 602,
   "pendientes": 0,
   "proximo": {
     "desde": "2026-12-17",
@@ -18,7 +18,7 @@
     "nombre": "Ofertas de fin de año eShop",
     "nota": "fechas estimadas"
   },
-  "revision": "2026-11-28T04:16:06Z",
+  "revision": "2026-11-28T05:18:01Z",
   "sagas": [
     {
       "juego": "Ace Attorney",
@@ -324,7 +324,7 @@
     },
     {
       "juego": "Final Fantasy",
-      "linea": "🟢 <b>Final Fantasy</b> — 📦 14 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
+      "linea": "🟢 <b>Final Fantasy</b> — 📦 13 desde $34.990\n   🟢 FINAL FANTASY IX −24%",
       "nombres": [
         "crisis core final fantasy vii reunion",
         "final fantasy",
@@ -1360,5 +1360,5 @@
       "slug": "zelda"
     }
   ],
-  "total": 670
+  "total": 669
 }
