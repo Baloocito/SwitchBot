@@ -156,17 +156,13 @@
     },
     "2026-11-28": {
       "bombazos": 1,
-      "posts": 1,
-      "slots": []
+      "posts": 2,
+      "slots": [
+        "top"
+      ]
     }
   },
   "posts": [
-    {
-      "fecha": "2026-10-28T20:05-03:00",
-      "ids": [],
-      "message_id": 69,
-      "slot": "memorias"
-    },
     {
       "fecha": "2026-10-28T21:05-03:00",
       "ids": [
@@ -1947,6 +1943,18 @@
       ],
       "message_id": 273,
       "slot": "bombazo"
+    },
+    {
+      "fecha": "2026-11-28T09:05-03:00",
+      "ids": [
+        "a1b33b2704",
+        "e248a8ecfe",
+        "0b625a3633",
+        "fe6ebac199",
+        "9326a92fcc"
+      ],
+      "message_id": 274,
+      "slot": "top"
     }
   ],
   "publicados": {
@@ -1976,7 +1984,7 @@
       "slot": "fisicos"
     },
     "0b625a3633": {
-      "fecha": "2026-11-21",
+      "fecha": "2026-11-28",
       "precio": 12800,
       "slot": "top"
     },
@@ -2610,6 +2618,11 @@
       "precio": 17370,
       "slot": "top"
     },
+    "9326a92fcc": {
+      "fecha": "2026-11-28",
+      "precio": 39000.0,
+      "slot": "top"
+    },
     "95bc412aef": {
       "fecha": "2026-11-12",
       "precio": 5890,
@@ -2666,7 +2679,7 @@
       "slot": "bombazo"
     },
     "a1b33b2704": {
-      "fecha": "2026-11-21",
+      "fecha": "2026-11-28",
       "precio": 25000,
       "slot": "top"
     },
@@ -3006,9 +3019,9 @@
       "slot": "pack"
     },
     "e248a8ecfe": {
-      "fecha": "2026-11-21",
+      "fecha": "2026-11-28",
       "precio": 7770,
-      "slot": "bombazo"
+      "slot": "top"
     },
     "e28767fef6": {
       "fecha": "2026-11-13",
@@ -3096,9 +3109,9 @@
       "slot": "top"
     },
     "fe6ebac199": {
-      "fecha": "2026-11-21",
+      "fecha": "2026-11-28",
       "precio": 3340,
-      "slot": "pack"
+      "slot": "top"
     },
     "ff012443fc": {
       "fecha": "2026-11-22",
@@ -3629,5 +3642,5 @@
       "slot": "ultima"
     }
   },
-  "ultimo_post": "2026-11-28T08:35:32.857436-03:00"
+  "ultimo_post": "2026-11-28T09:05:33.464604-03:00"
 }
